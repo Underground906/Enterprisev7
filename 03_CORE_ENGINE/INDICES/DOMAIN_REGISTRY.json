@@ -1,0 +1,362 @@
+{
+  "version": "7.0",
+  "last_updated": "2026-02-04T00:00:00Z",
+  "total_pillars": 23,
+  "pillars": [
+    {
+      "id": "PIL_01",
+      "name": "AVATARS",
+      "path": "06_DOMAIN_PILLARS/PIL_01_AVATARS",
+      "purpose": "Customer avatar definitions, personas, psychographics, ICPs, and buyer journey mapping",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": ["PIL_21_MARKET_RESEARCH"],
+      "feeds_into": ["PIL_03_COPY", "PIL_04_CONTENT", "PIL_12_KEYWORDS", "PIL_19_PROPERTY", "PIL_20_FITNESS", "PIL_22_VOICE_TRAINING", "PIL_23_DOG_PLATFORM"],
+      "routing_keywords": ["avatar", "persona", "customer", "psychographic", "ICP", "buyer", "audience", "demographic", "pain point", "desire", "frustration", "dream state"],
+      "freshness_days": 90,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_02",
+      "name": "BRANDING",
+      "path": "06_DOMAIN_PILLARS/PIL_02_BRANDING",
+      "purpose": "Visual and verbal brand identity — logos, colours, typography, voice, tone, positioning",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_01_AVATARS", "PIL_21_MARKET_RESEARCH"],
+      "feeds_into": ["PIL_03_COPY", "PIL_05_GRAPHICS", "PIL_07_UI_LIBRARY"],
+      "routing_keywords": ["brand", "logo", "colour", "color", "typography", "font", "voice", "tone", "positioning", "identity", "visual identity", "brand guide", "style guide"],
+      "freshness_days": 180,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_03",
+      "name": "COPY",
+      "path": "06_DOMAIN_PILLARS/PIL_03_COPY",
+      "purpose": "Copywriting taxonomy, frameworks, formulas, slot schemas, persuasion patterns, and output generation",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_01_AVATARS", "PIL_02_BRANDING", "PIL_12_KEYWORDS"],
+      "feeds_into": ["PIL_04_CONTENT", "PIL_16_CONTENT_GENERATION", "PIL_19_PROPERTY"],
+      "routing_keywords": ["copy", "copywriting", "headline", "hook", "CTA", "call to action", "sales page", "email copy", "ad copy", "persuasion", "formula", "AIDA", "PAS", "slot schema", "offer"],
+      "freshness_days": 120,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_04",
+      "name": "CONTENT",
+      "path": "06_DOMAIN_PILLARS/PIL_04_CONTENT",
+      "purpose": "Content strategy, topic clusters, editorial calendars, distribution channels, content plans",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_01_AVATARS", "PIL_03_COPY", "PIL_12_KEYWORDS"],
+      "feeds_into": ["PIL_06_VIDEO", "PIL_13_SEO", "PIL_16_CONTENT_GENERATION"],
+      "routing_keywords": ["content", "blog", "article", "newsletter", "podcast", "editorial", "topic cluster", "content calendar", "distribution", "LinkedIn", "social media"],
+      "freshness_days": 30,
+      "priority": "medium"
+    },
+    {
+      "id": "PIL_05",
+      "name": "GRAPHICS",
+      "path": "06_DOMAIN_PILLARS/PIL_05_GRAPHICS",
+      "purpose": "Visual asset systems — hero images, icons, illustrations, photography, mockups, data viz",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_02_BRANDING"],
+      "feeds_into": ["PIL_04_CONTENT", "PIL_06_VIDEO", "PIL_07_UI_LIBRARY"],
+      "routing_keywords": ["graphic", "image", "hero", "banner", "icon", "illustration", "photo", "mockup", "data viz", "infographic", "Lottie", "motion"],
+      "freshness_days": 120,
+      "priority": "medium"
+    },
+    {
+      "id": "PIL_06",
+      "name": "VIDEO",
+      "path": "06_DOMAIN_PILLARS/PIL_06_VIDEO",
+      "purpose": "Video production workflows, templates, editing rules, distribution",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_02_BRANDING", "PIL_03_COPY", "PIL_05_GRAPHICS"],
+      "feeds_into": ["PIL_04_CONTENT"],
+      "routing_keywords": ["video", "YouTube", "Loom", "screen recording", "editing", "thumbnail", "B-roll", "production", "script"],
+      "freshness_days": 120,
+      "priority": "low"
+    },
+    {
+      "id": "PIL_07",
+      "name": "UI_LIBRARY",
+      "path": "06_DOMAIN_PILLARS/PIL_07_UI_LIBRARY",
+      "purpose": "Component library — Figma extraction, React components, page templates, design system",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_02_BRANDING", "PIL_05_GRAPHICS"],
+      "feeds_into": ["PIL_19_PROPERTY", "PIL_20_FITNESS", "PIL_22_VOICE_TRAINING", "PIL_23_DOG_PLATFORM"],
+      "routing_keywords": ["UI", "component", "Figma", "React", "design system", "layout", "page template", "hero section", "navigation", "footer", "form", "card", "button", "responsive"],
+      "freshness_days": 60,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_08",
+      "name": "KNOWLEDGE_INGESTION",
+      "path": "06_DOMAIN_PILLARS/PIL_08_KNOWLEDGE_INGESTION",
+      "purpose": "How the system learns — EKX-1 extraction, source processing, pipeline definitions",
+      "canon_status": "complete",
+      "file_count": 3,
+      "depends_on": [],
+      "feeds_into": ["PIL_14_NAVIGATION", "PIL_17_RAG_SYSTEM"],
+      "routing_keywords": ["ingestion", "extraction", "EKX", "pipeline", "intake", "processing", "source", "thread", "artifact", "parsing", "chunking"],
+      "freshness_days": 60,
+      "priority": "critical"
+    },
+    {
+      "id": "PIL_09",
+      "name": "ROLES_SKILLS",
+      "path": "06_DOMAIN_PILLARS/PIL_09_ROLES_SKILLS",
+      "purpose": "Virtual workforce role definitions, skill maps, human+agent role boundaries",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": ["PIL_18_AGENT_FRAMEWORK"],
+      "feeds_into": ["PIL_10_WORKING_PRACTICES"],
+      "routing_keywords": ["role", "skill", "workforce", "capability", "responsibility", "handoff", "delegation", "freelancer"],
+      "freshness_days": 90,
+      "priority": "low"
+    },
+    {
+      "id": "PIL_10",
+      "name": "WORKING_PRACTICES",
+      "path": "06_DOMAIN_PILLARS/PIL_10_WORKING_PRACTICES",
+      "purpose": "SOPs, session protocols, workflow patterns, quality enforcement",
+      "canon_status": "complete",
+      "file_count": 3,
+      "depends_on": ["PIL_14_NAVIGATION"],
+      "feeds_into": ["PIL_18_AGENT_FRAMEWORK"],
+      "routing_keywords": ["SOP", "workflow", "process", "session", "protocol", "routine", "checklist", "quality", "enforcement", "practice"],
+      "freshness_days": 60,
+      "priority": "medium"
+    },
+    {
+      "id": "PIL_11",
+      "name": "BUILD_STORY",
+      "path": "06_DOMAIN_PILLARS/PIL_11_BUILD_STORY",
+      "purpose": "Documentation of how things were built — decision logs, architecture rationale, lessons learned",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": [],
+      "feeds_into": ["PIL_15_ENTERPRISE_OS"],
+      "routing_keywords": ["build story", "how we built", "architecture decision", "lesson learned", "post-mortem", "retrospective", "decision log"],
+      "freshness_days": 180,
+      "priority": "low"
+    },
+    {
+      "id": "PIL_12",
+      "name": "KEYWORDS",
+      "path": "06_DOMAIN_PILLARS/PIL_12_KEYWORDS",
+      "purpose": "Keyword research, seed lists, keyword-to-pillar mapping, search intent analysis",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_01_AVATARS", "PIL_21_MARKET_RESEARCH"],
+      "feeds_into": ["PIL_03_COPY", "PIL_04_CONTENT", "PIL_13_SEO"],
+      "routing_keywords": ["keyword", "search term", "search intent", "seed list", "keyword map", "long tail", "search volume", "difficulty", "SERP"],
+      "freshness_days": 30,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_13",
+      "name": "SEO",
+      "path": "06_DOMAIN_PILLARS/PIL_13_SEO",
+      "purpose": "Technical SEO rules, site architecture, indexing, schema markup, link strategy",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_12_KEYWORDS"],
+      "feeds_into": ["PIL_04_CONTENT", "PIL_07_UI_LIBRARY"],
+      "routing_keywords": ["SEO", "search engine", "meta tag", "schema markup", "sitemap", "robots", "canonical", "backlink", "internal link", "page speed", "core web vitals"],
+      "freshness_days": 60,
+      "priority": "medium"
+    },
+    {
+      "id": "PIL_14",
+      "name": "NAVIGATION",
+      "path": "06_DOMAIN_PILLARS/PIL_14_NAVIGATION",
+      "purpose": "Goal framework (5A), routing logic, session management, cross-references, decision flow",
+      "canon_status": "complete",
+      "file_count": 6,
+      "depends_on": [],
+      "feeds_into": ["PIL_08_KNOWLEDGE_INGESTION", "PIL_10_WORKING_PRACTICES"],
+      "routing_keywords": ["navigation", "goal", "priority", "routing", "session", "state", "snapshot", "decision", "alignment", "accountability"],
+      "freshness_days": 7,
+      "priority": "critical"
+    },
+    {
+      "id": "PIL_15",
+      "name": "ENTERPRISE_OS",
+      "path": "06_DOMAIN_PILLARS/PIL_15_ENTERPRISE_OS",
+      "purpose": "Meta-governance of the system itself — architecture evolution, schema changes, version control",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": [],
+      "feeds_into": [],
+      "routing_keywords": ["enterprise os", "system architecture", "governance", "schema", "version", "migration", "evolution", "meta-system", "canon"],
+      "freshness_days": 30,
+      "priority": "critical"
+    },
+    {
+      "id": "PIL_16",
+      "name": "CONTENT_GENERATION",
+      "path": "06_DOMAIN_PILLARS/PIL_16_CONTENT_GENERATION",
+      "purpose": "Automated content creation pipelines, AI prompt chains, quality gates, output workflows",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": ["PIL_03_COPY", "PIL_04_CONTENT", "PIL_17_RAG_SYSTEM"],
+      "feeds_into": ["PIL_19_PROPERTY", "PIL_20_FITNESS"],
+      "routing_keywords": ["content generation", "AI writing", "prompt chain", "automated content", "quality gate", "content pipeline", "batch generation"],
+      "freshness_days": 30,
+      "priority": "medium"
+    },
+    {
+      "id": "PIL_17",
+      "name": "RAG_SYSTEM",
+      "path": "06_DOMAIN_PILLARS/PIL_17_RAG_SYSTEM",
+      "purpose": "RAG configuration — chunking rules, embedding models, indexing, retrieval, integration",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": ["PIL_08_KNOWLEDGE_INGESTION"],
+      "feeds_into": ["PIL_16_CONTENT_GENERATION", "PIL_18_AGENT_FRAMEWORK"],
+      "routing_keywords": ["RAG", "retrieval", "embedding", "vector", "chunk", "index", "similarity", "ChromaDB", "Pinecone", "semantic search"],
+      "freshness_days": 30,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_18",
+      "name": "AGENT_FRAMEWORK",
+      "path": "06_DOMAIN_PILLARS/PIL_18_AGENT_FRAMEWORK",
+      "purpose": "Agent definitions, team compositions, task system, validation, orchestration patterns",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_17_RAG_SYSTEM"],
+      "feeds_into": ["PIL_09_ROLES_SKILLS"],
+      "routing_keywords": ["agent", "orchestrator", "validator", "builder", "task", "multi-agent", "team", "delegation", "tool use", "MCP"],
+      "freshness_days": 30,
+      "priority": "critical"
+    },
+    {
+      "id": "PIL_19",
+      "name": "PROPERTY",
+      "path": "06_DOMAIN_PILLARS/PIL_19_PROPERTY",
+      "purpose": "Property Connect London — market intelligence, avatars, keywords, content, data for the London property market",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_01_AVATARS", "PIL_02_BRANDING", "PIL_03_COPY", "PIL_12_KEYWORDS", "PIL_21_MARKET_RESEARCH"],
+      "feeds_into": [],
+      "routing_keywords": ["property", "real estate", "London", "buying", "selling", "renting", "letting", "investing", "renovation", "mortgage", "estate agent", "Rightmove", "Zoopla"],
+      "freshness_days": 14,
+      "priority": "critical"
+    },
+    {
+      "id": "PIL_20",
+      "name": "FITNESS",
+      "path": "06_DOMAIN_PILLARS/PIL_20_FITNESS",
+      "purpose": "Fitness platform — training programs, market research, content, product development",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": ["PIL_01_AVATARS", "PIL_21_MARKET_RESEARCH"],
+      "feeds_into": [],
+      "routing_keywords": ["fitness", "training", "exercise", "workout", "strength", "conditioning", "program", "transformation"],
+      "freshness_days": 30,
+      "priority": "low"
+    },
+    {
+      "id": "PIL_21",
+      "name": "MARKET_RESEARCH",
+      "path": "06_DOMAIN_PILLARS/PIL_21_MARKET_RESEARCH",
+      "purpose": "Research frameworks, market segments, competitor analysis, data sources, strategy inputs",
+      "canon_status": "has_docs",
+      "file_count": 1,
+      "depends_on": [],
+      "feeds_into": ["PIL_01_AVATARS", "PIL_02_BRANDING", "PIL_12_KEYWORDS", "PIL_19_PROPERTY", "PIL_20_FITNESS"],
+      "routing_keywords": ["market research", "competitor", "segment", "TAM", "SAM", "SOM", "analysis", "survey", "trend", "opportunity", "market size"],
+      "freshness_days": 30,
+      "priority": "high"
+    },
+    {
+      "id": "PIL_22",
+      "name": "VOICE_TRAINING",
+      "path": "06_DOMAIN_PILLARS/PIL_22_VOICE_TRAINING",
+      "purpose": "Voice/speaking platform — curriculum, exercises, market research, content",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": ["PIL_01_AVATARS", "PIL_21_MARKET_RESEARCH"],
+      "feeds_into": [],
+      "routing_keywords": ["voice", "speaking", "vocal", "presentation", "rhetoric", "communication", "pronunciation", "tone of voice"],
+      "freshness_days": 60,
+      "priority": "low"
+    },
+    {
+      "id": "PIL_23",
+      "name": "DOG_PLATFORM",
+      "path": "06_DOMAIN_PILLARS/PIL_23_DOG_PLATFORM",
+      "purpose": "Dog training platform — market research, content, product development",
+      "canon_status": "empty",
+      "file_count": 0,
+      "depends_on": ["PIL_01_AVATARS", "PIL_21_MARKET_RESEARCH"],
+      "feeds_into": [],
+      "routing_keywords": ["dog", "puppy", "training", "behaviour", "breed", "pet", "canine"],
+      "freshness_days": 60,
+      "priority": "low"
+    }
+  ],
+  "top_level_components": [
+    {
+      "id": "00",
+      "name": "SYSTEM_ROOT",
+      "path": "00_SYSTEM_ROOT",
+      "purpose": "Governance, master context, naming rules, version history"
+    },
+    {
+      "id": "01",
+      "name": "NAVIGATION_CENTRE",
+      "path": "01_NAVIGATION_CENTRE",
+      "purpose": "Goals (5A framework), state snapshots, priorities"
+    },
+    {
+      "id": "02",
+      "name": "COMMAND_DECK",
+      "path": "02_COMMAND_DECK",
+      "purpose": "Daily sessions, agent workspaces, task queue, dashboards"
+    },
+    {
+      "id": "03",
+      "name": "CORE_ENGINE",
+      "path": "03_CORE_ENGINE",
+      "purpose": "Scripts, indices, routing engine, schemas, config"
+    },
+    {
+      "id": "04",
+      "name": "KNOWLEDGE_LIBRARY",
+      "path": "04_KNOWLEDGE_LIBRARY",
+      "purpose": "Content intake, extraction pipeline, RAG bundles, ongoing work"
+    },
+    {
+      "id": "05",
+      "name": "TEMPLATE_HUB",
+      "path": "05_TEMPLATE_HUB",
+      "purpose": "Reusable templates for agents, docs, prompts, SOPs, workflows"
+    },
+    {
+      "id": "06",
+      "name": "DOMAIN_PILLARS",
+      "path": "06_DOMAIN_PILLARS",
+      "purpose": "23 specialist knowledge domains"
+    },
+    {
+      "id": "07",
+      "name": "BUILD_FACTORY",
+      "path": "07_BUILD_FACTORY",
+      "purpose": "Active platform builds (Property Connect, Fitness, Voice, Dog)"
+    },
+    {
+      "id": "08",
+      "name": "OPERATIONS",
+      "path": "08_OPERATIONS",
+      "purpose": "Post-launch: marketing, metrics, legal, financial, community"
+    }
+  ]
+}

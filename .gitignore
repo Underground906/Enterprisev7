@@ -1,0 +1,35 @@
+# RAG Archive (587+ hash-named files, too large for git)
+04_KNOWLEDGE_LIBRARY/RAG_BUNDLES/V7_ARCHIVE/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.bak
+*.log
+
+# Vector store data (regenerable)
+.chroma/
+chromadb/
