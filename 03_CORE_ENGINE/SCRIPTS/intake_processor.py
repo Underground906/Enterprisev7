@@ -245,7 +245,7 @@ def cmd_process(root, registry, dry_run=False):
     files = [f for f in intake.iterdir() if f.is_file()]
 
     if not files:
-        print("📭 No files in RAW_INTAKE. Drop files there and re-run.")
+        print("[*] No files in RAW_INTAKE. Drop files there and re-run.")
         print(f"   Path: {intake.relative_to(root)}")
         return
 
@@ -257,9 +257,9 @@ def cmd_process(root, registry, dry_run=False):
         result = process_file(root, filepath, registry, dry_run)
         results.append(result)
 
-        icon = "✅" if "routed" in result["action"] else "📦" if "unrouted" in result["action"] else "⏭️"
+        icon = "[+]" if "routed" in result["action"] else "[?]" if "unrouted" in result["action"] else "[-]"
         print(f"  {icon} {result['filename']}")
-        print(f"     → {result['destination']}")
+        print(f"     -> {result['destination']}")
         if result.get("matched"):
             print(f"     Keywords: {', '.join(result['matched'][:5])}")
         if result.get("alternatives"):
@@ -270,7 +270,7 @@ def cmd_process(root, registry, dry_run=False):
     if not dry_run and results:
         log_dir = get_log_dir(root)
         log_file = log_routing(log_dir, results)
-        print(f"📝 Log written: {log_file.relative_to(root)}")
+        print(f"[*] Log written: {log_file.relative_to(root)}")
 
     # Summary
     routed = sum(1 for r in results if "routed" in r["action"])
@@ -295,7 +295,7 @@ def cmd_process_single(root, registry, filepath, dry_run=False):
 
     result = process_file(root, fp, registry, dry_run)
     prefix = "[DRY RUN] " if dry_run else ""
-    print(f"{prefix}{result['filename']} → {result['destination']}")
+    print(f"{prefix}{result['filename']} -> {result['destination']}")
     if result.get("matched"):
         print(f"  Keywords: {', '.join(result['matched'])}")
 
@@ -306,10 +306,10 @@ def cmd_list_unrouted(root):
     files = sorted(f for f in unrouted.iterdir() if f.is_file())
 
     if not files:
-        print("✅ No unrouted files. Everything has been classified.")
+        print("[OK] No unrouted files. Everything has been classified.")
         return
 
-    print(f"📦 {len(files)} unrouted file(s):\n")
+    print(f"[?] {len(files)} unrouted file(s):\n")
     for f in files:
         size = f.stat().st_size
         print(f"  {f.name} ({size:,} bytes)")
@@ -329,7 +329,7 @@ def cmd_stats(root, registry):
     unrouted = get_unrouted_dir(root)
     stuck = len([f for f in unrouted.iterdir() if f.is_file()])
 
-    print(f"📊 Intake Processor Stats")
+    print(f"[*] Intake Processor Stats")
     print(f"   Pending in RAW_INTAKE: {pending}")
     print(f"   Sitting in UNROUTED: {stuck}")
     print(f"   Routing logs: {len(logs)}")

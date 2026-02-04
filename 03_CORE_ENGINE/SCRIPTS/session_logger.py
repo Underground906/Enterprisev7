@@ -88,7 +88,7 @@ def next_session_number(sessions_dir, date):
 def cmd_start(root, description):
     current = get_current_session(root)
     if current:
-        print(f"⚠️  Session already active: {current['description']}")
+        print(f"[!] Session already active: {current['description']}")
         print(f"   Started: {current['start_time']}")
         print(f"   Use 'session_logger.py end' first, or 'session_logger.py log' to add to it.")
         return
@@ -122,7 +122,7 @@ def cmd_start(root, description):
         "log_count": 0,
     })
 
-    print(f"✅ Session started: {description}")
+    print(f"[OK] Session started: {description}")
     print(f"   File: {filepath.relative_to(root)}")
     print(f"   Use 'session_logger.py log \"what you did\"' to record progress.")
 
@@ -130,7 +130,7 @@ def cmd_start(root, description):
 def cmd_log(root, message):
     current = get_current_session(root)
     if not current:
-        print("⚠️  No active session. Use 'session_logger.py start \"description\"' first.")
+        print("[!] No active session. Use 'session_logger.py start \"description\"' first.")
         return
 
     filepath = Path(current["file"])
@@ -147,13 +147,13 @@ def cmd_log(root, message):
     current["log_count"] = current.get("log_count", 0) + 1
     save_current_session(root, current)
 
-    print(f"✅ Logged: {message}")
+    print(f"[OK] Logged: {message}")
 
 
 def cmd_end(root):
     current = get_current_session(root)
     if not current:
-        print("⚠️  No active session to end.")
+        print("[!] No active session to end.")
         return
 
     filepath = Path(current["file"])
@@ -186,8 +186,8 @@ def cmd_end(root):
 
     clear_current_session(root)
 
-    print(f"✅ Session ended: {current['description']}")
-    print(f"   Duration: {current['start_time']} → {now_str()}")
+    print(f"[OK] Session ended: {current['description']}")
+    print(f"   Duration: {current['start_time']} -> {now_str()}")
     print(f"   Entries logged: {current.get('log_count', 0)}")
     print(f"   File: {filepath.relative_to(root)}")
 
@@ -199,7 +199,7 @@ def cmd_status(root):
         print("Use 'session_logger.py start \"description\"' to begin one.")
         return
 
-    print(f"📋 Active Session")
+    print(f"[*] Active Session")
     print(f"   Description: {current['description']}")
     print(f"   Started: {current['start_time']}")
     print(f"   Entries: {current.get('log_count', 0)}")
@@ -215,7 +215,7 @@ def cmd_today(root):
         print(f"No sessions logged today ({today_str()}).")
         return
 
-    print(f"📋 Sessions for {today_str()}:")
+    print(f"[*] Sessions for {today_str()}:")
     for f in todays:
         content = f.read_text()
         # Extract intent line

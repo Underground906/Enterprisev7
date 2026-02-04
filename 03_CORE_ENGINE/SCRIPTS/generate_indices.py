@@ -350,7 +350,7 @@ def main():
     # Generate health report
     report = generate_health_report(root, files, registry)
     health_path = indices_dir / "SYSTEM_HEALTH.md"
-    with open(health_path, "w") as f:
+    with open(health_path, "w", encoding="utf-8") as f:
         f.write(report)
     print(f"Written: {health_path}")
     

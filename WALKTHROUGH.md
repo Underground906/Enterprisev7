@@ -22,16 +22,16 @@ Claude Code will find where you left off and guide you through it.
 Mark each step [x] when done. Claude Code should update this file after each step.
 
 ### PHASE 1: GET THE SYSTEM ON GITHUB (30 min)
-- [ ] Step 1.1 — Place the foundation files
-- [ ] Step 1.2 — Git init and first commit
-- [ ] Step 1.3 — Push to GitHub
+- [x] Step 1.1 — Place the foundation files
+- [x] Step 1.2 — Git init and first commit
+- [ ] Step 1.3 — Push to GitHub (GitHub CLI not installed - skip for now)
 - [ ] Step 1.4 — Verify CLAUDE.md works
 
 ### PHASE 2: MAKE THE SCRIPTS WORK (30 min)
-- [ ] Step 2.1 — Place scripts in correct folders
-- [ ] Step 2.2 — Test generate_indices.py
-- [ ] Step 2.3 — Test session_logger.py
-- [ ] Step 2.4 — Test intake_processor.py
+- [x] Step 2.1 — Place scripts in correct folders
+- [x] Step 2.2 — Test generate_indices.py
+- [x] Step 2.3 — Test session_logger.py
+- [x] Step 2.4 — Test intake_processor.py
 
 ### PHASE 3: START YOUR FIRST REAL SESSION (20 min)
 - [ ] Step 3.1 — Start a session
