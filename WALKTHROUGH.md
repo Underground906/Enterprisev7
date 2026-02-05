@@ -34,10 +34,10 @@ Mark each step [x] when done. Claude Code should update this file after each ste
 - [x] Step 2.4 — Test intake_processor.py
 
 ### PHASE 3: START YOUR FIRST REAL SESSION (20 min)
-- [ ] Step 3.1 — Start a session
-- [ ] Step 3.2 — Create your first goal
-- [ ] Step 3.3 — Do one small task and log it
-- [ ] Step 3.4 — End the session
+- [x] Step 3.1 — Start a session
+- [x] Step 3.2 — Create your first goal
+- [x] Step 3.3 — Do one small task and log it
+- [x] Step 3.4 — End the session
 
 ### PHASE 4: FILL THE CRITICAL PILLARS (1-2 hours, can split across days)
 - [ ] Step 4.1 — PIL_15 Enterprise OS canon doc

@@ -1,6 +1,6 @@
 # SYSTEM HEALTH REPORT
 
-**Generated:** 2026-02-04 23:06 UTC
+**Generated:** 2026-02-04 23:17 UTC
 **Root:** C:\Users\under\Downloads\ENTERPRISE_OS_V7
 
 ---
@@ -9,17 +9,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Total indexed files | 53 |
+| Total indexed files | 60 |
 | Total directories (excl. archives) | 534 |
-| Empty directories | 491 |
+| Empty directories | 482 |
 | Pillars with canon docs | 15 / 23 |
 
 ## Files by Type
 
 | Type | Count |
 |------|-------|
+| document | 22 |
 | context_doc | 22 |
-| document | 15 |
 | index | 4 |
 | canon_doc | 3 |
 | script | 3 |
@@ -33,7 +33,7 @@
 |----|------|-------|-------|----------|--------|
 | PIL_01 | AVATARS | 0 | empty | high | 🔴 Empty |
 | PIL_02 | BRANDING | 1 | has_docs | high | 🟡 Partial |
-| PIL_03 | COPY | 1 | has_docs | high | 🟡 Partial |
+| PIL_03 | COPY | 2 | has_docs | high | 🟡 Partial |
 | PIL_04 | CONTENT | 1 | has_docs | medium | 🟡 Partial |
 | PIL_05 | GRAPHICS | 1 | has_docs | medium | 🟡 Partial |
 | PIL_06 | VIDEO | 1 | has_docs | low | 🟡 Partial |
@@ -49,7 +49,7 @@
 | PIL_16 | CONTENT_GENERATION | 0 | empty | medium | 🔴 Empty |
 | PIL_17 | RAG_SYSTEM | 0 | empty | high | 🔴 Empty |
 | PIL_18 | AGENT_FRAMEWORK | 1 | has_docs | critical | 🟡 Partial |
-| PIL_19 | PROPERTY | 1 | has_docs | critical | 🟡 Partial |
+| PIL_19 | PROPERTY | 2 | has_docs | critical | 🟡 Partial |
 | PIL_20 | FITNESS | 1 | has_docs | low | 🟡 Partial |
 | PIL_21 | MARKET_RESEARCH | 1 | has_docs | high | 🟡 Partial |
 | PIL_22 | VOICE_TRAINING | 0 | empty | low | 🔴 Empty |
@@ -60,17 +60,18 @@
 | Component | Count |
 |-----------|-------|
 | SYSTEM_ROOT | 9 |
-| CORE_ENGINE | 7 |
+| CORE_ENGINE | 8 |
 | PIL_14_NAVIGATION | 6 |
 | TEMPLATE_HUB | 5 |
 | UNKNOWN | 4 |
+| NAVIGATION | 4 |
+| COMMAND_DECK | 3 |
 | PIL_08_KNOWLEDGE_INGESTION | 3 |
 | PIL_10_WORKING_PRACTICES | 3 |
-| NAVIGATION | 2 |
-| COMMAND_DECK | 1 |
+| PIL_03_COPY | 2 |
+| PIL_19_PROPERTY | 2 |
 | KNOWLEDGE_LIBRARY | 1 |
 | PIL_02_BRANDING | 1 |
-| PIL_03_COPY | 1 |
 | PIL_04_CONTENT | 1 |
 | PIL_05_GRAPHICS | 1 |
 | PIL_06_VIDEO | 1 |
@@ -78,7 +79,6 @@
 | PIL_12_KEYWORDS | 1 |
 | PIL_13_SEO | 1 |
 | PIL_18_AGENT_FRAMEWORK | 1 |
-| PIL_19_PROPERTY | 1 |
 | PIL_20_FITNESS | 1 |
 | PIL_21_MARKET_RESEARCH | 1 |
 
