@@ -35,10 +35,10 @@ desktop.ini
 chromadb/
 
 # Figma library data (large binary assets - 9.5GB+)
-figma_library/
-figma_library_v2/
-figma_catalog/
-figma_files.json
+**/figma_library/
+**/figma_library_v2/
+**/figma_catalog/
+**/figma_files.json
 
 # Large data files
 *.csv
