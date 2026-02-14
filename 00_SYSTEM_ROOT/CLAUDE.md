@@ -3,6 +3,27 @@
 > This file is read by Claude Code at the start of every session.
 > Keep it updated. It's the system's memory.
 
+## Session Startup Protocol (READ FIRST)
+
+Every new chat session MUST begin by reading these files in order:
+
+```
+1. 01_NAVIGATION_CENTRE/STATE_SNAPSHOTS/  → Read the LATEST file (system-wide status)
+2. 02_COMMAND_DECK/ACTIVE_SESSIONS/       → Read the LATEST session log (what happened last, what's next)
+3. 04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/SESSION_INDEX.md → Session history and context
+```
+
+Then ask: "I've read the latest state. Last session covered [X]. Next session focus is [Y]. Ready to start?"
+
+**End-of-session protocol:**
+1. Create/update session log in `02_COMMAND_DECK/ACTIVE_SESSIONS/YYYY-MM/`
+2. Export full chat transcript to `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/YYYY-MM/`
+3. Create summary version alongside full transcript
+4. Update SESSION_INDEX.md with new entry
+5. Commit to git
+
+---
+
 ## What Is This Repo?
 
 Enterprise_OS is a knowledge architecture and business automation platform. It's a structured folder system with 8 top-level components and 23 domain pillars, designed to store, route, index, and retrieve every piece of knowledge a business produces. Think of it as an operating system for knowledge work — not a SaaS app (yet), but the file-based backbone that makes everything else possible.
@@ -30,16 +51,21 @@ ENTERPRISE_OS_V7/
 
 | Priority | Goal | Target Date | Progress |
 |----------|------|-------------|----------|
-| 1 | Property Connect London MVP | 2026-02-28 | 15% |
-| 2 | AI Chatbot Revenue Product | 2026-03-15 | 5% |
-| 3 | Enterprise_OS Core Scripts | 2026-02-10 | 0% |
+| 1 | Property Connect London MVP (81+ pages, visual production) | 2026-02-28 | 45% |
+| 2 | Enterprise OS Platform | 2026-03-31 | 35% |
+| 3 | UI Component Library | Ongoing | 80% |
+| 4 | 90-Day Goal Intake (Business + Fitness + Personal) | 2026-02-14 | 0% |
+| 5 | Fitness Platform PRDs + App | 2026-04-30 | 5% |
+
+**Priority stack:** PCL > Enterprise OS > UI Library > Chatbot > Fitness > Dog > Voice
 
 ## Current Sprint
 
-**Week of 2026-02-04:**
-- Build core infrastructure scripts (indices, session logger, intake processor)
-- Fill Tier 1 pillar canon docs (PIL_14, PIL_08, PIL_15, PIL_18)
-- Get first content flowing through ingestion pipeline
+**Week of 2026-02-10:**
+- Complete 90-day goal intake (business + fitness + personal combined)
+- Outline all screens per build (PCL Platform MVP, client promo, customer promo)
+- Identify boilerplate page layouts and kit-to-page component mapping
+- Stress test system works for any LLM (not just Claude)
 
 ## How to Find Things
 
