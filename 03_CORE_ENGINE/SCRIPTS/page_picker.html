@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Picker — Component Selection</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', -apple-system, sans-serif; background: #0a0a0a; color: #e0e0e0; }
+
+/* Layout */
+.app { display: flex; height: 100vh; }
+.sidebar { width: 320px; background: #111; border-right: 1px solid #222; overflow-y: auto; flex-shrink: 0; }
+.main { flex: 1; overflow-y: auto; padding: 24px; }
+
+/* Sidebar */
+.sidebar-header { padding: 16px; border-bottom: 1px solid #222; }
+.sidebar-header h1 { font-size: 16px; color: #0B8C00; margin-bottom: 4px; }
+.sidebar-header p { font-size: 12px; color: #888; }
+
+.build-group { border-bottom: 1px solid #1a1a1a; }
+.build-label { padding: 10px 16px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #0B8C00; background: #0a0a0a; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.build-label:hover { background: #111; }
+.build-label .count { color: #666; font-weight: 400; }
+
+.page-item { padding: 8px 16px 8px 24px; font-size: 13px; cursor: pointer; border-left: 3px solid transparent; display: flex; justify-content: space-between; align-items: center; }
+.page-item:hover { background: #1a1a1a; }
+.page-item.active { background: #1a2a1a; border-left-color: #0B8C00; color: #fff; }
+.page-item .phase { font-size: 10px; color: #666; }
+.page-item .phase.mvp { color: #0B8C00; }
+.page-item .selected-count { font-size: 10px; background: #0B8C00; color: #000; padding: 1px 6px; border-radius: 8px; margin-left: 8px; }
+
+/* Main content */
+.page-header { margin-bottom: 24px; }
+.page-header h2 { font-size: 22px; margin-bottom: 8px; }
+.page-header .build-tag { display: inline-block; padding: 2px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 8px; }
+.page-header .build-tag.PCL { background: #1a3a5a; color: #6ab0f3; }
+.page-header .build-tag.Fitness { background: #3a1a3a; color: #f36ab0; }
+.page-header .build-tag.Enterprise { background: #1a3a1a; color: #6af36a; }
+.page-header .build-tag.Common { background: #3a3a1a; color: #f3f36a; }
+.page-header .features { font-size: 13px; color: #999; line-height: 1.5; margin-top: 8px; }
+
+.stats-bar { display: flex; gap: 16px; margin-bottom: 20px; font-size: 13px; color: #888; }
+.stats-bar span { background: #1a1a1a; padding: 4px 12px; border-radius: 4px; }
+
+/* Kit sections */
+.kit-section { margin-bottom: 32px; }
+.kit-section h3 { font-size: 14px; color: #ccc; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #222; }
+
+/* Component grid */
+.comp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+
+.comp-card { background: #151515; border: 2px solid #222; border-radius: 8px; overflow: hidden; cursor: pointer; transition: all 0.15s; position: relative; }
+.comp-card:hover { border-color: #444; transform: translateY(-2px); }
+.comp-card.selected { border-color: #0B8C00; box-shadow: 0 0 12px rgba(11,140,0,0.3); }
+
+.comp-thumb { width: 100%; height: 200px; background: #0a0a0a; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.comp-thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.comp-thumb .no-thumb { color: #444; font-size: 12px; }
+.comp-thumb .loading { color: #666; font-size: 12px; }
+
+.comp-info { padding: 10px 12px; }
+.comp-name { font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; }
+.comp-meta { font-size: 11px; color: #666; display: flex; gap: 8px; flex-wrap: wrap; }
+.comp-meta span { background: #1a1a1a; padding: 1px 6px; border-radius: 3px; }
+.comp-meta .cat { color: #6ab0f3; }
+
+.select-badge { position: absolute; top: 8px; right: 8px; width: 24px; height: 24px; border-radius: 50%; border: 2px solid #444; background: #0a0a0a; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+.comp-card.selected .select-badge { background: #0B8C00; border-color: #0B8C00; color: #000; }
+
+/* Lightbox */
+.lightbox { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.9); z-index: 1000; align-items: center; justify-content: center; flex-direction: column; }
+.lightbox.active { display: flex; }
+.lightbox img { max-width: 90vw; max-height: 80vh; object-fit: contain; border-radius: 8px; }
+.lightbox .info { padding: 16px; color: #ccc; text-align: center; }
+.lightbox .close { position: absolute; top: 16px; right: 24px; font-size: 32px; color: #888; cursor: pointer; }
+.lightbox .close:hover { color: #fff; }
+.lightbox .actions { margin-top: 12px; display: flex; gap: 12px; }
+.lightbox .actions button { padding: 8px 24px; border-radius: 6px; border: none; cursor: pointer; font-size: 13px; font-weight: 600; }
+.lightbox .actions .select-btn { background: #0B8C00; color: #fff; }
+.lightbox .actions .deselect-btn { background: #333; color: #ccc; }
+
+/* Empty state */
+.empty { text-align: center; padding: 60px; color: #666; }
+.empty h3 { margin-bottom: 8px; }
+
+/* Summary panel */
+.summary-toggle { position: fixed; bottom: 16px; right: 16px; background: #0B8C00; color: #000; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: 700; font-size: 14px; z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+.summary-toggle:hover { background: #0a7a00; }
+
+.summary-panel { display: none; position: fixed; bottom: 60px; right: 16px; width: 400px; max-height: 60vh; background: #1a1a1a; border: 1px solid #333; border-radius: 12px; overflow-y: auto; z-index: 100; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+.summary-panel.active { display: block; }
+.summary-panel h3 { padding: 16px; border-bottom: 1px solid #333; font-size: 14px; }
+.summary-panel .sum-item { padding: 8px 16px; border-bottom: 1px solid #1a1a1a; font-size: 12px; display: flex; justify-content: space-between; }
+.summary-panel .sum-item .sum-page { color: #ccc; }
+.summary-panel .sum-item .sum-count { color: #0B8C00; font-weight: 600; }
+.summary-panel .sum-actions { padding: 12px 16px; border-top: 1px solid #333; }
+.summary-panel .sum-actions button { width: 100%; padding: 10px; background: #0B8C00; color: #000; border: none; border-radius: 6px; cursor: pointer; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="app">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>Page Picker</h1>
+            <p>Select kit components for each page</p>
+        </div>
+        <div id="sidebar-pages"></div>
+    </div>
+    <div class="main" id="main-content">
+        <div class="empty">
+            <h3>Select a page from the sidebar</h3>
+            <p>Browse kit components and select the ones you want for each page</p>
+        </div>
+    </div>
+</div>
+
+<button class="summary-toggle" id="summary-toggle" onclick="toggleSummary()">
+    Selections: <span id="total-selected">0</span>
+</button>
+
+<div class="summary-panel" id="summary-panel">
+    <h3>Selected Components</h3>
+    <div id="summary-list"></div>
+    <div class="sum-actions">
+        <button onclick="exportSelections()">Export Selections as JSON</button>
+    </div>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lb-img" src="" alt="">
+    <div class="info">
+        <div id="lb-name"></div>
+        <div id="lb-meta" style="font-size:12px;color:#888;margin-top:4px"></div>
+        <div class="actions">
+            <button class="select-btn" id="lb-select" onclick="toggleFromLightbox()">Select</button>
+        </div>
+    </div>
+</div>
+
+<script>
+const API = 'http://localhost:8080/api';
+let pages = {};
+let currentPage = null;
+let selections = {}; // { pageId: [componentId, ...] }
+let currentComponents = {};  // { componentId: componentData }
+let lightboxItem = null;
+
+async function init() {
+    // Load pages
+    const resp = await fetch(`${API}/pages`);
+    pages = await resp.json();
+
+    // Load saved selections
+    try {
+        const selResp = await fetch(`${API}/selections`);
+        selections = await selResp.json();
+    } catch(e) { selections = {}; }
+
+    renderSidebar();
+    updateTotalCount();
+}
+
+function renderSidebar() {
+    const container = document.getElementById('sidebar-pages');
+    const builds = ['Common', 'PCL', 'Fitness', 'Enterprise'];
+
+    let html = '';
+    for (const build of builds) {
+        const buildPages = pages[build] || [];
+        if (!buildPages.length) continue;
+
+        const selectedInBuild = buildPages.filter(p => (selections[p.id] || []).length > 0).length;
+
+        html += `<div class="build-group">`;
+        html += `<div class="build-label" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            ${build} <span class="count">${buildPages.length} pages</span>
+        </div>`;
+        html += `<div>`;
+        for (const p of buildPages) {
+            const selCount = (selections[p.id] || []).length;
+            const phaseClass = p.phase === 'MVP' ? 'mvp' : '';
+            html += `<div class="page-item ${currentPage === p.id ? 'active' : ''}" onclick="loadPage('${p.id}')">
+                <span>${p.name}</span>
+                <span>
+                    <span class="phase ${phaseClass}">${p.phase}</span>
+                    ${selCount > 0 ? `<span class="selected-count">${selCount}</span>` : ''}
+                </span>
+            </div>`;
+        }
+        html += `</div></div>`;
+    }
+    container.innerHTML = html;
+}
+
+async function loadPage(pageId) {
+    currentPage = pageId;
+    renderSidebar();
+
+    const main = document.getElementById('main-content');
+    main.innerHTML = '<div class="empty"><h3>Loading components...</h3></div>';
+
+    const resp = await fetch(`${API}/page/${pageId}/components`);
+    const data = await resp.json();
+    currentComponents = {};
+
+    const page = data.page;
+    const byKit = data.by_kit;
+    const pageSelections = selections[pageId] || [];
+
+    let html = `
+        <div class="page-header">
+            <h2>
+                <span class="build-tag ${page.build}">${page.build}</span>
+                ${page.name}
+            </h2>
+            <div class="features">${page.features}</div>
+        </div>
+        <div class="stats-bar">
+            <span>${data.total} matching components</span>
+            <span>${Object.keys(byKit).length} kits</span>
+            <span>${pageSelections.length} selected</span>
+        </div>
+    `;
+
+    if (data.total === 0) {
+        html += '<div class="empty"><h3>No matching components found</h3><p>Try adjusting search criteria</p></div>';
+    } else {
+        for (const [kitName, items] of Object.entries(byKit)) {
+            html += `<div class="kit-section">`;
+            html += `<h3>${kitName} (${items.length} matches)</h3>`;
+            html += `<div class="comp-grid">`;
+
+            for (const item of items) {
+                currentComponents[item.id] = item;
+                const isSelected = pageSelections.includes(item.id);
+                const thumbHtml = item.thumbnail_url
+                    ? `<img src="${item.thumbnail_url}" loading="lazy" onerror="this.parentElement.innerHTML='<span class=no-thumb>No preview</span>'">`
+                    : '<span class="no-thumb">No preview</span>';
+
+                html += `
+                    <div class="comp-card ${isSelected ? 'selected' : ''}" data-id="${item.id}"
+                         onclick="toggleSelect('${pageId}', '${item.id}')"
+                         oncontextmenu="event.preventDefault(); openLightbox('${item.id}')">
+                        <div class="select-badge">${isSelected ? '✓' : ''}</div>
+                        <div class="comp-thumb" ondblclick="event.stopPropagation(); openLightbox('${item.id}')">${thumbHtml}</div>
+                        <div class="comp-info">
+                            <div class="comp-name" title="${item.name}">${item.name}</div>
+                            <div class="comp-meta">
+                                <span>${item.width}×${item.height}</span>
+                                <span class="cat">${item.category || ''}</span>
+                                <span>${item.page || ''}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            html += '</div></div>';
+        }
+    }
+
+    main.innerHTML = html;
+}
+
+function toggleSelect(pageId, compId) {
+    if (!selections[pageId]) selections[pageId] = [];
+    const idx = selections[pageId].indexOf(compId);
+    if (idx >= 0) {
+        selections[pageId].splice(idx, 1);
+    } else {
+        selections[pageId].push(compId);
+    }
+
+    // Update card visually
+    const card = document.querySelector(`.comp-card[data-id="${compId}"]`);
+    if (card) {
+        card.classList.toggle('selected');
+        card.querySelector('.select-badge').textContent = card.classList.contains('selected') ? '✓' : '';
+    }
+
+    saveSelections();
+    updateTotalCount();
+    renderSidebar();
+
+    // Update stats bar
+    const statsSpans = document.querySelectorAll('.stats-bar span');
+    if (statsSpans.length >= 3) {
+        statsSpans[2].textContent = `${selections[pageId].length} selected`;
+    }
+}
+
+function toggleFromLightbox() {
+    if (!lightboxItem || !currentPage) return;
+    toggleSelect(currentPage, lightboxItem.id);
+    updateLightboxButton();
+}
+
+function updateLightboxButton() {
+    if (!lightboxItem || !currentPage) return;
+    const btn = document.getElementById('lb-select');
+    const isSelected = (selections[currentPage] || []).includes(lightboxItem.id);
+    btn.textContent = isSelected ? 'Deselect' : 'Select';
+    btn.className = isSelected ? 'deselect-btn' : 'select-btn';
+}
+
+function openLightbox(compId) {
+    const item = currentComponents[compId];
+    if (!item || !item.thumbnail_url) return;
+
+    lightboxItem = item;
+    document.getElementById('lb-img').src = item.thumbnail_url;
+    document.getElementById('lb-name').textContent = `${item.name} — ${item.kit}`;
+    document.getElementById('lb-meta').textContent = `${item.width}×${item.height} | ${item.category}/${item.subcategory} | ${item.page}`;
+    document.getElementById('lightbox').classList.add('active');
+    updateLightboxButton();
+}
+
+function closeLightbox(event) {
+    if (event && event.target !== document.getElementById('lightbox') && event.target !== document.querySelector('.close')) return;
+    document.getElementById('lightbox').classList.remove('active');
+    lightboxItem = null;
+}
+
+async function saveSelections() {
+    await fetch(`${API}/selections`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(selections)
+    });
+}
+
+function updateTotalCount() {
+    let total = 0;
+    for (const pageId in selections) {
+        total += selections[pageId].length;
+    }
+    document.getElementById('total-selected').textContent = total;
+    updateSummary();
+}
+
+function toggleSummary() {
+    document.getElementById('summary-panel').classList.toggle('active');
+}
+
+function updateSummary() {
+    const list = document.getElementById('summary-list');
+    let html = '';
+    const allBuilds = ['Common', 'PCL', 'Fitness', 'Enterprise'];
+
+    for (const build of allBuilds) {
+        const buildPages = pages[build] || [];
+        for (const p of buildPages) {
+            const count = (selections[p.id] || []).length;
+            if (count > 0) {
+                html += `<div class="sum-item">
+                    <span class="sum-page">${p.name}</span>
+                    <span class="sum-count">${count} selected</span>
+                </div>`;
+            }
+        }
+    }
+
+    if (!html) {
+        html = '<div class="sum-item"><span class="sum-page" style="color:#666">No selections yet</span></div>';
+    }
+    list.innerHTML = html;
+}
+
+function exportSelections() {
+    const blob = new Blob([JSON.stringify(selections, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'page_selections.json';
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeLightbox();
+        document.getElementById('summary-panel').classList.remove('active');
+    }
+});
+
+init();
+</script>
+
+</body>
+</html>
