@@ -33,6 +33,11 @@ desktop.ini
 # Vector store data (regenerable)
 .chroma/
 chromadb/
+chromadb_data/
+**/chromadb_data/
+
+# Word temp/lock files
+~$*
 
 # Figma library data (large binary assets - 9.5GB+)
 **/figma_library/
