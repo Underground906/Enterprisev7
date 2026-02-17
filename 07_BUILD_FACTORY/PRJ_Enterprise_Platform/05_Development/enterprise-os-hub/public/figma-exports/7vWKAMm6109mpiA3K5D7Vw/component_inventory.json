@@ -1,0 +1,172 @@
+{
+  "generated_at": "2026-02-16T20:24:39.913Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 2,
+  "successful": 2,
+  "failed": 0,
+  "component_types": {
+    "icon": 2,
+    "text": 3,
+    "badge": 1,
+    "image": 1,
+    "button": 1,
+    "input": 2,
+    "checkbox": 1
+  },
+  "reuse_categories": {
+    "data_display": 6,
+    "navigation": 1,
+    "action": 1,
+    "input": 3
+  },
+  "layout_types": {
+    "centered": 2
+  },
+  "screens": [
+    {
+      "screen_slug": "welcome_thank_you",
+      "screen_name": "Thank You Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "PixiPro Logo",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "Gradient circle with a star icon, pastel colors",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "PixiPro Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x 20px height",
+          "details": "Simple sans-serif font, white color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Thank You Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x 100px height",
+          "details": "Large, light gray text, sans-serif font, faded opacity",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FFC0CB"
+      ],
+      "typography_notes": "Sans-serif font used throughout, varying sizes and opacity",
+      "primary_purpose": "Display a thank you message after a successful action or completion",
+      "enterprise_os_potential": "Could be used as a confirmation screen in various enterprise applications"
+    },
+    {
+      "screen_slug": "welcome_thumbnail",
+      "screen_name": "Travel Planner UI Kit Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Palm Tree Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Green outline icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Title Text",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, 'Travel Planner Web & Mobile UI Kit.'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Version Badge",
+          "location": "bottom",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text 'v1.0'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "UI Kit Screenshots",
+          "location": "center",
+          "approximate_dimensions": "Multiple varying sizes",
+          "details": "Dark background with various travel-related UI components",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 40",
+          "details": "Blue background, white text 'Sign In'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 40",
+          "details": "White input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 40",
+          "details": "White input field with placeholder text and password masking",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Remember Me Checkbox",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "White checkbox with label 'Remember me'",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#03A9F4"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Showcasing the Travel Planner UI Kit",
+      "enterprise_os_potential": "Reusable components for travel planning applications"
+    }
+  ]
+}

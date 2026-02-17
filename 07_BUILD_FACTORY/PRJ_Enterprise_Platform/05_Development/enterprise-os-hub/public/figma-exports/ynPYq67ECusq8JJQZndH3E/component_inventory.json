@@ -1,0 +1,2803 @@
+{
+  "generated_at": "2026-02-16T20:15:17.115Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 29,
+  "successful": 27,
+  "failed": 2,
+  "component_types": {
+    "icon": 23,
+    "heading": 10,
+    "divider": 9,
+    "card": 26,
+    "text": 18,
+    "toggle": 1,
+    "navigation_bar": 1,
+    "button": 37,
+    "form": 1,
+    "checkbox": 3,
+    "image": 16,
+    "color_palette": 1,
+    "topbar": 14,
+    "sidebar": 3,
+    "input": 12,
+    "breadcrumb": 8,
+    "badge": 5,
+    "tabs": 2,
+    "table": 4,
+    "footer": 11,
+    "rating": 2,
+    "list": 3,
+    "search_bar": 5,
+    "avatar": 1,
+    "radio": 2,
+    "link": 2,
+    "modal": 4,
+    "select": 1,
+    "chart": 2,
+    "pagination": 4,
+    "grid": 1
+  },
+  "reuse_categories": {
+    "data_display": 90,
+    "layout": 11,
+    "input": 25,
+    "navigation": 49,
+    "action": 45,
+    "feedback": 8,
+    "overlay": 4
+  },
+  "layout_types": {
+    "centered": 8,
+    "grid": 3,
+    "split": 8,
+    "sidebar_content": 7,
+    "full_canvas": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "component_colours",
+      "screen_name": "Colour Palette",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Lightning icon",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "White icon on orange background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Colours heading",
+          "location": "top",
+          "approximate_dimensions": "large",
+          "details": "White text on orange background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Thin grey line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Colour swatch",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Rectangular colour samples with hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Colour label",
+          "location": "below card",
+          "approximate_dimensions": "varies",
+          "details": "Colour name and hex code",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1E4C2F",
+        "#257E34",
+        "#1D9E34",
+        "#0B0FOE",
+        "#1D2322",
+        "#313736",
+        "#818B9C",
+        "#9BA6B9",
+        "#BCC5D4",
+        "#F1F1F1",
+        "#F6F6F6",
+        "#F9F9F9",
+        "#E4E9EE",
+        "#F0F3F6",
+        "#F8F9FC",
+        "#4CD964",
+        "#3D5BF6",
+        "#AAAFBE",
+        "#D4D7DF",
+        "#E04124",
+        "#EF907F",
+        "#F9BCB1",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Clean sans-serif font used throughout",
+      "primary_purpose": "Displaying colour palette for design system",
+      "enterprise_os_potential": "Reusable for branding and design guidelines"
+    },
+    {
+      "screen_slug": "component_elements",
+      "screen_name": "UI Component Elements",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "toggle",
+          "name": "Toggle Switch",
+          "location": "left",
+          "approximate_dimensions": "100x100",
+          "details": "Multiple toggle states, purple and grey colors",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "navigation_bar",
+          "name": "Navigation Bar",
+          "location": "left",
+          "approximate_dimensions": "300x400",
+          "details": "Dropdown menus, search bar, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "right",
+          "approximate_dimensions": "200x300",
+          "details": "Image, text, price, rating, and 'Read More' link",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Action Buttons",
+          "location": "bottom left",
+          "approximate_dimensions": "200x50",
+          "details": "Green, white, and grey buttons with text and icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "form",
+          "name": "Input Form",
+          "location": "bottom left",
+          "approximate_dimensions": "200x150",
+          "details": "Text input fields with labels and placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "scattered",
+          "approximate_dimensions": "varies",
+          "details": "Small icons used throughout the components",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFC107",
+        "#4CAF50",
+        "#2196F3",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Various font sizes and weights used throughout the components",
+      "primary_purpose": "Showcasing UI component elements",
+      "enterprise_os_potential": "Reusable components for building enterprise OS interfaces"
+    },
+    {
+      "screen_slug": "component_icon",
+      "error": "Image too large - images can contain at most 33177600 pixels. but image contained 33548944",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "component_typograhpy",
+      "screen_name": "Typography",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Large font, orange background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Extra Headings",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Small font, black color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "H1-H6 Headings",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Different font sizes, black color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Paragraphs",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Regular font, black color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "P1-P4 Text",
+          "location": "bottom",
+          "approximate_dimensions": "various sizes",
+          "details": "Different font sizes and styles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFC107",
+        "#000000"
+      ],
+      "typography_notes": "Various font sizes and styles used throughout the page",
+      "primary_purpose": "Showcasing typography examples",
+      "enterprise_os_potential": "Reusable for documentation or style guide pages"
+    },
+    {
+      "screen_slug": "cover_1",
+      "screen_name": "Ecommerce Website UI Kit Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Lenny logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Green square with white envelope icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "left",
+          "approximate_dimensions": "large",
+          "details": "Ecommerce Website UI Kits in white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Feature list",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Four yellow checkboxes with black text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Screens button",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "White button with black text and colorful icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "UI Kit preview",
+          "location": "right",
+          "approximate_dimensions": "large",
+          "details": "Three overlapping screenshots of ecommerce website",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Product card",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "White card with product image, text, and button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now button",
+          "location": "right",
+          "approximate_dimensions": "small",
+          "details": "Green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Heart icon",
+          "location": "right",
+          "approximate_dimensions": "small",
+          "details": "White heart icon on product card",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout the design",
+      "primary_purpose": "To showcase ecommerce website UI kit",
+      "enterprise_os_potential": "Reusable for ecommerce platform landing pages"
+    },
+    {
+      "screen_slug": "cover_2",
+      "screen_name": "What You Will Get",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "White background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Orange background, white icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Feature Title",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Black, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Feature Description",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Gray, regular font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Title",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Large, white, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Section Description",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Small, white, regular font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2F4F4F",
+        "#FFFFFF",
+        "#FFA07A"
+      ],
+      "typography_notes": "Using Google Font Space Grostek",
+      "primary_purpose": "Showcasing features of a design product",
+      "enterprise_os_potential": "Reusable for product feature showcases or benefits highlights"
+    },
+    {
+      "screen_slug": "cover_3",
+      "screen_name": "Global Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Typography Card",
+          "location": "left",
+          "approximate_dimensions": "400x600",
+          "details": "Orange and white card with rounded corners, containing typography examples",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Global Style Guide",
+          "location": "top",
+          "approximate_dimensions": "large",
+          "details": "Large white heading text on dark green background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "top",
+          "approximate_dimensions": "medium",
+          "details": "Smaller text below the main heading, describing the purpose of the page",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Colours Card",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "Orange and white card with rounded corners, containing color palette examples",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Lightbulb Icon",
+          "location": "top right",
+          "approximate_dimensions": "small",
+          "details": "Small white lightbulb icon on orange background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "color_palette",
+          "name": "Color Palette",
+          "location": "right",
+          "approximate_dimensions": "various",
+          "details": "Various colored squares displaying the color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color Names and Codes",
+          "location": "right",
+          "approximate_dimensions": "small",
+          "details": "Small text describing the colors and their hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1E4C2F",
+        "#0B0F0E",
+        "#3D5BF6",
+        "#81889C",
+        "#9BA8B9",
+        "#BCC5D4",
+        "#F1F1F1"
+      ],
+      "typography_notes": "The primary font is Plus Jakarta Sans, used in various weights and sizes",
+      "primary_purpose": "To showcase the global style guide for typography and colors",
+      "enterprise_os_potential": "This layout could be reused as a style guide or documentation page for enterprise OS applications"
+    },
+    {
+      "screen_slug": "cover_4",
+      "screen_name": "Design Versions Comparison",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "wide",
+          "details": "Large white text on green background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description",
+          "location": "top",
+          "approximate_dimensions": "wide",
+          "details": "Smaller white text on green background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Design Version Screenshots",
+          "location": "center",
+          "approximate_dimensions": "three side-by-side images",
+          "details": "Screenshots of different design versions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "within images",
+          "approximate_dimensions": "varies",
+          "details": "White cards with product information and images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now",
+          "location": "within cards",
+          "approximate_dimensions": "small rectangle",
+          "details": "Green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "View Detail",
+          "location": "within cards",
+          "approximate_dimensions": "small rectangle",
+          "details": "White button with text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Category Icons",
+          "location": "within cards",
+          "approximate_dimensions": "small",
+          "details": "Various icons representing categories",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Clean sans-serif font used throughout",
+      "primary_purpose": "Showcasing different design versions",
+      "enterprise_os_potential": "Reusable for comparing different UI versions or themes"
+    },
+    {
+      "screen_slug": "cover_5",
+      "screen_name": "E-commerce Product Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "dark green background, white text, logo on left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Filter Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "white background, filters and categories listed",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "300px x 400px",
+          "details": "white background, product image, name, price, rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now Button",
+          "location": "center",
+          "approximate_dimensions": "100px x 30px",
+          "details": "green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Quantity Input",
+          "location": "center",
+          "approximate_dimensions": "50px x 30px",
+          "details": "white background, black text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Star Rating Icon",
+          "location": "center",
+          "approximate_dimensions": "20px x 20px",
+          "details": "yellow star icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "full width x 20px",
+          "details": "gray text, separator icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "200px x 200px",
+          "details": "product image with border radius",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Sale Badge",
+          "location": "center",
+          "approximate_dimensions": "50px x 20px",
+          "details": "red background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "To display product information and facilitate purchases",
+      "enterprise_os_potential": "Reusable for e-commerce product pages, customizable for different product categories"
+    },
+    {
+      "screen_slug": "cover_6",
+      "screen_name": "Lenny E-commerce Product Detail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, search bar, and navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Shows product category hierarchy",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Displays product image, name, price, and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now Button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Green button with 'Buy Now' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Product Variant Select",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Dropdown to select product variant",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Horizontal line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "tabs",
+          "name": "Product Information Tabs",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Tabs for product details, reviews, and related products",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "table",
+          "name": "Product Specifications Table",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Table displaying product specifications",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Main product image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Rating Icons",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Star rating icons",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Displays product rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains copyright information and links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To display product information and facilitate purchases",
+      "enterprise_os_potential": "Could be reused as a product detail page in various e-commerce applications"
+    },
+    {
+      "screen_slug": "cover_full_preview",
+      "screen_name": "Ecommerce Website UI Kit Cover Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Ecommerce Website UI Kits",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "checkmark icons",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Orange checkmarks",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "descriptive text",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "White text next to checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "UI kit preview",
+          "location": "right",
+          "approximate_dimensions": "large",
+          "details": "Screenshot of UI kit",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "feature cards",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "White cards with orange icons and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "feature icons",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Orange icons within cards",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "heading",
+          "name": "What You Will Get",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "descriptive text",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "White text below heading",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "design version previews",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Screenshots of different design versions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "3 Design Versions",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Space Grotesk font used",
+      "primary_purpose": "Promoting Ecommerce Website UI Kit",
+      "enterprise_os_potential": "Reusable for marketing and promotional materials"
+    },
+    {
+      "screen_slug": "cover_full_preview_2",
+      "screen_name": "E-commerce Product Preview",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Product Preview",
+          "location": "center",
+          "approximate_dimensions": "Multiple images of varying sizes",
+          "details": "Product images with varying aspect ratios, some with text overlays",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Cards containing product information, prices, and calls-to-action",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call-to-Action Button",
+          "location": "bottom",
+          "approximate_dimensions": "Various sizes",
+          "details": "Buttons with different labels and styles",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Smiling Face Emoji",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "A smiling face emoji used as a decorative element",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Thanks for Visiting",
+          "location": "center",
+          "approximate_dimensions": "Medium",
+          "details": "Text with a friendly message",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Varied font sizes and styles used throughout the design",
+      "primary_purpose": "To showcase e-commerce product previews",
+      "enterprise_os_potential": "Reusable for product catalogs or galleries"
+    },
+    {
+      "screen_slug": "cover_hero_image",
+      "screen_name": "E-commerce Product Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "dark green background, white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "white background, product image, product name, price, rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "product image with zoom effect",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "rating",
+          "name": "Product Rating",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "4.8 stars, green color",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "gray text, arrow separator",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Facebook, Twitter, Instagram icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans font used throughout the design",
+      "primary_purpose": "Showcasing e-commerce products",
+      "enterprise_os_potential": "Reusable for product showcase and e-commerce platforms"
+    },
+    {
+      "screen_slug": "cover_product_card",
+      "screen_name": "Ecommerce Website UI Kit Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Lenny Logo",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "green envelope icon with 'lenny.' text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Ecommerce Website UI Kits",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "white text on green background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Feature List",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "orange checkmarks with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "UI Kit Screenshots",
+          "location": "right",
+          "approximate_dimensions": "large",
+          "details": "overlapping screenshots of ecommerce website",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now",
+          "location": "bottom",
+          "approximate_dimensions": "medium",
+          "details": "green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "46 Screens",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "white text on black background with icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#FFA07A"
+      ],
+      "typography_notes": "modern sans-serif font, headings are bold",
+      "primary_purpose": "promoting ecommerce website UI kit",
+      "enterprise_os_potential": "could be reused for other software or template promotions"
+    },
+    {
+      "screen_slug": "design_area_article",
+      "screen_name": "Article Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, search bar, and user profile icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb Navigation",
+          "location": "top",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Shows navigation path: Home > Article > Company News > Detail Article",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "full width x 300px",
+          "details": "Image of a delivery driver with a mask and boxes",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Related Articles",
+          "location": "left",
+          "approximate_dimensions": "250px x variable height",
+          "details": "List of related articles with images and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Share Buttons",
+          "location": "left",
+          "approximate_dimensions": "20px x 20px each",
+          "details": "Social media sharing buttons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Horizontal divider between sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Contains company information, links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px each",
+          "details": "Icons for social media platforms",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#34C759"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display a detailed article with related content and navigation",
+      "enterprise_os_potential": "Reusable for various content-driven applications, such as blogs, news sites, or documentation portals"
+    },
+    {
+      "screen_slug": "design_area_checkout",
+      "screen_name": "Checkout Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "Contains logo, search bar, notification icon, and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Text input for searching, placeholder text 'Search on lenny...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Notification Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Bell icon, likely for notifications",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image representing the user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Shipping Address Card",
+          "location": "left",
+          "approximate_dimensions": "300x150",
+          "details": "Displays shipping address, with radio button and 'Other Address' button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "radio",
+          "name": "Shipping Address Radio Button",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Selected radio button for main address",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Other Address Button",
+          "location": "left",
+          "approximate_dimensions": "100x30",
+          "details": "Text button for selecting alternative address",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Selected Product Card",
+          "location": "left",
+          "approximate_dimensions": "300x300",
+          "details": "Lists selected products with images, names, prices, and quantity controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "left",
+          "approximate_dimensions": "50x50",
+          "details": "Product images for Logitech G435, G502, and G303",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Quantity Control Buttons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Minus and plus buttons for adjusting quantity",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Product Summary Card",
+          "location": "right",
+          "approximate_dimensions": "300x300",
+          "details": "Displays product summary, total price, and 'Checkout' button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Checkout Button",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Green button with 'Checkout' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 150px height",
+          "details": "Contains links to 'About Lenny', 'Account', 'Contact Us', and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#34C759"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To facilitate the checkout process for users",
+      "enterprise_os_potential": "Could be adapted for e-commerce platforms or online marketplaces"
+    },
+    {
+      "screen_slug": "design_area_checkout_success",
+      "screen_name": "Checkout Success",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, search bar, cart icon, notification icon, and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Success Checkmark",
+          "location": "center",
+          "approximate_dimensions": "50x50",
+          "details": "Green checkmark icon within a light green circle",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Back to Home",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Check Detail",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Gray button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains company information, links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Footer Divider",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Thin gray line separating footer content",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Notice",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "Small text indicating copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Terms of Use",
+          "location": "bottom right",
+          "approximate_dimensions": "variable width",
+          "details": "Text link to terms of use page",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Privacy Policy",
+          "location": "bottom right",
+          "approximate_dimensions": "variable width",
+          "details": "Text link to privacy policy page",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#34C759",
+        "#F7F7F7",
+        "#333333"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying success message after payment",
+      "enterprise_os_potential": "Reusable for e-commerce checkout success pages"
+    },
+    {
+      "screen_slug": "design_area_desktop_landing_page",
+      "screen_name": "Desktop Landing Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Sign In Modal",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "white background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Name Input",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "light gray background, black text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number or Email Input",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "light gray background, black text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "light gray background, black text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Facebook Button",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "blue background, white text, Facebook logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Getting Trouble? Text",
+          "location": "bottom",
+          "approximate_dimensions": "auto",
+          "details": "small, gray text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Or using other method Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "gray line, text in center",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#808080",
+        "#008000"
+      ],
+      "typography_notes": "Open Sans, various font sizes",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Reusable login modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_desktop_landing_page_filled",
+      "screen_name": "Desktop Landing Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Create Account Success Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, green checkmark, black text, green 'Sign In' button",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "icon",
+          "name": "Green Checkmark Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Green checkmark icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 60px height",
+          "details": "Gray background, logo, navigation links, search bar, cart icon, user icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Gray background, search icon, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now Button",
+          "location": "left",
+          "approximate_dimensions": "120x40",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "View Detail Button",
+          "location": "left",
+          "approximate_dimensions": "120x40",
+          "details": "Gray background, green text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Product image with model",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF",
+        "#808080"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To display a success message after creating an account",
+      "enterprise_os_potential": "This modal can be reused in various enterprise applications to display success messages"
+    },
+    {
+      "screen_slug": "design_area_desktop_product_detail",
+      "screen_name": "Product Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, search bar, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "shows navigation path",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "main product image with navigation controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Add to Chart",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "select",
+          "name": "Product Variant",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "allows selecting product type and color",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "table",
+          "name": "Product Specifications",
+          "location": "left",
+          "approximate_dimensions": "large",
+          "details": "displays product details in a table",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Merchant Information",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "displays merchant details",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Product Reviews Chart",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "displays review ratings distribution",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Review Lists",
+          "location": "left",
+          "approximate_dimensions": "large",
+          "details": "displays individual reviews",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Review Pagination",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "allows navigating through reviews",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Related Products",
+          "location": "bottom",
+          "approximate_dimensions": "large",
+          "details": "displays related products in a grid",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links to about, account, and contact information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#f2f2f2",
+        "#4CAF50"
+      ],
+      "typography_notes": "uses a clean sans-serif font, with varying sizes for headings and body text",
+      "primary_purpose": "to display product information and facilitate purchases",
+      "enterprise_os_potential": "could be reused as a product detail page template for e-commerce platforms"
+    },
+    {
+      "screen_slug": "design_area_desktop_search_result",
+      "screen_name": "Gaming Gear Search Results",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, search bar, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb Navigation",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Shows current page hierarchy",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Filter Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x variable height",
+          "details": "Contains filter options like rating, location, category, and price range",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Product Cards",
+          "location": "center",
+          "approximate_dimensions": "variable width x height",
+          "details": "Displays product information like image, name, price, and rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Filter Accordion Buttons",
+          "location": "left",
+          "approximate_dimensions": "variable width x height",
+          "details": "Used to expand/collapse filter sections",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "checkbox",
+          "name": "Filter Checkboxes",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Used for selecting filter options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Price Range Inputs",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Used for entering minimum and maximum price",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icons",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Used for favoriting products",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "rating",
+          "name": "Product Ratings",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Displays product rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination Controls",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "Used for navigating through pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains information about the company, contact details, and policies",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying search results for gaming gear products",
+      "enterprise_os_potential": "Can be reused for other e-commerce product categories"
+    },
+    {
+      "screen_slug": "design_area_desktop_shopping_chart",
+      "screen_name": "Shopping Chart Desktop",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "Contains logo, search bar, cart icon, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Text input for searching products",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Displays product image, name, price, and quantity controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Quantity Control Buttons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Buttons to increment or decrement product quantity",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Product Summary Card",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Displays summary of selected products, total price, and checkout button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Checkout Button",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Green button to proceed to checkout",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Divides sections of content",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Displays product images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Icon to favorite or like products",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "Contains information about the company, links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#34C759"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display and manage shopping cart contents",
+      "enterprise_os_potential": "Could be reused in e-commerce platforms for managing shopping carts"
+    },
+    {
+      "screen_slug": "design_area_ipad_landing_page",
+      "screen_name": "iPad Landing Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Sign Up Modal",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Name Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light gray background, gray text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number or Email Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light gray background, gray text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light gray background, gray text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Getting Trouble? Text",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "Gray text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Or using other method Divider",
+          "location": "bottom",
+          "approximate_dimensions": "300x20",
+          "details": "Gray text, horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Facebook Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "Blue background, white text, Facebook icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#CCCCCC",
+        "#008000"
+      ],
+      "typography_notes": "Open sans font, various font sizes",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Reusable authentication modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_ipad_landing_page_filled",
+      "screen_name": "Lenny iPad Landing Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Sign In Modal",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "white background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number or Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "gray border, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Facebook Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "blue icon, gray border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Getting Trouble? Link",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "green text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "gray icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#34C759",
+        "#cccccc"
+      ],
+      "typography_notes": "Open Sans font used",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Reusable login modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_ipad_product_detailge",
+      "screen_name": "Product Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, search bar, cart icon, notification icon, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "shows navigation path: Home > Electronic > Product Name",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "main product image with navigation controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Buy Now Button",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "prominent call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Add to Cart Button",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "secondary call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Product Information Tabs",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "tabs for product details, merchant info, and reviews",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "table",
+          "name": "Product Specifications Table",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "table listing product specifications",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Merchant Information Card",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "card displaying merchant information and ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Review Ratings Chart",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "bar chart showing review ratings distribution",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Review List",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "list of customer reviews with ratings and comments",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Review Pagination",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "pagination controls for review list",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links to about page, FAQ, contact info, and copyright notice",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#4CAF50"
+      ],
+      "typography_notes": "uses a clean sans-serif font throughout",
+      "primary_purpose": "displaying product information and facilitating purchases",
+      "enterprise_os_potential": "could be adapted for use in e-commerce platforms or product management systems"
+    },
+    {
+      "screen_slug": "design_area_ipad_search_result",
+      "screen_name": "iPad Search Result",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, category dropdown, search bar, cart icon, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Shows navigation path: Home > Electronic > Gaming Gear",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Filter Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x variable height",
+          "details": "Contains filter options: Best Filter, Location, Category, Price Range",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "variable width x 200px",
+          "details": "Displays product image, name, price, rating, and seller location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Filter Button",
+          "location": "left",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Used to toggle filter options",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "checkbox",
+          "name": "Filter Checkbox",
+          "location": "left",
+          "approximate_dimensions": "15px x 15px",
+          "details": "Used to select filter options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Price Range Input",
+          "location": "left",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Used to input minimum and maximum price",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Shows page numbers and navigation buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 150px",
+          "details": "Contains information about Lenny, links to other pages, and contact information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "varies",
+          "approximate_dimensions": "15px x 15px",
+          "details": "Used to favorite products",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "varies",
+          "approximate_dimensions": "30px x 15px",
+          "details": "Displays product rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#008000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying search results for gaming gear products",
+      "enterprise_os_potential": "Could be reused as a product listing page for various e-commerce applications"
+    },
+    {
+      "screen_slug": "design_area_ipad_shopping_chart",
+      "screen_name": "Shopping Chart",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, search bar, notification icon, and profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Gray background, placeholder text 'Search on lenny...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "left",
+          "approximate_dimensions": "300x150",
+          "details": "Contains product image, name, price, and quantity controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Quantity Control Buttons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Minus and plus buttons for adjusting quantity",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Product Summary Card",
+          "location": "right",
+          "approximate_dimensions": "300x300",
+          "details": "Displays product summary, total price, and checkout button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Checkout Button",
+          "location": "right",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Green background, white text 'Checkout'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "left",
+          "approximate_dimensions": "100x100",
+          "details": "Product images in product cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Heart icon in product cards",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "bottom",
+          "approximate_dimensions": "30x20",
+          "details": "Displays product rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains information about Lenny, account links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#34C759"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display and manage shopping cart contents",
+      "enterprise_os_potential": "Could be reused as a template for e-commerce platforms or shopping cart interfaces"
+    },
+    {
+      "screen_slug": "design_area_label",
+      "error": "unsupported aspect ratio - (12441,96) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "design_area_select_payment_method",
+      "screen_name": "Payment Method Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, search bar, notification icon, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Payment Method Card",
+          "location": "left",
+          "approximate_dimensions": "400x300",
+          "details": "contains payment method options, debit card form, and checkout button",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "radio",
+          "name": "Payment Method Radio Buttons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "three radio buttons for Paypal, Stripe, and Payoneer",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Debit Card Form Inputs",
+          "location": "left",
+          "approximate_dimensions": "200x30",
+          "details": "four input fields for card holder name, card number, expiry date, and CVV",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Checkout Button",
+          "location": "left",
+          "approximate_dimensions": "100x40",
+          "details": "green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Product Summary Card",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "contains product list, total price, and promo code input",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "table",
+          "name": "Product List Table",
+          "location": "right",
+          "approximate_dimensions": "250x200",
+          "details": "lists products with prices",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links to about Lenny, account, contact us, and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Lenny Logo",
+          "location": "top, bottom",
+          "approximate_dimensions": "20x20",
+          "details": "green and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#34C759",
+        "#FFFFFF",
+        "#F7F7F7"
+      ],
+      "typography_notes": "uses a clean sans-serif font, headings are bold",
+      "primary_purpose": "to facilitate payment method selection and checkout",
+      "enterprise_os_potential": "could be reused in e-commerce platforms for payment processing"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:54:40.224Z"
+}

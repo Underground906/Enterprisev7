@@ -1,0 +1,1619 @@
+{
+  "generated_at": "2026-02-16T19:59:27.508Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 26,
+  "successful": 26,
+  "failed": 0,
+  "component_types": {
+    "topbar": 6,
+    "card": 5,
+    "button": 10,
+    "icon": 37,
+    "avatar": 4,
+    "toggle": 1,
+    "badge": 4,
+    "heading": 4,
+    "text": 5,
+    "list": 1,
+    "link": 1,
+    "grid": 9,
+    "breadcrumb": 1,
+    "image": 2,
+    "quote": 1,
+    "accordion": 3,
+    "footer": 4,
+    "map": 1,
+    "divider": 3,
+    "checkbox": 1,
+    "input": 1,
+    "testimonial": 1,
+    "pricing_card": 2,
+    "social_media_link": 1,
+    "tabs": 1,
+    "table": 1
+  },
+  "reuse_categories": {
+    "navigation": 14,
+    "data_display": 66,
+    "action": 11,
+    "input": 4,
+    "layout": 12,
+    "feedback": 3
+  },
+  "layout_types": {
+    "centered": 6,
+    "grid": 19,
+    "split": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "cover_thumbnail",
+      "screen_name": "Cover Thumbnail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top navigation bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains menu items, buttons, and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Hero card",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Contains headline, text, and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Purchase now button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark icon",
+          "location": "various",
+          "approximate_dimensions": "16x16",
+          "details": "Used to indicate features or benefits",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatars",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Used to represent users or team members",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Monthly/Yearly toggle",
+          "location": "left",
+          "approximate_dimensions": "100x40",
+          "details": "Used to switch between monthly and yearly pricing plans",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "badge",
+          "name": "Most Popular badge",
+          "location": "left",
+          "approximate_dimensions": "80x20",
+          "details": "Used to highlight the most popular pricing plan",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font used throughout the design",
+      "primary_purpose": "To showcase a product or service and encourage purchases",
+      "enterprise_os_potential": "Could be used as a landing page or marketing page for a software product"
+    },
+    {
+      "screen_slug": "getting_started_overview",
+      "screen_name": "Getting Started Overview",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Hi, friends with a waving hand emoji",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Welcome message and product description",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Title",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "10+ Web Sections",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Section Description",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "Description of web sections feature",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Features List",
+          "location": "left",
+          "approximate_dimensions": "large",
+          "details": "List of product features with icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icons",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Various icons representing features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "External Link",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Links to external resources (Store, bento.me/lunatives, lunative.studio@gmail.com)",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Clean and modern typography with varying font sizes",
+      "primary_purpose": "Product introduction and features showcase",
+      "enterprise_os_potential": "Reusable layout for product showcases and feature highlights"
+    },
+    {
+      "screen_slug": "icon_arrows",
+      "screen_name": "Arrow Icons Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Arrow Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black arrows on white background, various styles and directions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full screen width",
+          "details": "Grid layout containing arrow icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of arrow icons",
+      "enterprise_os_potential": "Reusable as an icon library for various UI components"
+    },
+    {
+      "screen_slug": "icon_buildings",
+      "screen_name": "Building Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Building Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background, various building shapes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full canvas",
+          "details": "Grid layout for icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying various building icons",
+      "enterprise_os_potential": "Reusable for icon libraries or design systems"
+    },
+    {
+      "screen_slug": "icon_business",
+      "screen_name": "Business Icons Grid",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Business Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes in a grid",
+          "details": "Black icons on a white background, various symbols and logos",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text, only icons",
+      "primary_purpose": "Displaying a collection of business icons",
+      "enterprise_os_potential": "Reusable as a component library for various business applications"
+    },
+    {
+      "screen_slug": "icon_communication",
+      "screen_name": "Communication Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Communication Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background, various shapes and symbols related to communication",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Displaying a collection of communication icons",
+      "enterprise_os_potential": "Reusable as a icon library for various applications"
+    },
+    {
+      "screen_slug": "icon_design",
+      "screen_name": "Icon Design Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Design Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes, mostly small",
+          "details": "Black icons on white background, various shapes and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full width and height",
+          "details": "Grid layout displaying icons in rows and columns",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Showcasing icon designs",
+      "enterprise_os_potential": "Reusable for displaying icon sets in various applications"
+    },
+    {
+      "screen_slug": "icon_development",
+      "screen_name": "Icon Development Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Development Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background, various symbols related to development",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full screen width",
+          "details": "Grid layout displaying icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying development-related icons",
+      "enterprise_os_potential": "Reusable for icon libraries or development tool UI"
+    },
+    {
+      "screen_slug": "icon_device",
+      "screen_name": "Device Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Device Icons",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "black icons on white background, various shapes and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "full screen",
+          "details": "grid layout with multiple icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "no text present",
+      "primary_purpose": "displaying device icons",
+      "enterprise_os_potential": "could be used in a design system for device-related applications"
+    },
+    {
+      "screen_slug": "icon_document",
+      "screen_name": "Icon Document",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "various icons",
+          "location": "center",
+          "approximate_dimensions": "small, uniform grid",
+          "details": "black icons on white background, various symbols and shapes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "icon grid",
+          "location": "center",
+          "approximate_dimensions": "full width and height",
+          "details": "uniform grid layout, multiple rows and columns",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "no text present",
+      "primary_purpose": "displaying a collection of icons",
+      "enterprise_os_potential": "could be used as a resource for UI designers or developers"
+    },
+    {
+      "screen_slug": "icon_editor",
+      "screen_name": "Icon Editor",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background, various shapes and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography Examples",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black text on white background, various font styles and sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Various font styles and sizes used for demonstration",
+      "primary_purpose": "To showcase a wide range of icons and typography examples",
+      "enterprise_os_potential": "Could be used as a reference for designing icon sets and typography guidelines for enterprise applications"
+    },
+    {
+      "screen_slug": "icon_finance",
+      "screen_name": "Finance Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Finance Icons Grid",
+          "location": "center",
+          "approximate_dimensions": "Multiple icons of various sizes",
+          "details": "Black icons on white background, arranged in a grid pattern",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Individual Finance Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes, mostly small",
+          "details": "Various finance-related icons such as credit cards, shopping bags, currency symbols, etc.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of finance-related icons",
+      "enterprise_os_potential": "Reusable as a icon library for financial applications or websites"
+    },
+    {
+      "screen_slug": "icon_flags",
+      "screen_name": "Country Flags Icon Set",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Country Flag Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Circular icons with country flags, various colors and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#ff0000",
+        "#00ff00",
+        "#0000ff"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Displaying a collection of country flag icons",
+      "enterprise_os_potential": "Reusable icon set for internationalization or localization purposes"
+    },
+    {
+      "screen_slug": "icon_health_medical",
+      "screen_name": "Health and Medical Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Heart Outline Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Simple line art heart icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Solid Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Filled heart icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Medical Cross Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon representing medical or health services",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Stethoscope Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon symbolizing medical examination or healthcare",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Pill or Capsule Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon representing medication",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "First Aid Kit Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon symbolizing first aid or emergency medical supplies",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heartbeat or ECG Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon representing heart rate or electrocardiogram",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Lungs Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon representing respiratory system",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Person or User Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Simple icon representing a person or user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Sleep or Rest Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon symbolizing sleep or rest",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Test Tube or Laboratory Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Icon representing laboratory or medical testing",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Displaying a collection of health and medical icons",
+      "enterprise_os_potential": "Reusable in healthcare or medical application interfaces for representing various medical concepts or services"
+    },
+    {
+      "screen_slug": "icon_logo",
+      "screen_name": "Icon Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Brand Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background, various brand logos",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full canvas",
+          "details": "Grid layout for icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text, only icons",
+      "primary_purpose": "Displaying a collection of brand icons",
+      "enterprise_os_potential": "Reusable for displaying icon sets or brand logos"
+    },
+    {
+      "screen_slug": "icon_map",
+      "screen_name": "Icon Map",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various icons",
+          "location": "center",
+          "approximate_dimensions": "24x24, 32x32",
+          "details": "Black icons on white background, simple line art style",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon grid",
+          "location": "center",
+          "approximate_dimensions": "Multiple rows and columns",
+          "details": "Grid layout with evenly spaced icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of icons",
+      "enterprise_os_potential": "Reusable as a design system component library"
+    },
+    {
+      "screen_slug": "icon_media",
+      "screen_name": "Icon Media Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Media Control Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes, mostly small",
+          "details": "Black icons on white background, simple line art style",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Media Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes, mostly small",
+          "details": "Black icons on white background, simple line art style",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of media-related icons",
+      "enterprise_os_potential": "Reusable icon set for media applications"
+    },
+    {
+      "screen_slug": "icon_others",
+      "screen_name": "Icon Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "24x24 or 32x32",
+          "details": "Black icons on white background, simple line art style",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of icons",
+      "enterprise_os_potential": "Reusable as a icon library for various applications"
+    },
+    {
+      "screen_slug": "icon_system",
+      "screen_name": "Icon System",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "Multiple sizes",
+          "details": "Black icons on white background, various shapes and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full canvas",
+          "details": "Grid layout displaying icons in rows and columns",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of icons for design system",
+      "enterprise_os_potential": "Reusable icon set for various applications and interfaces"
+    },
+    {
+      "screen_slug": "icon_user_faces",
+      "screen_name": "User Faces Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "User Face Icon",
+          "location": "center",
+          "approximate_dimensions": "Various sizes, mostly 24x24",
+          "details": "Black icons on white background, various designs representing different user faces and profiles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Displaying a collection of user face icons",
+      "enterprise_os_potential": "Reusable in various UI components requiring user representation, such as avatars or profile icons"
+    },
+    {
+      "screen_slug": "icon_weather",
+      "screen_name": "Weather Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Weather Icon",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background, various weather-related symbols",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying weather-related icons",
+      "enterprise_os_potential": "Reusable icon set for weather applications"
+    },
+    {
+      "screen_slug": "web_pages_article_page",
+      "screen_name": "Article Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, and a call-to-action button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "Shows current page location",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Article Title",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Large font title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Author's profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Author Name and Date",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Author's name and publication date",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Article Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Main image for the article",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Article Content",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Main content of the article",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "quote",
+          "name": "Testimonial",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Quote with author information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Related Articles",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Cards showing related articles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View All",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Button to view all related articles",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Accordion with questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Purchase Now",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains company information, links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#333333",
+        "#666666",
+        "#999999"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with varying font sizes for headings and body text",
+      "primary_purpose": "To display an article with related content and calls-to-action",
+      "enterprise_os_potential": "Could be reused as a template for various article or blog pages within an enterprise OS"
+    },
+    {
+      "screen_slug": "web_pages_contact_page",
+      "screen_name": "Contact Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation links, and a call-to-action button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Contact Form",
+          "location": "center",
+          "approximate_dimensions": "400px x 300px",
+          "details": "Contains input fields for name, email, and message, with a submit button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "map",
+          "name": "Location Map",
+          "location": "left",
+          "approximate_dimensions": "300px x 200px",
+          "details": "Displays a map with a marker indicating the location",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Contains a list of questions and answers that can be expanded or collapsed",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Send Message",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "A call-to-action button to submit the contact form",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Links to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Separates the content from the footer",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains copyright information, terms and conditions, and other secondary links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Online Status",
+          "location": "left",
+          "approximate_dimensions": "50px x 20px",
+          "details": "Indicates the online status of the live chat",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "checkbox",
+          "name": "Terms and Conditions",
+          "location": "center",
+          "approximate_dimensions": "20px x 20px",
+          "details": "A checkbox to agree to the terms and conditions",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with headings in a larger size and bold weight",
+      "primary_purpose": "To provide a contact form and information about the company",
+      "enterprise_os_potential": "Could be reused as a contact page for other companies or organizations"
+    },
+    {
+      "screen_slug": "web_pages_landing_page_1",
+      "screen_name": "Majin Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width, 64px height",
+          "details": "Contains logo, menu items, and call-to-action buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Download Now",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Pricing Card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "Contains pricing information, features, and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "various",
+          "approximate_dimensions": "16x16",
+          "details": "Green checkmark icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Customer Avatar",
+          "location": "various",
+          "approximate_dimensions": "40x40",
+          "details": "Rounded avatar with customer image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "New Badge",
+          "location": "top",
+          "approximate_dimensions": "40x20",
+          "details": "Red background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "various",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Gray divider line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To promote and sell the Majin template",
+      "enterprise_os_potential": "Could be reused as a landing page for other SaaS products"
+    },
+    {
+      "screen_slug": "web_pages_landing_page_2",
+      "screen_name": "Majin Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, navigation links, and a call-to-action button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Purchase Now",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Hero Heading",
+          "location": "center",
+          "approximate_dimensions": "large text",
+          "details": "large, bold text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "contains icon, heading, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "various",
+          "approximate_dimensions": "16x16",
+          "details": "green checkmark icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "New Badge",
+          "location": "various",
+          "approximate_dimensions": "small",
+          "details": "small, colored badge",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "various",
+          "approximate_dimensions": "full width",
+          "details": "thin, gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "screenshot of the product",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer Testimonial",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "contains quote, author, and image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plan",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "contains pricing information and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links, copyright information, and social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "social_media_link",
+          "name": "Social Media Link",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "contains social media icon and link",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "uses a sans-serif font, with varying font sizes and weights",
+      "primary_purpose": "to promote the Majin product and encourage sign-ups",
+      "enterprise_os_potential": "could be used as a template for other product landing pages"
+    },
+    {
+      "screen_slug": "web_pages_pricing_page",
+      "screen_name": "Pricing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, and a call-to-action button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Pricing Plan Tabs",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Monthly and Yearly tabs with active state",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Cards",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Three pricing cards with different plans and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "table",
+          "name": "Plans and Features Table",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Compares features across different plans",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icons",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Used to indicate included features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Customer Testimonial Avatar",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Customer testimonial with image and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Accordion with questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View All Button",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Button to view all FAQs",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains company information, links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To display pricing plans and features",
+      "enterprise_os_potential": "Could be reused as a template for other pricing pages"
+    }
+  ]
+}

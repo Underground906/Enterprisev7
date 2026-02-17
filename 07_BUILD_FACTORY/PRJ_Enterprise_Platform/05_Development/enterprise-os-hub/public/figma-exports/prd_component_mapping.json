@@ -1,0 +1,5283 @@
+{
+  "generated_at": "2026-02-16T13:25:23.811Z",
+  "inventory_kit": "Brainwave 2.0",
+  "inventory_screens": 48,
+  "prd_screens": 41,
+  "modules": {
+    "Navigation Centre": {
+      "screens": [
+        {
+          "screen_id": "NAV_A",
+          "name": "Goal Intake Wizard",
+          "description": "Stream-of-consciousness portal; AI asks refinement questions and auto-generates Alignment-to-Assets plan",
+          "preferred_layout": [
+            "centered",
+            "split"
+          ],
+          "needed_components": [
+            "form",
+            "input",
+            "textarea",
+            "button",
+            "card",
+            "progress",
+            "tabs"
+          ],
+          "match_count": 5,
+          "best_match_score": 73,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 73,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:textarea,button,card,tabs",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "textarea",
+                "button",
+                "card",
+                "tabs"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_live_notification",
+              "screen_name": "3D Editor with Live Notification",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 49,
+              "score": 73,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:input,textarea,button,tabs",
+                "rich:49comps"
+              ],
+              "matched_components": [
+                "input",
+                "textarea",
+                "button",
+                "tabs"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore_detail",
+              "screen_name": "Template Detail View - Base State",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 26,
+              "score": 67,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:button,card,progress",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "button",
+                "card",
+                "progress"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_create_account",
+              "screen_name": "Create Account - Split Screen",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 17,
+              "score": 62,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:input,button,card"
+              ],
+              "matched_components": [
+                "input",
+                "button",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_sign_in",
+              "screen_name": "Sign In Page with Split Layout",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 19,
+              "score": 62,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:input,button,card"
+              ],
+              "matched_components": [
+                "input",
+                "button",
+                "card"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "NAV_B",
+          "name": "Role-Informed Perspective Panel",
+          "description": "Multi-role Think Tank view; system generates perspectives from different roles to flag risks",
+          "preferred_layout": [
+            "sidebar_content",
+            "split"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "avatar",
+            "tabs",
+            "badge",
+            "button"
+          ],
+          "match_count": 5,
+          "best_match_score": 93,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,tabs,badge,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "tabs",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 93,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:sidebar,card,tabs,badge,button",
+                "has_sidebar",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "tabs",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,tabs,badge,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "tabs",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,avatar,tabs,button",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "avatar",
+                "tabs",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,avatar,tabs,button",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "avatar",
+                "tabs",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "NAV_C",
+          "name": "6:00 AM Morning Brief",
+          "description": "Daily newspaper summarizing yesterday's wins and today's top 3 priorities",
+          "preferred_layout": [
+            "centered",
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "card",
+            "badge",
+            "button",
+            "divider",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 90,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 90,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button,divider,text",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "divider",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 82,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button,divider",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 82,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,divider,text",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "divider",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 82,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,divider,text",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "divider",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 82,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,divider,text",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "divider",
+                "text"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "NAV_D",
+          "name": "Goal Health Dashboard",
+          "description": "Visual heatmap of active objectives with Health Scores (1-10)",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "badge",
+            "progress",
+            "chart",
+            "grid",
+            "topbar"
+          ],
+          "match_count": 5,
+          "best_match_score": 89,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,grid,topbar",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "grid",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,grid,topbar",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "grid",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,topbar",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,grid",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,topbar",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "topbar"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "NAV_E",
+          "name": "Decision & Iteration Log",
+          "description": "Version History for strategy; every pivot logged with rationale",
+          "preferred_layout": [
+            "sidebar_content",
+            "split"
+          ],
+          "needed_components": [
+            "sidebar",
+            "table",
+            "card",
+            "badge",
+            "button",
+            "divider",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button,divider,text",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button",
+                "divider",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button,divider",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,divider,text",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "divider",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,divider,text",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "divider",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,divider,text",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "divider",
+                "text"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "NAV_F",
+          "name": "AI Challenge Console",
+          "description": "Proactive sidebar challenging stale tasks and suggesting actions",
+          "preferred_layout": [
+            "sidebar_content",
+            "split"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "button",
+            "badge",
+            "notification",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 93,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge,text",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 87,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,text",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "text"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Command Deck": {
+      "screens": [
+        {
+          "screen_id": "CMD_A",
+          "name": "Active Cockpit",
+          "description": "Running log (left), AI chat (middle), Outputs Pane (right)",
+          "preferred_layout": [
+            "split",
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "button",
+            "input",
+            "textarea",
+            "text",
+            "divider"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,input,textarea,divider",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "input",
+                "textarea",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,input,textarea,divider",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "input",
+                "textarea",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,text,divider",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "text",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_live_notification",
+              "screen_name": "3D Editor with Live Notification",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 49,
+              "score": 89,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:sidebar,button,input,textarea,text",
+                "has_sidebar",
+                "rich:49comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "button",
+                "input",
+                "textarea",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,text,divider",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "text",
+                "divider"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "CMD_B",
+          "name": "Role-Appropriate Dashboard",
+          "description": "Progressive disclosure: freelancer sees 3 panels, CEO sees whole-org velocity",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "topbar",
+            "badge",
+            "chart",
+            "grid",
+            "avatar"
+          ],
+          "match_count": 5,
+          "best_match_score": 89,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar,badge,grid",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar",
+                "badge",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar,badge,grid",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar",
+                "badge",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar,grid,avatar",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar",
+                "grid",
+                "avatar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar,grid,avatar",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar",
+                "grid",
+                "avatar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar,grid",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar",
+                "grid"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "CMD_C",
+          "name": "Auto-Digest Generation",
+          "description": "Split-screen: messy session log transforms into polished manager-ready summary",
+          "preferred_layout": [
+            "split"
+          ],
+          "needed_components": [
+            "card",
+            "button",
+            "text",
+            "divider",
+            "textarea",
+            "badge"
+          ],
+          "match_count": 5,
+          "best_match_score": 77,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 77,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,button,textarea,badge",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "textarea",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore_detail",
+              "screen_name": "Template Detail View - Base State",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 26,
+              "score": 77,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,button,text,badge",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "text",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_live_notification",
+              "screen_name": "3D Editor with Live Notification",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 49,
+              "score": 77,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:button,text,textarea,badge",
+                "rich:49comps"
+              ],
+              "matched_components": [
+                "button",
+                "text",
+                "textarea",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_create_account",
+              "screen_name": "Create Account - Split Screen",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 17,
+              "score": 72,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,button,divider,badge"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "divider",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_sign_in",
+              "screen_name": "Sign In Page with Split Layout",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 19,
+              "score": 72,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,button,text,divider"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "text",
+                "divider"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "CMD_D",
+          "name": "Agent Registry & Workspace",
+          "description": "Library of 80+ role profiles to activate per session",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "grid",
+            "avatar",
+            "badge",
+            "search_bar",
+            "button"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,badge,search_bar,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "badge",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,badge,search_bar,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "badge",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,badge,search_bar,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "badge",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,avatar,search_bar,button",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "avatar",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,avatar,search_bar,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "avatar",
+                "search_bar",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "CMD_E",
+          "name": "Approval & Governance Queue",
+          "description": "Swipe to Approve interface for promoting Staging to Canonical",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "button",
+            "badge",
+            "table",
+            "toggle",
+            "divider"
+          ],
+          "match_count": 5,
+          "best_match_score": 77,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge,divider",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,toggle,divider",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "toggle",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge,divider",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_choose_your_plan",
+              "screen_name": "Pricing Page - Choose Your Plan",
+              "screen_type": "full_page",
+              "layout_type": "centered",
+              "component_count": 17,
+              "score": 72,
+              "reasons": [
+                "layout:centered",
+                "type:full_page",
+                "components:card,button,badge,toggle"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge",
+                "toggle"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Core Engine": {
+      "screens": [
+        {
+          "screen_id": "ENG_A",
+          "name": "Routing Rules Editor",
+          "description": "Logic-builder for keyword thresholds per pillar",
+          "preferred_layout": [
+            "sidebar_content",
+            "split"
+          ],
+          "needed_components": [
+            "sidebar",
+            "input",
+            "button",
+            "card",
+            "toggle",
+            "dropdown",
+            "table"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,card,toggle,dropdown",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "card",
+                "toggle",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 89,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:sidebar,button,card,toggle,dropdown",
+                "has_sidebar",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "button",
+                "card",
+                "toggle",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,card,dropdown",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "card",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,card,dropdown",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "card",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,card,dropdown",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "card",
+                "dropdown"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "ENG_B",
+          "name": "Universal Index & Manifests",
+          "description": "Filterable list of every file, thread, artifact with Epoch Counts",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "table",
+            "search_bar",
+            "badge",
+            "button",
+            "dropdown",
+            "pagination"
+          ],
+          "match_count": 5,
+          "best_match_score": 89,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,search_bar,badge,button,dropdown",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "search_bar",
+                "badge",
+                "button",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,search_bar,badge,button,dropdown",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "search_bar",
+                "badge",
+                "button",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,search_bar,badge,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "search_bar",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,search_bar,button,dropdown",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "search_bar",
+                "button",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,search_bar,button,dropdown",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "search_bar",
+                "button",
+                "dropdown"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "ENG_C",
+          "name": "RAG Quality Dashboard",
+          "description": "Chunking efficiency, token counts, embedding accuracy",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "chart",
+            "badge",
+            "progress",
+            "table",
+            "topbar"
+          ],
+          "match_count": 5,
+          "best_match_score": 83,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,topbar",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,topbar",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,topbar",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "ENG_D",
+          "name": "Schema & Data Model Library",
+          "description": "PostgreSQL/JSON schemas; new projects pull their skeleton from here",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "table",
+            "button",
+            "text",
+            "badge"
+          ],
+          "match_count": 5,
+          "best_match_score": 93,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,text,badge",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "text",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,text",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,text",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "text"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "ENG_E",
+          "name": "Error Library & Failure Log",
+          "description": "Diagnostic heart monitor for script and API failures",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "table",
+            "badge",
+            "card",
+            "button",
+            "notification"
+          ],
+          "match_count": 5,
+          "best_match_score": 87,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,badge,card,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "badge",
+                "card",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,badge,card,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "badge",
+                "card",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,badge,card,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "badge",
+                "card",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Knowledge Library": {
+      "screens": [
+        {
+          "screen_id": "LIB_A",
+          "name": "Ingestion Inbox",
+          "description": "Global inbox: Pending, Processing, Routed, Unrouted + URL Sniffer",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "table",
+            "badge",
+            "button",
+            "tabs",
+            "search_bar",
+            "card"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,badge,button,tabs,search_bar,card",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "badge",
+                "button",
+                "tabs",
+                "search_bar",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,badge,button,tabs,search_bar,card",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "badge",
+                "button",
+                "tabs",
+                "search_bar",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,badge,button,search_bar,card",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "badge",
+                "button",
+                "search_bar",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,button,tabs,search_bar,card",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "button",
+                "tabs",
+                "search_bar",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,button,tabs,search_bar,card",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "button",
+                "tabs",
+                "search_bar",
+                "card"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "LIB_B",
+          "name": "Artifact Extraction View",
+          "description": "Split-screen: raw source vs. 29 extracted artifact types",
+          "preferred_layout": [
+            "split"
+          ],
+          "needed_components": [
+            "card",
+            "text",
+            "badge",
+            "tabs",
+            "button",
+            "divider"
+          ],
+          "match_count": 5,
+          "best_match_score": 77,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 77,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,badge,tabs,button",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "tabs",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore_detail",
+              "screen_name": "Template Detail View - Base State",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 26,
+              "score": 77,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,text,badge,button",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_live_notification",
+              "screen_name": "3D Editor with Live Notification",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 49,
+              "score": 77,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:text,badge,tabs,button",
+                "rich:49comps"
+              ],
+              "matched_components": [
+                "text",
+                "badge",
+                "tabs",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_create_account",
+              "screen_name": "Create Account - Split Screen",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 17,
+              "score": 72,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,badge,button,divider"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_sign_in",
+              "screen_name": "Sign In Page with Split Layout",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 19,
+              "score": 72,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:card,text,button,divider"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "LIB_C",
+          "name": "Promotion Console",
+          "description": "Quality Gate: review Staging, one-click promote to Canonical",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "button",
+            "badge",
+            "toggle",
+            "table",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 77,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge,text",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_choose_your_plan",
+              "screen_name": "Pricing Page - Choose Your Plan",
+              "screen_type": "full_page",
+              "layout_type": "centered",
+              "component_count": 17,
+              "score": 72,
+              "reasons": [
+                "layout:centered",
+                "type:full_page",
+                "components:card,button,badge,toggle"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge",
+                "toggle"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,toggle",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "toggle"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "LIB_D",
+          "name": "Semantic Search Engine",
+          "description": "Lattice Filters by Project, Domain, Date",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "search_bar",
+            "card",
+            "badge",
+            "dropdown",
+            "button",
+            "tabs",
+            "grid"
+          ],
+          "match_count": 5,
+          "best_match_score": 90,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 90,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:search_bar,card,badge,dropdown,button,tabs,grid",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "search_bar",
+                "card",
+                "badge",
+                "dropdown",
+                "button",
+                "tabs",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 84,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:search_bar,card,badge,button,tabs,grid",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "search_bar",
+                "card",
+                "badge",
+                "button",
+                "tabs",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 84,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:search_bar,card,badge,dropdown,button,grid",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "search_bar",
+                "card",
+                "badge",
+                "dropdown",
+                "button",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 79,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:search_bar,card,dropdown,button,tabs",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "search_bar",
+                "card",
+                "dropdown",
+                "button",
+                "tabs"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 79,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:search_bar,card,button,tabs,grid",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "search_bar",
+                "card",
+                "button",
+                "tabs",
+                "grid"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "LIB_E",
+          "name": "Pipeline Health Monitor",
+          "description": "Real-time status bars for active scrapers and fetchers",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "progress",
+            "badge",
+            "chart",
+            "table"
+          ],
+          "match_count": 5,
+          "best_match_score": 80,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 73,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 73,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Template Hub": {
+      "screens": [
+        {
+          "screen_id": "TPL_A",
+          "name": "Template Catalogue",
+          "description": "Searchable grid: Agents, Prompts, SOPs, Project Scaffolds",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "grid",
+            "search_bar",
+            "badge",
+            "button",
+            "tabs"
+          ],
+          "match_count": 5,
+          "best_match_score": 100,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,badge,button,tabs",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "badge",
+                "button",
+                "tabs"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,badge,button,tabs",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "badge",
+                "button",
+                "tabs"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,badge,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,button,tabs",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "button",
+                "tabs"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,button",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "TPL_B",
+          "name": "Dynamic Document Generator",
+          "description": "Wizard: select blueprint, fill parameters, AI assembles high-fidelity doc",
+          "preferred_layout": [
+            "centered",
+            "split"
+          ],
+          "needed_components": [
+            "form",
+            "input",
+            "button",
+            "card",
+            "progress",
+            "dropdown",
+            "textarea"
+          ],
+          "match_count": 5,
+          "best_match_score": 73,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 73,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:button,card,dropdown,textarea",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "button",
+                "card",
+                "dropdown",
+                "textarea"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_live_notification",
+              "screen_name": "3D Editor with Live Notification",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 49,
+              "score": 73,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:input,button,dropdown,textarea",
+                "rich:49comps"
+              ],
+              "matched_components": [
+                "input",
+                "button",
+                "dropdown",
+                "textarea"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_create_account",
+              "screen_name": "Create Account - Split Screen",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 17,
+              "score": 68,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:input,button,card,dropdown"
+              ],
+              "matched_components": [
+                "input",
+                "button",
+                "card",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore_detail",
+              "screen_name": "Template Detail View - Base State",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 26,
+              "score": 67,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:button,card,progress",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "button",
+                "card",
+                "progress"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_sign_in",
+              "screen_name": "Sign In Page with Split Layout",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 19,
+              "score": 62,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:input,button,card"
+              ],
+              "matched_components": [
+                "input",
+                "button",
+                "card"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "TPL_C",
+          "name": "Scaffold Replicator",
+          "description": "One-click deployment of 17-stage project hierarchy",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "button",
+            "progress",
+            "badge",
+            "tree",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 77,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge,text",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,badge",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,text",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_profile",
+              "screen_name": "User Profile Gallery",
+              "screen_type": "full_page",
+              "layout_type": "centered",
+              "component_count": 27,
+              "score": 70,
+              "reasons": [
+                "layout:centered",
+                "type:full_page",
+                "components:card,button,badge",
+                "rich:27comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "badge"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "TPL_D",
+          "name": "Prompt Chain Editor",
+          "description": "Visual flow builder chaining AI models into production sequences",
+          "preferred_layout": [
+            "full_canvas",
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "button",
+            "input",
+            "dropdown"
+          ],
+          "match_count": 5,
+          "best_match_score": 100,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,input,dropdown",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "input",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,input,dropdown",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "input",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,input,dropdown",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "input",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,input,dropdown",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "input",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 92,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,dropdown",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "dropdown"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "TPL_E",
+          "name": "Brand DNA Vault",
+          "description": "Irreducible backbone: vision, voice rules, unique mechanisms",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "text",
+            "badge",
+            "button",
+            "divider",
+            "image"
+          ],
+          "match_count": 5,
+          "best_match_score": 83,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,badge,button,divider",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider,image",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider",
+                "image"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button,divider",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,divider,image",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "divider",
+                "image"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Domain Pillars": {
+      "screens": [
+        {
+          "screen_id": "PIL_A",
+          "name": "Pillar Grid",
+          "description": "Bird's-eye view: item counts, health status, last update",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "grid",
+            "badge",
+            "progress",
+            "button",
+            "topbar"
+          ],
+          "match_count": 5,
+          "best_match_score": 83,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,grid,badge,button,topbar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "grid",
+                "badge",
+                "button",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,grid,badge,button,topbar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "card",
+                "grid",
+                "badge",
+                "button",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_profile",
+              "screen_name": "User Profile Gallery",
+              "screen_type": "full_page",
+              "layout_type": "centered",
+              "component_count": 27,
+              "score": 83,
+              "reasons": [
+                "layout:centered",
+                "type:full_page",
+                "components:card,grid,badge,button,topbar",
+                "rich:27comps"
+              ],
+              "matched_components": [
+                "card",
+                "grid",
+                "badge",
+                "button",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,grid,button,topbar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "card",
+                "grid",
+                "button",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,grid,badge,button",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "grid",
+                "badge",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "PIL_B",
+          "name": "Canon Viewer",
+          "description": "Authoritative reference document; AI agents primary instruction set",
+          "preferred_layout": [
+            "sidebar_content",
+            "split"
+          ],
+          "needed_components": [
+            "sidebar",
+            "text",
+            "card",
+            "button",
+            "breadcrumb",
+            "divider"
+          ],
+          "match_count": 5,
+          "best_match_score": 93,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,text,card,button,divider",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "text",
+                "card",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,text,card,button,divider",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "text",
+                "card",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,text,card,button,divider",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "text",
+                "card",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,text,card,button,divider",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "text",
+                "card",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,divider",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "divider"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "PIL_C",
+          "name": "Artifact Browser",
+          "description": "Filterable archive of high-value extracted assets",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "grid",
+            "search_bar",
+            "badge",
+            "dropdown",
+            "button"
+          ],
+          "match_count": 5,
+          "best_match_score": 100,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,badge,dropdown,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "badge",
+                "dropdown",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 100,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,badge,dropdown,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "badge",
+                "dropdown",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,badge,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,search_bar,dropdown,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "search_bar",
+                "dropdown",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,dropdown,button",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "dropdown",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "PIL_D",
+          "name": "Thread Archive",
+          "description": "Raw AI conversation histories (full provenance)",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "text",
+            "badge",
+            "search_bar",
+            "button",
+            "pagination"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,text,badge,search_bar,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "text",
+                "badge",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,search_bar,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,search_bar,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,text,search_bar,button",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "text",
+                "search_bar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,text,search_bar,button",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "text",
+                "search_bar",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "PIL_E",
+          "name": "Pillar Routing Rules Editor",
+          "description": "Logic-builder: keywords and thresholds per organ",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "input",
+            "button",
+            "table",
+            "toggle",
+            "dropdown",
+            "card"
+          ],
+          "match_count": 5,
+          "best_match_score": 94,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 94,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,toggle,dropdown,card",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "toggle",
+                "dropdown",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,dropdown,card",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "dropdown",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,dropdown,card",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "dropdown",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,input,button,dropdown,card",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "input",
+                "button",
+                "dropdown",
+                "card"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,button,dropdown,card",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "button",
+                "dropdown",
+                "card"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Build Factory": {
+      "screens": [
+        {
+          "screen_id": "BLD_A",
+          "name": "Project Registry",
+          "description": "Active builds with Maturity Grades (Speculative/Operational/Production-Ready)",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "table",
+            "badge",
+            "button",
+            "dropdown"
+          ],
+          "match_count": 5,
+          "best_match_score": 93,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button,dropdown",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 93,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button,dropdown",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,dropdown",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "dropdown"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,dropdown",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "dropdown"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "BLD_B",
+          "name": "17-Step Mission Control",
+          "description": "Linear production line tracking all build stages",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "progress",
+            "card",
+            "badge",
+            "button",
+            "timeline"
+          ],
+          "match_count": 5,
+          "best_match_score": 87,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "BLD_C",
+          "name": "Assembly Dashboard",
+          "description": "Drag-and-drop: snap Copy Frameworks and UI Snippets into scaffold",
+          "preferred_layout": [
+            "sidebar_content",
+            "full_canvas"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "button",
+            "grid",
+            "drag_drop"
+          ],
+          "match_count": 5,
+          "best_match_score": 92,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 92,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,grid",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 92,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,grid",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 92,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,grid",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 92,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,grid",
+                "has_sidebar",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 92,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,grid",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "grid"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "BLD_D",
+          "name": "Role-Informed PRD Editor",
+          "description": "Multi-role AI reviewers flag risks before coding begins",
+          "preferred_layout": [
+            "split",
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "textarea",
+            "card",
+            "avatar",
+            "badge",
+            "button",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 89,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_comment_conversation",
+              "screen_name": "3D Editor - Comment Thread Conversation",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 31,
+              "score": 89,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:sidebar,textarea,card,badge,button",
+                "has_sidebar",
+                "rich:31comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "textarea",
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_live_notification",
+              "screen_name": "3D Editor with Live Notification",
+              "screen_type": "full_page",
+              "layout_type": "split",
+              "component_count": 49,
+              "score": 89,
+              "reasons": [
+                "layout:split",
+                "type:full_page",
+                "components:sidebar,textarea,badge,button,text",
+                "has_sidebar",
+                "rich:49comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "textarea",
+                "badge",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button,text",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_real_time_3d_canvas",
+              "screen_name": "Real-Time 3D Canvas - Design Mode",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 54,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,textarea,card,avatar,button",
+                "has_sidebar",
+                "rich:54comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "textarea",
+                "card",
+                "avatar",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,avatar,button,text",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "avatar",
+                "button",
+                "text"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "BLD_E",
+          "name": "Build Story",
+          "description": "Chronological timeline capturing breakthroughs and anti-patterns",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "text",
+            "badge",
+            "button",
+            "divider",
+            "timeline"
+          ],
+          "match_count": 5,
+          "best_match_score": 83,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,badge,button,divider",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button,divider",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Operations": {
+      "screens": [
+        {
+          "screen_id": "OPS_A",
+          "name": "System Health Dashboard",
+          "description": "Org heatmap: ingestion stats, routing accuracy, pillar freshness",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "chart",
+            "badge",
+            "progress",
+            "grid",
+            "topbar"
+          ],
+          "match_count": 5,
+          "best_match_score": 89,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,grid,topbar",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "grid",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,grid,topbar",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "grid",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,topbar",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "topbar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,grid",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "grid"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,grid,topbar",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "grid",
+                "topbar"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "OPS_B",
+          "name": "Strategic Goal Cascade",
+          "description": "Visual tree: individual tasks auto-update CEO-level goal percentages",
+          "preferred_layout": [
+            "sidebar_content",
+            "centered"
+          ],
+          "needed_components": [
+            "card",
+            "progress",
+            "badge",
+            "tree",
+            "button",
+            "text"
+          ],
+          "match_count": 5,
+          "best_match_score": 77,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button,text",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 70,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,button,text",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "card",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_profile",
+              "screen_name": "User Profile Gallery",
+              "screen_type": "full_page",
+              "layout_type": "centered",
+              "component_count": 27,
+              "score": 70,
+              "reasons": [
+                "layout:centered",
+                "type:full_page",
+                "components:card,badge,button",
+                "rich:27comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "OPS_C",
+          "name": "Canonisation Queue",
+          "description": "Quality Gate for promoting Staging to Canonical",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "button",
+            "badge",
+            "table",
+            "toggle"
+          ],
+          "match_count": 5,
+          "best_match_score": 87,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_file_menu",
+              "screen_name": "3D Editor - File Menu Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,toggle",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "toggle"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 87,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button,badge",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button",
+                "badge"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_filter",
+              "screen_name": "Template Gallery - Filter Dropdown",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 39,
+              "score": 80,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,button",
+                "has_sidebar",
+                "rich:39comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "button"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "OPS_D",
+          "name": "Daily Digest Viewer",
+          "description": "AI-synthesized morning briefing by role level",
+          "preferred_layout": [
+            "centered",
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "card",
+            "text",
+            "badge",
+            "button",
+            "divider",
+            "avatar"
+          ],
+          "match_count": 5,
+          "best_match_score": 83,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,badge,button,divider",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider,avatar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider",
+                "avatar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider,avatar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider",
+                "avatar"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,badge,button,divider",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "card",
+                "badge",
+                "button",
+                "divider"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_likes",
+              "screen_name": "Likes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 30,
+              "score": 77,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:card,text,button,divider",
+                "rich:30comps"
+              ],
+              "matched_components": [
+                "card",
+                "text",
+                "button",
+                "divider"
+              ]
+            }
+          ]
+        },
+        {
+          "screen_id": "OPS_E",
+          "name": "Whole-Org Pulse",
+          "description": "Live activity feed: who's working on what, where the bottlenecks are",
+          "preferred_layout": [
+            "sidebar_content"
+          ],
+          "needed_components": [
+            "sidebar",
+            "card",
+            "avatar",
+            "badge",
+            "button",
+            "text",
+            "notification"
+          ],
+          "match_count": 5,
+          "best_match_score": 89,
+          "matches": [
+            {
+              "screen_slug": "pre_made_templates_my_scenes",
+              "screen_name": "My Scenes Gallery View",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button,text",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_toast",
+              "screen_name": "3D Objects Gallery with Toast Notification",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 26,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,avatar,button,text",
+                "has_sidebar",
+                "rich:26comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "avatar",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_user_dropdown",
+              "screen_name": "My Scenes with User Dropdown Menu",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 32,
+              "score": 89,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,avatar,button,text",
+                "has_sidebar",
+                "rich:32comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "avatar",
+                "button",
+                "text"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_assets_3d_objects",
+              "screen_name": "3D Objects Asset Library",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 38,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button",
+                "has_sidebar",
+                "rich:38comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button"
+              ]
+            },
+            {
+              "screen_slug": "pre_made_templates_explore",
+              "screen_name": "Explore Gallery - Main Dashboard",
+              "screen_type": "full_page",
+              "layout_type": "sidebar_content",
+              "component_count": 43,
+              "score": 83,
+              "reasons": [
+                "layout:sidebar_content",
+                "type:full_page",
+                "components:sidebar,card,badge,button",
+                "has_sidebar",
+                "rich:43comps"
+              ],
+              "matched_components": [
+                "sidebar",
+                "card",
+                "badge",
+                "button"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "coverage_summary": {
+    "total_prd_screens": 41,
+    "screens_with_matches": 41,
+    "screens_without_matches": 0,
+    "coverage_percentage": 100,
+    "note": "Brainwave alone covers these screens. Additional kits (Square Dashboard, Untitled UI, etc.) will fill gaps."
+  },
+  "unmapped_screens": [],
+  "best_reuse_screens": [
+    {
+      "slug": "pre_made_templates_my_scenes",
+      "matched_to_prd_screens": 34
+    },
+    {
+      "slug": "pre_made_templates_assets_3d_objects",
+      "matched_to_prd_screens": 32
+    },
+    {
+      "slug": "pre_made_templates_explore",
+      "matched_to_prd_screens": 29
+    },
+    {
+      "slug": "pre_made_templates_toast",
+      "matched_to_prd_screens": 17
+    },
+    {
+      "slug": "pre_made_templates_filter",
+      "matched_to_prd_screens": 16
+    },
+    {
+      "slug": "pre_made_templates_likes",
+      "matched_to_prd_screens": 14
+    },
+    {
+      "slug": "pre_made_templates_file_menu",
+      "matched_to_prd_screens": 13
+    },
+    {
+      "slug": "pre_made_templates_user_dropdown",
+      "matched_to_prd_screens": 11
+    },
+    {
+      "slug": "pre_made_templates_comment_conversation",
+      "matched_to_prd_screens": 8
+    },
+    {
+      "slug": "pre_made_templates_real_time_3d_canvas",
+      "matched_to_prd_screens": 8
+    },
+    {
+      "slug": "pre_made_templates_live_notification",
+      "matched_to_prd_screens": 6
+    },
+    {
+      "slug": "pre_made_templates_explore_detail",
+      "matched_to_prd_screens": 4
+    },
+    {
+      "slug": "pre_made_templates_create_account",
+      "matched_to_prd_screens": 4
+    },
+    {
+      "slug": "pre_made_templates_sign_in",
+      "matched_to_prd_screens": 4
+    },
+    {
+      "slug": "pre_made_templates_profile",
+      "matched_to_prd_screens": 3
+    }
+  ]
+}

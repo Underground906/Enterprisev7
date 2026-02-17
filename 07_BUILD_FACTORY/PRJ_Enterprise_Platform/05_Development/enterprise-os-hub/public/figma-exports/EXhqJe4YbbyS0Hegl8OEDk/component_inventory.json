@@ -1,0 +1,1235 @@
+{
+  "generated_at": "2026-02-16T20:24:30.060Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 10,
+  "successful": 10,
+  "failed": 0,
+  "component_types": {
+    "icon": 9,
+    "text": 9,
+    "topbar": 7,
+    "image": 6,
+    "heading": 7,
+    "card": 7,
+    "button": 15,
+    "logo": 4,
+    "input": 8,
+    "link": 4,
+    "list": 1,
+    "avatar": 2,
+    "testimonial": 2,
+    "accordion": 2,
+    "footer": 6,
+    "divider": 5,
+    "chart": 1,
+    "pricing_card": 4,
+    "faq": 1,
+    "badge": 1,
+    "toggle": 1,
+    "table": 1,
+    "grid": 1,
+    "form": 1,
+    "breadcrumb": 1
+  },
+  "reuse_categories": {
+    "navigation": 21,
+    "data_display": 48,
+    "action": 17,
+    "input": 11,
+    "branding": 2,
+    "layout": 5,
+    "feedback": 2
+  },
+  "layout_types": {
+    "centered": 10
+  },
+  "screens": [
+    {
+      "screen_slug": "cover_thumbnail",
+      "screen_name": "Aimate Cover Thumbnail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Aimate Logo",
+          "location": "center",
+          "approximate_dimensions": "Medium",
+          "details": "Purple stars and black text 'aimate'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Aimate Text",
+          "location": "center",
+          "approximate_dimensions": "Large",
+          "details": "Black sans-serif font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#000000",
+        "#ffffff"
+      ],
+      "typography_notes": "Sans-serif font used for 'aimate'",
+      "primary_purpose": "Branding or title screen",
+      "enterprise_os_potential": "Reusable as a logo or branding element"
+    },
+    {
+      "screen_slug": "final_design_aimate_about",
+      "screen_name": "About Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, and a call-to-action button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Image of people holding colored shapes",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Large text 'We are aimate, transforming your customer service'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Text describing the company's mission",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Team Member Cards",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Cards containing team member images, names, and titles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Contact Us Button",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Button with 'Contact us' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Team Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Image of team members standing together",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Partner Logos",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Logos of partner companies",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "News and Articles Cards",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Cards containing news and article summaries",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Button with 'Get started for free' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "medium",
+          "details": "Input field for email address",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Button with 'Get started' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Links to terms and conditions, privacy policy, etc.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#333333",
+        "#666666"
+      ],
+      "typography_notes": "Uses a clean, sans-serif font throughout",
+      "primary_purpose": "To provide information about the company and its mission",
+      "enterprise_os_potential": "Could be reused as a template for other company about pages"
+    },
+    {
+      "screen_slug": "final_design_aimate_contact",
+      "screen_name": "Contact Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Let's get in touch",
+          "location": "center",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Large heading text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Contact Form",
+          "location": "center",
+          "approximate_dimensions": "400x350",
+          "details": "Contains input fields for name, email, and message, with a send message button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "list",
+          "name": "Talk with our team to",
+          "location": "center",
+          "approximate_dimensions": "variable width x 150px",
+          "details": "Lists three points with checkboxes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "John Doe's Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with a person's image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "John Doe's Testimonial",
+          "location": "center",
+          "approximate_dimensions": "variable width x 100px",
+          "details": "Text testimonial with name and title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Trusted by Logos",
+          "location": "center",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Displays logos of Capsule, Spherule, and FocalPoint",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQs",
+          "location": "center",
+          "approximate_dimensions": "variable width x 300px",
+          "details": "Accordion with multiple questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get started for free",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains newsletter subscription, social links, contact info, and terms & conditions",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Subscription Input",
+          "location": "bottom",
+          "approximate_dimensions": "200x40",
+          "details": "Input field with a get started button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Displays icons for Facebook, Instagram, LinkedIn, and Twitter",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2E7D32",
+        "#FFFFFF",
+        "#212121"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or a similar font",
+      "primary_purpose": "To provide a contact page for users to get in touch with the company",
+      "enterprise_os_potential": "This layout could be reused for other contact or support pages within an enterprise OS, potentially with modifications to fit different branding and content needs"
+    },
+    {
+      "screen_slug": "final_design_aimate_features",
+      "screen_name": "Aimate Features Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Hero Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Large heading with subtext",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Dashboard Screenshot",
+          "location": "center",
+          "approximate_dimensions": "800x400px",
+          "details": "Screenshot of Aimate dashboard",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "Cards describing features with icons and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icons",
+          "location": "within feature cards",
+          "approximate_dimensions": "24x24px",
+          "details": "Various icons representing features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains newsletter signup, company info, and social links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Input",
+          "location": "footer",
+          "approximate_dimensions": "200x40px",
+          "details": "Email input field with get started button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Newsletter Get Started Button",
+          "location": "footer",
+          "approximate_dimensions": "100x40px",
+          "details": "Button next to email input",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Social Links",
+          "location": "footer",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Links to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "footer",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#4B32C3",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are bold and large",
+      "primary_purpose": "Showcasing Aimate features and encouraging sign up",
+      "enterprise_os_potential": "Could be adapted for other enterprise software feature showcases"
+    },
+    {
+      "screen_slug": "final_design_aimate_get_started",
+      "screen_name": "Aimate Get Started",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Back arrow",
+          "location": "top",
+          "approximate_dimensions": "16x16",
+          "details": "Left arrow icon, black color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Go back",
+          "location": "top",
+          "approximate_dimensions": "40x20",
+          "details": "Black text, font size 14",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "logo",
+          "name": "Aimate logo",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "Purple and black logo",
+          "reusable": true,
+          "reuse_category": "branding"
+        },
+        {
+          "type": "heading",
+          "name": "Create an account",
+          "location": "center",
+          "approximate_dimensions": "200x30",
+          "details": "Black text, font size 24",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Use the email address you use at work.",
+          "location": "center",
+          "approximate_dimensions": "200x20",
+          "details": "Gray text, font size 14",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email address input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, padding 10",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create an account",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "OR divider",
+          "location": "center",
+          "approximate_dimensions": "300x20",
+          "details": "Gray text, font size 14",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Continue with Google",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Google logo, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Already have an account? Login",
+          "location": "center",
+          "approximate_dimensions": "150x20",
+          "details": "Gray text, font size 14, green link",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#7A288A",
+        "#FFFFFF",
+        "#808080",
+        "#34C759"
+      ],
+      "typography_notes": "Open sans font, font sizes 14, 24",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable for other SaaS applications"
+    },
+    {
+      "screen_slug": "final_design_aimate_home",
+      "screen_name": "Aimate Home",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Dark green background, white text and logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Try for free button",
+          "location": "top",
+          "approximate_dimensions": "120x40px",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Feature cards",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "White background, green accents, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero image",
+          "location": "center",
+          "approximate_dimensions": "400x300px",
+          "details": "Image of a person",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Statistics chart",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "Green and white chart",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing plans",
+          "location": "center",
+          "approximate_dimensions": "300x400px",
+          "details": "Green and white cards with pricing information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer testimonials",
+          "location": "center",
+          "approximate_dimensions": "400x200px",
+          "details": "Quotes from customers with ratings",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "faq",
+          "name": "Frequently asked questions",
+          "location": "center",
+          "approximate_dimensions": "600x300px",
+          "details": "List of questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Dark green background, white text and links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section dividers",
+          "location": "varies",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Light gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Feature icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20px",
+          "details": "Green icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating badges",
+          "location": "varies",
+          "approximate_dimensions": "50x20px",
+          "details": "Green and white badges with ratings",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#1A3C40",
+        "#34C759"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To showcase the features and benefits of Aimate",
+      "enterprise_os_potential": "This layout could be reused for other enterprise software products"
+    },
+    {
+      "screen_slug": "final_design_aimate_login",
+      "screen_name": "Aimate Login Screen",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Back arrow",
+          "location": "top left",
+          "approximate_dimensions": "16x16",
+          "details": "Left arrow icon next to 'Go back' text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Go back",
+          "location": "top left",
+          "approximate_dimensions": "auto",
+          "details": "Text next to back arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "logo",
+          "name": "Aimate logo",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Aimate logo with star icon",
+          "reusable": true,
+          "reuse_category": "branding"
+        },
+        {
+          "type": "heading",
+          "name": "Welcome Back!!",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Large heading text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Access your account now",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Subheading text below 'Welcome Back!!'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email address input",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Text input field for email address",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password input",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Password input field with 'Forgot password?' link",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "link",
+          "name": "Forgot password?",
+          "location": "right",
+          "approximate_dimensions": "auto",
+          "details": "Link next to password input field",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Login button",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Purple colored button with 'Login' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "OR divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Divider with 'OR' text",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Continue with Google button",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Button with Google logo and 'Continue with Google' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Don't have account yet? Sign Up",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Text with 'Sign Up' link",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Sign Up link",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Link in 'Don't have account yet? Sign Up' text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout the screen",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable as a login screen for various enterprise applications"
+    },
+    {
+      "screen_slug": "final_design_aimate_pricing",
+      "screen_name": "Aimate Pricing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login button, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Plans For Every Stage",
+          "location": "center",
+          "approximate_dimensions": "variable width x 2 lines",
+          "details": "Large heading text with subheading",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Monthly/Yearly Toggle",
+          "location": "center",
+          "approximate_dimensions": "150x30px",
+          "details": "Toggle button for switching between monthly and yearly pricing plans",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Starter Plan Card",
+          "location": "left",
+          "approximate_dimensions": "300x400px",
+          "details": "Card with plan details, pricing, and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Individual Plan Card",
+          "location": "center",
+          "approximate_dimensions": "300x400px",
+          "details": "Card with plan details, pricing, and call-to-action button, highlighted",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Business Plan Card",
+          "location": "right",
+          "approximate_dimensions": "300x400px",
+          "details": "Card with plan details, pricing, and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Plans Comparison Table",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Table comparing features across different plans",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQs Accordion",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Accordion with frequently asked questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains newsletter subscription form, social media links, contact information, and copyright notice",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "varies",
+          "approximate_dimensions": "150x40px",
+          "details": "Call-to-action button in various sections",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20px",
+          "details": "Small checkmark icons used to indicate features included in plans",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "varies",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Thin dividers separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#333333",
+        "#666666"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with varying font sizes and weights for headings and body text",
+      "primary_purpose": "To display pricing plans and features to potential customers",
+      "enterprise_os_potential": "This layout could be reused for other pricing pages or product showcases within an enterprise OS, with modifications to content and branding"
+    },
+    {
+      "screen_slug": "final_design_blog",
+      "screen_name": "Blog Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, navigation links, login button, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Blogs Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "Large font heading 'Blogs'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Blog Posts Grid",
+          "location": "center",
+          "approximate_dimensions": "3 columns, variable height",
+          "details": "Displays 9 blog posts with images, titles, and summaries",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Blog Post Card",
+          "location": "within grid",
+          "approximate_dimensions": "variable width and height",
+          "details": "Contains image, category, date, read time, title, and summary",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Read More Button",
+          "location": "within card",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "Text button with 'Read more' label",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "form",
+          "name": "Subscribe to Blog Form",
+          "location": "center",
+          "approximate_dimensions": "full width, 150px height",
+          "details": "Contains input field and get started button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "Contains company information, social media links, and newsletter subscription form",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "within form",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Text input field for email address",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "within form",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Button with 'Get started' label",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "within footer",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Icons for Facebook, Instagram, LinkedIn, and Twitter",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#34C759"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To display a list of blog posts and allow users to subscribe to the blog",
+      "enterprise_os_potential": "Could be reused as a template for other content listing pages"
+    },
+    {
+      "screen_slug": "final_design_blog_singlepage",
+      "screen_name": "Blog Single Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Go back link",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "Left arrow icon with 'Go back' text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "Circular image of John Doe",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Image of a person with a laptop",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Inline Images",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Three images illustrating AI-powered solutions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get started button",
+          "location": "bottom",
+          "approximate_dimensions": "medium",
+          "details": "Green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email input",
+          "location": "bottom",
+          "approximate_dimensions": "medium",
+          "details": "Text input for email address",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Related post cards",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Three cards with images, titles, and read more links",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Thin horizontal line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains copyright information, social links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social icons",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Facebook, LinkedIn, and Twitter icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#34C759"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with varying font sizes for headings and body text",
+      "primary_purpose": "To display a single blog post with related content and calls to action",
+      "enterprise_os_potential": "Could be reused as a template for other blog posts or articles, with customizable content and images"
+    }
+  ]
+}

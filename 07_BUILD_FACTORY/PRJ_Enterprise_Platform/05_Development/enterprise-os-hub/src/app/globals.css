@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+/* === ENTERPRISE OS DESIGN TOKENS === */
+/* Extracted from Brainwave 2.0 Figma kit color_style + typography */
+
+:root {
+  /* Brainwave Shades (grayscale palette) */
+  --shade-1: #FCFCFC;
+  --shade-2: #F8F7F7;
+  --shade-3: #F1F1F1;
+  --shade-4: #ECECEC;
+  --shade-5: #E2E2E2;
+  --shade-6: #7B7B7B;
+  --shade-7: #323232;
+  --shade-8: #222222;
+  --shade-9: #121212;
+
+  /* Brainwave Accent Colors */
+  --bw-green: #49BA61;
+  --bw-blue: #3582FF;
+  --bw-orange: #E36323;
+  --bw-yellow: #FFB73A;
+  --bw-red: #FE5938;
+  --bw-purple: #8755E9;
+
+  /* Semantic mapping for components */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: var(--shade-1);
+  --bg-tertiary: var(--shade-3);
+  --bg-card: #FFFFFF;
+  --bg-card-hover: var(--shade-2);
+  --bg-sidebar: #FFFFFF;
+  --bg-active: var(--shade-3);
+
+  /* Text — Brainwave uses near-black to mid-gray */
+  --text-primary: var(--shade-9);
+  --text-secondary: var(--shade-7);
+  --text-tertiary: var(--shade-6);
+
+  /* Primary action color is dark (Brainwave uses dark buttons) */
+  --btn-primary-bg: var(--shade-8);
+  --btn-primary-text: #FFFFFF;
+
+  /* Brand green — John's brand #0B8C00, Brainwave logo #49BA61 */
+  --accent-green: #0B8C00;
+  --accent-green-bw: #49BA61;
+  --accent-green-light: #ECFDF5;
+
+  /* Keep these for status/feedback - matched to Brainwave palette */
+  --accent-blue: var(--bw-blue);
+  --accent-blue-light: #EBF2FF;
+  --accent-amber: var(--bw-yellow);
+  --accent-amber-light: #FFF8EB;
+  --accent-red: var(--bw-red);
+  --accent-red-light: #FFF0ED;
+  --accent-purple: var(--bw-purple);
+  --accent-purple-light: #F3EDFD;
+  --accent-orange: var(--bw-orange);
+
+  /* Module colors (keeping for module identification) */
+  --color-system-root: #6366F1;
+  --color-navigation: var(--bw-purple);
+  --color-command: #EC4899;
+  --color-engine: var(--bw-blue);
+  --color-library: var(--bw-yellow);
+  --color-templates: var(--bw-green);
+  --color-pillars: var(--bw-blue);
+  --color-factory: var(--bw-red);
+  --color-operations: #0B8C00;
+
+  /* Borders — from Brainwave shades */
+  --border-subtle: var(--shade-3);
+  --border-default: var(--shade-5);
+  --border-accent: var(--shade-4);
+
+  /* Shadows — very subtle, Brainwave is flat */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.08);
+
+  /* Radius — Brainwave uses generous rounding */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --sidebar-width: 200px;
+  --topbar-height: 56px;
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+}
+
+/* Brainwave typography: Inter, negative letter-spacing */
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  line-height: 1.23;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Brainwave heading styles */
+h1 { font-size: 48px; font-weight: 400; line-height: 1.15; letter-spacing: -0.03em; }
+h2 { font-size: 40px; font-weight: 400; line-height: 1.2; letter-spacing: -0.03em; }
+h3 { font-size: 32px; font-weight: 400; line-height: 1.25; letter-spacing: -0.03em; }
+h4 { font-size: 28px; font-weight: 400; line-height: 1.29; letter-spacing: -0.03em; }
+h5 { font-size: 24px; font-weight: 500; line-height: 1.33; letter-spacing: -0.03em; }
+h6 { font-size: 20px; font-weight: 500; line-height: 1.4; letter-spacing: -0.03em; }
+
+/* Scrollbar - Brainwave style: barely visible */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--shade-5); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--shade-6); }
+
+/* Brainwave input style */
+input, textarea, select {
+  font-family: inherit;
+  letter-spacing: -0.01em;
+}
+
+/* Markdown content styling */
+.markdown-content h1 { font-size: 1.75rem; font-weight: 400; margin: 1.5rem 0 1rem; color: var(--text-primary); letter-spacing: -0.03em; }
+.markdown-content h2 { font-size: 1.375rem; font-weight: 500; margin: 1.25rem 0 0.75rem; color: var(--text-primary); border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.5rem; letter-spacing: -0.03em; }
+.markdown-content h3 { font-size: 1.125rem; font-weight: 500; margin: 1rem 0 0.5rem; color: var(--text-primary); letter-spacing: -0.02em; }
+.markdown-content h4 { font-size: 1rem; font-weight: 500; margin: 0.75rem 0 0.5rem; color: var(--text-secondary); }
+.markdown-content p { margin: 0.5rem 0; color: var(--text-secondary); line-height: 1.5; font-size: 15px; }
+.markdown-content ul, .markdown-content ol { margin: 0.5rem 0; padding-left: 1.5rem; color: var(--text-secondary); }
+.markdown-content li { margin: 0.25rem 0; line-height: 1.5; }
+.markdown-content code { background: var(--bg-tertiary); padding: 2px 6px; border-radius: 4px; font-size: 0.85em; color: var(--shade-7); }
+.markdown-content pre { background: var(--shade-9); color: #CDD6F4; padding: 1rem; border-radius: var(--radius-md); overflow-x: auto; margin: 0.75rem 0; }
+.markdown-content pre code { background: none; padding: 0; color: inherit; }
+.markdown-content blockquote { border-left: 3px solid var(--shade-5); padding-left: 1rem; margin: 0.75rem 0; color: var(--text-tertiary); font-style: italic; }
+.markdown-content table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.9rem; }
+.markdown-content th { text-align: left; padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border-default); color: var(--text-primary); font-weight: 600; }
+.markdown-content td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary); }
+.markdown-content tr:hover td { background: var(--bg-tertiary); }
+.markdown-content a { color: var(--shade-7); text-decoration: underline; }
+.markdown-content a:hover { color: var(--shade-9); }
+.markdown-content hr { border: none; border-top: 1px solid var(--border-default); margin: 1.5rem 0; }
+.markdown-content strong { color: var(--text-primary); font-weight: 600; }

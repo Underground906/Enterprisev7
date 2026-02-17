@@ -40,5 +40,10 @@ chromadb/
 **/figma_catalog/
 **/figma_files.json
 
+# Figma exports (PNG/SVG screens - 5000+ files, regenerable via scripts)
+**/figma-exports/*/screens/
+**/figma-exports/*/components/
+**/figma-exports/*/inventory_batch_*.json
+
 # Large data files
 *.csv

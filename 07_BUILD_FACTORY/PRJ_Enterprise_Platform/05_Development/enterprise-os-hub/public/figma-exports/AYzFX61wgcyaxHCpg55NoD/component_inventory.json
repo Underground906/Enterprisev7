@@ -1,0 +1,2600 @@
+{
+  "generated_at": "2026-02-16T19:57:57.275Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 23,
+  "successful": 23,
+  "failed": 0,
+  "component_types": {
+    "topbar": 9,
+    "card": 15,
+    "input": 11,
+    "textarea": 1,
+    "radio": 2,
+    "select": 3,
+    "button": 59,
+    "icon": 25,
+    "sidebar": 5,
+    "avatar": 17,
+    "divider": 4,
+    "chart": 1,
+    "text": 9,
+    "grid": 5,
+    "chat": 2,
+    "dropdown": 5,
+    "image": 15,
+    "notification": 2,
+    "badge": 5,
+    "search_bar": 3,
+    "list": 2,
+    "breadcrumb": 1,
+    "tag": 1,
+    "tabs": 1,
+    "menu": 2,
+    "pagination": 1,
+    "footer": 3,
+    "heading": 2,
+    "link": 3,
+    "testimonial": 1,
+    "rating": 1,
+    "toggle": 1,
+    "pricing_card": 3,
+    "navigation": 1,
+    "logo": 2
+  },
+  "reuse_categories": {
+    "navigation": 34,
+    "data_display": 73,
+    "input": 26,
+    "action": 64,
+    "layout": 12,
+    "feedback": 12,
+    "none": 2
+  },
+  "layout_types": {
+    "split": 6,
+    "sidebar_content": 4,
+    "grid": 4,
+    "centered": 8,
+    "full_canvas": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "design_create_event",
+      "screen_name": "Create Event",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "contains logo, navigation links, and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Event Information Card",
+          "location": "left",
+          "approximate_dimensions": "300x400",
+          "details": "contains text and headings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Event Name Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "textarea",
+          "name": "Description Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 100px",
+          "details": "text area with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Event Type Radio Buttons",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "contains multiple radio buttons with labels",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Host Name Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Speaker Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Event Time Select",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "contains multiple select fields for day, month, and year",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Time Select",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "contains multiple select fields for start and end time",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Access Select",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "select field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Invite People Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text and add button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "HTM Radio Buttons",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "contains multiple radio buttons with labels",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Rp Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Seat Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Editable Link Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create Event Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Asterisk Icon",
+          "location": "varies",
+          "approximate_dimensions": "small",
+          "details": "red asterisk indicating required fields",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "uses a clean sans-serif font, headings are bold",
+      "primary_purpose": "creating events",
+      "enterprise_os_potential": "event management systems, conference planning tools"
+    },
+    {
+      "screen_slug": "design_dashboard_event_created",
+      "screen_name": "Event Created Dashboard",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons, contains navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Event Recording Card",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "White card with shadow, contains event recording details and video preview",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Log Out Button",
+          "location": "bottom left",
+          "approximate_dimensions": "100x40",
+          "details": "Red button with white text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons used in navigation sidebar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Sidebar Dividers",
+          "location": "left",
+          "approximate_dimensions": "1px height",
+          "details": "Thin dividers separating navigation links",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#333",
+        "#fff",
+        "#f00"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Displaying event recording details and video preview",
+      "enterprise_os_potential": "Reusable as a dashboard layout for various enterprise applications"
+    },
+    {
+      "screen_slug": "design_dashboard_rating",
+      "screen_name": "Design Dashboard Rating",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "White background, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Topbar with User Avatar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "White background, user avatar, and name",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Rating Card",
+          "location": "center",
+          "approximate_dimensions": "500x300",
+          "details": "White background, blue bars, and gold stars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Rating Distribution Chart",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Blue bars, gold stars, and numerical values",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Star Icons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Gold color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Average Rating Text",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "Black text, 3.98/5",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Review Cards",
+          "location": "center",
+          "approximate_dimensions": "500x200",
+          "details": "White background, text, and gold stars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#3498DB",
+        "#F1C40F"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font",
+      "primary_purpose": "Displaying event ratings and reviews",
+      "enterprise_os_potential": "Reusable for dashboard and analytics pages"
+    },
+    {
+      "screen_slug": "design_desktop_4",
+      "screen_name": "Video Conference Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "grid",
+          "name": "Video Grid",
+          "location": "center",
+          "approximate_dimensions": "9 video tiles",
+          "details": "3x3 grid of video tiles with participant names and icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "Participant Avatars",
+          "location": "within video tiles",
+          "approximate_dimensions": "varies",
+          "details": "images or initials of participants",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Mute and Video Icons",
+          "location": "bottom left of some video tiles",
+          "approximate_dimensions": "small",
+          "details": "icons indicating mute or video status",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Control Buttons",
+          "location": "bottom of some video tiles",
+          "approximate_dimensions": "40x40px",
+          "details": "icons for various actions like mute, video, and more",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "chat",
+          "name": "Chat Panel",
+          "location": "right",
+          "approximate_dimensions": "250x600px",
+          "details": "chat log with messages, avatars, and input field",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input Field",
+          "location": "bottom of chat panel",
+          "approximate_dimensions": "200x40px",
+          "details": "text input for sending messages",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "right of chat input field",
+          "approximate_dimensions": "40x40px",
+          "details": "button to send chat messages",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "dropdown",
+          "name": "Whom Dropdown",
+          "location": "bottom of chat panel",
+          "approximate_dimensions": "100x30px",
+          "details": "dropdown to select chat recipient",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#ff0000"
+      ],
+      "typography_notes": "participant names in a clean sans-serif font",
+      "primary_purpose": "video conferencing",
+      "enterprise_os_potential": "reusable for virtual meeting applications"
+    },
+    {
+      "screen_slug": "design_desktop_1",
+      "screen_name": "Video Recording Interface",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Main User Image",
+          "location": "center",
+          "approximate_dimensions": "Large, centered",
+          "details": "Woman wearing headphones, holding a pencil, smiling",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "icon",
+          "name": "Recording Indicator",
+          "location": "top left",
+          "approximate_dimensions": "Small",
+          "details": "Red and green indicators",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Participant Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "Small",
+          "details": "Image of a person reading a book",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Control Buttons",
+          "location": "bottom center",
+          "approximate_dimensions": "Various small buttons",
+          "details": "Icons for various controls (e.g., mute, camera, share)",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Navigation Buttons",
+          "location": "bottom right",
+          "approximate_dimensions": "Small",
+          "details": "Three dots and arrow icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "notification",
+          "name": "Chat Notification",
+          "location": "top right",
+          "approximate_dimensions": "Small",
+          "details": "Text notification from Devon Hawkins",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00"
+      ],
+      "typography_notes": "Simple, clean font used for text notifications",
+      "primary_purpose": "Video recording or conferencing interface",
+      "enterprise_os_potential": "Reusable for video conferencing or recording software"
+    },
+    {
+      "screen_slug": "design_desktop_10",
+      "screen_name": "Video Call Interface",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "Large, taking most of the screen",
+          "details": "Large image of a woman's face",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Mute Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Red button with white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Video Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Green button with white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "bottom center",
+          "approximate_dimensions": "Multiple 40x40",
+          "details": "Gray buttons with various icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Chat Panel",
+          "location": "right",
+          "approximate_dimensions": "300x full height",
+          "details": "White panel with chat messages",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Chat Participant Avatars",
+          "location": "top right",
+          "approximate_dimensions": "Multiple small avatars",
+          "details": "Small circular images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Message Input",
+          "location": "bottom right",
+          "approximate_dimensions": "Full width of chat panel",
+          "details": "Text input field with placeholder 'Message...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "Gray button with send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "dropdown",
+          "name": "Whom Dropdown",
+          "location": "bottom right",
+          "approximate_dimensions": "Small dropdown",
+          "details": "Dropdown with label 'All'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "Small icon",
+          "details": "Smiley face icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#ff0000",
+        "#00ff00"
+      ],
+      "typography_notes": "Standard sans-serif font used throughout",
+      "primary_purpose": "Video conferencing interface",
+      "enterprise_os_potential": "Reusable for various video call applications"
+    },
+    {
+      "screen_slug": "design_desktop_2",
+      "screen_name": "Video Conference Call",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "avatar",
+          "name": "Main User Avatar",
+          "location": "center",
+          "approximate_dimensions": "Large, centered",
+          "details": "Large image of a man's face, dark background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Participants Panel",
+          "location": "bottom",
+          "approximate_dimensions": "Full width, 150px height",
+          "details": "Gray background, contains participant avatars",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "Participant Avatars",
+          "location": "bottom",
+          "approximate_dimensions": "Small, 100x100px",
+          "details": "Multiple small avatars of participants, some with initials, some with images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Mute Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40px",
+          "details": "Red button with white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Camera Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40px",
+          "details": "Red button with white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Add Participant Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40px",
+          "details": "Gray button with black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Chat Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40px",
+          "details": "Gray button with red notification dot",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Share Screen Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40px",
+          "details": "Gray button with black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Record Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40px",
+          "details": "Red button with white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Raise Hand Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40px",
+          "details": "Gray button with black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "More Options Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40px",
+          "details": "Gray button with three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Leave Call Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40px",
+          "details": "Gray button with arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Recording Indicator",
+          "location": "top left",
+          "approximate_dimensions": "20x20px",
+          "details": "Red circle with white icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Recording Text",
+          "location": "top left",
+          "approximate_dimensions": "Variable width, 20px height",
+          "details": "Black text 'Recording'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Host Badge",
+          "location": "bottom left",
+          "approximate_dimensions": "Small",
+          "details": "Blue badge with white text 'Host'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF0000",
+        "#808080"
+      ],
+      "typography_notes": "Sans-serif font, various sizes and weights",
+      "primary_purpose": "Video conferencing interface",
+      "enterprise_os_potential": "Reusable for virtual meeting and collaboration tools"
+    },
+    {
+      "screen_slug": "design_desktop_3",
+      "screen_name": "Video Conference Interface",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Main User Image",
+          "location": "center",
+          "approximate_dimensions": "Large, taking most of the screen",
+          "details": "A close-up image of a woman's face",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Mute Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40px",
+          "details": "Red button with a white mute icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Camera Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40px",
+          "details": "Red button with a white camera icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Various Action Buttons",
+          "location": "bottom center",
+          "approximate_dimensions": "Multiple 40x40px buttons",
+          "details": "Gray buttons with various icons (people, chat, share, hand, etc.)",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Participant Video",
+          "location": "bottom left",
+          "approximate_dimensions": "Small, inset from main image",
+          "details": "A smaller video feed of another participant",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chat",
+          "name": "Chat Panel",
+          "location": "right",
+          "approximate_dimensions": "Narrow panel",
+          "details": "Chat interface with messages and avatars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom right",
+          "approximate_dimensions": "Text input field",
+          "details": "Text input for sending chat messages",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "Small button",
+          "details": "Button to send chat message",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "right, within chat",
+          "approximate_dimensions": "Small, circular avatars",
+          "details": "Avatars representing chat participants",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Reaction",
+          "location": "right, within chat",
+          "approximate_dimensions": "Small emoji",
+          "details": "Emoji used as a reaction in chat",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "dropdown",
+          "name": "Whom Dropdown",
+          "location": "bottom right",
+          "approximate_dimensions": "Small dropdown",
+          "details": "Dropdown to select chat recipient",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#FF0000",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Standard sans-serif font used throughout the interface",
+      "primary_purpose": "Video conferencing interface",
+      "enterprise_os_potential": "Reusable for various video conferencing and collaboration tools"
+    },
+    {
+      "screen_slug": "design_desktop_5",
+      "screen_name": "Video Conference Grid",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "grid",
+          "name": "Video Conference Grid",
+          "location": "center",
+          "approximate_dimensions": "full screen",
+          "details": "4x4 grid of video feeds",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Participant Video Feed",
+          "location": "varies",
+          "approximate_dimensions": "varies",
+          "details": "video feed of participants",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Participant Avatar",
+          "location": "varies",
+          "approximate_dimensions": "small",
+          "details": "avatar of participants when video is off",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Mute Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "small",
+          "details": "mute icon on participant video feed",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Mute Button",
+          "location": "bottom left",
+          "approximate_dimensions": "small",
+          "details": "mute button on participant video feed",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "More Options Button",
+          "location": "bottom right",
+          "approximate_dimensions": "small",
+          "details": "more options button on participant video feed",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Recording Badge",
+          "location": "top left",
+          "approximate_dimensions": "small",
+          "details": "recording badge on top left",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Participant Name",
+          "location": "bottom left",
+          "approximate_dimensions": "small",
+          "details": "participant name below video feed",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#yellow",
+        "#black",
+        "#white",
+        "#red"
+      ],
+      "typography_notes": "simple sans-serif font used for participant names",
+      "primary_purpose": "video conferencing",
+      "enterprise_os_potential": "reusable for video conferencing applications"
+    },
+    {
+      "screen_slug": "design_desktop_6",
+      "screen_name": "Video Conference Call",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Recording indicator",
+          "location": "top",
+          "approximate_dimensions": "100x20",
+          "details": "green and red buttons with white icons",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Main participant",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "image of a woman with dark hair",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Control buttons",
+          "location": "bottom",
+          "approximate_dimensions": "40x40",
+          "details": "gray buttons with various icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "sidebar",
+          "name": "Chat panel",
+          "location": "right",
+          "approximate_dimensions": "300x600",
+          "details": "white background with list of participants",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Participant search",
+          "location": "right",
+          "approximate_dimensions": "250x30",
+          "details": "gray search bar with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "list",
+          "name": "Participant list",
+          "location": "right",
+          "approximate_dimensions": "250x400",
+          "details": "list of participants with names and icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Mute icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "red button with white mute icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Video icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "red button with white video icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Chander's avatar",
+          "location": "left",
+          "approximate_dimensions": "100x100",
+          "details": "image of Chander with a book",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Message input",
+          "location": "right bottom",
+          "approximate_dimensions": "250x30",
+          "details": "text input with placeholder 'Message...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send button",
+          "location": "right bottom",
+          "approximate_dimensions": "20x20",
+          "details": "gray button with send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji icon",
+          "location": "right bottom",
+          "approximate_dimensions": "20x20",
+          "details": "gray button with emoji icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#212121",
+        "#FFFFFF",
+        "#FF0000"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Video conferencing",
+      "enterprise_os_potential": "Reusable for team collaboration and meeting tools"
+    },
+    {
+      "screen_slug": "design_desktop_8",
+      "screen_name": "Design Desktop Wireframe",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Wireframe design",
+          "location": "center",
+          "approximate_dimensions": "Full screen",
+          "details": "Black and white wireframe design",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "Devon Hawkins avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "notification",
+          "name": "Audio notification",
+          "location": "top right",
+          "approximate_dimensions": "200x50",
+          "details": "White background, black text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Chander avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "100x100",
+          "details": "Circular avatar with image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Mute button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Red background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Video button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Red background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Invite button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "White background, black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Chat button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "Green background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Settings button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "White background, black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Hand raise button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "White background, black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "More options button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "White background, black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Next button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "White background, black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#FF0000",
+        "#00FF00"
+      ],
+      "typography_notes": "Black text on white background",
+      "primary_purpose": "Video conferencing interface",
+      "enterprise_os_potential": "Reusable for virtual meeting platforms"
+    },
+    {
+      "screen_slug": "design_desktop_9",
+      "screen_name": "Video Conference Grid",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "grid",
+          "name": "Video Grid",
+          "location": "center",
+          "approximate_dimensions": "4x4 grid",
+          "details": "Grid layout with 4 columns and 4 rows, displaying video feeds of participants",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "Participant Video Feed",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Video feeds of participants, some with muted audio or video",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Mute Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Red icon indicating muted audio",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Camera Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Green icon indicating camera is on",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Mute Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Red button to mute audio",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Camera Button",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Green button to toggle camera",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Add Participant Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "Button to add participants",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Chat Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "Button to open chat",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Share Screen Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "Button to share screen",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Record Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "Button to record meeting",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Raise Hand Button",
+          "location": "bottom center",
+          "approximate_dimensions": "40x40",
+          "details": "Button to raise hand",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Host Badge",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Green badge indicating host",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Raise Hand Badge",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Green badge indicating raised hand",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#FF0000",
+        "#00FF00"
+      ],
+      "typography_notes": "Simple sans-serif font used for participant names",
+      "primary_purpose": "Video conferencing interface",
+      "enterprise_os_potential": "Reusable for virtual meeting platforms"
+    },
+    {
+      "screen_slug": "design_event_details",
+      "screen_name": "Event Details Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, navigation links, login and register buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Event Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "displays 'Event' with an edit icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tag",
+          "name": "Event Status Tag",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "displays 'Upcoming' and 'Webinar'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Host Avatar",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "displays host's name 'John Doe'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Event Details Tabs",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "contains 'About', 'Alur Event', 'Rating', and 'Komentar' tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Register Button",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "blue button with 'Register' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Event Image",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "displays an image related to the event",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Footer Divider",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "separates content from footer",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "menu",
+          "name": "Footer Menu",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links to 'Company', 'Pricing', 'Features', and 'Office' sections",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "to display event details and allow registration",
+      "enterprise_os_potential": "can be reused for various event management platforms"
+    },
+    {
+      "screen_slug": "design_event_list",
+      "screen_name": "Event List Design",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, login, and register buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Event Search",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Text input for searching events",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Type Filter",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Dropdown for filtering event types",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Status Filter",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Dropdown for filtering event status",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "grid",
+          "name": "Event Grid",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Grid displaying event cards",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Event Card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "Card containing event image, title, description, and details",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Event Image",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Image representing the event",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View Details",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Button to view event details",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Pagination controls for navigating event list",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains company information, links, and copyright notice",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying a list of events with filtering and pagination",
+      "enterprise_os_potential": "Reusable as a template for event management systems or conference platforms"
+    },
+    {
+      "screen_slug": "design_features",
+      "screen_name": "Confiss Platform Features",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation links, login, and register buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Register Button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "White button with blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Features Heading",
+          "location": "center",
+          "approximate_dimensions": "variable x 30",
+          "details": "Large font, bold, black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Platform Screenshot",
+          "location": "center",
+          "approximate_dimensions": "800x500",
+          "details": "Screenshot of the platform's video conference feature",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Contains icon, heading, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icon",
+          "location": "inside card",
+          "approximate_dimensions": "24x24",
+          "details": "Colored icon representing the feature",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200",
+          "details": "Contains company information, links, and copyright notice",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Footer Link",
+          "location": "inside footer",
+          "approximate_dimensions": "variable x 20",
+          "details": "Text links to other pages or external sites",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To showcase the features of the Confiss platform",
+      "enterprise_os_potential": "This layout could be reused for other software as a service (SaaS) product landing pages"
+    },
+    {
+      "screen_slug": "design_home",
+      "screen_name": "Confiss Home Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 60px height",
+          "details": "Contains logo, navigation links, login and register buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "See Pricing Plan Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Transparent button with blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "large, rectangular",
+          "details": "Image of a person wearing headphones",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Cards with icons, headings, and text describing features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icons",
+          "location": "within feature cards",
+          "approximate_dimensions": "varies",
+          "details": "Various icons representing different features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Event Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Cards displaying event information with images, text, and buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View Details Button",
+          "location": "within event cards",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "testimonial",
+          "name": "Testimonial Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Cards with testimonials, names, and ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "rating",
+          "name": "Star Ratings",
+          "location": "within testimonial cards",
+          "approximate_dimensions": "varies",
+          "details": "5-star ratings",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Register Now Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "footer",
+          "approximate_dimensions": "varies",
+          "details": "Links to company information, pricing, features, and social media",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "footer",
+          "approximate_dimensions": "varies",
+          "details": "Text displaying copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean, modern sans-serif font",
+      "primary_purpose": "To introduce the Confiss platform and encourage sign-ups",
+      "enterprise_os_potential": "Could be adapted for other event management platforms or marketing landing pages"
+    },
+    {
+      "screen_slug": "design_pricing_plan",
+      "screen_name": "Pricing Plan",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, navigation links, login and register buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "toggle",
+          "name": "Billing Toggle",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "switch between bill monthly and bill annually",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Free Plan Card",
+          "location": "center",
+          "approximate_dimensions": "1/3 width",
+          "details": "contains plan name, price, features, and get started button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Premium Plan Card",
+          "location": "center",
+          "approximate_dimensions": "1/3 width",
+          "details": "contains plan name, price, features, and get started button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Business Plan Card",
+          "location": "center",
+          "approximate_dimensions": "1/3 width",
+          "details": "contains plan name, price, features, and get started button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains company information, links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "varies",
+          "approximate_dimensions": "small",
+          "details": "used to indicate features in pricing plans",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "varies",
+          "approximate_dimensions": "full width",
+          "details": "used to separate sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "to display pricing plans and allow users to choose a plan",
+      "enterprise_os_potential": "this layout could be reused for other pricing plans or comparison tables"
+    },
+    {
+      "screen_slug": "presentation_cover",
+      "screen_name": "Presentation Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x1080",
+          "details": "Dark gray background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "menu",
+          "name": "Navigation menu",
+          "location": "left",
+          "approximate_dimensions": "200x800",
+          "details": "White text, icons, hover effects",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Plus button",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White icon, blue hover",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search bar",
+          "location": "left",
+          "approximate_dimensions": "200x32",
+          "details": "White background, gray text, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "grid",
+          "name": "Presentation grid",
+          "location": "center",
+          "approximate_dimensions": "1200x800",
+          "details": "Multiple white cards with shadows, containing images and text",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Presentation cards",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "White background, shadows, containing images and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Presentation images",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Various images within the presentation cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Presentation text",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Various text within the presentation cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Icons",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Various icons within the navigation menu",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#212121",
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open sans font, various font sizes",
+      "primary_purpose": "To display a collection of presentations",
+      "enterprise_os_potential": "Reusable as a dashboard or presentation hub"
+    },
+    {
+      "screen_slug": "presentation_detail_image_1",
+      "screen_name": "Virtual Event & Video Conference Website UI Kit",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Confiss logo",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "white icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Virtual Event & Video Conference Website UI Kit",
+          "location": "top",
+          "approximate_dimensions": "large",
+          "details": "white text on blue background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Features list",
+          "location": "left",
+          "approximate_dimensions": "medium",
+          "details": "red checkmarks with white text on blue background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Laptop image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "laptop with white screen and black keyboard",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "topbar",
+          "name": "Top navigation bar",
+          "location": "top",
+          "approximate_dimensions": "narrow and long",
+          "details": "white background with black text and blue button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start Free button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "See Pricing Plan button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "white button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Person's avatar",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "person wearing headphones",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "UI8 logo",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "white icon on black background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the design",
+      "primary_purpose": "Promoting a UI kit for virtual event and video conference websites",
+      "enterprise_os_potential": "Reusable for marketing and promotional materials for software companies"
+    },
+    {
+      "screen_slug": "presentation_detail_image_3",
+      "screen_name": "Product Presentation",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Laptop Image",
+          "location": "center",
+          "approximate_dimensions": "Multiple laptops with varying screen sizes",
+          "details": "Three laptops with different screens: a dashboard with statistics, a product page, and a video call screen. The laptops are dark gray with black keyboards.",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "card",
+          "name": "Dashboard Screen",
+          "location": "top",
+          "approximate_dimensions": "Medium laptop screen",
+          "details": "Displays various statistics, charts, and data visualizations. Includes a top navigation bar, a sidebar, and several cards with different metrics.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Product Page Screen",
+          "location": "left",
+          "approximate_dimensions": "Small laptop screen",
+          "details": "Shows a product description, a call-to-action button, and some icons. The background is white, and the text is black and blue.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "Small image",
+          "details": "A woman wearing headphones and holding a pencil, appearing on a video call screen.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Social Icons",
+          "location": "bottom",
+          "approximate_dimensions": "Small icons",
+          "details": "Several social media icons appear on the product page screen.",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "The font used is clean and modern, likely a sans-serif font. The text sizes vary, with headings being larger and bold.",
+      "primary_purpose": "To showcase a product or service in a visually appealing way, highlighting its features and benefits.",
+      "enterprise_os_potential": "This layout could be reused for product presentations, marketing materials, or sales pages in an enterprise setting."
+    },
+    {
+      "screen_slug": "presentation_detail_image_5",
+      "screen_name": "Confiss Presentation Detail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Laptop Image",
+          "location": "center",
+          "approximate_dimensions": "Large laptop screen",
+          "details": "Displays a website with a video conference interface",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Button",
+          "location": "center",
+          "approximate_dimensions": "Medium rectangular button",
+          "details": "Blue button with white text 'Start Free'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "Large heading text",
+          "details": "Blue and black text 'Connect everyone, from anywhere.'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "navigation",
+          "name": "Footer Navigation",
+          "location": "bottom",
+          "approximate_dimensions": "Full-width navigation bar",
+          "details": "Black navigation bar with white text links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "Small icons",
+          "details": "Instagram and Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "Various link sizes",
+          "details": "Links to Home, Feature, Pricing, Event details, Event list, Register, Login, Dashboard, Video conference, Share screen",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To showcase the Confiss video conferencing platform",
+      "enterprise_os_potential": "Could be used as a landing page or marketing material for enterprise video conferencing solutions"
+    },
+    {
+      "screen_slug": "presentation_detail_image_8",
+      "screen_name": "Figma Design Presentation",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x1080",
+          "details": "dark background, layered menu items, icons, text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation",
+          "location": "top",
+          "approximate_dimensions": "1920x50",
+          "details": "black background, white text, navigation tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Design Presentation Cards",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "white background, shadows, images, text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Design Screenshots",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "various design screenshots",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Sidebar Icons",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "various icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badges",
+          "location": "right sidebar",
+          "approximate_dimensions": "20x20",
+          "details": "red background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans, various font sizes",
+      "primary_purpose": "Design presentation and organization",
+      "enterprise_os_potential": "Reusable for design and development teams"
+    },
+    {
+      "screen_slug": "presentation_thumbnail",
+      "screen_name": "Confiss Virtual Event & Video Conference Website UI Kit",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Laptop Image",
+          "location": "right",
+          "approximate_dimensions": "Large",
+          "details": "Black laptop with a website on the screen",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Title Text",
+          "location": "left",
+          "approximate_dimensions": "Large",
+          "details": "White text 'Virtual Event & Video Conference Website UI Kit'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icons",
+          "location": "left",
+          "approximate_dimensions": "Small",
+          "details": "Red checkmarks next to feature descriptions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Feature Descriptions",
+          "location": "left",
+          "approximate_dimensions": "Medium",
+          "details": "Descriptions of UI kit features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Premium Screens Button",
+          "location": "left",
+          "approximate_dimensions": "Medium",
+          "details": "Red button with white text '20 Premium Screens'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "logo",
+          "name": "Confiss Logo",
+          "location": "top left",
+          "approximate_dimensions": "Small",
+          "details": "White logo with the text 'Confiss'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Website Screenshot",
+          "location": "inside laptop screen",
+          "approximate_dimensions": "Large",
+          "details": "Screenshot of a website with a video conference interface",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Tagline Text",
+          "location": "inside laptop screen",
+          "approximate_dimensions": "Medium",
+          "details": "Blue text 'Connect everyone, from anywhere.'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Button",
+          "location": "inside laptop screen",
+          "approximate_dimensions": "Medium",
+          "details": "Blue button with white text 'Start Free'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "See Pricing Plan Button",
+          "location": "inside laptop screen",
+          "approximate_dimensions": "Medium",
+          "details": "Button with text 'See Pricing Plan'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "logo",
+          "name": "UI8 Logo",
+          "location": "bottom right",
+          "approximate_dimensions": "Small",
+          "details": "White logo with the text 'UI8'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#e74c3c",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open sans font used throughout the design",
+      "primary_purpose": "Promoting a UI kit for virtual event and video conference websites",
+      "enterprise_os_potential": "Reusable layout for marketing and promotional materials"
+    }
+  ]
+}

@@ -1,0 +1,1423 @@
+{
+  "generated_at": "2026-02-16T19:48:19.684Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 16,
+  "successful": 16,
+  "failed": 0,
+  "component_types": {
+    "card": 2,
+    "text": 53,
+    "table": 8,
+    "divider": 7,
+    "icon": 41,
+    "image": 1,
+    "logo": 1,
+    "heading": 1
+  },
+  "reuse_categories": {
+    "data_display": 99,
+    "layout": 8,
+    "none": 1,
+    "feedback": 1,
+    "navigation": 5
+  },
+  "layout_types": {
+    "grid": 9,
+    "centered": 7
+  },
+  "screens": [
+    {
+      "screen_slug": "component_colors",
+      "screen_name": "Color Palette",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Color Swatch",
+          "location": "center",
+          "approximate_dimensions": "200x100",
+          "details": "Rounded rectangle with color fill, label and hex code below",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color Label",
+          "location": "below card",
+          "approximate_dimensions": "variable width",
+          "details": "Black text, font size approximately 14px",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Hex Code",
+          "location": "below label",
+          "approximate_dimensions": "variable width",
+          "details": "Grey text, font size approximately 12px",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#F9F9F9",
+        "#008C00",
+        "#FFC700",
+        "#FF7575",
+        "#CCE8CC",
+        "#ECEOFF",
+        "#C8F0F0"
+      ],
+      "typography_notes": "Two font sizes used: 14px for labels and 12px for hex codes. Font is sans-serif.",
+      "primary_purpose": "Displaying a color palette with various colors and their hex codes",
+      "enterprise_os_potential": "Reusable as a style guide or color reference for branding or UI design"
+    },
+    {
+      "screen_slug": "component_desktop_bold",
+      "screen_name": "Typography Bold",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "Full width x variable height",
+          "details": "7-row table with headers for Class Name, Font Family, Font Weight, Font Size, Letter Spacing, Line Height, and Example. Text is primarily black on a white background.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1-5, Title, Subtitle, Overline, Small",
+          "location": "varies",
+          "approximate_dimensions": "varies",
+          "details": "Various font sizes and weights, all in bold Inter font. Text color is black.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row dividers",
+          "location": "between rows",
+          "approximate_dimensions": "Full width x 1px",
+          "details": "Light gray horizontal lines separating table rows.",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#F7F7F7"
+      ],
+      "typography_notes": "The screen showcases various bold typography styles using the Inter font family. Font sizes range from 14px to 43px.",
+      "primary_purpose": "To display and compare different bold typography styles for UI design.",
+      "enterprise_os_potential": "This layout could be reused in design systems or style guides for showcasing typography variations."
+    },
+    {
+      "screen_slug": "component_desktop_medium",
+      "screen_name": "Typography Medium",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "table with 7 rows, 6 columns, black text on white background, gray rounded rectangles for class names",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1",
+          "location": "center",
+          "approximate_dimensions": "43px height",
+          "details": "large font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 2",
+          "location": "center",
+          "approximate_dimensions": "40px height",
+          "details": "large font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 3",
+          "location": "center",
+          "approximate_dimensions": "36px height",
+          "details": "large font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 4",
+          "location": "center",
+          "approximate_dimensions": "32px height",
+          "details": "large font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 5",
+          "location": "center",
+          "approximate_dimensions": "28px height",
+          "details": "large font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "24px height",
+          "details": "large font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "center",
+          "approximate_dimensions": "20px height",
+          "details": "medium font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Overline",
+          "location": "center",
+          "approximate_dimensions": "16px height",
+          "details": "small font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Small",
+          "location": "center",
+          "approximate_dimensions": "14px height",
+          "details": "small font, Inter font family, medium font weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row Divider",
+          "location": "center",
+          "approximate_dimensions": "thin horizontal line",
+          "details": "light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Inter font family used throughout, various font sizes and weights",
+      "primary_purpose": "displaying typography examples",
+      "enterprise_os_potential": "style guide or design system documentation"
+    },
+    {
+      "screen_slug": "component_desktop_regular",
+      "screen_name": "Typography Regular",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "grid layout with 7 columns, displaying typography examples",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1",
+          "location": "left",
+          "approximate_dimensions": "43px height",
+          "details": "Inter font, regular weight, 43px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 2",
+          "location": "left",
+          "approximate_dimensions": "40px height",
+          "details": "Inter font, regular weight, 40px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 3",
+          "location": "left",
+          "approximate_dimensions": "36px height",
+          "details": "Inter font, regular weight, 36px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 4",
+          "location": "left",
+          "approximate_dimensions": "32px height",
+          "details": "Inter font, regular weight, 32px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 5",
+          "location": "left",
+          "approximate_dimensions": "28px height",
+          "details": "Inter font, regular weight, 28px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "left",
+          "approximate_dimensions": "24px height",
+          "details": "Inter font, regular weight, 24px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "left",
+          "approximate_dimensions": "20px height",
+          "details": "Inter font, regular weight, 20px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Overline",
+          "location": "left",
+          "approximate_dimensions": "16px height",
+          "details": "Inter font, regular weight, 16px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Small",
+          "location": "left",
+          "approximate_dimensions": "14px height",
+          "details": "Inter font, regular weight, 14px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row Dividers",
+          "location": "between rows",
+          "approximate_dimensions": "horizontal lines",
+          "details": "light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Inter font used throughout, various sizes and weights",
+      "primary_purpose": "displaying typography examples",
+      "enterprise_os_potential": "reusable for style guides and design systems"
+    },
+    {
+      "screen_slug": "component_desktop_semibold",
+      "screen_name": "Typography Semibold",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "Full width x variable height",
+          "details": "7 column table with text content, headers, and dividers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1-5, Title, Subtitle, Overline, Small",
+          "location": "left and right",
+          "approximate_dimensions": "Variable width x variable height",
+          "details": "Various font sizes and weights, black text on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row dividers",
+          "location": "between table rows",
+          "approximate_dimensions": "Full width x 1px",
+          "details": "Light gray horizontal lines",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Inter font family used throughout, various font sizes and semibold weight",
+      "primary_purpose": "Displaying typography examples",
+      "enterprise_os_potential": "Reusable for style guides and design systems"
+    },
+    {
+      "screen_slug": "component_general_icon",
+      "screen_name": "Icon Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Action Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Media Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Communication Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Maps Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Devices Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "System Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders, some gray icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Transportation Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Black icons on white background with blue dashed borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Displaying a collection of icons for various categories",
+      "enterprise_os_potential": "Reusable icon set for different applications and interfaces"
+    },
+    {
+      "screen_slug": "component_mobile_bold",
+      "screen_name": "Typography Bold",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "table with 7 columns and 9 rows, containing typography examples",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography Examples",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "various font sizes and weights, all bold",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row Dividers",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "horizontal dividers between table rows",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Inter font family used, various font sizes and weights",
+      "primary_purpose": "showcasing typography options",
+      "enterprise_os_potential": "reusable for style guides and design systems"
+    },
+    {
+      "screen_slug": "component_mobile_medium",
+      "screen_name": "Typography Medium",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "Full width x variable height",
+          "details": "Table with 7 columns and 9 rows, containing typography examples",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1-5, Title, Subtitle, Overline, Small",
+          "location": "center",
+          "approximate_dimensions": "Variable width x variable height",
+          "details": "Various text elements showcasing different font sizes and styles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row dividers",
+          "location": "center",
+          "approximate_dimensions": "Full width x 1px",
+          "details": "Horizontal dividers separating table rows",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "The screen showcases various typography styles using the Inter font family with medium weight, demonstrating different font sizes and line heights.",
+      "primary_purpose": "To display and compare different typography styles and sizes",
+      "enterprise_os_potential": "This layout could be reused in style guides or design systems documentation for showcasing typography guidelines."
+    },
+    {
+      "screen_slug": "component_mobile_regular",
+      "screen_name": "Typography Regular",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "Full width",
+          "details": "7 column table with text content, headers, and rows",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 36px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 2",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 32px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 3",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 28px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 4",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 24px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 5",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 22px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 20px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 18px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Overline",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 16px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Small",
+          "location": "left",
+          "approximate_dimensions": "Variable width",
+          "details": "Inter font, Regular weight, 14px size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Inter font used throughout, various sizes and weights",
+      "primary_purpose": "Displaying typography examples",
+      "enterprise_os_potential": "Reusable for style guides and documentation"
+    },
+    {
+      "screen_slug": "component_mobile_semibold",
+      "screen_name": "Typography Semibold",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "7-row table with class name, font family, font weight, font size, letter spacing, line height, and example columns",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Heading 1-5, Title, Subtitle, Overline, Small",
+          "location": "left and right",
+          "approximate_dimensions": "varies",
+          "details": "different font sizes and weights, all semibold, with example text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Row dividers",
+          "location": "between rows",
+          "approximate_dimensions": "full width",
+          "details": "light gray horizontal lines",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Inter font family used throughout, various font sizes and semibold weight",
+      "primary_purpose": "displaying typography options",
+      "enterprise_os_potential": "reusable for style guides and design systems"
+    },
+    {
+      "screen_slug": "component_nations_flag",
+      "screen_name": "Nations Flags Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Flag Icons",
+          "location": "center",
+          "approximate_dimensions": "Various sizes, mostly 20x20",
+          "details": "Collection of nation flags, various colors and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "top left",
+          "approximate_dimensions": "100x20",
+          "details": "Black text 'Icons / Nations Flags' on gray background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#CCCCCC"
+      ],
+      "typography_notes": "Simple sans-serif font used for title",
+      "primary_purpose": "Displaying a collection of nation flag icons",
+      "enterprise_os_potential": "Reusable in applications requiring country or region representation"
+    },
+    {
+      "screen_slug": "component_social_media",
+      "screen_name": "Social Media Icons",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Facebook Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Blue Facebook logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Instagram Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Instagram logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Twitter Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Twitter logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "WhatsApp Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "WhatsApp logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "YouTube Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "YouTube logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Discord Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Discord logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Skype Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Skype logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Pinterest Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Pinterest logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Telegram Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Telegram logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "LinkedIn Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "LinkedIn logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "LINE Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "LINE logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "WeChat Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "WeChat logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Slack Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Slack logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Behance Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Behance logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Google logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google Play Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Google Play logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google Maps Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Google Maps logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Microsoft Outlook Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Microsoft Outlook logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google Drive Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Google Drive logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Gmail Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Gmail logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google Calendar Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Google Calendar logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google Docs Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Google Docs logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Behance Single Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "24x24",
+          "details": "Behance logo on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "No text elements present",
+      "primary_purpose": "Displaying social media icons",
+      "enterprise_os_potential": "Reusable for displaying brand logos or icons in various applications"
+    },
+    {
+      "screen_slug": "cover_cover",
+      "screen_name": "Company Management Dashboard Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Laptop Image",
+          "location": "center",
+          "approximate_dimensions": "Large",
+          "details": "Displays a laptop with a dashboard UI on its screen",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "text",
+          "name": "Company Management Dashboard",
+          "location": "left",
+          "approximate_dimensions": "Large heading",
+          "details": "Black text on a light background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "SaaS App UI KIT",
+          "location": "left",
+          "approximate_dimensions": "Smaller text",
+          "details": "Black text on a light background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Green Checkmark",
+          "location": "left",
+          "approximate_dimensions": "Small",
+          "details": "Green checkmark icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "70+ Pre-built Page Templates",
+          "location": "left",
+          "approximate_dimensions": "Small text",
+          "details": "Black text next to a green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Responsive Ready",
+          "location": "left",
+          "approximate_dimensions": "Small text",
+          "details": "Black text next to a green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "100+ Ready Icons",
+          "location": "left",
+          "approximate_dimensions": "Small text",
+          "details": "Black text next to a green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "CareSync Logo",
+          "location": "top left",
+          "approximate_dimensions": "Medium",
+          "details": "Green and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#34C759",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or a similar font",
+      "primary_purpose": "To showcase a SaaS application UI kit for company management dashboards",
+      "enterprise_os_potential": "High potential for reuse in enterprise OS environments due to its clean design and comprehensive feature set"
+    },
+    {
+      "screen_slug": "license_agreement_contact",
+      "screen_name": "License Agreement Contact",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Agensip logo",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Teal and white logo with a stylized letter A",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Presented by text",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text 'Proudly presented by'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Contact information",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text 'Have a product design project? Contact us:'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email address",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text 'hi@agensip.com'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Website URL",
+          "location": "left",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text 'www.agensip.com'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Social media icons",
+          "location": "right",
+          "approximate_dimensions": "24x24 each",
+          "details": "Black icons for Dribbble, Facebook, and Instagram",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Social media handle",
+          "location": "right",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text 'agensip'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#0097A7",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout",
+      "primary_purpose": "Displaying contact information for Agensip",
+      "enterprise_os_potential": "Reusable as a contact or about page in an enterprise OS"
+    },
+    {
+      "screen_slug": "license_agreement_follow_us",
+      "screen_name": "License Agreement Follow Us",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Agensip Logo",
+          "location": "top",
+          "approximate_dimensions": "100x100",
+          "details": "Teal circle with white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Follow Agensip",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Social Media Links Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White background, rounded corners, subtle shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "UI8 Logo",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "White background, blue badge with number 8",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "ui8.net/agensip",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "Gray text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Dribbble Logo",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "Pink basketball icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "dribbble.com/agensip",
+          "location": "right",
+          "approximate_dimensions": "variable width",
+          "details": "Black text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Behance Logo",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Blue 'Be' logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "behance.net/agensip",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "Gray text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Instagram Logo",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "Multicolor Instagram logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "instagram.com/agensip",
+          "location": "right",
+          "approximate_dimensions": "variable width",
+          "details": "Black text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#0097a7",
+        "#ffffff",
+        "#000000",
+        "#ff69b4"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes",
+      "primary_purpose": "Direct users to Agensip's social media profiles",
+      "enterprise_os_potential": "Reusable as a social media linking component in various applications"
+    },
+    {
+      "screen_slug": "license_agreement_license_agreement",
+      "screen_name": "License Agreement",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Agensip logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Teal circle with white 'A' icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Agensip title",
+          "location": "top",
+          "approximate_dimensions": "variable width, 24px height",
+          "details": "Black text 'AGENSIP'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "License Agreement heading",
+          "location": "center",
+          "approximate_dimensions": "variable width, 36px height",
+          "details": "Large black text 'License Agreement'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "License agreement text",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "Black text describing license terms",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Signature text",
+          "location": "bottom",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "Black text 'Thanks and best regards, Agensip Team'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#0097a7",
+        "#000000",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout",
+      "primary_purpose": "Displaying license agreement terms",
+      "enterprise_os_potential": "Reusable as a template for legal agreements or terms of service"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:11:04.123Z"
+}

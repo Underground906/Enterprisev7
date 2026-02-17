@@ -1,0 +1,1050 @@
+{
+  "generated_at": "2026-02-16T18:22:00.510Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 10,
+  "successful": 10,
+  "failed": 0,
+  "component_types": {
+    "icon": 8,
+    "text": 9,
+    "checkbox": 2,
+    "card": 7,
+    "image": 5,
+    "topbar": 7,
+    "avatar": 1,
+    "button": 10,
+    "footer": 7,
+    "divider": 8,
+    "tabs": 1,
+    "logo": 1,
+    "link": 2,
+    "breadcrumb": 1,
+    "heading": 4,
+    "form": 2,
+    "social_media_links": 1,
+    "search_bar": 1,
+    "accordion": 3,
+    "testimonial": 1,
+    "statistic": 1,
+    "pricing_card": 3,
+    "table": 1
+  },
+  "reuse_categories": {
+    "navigation": 22,
+    "data_display": 39,
+    "input": 5,
+    "action": 10,
+    "layout": 8,
+    "feedback": 2
+  },
+  "layout_types": {
+    "centered": 10
+  },
+  "screens": [
+    {
+      "screen_slug": "cover_thumbnail",
+      "screen_name": "Chroma Modern SaaS Website Template Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Chroma logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "black icon with a flower-like design",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Template title",
+          "location": "top",
+          "approximate_dimensions": "large text block",
+          "details": "large black text 'Modern SaaS Website Template'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Figma Auto Layout checkmark",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "white checkmark in a circle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "text",
+          "name": "Figma Auto Layout text",
+          "location": "left",
+          "approximate_dimensions": "medium text",
+          "details": "black text 'Figma Auto Layout'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Responsive Design checkmark",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "white checkmark in a circle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "text",
+          "name": "Responsive Design text",
+          "location": "left",
+          "approximate_dimensions": "medium text",
+          "details": "black text 'Responsive Design'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Premium Web Pages and Reusable Blocks",
+          "location": "left",
+          "approximate_dimensions": "250x100",
+          "details": "black card with white text '10 Premium Web Pages' and '100+ Reusable Blocks'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Template preview images",
+          "location": "right",
+          "approximate_dimensions": "multiple images of various sizes",
+          "details": "various screenshots of the template with different content and layouts",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "The template uses a clean sans-serif font, likely Open Sans or a similar font, with varying font sizes for headings and body text.",
+      "primary_purpose": "To showcase the Chroma Modern SaaS Website Template and its features.",
+      "enterprise_os_potential": "This template could be reused for other SaaS products or marketing websites, potentially with modifications to the color scheme and content."
+    },
+    {
+      "screen_slug": "full_pages_about_us",
+      "screen_name": "About Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Hero Images",
+          "location": "center",
+          "approximate_dimensions": "3 images, each 1/3 width",
+          "details": "Three images showcasing team members",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Statistic Cards",
+          "location": "center",
+          "approximate_dimensions": "4 cards, evenly spaced",
+          "details": "Displaying statistics with numbers and descriptions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Team Member Avatars",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Images of team members with names and titles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View Details Buttons",
+          "location": "center",
+          "approximate_dimensions": "small, rectangular",
+          "details": "Buttons next to job listings",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "large, rectangular",
+          "details": "Prominent call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains contact information, product links, company links, and social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Icons linking to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "varies",
+          "approximate_dimensions": "horizontal lines",
+          "details": "Separating different sections of the page",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#4F46E5",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Uses a clean, sans-serif font throughout",
+      "primary_purpose": "To provide information about the company and its team",
+      "enterprise_os_potential": "Could be adapted for other company about pages or informational sections"
+    },
+    {
+      "screen_slug": "full_pages_blog",
+      "screen_name": "Blog & Resources",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Resource Categories",
+          "location": "top",
+          "approximate_dimensions": "centered",
+          "details": "Tabs for All Resources, Marketing, Analytics, Business, Human Resources, Announcement",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Blog Post Previews",
+          "location": "center",
+          "approximate_dimensions": "grid of 9 cards",
+          "details": "Cards contain image, category, title, date, read time",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "bottom",
+          "approximate_dimensions": "rectangular",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Download Desktop App",
+          "location": "bottom",
+          "approximate_dimensions": "rectangular",
+          "details": "White button with text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "logo",
+          "name": "Client Logos",
+          "location": "bottom",
+          "approximate_dimensions": "various sizes",
+          "details": "Logos of Dropbox, Creative Market, Asana, Deliveroo, Amazon, Google, Spotify, Airbnb, Shopify, Nissan",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains contact information, product links, company links, help center links, social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Icons for Facebook, LinkedIn, Twitter",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Terms of Service, Privacy Policy, Cookie Policy",
+          "location": "bottom",
+          "approximate_dimensions": "text links",
+          "details": "Text links in footer",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To showcase blog posts and resources",
+      "enterprise_os_potential": "Could be reused as a template for other content-heavy pages"
+    },
+    {
+      "screen_slug": "full_pages_blog_details",
+      "screen_name": "Blog Details Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 64px height",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Features > Oct 3 > 7 min read",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Does your e-mail marketing strategy need a revamp?",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "800x400px",
+          "details": "Image of a person working on a laptop",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "Text content with heading and paragraph",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Newsletter Subscription",
+          "location": "right",
+          "approximate_dimensions": "300x150px",
+          "details": "Email input field and submit button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Horizontal divider",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "Contains links to product, discover, company, and help center",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To display a blog post with details and call-to-actions",
+      "enterprise_os_potential": "Can be reused as a template for other blog posts or articles"
+    },
+    {
+      "screen_slug": "full_pages_contact_us",
+      "screen_name": "Contact Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Contact Us Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x 2em height",
+          "details": "Large heading text 'Get in touch with us today'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "left",
+          "approximate_dimensions": "300x200px",
+          "details": "Contains testimonial quote, rating, and author information",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "form",
+          "name": "Contact Form",
+          "location": "right",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Contains input fields for first name, last name, email, subject, and message, with a submit button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Purple button with white text 'Get started'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Email Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20px",
+          "details": "Envelope icon next to email address",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Phone Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20px",
+          "details": "Phone icon next to phone number",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Contains links to product, discover, company, and help center sections, with social media links and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Horizontal divider between sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "footer",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Links to various sections such as product features, partner program, about, and help center",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "social_media_links",
+          "name": "Social Media Links",
+          "location": "footer",
+          "approximate_dimensions": "variable width x 20px height",
+          "details": "Links to Facebook, LinkedIn, and Twitter",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with varying font sizes and weights for headings and body text",
+      "primary_purpose": "To provide a contact form and information for users to get in touch with the company",
+      "enterprise_os_potential": "This layout could be reused for other contact or support pages within an enterprise OS, potentially with modifications to the form fields and additional information sections"
+    },
+    {
+      "screen_slug": "full_pages_faq",
+      "screen_name": "FAQ Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, navigation links, login, and get started button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "FAQ Search Bar",
+          "location": "center",
+          "approximate_dimensions": "400px x 40px",
+          "details": "Search bar with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQ Accordion",
+          "location": "center",
+          "approximate_dimensions": "600px x variable",
+          "details": "List of FAQs with expandable answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Contact Information Card",
+          "location": "center",
+          "approximate_dimensions": "200px x 100px",
+          "details": "Contains email and phone number",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Client Logos",
+          "location": "center",
+          "approximate_dimensions": "variable x 50px",
+          "details": "Logos of various companies",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Download Desktop App Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "White button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains contact information, product links, and social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "600px x 1px",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Facebook, LinkedIn, and Twitter icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To provide answers to frequently asked questions about Chroma",
+      "enterprise_os_potential": "This layout could be reused for other informational or FAQ pages within an enterprise OS"
+    },
+    {
+      "screen_slug": "full_pages_homepage",
+      "screen_name": "Chroma Homepage",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "Contains logo, navigation links, and call-to-action buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Hero Heading",
+          "location": "center",
+          "approximate_dimensions": "large text, full width",
+          "details": "Large font, bold, centered",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Analytics Card",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "White background, shadow, contains charts and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Various company logos displayed in a row",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Thin line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Dashboard Screenshot",
+          "location": "center",
+          "approximate_dimensions": "large, rectangular",
+          "details": "Screenshot of the application's dashboard",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer Testimonial",
+          "location": "center",
+          "approximate_dimensions": "400x200px",
+          "details": "Quote from a customer, with name and title",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "statistic",
+          "name": "Statistics Section",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Displays various statistics, such as user count and revenue",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains links to various pages, social media links, and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "List of questions and answers, with accordion functionality",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean, sans-serif font throughout",
+      "primary_purpose": "To showcase the features and benefits of the Chroma application",
+      "enterprise_os_potential": "Could be used as a template for other SaaS applications, with modifications to branding and content"
+    },
+    {
+      "screen_slug": "full_pages_pricing",
+      "screen_name": "Pricing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, navigation links, login and get started buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Starter Plan Card",
+          "location": "center",
+          "approximate_dimensions": "300x400px",
+          "details": "Displays plan details, price and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Professional Plan Card",
+          "location": "center",
+          "approximate_dimensions": "300x400px",
+          "details": "Displays plan details, price and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Enterprise Plan Card",
+          "location": "center",
+          "approximate_dimensions": "300x400px",
+          "details": "Displays plan details, price and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Compare Plans Table",
+          "location": "center",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Compares features across different plans",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Displays FAQs with expandable answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Contains contact information, social media links and legal notices",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20px",
+          "details": "Links to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Separates sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To display pricing plans and information",
+      "enterprise_os_potential": "Could be reused for other pricing pages or sales-related content"
+    },
+    {
+      "screen_slug": "styleguide_color",
+      "screen_name": "Color and Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Color Palette",
+          "location": "center",
+          "approximate_dimensions": "various",
+          "details": "Rectangular color swatches with hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color Labels",
+          "location": "center",
+          "approximate_dimensions": "various",
+          "details": "Small text describing color names and hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#512C7E",
+        "#9988FF",
+        "#FFA7A7",
+        "#91E0F1",
+        "#222222",
+        "#4E4E4E",
+        "#767676",
+        "#BEBEBE",
+        "#E1E1E1",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Black font used for headings and labels",
+      "primary_purpose": "Displaying color and style guidelines",
+      "enterprise_os_potential": "Reusable for branding and design consistency across applications"
+    },
+    {
+      "screen_slug": "styleguide_typography",
+      "screen_name": "Typography Styleguide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "wide",
+          "details": "Typography title in large font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Headings",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Various headings (H1-H9) with different font sizes and weights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Paragraphs",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Lorem ipsum text in different font sizes (Small, Medium, Large, XL, XXL)",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Others",
+          "location": "bottom",
+          "approximate_dimensions": "narrow",
+          "details": "Capital text in 12pt/ExtraBold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal dividers",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Thin lines separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000"
+      ],
+      "typography_notes": "The styleguide showcases various typography styles using the Switzerland font, with different font sizes, weights, and styles.",
+      "primary_purpose": "To demonstrate and guide the use of typography in the UI",
+      "enterprise_os_potential": "This typography styleguide can be reused across various enterprise applications for consistency in branding and readability."
+    }
+  ]
+}

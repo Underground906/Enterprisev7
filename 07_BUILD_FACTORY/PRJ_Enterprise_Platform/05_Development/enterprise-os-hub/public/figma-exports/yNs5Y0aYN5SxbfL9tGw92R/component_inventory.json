@@ -1,0 +1,3971 @@
+{
+  "generated_at": "2026-02-16T19:45:21.371Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 43,
+  "successful": 43,
+  "failed": 0,
+  "component_types": {
+    "icon": 42,
+    "text": 21,
+    "heading": 3,
+    "checkbox": 2,
+    "button": 45,
+    "image": 7,
+    "divider": 14,
+    "table": 1,
+    "topbar": 22,
+    "sidebar": 21,
+    "card": 16,
+    "input": 29,
+    "avatar": 20,
+    "badge": 19,
+    "search_bar": 6,
+    "toggle": 16,
+    "tag": 2,
+    "color_picker": 1,
+    "tabs": 4,
+    "list": 5,
+    "modal": 11,
+    "logo": 1,
+    "form": 2,
+    "rating": 3,
+    "textarea": 2,
+    "dropdown": 1,
+    "menu": 2,
+    "select": 4,
+    "radio": 1,
+    "slider": 2
+  },
+  "reuse_categories": {
+    "navigation": 60,
+    "data_display": 93,
+    "action": 57,
+    "layout": 21,
+    "input": 69,
+    "feedback": 10,
+    "overlay": 11,
+    "none": 4
+  },
+  "layout_types": {
+    "centered": 16,
+    "grid": 1,
+    "sidebar_content": 21,
+    "full_canvas": 1,
+    "split": 4
+  },
+  "screens": [
+    {
+      "screen_slug": "cover_thumbnail_figma",
+      "screen_name": "Collaboration Dashboard",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Nexus logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Nexus",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Black text next to logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Collaboration Dashboard",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Feature list",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "List of features with blue checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "30+ Screen",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Black button with white text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Dashboard screenshot",
+          "location": "right",
+          "approximate_dimensions": "variable width and height",
+          "details": "Screenshot of collaboration dashboard",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#3498db"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font",
+      "primary_purpose": "Showcasing collaboration dashboard features",
+      "enterprise_os_potential": "Reusable for collaboration and project management tools"
+    },
+    {
+      "screen_slug": "guideline_tokens",
+      "screen_name": "Guideline Tokens",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Light gray color, #ECEEF6",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Color Circle",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Various colors, representing different color tokens",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color Name and Hex",
+          "location": "left",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text for color names, gray text for hex values",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Title",
+          "location": "left",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Bold text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#1C1C1C",
+        "#0053F2",
+        "#B3B3B3",
+        "#F7F8FA",
+        "#E6EEFE",
+        "#B0C9FB",
+        "#8AAFF9",
+        "#548BF6",
+        "#3375F5",
+        "#0052F2",
+        "#004BCD",
+        "#003AAC",
+        "#002D85",
+        "#002266",
+        "#EDF9E9",
+        "#AFD4A5",
+        "#8AC07C",
+        "#51A13B",
+        "#4A9336",
+        "#fef7e8",
+        "#f9ce7a",
+        "#f7b940",
+        "#f5ab19",
+        "#ac7812",
+        "#feeded",
+        "#f99696",
+        "#f66969",
+        "#f44a4a",
+        "#ab3434"
+      ],
+      "typography_notes": "The screen uses a clean, sans-serif font. Headings are bold and larger than body text.",
+      "primary_purpose": "Displaying color guidelines and tokens for a design system",
+      "enterprise_os_potential": "This layout could be reused as a style guide or documentation page for design systems in enterprise applications."
+    },
+    {
+      "screen_slug": "guideline_typography",
+      "screen_name": "Typography Guidelines",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Large font, bold weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Multiple rows and columns, with headers and data cells",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography Guidelines Text",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Paragraph text describing typography guidelines",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Nexus Logo",
+          "location": "top right",
+          "approximate_dimensions": "24x24",
+          "details": "Blue 'N' icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Thin line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#2196F3"
+      ],
+      "typography_notes": "Multiple font sizes and weights used, with a focus on clear hierarchy and readability",
+      "primary_purpose": "To provide guidelines for typography usage",
+      "enterprise_os_potential": "Could be reused as a style guide for enterprise applications"
+    },
+    {
+      "screen_slug": "screen_channel",
+      "screen_name": "Channel Thread View",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation icons, search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items, team list, channel list",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Thread Card",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Displays thread content, author, timestamp",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Message Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Text input for sending messages",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Button to send message",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Displays user profile pictures",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "16px x 16px",
+          "details": "Used for navigation, actions, and status indicators",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "left sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Indicates unread messages",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left sidebar",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Separates sections in the sidebar",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying and managing thread conversations within a community or team",
+      "enterprise_os_potential": "Could be adapted for internal communication platforms or team collaboration tools"
+    },
+    {
+      "screen_slug": "screen_channel_discussion",
+      "screen_name": "Channel Discussion",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Contains navigation links, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Contains logo, navigation links, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top right",
+          "approximate_dimensions": "200x30",
+          "details": "Input field for searching",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Discussion Thread",
+          "location": "center",
+          "approximate_dimensions": "600xFull Height",
+          "details": "Displays discussion thread with user avatars, text, and timestamps",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "varies",
+          "approximate_dimensions": "30x30",
+          "details": "Displays user image or initials",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Message Input",
+          "location": "bottom center",
+          "approximate_dimensions": "500x40",
+          "details": "Text input field for composing messages",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "Button to send message",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Team Group Card",
+          "location": "right",
+          "approximate_dimensions": "300xFull Height",
+          "details": "Displays team group information, members, and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon for settings",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Messages Badge",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "Displays number of unread messages",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Facilitating team discussions and collaboration",
+      "enterprise_os_potential": "Reusable as a team collaboration platform or discussion forum"
+    },
+    {
+      "screen_slug": "screen_channel_settings_admin_settings",
+      "screen_name": "Channel Settings Admin Settings",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains Nexus logo, search bar, and notification icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items with icons and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Settings Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Contains settings options with toggles and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Admin Settings Toggles",
+          "location": "within settings card",
+          "approximate_dimensions": "variable",
+          "details": "Toggles for admin settings with labels",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icons",
+          "location": "within left sidebar",
+          "approximate_dimensions": "20x20px",
+          "details": "Various icons used in menu items",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Count Badges",
+          "location": "within left sidebar",
+          "approximate_dimensions": "variable",
+          "details": "Badges showing unread counts",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "within settings card",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Dividers separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "within right panel",
+          "approximate_dimensions": "30x30px",
+          "details": "Avatars representing users",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Admin Tag",
+          "location": "within right panel",
+          "approximate_dimensions": "variable",
+          "details": "Tag indicating admin status",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Managing admin settings for a channel",
+      "enterprise_os_potential": "Could be reused in other admin settings pages or complex applications requiring detailed settings management"
+    },
+    {
+      "screen_slug": "screen_channel_settings_general",
+      "screen_name": "Channel Settings General",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation icons, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items, team names, and channel names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Settings Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Contains settings form with input fields and color picker",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Channel Name Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 30px",
+          "details": "Text input field for channel name",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Channel Link Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 30px",
+          "details": "Text input field for channel link",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Copy Link Button",
+          "location": "center",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Button to copy channel link",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "color_picker",
+          "name": "Channel Color Picker",
+          "location": "center",
+          "approximate_dimensions": "200px x 150px",
+          "details": "Color picker with various color options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "left, top, center",
+          "approximate_dimensions": "16x16, 24x24",
+          "details": "Various icons used throughout the screen",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Badge displaying notification count",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "right",
+          "approximate_dimensions": "30x30, 40x40",
+          "details": "Avatars representing users",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#00BC65",
+        "#F39C11"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Channel settings management",
+      "enterprise_os_potential": "Reusable for community or team management platforms"
+    },
+    {
+      "screen_slug": "screen_channel_settings_member",
+      "screen_name": "Channel Settings Member",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation icons, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items, team names, and channel names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Settings Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Contains settings tabs and member list",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "tabs",
+          "name": "Settings Tabs",
+          "location": "top of settings card",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains General, Admin settings, Member, and Notification tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Member List",
+          "location": "inside settings card",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Contains list of members with checkboxes, names, and roles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Member Checkbox",
+          "location": "next to each member name",
+          "approximate_dimensions": "20x20",
+          "details": "Used for selecting members",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "Member Avatar",
+          "location": "next to each member name",
+          "approximate_dimensions": "30x30",
+          "details": "Displays member's profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Role Badge",
+          "location": "next to each member name",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Displays member's role (e.g. Owner, Admin)",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "More Options Icon",
+          "location": "next to each member name",
+          "approximate_dimensions": "20x20",
+          "details": "Used for displaying more options",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top of settings card",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Used for searching members",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Managing channel settings and members",
+      "enterprise_os_potential": "Could be reused in other team or community management contexts"
+    },
+    {
+      "screen_slug": "screen_channel_settings_notification",
+      "screen_name": "Channel Settings Notification",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains Nexus logo, navigation icons, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items with icons and text, some with counters",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Settings Panel",
+          "location": "center",
+          "approximate_dimensions": "600px x 600px",
+          "details": "Contains settings sections with headers, toggles, and text",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "toggle",
+          "name": "Mute Channel Toggle",
+          "location": "center",
+          "approximate_dimensions": "40px x 20px",
+          "details": "Blue toggle button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Pop-up Notification Toggle",
+          "location": "center",
+          "approximate_dimensions": "40px x 20px",
+          "details": "Blue toggle button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Notification for New Thread Toggle",
+          "location": "center",
+          "approximate_dimensions": "40px x 20px",
+          "details": "Blue toggle button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Notification for New Member Toggle",
+          "location": "center",
+          "approximate_dimensions": "40px x 20px",
+          "details": "Blue toggle button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Notification for Admin Changes Toggle",
+          "location": "center",
+          "approximate_dimensions": "40px x 20px",
+          "details": "Blue toggle button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "right",
+          "approximate_dimensions": "varies",
+          "details": "Small circular images representing users",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Count Badges",
+          "location": "left",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Small circular badges with numbers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icons",
+          "location": "left",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Various icons used in menu items",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Managing channel settings and notifications",
+      "enterprise_os_potential": "Reusable for team collaboration and communication platforms"
+    },
+    {
+      "screen_slug": "screen_channel_thread",
+      "screen_name": "Channel Thread",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains Nexus logo, navigation icons, search bar, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items, team names, and channel names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Thread Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Displays thread content, user avatars, and timestamps",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Message Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Text input field for sending messages",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Blue button with send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "User profile pictures",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "16px x 16px",
+          "details": "Icons for navigation, actions, and status",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Count Badge",
+          "location": "left sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Displays unread message count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left sidebar",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Divides sections in the sidebar",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying a thread of messages within a channel",
+      "enterprise_os_potential": "Reusable as a communication or collaboration tool within an enterprise OS"
+    },
+    {
+      "screen_slug": "screen_comment_in_thread",
+      "screen_name": "Comment in Thread",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation menu, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items, channels, and integrations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Comment Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Contains comment text, images, and actions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Comment Input",
+          "location": "center",
+          "approximate_dimensions": "full width x 100px",
+          "details": "Text input for writing comments",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Comment Button",
+          "location": "center",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Button to submit comment",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30px x 30px",
+          "details": "User profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Like Icon",
+          "location": "right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Icon to like a comment",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Badge",
+          "location": "left",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Badge indicating unread messages",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Divider between sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "To facilitate commenting and discussion within a thread",
+      "enterprise_os_potential": "This layout could be reused in other collaboration tools or enterprise software"
+    },
+    {
+      "screen_slug": "screen_confirmation_post_thread",
+      "screen_name": "Post Thread Confirmation",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Post Thread Confirmation Modal",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White background, shadow, centered text, blue button",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "icon",
+          "name": "Question Mark Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Orange background, white question mark",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Confirmation Text",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Black text, 'Post the thread now?'",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Close Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Gray background, black text, 'Close'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Check Thread Button",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Blue background, white text, 'Check #Thread'",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#2196F3",
+        "#FFC107"
+      ],
+      "typography_notes": "Open Sans, 14px, bold headings",
+      "primary_purpose": "Confirm posting a thread",
+      "enterprise_os_potential": "Reusable modal for confirming actions"
+    },
+    {
+      "screen_slug": "screen_create_new_thread",
+      "screen_name": "Create New Thread",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "contains logo, navigation icons, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "contains menu items, channels, and integrations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "New Thread Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "contains text input, formatting options, and plugins",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Text Input Field",
+          "location": "center",
+          "approximate_dimensions": "full width x 40px",
+          "details": "for writing a new thread message",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40px x 40px",
+          "details": "blue circle with white send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "yellow smiley face",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "circular image of user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Messages Badge",
+          "location": "right sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "red circle with white number",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f",
+        "#2ecc71"
+      ],
+      "typography_notes": "uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "creating a new thread in a community forum",
+      "enterprise_os_potential": "could be reused in other community or collaboration platforms"
+    },
+    {
+      "screen_slug": "screen_detail_thread",
+      "screen_name": "Thread Detail Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "contains logo, navigation icons, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "contains menu items, team names, and channel names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Thread Card",
+          "location": "center",
+          "approximate_dimensions": "800px x variable height",
+          "details": "contains thread title, author, timestamp, and content",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Thread Image",
+          "location": "center",
+          "approximate_dimensions": "variable x variable",
+          "details": "screenshot of design example",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Scroll to read more",
+          "location": "bottom",
+          "approximate_dimensions": "150px x 30px",
+          "details": "button to expand content",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "user profile pictures",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "topbar and sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "icons for navigation and actions",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Count Badge",
+          "location": "sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "displays unread count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "sidebar",
+          "approximate_dimensions": "full width x 1px",
+          "details": "divides sections in sidebar",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "topbar",
+          "approximate_dimensions": "200px x 30px",
+          "details": "search input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tag",
+          "name": "Admin/Owner Tag",
+          "location": "right sidebar",
+          "approximate_dimensions": "variable x 20px",
+          "details": "displays user role",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "displaying a thread discussion",
+      "enterprise_os_potential": "could be reused in a team collaboration platform"
+    },
+    {
+      "screen_slug": "screen_frame_1598",
+      "screen_name": "Private Chat and Team Chat on Nexus",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "White text on black background, font size appears to be large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Large white font on dark background",
+      "primary_purpose": "Displaying title or header for Private Chat and Team Chat on Nexus",
+      "enterprise_os_potential": "Reusable as a header component in various chat or communication applications"
+    },
+    {
+      "screen_slug": "screen_frame_1599",
+      "screen_name": "Comment and Share Screen",
+      "screen_type": "overlay",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Comment and Share Text",
+          "location": "center",
+          "approximate_dimensions": "200x20",
+          "details": "White text on black background, font size appears to be large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Hashtag Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Small white icon preceding the text 'Thread text-channel'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Thread Text-Channel",
+          "location": "center",
+          "approximate_dimensions": "150x20",
+          "details": "White text following the hashtag icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Large white font on black background",
+      "primary_purpose": "Displaying a call to action for commenting and sharing on a thread",
+      "enterprise_os_potential": "Reusable in various social media or community platforms for prompting user engagement"
+    },
+    {
+      "screen_slug": "screen_frame_1600",
+      "screen_name": "Create New Thread Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Create New Thread Modal",
+          "location": "center",
+          "approximate_dimensions": "not specified",
+          "details": "black background, white text",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "text",
+          "name": "Create new thread",
+          "location": "center",
+          "approximate_dimensions": "not specified",
+          "details": "white text on black background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "simple sans-serif font used for 'Create new thread'",
+      "primary_purpose": "prompt user to create a new thread",
+      "enterprise_os_potential": "could be reused in various collaboration or communication platforms"
+    },
+    {
+      "screen_slug": "screen_frame_1602",
+      "screen_name": "My Activity",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "My activity",
+          "location": "center",
+          "approximate_dimensions": "auto width, fixed height",
+          "details": "white text on black background",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Single font used, likely sans-serif",
+      "primary_purpose": "Displaying user activity",
+      "enterprise_os_potential": "Reusable as a dashboard or status page"
+    },
+    {
+      "screen_slug": "screen_frame_1603",
+      "screen_name": "Profile Overlay",
+      "screen_type": "overlay",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "View profile button",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "White text on black background",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Simple sans-serif font used for 'View profile' text",
+      "primary_purpose": "Directing users to view a profile",
+      "enterprise_os_potential": "Could be used as a call-to-action in various applications"
+    },
+    {
+      "screen_slug": "screen_frame_1604",
+      "screen_name": "Account Settings",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 64px height",
+          "details": "dark background, white text, centered 'Account settings' title",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Account Settings Title",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "white text on dark background, font size is large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The title uses a sans-serif font, likely Open Sans or a similar font, with a large font size.",
+      "primary_purpose": "This screen is for displaying account settings.",
+      "enterprise_os_potential": "This layout could be reused for various settings or configuration pages within an enterprise OS."
+    },
+    {
+      "screen_slug": "screen_frame_1644",
+      "screen_name": "Channel Settings",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Channel settings title",
+          "location": "center",
+          "approximate_dimensions": "200x20",
+          "details": "White text on black background, font size approximately 18px",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Single font used, likely sans-serif, white color on black background",
+      "primary_purpose": "Displaying channel settings title",
+      "enterprise_os_potential": "Reusable as a title component in various settings or configuration modals"
+    },
+    {
+      "screen_slug": "screen_frame_1645",
+      "screen_name": "Nexus Sign In",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Sign in to Nexus",
+          "location": "center",
+          "approximate_dimensions": "auto width, single line height",
+          "details": "white text on black background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Single font used, likely sans-serif, white color on black background",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Login screens are common across various enterprise applications and OS, this design could be adapted for different systems"
+    },
+    {
+      "screen_slug": "screen_inbox",
+      "screen_name": "Inbox Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains Nexus logo, navigation tabs, search bar, and user profile icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items with icons, team names, and channel names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200px x 30px",
+          "details": "Gray background, search icon, placeholder text 'Find anything here'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Navigation Tabs",
+          "location": "top",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Contains tabs for Inbox, Message, Friends, Blocked, Thread",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Inbox List",
+          "location": "center",
+          "approximate_dimensions": "variable width x full height",
+          "details": "List of messages with sender names, message previews, timestamps, and unread indicators",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Circular image with user initials or picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Indicator",
+          "location": "right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Blue circle with white number indicating unread messages",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icon",
+          "location": "right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Three dots icon for message actions",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "To display and manage inbox messages",
+      "enterprise_os_potential": "Reusable as a messaging or notification center in enterprise software"
+    },
+    {
+      "screen_slug": "screen_login",
+      "screen_name": "Login Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "50% of screen width",
+          "details": "Image of a woman in a denim jacket, with a testimonial quote overlay",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "logo",
+          "name": "Nexus Logo",
+          "location": "top left",
+          "approximate_dimensions": "small icon",
+          "details": "Blue 'N' logo in a white square",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Quote",
+          "location": "left",
+          "approximate_dimensions": "large text block",
+          "details": "White text on a semi-transparent background, with a 5-star rating",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "form",
+          "name": "Login Form",
+          "location": "right",
+          "approximate_dimensions": "narrow column",
+          "details": "Contains email/username and password inputs, sign in button, and social sign in options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email or Username Input",
+          "location": "right",
+          "approximate_dimensions": "full width of form",
+          "details": "Text input with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "right",
+          "approximate_dimensions": "full width of form",
+          "details": "Password input with placeholder text and visibility toggle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "right",
+          "approximate_dimensions": "full width of form",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Google Button",
+          "location": "right",
+          "approximate_dimensions": "full width of form",
+          "details": "White button with Google logo and black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Apple Button",
+          "location": "right",
+          "approximate_dimensions": "full width of form",
+          "details": "White button with Apple logo and black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Google Logo",
+          "location": "right",
+          "approximate_dimensions": "small icon",
+          "details": "Google logo in Sign In with Google button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Apple Logo",
+          "location": "right",
+          "approximate_dimensions": "small icon",
+          "details": "Apple logo in Sign In with Apple button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Visibility Toggle Icon",
+          "location": "right",
+          "approximate_dimensions": "small icon",
+          "details": "Eye icon in password input",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#4285f4"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, various font sizes and weights",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable as a login screen for various enterprise applications"
+    },
+    {
+      "screen_slug": "screen_login_error",
+      "screen_name": "Login Error Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "left",
+          "approximate_dimensions": "512x1024",
+          "details": "Blurred background, woman with blonde hair, black shirt, silver necklace",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Login Card",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "White background, shadow, centered",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "input",
+          "name": "Email or Username Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Password input with error message",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Google Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White button with Google logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Apple Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White button with Apple logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Nexus Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue 'N' logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Error Message",
+          "location": "center",
+          "approximate_dimensions": "300x20",
+          "details": "Red text indicating password error",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Eye Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Icon to toggle password visibility",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "rating",
+          "name": "Rating",
+          "location": "left",
+          "approximate_dimensions": "100x20",
+          "details": "5-star rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f",
+        "#e74c3c"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable for various enterprise login screens"
+    },
+    {
+      "screen_slug": "screen_login_filled",
+      "screen_name": "Login Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "50% of screen width",
+          "details": "Image of a man using a laptop, with a testimonial overlay",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "icon",
+          "name": "Nexus Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Blue 'N' logo in a white square",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Text",
+          "location": "bottom left",
+          "approximate_dimensions": "variable width",
+          "details": "White text on a darkened background",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "rating",
+          "name": "Rating",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "5-star rating with yellow stars",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "form",
+          "name": "Login Form",
+          "location": "right",
+          "approximate_dimensions": "400x500",
+          "details": "Contains input fields, buttons, and text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email or Username Input",
+          "location": "within form",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with a label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "within form",
+          "approximate_dimensions": "300x40",
+          "details": "Password input with a label and visibility toggle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "within form",
+          "approximate_dimensions": "300x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Google Button",
+          "location": "within form",
+          "approximate_dimensions": "300x40",
+          "details": "White button with Google logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Apple Button",
+          "location": "within form",
+          "approximate_dimensions": "300x40",
+          "details": "White button with Apple logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Google Logo",
+          "location": "within button",
+          "approximate_dimensions": "20x20",
+          "details": "Google logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Apple Logo",
+          "location": "within button",
+          "approximate_dimensions": "20x20",
+          "details": "Apple logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#ffffff",
+        "#f1c40f"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable for various enterprise applications requiring user authentication"
+    },
+    {
+      "screen_slug": "screen_message_in_inbox",
+      "screen_name": "Message Inbox Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains Nexus logo, search bar, phone, and camera icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items like Inbox, Draft, Teams, Channel, Integrations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200px x 30px",
+          "details": "Contains placeholder text 'Find anything here'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Displays user images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "left",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Displays number of unread messages",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create New Team Button",
+          "location": "left",
+          "approximate_dimensions": "150px x 30px",
+          "details": "Contains text 'Create New Team'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Make a Channel Button",
+          "location": "left",
+          "approximate_dimensions": "150px x 30px",
+          "details": "Contains text 'Make a Channel'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Add another Integrations Button",
+          "location": "left",
+          "approximate_dimensions": "150px x 30px",
+          "details": "Contains text 'Add another Integrations'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "textarea",
+          "name": "Message Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains placeholder text 'Write a message...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Message Button",
+          "location": "bottom",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Contains send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Displays attachment icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Displays emoji icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses sans-serif font, varying font sizes for headings and body text",
+      "primary_purpose": "To display and manage messages",
+      "enterprise_os_potential": "Could be reused as a messaging module within a larger enterprise OS"
+    },
+    {
+      "screen_slug": "screen_message_send_picture",
+      "screen_name": "Message Send Picture",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x600",
+          "details": "contains menu items, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "contains logo, search bar, and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Global Search Bar",
+          "location": "top right",
+          "approximate_dimensions": "200x30",
+          "details": "contains search icon and text input",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top left",
+          "approximate_dimensions": "30x30",
+          "details": "contains user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "contains back arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Message Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "contains text input and send button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "30x30",
+          "details": "contains send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Shared Image",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "contains image preview",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "message input field",
+          "approximate_dimensions": "20x20",
+          "details": "contains paperclip icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Messages Badge",
+          "location": "sidebar",
+          "approximate_dimensions": "15x15",
+          "details": "contains number 3",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Menu Divider",
+          "location": "sidebar",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "contains horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1"
+      ],
+      "typography_notes": "uses Open Sans font, sizes vary",
+      "primary_purpose": "sending messages with image attachments",
+      "enterprise_os_potential": "could be reused in team collaboration tools"
+    },
+    {
+      "screen_slug": "screen_profile",
+      "screen_name": "User Profile Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation tabs, search bar, and settings icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items with icons and text, expandable sections",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200px x 30px",
+          "details": "Text input field with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "User Profile Dropdown",
+          "location": "top right",
+          "approximate_dimensions": "150px x variable height",
+          "details": "Contains user profile information and actions",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Inbox List",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "List of inbox items with sender information, message preview, and timestamp",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "varies",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Blue circle with white number indicating unread messages",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "top right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Circular image representing user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "menu",
+          "name": "Context Menu",
+          "location": "varies",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Menu with actions related to inbox items",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display user inbox and allow management of messages",
+      "enterprise_os_potential": "Could be reused as a template for other communication or project management tools within an enterprise OS"
+    },
+    {
+      "screen_slug": "screen_register",
+      "screen_name": "Registration Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "50% of screen width",
+          "details": "Blurry background image with a man in a white shirt",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Registration Form",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "White card with registration form",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Name Input",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email or Username Input",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Password input field with placeholder text and eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Register Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Google Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Button with Google logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In with Apple Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Button with Apple logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Nexus Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Blue 'N' logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Eye Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Eye icon in password input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Text",
+          "location": "left",
+          "approximate_dimensions": "300x100",
+          "details": "White text on top of background image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "rating",
+          "name": "Rating Stars",
+          "location": "left",
+          "approximate_dimensions": "100x20",
+          "details": "5-star rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable registration screen for various enterprise applications"
+    },
+    {
+      "screen_slug": "screen_s",
+      "screen_name": "Community Thread",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Contains menu items, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "Contains logo, search bar, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "modal",
+          "name": "Thread Posted Successfully Modal",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Contains success message, close button, and check thread button",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Close Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Gray button with text 'Close'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Check #Thread Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with text 'Check #Thread'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image representing user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Star Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Yellow star icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Messages Badge",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Red badge with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open sans font used throughout the interface",
+      "primary_purpose": "Community discussion forum",
+      "enterprise_os_potential": "Reusable for team collaboration and communication"
+    },
+    {
+      "screen_slug": "screen_set_custom_status",
+      "screen_name": "Set Custom Status Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Set Custom Status Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "What's happening?",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Reset on",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Dropdown select with default value '24 hours'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Activity",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Dropdown select with default value 'Online'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Cancel",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Red text, no background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Save custom",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Status Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue status icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open sans font, various font sizes",
+      "primary_purpose": "Allowing users to set a custom status",
+      "enterprise_os_potential": "Reusable in other modals or forms"
+    },
+    {
+      "screen_slug": "screen_settings_account",
+      "screen_name": "Account Settings",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "contains Nexus logo, navigation tabs, search bar, and user profile icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Settings Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "contains settings menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "modal",
+          "name": "Account Settings Modal",
+          "location": "center",
+          "approximate_dimensions": "600px x 700px",
+          "details": "contains account settings form with input fields, toggles, and buttons",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "inside modal",
+          "approximate_dimensions": "full width x 40px",
+          "details": "contains email address input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Change Password Button",
+          "location": "inside modal",
+          "approximate_dimensions": "150px x 40px",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "toggle",
+          "name": "New Friend Toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "50px x 25px",
+          "details": "blue toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Channel's Friend Toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "50px x 25px",
+          "details": "blue toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Authenticator App Toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "50px x 25px",
+          "details": "gray toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Disable Account Button",
+          "location": "inside modal",
+          "approximate_dimensions": "150px x 40px",
+          "details": "red button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Delete Account Button",
+          "location": "inside modal",
+          "approximate_dimensions": "150px x 40px",
+          "details": "red outlined button with red text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Search Icon",
+          "location": "inside topbar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "User Profile Icon",
+          "location": "inside topbar",
+          "approximate_dimensions": "30px x 30px",
+          "details": "user profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Settings Divider",
+          "location": "inside sidebar",
+          "approximate_dimensions": "full width x 1px",
+          "details": "gray divider line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#e74c3c"
+      ],
+      "typography_notes": "uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "account settings management",
+      "enterprise_os_potential": "high, can be reused in various enterprise applications for user account management"
+    },
+    {
+      "screen_slug": "screen_settings_appearance",
+      "screen_name": "Settings Appearance",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top navigation bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "contains logo, navigation links, search bar, and user profile icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "contains menu items with icons and text, some with submenus and counters",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Settings card",
+          "location": "center",
+          "approximate_dimensions": "large rectangular card",
+          "details": "contains settings options for appearance, including theme selection and font size",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "radio",
+          "name": "Theme selection radio buttons",
+          "location": "within settings card",
+          "approximate_dimensions": "small",
+          "details": "two radio buttons for light and dark mode",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Font size dropdown",
+          "location": "within settings card",
+          "approximate_dimensions": "medium",
+          "details": "dropdown menu for selecting font size",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Zoom display dropdown",
+          "location": "within settings card",
+          "approximate_dimensions": "medium",
+          "details": "dropdown menu for selecting zoom level",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Various icons",
+          "location": "throughout the screen",
+          "approximate_dimensions": "small",
+          "details": "icons used in topbar, sidebar, and settings card",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Notification badges",
+          "location": "in sidebar and topbar",
+          "approximate_dimensions": "small",
+          "details": "small circular badges indicating unread notifications",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "allowing users to customize the application's appearance",
+      "enterprise_os_potential": "could be adapted for use in other enterprise software applications requiring user customization options"
+    },
+    {
+      "screen_slug": "screen_settings_chat",
+      "screen_name": "Chat Settings",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "contains logo, navigation tabs, search bar, and user profile icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "contains menu items with icons and text, some with badges",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "modal",
+          "name": "Settings Modal",
+          "location": "center",
+          "approximate_dimensions": "600px x 600px",
+          "details": "contains settings options for chat, with toggle switches and text",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "toggle",
+          "name": "Use 'Enter' as send toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "small",
+          "details": "blue toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Render image toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "small",
+          "details": "blue toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Display embedded content and preview URLs pasted into chat toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "small",
+          "details": "blue toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Auto correction toggle",
+          "location": "inside modal",
+          "approximate_dimensions": "small",
+          "details": "gray toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Menu icons",
+          "location": "inside sidebar",
+          "approximate_dimensions": "small",
+          "details": "various icons used for menu items",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Notification badges",
+          "location": "inside sidebar",
+          "approximate_dimensions": "small",
+          "details": "small numbers indicating unread notifications",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section dividers",
+          "location": "inside sidebar and modal",
+          "approximate_dimensions": "full width x 1px",
+          "details": "thin gray lines separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1"
+      ],
+      "typography_notes": "uses a clean sans-serif font, with varying font sizes for headings and body text",
+      "primary_purpose": "to configure chat settings",
+      "enterprise_os_potential": "could be reused in other parts of the application or in other enterprise OS applications"
+    },
+    {
+      "screen_slug": "screen_settings_notification",
+      "screen_name": "Notification Settings",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "contains logo, navigation tabs, search bar, and user profile icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "contains menu items with icons and text, some with submenus and counters",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Settings Card",
+          "location": "center",
+          "approximate_dimensions": "600px x 400px",
+          "details": "contains settings sections with toggle switches and labels",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "toggle",
+          "name": "Notification Toggle",
+          "location": "center",
+          "approximate_dimensions": "40px x 20px",
+          "details": "blue toggle switch with white background",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "center",
+          "approximate_dimensions": "20px x 20px",
+          "details": "bell icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "light gray horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Managing notification settings",
+      "enterprise_os_potential": "Reusable for various enterprise OS applications requiring notification settings management"
+    },
+    {
+      "screen_slug": "screen_settings_profile",
+      "screen_name": "Profile Settings",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Settings Modal",
+          "location": "center",
+          "approximate_dimensions": "600x700",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "avatar",
+          "name": "Profile Picture",
+          "location": "top",
+          "approximate_dimensions": "80x80",
+          "details": "Circular, border, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Change Picture",
+          "location": "top",
+          "approximate_dimensions": "100x30",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Delete Picture",
+          "location": "top",
+          "approximate_dimensions": "100x30",
+          "details": "Red text, transparent background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Profile Name",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Border, rounded corners, padding",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Username",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Border, rounded corners, padding, disabled",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Status",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Border, rounded corners, padding",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "textarea",
+          "name": "About Me",
+          "location": "center",
+          "approximate_dimensions": "300x100",
+          "details": "Border, rounded corners, padding",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Save Changes",
+          "location": "bottom",
+          "approximate_dimensions": "100x30",
+          "details": "Gray background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Pencil Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Gray color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Music Note Icon",
+          "location": "center",
+          "approximate_dimensions": "16x16",
+          "details": "Colorful, emoji style",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#e74c3c",
+        "#f1c40f",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans, 14px, regular and bold weights",
+      "primary_purpose": "User profile settings",
+      "enterprise_os_potential": "Reusable for user profile management in enterprise software"
+    },
+    {
+      "screen_slug": "screen_settings_voice_video",
+      "screen_name": "Voice and Video Settings",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Settings Modal",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "White background, shadowed, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Input device dropdown",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Default text, dropdown arrow",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "slider",
+          "name": "Input volume device slider",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Blue fill, white background, circular handle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Output device dropdown",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Default text, dropdown arrow",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "slider",
+          "name": "Output volume device slider",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Blue fill, white background, circular handle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Record voice button",
+          "location": "center",
+          "approximate_dimensions": "100x30",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "toggle",
+          "name": "Input sensitivity toggle",
+          "location": "bottom",
+          "approximate_dimensions": "50x20",
+          "details": "Blue fill when active, white background, circular handle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "divider",
+          "name": "Section divider",
+          "location": "top",
+          "approximate_dimensions": "1x500",
+          "details": "Light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans, 14px, regular weight",
+      "primary_purpose": "Configuring voice and video settings",
+      "enterprise_os_potential": "Reusable in communication and collaboration platforms"
+    },
+    {
+      "screen_slug": "screen_share_thread",
+      "screen_name": "Share Thread Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Share Thread Dialog",
+          "location": "center",
+          "approximate_dimensions": "400x400",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Thread Link Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background, border, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Copy Button",
+          "location": "right",
+          "approximate_dimensions": "60x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background, border, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Invite Button",
+          "location": "right",
+          "approximate_dimensions": "100x40",
+          "details": "Gray background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Colorful icons for Facebook, Twitter, etc.",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#3498DB",
+        "#F1F1F1"
+      ],
+      "typography_notes": "Open Sans, 14px",
+      "primary_purpose": "Sharing a thread with others",
+      "enterprise_os_potential": "Reusable modal for sharing content"
+    },
+    {
+      "screen_slug": "screen_status",
+      "screen_name": "Status Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "contains menu items, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "contains tabs, search bar, and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Navigation Tabs",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "contains four tabs: Inbox, Message, Friends, Blocked, Thread",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "contains a text input and a search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "list",
+          "name": "Inbox List",
+          "location": "center",
+          "approximate_dimensions": "100%x80%",
+          "details": "contains a list of messages with avatars, names, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "displays the user's profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "displays the number of unread messages",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "menu",
+          "name": "Status Menu",
+          "location": "overlay",
+          "approximate_dimensions": "200x200",
+          "details": "contains a dropdown menu with status options",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "toggle",
+          "name": "Dark Mode Toggle",
+          "location": "bottom",
+          "approximate_dimensions": "40x20",
+          "details": "a toggle switch for dark mode",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "uses a sans-serif font, likely Open Sans or a similar font",
+      "primary_purpose": "to display the user's status and provide navigation",
+      "enterprise_os_potential": "could be reused as a status screen in an enterprise OS, potentially with additional features and integrations"
+    },
+    {
+      "screen_slug": "screen_teams_chat",
+      "screen_name": "Teams Chat Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, team name, search bar, and icons for phone, video call, and settings",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains navigation menu with sections for General, Teams, Channel, and Integrations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Chat Conversation Card",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Displays chat conversation between team members, with text bubbles and timestamps",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Message Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Text input field for typing messages, with icons for attachments and emojis",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Message Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Blue button with send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "varies",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Small circular images representing team members",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "varies",
+          "details": "Icons for phone, video call, settings, attachments, and emojis",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "left sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Small red badge indicating unread messages",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "left sidebar",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Thin lines separating sections in the sidebar",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1",
+        "#ffffff"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Team communication and collaboration",
+      "enterprise_os_potential": "Reusable as a team collaboration platform within an enterprise OS"
+    },
+    {
+      "screen_slug": "screen_view_more_profile_general",
+      "screen_name": "User Profile General Information",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "User Profile Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, image of Kevin Heart",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "User Name",
+          "location": "top",
+          "approximate_dimensions": "auto",
+          "details": "Kevin Heart, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "User Handle",
+          "location": "top",
+          "approximate_dimensions": "auto",
+          "details": "@Kevinuhuy, regular font, gray color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "middle",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Status",
+          "location": "middle",
+          "approximate_dimensions": "auto",
+          "details": "On duty, green dot",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "About Me",
+          "location": "bottom",
+          "approximate_dimensions": "auto",
+          "details": "Discuss only on work hour, unless you wanna discuss about music, regular font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Close Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray color, X shape",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333",
+        "#CCCCCC",
+        "#008000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, various font sizes and weights",
+      "primary_purpose": "Displaying user profile information",
+      "enterprise_os_potential": "Reusable in various enterprise applications for user profile management"
+    },
+    {
+      "screen_slug": "screen_view_more_profile_thread",
+      "screen_name": "View More Profile Thread",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Thread Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "button",
+          "name": "Close Button",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray icon, hover effect",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Thread Tabs",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Two tabs: General and Thread",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Thread List",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "List of threads with avatars, names, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Rounded image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Thread Text",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Black text, variable font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Show More Threads",
+          "location": "bottom",
+          "approximate_dimensions": "150x30",
+          "details": "Gray text, hover effect",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "Open sans, variable font sizes",
+      "primary_purpose": "Displaying thread conversations",
+      "enterprise_os_potential": "Reusable in team collaboration tools"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:28:36.551Z"
+}

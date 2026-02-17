@@ -1,0 +1,3542 @@
+{
+  "generated_at": "2026-02-16T15:42:27.893Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 27,
+  "successful": 27,
+  "failed": 0,
+  "component_types": {
+    "card": 25,
+    "logo": 3,
+    "heading": 3,
+    "input": 19,
+    "button": 71,
+    "link": 1,
+    "image": 18,
+    "text": 19,
+    "icon": 47,
+    "sidebar": 23,
+    "search_bar": 11,
+    "avatar": 30,
+    "list": 6,
+    "badge": 10,
+    "topbar": 1,
+    "tabs": 7,
+    "checkbox": 1,
+    "comments_section": 1,
+    "video": 1,
+    "tag": 2,
+    "comments": 1,
+    "progress": 1,
+    "overlay": 4,
+    "map": 1,
+    "dropdown": 1,
+    "notification": 1,
+    "divider": 2,
+    "grid": 2,
+    "select": 4,
+    "menu": 1
+  },
+  "reuse_categories": {
+    "layout": 9,
+    "navigation": 68,
+    "data_display": 109,
+    "input": 35,
+    "action": 74,
+    "feedback": 16,
+    "media": 2,
+    "overlay": 4
+  },
+  "layout_types": {
+    "split": 3,
+    "sidebar_content": 22,
+    "grid": 1,
+    "centered": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "01_login",
+      "screen_name": "Login Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Login Form",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "logo",
+          "name": "Social Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Welcome Back!",
+          "location": "top",
+          "approximate_dimensions": "auto",
+          "details": "Large font, black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, password masking",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Forgot Password?",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Small font, gray text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Connect with Facebook",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Blue background, white text, Facebook logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Connect with Apple",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Black background, white text, Apple logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Connect with Google+",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, black text, Google+ logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "full screen",
+          "details": "Colorful gradient, laptop image",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Create an account",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Light blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#1877f2",
+        "#000000",
+        "#4285f4"
+      ],
+      "typography_notes": "Open sans font, various font sizes",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable for various login screens"
+    },
+    {
+      "screen_slug": "02_signup",
+      "screen_name": "Signup Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "Full height, 50% width",
+          "details": "Laptop with colorful lighting effects",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "left",
+          "approximate_dimensions": "200x50",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Hello! Already have an account?",
+          "location": "left",
+          "approximate_dimensions": "200x50",
+          "details": "White text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Social Logo",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Create an account",
+          "location": "top right",
+          "approximate_dimensions": "200x20",
+          "details": "Black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Name Input",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with label and green checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Password input with label and eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create an account Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Connect with Facebook Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Blue button with white text and Facebook logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Connect with Apple Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Black button with white text and Apple logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Connect with Google+ Button",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "White button with black text and Google+ logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Facebook Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Facebook logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Apple Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Apple logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Google+ Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Google+ logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Eye Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Eye icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#1877f2",
+        "#000000",
+        "#4285f4"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "User signup",
+      "enterprise_os_potential": "Reusable for various enterprise applications requiring user authentication"
+    },
+    {
+      "screen_slug": "03_password_recovery",
+      "screen_name": "Password Recovery",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Laptop Image",
+          "location": "left",
+          "approximate_dimensions": "Full height, 50% width",
+          "details": "Image of a laptop with a colorful glow, keyboard visible",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Password Recovery Card",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "White background, shadowed, contains form elements",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "logo",
+          "name": "Social Logo",
+          "location": "top",
+          "approximate_dimensions": "Icon size",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Password Recovery Heading",
+          "location": "top",
+          "approximate_dimensions": "Text size",
+          "details": "Black text, 'Password Recovery'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with placeholder 'anne.carry@mail.com', green checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Email Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Green background, white text, 'Send Email'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Blue background, white text, 'Log in'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Hello Text",
+          "location": "center",
+          "approximate_dimensions": "Text size",
+          "details": "White text, 'Hello!'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Remember your password Text",
+          "location": "center",
+          "approximate_dimensions": "Text size",
+          "details": "Small white text, 'Remember your password?'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#007bff",
+        "#28a745"
+      ],
+      "typography_notes": "Sans-serif font used throughout",
+      "primary_purpose": "Password recovery",
+      "enterprise_os_potential": "Reusable as a password recovery modal in various applications"
+    },
+    {
+      "screen_slug": "04_home_v01",
+      "screen_name": "Home Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "White 3D cube icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Navigation Buttons",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "White icons on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top center",
+          "approximate_dimensions": "400x40",
+          "details": "White background, gray text, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top right",
+          "approximate_dimensions": "80x40",
+          "details": "Gray text, white background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Featured Stories Card",
+          "location": "center",
+          "approximate_dimensions": "600x200",
+          "details": "White background, blue borders, images, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Post Input",
+          "location": "center",
+          "approximate_dimensions": "400x40",
+          "details": "Gray text, white background",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "center right",
+          "approximate_dimensions": "80x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Post Card",
+          "location": "center",
+          "approximate_dimensions": "600x400",
+          "details": "White background, images, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Post Images",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "Various images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "sidebar",
+          "name": "Right Sidebar",
+          "location": "right",
+          "approximate_dimensions": "300x100%",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Go Premium Card",
+          "location": "right top",
+          "approximate_dimensions": "250x150",
+          "details": "Red and blue background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "list",
+          "name": "Who to Follow List",
+          "location": "right",
+          "approximate_dimensions": "250x200",
+          "details": "White text, blue buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Friends List",
+          "location": "right",
+          "approximate_dimensions": "250x200",
+          "details": "White text, gray checkboxes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See More Button",
+          "location": "right",
+          "approximate_dimensions": "80x40",
+          "details": "Gray text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#808080"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Social media home screen",
+      "enterprise_os_potential": "Reusable for social media platforms, community forums, or discussion boards"
+    },
+    {
+      "screen_slug": "05_home_v02",
+      "screen_name": "Home Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "White background with gray border and magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Post Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White background with shadow, contains user avatar, text, and image/video",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "bottom",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Like Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Heart icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Featured Stories Card",
+          "location": "right",
+          "approximate_dimensions": "300x200",
+          "details": "Black background with white text and images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "right",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Trend Badge",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Green background with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Displaying social media feed",
+      "enterprise_os_potential": "Reusable for social media platforms or content discovery features"
+    },
+    {
+      "screen_slug": "06_stories",
+      "screen_name": "Stories Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x1080",
+          "details": "Blue background, white icons, logo at top",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Search Topbar",
+          "location": "top",
+          "approximate_dimensions": "1280x60",
+          "details": "Gray search bar, filters button, notification icon, profile avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Stories Tabs",
+          "location": "top",
+          "approximate_dimensions": "800x40",
+          "details": "White text on black background, five tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Story Card",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Image background, rounded corners, author avatar and name",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Story Image",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Various images used as background for story cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "bottom",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image of author, some with rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "top right",
+          "approximate_dimensions": "24x24",
+          "details": "Small icon indicating notifications",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open sans font used throughout, varying font sizes",
+      "primary_purpose": "Displaying stories with filtering and navigation",
+      "enterprise_os_potential": "Reusable for content discovery and management"
+    },
+    {
+      "screen_slug": "07_single_storie",
+      "screen_name": "Single Story View",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Logo Icon",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "White logo on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Navigation Buttons",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "White icons on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Story Card",
+          "location": "center",
+          "approximate_dimensions": "80% of screen width",
+          "details": "Black background with image and controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Story Image",
+          "location": "center",
+          "approximate_dimensions": "full width of card",
+          "details": "Gray building image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Navigation Controls",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "White arrows on black background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Comment Input",
+          "location": "bottom",
+          "approximate_dimensions": "80% of card width",
+          "details": "Gray input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "24x24",
+          "details": "White send icon on black background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "32x32",
+          "details": "Circular image with border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Next Stories Card",
+          "location": "right",
+          "approximate_dimensions": "300x600",
+          "details": "White background with list of users",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Next Stories List",
+          "location": "right",
+          "approximate_dimensions": "full height of card",
+          "details": "List of users with avatars and checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "right",
+          "approximate_dimensions": "24x24",
+          "details": "Circular images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Selection Checkboxes",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Blue checkmarks",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top left",
+          "approximate_dimensions": "80x30",
+          "details": "Gray button with back arrow",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Viewing a single story",
+      "enterprise_os_potential": "Reusable as a content viewing screen in various applications"
+    },
+    {
+      "screen_slug": "08_single_post",
+      "screen_name": "Single Post View",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image of Katherine Cole",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Author Name",
+          "location": "top",
+          "approximate_dimensions": "auto",
+          "details": "Katherine Cole, 5min ago",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Like Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Heart icon, 326 likes",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Comment Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Comment icon, 148 comments",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Share Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Share icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Post Image",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "Orange background, woman talking on phone",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Post Title",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Post Content",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Article text about fashion",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "comments_section",
+          "name": "Comments Section",
+          "location": "right",
+          "approximate_dimensions": "300x100%",
+          "details": "Black background, comments list",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Commenter Avatar",
+          "location": "right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image of commenter",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Comment Text",
+          "location": "right",
+          "approximate_dimensions": "auto",
+          "details": "Comment text, commenter name, timestamp",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Comment Input",
+          "location": "right",
+          "approximate_dimensions": "250x40",
+          "details": "Text input field, 'Write a comment...' placeholder",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Comment Button",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Blue send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#ff9900"
+      ],
+      "typography_notes": "Open sans font, varying font sizes",
+      "primary_purpose": "Displaying a single post with comments",
+      "enterprise_os_potential": "Reusable as a blog post or article view"
+    },
+    {
+      "screen_slug": "09_single_video",
+      "screen_name": "Single Video Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons and a logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top",
+          "approximate_dimensions": "100x30",
+          "details": "Gray background with black text and a back arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "video",
+          "name": "Main Video",
+          "location": "center",
+          "approximate_dimensions": "500x300",
+          "details": "Video player with controls and a thumbnail image",
+          "reusable": false,
+          "reuse_category": "media"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "center",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image of the author",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Video Title",
+          "location": "center",
+          "approximate_dimensions": "500x50",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Video Description",
+          "location": "center",
+          "approximate_dimensions": "500x100",
+          "details": "Smaller gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Tags",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Colored tags with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Related Video Thumbnails",
+          "location": "center",
+          "approximate_dimensions": "150x100",
+          "details": "Three thumbnail images with play icons",
+          "reusable": true,
+          "reuse_category": "media"
+        },
+        {
+          "type": "comments",
+          "name": "Comments Section",
+          "location": "right",
+          "approximate_dimensions": "300x500",
+          "details": "Black background with white text and avatars",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Comment Input",
+          "location": "right",
+          "approximate_dimensions": "250x30",
+          "details": "White input field with a send button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "Commenter Avatars",
+          "location": "right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular images of commenters",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Like Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#e74c3c"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To display a single video with comments and related content",
+      "enterprise_os_potential": "Reusable as a video content page in an enterprise OS"
+    },
+    {
+      "screen_slug": "10_video_full_screen",
+      "screen_name": "Video Full Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Home Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White house icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Calendar Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White calendar icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Email Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White email icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "People Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White people icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White gear icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Fullscreen Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White fullscreen icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image of a person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Like Button",
+          "location": "top",
+          "approximate_dimensions": "80x24",
+          "details": "Heart icon with count",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Comment Button",
+          "location": "top",
+          "approximate_dimensions": "80x24",
+          "details": "Comment icon with count",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "top",
+          "approximate_dimensions": "80x24",
+          "details": "Share icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "More Options Button",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Video Thumbnail",
+          "location": "center",
+          "approximate_dimensions": "100%x80%",
+          "details": "Image of an airplane wing",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "progress",
+          "name": "Video Progress Bar",
+          "location": "bottom",
+          "approximate_dimensions": "100%x4",
+          "details": "Blue progress bar",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Play/Pause Button",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Play/pause icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Volume Button",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Volume icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Settings Button",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Fullscreen Button",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Fullscreen icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font used for text",
+      "primary_purpose": "Video playback",
+      "enterprise_os_potential": "Reusable for video content platforms"
+    },
+    {
+      "screen_slug": "11_events",
+      "screen_name": "Events Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background, white icons, white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "White input field, gray placeholder text, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Gray text, white background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Date Filter Tabs",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Gray text, active tab with blue underline",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Event Cards",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Event Images",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Various images with different content",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Interested Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Small circular images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "overlay",
+          "name": "Right Sidebar",
+          "location": "right",
+          "approximate_dimensions": "300x100%",
+          "details": "Dark gray background",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "My Next Events Cards",
+          "location": "right",
+          "approximate_dimensions": "250x150",
+          "details": "White text, dark gray background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "White checkmark on dark gray background",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "See More Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White text, dark gray background",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#333333",
+        "#cccccc"
+      ],
+      "typography_notes": "Open Sans font, various font sizes",
+      "primary_purpose": "Displaying events and allowing users to filter and interact with them",
+      "enterprise_os_potential": "Reusable as a dashboard or event management page in various enterprise applications"
+    },
+    {
+      "screen_slug": "12_single_event",
+      "screen_name": "Single Event Details",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Share icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Interested Button",
+          "location": "top",
+          "approximate_dimensions": "80x30",
+          "details": "Green button with checkmark",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Event Image",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "Blue car on road",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Event Title",
+          "location": "center",
+          "approximate_dimensions": "200x20",
+          "details": "2019 DUB Show at Los Angeles Auto Show",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Event Date",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "12 December, 2019",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Event Time",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "9:00am to 6:00pm",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Event Price",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "$60 - $90",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Event Description",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Text describing the event",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Event Tags",
+          "location": "bottom",
+          "approximate_dimensions": "varies",
+          "details": "Car, Los Angeles, Exhibition, Auto, DUB, Show",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Address Card",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Black background with map and address",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Event Location Map",
+          "location": "right",
+          "approximate_dimensions": "250x250",
+          "details": "Map showing event location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Address Text",
+          "location": "right",
+          "approximate_dimensions": "200x20",
+          "details": "Los Angeles, CA 189 The Grove Dr",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Directions Button",
+          "location": "right",
+          "approximate_dimensions": "80x30",
+          "details": "Directions button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Friends Interested Avatars",
+          "location": "right",
+          "approximate_dimensions": "varies",
+          "details": "Multiple avatars with checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2196F3",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Displaying event details",
+      "enterprise_os_potential": "Reusable for event management systems"
+    },
+    {
+      "screen_slug": "13_search_results",
+      "screen_name": "Search Results",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "White background, gray border, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Gray background, white text, red badge",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "People Search Results",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White background, gray border, user avatars, names, and handles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add Button",
+          "location": "center",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text, checkmark icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Posts Search Results",
+          "location": "center",
+          "approximate_dimensions": "400x400",
+          "details": "White background, gray border, post images, text, and engagement metrics",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Post Images",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Various images with different aspect ratios",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "More Options Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "overlay",
+          "name": "Premium Promotion Overlay",
+          "location": "right",
+          "approximate_dimensions": "300x200",
+          "details": "Red and blue background, white text, call-to-action button",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "card",
+          "name": "Who to Follow Card",
+          "location": "right",
+          "approximate_dimensions": "300x200",
+          "details": "Black background, white text, user avatars, and follow buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "right",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Friends Card",
+          "location": "right",
+          "approximate_dimensions": "300x200",
+          "details": "Black background, white text, user avatars, and checkmark icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "varies",
+          "approximate_dimensions": "40x40",
+          "details": "Circular images with different backgrounds",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Red Badge",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Red background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#e74c3c",
+        "#2ecc71",
+        "#1a1d23"
+      ],
+      "typography_notes": "Open sans font used throughout the interface",
+      "primary_purpose": "Displaying search results for users and posts",
+      "enterprise_os_potential": "Reusable as a search results page in a social media or community platform"
+    },
+    {
+      "screen_slug": "14_drop_down",
+      "screen_name": "Dropdown Menu Example",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "White input field with gray placeholder text and magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Gray button with 'Filters' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Featured Stories Card",
+          "location": "center",
+          "approximate_dimensions": "800x200",
+          "details": "White card with black text and blue outlined avatars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular images with blue outline",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Post Input",
+          "location": "center",
+          "approximate_dimensions": "600x100",
+          "details": "White input field with gray placeholder text and camera icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Blue button with white 'Share' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Post Images",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "Various images with different aspect ratios",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "dropdown",
+          "name": "User Profile Dropdown",
+          "location": "right",
+          "approximate_dimensions": "200x200",
+          "details": "White dropdown menu with gray text and blue chevron icons",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "icon",
+          "name": "Chevron Icons",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Blue chevron icons in dropdown menu",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Online Status Badge",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Green badge indicating online status",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Social media platform",
+      "enterprise_os_potential": "Reusable for social media management or community building applications"
+    },
+    {
+      "screen_slug": "15_notifications",
+      "screen_name": "Notifications Overlay",
+      "screen_type": "overlay",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Logo Icon",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "White 3D cube icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top center",
+          "approximate_dimensions": "400x40",
+          "details": "White background, gray text, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top right",
+          "approximate_dimensions": "80x40",
+          "details": "Gray text, no background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Featured Stories Card",
+          "location": "center",
+          "approximate_dimensions": "600x200",
+          "details": "White background, blue borders on avatars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, blue borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See More Button",
+          "location": "top right",
+          "approximate_dimensions": "80x20",
+          "details": "Black text, no background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Post Input",
+          "location": "center",
+          "approximate_dimensions": "500x100",
+          "details": "Gray text, camera and plus icons",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "center right",
+          "approximate_dimensions": "80x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Post Images",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "Various images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "overlay",
+          "name": "Notifications Overlay",
+          "location": "right",
+          "approximate_dimensions": "300x100%",
+          "details": "Light blue background",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "notification",
+          "name": "Notification Items",
+          "location": "right",
+          "approximate_dimensions": "250x50",
+          "details": "White background, avatar, text, and icons",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Count Badge",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Red background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add/Ignore Buttons",
+          "location": "right",
+          "approximate_dimensions": "60x30",
+          "details": "Green and gray backgrounds, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icons",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons (heart, person, etc.)",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#f7f7f7",
+        "#dc3545"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Displaying notifications",
+      "enterprise_os_potential": "Reusable as a notification system for various enterprise applications"
+    },
+    {
+      "screen_slug": "16_messages",
+      "screen_name": "Messages Inbox",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left sidebar",
+          "location": "left",
+          "approximate_dimensions": "60xFull height",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "White background, gray text, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Message tabs",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Direct Messages, Group Chat, Archived tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Message list",
+          "location": "center",
+          "approximate_dimensions": "Full width x Full height",
+          "details": "List of messages with avatars, names, and timestamps",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatars",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Circular images of users",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread message count",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Red background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Menu icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White icons on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "List dividers",
+          "location": "center",
+          "approximate_dimensions": "Full width x 1px",
+          "details": "Gray lines separating list items",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Download button",
+          "location": "bottom",
+          "approximate_dimensions": "100x30",
+          "details": "Black text, gray background",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#cccccc"
+      ],
+      "typography_notes": "Open sans font, various font sizes",
+      "primary_purpose": "Displaying messages and facilitating conversation",
+      "enterprise_os_potential": "Reusable as a messaging interface in various enterprise applications"
+    },
+    {
+      "screen_slug": "17_direct_message",
+      "screen_name": "Direct Message Inbox",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "White input field with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Chat Button",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Green button with white chat icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Inbox Tabs",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Three tabs: Direct Messages, Group Chat, Archived",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Conversation List",
+          "location": "left",
+          "approximate_dimensions": "250x500",
+          "details": "List of conversations with avatars, names, and timestamps",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "left",
+          "approximate_dimensions": "15x15",
+          "details": "Red badge with white number",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "More Options Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Message Input",
+          "location": "bottom",
+          "approximate_dimensions": "300x30",
+          "details": "White input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Message Button",
+          "location": "bottom",
+          "approximate_dimensions": "30x30",
+          "details": "Blue button with plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Smiling face icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f"
+      ],
+      "typography_notes": "Open sans font used throughout the screen",
+      "primary_purpose": "Direct messaging between users",
+      "enterprise_os_potential": "Reusable as a messaging module in enterprise software"
+    },
+    {
+      "screen_slug": "18_video_chat",
+      "screen_name": "Video Chat Interface",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60xFull Height",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Home Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White house icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Calendar Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White calendar icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Email Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White envelope icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "People Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White people icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White gear icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Mute Button",
+          "location": "bottom",
+          "approximate_dimensions": "48x48",
+          "details": "White microphone icon on white background with black border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Video Button",
+          "location": "bottom",
+          "approximate_dimensions": "48x48",
+          "details": "White camera icon on white background with black border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "48x48",
+          "details": "White phone icon on red background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image of a person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Chat Card",
+          "location": "right",
+          "approximate_dimensions": "300xFull Height",
+          "details": "White background with shadow, containing chat log",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom right",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "24x24",
+          "details": "Smiling face icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Vertical Divider",
+          "location": "left",
+          "approximate_dimensions": "1xFull Height",
+          "details": "Thin white line separating sidebar from content",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#ff0000"
+      ],
+      "typography_notes": "Open sans font used throughout the interface",
+      "primary_purpose": "Video conferencing and chat functionality",
+      "enterprise_os_potential": "Reusable as a communication hub for team collaboration"
+    },
+    {
+      "screen_slug": "19_group_message",
+      "screen_name": "Group Message",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "White input field with green button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Message Tabs",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Three tabs: Direct Messages, Group Chat, Archived",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "list",
+          "name": "Message List",
+          "location": "left",
+          "approximate_dimensions": "250x500",
+          "details": "List of conversations with avatars and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars",
+          "location": "varies",
+          "approximate_dimensions": "30x30",
+          "details": "Circular images representing users",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Message Badge",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Red circle with white number",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "More Options Button",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Message Input",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with blue send button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Emoji Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Smiling face icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#f0f0f0"
+      ],
+      "typography_notes": "Open sans font used throughout the screen",
+      "primary_purpose": "Group messaging",
+      "enterprise_os_potential": "Reusable for team collaboration and communication"
+    },
+    {
+      "screen_slug": "20_my_friends",
+      "screen_name": "My Friends",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x1080",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "White input field with gray text and magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Gray text with filter icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Friend Card",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "White background with rounded corners, shadow, and friend information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Friend Avatar",
+          "location": "center",
+          "approximate_dimensions": "50x50",
+          "details": "Circular image with rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Friends Button",
+          "location": "center",
+          "approximate_dimensions": "100x30",
+          "details": "Green background with white text and checkmark icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "overlay",
+          "name": "Who to Follow Overlay",
+          "location": "right",
+          "approximate_dimensions": "300x1080",
+          "details": "Black background with white text and follow buttons",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "avatar",
+          "name": "Suggested Friend Avatar",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "right",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background with white text and plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "White icon with red badge",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#23ce6e"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Displaying a user's friends list",
+      "enterprise_os_potential": "Reusable as a friends or connections list in a social media or professional networking platform"
+    },
+    {
+      "screen_slug": "21_user_profile",
+      "screen_name": "User Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x1080",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "Circular, pink background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Friends Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Back Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "White, chevron left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Posts, Photos, Videos, Events Tabs",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Gray text, active tab underlined",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Post Card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "White background, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Post Image",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Various images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Post Text",
+          "location": "center",
+          "approximate_dimensions": "300x100",
+          "details": "Black text, various font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Read More Button",
+          "location": "center",
+          "approximate_dimensions": "80x20",
+          "details": "Gray text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Like Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gray, heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Comment Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gray, comment icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Display user profile information",
+      "enterprise_os_potential": "Reusable for various social media platforms"
+    },
+    {
+      "screen_slug": "22_gallery",
+      "screen_name": "Gallery Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Blue background with white icons and logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "Profile Avatar",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "Circular image with pink background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Friends Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Navigation Tabs",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Gray text with black underline on active tab",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Gallery Images",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Various images with different aspect ratios",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Blue badge with white number",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Friend Avatars",
+          "location": "bottom left",
+          "approximate_dimensions": "varies",
+          "details": "Small circular images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2196F3",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout",
+      "primary_purpose": "Display user profile and gallery",
+      "enterprise_os_potential": "Reusable for user profile and content display"
+    },
+    {
+      "screen_slug": "23_single_photo",
+      "screen_name": "Single Photo View",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "64x100%",
+          "details": "Blue background, white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Home Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White house icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Calendar Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White calendar icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Email Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White envelope icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "People Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White people icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White gear icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top",
+          "approximate_dimensions": "80x32",
+          "details": "Gray button with white back arrow and 'Back' text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "32x32",
+          "details": "Circular image of Edward Ford",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Main Image",
+          "location": "center",
+          "approximate_dimensions": "512x512",
+          "details": "Aerial view of a person on a paddleboard in turquoise water",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "left",
+          "approximate_dimensions": "32x32",
+          "details": "Gray button with white left arrow",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Next Button",
+          "location": "right",
+          "approximate_dimensions": "32x32",
+          "details": "Gray button with white right arrow",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Comments Card",
+          "location": "right",
+          "approximate_dimensions": "400x100%",
+          "details": "White card with comments list",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue badge with white '1' text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Commenter Avatar",
+          "location": "right",
+          "approximate_dimensions": "32x32",
+          "details": "Circular image of Billy Green",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Comment Text",
+          "location": "right",
+          "approximate_dimensions": "variable",
+          "details": "Text of Billy Green's comment",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Like Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Gray heart icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Comment Input",
+          "location": "bottom",
+          "approximate_dimensions": "variable",
+          "details": "Text input field with 'Write a comment...' placeholder",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Blue send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#f7f7f7"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Displaying a single photo with comments",
+      "enterprise_os_potential": "Reusable as a photo gallery or media viewer component"
+    },
+    {
+      "screen_slug": "24_my_profile",
+      "screen_name": "My Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60x100%",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Gray background with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filters Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Gray background with 'Filters' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Post Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White background with text and images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Post Image",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "Various images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "right",
+          "approximate_dimensions": "80x80",
+          "details": "Rounded image with pink background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Edit Profile Button",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Green background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "More Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "User Info",
+          "location": "right",
+          "approximate_dimensions": "200x100",
+          "details": "White text with user information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Friends Grid",
+          "location": "right",
+          "approximate_dimensions": "200x200",
+          "details": "Grid of user avatars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "User profile page",
+      "enterprise_os_potential": "Reusable for user profile pages in various applications"
+    },
+    {
+      "screen_slug": "25_settings",
+      "screen_name": "Account Settings",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Settings Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60xFull Height",
+          "details": "Blue background with white icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Account Information Card",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background with shadow, contains form fields",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Profile Picture",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "Circular image with border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Replace Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Blue background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Delete Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "White background with gray border and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Name Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Username Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border, contains green checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Birthday Select",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border and blue chevron",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Country Select",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border and blue chevron",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "State Select",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border and blue chevron",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "City Select",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background with gray border and blue chevron",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Save Changes Button",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Green background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "menu",
+          "name": "Settings Menu",
+          "location": "right",
+          "approximate_dimensions": "200xFull Height",
+          "details": "Black background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Blue background with white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "To allow users to manage their account settings",
+      "enterprise_os_potential": "This layout could be reused in other enterprise OS applications that require user account management"
+    },
+    {
+      "screen_slug": "components_icon",
+      "screen_name": "Icon Components",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "40x40 grid",
+          "details": "Black icons on light gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Icon Grid",
+          "location": "center",
+          "approximate_dimensions": "Full screen width",
+          "details": "Multi-row grid layout for icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#F7F7F7"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying various icon components",
+      "enterprise_os_potential": "Reusable for icon libraries or design systems"
+    },
+    {
+      "screen_slug": "cover_cover",
+      "screen_name": "Cover Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Logo Icon",
+          "location": "top left",
+          "approximate_dimensions": "40x40",
+          "details": "White logo icon with a stylized 'S' shape, adjacent to the text 'social'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Brand Text",
+          "location": "top left",
+          "approximate_dimensions": "not applicable",
+          "details": "White text reading 'social' next to the logo icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#007bff"
+      ],
+      "typography_notes": "The text 'social' is in a clean, sans-serif font",
+      "primary_purpose": "Branding or title screen",
+      "enterprise_os_potential": "Could be used as a login or splash screen in various applications"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:09:03.460Z"
+}

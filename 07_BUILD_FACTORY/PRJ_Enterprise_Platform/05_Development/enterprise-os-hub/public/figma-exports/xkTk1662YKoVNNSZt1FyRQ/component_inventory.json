@@ -1,0 +1,1693 @@
+{
+  "generated_at": "2026-02-16T23:15:09.674Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 19,
+  "successful": 19,
+  "failed": 0,
+  "component_types": {
+    "button": 17,
+    "icon": 25,
+    "text": 28,
+    "divider": 5,
+    "form": 2,
+    "input": 10,
+    "avatar": 4,
+    "tag": 1,
+    "card": 12,
+    "heading": 9,
+    "color swatch": 1,
+    "table": 1,
+    "topbar": 2,
+    "breadcrumb": 1,
+    "badge": 4,
+    "bar_chart": 1,
+    "image": 1,
+    "label": 1,
+    "accordion": 1,
+    "menu": 1,
+    "logo": 1,
+    "checkbox": 1,
+    "paragraph": 1
+  },
+  "reuse_categories": {
+    "action": 21,
+    "data_display": 78,
+    "layout": 7,
+    "input": 13,
+    "navigation": 10,
+    "feedback": 1
+  },
+  "layout_types": {
+    "grid": 10,
+    "split": 1,
+    "centered": 8
+  },
+  "screens": [
+    {
+      "screen_slug": "component_button",
+      "screen_name": "Button Component Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Primary Button",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Secondary Button",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "White background, colored text, rounded corners, border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Tertiary Button",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Envelope Icon",
+          "location": "inside buttons",
+          "approximate_dimensions": "small",
+          "details": "Simple envelope icon, white or colored",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Arrow Right Icon",
+          "location": "inside buttons",
+          "approximate_dimensions": "small",
+          "details": "Simple arrow icon, white or colored",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Button Text",
+          "location": "inside buttons",
+          "approximate_dimensions": "varies",
+          "details": "White or colored text, various sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A0BC0",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Various font sizes used for button text",
+      "primary_purpose": "Showcasing different button styles and variations",
+      "enterprise_os_potential": "Reusable button components for various enterprise applications"
+    },
+    {
+      "screen_slug": "component_company_logo",
+      "screen_name": "Company Logos",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "various company logos in light purple color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Border",
+          "location": "around the grid",
+          "approximate_dimensions": "dashed line around the grid",
+          "details": "dashed light purple line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#cccccc",
+        "#6666cc"
+      ],
+      "typography_notes": "consistent font style across company names",
+      "primary_purpose": "displaying company logos",
+      "enterprise_os_potential": "could be used as a reference or showcase for company logos in an enterprise OS"
+    },
+    {
+      "screen_slug": "component_icons",
+      "screen_name": "Icon Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "Multiple sizes",
+          "details": "Black and white icons, various shapes and designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Dashed Rectangle",
+          "location": "bottom left",
+          "approximate_dimensions": "Variable",
+          "details": "Purple dashed rectangle surrounding icon groups",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Displaying a collection of icons for UI design",
+      "enterprise_os_potential": "Reusable icon set for various enterprise applications"
+    },
+    {
+      "screen_slug": "component_input_toggle",
+      "screen_name": "Component Input Toggle",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "form",
+          "name": "Registration Form",
+          "location": "left",
+          "approximate_dimensions": "300x350",
+          "details": "contains input fields for full name, email, and password, with a forgot password link",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Full Name Input",
+          "location": "left",
+          "approximate_dimensions": "250x40",
+          "details": "text input field with placeholder text 'Pixem Studio'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "left",
+          "approximate_dimensions": "250x40",
+          "details": "text input field with placeholder text 'hipixem@gmail.com'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "left",
+          "approximate_dimensions": "250x40",
+          "details": "password input field with placeholder text 'Min. 8 character'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign in with Google",
+          "location": "right",
+          "approximate_dimensions": "150x40",
+          "details": "black button with Google logo and text 'Sign in with Google'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in with Apple",
+          "location": "right",
+          "approximate_dimensions": "150x40",
+          "details": "black button with Apple logo and text 'Sign in with Apple'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in with Facebook",
+          "location": "right",
+          "approximate_dimensions": "150x40",
+          "details": "black button with Facebook logo and text 'Sign in with Facebook'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in with LinkedIn",
+          "location": "right",
+          "approximate_dimensions": "150x40",
+          "details": "black button with LinkedIn logo and text 'Sign in with LinkedIn'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Google Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Google logo icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Apple Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Apple logo icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Facebook Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Facebook logo icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "LinkedIn Logo",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "LinkedIn logo icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "uses a clean sans-serif font",
+      "primary_purpose": "demonstrating different input and button components",
+      "enterprise_os_potential": "could be reused in various authentication flows"
+    },
+    {
+      "screen_slug": "component_logo_integration",
+      "screen_name": "Component Logo Integration",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Brand logos",
+          "location": "center",
+          "approximate_dimensions": "Various sizes",
+          "details": "Colorful logos of various brands, no text, simple borders",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "No typography present",
+      "primary_purpose": "Showcasing brand logos for integration",
+      "enterprise_os_potential": "Reusable for displaying partner or supported platforms"
+    },
+    {
+      "screen_slug": "greeting_cover",
+      "screen_name": "Job Finder Web Template UI Kit Design",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Adify logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Purple square with white 'A' icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "Author avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with blue-purple gradient background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "large width, variable height",
+          "details": "Large black text 'Job Finder Web Template UI Kit Design'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Category tags",
+          "location": "center",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "Four rounded rectangular tags with black text: 'Web Template', 'UI Kit', 'SaaS UI Kit', 'Tokens & Variables'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Email icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Small orange envelope icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Email address",
+          "location": "bottom",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Black text 'hidelowar776@gmail.com'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "WhatsApp icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Small green WhatsApp logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Phone number",
+          "location": "bottom",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Black text '+8801778561222'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#3498DB",
+        "#F1C40F",
+        "#2ECC71",
+        "#E74C3C"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout",
+      "primary_purpose": "Template cover page for UI kit",
+      "enterprise_os_potential": "Reusable as a landing page or marketing material for UI kits and web templates"
+    },
+    {
+      "screen_slug": "style_guide_color_palette",
+      "screen_name": "Color Palette Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Color Palette Card",
+          "location": "center",
+          "approximate_dimensions": "Full width",
+          "details": "White background, subtle shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "heading",
+          "name": "Colors Heading",
+          "location": "top",
+          "approximate_dimensions": "Large text",
+          "details": "Black text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "top",
+          "approximate_dimensions": "Medium text",
+          "details": "Gray text, medium font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "Full width, thin line",
+          "details": "Light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "color swatch",
+          "name": "Color Swatch",
+          "location": "within color palettes",
+          "approximate_dimensions": "Rectangular, varying colors",
+          "details": "Various colors, rounded corners, hex codes displayed",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Adify Logo",
+          "location": "top left",
+          "approximate_dimensions": "Small, square",
+          "details": "Purple 'A' icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "top right",
+          "approximate_dimensions": "Small, circular",
+          "details": "Author's profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Author Name",
+          "location": "top right",
+          "approximate_dimensions": "Small text",
+          "details": "Black text, small font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#E2E0D",
+        "#C8B0FA",
+        "#985AF4",
+        "#8133F1",
+        "#6200EE",
+        "#5900D9",
+        "#4600A9",
+        "#360083",
+        "#230064",
+        "#FEEFF3",
+        "#FEE8ED",
+        "#FDCFD9",
+        "#FA9EB2",
+        "#F76384",
+        "#DE5771",
+        "#C8467A",
+        "#B94463",
+        "#9B232E",
+        "#FEBP2",
+        "#FDF3D6",
+        "#FCEDC3",
+        "#F9E096",
+        "#F8D87C",
+        "#E2C571",
+        "#B0958",
+        "#187744",
+        "#885B34",
+        "#C7EE2",
+        "#ACE7D3",
+        "#86DCBF",
+        "#6ED583",
+        "#4ACBA0",
+        "#43B892",
+        "#339072",
+        "#297058",
+        "#1F5243",
+        "#999FA",
+        "#686559",
+        "#6ACACE",
+        "#888688",
+        "#5FA44B",
+        "#3E237",
+        "#303BBC",
+        "#2E0F11",
+        "#170727"
+      ],
+      "typography_notes": "Headings are in a large, bold font. Body text is in a medium font size. Hex codes are displayed in a small font size.",
+      "primary_purpose": "To showcase the color palette for a design system",
+      "enterprise_os_potential": "This color palette style guide can be reused in various enterprise OS applications, such as design systems, branding guidelines, and UI kits."
+    },
+    {
+      "screen_slug": "style_guide_typography",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Typography Title",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Large font, bold weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Smaller font, regular weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Adify Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Purple icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "24x24",
+          "details": "Small circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Font Used Card",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "White background, shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Font Name",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Various font sizes and weights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Typography Table",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Grid layout with headers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Manrope font family used throughout, various weights and sizes",
+      "primary_purpose": "To showcase typography styles and guidelines",
+      "enterprise_os_potential": "Reusable for documentation and style guides across different applications"
+    },
+    {
+      "screen_slug": "widget_about_us",
+      "screen_name": "About Us",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, log in, and get in touch buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Shows current page location: About Us",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Main Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "Large text: Empowering Your Career Journey: Our Mission & Story",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subheading",
+          "location": "center",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Smaller text describing the mission",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "200px x 40px",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Join with us Button",
+          "location": "center",
+          "approximate_dimensions": "100px x 40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Job Listing Cards",
+          "location": "center",
+          "approximate_dimensions": "300px x 200px",
+          "details": "Contains job title, company, location, and salary",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Small circular image representing a user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Bookmark Icon",
+          "location": "right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Small icon for bookmarking",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Customer Success Badge",
+          "location": "left",
+          "approximate_dimensions": "100px x 20px",
+          "details": "Displays customer success rate: 7.89%",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "bar_chart",
+          "name": "Top Job Categories Chart",
+          "location": "center",
+          "approximate_dimensions": "200px x 100px",
+          "details": "Color-coded bar chart showing job categories",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#f7f7f7"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To showcase the company's mission and story",
+      "enterprise_os_potential": "Could be reused as a template for company about pages or career journey sections"
+    },
+    {
+      "screen_slug": "widget_blog",
+      "screen_name": "Blog Widget",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Blog Post Card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "Image with overlay text, trending label, and job seeker information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Blog Post Image",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Image of people working",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Blog Post Title",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Bold font, large size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "label",
+          "name": "Trending Label",
+          "location": "top",
+          "approximate_dimensions": "50x20",
+          "details": "Small, bold font, colored background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Bookmark Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Simple icon, possibly clickable",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Job Seeker Badge",
+          "location": "bottom",
+          "approximate_dimensions": "50x20",
+          "details": "Small, colored badge with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#3498DB"
+      ],
+      "typography_notes": "Bold font used for titles, regular font for body text",
+      "primary_purpose": "Displaying blog posts",
+      "enterprise_os_potential": "Reusable for displaying various types of content"
+    },
+    {
+      "screen_slug": "widget_coming_soon",
+      "screen_name": "Coming Soon Widget",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, navigation links, and login/get in touch buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Coming Soon Badge",
+          "location": "top",
+          "approximate_dimensions": "80px width, 30px height",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Main Heading",
+          "location": "center",
+          "approximate_dimensions": "large text",
+          "details": "Black text, 'We are coming soon'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "center",
+          "approximate_dimensions": "medium text",
+          "details": "Black text, describes newsletter subscription",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "center",
+          "approximate_dimensions": "200px width, 40px height",
+          "details": "White background, black text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "center",
+          "approximate_dimensions": "100px width, 40px height",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, varying font sizes for hierarchy",
+      "primary_purpose": "To inform users of a coming soon feature and allow them to subscribe to updates",
+      "enterprise_os_potential": "Reusable as a coming soon or maintenance page template"
+    },
+    {
+      "screen_slug": "widget_cta",
+      "screen_name": "Job Search Widget",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Job Listing Card",
+          "location": "center",
+          "approximate_dimensions": "250x150",
+          "details": "white background, shadow, rounded corners, company logo, job title, location, salary, 'Apply Now' button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "center",
+          "approximate_dimensions": "80x30",
+          "details": "dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "200x30",
+          "details": "light background, border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logo",
+          "location": "inside card",
+          "approximate_dimensions": "20x20",
+          "details": "various company logos",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Job Title",
+          "location": "inside card",
+          "approximate_dimensions": "variable",
+          "details": "black text, varying font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Job Description",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "black text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Main Heading",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#F7F7F7"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font, varying font sizes for headings and body text",
+      "primary_purpose": "Showcasing a job search widget with call-to-action",
+      "enterprise_os_potential": "Reusable as a component in a larger job search platform or HR system"
+    },
+    {
+      "screen_slug": "widget_error",
+      "screen_name": "404 Error Page",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Error Message Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "White background, subtle shadow, centered content",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "404 Error Code",
+          "location": "center",
+          "approximate_dimensions": "large font size",
+          "details": "Large, dark gray font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Error Message",
+          "location": "center",
+          "approximate_dimensions": "medium font size",
+          "details": "Smaller, black font, 'Page not found'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Error Description",
+          "location": "center",
+          "approximate_dimensions": "small font size",
+          "details": "Small, gray font, 'The page you're searching for isn't available'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Back Home Button",
+          "location": "center",
+          "approximate_dimensions": "100x30",
+          "details": "Dark gray background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333",
+        "#666666"
+      ],
+      "typography_notes": "Varied font sizes, sans-serif font",
+      "primary_purpose": "Displaying a 404 error message",
+      "enterprise_os_potential": "Reusable for various error states across different applications"
+    },
+    {
+      "screen_slug": "widget_faq",
+      "screen_name": "FAQ Widget Variations",
+      "screen_type": "state_variant",
+      "is_variant_of": "faq_widget",
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "FAQ Accordion",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "White background, subtle shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQ Item",
+          "location": "center",
+          "approximate_dimensions": "250x50",
+          "details": "Gray background on hover, plus icon on the right",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Plus Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Simple plus icon, changes to minus on expand",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "FAQ Question",
+          "location": "left",
+          "approximate_dimensions": "200x20",
+          "details": "Black text, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "FAQ Answer",
+          "location": "left",
+          "approximate_dimensions": "200x100",
+          "details": "Gray text, smaller font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "FAQ Divider",
+          "location": "bottom",
+          "approximate_dimensions": "250x1",
+          "details": "Light gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#F7F7F7",
+        "#333333",
+        "#CCCCCC"
+      ],
+      "typography_notes": "Open Sans, font sizes vary between 14px and 16px",
+      "primary_purpose": "Displaying FAQs in different widget variations",
+      "enterprise_os_potential": "Reusable FAQ component for various enterprise applications"
+    },
+    {
+      "screen_slug": "widget_footer",
+      "screen_name": "Footer Widget",
+      "screen_type": "state_variant",
+      "is_variant_of": "footer",
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "menu",
+          "name": "Footer Menu",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "5-column grid with white text on purple background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White input field with black text and a subscribe button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "center",
+          "approximate_dimensions": "80x40",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "White social media icons (Facebook, Twitter, LinkedIn, etc.)",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Small white text with copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Address Text",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Small white text with address information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Contact Information",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Small white text with email and phone number",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Adify Logo",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "White logo on purple background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7"
+      ],
+      "typography_notes": "Open Sans font used throughout the footer",
+      "primary_purpose": "To provide a consistent footer element for the website",
+      "enterprise_os_potential": "Reusable footer component for various enterprise applications"
+    },
+    {
+      "screen_slug": "widget_section",
+      "screen_name": "Widget Section",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Career Booster Card",
+          "location": "left",
+          "approximate_dimensions": "240x160",
+          "details": "Light purple background, icon, title, and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Profile Highlighters Card",
+          "location": "center",
+          "approximate_dimensions": "240x160",
+          "details": "Light pink background, icon, title, and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Interactive Assessment Card",
+          "location": "right",
+          "approximate_dimensions": "240x160",
+          "details": "Light blue background, icon, title, and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Career Booster Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Simple line icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Profile Highlighters Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Simple line icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Interactive Assessment Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Simple line icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "World best Platform For Job Seekers",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "The leading platform for job seekers",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Smaller font, below title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#C7B8F5",
+        "#F5B8C7",
+        "#B8C7F5"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes for hierarchy",
+      "primary_purpose": "Showcasing different widget layouts for job seeker platform",
+      "enterprise_os_potential": "Reusable grid layout for various widget or feature showcases"
+    },
+    {
+      "screen_slug": "widget_sign_up",
+      "screen_name": "Sign Up Widget",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Left arrow icon, black color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Adify Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Purple 'A' logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Create an account",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Black text, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Sign Up Form",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Contains full name, email, password fields, and a checkbox",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Full Name Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, black text, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, black text, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, black text, placeholder text, password masking",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Terms of Use Checkbox",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Unchecked by default, black text for label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Log In Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Or Divider",
+          "location": "center",
+          "approximate_dimensions": "300x20",
+          "details": "Text 'or' with lines on either side",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Google Sign Up Button",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Google logo, white background, gray border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Apple Sign Up Button",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Apple logo, black background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Microsoft Sign Up Button",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Microsoft logo, white background, gray border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sign Up Link",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "Black text 'Don't have an account? Sign up'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout",
+      "primary_purpose": "Allowing users to create a new account",
+      "enterprise_os_potential": "This sign up widget can be reused in various enterprise applications where user registration is required"
+    },
+    {
+      "screen_slug": "widget_who_we_are",
+      "screen_name": "Who We Are Widget",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Profile Card",
+          "location": "center",
+          "approximate_dimensions": "250x350",
+          "details": "Image of a person with a purple background, containing statistics about job availability and efficiency",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Who We Are Heading",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Large font heading with the text 'Who We Are'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Who We Are Description",
+          "location": "top",
+          "approximate_dimensions": "200x100",
+          "details": "Paragraph of text describing the company's mission and values",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "What We Do Heading",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Large font heading with the text 'What We Do'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "What We Do Description",
+          "location": "top",
+          "approximate_dimensions": "200x100",
+          "details": "Paragraph of text describing the company's services",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Statistic Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Icon representing a statistic, such as a star or a lightning bolt",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Statistic Badge",
+          "location": "bottom",
+          "approximate_dimensions": "100x30",
+          "details": "Badge displaying a statistic, such as '100k+ Jobs Available'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "The font used is a clean sans-serif font, likely Open Sans or a similar font",
+      "primary_purpose": "To showcase the company's mission and values",
+      "enterprise_os_potential": "This layout could be reused as a widget in a larger enterprise OS dashboard to provide an overview of the company's services"
+    },
+    {
+      "screen_slug": "widget_why_chose_us",
+      "screen_name": "Why chose Adify widget",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Why chose Adify card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "white background, subtle shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Why chose Adify heading",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "black text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "paragraph",
+          "name": "Why chose Adify description",
+          "location": "top",
+          "approximate_dimensions": "250x50",
+          "details": "gray text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "feature icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "purple color, simple design",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "feature title",
+          "location": "left",
+          "approximate_dimensions": "150x20",
+          "details": "black text, medium font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "feature description",
+          "location": "left",
+          "approximate_dimensions": "150x50",
+          "details": "gray text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font family used throughout",
+      "primary_purpose": "Showcasing benefits of using Adify",
+      "enterprise_os_potential": "Reusable component for highlighting features"
+    }
+  ]
+}

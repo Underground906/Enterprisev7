@@ -1,0 +1,5826 @@
+{
+  "generated_at": "2026-02-16T19:00:38.693Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 76,
+  "successful": 64,
+  "failed": 12,
+  "component_types": {
+    "topbar": 29,
+    "button": 70,
+    "icon": 54,
+    "text": 50,
+    "divider": 4,
+    "color swatch": 1,
+    "heading": 5,
+    "image": 16,
+    "list": 2,
+    "table": 2,
+    "card": 41,
+    "input": 29,
+    "link": 11,
+    "checkbox": 2,
+    "breadcrumb": 2,
+    "sidebar": 27,
+    "chat": 2,
+    "avatar": 28,
+    "tabs": 25,
+    "map": 7,
+    "modal": 7,
+    "radio": 5,
+    "search_bar": 17,
+    "dropdown": 2,
+    "logo": 3,
+    "copyright": 3,
+    "language_selector": 1,
+    "badge": 12,
+    "textarea": 2,
+    "tag": 3,
+    "calendar": 1,
+    "language selector": 1,
+    "select": 1,
+    "toggle": 1
+  },
+  "reuse_categories": {
+    "navigation": 123,
+    "action": 82,
+    "data_display": 167,
+    "layout": 12,
+    "input": 63,
+    "feedback": 13,
+    "overlay": 6
+  },
+  "layout_types": {
+    "centered": 20,
+    "split": 11,
+    "sidebar_content": 30,
+    "full_canvas": 3
+  },
+  "screens": [
+    {
+      "screen_slug": "component_iconography",
+      "screen_name": "Button Component Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Header Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Purple background, white text, Ecomic logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Button Component",
+          "location": "center",
+          "approximate_dimensions": "varies, multiple examples",
+          "details": "Various colors, sizes, and states; text and icon combinations",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Component Icon",
+          "location": "within buttons",
+          "approximate_dimensions": "16x16 or 24x24",
+          "details": "Simple, geometric icons used alongside text in buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Button Text",
+          "location": "within buttons",
+          "approximate_dimensions": "varies",
+          "details": "White or colored text, depending on button state and color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FF0000",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Clean, sans-serif font used throughout; varying font sizes for hierarchy",
+      "primary_purpose": "To showcase and guide the styling of button components for a design system",
+      "enterprise_os_potential": "Reusable for various enterprise applications requiring standardized button components across different modules or features"
+    },
+    {
+      "screen_slug": "styleguide_colors",
+      "screen_name": "Color Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Ecomic logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "White icon on purple background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Colors title",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "White text 'Colors' on purple background",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "White text 'The style guide provides to change stylistic for your design site.' on purple background",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Implicit divider between sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Color category title",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text 'Primary', 'Neutral', 'Orange', 'Red', 'Yellow', 'Green'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color count",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text '10 colors', '12 colors'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color swatch",
+          "name": "Color palette",
+          "location": "center",
+          "approximate_dimensions": "variable grid",
+          "details": "Grid of colored squares with hex codes and labels",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Hex code",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White or black text displaying hex code",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color label",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text displaying color label (e.g., '50', '100', '200')",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6EEFF",
+        "#E307FF",
+        "#078BFF",
+        "#C49EFF",
+        "#8377FF",
+        "#A235FF",
+        "#8A3CD9",
+        "#7338B5",
+        "#5C3391",
+        "#492873",
+        "#FFFFFF",
+        "#F0FDFD",
+        "#F5F7FA",
+        "#E1E4EA",
+        "#E0E0E1",
+        "#CBCBDC",
+        "#A1A5A6",
+        "#787C7E",
+        "#676C6C",
+        "#4E5457",
+        "#484E51",
+        "#2F3636",
+        "#FFF2ED",
+        "#FFD5C7",
+        "#FFC1AC",
+        "#FFA586",
+        "#F7935F",
+        "#FF7848",
+        "#E86D44",
+        "#855535",
+        "#8C4229",
+        "#683220",
+        "#FEE6EB",
+        "#FCC2CF",
+        "#FA92AA",
+        "#F55F82",
+        "#F8253D",
+        "#FF4019",
+        "#CF0130",
+        "#AD0128",
+        "#880120",
+        "#6E001A",
+        "#FEF6EA",
+        "#FCEACD",
+        "#F9D9A5",
+        "#F6C778",
+        "#F49853",
+        "#FFA620",
+        "#CDB026",
+        "#AB7820",
+        "#895F1A",
+        "#6C4814",
+        "#E7FAF5",
+        "#C4F3E1",
+        "#06EACA",
+        "#65E1B1",
+        "#3E0B99",
+        "#0AC2F3",
+        "#0B8D9F",
+        "#079550",
+        "#087648",
+        "#055038"
+      ],
+      "typography_notes": "The design uses a clean, sans-serif font. The primary text color is black, with white text used on colored backgrounds.",
+      "primary_purpose": "To showcase the color palette and style guide for a design system.",
+      "enterprise_os_potential": "This color style guide could be reused in various enterprise OS applications, such as dashboard design, branding guidelines, or UI kits, to maintain consistency across different products or features."
+    },
+    {
+      "screen_slug": "styleguide_how_to_edit_colors",
+      "screen_name": "How to Edit Colors",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Ecomic logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "White icon on purple background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header text",
+          "location": "top center",
+          "approximate_dimensions": "Variable width x 24px",
+          "details": "White text on purple background, font size 24px",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Pixem Studio button",
+          "location": "top right",
+          "approximate_dimensions": "100x32",
+          "details": "White text on purple background, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "How to Edit Colors heading",
+          "location": "center",
+          "approximate_dimensions": "Variable width x 36px",
+          "details": "Large font size, bold",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle text",
+          "location": "center",
+          "approximate_dimensions": "Variable width x 16px",
+          "details": "Smaller font size, regular weight",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Locate Color Variables heading",
+          "location": "left",
+          "approximate_dimensions": "Variable width x 18px",
+          "details": "Medium font size, bold",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Locate Color Variables description",
+          "location": "left",
+          "approximate_dimensions": "Variable width x 16px",
+          "details": "Regular font size, regular weight",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Figma screenshot",
+          "location": "left",
+          "approximate_dimensions": "400x200",
+          "details": "Screenshot of Figma interface",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Edit your color palette heading",
+          "location": "left",
+          "approximate_dimensions": "Variable width x 18px",
+          "details": "Medium font size, bold",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Edit Colors list",
+          "location": "left",
+          "approximate_dimensions": "Variable width x Variable height",
+          "details": "Ordered list with two items",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Light & Dark mode heading",
+          "location": "left",
+          "approximate_dimensions": "Variable width x 18px",
+          "details": "Medium font size, bold",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Light & Dark mode list",
+          "location": "left",
+          "approximate_dimensions": "Variable width x Variable height",
+          "details": "Ordered list with three items",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Color palette example",
+          "location": "left",
+          "approximate_dimensions": "200x200",
+          "details": "Example of color palette",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The screen uses a clean, modern sans-serif font. Headings are bold and larger font size.",
+      "primary_purpose": "To guide users on how to edit colors in a design system",
+      "enterprise_os_potential": "This layout could be reused in other design system documentation or style guide pages."
+    },
+    {
+      "screen_slug": "styleguide_primary",
+      "screen_name": "Spacing Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Header with branding and studio name",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Purple background, white text, Ecomic logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "table",
+          "name": "Spacing values table",
+          "location": "center",
+          "approximate_dimensions": "800x1200px",
+          "details": "White background, black text, purple bars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Ecomic logo",
+          "location": "left",
+          "approximate_dimensions": "20x20px",
+          "details": "White icon on purple background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Spacing title and description",
+          "location": "top",
+          "approximate_dimensions": "variable x 40px",
+          "details": "White text on purple background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Table row dividers",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Light gray lines separating table rows",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open sans font used throughout, varying font sizes for headings and table data",
+      "primary_purpose": "To display and guide the use of spacing values in the design system",
+      "enterprise_os_potential": "This layout could be reused as a style guide or documentation page for other design systems or enterprise applications"
+    },
+    {
+      "screen_slug": "styleguide_typography",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Purple background, white text, Ecomic logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Typography Title",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Large font size, bold weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Typography Specifications Table",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Grid layout, various font sizes and styles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography Examples",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Various font sizes and styles, sample text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The screen showcases various typography styles and sizes, including headings, paragraphs, and labels. The font used is Geist.",
+      "primary_purpose": "To demonstrate and guide the use of typography in the design system",
+      "enterprise_os_potential": "This layout could be reused as a style guide or documentation page for other design systems or enterprise applications."
+    },
+    {
+      "screen_slug": "visual_design_dark_1_sign_in",
+      "screen_name": "Sign In Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign In Card",
+          "location": "left",
+          "approximate_dimensions": "400x600",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "White icon on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Go Back Button",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "White text on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White text on dark background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White text on dark background, rounded corners, password masking",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Forgot Password Link",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "White text on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Sign Up Link",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "White text on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full screen",
+          "details": "Blurred image of a person with a backpack",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Text",
+          "location": "bottom right",
+          "approximate_dimensions": "350x150",
+          "details": "White text on purple background",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Reusable for various enterprise applications requiring user authentication"
+    },
+    {
+      "screen_slug": "visual_design_dark_1_sign_up",
+      "screen_name": "Sign Up Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign Up Form",
+          "location": "left",
+          "approximate_dimensions": "400x600",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "White icon on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Google Sign Up",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "Rounded rectangle with Google logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Apple Sign Up",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "Rounded rectangle with Apple logo",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Full Name",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "White text on dark background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "White text on dark background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "White text on dark background, rounded corners, password mask",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Terms of Use",
+          "location": "inside card",
+          "approximate_dimensions": "20x20",
+          "details": "White checkmark on dark background",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sign In Link",
+          "location": "inside card",
+          "approximate_dimensions": "100x20",
+          "details": "White text on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full height",
+          "details": "Blurred image of people in winter clothing",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable for various sign-up flows"
+    },
+    {
+      "screen_slug": "visual_design_dark_account_settings_cookie_preferences",
+      "screen_name": "Account Settings Cookie Preferences",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "wide text block",
+          "details": "black text on white background, font size large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "large black font on white background",
+      "primary_purpose": "display account settings cookie preferences header",
+      "enterprise_os_potential": "could be reused as a header component in various settings pages"
+    },
+    {
+      "screen_slug": "visual_design_dark_account_settings_edit_profile",
+      "screen_name": "Account Settings Edit Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "top",
+          "approximate_dimensions": "wide and short",
+          "details": "black text on white background, font size large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "large black font used for header",
+      "primary_purpose": "editing user profile information",
+      "enterprise_os_potential": "could be used in account management sections of enterprise applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_account_settings_travel_preferences",
+      "screen_name": "Account Settings Travel Preferences",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "wide text block",
+          "details": "Large black text on white background, font size appears to be heading level",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Large black text, likely a heading font",
+      "primary_purpose": "Displaying account settings travel preferences header",
+      "enterprise_os_potential": "Reusable as a header component in account settings or preferences sections"
+    },
+    {
+      "screen_slug": "visual_design_dark_account_settings_your_account",
+      "screen_name": "Account Settings - Your Account",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "breadcrumb",
+          "name": "Account settings breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "black text on white background, 'Account settings/ Your account'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Page title",
+          "location": "top",
+          "approximate_dimensions": "large text",
+          "details": "black text, 'Account settings/ Your account'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Black text on white background, large font size for title",
+      "primary_purpose": "Display account settings page title and breadcrumb",
+      "enterprise_os_potential": "Reusable breadcrumb and title component for account settings pages"
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat",
+      "screen_name": "AI Chat Dark Theme",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Collapsed Sidebar",
+          "location": "left",
+          "approximate_dimensions": "40px wide",
+          "details": "Purple background, white icon and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "AI Logo",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White AI logo within a circle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "AI Chat Text",
+          "location": "left",
+          "approximate_dimensions": "vertical text beside icon",
+          "details": "White text 'AI Chat'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#7A288A"
+      ],
+      "typography_notes": "White text used for 'AI Chat'",
+      "primary_purpose": "Navigation or header for AI chat functionality",
+      "enterprise_os_potential": "Reusable as a navigation element in enterprise OS for AI or chat applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat_activities",
+      "screen_name": "AI Chat Activities Dark Theme",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "chat",
+          "name": "Chat Interface",
+          "location": "center",
+          "approximate_dimensions": "500x600",
+          "details": "Dark background, white text, avatars, message bubbles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "100% x 40",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "Icon button, send icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Activity Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Dark background, white text, active tab indicator",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "map",
+          "name": "Location Map",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "Dark background, purple markers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Map Marker Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Purple, fork and knife icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans, font sizes vary",
+      "primary_purpose": "AI Chat Interface for Trip Planning",
+      "enterprise_os_potential": "Reusable for customer support or sales chat interfaces"
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat_chat",
+      "error": "unsupported aspect ratio - (11515,100) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat_create_a_trip",
+      "error": "unsupported aspect ratio - (11990,100) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat_modal",
+      "screen_name": "AI Chat Budget Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Budget Selection Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "button",
+          "name": "Close Modal Button",
+          "location": "top right",
+          "approximate_dimensions": "24x24",
+          "details": "White cross icon on dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "radio",
+          "name": "Any budget radio button",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Unchecked radio button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "On a budget radio button",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Checked radio button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Sensibly priced radio button",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Unchecked radio button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Upscale radio button",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Unchecked radio button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Luxury radio button",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Unchecked radio button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Cancel button",
+          "location": "bottom right",
+          "approximate_dimensions": "80x30",
+          "details": "Gray button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Update button",
+          "location": "bottom right",
+          "approximate_dimensions": "80x30",
+          "details": "Dark gray button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "White text on dark background, sans-serif font",
+      "primary_purpose": "Selecting budget range for AI chat",
+      "enterprise_os_potential": "Reusable modal component for various budget selection scenarios"
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat_saved",
+      "screen_name": "AI Chat Saved",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "AI Chat / Saved",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Black text on white background, font size 18",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Font is sans-serif, headings are bold",
+      "primary_purpose": "Displaying saved AI chat conversations",
+      "enterprise_os_potential": "Reusable as a template for chat interfaces in enterprise applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_ai_chat_search",
+      "error": "unsupported aspect ratio - (16384,84) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_dark_blog",
+      "screen_name": "Dark Blog Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Places",
+          "location": "center",
+          "approximate_dimensions": "400x40",
+          "details": "White input field with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Blog Tabs",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Two tabs: Following and Recommendations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Blog Post Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Dark background with white text and orange heart icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Read More",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White text on dark background with arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Rounded image with green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Orange heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "bottom",
+          "approximate_dimensions": "100% x 1",
+          "details": "Thin gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FFC107"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Displaying blog posts and trending articles",
+      "enterprise_os_potential": "Reusable as a blog or news section in an enterprise OS"
+    },
+    {
+      "screen_slug": "visual_design_dark_calendar",
+      "screen_name": "Dark Calendar Header",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Calendar Header",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Purple background, white text, calendar icon in a white circle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Calendar Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "Purple calendar icon on a white circular background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Calendar Text",
+          "location": "left",
+          "approximate_dimensions": "variable width x 24px",
+          "details": "White text 'Calendar' next to the icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A"
+      ],
+      "typography_notes": "White sans-serif font",
+      "primary_purpose": "Displaying a calendar header",
+      "enterprise_os_potential": "Reusable as a header component in various enterprise applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_change_password",
+      "screen_name": "Change Password Dark Theme",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Change Password Form",
+          "location": "left",
+          "approximate_dimensions": "400x500",
+          "details": "Dark background, white text, purple button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "New Password Field",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "White text, gray background, lock icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Confirmed Password Field",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "White text, gray background, lock icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Set New Password Button",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Contact Us Link",
+          "location": "inside card",
+          "approximate_dimensions": "100x20",
+          "details": "Purple text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full height",
+          "details": "Person with backpack and yoga mat",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "White icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Back Arrow Icon",
+          "location": "top center",
+          "approximate_dimensions": "20x20",
+          "details": "White icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font",
+      "primary_purpose": "Change password functionality",
+      "enterprise_os_potential": "Reusable for various enterprise applications requiring password change functionality"
+    },
+    {
+      "screen_slug": "visual_design_dark_create_a_trip",
+      "screen_name": "Create a Trip Dark Theme",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250xH",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Wx60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "modal",
+          "name": "New Chat Modal",
+          "location": "center",
+          "approximate_dimensions": "600xH",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "chat",
+          "name": "Chat Interface",
+          "location": "center",
+          "approximate_dimensions": "600xH",
+          "details": "Text bubbles, avatars, timestamps",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input Field",
+          "location": "bottom",
+          "approximate_dimensions": "W-40x40",
+          "details": "Dark background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "Icon button, dark background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Chat Tabs",
+          "location": "top",
+          "approximate_dimensions": "W-20x40",
+          "details": "Saved, Ask AI, Receipt, Add manually tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "dropdown",
+          "name": "Activity Dropdown",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Dark background, white text, dropdown arrow",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Rounded image, border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White icons on dark background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans font, white text on dark background",
+      "primary_purpose": "Creating a trip itinerary using AI chat",
+      "enterprise_os_potential": "Reusable for other travel planning applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_my_map",
+      "screen_name": "World Feed Dark Map",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Globe Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White icon on a purple background, circular shape",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "World Feed Text",
+          "location": "left",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "White text 'World Feed' next to the globe icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A"
+      ],
+      "typography_notes": "Sans-serif font, white color",
+      "primary_purpose": "Displaying a map or feed related to global data",
+      "enterprise_os_potential": "Reusable as a header or title section in various applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_password_changed_successfully",
+      "screen_name": "Password Changed Successfully",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Password Changed Modal",
+          "location": "left",
+          "approximate_dimensions": "400x300",
+          "details": "Dark background, white text, purple button",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "White checkmark on gray circle",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Back to Home Button",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Purple background, white text, left arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full height, half width",
+          "details": "Person in yellow jacket with backpack",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Text",
+          "location": "bottom right",
+          "approximate_dimensions": "350x150",
+          "details": "White text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Author",
+          "location": "bottom right",
+          "approximate_dimensions": "200x20",
+          "details": "White text, larger font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "100x20",
+          "details": "White logo on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Go Back Link",
+          "location": "top center",
+          "approximate_dimensions": "100x20",
+          "details": "White text, left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "copyright",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "Small white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "language_selector",
+          "name": "Language Selector",
+          "location": "bottom center",
+          "approximate_dimensions": "50x20",
+          "details": "White text, globe icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font, various font sizes",
+      "primary_purpose": "Display password changed success message",
+      "enterprise_os_potential": "Reusable for other success or confirmation modals"
+    },
+    {
+      "screen_slug": "visual_design_dark_profile_dropdown",
+      "error": "unsupported aspect ratio - (16384,118) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_dark_saved",
+      "screen_name": "Saved Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White heart icon on a purple background, centered within a white circle",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Saved Text",
+          "location": "left",
+          "approximate_dimensions": "auto width, 24px height",
+          "details": "White text 'Saved' next to the heart icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The text 'Saved' is in a clean, sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying a saved or liked state",
+      "enterprise_os_potential": "Reusable as a component in various UI contexts where a saved state needs to be indicated"
+    },
+    {
+      "screen_slug": "visual_design_dark_saved_activities",
+      "screen_name": "Saved Activities",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Activity Type Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Purple underline for active tab",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "White input field, dark background, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Activity Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Image, title, rating, location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White icon, dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Image, green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "various",
+          "approximate_dimensions": "30x20",
+          "details": "White text, colored background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Display saved activities",
+      "enterprise_os_potential": "Reusable for other saved content types"
+    },
+    {
+      "screen_slug": "visual_design_dark_saved_all",
+      "screen_name": "Saved Places and Trips",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Saved Places Cards",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Dark background, white text, images, ratings, location icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "White text, active tab highlighted",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Add to Trip Button",
+          "location": "overlay",
+          "approximate_dimensions": "24x24",
+          "details": "Green background, white plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "User image, green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Trip Map",
+          "location": "right",
+          "approximate_dimensions": "Full Height x 400",
+          "details": "White background, location markers, selected locations highlighted",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Location Icons",
+          "location": "various",
+          "approximate_dimensions": "16x16",
+          "details": "Map pin icons, colored",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badges",
+          "location": "various",
+          "approximate_dimensions": "24x16",
+          "details": "White text, colored background, rating numbers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#34C759"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Displaying saved places and trips",
+      "enterprise_os_potential": "Reusable for travel planning and organization applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_saved_attractions",
+      "screen_name": "Saved Attractions",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Attraction Type Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "White text, purple indicator",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Attraction Search Bar",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "White background, dark text, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Attraction Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Image, text, rating, location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add to Trip Button",
+          "location": "bottom",
+          "approximate_dimensions": "40x40",
+          "details": "Purple background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom",
+          "approximate_dimensions": "40x40",
+          "details": "Image, verified checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White, purple, and gray icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "card",
+          "approximate_dimensions": "30x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#6c5ce7",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Display saved attractions",
+      "enterprise_os_potential": "Reusable for other types of saved content"
+    },
+    {
+      "screen_slug": "visual_design_dark_saved_restaurants",
+      "screen_name": "Saved Restaurants",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Light text, active tab highlighted",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light background, dark text, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Restaurant Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Image, name, rating, location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Plus Icon",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White icon on dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "various",
+          "approximate_dimensions": "30x20",
+          "details": "White text on colored background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "User image, verified checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans, various font sizes",
+      "primary_purpose": "Display saved restaurants",
+      "enterprise_os_potential": "Reusable for other saved content types"
+    },
+    {
+      "screen_slug": "visual_design_dark_search",
+      "error": "unsupported aspect ratio - (16384,121) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_dark_search_activities",
+      "error": "unsupported aspect ratio - (11515,100) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_dark_search_attractions",
+      "screen_name": "Dark Search Attractions",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Search / Attractions heading",
+          "location": "center",
+          "approximate_dimensions": "wide text",
+          "details": "large black text on white background",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "large black sans-serif font",
+      "primary_purpose": "display search results for attractions",
+      "enterprise_os_potential": "could be used as a template for search results pages in travel or tourism applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_search_flight",
+      "screen_name": "Flight Search Dark Design",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "White text, dark background, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Flight Search Tabs",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Purple active tab, white text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "From Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White text, dark background, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "To Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White text, dark background, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Flight Result Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Dark background, white text, airline logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Airline Logo",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Colorful logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Map View",
+          "location": "right",
+          "approximate_dimensions": "500x600",
+          "details": "White background, markers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom_left",
+          "approximate_dimensions": "40x40",
+          "details": "User profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Flight search and booking",
+      "enterprise_os_potential": "Reusable for travel booking platforms"
+    },
+    {
+      "screen_slug": "visual_design_dark_search_restaurants",
+      "screen_name": "Dark Search Restaurants",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "large width, single line height",
+          "details": "black text on white background, font size large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "large font size, black color",
+      "primary_purpose": "display title",
+      "enterprise_os_potential": "title component for various applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_search_stays",
+      "screen_name": "Dark Search Stays",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x50",
+          "details": "Dark background with white text and purple accents",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Search Tabs",
+          "location": "top",
+          "approximate_dimensions": "100%x40",
+          "details": "White text on dark background, purple indicator",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Hotel Name Input",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "White text on dark background, gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Purple background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Hotel Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Dark background with white text, images, and ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Rating Icons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Star icons in white and gray",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Price Badges",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "Green background with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout, varying font sizes and weights",
+      "primary_purpose": "Searching for hotel stays",
+      "enterprise_os_potential": "Reusable for travel booking platforms"
+    },
+    {
+      "screen_slug": "visual_design_dark_share_your_feedback",
+      "screen_name": "Share Your Feedback Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Feedback Modal",
+          "location": "center",
+          "approximate_dimensions": "400x250",
+          "details": "Black background with white text, purple button",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "icon",
+          "name": "Close Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "White 'x' icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "textarea",
+          "name": "Feedback Input",
+          "location": "center",
+          "approximate_dimensions": "350x100",
+          "details": "White text on black background, placeholder text 'What do you want us to know?'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Cancel Button",
+          "location": "bottom left",
+          "approximate_dimensions": "80x30",
+          "details": "Gray text on black background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Send Feedback Button",
+          "location": "bottom right",
+          "approximate_dimensions": "120x30",
+          "details": "White text on purple background",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "White text on dark background, sans-serif font",
+      "primary_purpose": "Collecting user feedback",
+      "enterprise_os_potential": "Reusable in various applications for feedback collection"
+    },
+    {
+      "screen_slug": "visual_design_dark_verify_email",
+      "screen_name": "Verify Email Dark Design",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Verification Code Card",
+          "location": "left",
+          "approximate_dimensions": "400x400",
+          "details": "Black background, white text, purple button, gray icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "6-digit code input",
+          "location": "inside card",
+          "approximate_dimensions": "4 digit boxes",
+          "details": "White text, black background, digit boxes",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "inside card",
+          "approximate_dimensions": "200x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Resend Code Link",
+          "location": "inside card",
+          "approximate_dimensions": "100x20",
+          "details": "Purple text, underlined",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Email Icon",
+          "location": "inside card",
+          "approximate_dimensions": "40x40",
+          "details": "Gray icon, circular background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full height",
+          "details": "Person with backpack, winter scene",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial Text",
+          "location": "inside testimonial card",
+          "approximate_dimensions": "350x150",
+          "details": "White text, describing Triply's benefits",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Alvar Hostin Name",
+          "location": "inside testimonial card",
+          "approximate_dimensions": "200x20",
+          "details": "White text, name of the person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Founder, Mindtrip",
+          "location": "inside testimonial card",
+          "approximate_dimensions": "200x20",
+          "details": "White text, title of the person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "100x20",
+          "details": "White text, Triply logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Go Back Link",
+          "location": "top center",
+          "approximate_dimensions": "100x20",
+          "details": "White text, left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "Small white text, copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Language Selector",
+          "location": "bottom center",
+          "approximate_dimensions": "50x20",
+          "details": "Small white text, ENG dropdown",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font, various font sizes",
+      "primary_purpose": "Email verification during signup or login",
+      "enterprise_os_potential": "Reusable for various verification processes, adaptable for different branding"
+    },
+    {
+      "screen_slug": "visual_design_dark_world_feed_recently_added",
+      "screen_name": "World Feed Recently Added",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Feed Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Purple underline for active tab",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "White input field, purple search button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Destination Cards",
+          "location": "center",
+          "approximate_dimensions": "Grid of 4x2 cards",
+          "details": "Image, location, rating, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Destination Images",
+          "location": "center",
+          "approximate_dimensions": "Various",
+          "details": "Various destination images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "various",
+          "approximate_dimensions": "30x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Category Tags",
+          "location": "various",
+          "approximate_dimensions": "Various",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "User profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans font, various sizes and weights",
+      "primary_purpose": "Displaying recently added destinations",
+      "enterprise_os_potential": "Reusable for other feed-based applications"
+    },
+    {
+      "screen_slug": "visual_design_dark_world_feed_top_favorite",
+      "screen_name": "World Feed Top Favorite",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, white text, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Feed Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Recently Added, Top Favorite, Visited City, Recommendations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Input field, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Destination Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Image, title, rating, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create a Trip Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "White text, dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White heart icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "various",
+          "approximate_dimensions": "30x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Category Tags",
+          "location": "various",
+          "approximate_dimensions": "varies",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans, various font sizes",
+      "primary_purpose": "Displaying travel destinations",
+      "enterprise_os_potential": "Reusable for content discovery and curation"
+    },
+    {
+      "screen_slug": "visual_design_light_1_sign_in",
+      "screen_name": "Sign In Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign In Card",
+          "location": "left",
+          "approximate_dimensions": "400x600",
+          "details": "white background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "black icon on white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Go Back",
+          "location": "top center",
+          "approximate_dimensions": "100x40",
+          "details": "text button with left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "gray circle with user icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Google Sign In",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "white button with Google logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Apple Sign In",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "white button with Apple logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "text input with email icon and placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "password input with lock icon and placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Forgot Password",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "gray text link",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Sign Up",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "gray text link",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full screen",
+          "details": "image of person with backpack",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "purple background with white text",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Reusable for various authentication flows"
+    },
+    {
+      "screen_slug": "visual_design_light_1_sign_up",
+      "screen_name": "Sign Up Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign Up Form",
+          "location": "left",
+          "approximate_dimensions": "400x600",
+          "details": "white background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "black icon, circular shape",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Google Sign Up",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "white background, Google logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Apple Sign Up",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "white background, Apple logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Full Name",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "text input field, label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "text input field, label, email icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "password input field, label, lock icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Terms of Use",
+          "location": "inside card",
+          "approximate_dimensions": "20x20",
+          "details": "checkbox, label, link to terms",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up",
+          "location": "inside card",
+          "approximate_dimensions": "300x40",
+          "details": "purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sign In Link",
+          "location": "inside card",
+          "approximate_dimensions": "auto",
+          "details": "text, link to sign in page",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full height",
+          "details": "image of person with backpack",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "purple background, white text, quote",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#6200EE"
+      ],
+      "typography_notes": "Open Sans, font sizes vary",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable for various sign up flows"
+    },
+    {
+      "screen_slug": "visual_design_light_account_settings_cookie_preferences",
+      "screen_name": "Account Settings Cookie Preferences",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "wide text block",
+          "details": "black text on white background, font size large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "large black font on white background",
+      "primary_purpose": "display account settings cookie preferences",
+      "enterprise_os_potential": "could be reused in enterprise OS for user preference settings"
+    },
+    {
+      "screen_slug": "visual_design_light_account_settings_edit_profile",
+      "screen_name": "Account Settings Edit Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "top",
+          "approximate_dimensions": "wide and short",
+          "details": "black text on white background, font size large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "large font size for header",
+      "primary_purpose": "editing user profile information",
+      "enterprise_os_potential": "could be reused in various account settings sections"
+    },
+    {
+      "screen_slug": "visual_design_light_account_settings_travel_preferences",
+      "screen_name": "Account Settings Travel Preferences",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "wide text block",
+          "details": "black text on white background, font size large",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "large black font on white background",
+      "primary_purpose": "display account settings travel preferences header",
+      "enterprise_os_potential": "reusable header component for various settings pages"
+    },
+    {
+      "screen_slug": "visual_design_light_account_settings_your_account",
+      "screen_name": "Account Settings - Your Account",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "breadcrumb",
+          "name": "Account settings breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "text: 'Account settings/ Your account', black color, sans-serif font",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Sans-serif font used for text, black color for 'Account settings/ Your account'",
+      "primary_purpose": "Displaying account settings information",
+      "enterprise_os_potential": "Reusable as a settings page template in enterprise OS applications"
+    },
+    {
+      "screen_slug": "visual_design_light_ai_chat",
+      "screen_name": "AI Chat Interface",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "White background with dark text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Rounded corners, gray background, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create a Trip Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Rounded image of user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Chat Message Card",
+          "location": "center",
+          "approximate_dimensions": "500x200",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom",
+          "approximate_dimensions": "500x40",
+          "details": "Gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Send Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Paper airplane icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Attraction Card",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Image, title, rating, location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Attraction Tabs",
+          "location": "right",
+          "approximate_dimensions": "300x40",
+          "details": "Overview, Activities, Tours, Location tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Visit Website Button",
+          "location": "right",
+          "approximate_dimensions": "150x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333",
+        "#2196F3",
+        "#9C27B0"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "AI-powered chat interface for trip planning",
+      "enterprise_os_potential": "Reusable for customer support or sales chat interfaces"
+    },
+    {
+      "screen_slug": "visual_design_light_ai_chat_activities",
+      "screen_name": "AI Chat Activities",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "White background, black text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "White background, search icon, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Chat Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "Gray background, active tab highlighted",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Chat Conversation",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "White background, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "Blue background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "map",
+          "name": "Location Map",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "Interactive map, markers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Marker Icon",
+          "location": "map",
+          "approximate_dimensions": "20x20",
+          "details": "Purple, fork and knife icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans, 14px, headings in bold",
+      "primary_purpose": "AI Chat Interface",
+      "enterprise_os_potential": "Reusable for customer support or sales chat interfaces"
+    },
+    {
+      "screen_slug": "visual_design_light_ai_chat_chat",
+      "error": "unsupported aspect ratio - (11515,100) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_light_ai_chat_saved",
+      "screen_name": "AI Chat Saved",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Black text, font size 18",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Simple sans-serif font used for title",
+      "primary_purpose": "Displaying saved AI chat information",
+      "enterprise_os_potential": "Reusable as a template for various chat interfaces"
+    },
+    {
+      "screen_slug": "visual_design_light_ai_chat_search",
+      "error": "unsupported aspect ratio - (16384,84) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_light_blog",
+      "screen_name": "Blog Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "White background with dark text and icons, shadow",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Places",
+          "location": "center",
+          "approximate_dimensions": "400x40",
+          "details": "White input field with magnifying glass icon, purple search button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Blog Tabs",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Two tabs: Following and Recommendations",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Blog Post Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "White background with text and image, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Read More Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Purple background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Red heart icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "right",
+          "approximate_dimensions": "100% x 1",
+          "details": "Light gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "Displaying blog posts and trending articles",
+      "enterprise_os_potential": "Reusable for internal company blogs or news sections"
+    },
+    {
+      "screen_slug": "visual_design_light_calendar",
+      "screen_name": "Calendar View",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "White background with dark text and icons, shadow",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Calendar Tabs",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Three tabs: Itinerary, Calendar, Bookings",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Create a Trip Button",
+          "location": "top right",
+          "approximate_dimensions": "100x30",
+          "details": "Blue background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "calendar",
+          "name": "Calendar View",
+          "location": "center",
+          "approximate_dimensions": "Full Width x Full Height",
+          "details": "Grid layout with events and appointments",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Chevron Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "Used for navigation and expansion",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Event Badges",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "Color-coded badges for event types",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Displaying calendar events and appointments",
+      "enterprise_os_potential": "Reusable for scheduling and calendar applications"
+    },
+    {
+      "screen_slug": "visual_design_light_change_password",
+      "screen_name": "Change Password",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Password Change Form",
+          "location": "left",
+          "approximate_dimensions": "400x500",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Rocket Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Gray rocket icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "New Password Field",
+          "location": "left",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, lock icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Confirmed Password Field",
+          "location": "left",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, lock icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Set New Password Button",
+          "location": "left",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Contact Us Link",
+          "location": "left",
+          "approximate_dimensions": "auto",
+          "details": "Purple text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "full height",
+          "details": "Person with backpack and yoga mat",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Alvar Hostin Avatar",
+          "location": "right",
+          "approximate_dimensions": "none",
+          "details": "Not visible, only text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Alvar Hostin Testimonial",
+          "location": "right",
+          "approximate_dimensions": "none",
+          "details": "White text on purple background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Go Back Link",
+          "location": "top right",
+          "approximate_dimensions": "auto",
+          "details": "Gray text with arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "copyright",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "auto",
+          "details": "Gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "language selector",
+          "name": "Language Selector",
+          "location": "bottom right",
+          "approximate_dimensions": "auto",
+          "details": "Gray text with dropdown icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout",
+      "primary_purpose": "To allow users to change their password",
+      "enterprise_os_potential": "This layout could be reused in other authentication flows"
+    },
+    {
+      "screen_slug": "visual_design_light_create_a_trip",
+      "screen_name": "Create a Trip",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, icons, and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Chat Header",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 50px",
+          "details": "Light background, text, and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Chat Conversation",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background, text, and avatars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom",
+          "approximate_dimensions": "Full Width x 40px",
+          "details": "Text input with send button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "Icon button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "modal",
+          "name": "Create Trip Modal",
+          "location": "overlay",
+          "approximate_dimensions": "600x400",
+          "details": "White background, text, and form fields",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "tabs",
+          "name": "Modal Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 40px",
+          "details": "Tabs with text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "select",
+          "name": "Trip Type Select",
+          "location": "center",
+          "approximate_dimensions": "Full Width x 40px",
+          "details": "Dropdown select with text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Chevron Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Down chevron icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Creating a trip itinerary",
+      "enterprise_os_potential": "Reusable for other travel planning applications"
+    },
+    {
+      "screen_slug": "visual_design_light_dashboard",
+      "screen_name": "Light Dashboard",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250xH",
+          "details": "White background, black icons, purple active tab indicator",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Wx60",
+          "details": "White background, black text, icons, and dropdowns",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Chat Search Bar",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "Gray background, magnifying glass icon, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Chat Tabs",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "Two tabs: All and Trips, purple indicator for active tab",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Chat Card",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background, shadow, chat interface with AI assistant",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "New Chat Button",
+          "location": "left",
+          "approximate_dimensions": "150x40",
+          "details": "Gray background, plus icon, text 'New Chat'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "center",
+          "approximate_dimensions": "350x40",
+          "details": "Gray background, placeholder text 'Type '/' for commands'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "image",
+          "name": "Destination Images",
+          "location": "right",
+          "approximate_dimensions": "300x200",
+          "details": "Four images of different destinations with captions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Trending Destinations Card",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "White background, shadow, title 'Trending Destinations'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image of user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Various black icons for navigation",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Unread Messages Badge",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Purple badge with white text '2'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Travel planning and chat interface",
+      "enterprise_os_potential": "Reusable for various enterprise applications requiring chat interfaces and content discovery features"
+    },
+    {
+      "screen_slug": "visual_design_light_dashboard_modal",
+      "screen_name": "Budget Selection Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Budget Selection Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Budget Range Selector",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Radio buttons with labels, checked state for 'On a budget'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Cancel Button",
+          "location": "bottom right",
+          "approximate_dimensions": "80x30",
+          "details": "Gray background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Update Button",
+          "location": "bottom right",
+          "approximate_dimensions": "80x30",
+          "details": "Dark gray background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Close Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray color",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans, 14px, bold headings",
+      "primary_purpose": "Selecting budget range for travel planning",
+      "enterprise_os_potential": "Reusable modal component for various applications"
+    },
+    {
+      "screen_slug": "visual_design_light_my_map",
+      "screen_name": "My Map",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "contains icons and text, light background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "black icon with text 'Triply'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Chat Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'Chat'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'Search'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Calendar Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'Calendar'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "My Map Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'My Map', highlighted",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Saved Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'Saved'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "World Feed Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'World Feed'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Blog Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'Blog'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Share your feedback Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'Share your feedback'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "About Button",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "contains icon and text 'About'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Ronald Richards Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "contains image and checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create Itinerary Button",
+          "location": "top center",
+          "approximate_dimensions": "120x40",
+          "details": "purple button with white text 'Create Itinerary'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Ronald Richards Avatar",
+          "location": "right",
+          "approximate_dimensions": "40x40",
+          "details": "contains image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Ronald Richards Text",
+          "location": "right",
+          "approximate_dimensions": "auto",
+          "details": "contains text 'Ronald Richards' and email",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Public Toggle",
+          "location": "right",
+          "approximate_dimensions": "40x20",
+          "details": "contains toggle button with 'Public' and 'Follower Only' options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Copy Profile Link Button",
+          "location": "right",
+          "approximate_dimensions": "120x40",
+          "details": "contains text 'Copy Profile Link'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Generate with AI Button",
+          "location": "right",
+          "approximate_dimensions": "120x40",
+          "details": "purple button with white text 'Generate with AI'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Add city for recommendations Input",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "contains input field with placeholder 'Add city for recommendations'",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#7A6CFF"
+      ],
+      "typography_notes": "uses a clean sans-serif font, sizes vary for headings and body text",
+      "primary_purpose": "display user's travel map and provide options for creating itineraries and sharing travel recommendations",
+      "enterprise_os_potential": "could be reused as a dashboard for other types of data visualization and user profiles"
+    },
+    {
+      "screen_slug": "visual_design_light_password_changed_successfully",
+      "screen_name": "Password Changed Successfully",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Back to Home",
+          "location": "center",
+          "approximate_dimensions": "240x44",
+          "details": "Purple background, white text, left arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "White checkmark on a circle with a purple background",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Password Changed Message",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text on white background",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "right",
+          "approximate_dimensions": "50% of screen width",
+          "details": "Image of a person with a backpack",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial Card",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Triply Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Black logo on white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "variable width",
+          "details": "Small gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Go Back",
+          "location": "top center",
+          "approximate_dimensions": "variable width",
+          "details": "Gray text with left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Language Selector",
+          "location": "bottom center",
+          "approximate_dimensions": "16x16",
+          "details": "Globe icon with ENG text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "To inform the user that their password has been changed successfully",
+      "enterprise_os_potential": "This layout could be reused for other success or confirmation screens"
+    },
+    {
+      "screen_slug": "visual_design_light_profile_dropdown",
+      "error": "unsupported aspect ratio - (16384,118) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_light_saved",
+      "screen_name": "Saved Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "White heart icon on a purple background, inside a white circle",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Saved Text",
+          "location": "left",
+          "approximate_dimensions": "auto width, 24px height",
+          "details": "White text 'Saved' next to the heart icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Simple sans-serif font used for 'Saved' text",
+      "primary_purpose": "Displaying a saved state or favorite item",
+      "enterprise_os_potential": "Reusable as a status indicator or favorite button in various enterprise applications"
+    },
+    {
+      "screen_slug": "visual_design_light_saved_activities",
+      "screen_name": "Saved Activities",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "White background, black text, icons, dropdowns",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Activity Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "Purple active tab, gray inactive tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Activity Cards",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "White background, images, text, ratings, icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add to Trip Button",
+          "location": "bottom right of card",
+          "approximate_dimensions": "24x24",
+          "details": "Green background, white plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image, green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "top right of card",
+          "approximate_dimensions": "16x16",
+          "details": "Red heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "bottom of card",
+          "approximate_dimensions": "40x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A",
+        "#34C759"
+      ],
+      "typography_notes": "Open Sans font, varying font sizes",
+      "primary_purpose": "Display saved activities for trip planning",
+      "enterprise_os_potential": "Reusable for other travel-related content"
+    },
+    {
+      "screen_slug": "visual_design_light_saved_all",
+      "screen_name": "Saved Places",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Header",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "White background, black text, search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Places Search",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "White background, gray border, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Places Categories",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Purple active tab, gray inactive tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Place Card",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Image, rating, name, location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Place Image",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Various images of places",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Red heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "User profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create a Trip",
+          "location": "top right",
+          "approximate_dimensions": "100x40",
+          "details": "Gray background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Invite",
+          "location": "top right",
+          "approximate_dimensions": "80x40",
+          "details": "Gray background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#808080",
+        "#FF0000"
+      ],
+      "typography_notes": "Open Sans font, various font sizes",
+      "primary_purpose": "Display saved places",
+      "enterprise_os_potential": "Reusable for travel or bookmarking applications"
+    },
+    {
+      "screen_slug": "visual_design_light_saved_attractions",
+      "screen_name": "Saved Attractions",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "White background with dark text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Attractions Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Horizontal tabs with active tab highlighted",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Attraction Search Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Input field with search icon and placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Attraction Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Cards with image, title, rating, and location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add to Trip Button",
+          "location": "bottom right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular button with plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "Icons used throughout the screen",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Map View",
+          "location": "right",
+          "approximate_dimensions": "50% x 100%",
+          "details": "Interactive map with markers and labels",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A7A7A"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Displaying saved attractions",
+      "enterprise_os_potential": "Reusable for travel planning applications"
+    },
+    {
+      "screen_slug": "visual_design_light_saved_restaurants",
+      "screen_name": "Saved Restaurants",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "White background with dark text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Saved Items Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Tabs for Stays, Restaurants, Attractions, Activities",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Input field with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Restaurant Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Cards with restaurant images, names, and ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Restaurant Images",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Images of restaurants",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Rating Icons",
+          "location": "center",
+          "approximate_dimensions": "16x16",
+          "details": "Star icons for ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "User profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Map View",
+          "location": "right",
+          "approximate_dimensions": "500x100%",
+          "details": "Map displaying locations",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Map Markers",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Markers on the map",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Displaying saved restaurants",
+      "enterprise_os_potential": "Reusable for other travel-related applications"
+    },
+    {
+      "screen_slug": "visual_design_light_savedd_activities",
+      "screen_name": "Saved Activities",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "White background with black text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Activity Type Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Purple underline on active tab",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Activity Search Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "White background with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Activity Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "White background with shadow, image, rating, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add to Trip Button",
+          "location": "bottom right",
+          "approximate_dimensions": "30x30",
+          "details": "Plus icon in a circle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons such as chat, search, calendar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Displaying saved activities for a trip planning application",
+      "enterprise_os_potential": "Reusable for other travel-related applications or dashboards"
+    },
+    {
+      "screen_slug": "visual_design_light_search",
+      "error": "unsupported aspect ratio - (16384,124) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_light_search_activities",
+      "error": "unsupported aspect ratio - (11040,100) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_light_search_attractions",
+      "screen_name": "Search Attractions",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Search Attractions Header",
+          "location": "center",
+          "approximate_dimensions": "wide text",
+          "details": "large black text on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "large sans-serif font",
+      "primary_purpose": "display search attractions header",
+      "enterprise_os_potential": "reusable as a header component in various applications"
+    },
+    {
+      "screen_slug": "visual_design_light_search_flight",
+      "screen_name": "Flight Search",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Contains menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Contains tabs and action buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Search Tabs",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Contains tabs for different search types",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "From Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Text input with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "To Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Text input with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Flight Result Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Contains flight information and pricing",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Airline Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Airline logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "User profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Uses a clean sans-serif font",
+      "primary_purpose": "Searching for flights",
+      "enterprise_os_potential": "Reusable for other travel-related searches"
+    },
+    {
+      "screen_slug": "visual_design_light_search_restaurants",
+      "error": "unsupported aspect ratio - (11990,100) exceeds maximum supported aspect ratio of 100:1",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "visual_design_light_search_stays",
+      "screen_name": "Search Stays",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60px",
+          "details": "White background, dark text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Search Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 40px",
+          "details": "Purple active tab, gray inactive tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "center",
+          "approximate_dimensions": "400x40px",
+          "details": "White background, gray border, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Search Button",
+          "location": "center",
+          "approximate_dimensions": "80x40px",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Hotel Cards",
+          "location": "center",
+          "approximate_dimensions": "200x300px",
+          "details": "White background, image, text, rating, price",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "various",
+          "approximate_dimensions": "20x20px",
+          "details": "Gray heart icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "various",
+          "approximate_dimensions": "30x20px",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40px",
+          "details": "User image, green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Search Results Map",
+          "location": "right",
+          "approximate_dimensions": "Full Height x 400px",
+          "details": "Gray background, purple markers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font, various sizes and weights",
+      "primary_purpose": "Searching for hotel stays",
+      "enterprise_os_potential": "Reusable for other travel-related searches"
+    },
+    {
+      "screen_slug": "visual_design_light_share_your_feedback",
+      "screen_name": "Share Your Feedback Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Share Your Feedback Modal",
+          "location": "center",
+          "approximate_dimensions": "400x250",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "icon",
+          "name": "Close Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray color, simple close icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "textarea",
+          "name": "Feedback Input",
+          "location": "center",
+          "approximate_dimensions": "350x100",
+          "details": "Gray border, placeholder text 'What do you want us to know?'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Cancel Button",
+          "location": "bottom left",
+          "approximate_dimensions": "100x40",
+          "details": "Gray background, black text, border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Send Feedback Button",
+          "location": "bottom right",
+          "approximate_dimensions": "150x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#6c5ce7"
+      ],
+      "typography_notes": "Simple sans-serif font, varying sizes for headings and body text",
+      "primary_purpose": "Collecting user feedback",
+      "enterprise_os_potential": "Reusable modal design for feedback collection in various applications"
+    },
+    {
+      "screen_slug": "visual_design_light_verify_email",
+      "screen_name": "Verify Email",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Triply logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "black icon with white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Go Back",
+          "location": "top",
+          "approximate_dimensions": "60x24",
+          "details": "black text with left arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Verification code input",
+          "location": "center",
+          "approximate_dimensions": "300x250",
+          "details": "white background with shadow, centered content",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "6-digit code input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "6 separate input fields for digits",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "purple background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Resend code",
+          "location": "center",
+          "approximate_dimensions": "80x20",
+          "details": "purple text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Background image",
+          "location": "right",
+          "approximate_dimensions": "full height",
+          "details": "person with backpack and yoga mat",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Testimonial",
+          "location": "bottom right",
+          "approximate_dimensions": "400x200",
+          "details": "purple background with white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Testimonial text",
+          "location": "bottom right",
+          "approximate_dimensions": "350x150",
+          "details": "white text with quote",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Alvar Hostin, Founder, Mindtrip",
+          "location": "bottom right",
+          "approximate_dimensions": "200x50",
+          "details": "white text with name and title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "copyright",
+          "name": "Copyright text",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "gray text with copyright symbol",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "dropdown",
+          "name": "Language selector",
+          "location": "bottom center",
+          "approximate_dimensions": "50x20",
+          "details": "gray text with dropdown icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Email verification",
+      "enterprise_os_potential": "Reusable for various verification processes"
+    },
+    {
+      "screen_slug": "visual_design_light_world_feed",
+      "screen_name": "World Feed",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "White background, black text, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "White background, gray border, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Feed Tabs",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Gray text, purple underline for active tab",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Trip Cards",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Gray background, white text, images, buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create a Trip Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "White background, black text, calendar icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "bottom left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image, green checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Heart Icon",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "White heart icon on gray background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "various",
+          "approximate_dimensions": "30x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Category Tags",
+          "location": "various",
+          "approximate_dimensions": "50x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font, various sizes and weights",
+      "primary_purpose": "Displaying trip feeds and recommendations",
+      "enterprise_os_potential": "Reusable for other travel-related applications"
+    },
+    {
+      "screen_slug": "welcome_thumb",
+      "screen_name": "Welcome Thumbnail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Triply logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "White circle with black and white Triply logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Triply text",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "White text 'Triply' next to logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header text",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large white text 'AI-Powered Travel Planner UI Kit'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle text",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Smaller white text 'AI - Saas - Dashboard - UI Kit'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Figma button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "White button with Figma logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Contact email",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "White text 'hipixem@gmail.com' with envelope icon",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright text",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "Small white text ' 2025 Pixem. All rights reserved.'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Envelope icon",
+          "location": "bottom",
+          "approximate_dimensions": "16x16",
+          "details": "Small white envelope icon next to email",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, various sizes",
+      "primary_purpose": "Promoting the AI-Powered Travel Planner UI Kit",
+      "enterprise_os_potential": "Could be used as a landing page or promotional material for a UI kit or SaaS product"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:36:22.948Z"
+}

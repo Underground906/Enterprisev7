@@ -1,0 +1,4464 @@
+{
+  "generated_at": "2026-02-16T17:47:41.650Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 39,
+  "successful": 39,
+  "failed": 0,
+  "component_types": {
+    "icon": 114,
+    "text": 47,
+    "button": 81,
+    "avatar": 31,
+    "heading": 18,
+    "image": 9,
+    "card": 20,
+    "link": 8,
+    "toggle": 5,
+    "progress": 3,
+    "topbar": 3,
+    "badge": 14,
+    "form": 1,
+    "input": 21,
+    "textarea": 2,
+    "select": 1,
+    "pricing_card": 1,
+    "footer": 1,
+    "divider": 1,
+    "checkbox": 1,
+    "tooltip": 1,
+    "dialog": 1,
+    "modal": 3,
+    "dropdown": 1,
+    "calendar": 2,
+    "list": 1
+  },
+  "reuse_categories": {
+    "navigation": 83,
+    "data_display": 113,
+    "action": 126,
+    "layout": 6,
+    "input": 36,
+    "feedback": 23,
+    "overlay": 4
+  },
+  "layout_types": {
+    "centered": 39
+  },
+  "screens": [
+    {
+      "screen_slug": "page_1_brief_free",
+      "screen_name": "UI8 Studio 2024 Brief",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "UI8 Studio 2024",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large font size, bold",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "New brief",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, with a profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large font size, bold",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction, Goals, Timeline, Budget, References, Conclusion",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Regular font size, black color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference images",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Four images with different designs",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Share icon",
+          "location": "top right of heading",
+          "approximate_dimensions": "20x20",
+          "details": "Gray color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Create link",
+          "location": "bottom",
+          "approximate_dimensions": "80x30",
+          "details": "Gray background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Gray color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#808080"
+      ],
+      "typography_notes": "The font used is a sans-serif font, likely Open Sans or a similar font. The font sizes vary, with headings being larger and bold.",
+      "primary_purpose": "To present a brief for the UI8 Studio 2024 project",
+      "enterprise_os_potential": "This layout could be reused for other project briefs or documentation pages in an enterprise OS setting."
+    },
+    {
+      "screen_slug": "page_1_brief_linked_page_premium",
+      "screen_name": "UI8 Studio 2024 Project Brief",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Project Brief Card",
+          "location": "center",
+          "approximate_dimensions": "800x1200",
+          "details": "White background, subtle shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "large text",
+          "details": "Black text, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction, Goals, Timeline, Budget, References, Conclusion",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Black text, regular font, varying lengths",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference Images",
+          "location": "bottom",
+          "approximate_dimensions": "4 small images",
+          "details": "Colorful, abstract designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle",
+          "location": "bottom left",
+          "approximate_dimensions": "small",
+          "details": "Sun/moon icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top",
+          "location": "bottom right",
+          "approximate_dimensions": "small",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Black text on white background, varying font sizes and weights",
+      "primary_purpose": "Displaying a project brief for UI8 Studio 2024",
+      "enterprise_os_potential": "Reusable layout for project briefs or documentation"
+    },
+    {
+      "screen_slug": "page_1_brief_linked_page_v1",
+      "screen_name": "UI8 Studio 2024 Project Brief",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Project Title",
+          "location": "center",
+          "approximate_dimensions": "wide header",
+          "details": "large black text, UI8 Studio 2024",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Section Headers",
+          "location": "left",
+          "approximate_dimensions": "full width",
+          "details": "bold black text, Introduction, Goals, Timeline, Budget, References, Conclusion",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Body Text",
+          "location": "left",
+          "approximate_dimensions": "full width",
+          "details": "regular black text, descriptive paragraphs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "UI8 Reference Link",
+          "location": "left",
+          "approximate_dimensions": "inline text",
+          "details": "underlined text, UI8",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Dribbble Reference Link",
+          "location": "left",
+          "approximate_dimensions": "inline text",
+          "details": "underlined text, Dribbble",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Reference Images",
+          "location": "center",
+          "approximate_dimensions": "four small images in a row",
+          "details": "four distinct images with different designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "small circular icon",
+          "details": "moon icon in a circle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "small circular icon",
+          "details": "up arrow icon in a circle",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "black text on white background, varying font sizes for headers and body text",
+      "primary_purpose": "project brief presentation",
+      "enterprise_os_potential": "reusable layout for project proposals or briefs"
+    },
+    {
+      "screen_slug": "page_1_brief_premium",
+      "screen_name": "UI8 Studio 2024 Brief",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New brief button",
+          "location": "top",
+          "approximate_dimensions": "80x30",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large black heading",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction, Goals, Timeline, Budget, References, Conclusion",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text with varying font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference images",
+          "location": "center",
+          "approximate_dimensions": "100x100 each",
+          "details": "Four images with different designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "UI8 and Dribbble links",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Underlined links with blue color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Create link button",
+          "location": "bottom",
+          "approximate_dimensions": "80x30",
+          "details": "White button with black text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Share and other icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20 each",
+          "details": "Gray icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "toggle",
+          "name": "Theme toggle",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gray toggle button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Up arrow icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gray icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#3498db"
+      ],
+      "typography_notes": "Variable font sizes, black text",
+      "primary_purpose": "Displaying a brief for UI8 Studio 2024 project",
+      "enterprise_os_potential": "Reusable layout for project briefs and documentation"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_action_state_hover",
+      "screen_name": "Brief Premium Action State Hover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and white color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "UI8 Studio 2024",
+          "location": "top center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "White text, green icon",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "New brief",
+          "location": "top right",
+          "approximate_dimensions": "80x32",
+          "details": "White background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "32x32",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Timeline, Budget, References",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "White text, varying font sizes",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Body text",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "White text, standard font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Dribbble link",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Underlined text, blue color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom left",
+          "approximate_dimensions": "24x24",
+          "details": "Moon and sun icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Send email",
+          "location": "bottom center",
+          "approximate_dimensions": "80x32",
+          "details": "White text, icon, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom right",
+          "approximate_dimensions": "32x32",
+          "details": "Circular, arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Standard font, varying font sizes, white text",
+      "primary_purpose": "Displaying brief details",
+      "enterprise_os_potential": "Reusable layout for project management or brief details"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_ai_typing",
+      "screen_name": "Project Brief UI8 Studio 2024",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and white color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New brief button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "White background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Project brief card",
+          "location": "center",
+          "approximate_dimensions": "600x800",
+          "details": "Black background, white text, padding",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Large, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction, Goals, Timeline, Budget",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Regular font, varying sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "progress",
+          "name": "Regenerating... progress indicator",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "Linear progress bar, green color",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Create link button",
+          "location": "bottom center",
+          "approximate_dimensions": "100x30",
+          "details": "Gray background, white text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon, white color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon, white color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom right",
+          "approximate_dimensions": "30x30",
+          "details": "Up arrow icon, white color, circular background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#0080FF"
+      ],
+      "typography_notes": "Open sans or similar font, varying sizes and weights",
+      "primary_purpose": "Displaying project brief details",
+      "enterprise_os_potential": "Reusable for project management and collaboration tools"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_click_on_regenerate",
+      "screen_name": "UI8 Studio 2024 Brief",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, project title, and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New Brief Button",
+          "location": "right",
+          "approximate_dimensions": "100x30",
+          "details": "White text on a rounded rectangle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Project Brief Card",
+          "location": "center",
+          "approximate_dimensions": "600x800",
+          "details": "White text on a dark background, with subtle shadows",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "File Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Small file icon next to project title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Regenerate Button",
+          "location": "right",
+          "approximate_dimensions": "100x30",
+          "details": "Green button with white text and a loading indicator",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "toggle",
+          "name": "Section Toggle",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue toggle button next to section title",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create Link Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x30",
+          "details": "White text on a dark background, with a link icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Link Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Small link icon next to create link button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Download Icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Small download icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Theme Toggle Button",
+          "location": "bottom left",
+          "approximate_dimensions": "30x60",
+          "details": "Vertical button with moon and sun icons",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Scroll to Top Button",
+          "location": "bottom right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular button with up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open sans font, various sizes and weights",
+      "primary_purpose": "Displaying project brief details",
+      "enterprise_os_potential": "Reusable as a project management dashboard or a brief display page"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_click_on_text_box_to_edit",
+      "screen_name": "Project Brief Premium",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New brief button",
+          "location": "top right",
+          "approximate_dimensions": "80x32",
+          "details": "White button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "32x32",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Project brief card",
+          "location": "center",
+          "approximate_dimensions": "600x800",
+          "details": "Black card with white text and blue accents",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024",
+          "location": "center top",
+          "approximate_dimensions": "400x32",
+          "details": "White heading text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction text",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White text with black background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Goals text",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White text with black background and blue outline",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Edit icon",
+          "location": "center",
+          "approximate_dimensions": "16x16",
+          "details": "White edit icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Timeline text",
+          "location": "center",
+          "approximate_dimensions": "400x100",
+          "details": "White text with black background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Budget text",
+          "location": "center",
+          "approximate_dimensions": "400x100",
+          "details": "White text with black background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create link button",
+          "location": "bottom center",
+          "approximate_dimensions": "80x32",
+          "details": "White button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom left",
+          "approximate_dimensions": "24x24",
+          "details": "White theme toggle icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom left",
+          "approximate_dimensions": "24x24",
+          "details": "White settings icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom right",
+          "approximate_dimensions": "32x32",
+          "details": "White scroll to top icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "Project brief management",
+      "enterprise_os_potential": "Reusable for project management and collaboration tools"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_edit_references",
+      "screen_name": "Brief Premium Edit References",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "blue and white color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "UI8 Studio 2024",
+          "location": "top center",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "green checkmark icon, white text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "New brief",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "white text on a rounded rectangle background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "circular image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Budget",
+          "location": "center",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "large font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Budget description",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "regular font size, white text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "References",
+          "location": "center",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "large font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "References description",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "regular font size, white text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Dribbble link",
+          "location": "center",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "blue text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Reference images",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "blue border, white background, four images inside",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference image 1",
+          "location": "inside card",
+          "approximate_dimensions": "100x100",
+          "details": "abstract design",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference image 2",
+          "location": "inside card",
+          "approximate_dimensions": "100x100",
+          "details": "abstract design",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference image 3",
+          "location": "inside card",
+          "approximate_dimensions": "100x100",
+          "details": "AI illustration",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Reference image 4",
+          "location": "inside card",
+          "approximate_dimensions": "100x100",
+          "details": "color palette",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Play icon",
+          "location": "inside card",
+          "approximate_dimensions": "20x20",
+          "details": "white icon on a transparent background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Conclusion",
+          "location": "center",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "large font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Conclusion text",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "regular font size, white text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create link",
+          "location": "bottom center",
+          "approximate_dimensions": "100x30",
+          "details": "white text on a rounded rectangle background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "white icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Top arrow icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "white icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The design uses a clean, sans-serif font. Headings are larger and bolder than regular text.",
+      "primary_purpose": "This screen is for editing references in a premium brief.",
+      "enterprise_os_potential": "This layout could be reused in other parts of the application where detailed information needs to be displayed in a clean and organized manner."
+    },
+    {
+      "screen_slug": "page_1_brief_premium_hover_on_section",
+      "screen_name": "Project Brief Overview",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and white color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New brief button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "White background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, with a profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Project brief card",
+          "location": "center",
+          "approximate_dimensions": "600x800",
+          "details": "White text on black background, with a subtle shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024",
+          "location": "center top",
+          "approximate_dimensions": "400x30",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction, Goals, Timeline, Budget",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White text, varying font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Regenerate button",
+          "location": "near Goals section",
+          "approximate_dimensions": "80x30",
+          "details": "White text on a colored background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Create link button",
+          "location": "bottom center",
+          "approximate_dimensions": "100x30",
+          "details": "White text on a colored background, with an icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Moon icon, gear icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "White color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Up arrow icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "White color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes",
+      "primary_purpose": "Displaying project brief details",
+      "enterprise_os_potential": "Reusable for project management or briefing interfaces"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_scrolling",
+      "screen_name": "Premium Brief Scrolling Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and white color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New brief button",
+          "location": "top",
+          "approximate_dimensions": "80x32",
+          "details": "White background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "32x32",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024 heading",
+          "location": "top",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Large font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Project description",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "White color, regular font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Timeline, Budget, References headings",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Medium font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Timeline, Budget, References descriptions",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "White color, regular font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Dribbble link",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Underlined, white color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Create link button",
+          "location": "bottom",
+          "approximate_dimensions": "80x32",
+          "details": "White background, black text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon and sun icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#3498db"
+      ],
+      "typography_notes": "Open sans or similar font, various font sizes",
+      "primary_purpose": "Display project brief details",
+      "enterprise_os_potential": "Reusable for project management or briefing screens"
+    },
+    {
+      "screen_slug": "page_1_brief_premium_upload_more_images",
+      "screen_name": "Premium Upload More Images Brief",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and white color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "UI8 Studio 2024",
+          "location": "top center",
+          "approximate_dimensions": "auto",
+          "details": "Green checkmark icon, white text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "New brief",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "White background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, image inside",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Budget",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Large font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Budget description",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Smaller font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "References",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Large font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "References description",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Smaller font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Dribbble link",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Blue color, underlined",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Reference image",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Image with blue border, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Plus icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "White color, inside a circle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Conclusion",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Large font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Conclusion description",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Smaller font size, white color",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create link",
+          "location": "bottom center",
+          "approximate_dimensions": "100x30",
+          "details": "White background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Download icon",
+          "location": "bottom center",
+          "approximate_dimensions": "20x20",
+          "details": "White color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "White color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Up arrow icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "White color, inside a circle",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Open sans font, various font sizes",
+      "primary_purpose": "Displaying a brief for a premium upload project",
+      "enterprise_os_potential": "Reusable for project management and collaboration tools"
+    },
+    {
+      "screen_slug": "page_1_budget_breakdown",
+      "screen_name": "Budget Breakdown",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Let's break down your budget.",
+          "location": "center",
+          "approximate_dimensions": "200x50",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "6/7",
+          "location": "top",
+          "approximate_dimensions": "30x20",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Budget breakdown form",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, gray borders",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Scope of work input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Gray border, black text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Budget input",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Gray border, black text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Add more button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "White background, gray border, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Previous button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White background, gray border, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Remove icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "White background, black icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#CCCCCC",
+        "#008000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font",
+      "primary_purpose": "Breaking down budget into categories",
+      "enterprise_os_potential": "Reusable for financial planning and budgeting applications"
+    },
+    {
+      "screen_slug": "page_1_create_link_click_on",
+      "screen_name": "Create Link Click On Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top left",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New Brief Button",
+          "location": "top right",
+          "approximate_dimensions": "80x32",
+          "details": "White button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "32x32",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "UI8 Studio 2024 Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Large gray heading text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Introduction and Goals Text",
+          "location": "center",
+          "approximate_dimensions": "variable width, variable height",
+          "details": "Gray text with varying font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Custom Link Input",
+          "location": "center",
+          "approximate_dimensions": "400x40",
+          "details": "Dark gray input field with white text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create Link Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "White button with black text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "24x24",
+          "details": "Moon and sun icons for theme toggle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "32x32",
+          "details": "Up arrow icon in a circle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "Variable font sizes, gray text color",
+      "primary_purpose": "Creating a custom link",
+      "enterprise_os_potential": "Reusable layout for various applications requiring link creation or management"
+    },
+    {
+      "screen_slug": "page_1_edit_form",
+      "screen_name": "Project Type Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Back Arrow",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "White icon on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Project Type Question",
+          "location": "top",
+          "approximate_dimensions": "Variable width, fixed height",
+          "details": "White text on dark background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Project Type Option",
+          "location": "center",
+          "approximate_dimensions": "200x100",
+          "details": "Dark background, white text, icon, and blue border on selected",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Project Type Icons",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "White icons on dark background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Theme Toggle",
+          "location": "bottom left",
+          "approximate_dimensions": "40x80",
+          "details": "Dark background, white icons",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#ADD8E6"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font",
+      "primary_purpose": "Selecting project type",
+      "enterprise_os_potential": "Reusable for various project onboarding processes"
+    },
+    {
+      "screen_slug": "page_1_form_brief_is_generating",
+      "screen_name": "Brief Generation Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Brief Delivery Message",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text on white background",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "progress",
+          "name": "Generation Progress Indicator",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "Colorful progress bar with 'Generating' label",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "card",
+          "name": "Brief Preview Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "White card with shadow, containing brief information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Status Icon",
+          "location": "within card",
+          "approximate_dimensions": "10x10",
+          "details": "Green status icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Theme Toggle Button",
+          "location": "bottom",
+          "approximate_dimensions": "30x30",
+          "details": "Circular button with moon icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Settings Button",
+          "location": "bottom",
+          "approximate_dimensions": "30x30",
+          "details": "Circular button with gear icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Scroll to Top Button",
+          "location": "bottom",
+          "approximate_dimensions": "30x30",
+          "details": "Circular button with up arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f",
+        "#e74c3c"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font",
+      "primary_purpose": "Displaying brief generation progress",
+      "enterprise_os_potential": "Reusable as a loading or processing screen in various enterprise applications"
+    },
+    {
+      "screen_slug": "page_1_form_budget_breakdown",
+      "screen_name": "Budget Breakdown Form",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue color, custom logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "32x32",
+          "details": "Circular, profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Let's break down your budget.",
+          "location": "center",
+          "approximate_dimensions": "Large text",
+          "details": "Black color, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Scope of work",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Text input, placeholder text 'e.g Landing page design'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Budget",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Numeric input, prefix '$', value '0'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Outlined button, gray color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Filled button, black color, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon icon, toggle button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Gear icon, button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "6/7",
+          "location": "top",
+          "approximate_dimensions": "40x24",
+          "details": "Green background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Up arrow icon, circular button",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Bold font used for headings, regular font used for body text",
+      "primary_purpose": "To collect budget information from the user",
+      "enterprise_os_potential": "Reusable as a form component in various enterprise applications"
+    },
+    {
+      "screen_slug": "page_1_form_main_goals",
+      "screen_name": "Project Goals Form",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Project Goals Header",
+          "location": "top",
+          "approximate_dimensions": "variable width, 2 lines height",
+          "details": "Large black text, 'What are the main goals of your project?'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Step Indicator",
+          "location": "top",
+          "approximate_dimensions": "40x24",
+          "details": "Green badge with white text '3/7'",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "textarea",
+          "name": "Project Goals Input",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "White textarea with gray placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White button with black text 'Previous'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black button with white text 'Continue'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Black icon on white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "24x24",
+          "details": "Black icon on white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout",
+      "primary_purpose": "Collecting project goals information from users",
+      "enterprise_os_potential": "Reusable as a form template for various project management applications"
+    },
+    {
+      "screen_slug": "page_1_form_main_goals_typing",
+      "screen_name": "Project Goals Form",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Project Goals Question",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Step Indicator",
+          "location": "top",
+          "approximate_dimensions": "small oval",
+          "details": "Green background, white text (3/7)",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "textarea",
+          "name": "Project Goals Input",
+          "location": "center",
+          "approximate_dimensions": "300x150",
+          "details": "White background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Black text used for main content, white text used for buttons and badge",
+      "primary_purpose": "Collecting project goals information from users",
+      "enterprise_os_potential": "Reusable as a form step in a larger workflow or project management tool"
+    },
+    {
+      "screen_slug": "page_1_form_project_budget",
+      "screen_name": "Project Budget Form",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "32x32",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large black text: What's your budget for this project?",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Progress Indicator",
+          "location": "top",
+          "approximate_dimensions": "40x24",
+          "details": "Green badge with white text: 5/7",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Budget Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with dollar sign prefix and value $0",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White button with black text: Previous",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black button with white text: Continue",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon icon for theme toggle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Gear icon for settings",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Black text with variable font sizes",
+      "primary_purpose": "Collecting project budget information",
+      "enterprise_os_potential": "Reusable for various project management forms"
+    },
+    {
+      "screen_slug": "page_1_form_project_name",
+      "screen_name": "Project Name Form",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "32x32",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Project Name Label",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Black text 'What's the name of your project?'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Step Indicator",
+          "location": "top",
+          "approximate_dimensions": "40x24",
+          "details": "Green badge with '2/7' text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Project Name Input",
+          "location": "center",
+          "approximate_dimensions": "400x40",
+          "details": "Text input with placeholder 'e.g. UI8 Studio Web Design'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "bottom",
+          "approximate_dimensions": "120x40",
+          "details": "White button with 'Previous' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "bottom",
+          "approximate_dimensions": "120x40",
+          "details": "Black button with 'Continue' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon icon for theme toggle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Black text used for labels and headers",
+      "primary_purpose": "Collecting project name information",
+      "enterprise_os_potential": "Reusable as a form step in a project setup wizard"
+    },
+    {
+      "screen_slug": "page_1_form_project_name_typing",
+      "screen_name": "Project Name Input Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "input",
+          "name": "Project Name Input Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with rounded corners, light gray background, and a subtle border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Black button with white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "left",
+          "approximate_dimensions": "100x40",
+          "details": "Light gray button with black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Small icon representing theme toggle, likely a moon or sun symbol",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar with a user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Project Type Question",
+          "location": "top center",
+          "approximate_dimensions": "variable width",
+          "details": "Large, bold text asking 'What's your type of project?'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Step Indicator",
+          "location": "top center",
+          "approximate_dimensions": "40x20",
+          "details": "Small, rounded badge displaying '2/7'",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#F7F7F7"
+      ],
+      "typography_notes": "The primary font appears to be a sans-serif font, likely Open Sans or a similar font. The font sizes vary, with headings being larger and bold.",
+      "primary_purpose": "To input project name as part of a multi-step process",
+      "enterprise_os_potential": "This layout could be reused in various enterprise OS applications that require a simple, centered form for data input, such as project management or CRM systems."
+    },
+    {
+      "screen_slug": "page_1_form_references",
+      "screen_name": "Share References and Inspirations",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue and black color, stylized letter 'b'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "32x32",
+          "details": "Circular, with a profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Progress indicator",
+          "location": "top",
+          "approximate_dimensions": "40x20",
+          "details": "Green background, white text '7/7'",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "card",
+          "name": "Image upload area",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Light gray background, rounded corners, camera icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Reference link input",
+          "location": "center",
+          "approximate_dimensions": "400x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Add link button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "White background, black text, plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Previous button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#000000",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font, headings and body text",
+      "primary_purpose": "Collecting user references and inspirations",
+      "enterprise_os_potential": "Reusable as a form step in a multi-step process"
+    },
+    {
+      "screen_slug": "page_1_form_select_date",
+      "screen_name": "Project Completion Date Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Date selection input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "White button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon for theme toggle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon for settings",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Progress indicator",
+          "location": "top",
+          "approximate_dimensions": "40x20",
+          "details": "Green badge with 4/7 text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Black text with Open Sans font",
+      "primary_purpose": "Selecting project completion date",
+      "enterprise_os_potential": "Reusable for project management workflows"
+    },
+    {
+      "screen_slug": "page_1_form_type_of_project",
+      "screen_name": "Project Type Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular profile picture",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Project type question",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Step indicator",
+          "location": "center",
+          "approximate_dimensions": "30x20",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "card",
+          "name": "Project type options",
+          "location": "center",
+          "approximate_dimensions": "200x100",
+          "details": "White background, gray border, icon and text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Project type icons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons representing project types",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Continue button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon for theme toggle",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon for settings",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to top icon",
+          "location": "bottom",
+          "approximate_dimensions": "30x30",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Large black text for headings, regular text for descriptions",
+      "primary_purpose": "To select the type of project",
+      "enterprise_os_potential": "Reusable for various project management applications"
+    },
+    {
+      "screen_slug": "page_1_form_type_of_project_hover_select",
+      "screen_name": "Project Type Selection Form",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Black text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "center bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "select",
+          "name": "Project Type Select",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "White background, gray text, blue border on hover",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Project Type Icons",
+          "location": "within select options",
+          "approximate_dimensions": "16x16",
+          "details": "Simple line icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Project Type Labels",
+          "location": "within select options",
+          "approximate_dimensions": "variable width",
+          "details": "Gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Step Indicator",
+          "location": "top right",
+          "approximate_dimensions": "30x20",
+          "details": "Green background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, user profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Theme Toggle",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon for dark mode",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "16x16",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "Up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#0080FF"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes",
+      "primary_purpose": "To select the type of project",
+      "enterprise_os_potential": "Reusable as a form step in a larger workflow or project management system"
+    },
+    {
+      "screen_slug": "page_1_hover_on_lock_icon",
+      "screen_name": "Project Details Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "New Brief Button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Premium Feature Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White card with shadow, containing text and button",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Upgrade Button",
+          "location": "center",
+          "approximate_dimensions": "100x30",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Lock Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Gray lock icon on hover",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Project Title",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Project Description",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Smaller gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create Link Button",
+          "location": "bottom center",
+          "approximate_dimensions": "100x30",
+          "details": "Gray button with text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Refresh Icon",
+          "location": "bottom center",
+          "approximate_dimensions": "20x20",
+          "details": "Gray refresh icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon for theme toggle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon for settings",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Scroll to Top Button",
+          "location": "bottom right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular button with up arrow icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#000000",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout",
+      "primary_purpose": "Displaying project details and promoting premium features",
+      "enterprise_os_potential": "Reusable for project management or sales dashboards"
+    },
+    {
+      "screen_slug": "page_1_hover_on_regenerate_button",
+      "screen_name": "UI8 Studio 2024 Project Details",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, project title, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Project Details Card",
+          "location": "center",
+          "approximate_dimensions": "800px x variable height",
+          "details": "Contains project title, category, introduction, goals, and timeline sections",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Regenerate Button",
+          "location": "bottom center",
+          "approximate_dimensions": "120px x 40px",
+          "details": "Hover state shown, contains icon and text 'Regenerate'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Lock Icon",
+          "location": "top center",
+          "approximate_dimensions": "16px x 16px",
+          "details": "Small lock icon next to project title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Share Icon",
+          "location": "top right of card",
+          "approximate_dimensions": "24px x 24px",
+          "details": "Circular button with share icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Circular user profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "New Brief Button",
+          "location": "top right",
+          "approximate_dimensions": "120px x 40px",
+          "details": "Black button with white text 'New brief'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "toggle",
+          "name": "Theme Toggle",
+          "location": "bottom left",
+          "approximate_dimensions": "40px x 80px",
+          "details": "Vertical toggle with moon and sun icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Circular button with up arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#3498db"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "Displaying project details for UI8 Studio 2024",
+      "enterprise_os_potential": "Reusable for project management or portfolio display in enterprise settings"
+    },
+    {
+      "screen_slug": "page_1_landing_page_gradient_added",
+      "screen_name": "Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo and sign in button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Get started for free",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Project Brief Example",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White card with shadow, contains text and icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "various",
+          "approximate_dimensions": "16x16",
+          "details": "Green checkmark icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Free and Premium Pricing Cards",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Contains pricing information and features list",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Create an account",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Get started now",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains copyright information and terms & licensing links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "various",
+          "approximate_dimensions": "24x24",
+          "details": "Small user avatar images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "various",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Thin gray divider line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "progress",
+          "name": "Progress Bar",
+          "location": "center",
+          "approximate_dimensions": "200x10",
+          "details": "Blue progress bar",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "checkbox",
+          "name": "Project Type Checkbox",
+          "location": "center",
+          "approximate_dimensions": "16x16",
+          "details": "Gray checkbox with blue checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tooltip",
+          "name": "Tooltip",
+          "location": "overlay",
+          "approximate_dimensions": "variable",
+          "details": "Small text box with shadow",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "dialog",
+          "name": "Custom Link Dialog",
+          "location": "overlay",
+          "approximate_dimensions": "300x150",
+          "details": "White dialog box with shadow, contains text and input field",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Custom Link Input",
+          "location": "center",
+          "approximate_dimensions": "200x30",
+          "details": "Text input field with gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Copy Button",
+          "location": "center",
+          "approximate_dimensions": "50x30",
+          "details": "Gray button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#6c5ce7"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are bold and larger",
+      "primary_purpose": "Promoting AI-powered project brief generation for designers",
+      "enterprise_os_potential": "Reusable layout for SaaS landing pages or marketing campaigns"
+    },
+    {
+      "screen_slug": "page_1_references_drag_images",
+      "screen_name": "Share References and Inspirations",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black color, stylized letter 'b'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "top",
+          "approximate_dimensions": "variable width, 2 lines height",
+          "details": "Black color, font size large, text 'Share your references and inspirations'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Progress Indicator",
+          "location": "top",
+          "approximate_dimensions": "small, oval shape",
+          "details": "Green background, white text '7/7'",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "card",
+          "name": "Image Upload Area",
+          "location": "center",
+          "approximate_dimensions": "large, rectangular shape",
+          "details": "Blue border, white background, text 'Drag and drop images, or Browse'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Reference Link Input",
+          "location": "center",
+          "approximate_dimensions": "wide, single line height",
+          "details": "Gray placeholder text 'Enter your URL'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Add Link Button",
+          "location": "center",
+          "approximate_dimensions": "small, rectangular shape",
+          "details": "White background, blue '+' icon, text 'Add link'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "bottom",
+          "approximate_dimensions": "medium, rectangular shape",
+          "details": "White background, black text 'Previous'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "bottom",
+          "approximate_dimensions": "medium, rectangular shape",
+          "details": "Black background, white text 'Continue'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom",
+          "approximate_dimensions": "small, circular shape",
+          "details": "Moon icon, white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "bottom",
+          "approximate_dimensions": "small, circular shape",
+          "details": "Gear icon, white background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "small, circular shape",
+          "details": "Circular profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#0080FF"
+      ],
+      "typography_notes": "Open sans or similar font used, varying font sizes",
+      "primary_purpose": "Collecting user references and inspirations",
+      "enterprise_os_potential": "Reusable as a template for gathering visual references in a design or content creation workflow"
+    },
+    {
+      "screen_slug": "page_1_references_uploaded_uploading_link_added",
+      "screen_name": "Project Reference Upload",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Blue and black color scheme",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Project type question",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Progress indicator",
+          "location": "top",
+          "approximate_dimensions": "30x20",
+          "details": "Green background, white text, 7/7",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "image",
+          "name": "Uploaded images",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "Two images with camera icons, colorful backgrounds",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add image button",
+          "location": "center",
+          "approximate_dimensions": "50x50",
+          "details": "White background, blue icon, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Reference link input",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Add link button",
+          "location": "center",
+          "approximate_dimensions": "80x30",
+          "details": "Gray background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Previous button",
+          "location": "bottom",
+          "approximate_dimensions": "80x30",
+          "details": "Gray background, black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue button",
+          "location": "bottom",
+          "approximate_dimensions": "80x30",
+          "details": "Black background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Black icon, rounded corners",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#008000"
+      ],
+      "typography_notes": "Large font size for headings, standard font size for body text",
+      "primary_purpose": "Collecting project references from users",
+      "enterprise_os_potential": "Reusable as a standardized form for collecting project metadata"
+    },
+    {
+      "screen_slug": "page_1_reset_password",
+      "screen_name": "Reset Password",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Reset Password Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "250x40",
+          "details": "Gray text, light gray background, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create Account Button",
+          "location": "center",
+          "approximate_dimensions": "250x40",
+          "details": "Black background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Close Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "White circle with gray X",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Reset Password Text",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Have your password? Login",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Small gray text with underlined Login",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#CCCCCC"
+      ],
+      "typography_notes": "Large font for title, smaller font for input label and button text",
+      "primary_purpose": "Reset user password",
+      "enterprise_os_potential": "Reusable for various authentication flows"
+    },
+    {
+      "screen_slug": "page_1_reset_password_check_your_inbox",
+      "screen_name": "Reset Password Check Your Inbox",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Reset Password Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background, rounded corners, text input with label 'Email'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Green checkmark icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Check Your Inbox Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Have Your Password Link",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "Small text with link 'Login'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#333333",
+        "#008000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font",
+      "primary_purpose": "Password reset confirmation",
+      "enterprise_os_potential": "Reusable for authentication flows"
+    },
+    {
+      "screen_slug": "page_1_select_date_calendar",
+      "screen_name": "Project Type Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "input",
+          "name": "Date Input Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with placeholder text, light gray border, and rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Date Options Dropdown",
+          "location": "center",
+          "approximate_dimensions": "150x200",
+          "details": "Dropdown menu with options for relative dates, white background, and subtle shadow",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "calendar",
+          "name": "Calendar View",
+          "location": "center",
+          "approximate_dimensions": "300x300",
+          "details": "Grid layout displaying dates, with selected date highlighted, and navigation buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Continue Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Black background, white text, rounded corners, and subtle shadow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Previous Button",
+          "location": "left",
+          "approximate_dimensions": "100x40",
+          "details": "Light gray background, dark text, rounded corners, and subtle shadow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme Toggle Icon",
+          "location": "bottom left",
+          "approximate_dimensions": "20x20",
+          "details": "Moon icon for theme toggle, white background, and subtle shadow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Scroll to Top Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "Up arrow icon, white background, and subtle shadow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image with subtle border and shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#F7F7F7"
+      ],
+      "typography_notes": "Clean sans-serif font, varying font sizes for headings and body text",
+      "primary_purpose": "Selecting project type and date",
+      "enterprise_os_potential": "Reusable for date selection and project configuration in enterprise applications"
+    },
+    {
+      "screen_slug": "page_1_sign_in",
+      "screen_name": "Sign In Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign In Card",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "black background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Sign in with Google",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "dark gray background, Google logo, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "dark gray background, white text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "dark gray background, password masking, white text, border, info icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "white background, black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Sign Up Link",
+          "location": "bottom",
+          "approximate_dimensions": "auto",
+          "details": "white text, underlined",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Info Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "small info icon next to password input",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "white text on dark background, sans-serif font",
+      "primary_purpose": "user authentication",
+      "enterprise_os_potential": "login screens for various applications"
+    },
+    {
+      "screen_slug": "page_1_sign_up",
+      "screen_name": "Sign Up Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign Up Card",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "Black background with rounded corners, white text, and a subtle shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Sign up with Google",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray button with Google logo, white text, and a subtle shadow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray input field with white text and a subtle border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray input field with white text, password masking, and a subtle border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create account",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "White button with black text and a subtle shadow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Already have an account? Sign in",
+          "location": "bottom",
+          "approximate_dimensions": "200x20",
+          "details": "Gray text with a link to sign in",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Google Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Colorful Google logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#808080"
+      ],
+      "typography_notes": "Open Sans font, various font sizes and weights",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable for various authentication flows"
+    },
+    {
+      "screen_slug": "page_1_typing_or_select_the_day",
+      "screen_name": "Project Type Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Briefberry logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Blue color, 5-dot pattern",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header text",
+          "location": "top",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black color, large font size",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Progress indicator",
+          "location": "top",
+          "approximate_dimensions": "40x20",
+          "details": "Green background, white text, 4/7",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Date input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background, gray border, calendar icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "calendar",
+          "name": "Date picker",
+          "location": "center",
+          "approximate_dimensions": "250x300",
+          "details": "Grid layout, day of week headers, date numbers",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Previous button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Gray background, white text, 'Previous'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Black background, white text, 'Continue'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Theme toggle icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "Moon icon, gray color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Large font size for header, regular font size for body text",
+      "primary_purpose": "Project type selection",
+      "enterprise_os_potential": "Reusable for date selection in various enterprise applications"
+    },
+    {
+      "screen_slug": "page_1_upgrade_to_premium",
+      "screen_name": "Upgrade to Premium Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Upgrade to Premium Modal",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "Black background with white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe now Button",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White button with black text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Close Button Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "White cross icon on a black circle background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Upgrade to Premium Heading",
+          "location": "top center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, large font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Premium Features List",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "List of features with green checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Green Checkmark Icons",
+          "location": "varies",
+          "approximate_dimensions": "15x15",
+          "details": "Green checkmark icons next to each feature",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Payment Security Text",
+          "location": "bottom center",
+          "approximate_dimensions": "variable width",
+          "details": "Small white text indicating payment security",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Stripe and PayPal Icons",
+          "location": "bottom center",
+          "approximate_dimensions": "variable width",
+          "details": "Logos of Stripe and PayPal",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#008000"
+      ],
+      "typography_notes": "Large font size for heading, smaller font size for list items and payment security text",
+      "primary_purpose": "To prompt users to upgrade to a premium subscription",
+      "enterprise_os_potential": "This modal can be reused in various enterprise OS applications that offer premium features"
+    },
+    {
+      "screen_slug": "page_1_upload_image_state",
+      "screen_name": "Image Upload State",
+      "screen_type": "state_variant",
+      "is_variant_of": "image_upload",
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Image Upload Placeholder",
+          "location": "center",
+          "approximate_dimensions": "120x120",
+          "details": "Gray background, camera icon, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Image Upload Preview",
+          "location": "center",
+          "approximate_dimensions": "120x120",
+          "details": "Image thumbnail, blue border, green plus icon overlay",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Image Upload Processing",
+          "location": "center",
+          "approximate_dimensions": "120x120",
+          "details": "Dark background, loading animation, rounded corners",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "card",
+          "name": "Image Upload Preview with Close",
+          "location": "center",
+          "approximate_dimensions": "120x120",
+          "details": "Image thumbnail, white close icon overlay",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Camera Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Gray camera icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Plus Icon",
+          "location": "bottom right",
+          "approximate_dimensions": "16x16",
+          "details": "Green plus icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Close Icon",
+          "location": "top right",
+          "approximate_dimensions": "16x16",
+          "details": "White close icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#CCCCCC",
+        "#000000",
+        "#008000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text elements present",
+      "primary_purpose": "To display different states of an image upload component",
+      "enterprise_os_potential": "Reusable in various file upload interfaces across different enterprise applications"
+    }
+  ]
+}

@@ -1,0 +1,3750 @@
+{
+  "generated_at": "2026-02-16T20:07:57.356Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 35,
+  "successful": 34,
+  "failed": 1,
+  "component_types": {
+    "icon": 28,
+    "card": 40,
+    "text": 12,
+    "heading": 5,
+    "divider": 9,
+    "topbar": 22,
+    "sidebar": 22,
+    "button": 50,
+    "input": 24,
+    "toggle": 1,
+    "checkbox": 3,
+    "list": 2,
+    "image": 11,
+    "color_palette": 1,
+    "menu": 3,
+    "search_bar": 11,
+    "avatar": 19,
+    "live_streaming_section": 1,
+    "top_streaming_section": 1,
+    "tabs": 11,
+    "badge": 14,
+    "grid": 7,
+    "breadcrumb": 2,
+    "tag": 7,
+    "video": 1,
+    "chat": 2,
+    "live_chat": 1,
+    "video_player": 2,
+    "leaderboard": 1,
+    "dropdown": 2,
+    "modal": 5,
+    "link": 2
+  },
+  "reuse_categories": {
+    "navigation": 68,
+    "data_display": 123,
+    "layout": 15,
+    "action": 57,
+    "input": 41,
+    "none": 1,
+    "feedback": 9,
+    "media": 3,
+    "overlay": 5
+  },
+  "layout_types": {
+    "centered": 8,
+    "grid": 4,
+    "split": 2,
+    "sidebar_content": 19,
+    "full_canvas": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "component_colours",
+      "screen_name": "Colour Palette",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Lightning icon",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "White icon on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Colour swatches",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Rectangular colour swatches with hex codes and colour names",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Colour names and hex codes",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Black text on white background, colour names and hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Colours",
+          "location": "top",
+          "approximate_dimensions": "large",
+          "details": "White text on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section dividers",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Thin grey lines separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#685CF0",
+        "#1F1D2B",
+        "#AFB7C0",
+        "#E60019",
+        "#242734",
+        "#3D5BF6",
+        "#4CD964",
+        "#FFFFFF",
+        "#8D9092",
+        "#C6C7C8",
+        "#AAAFBE",
+        "#D4D7DF"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes for headings and body text",
+      "primary_purpose": "Displaying colour palette for design system",
+      "enterprise_os_potential": "Reusable colour palette for branding and design consistency across enterprise applications"
+    },
+    {
+      "screen_slug": "component_icon",
+      "error": "Image too large - images can contain at most 33177600 pixels. but image contained 33548944",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "component_typograhpy",
+      "screen_name": "Typography Component Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Header Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Typography Heading",
+          "location": "top",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Black text, varying font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "sidebar",
+          "name": "Navigation Bar",
+          "location": "left",
+          "approximate_dimensions": "200px x variable height",
+          "details": "White background, black text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Action Button",
+          "location": "varies",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Form Input Field",
+          "location": "varies",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "Gray background, black text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Content Card",
+          "location": "varies",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "White background, shadow, border radius",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Colorful icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "toggle",
+          "name": "Toggle Switch",
+          "location": "varies",
+          "approximate_dimensions": "40px x 20px",
+          "details": "Gray background, blue toggle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Checkbox",
+          "location": "varies",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Gray background, checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1",
+        "#333333",
+        "#ffffff"
+      ],
+      "typography_notes": "Varied font sizes and styles, headings and body text",
+      "primary_purpose": "Showcasing UI components for typography",
+      "enterprise_os_potential": "Reusable components for various enterprise applications"
+    },
+    {
+      "screen_slug": "cover_detail_1",
+      "screen_name": "Live Streaming Mobile App UI Kit Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Beatrix logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "White 'B' on purple background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large white text 'Live Streaming Mobile App UI KIT'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Feature list",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Three bullet points with checkmarks, describing features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Screens count",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Black button with white text '50 Screens'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "UI Kit preview",
+          "location": "right",
+          "approximate_dimensions": "multiple images",
+          "details": "Screenshots of various screens from the UI Kit",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Free Google Font used, headings are large and bold",
+      "primary_purpose": "Promoting the Live Streaming Mobile App UI Kit",
+      "enterprise_os_potential": "Reusable for other UI kits or template promotions"
+    },
+    {
+      "screen_slug": "cover_detail_2",
+      "screen_name": "What You Will Get",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Pixel Perfect",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "white background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Component Based",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "white background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Global Style Guide",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "white background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Free Google Font",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "white background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Easy Customizable",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "white background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Organized Layer",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "white background, orange icon, black text, gray description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "icons in cards",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "orange background, white icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "white text on purple background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "description",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "gray text on purple background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A5CFA",
+        "#FFFFFF",
+        "#F7F7F7"
+      ],
+      "typography_notes": "Jakarta Sans font used",
+      "primary_purpose": "to showcase the features of a design product",
+      "enterprise_os_potential": "could be used as a template for product feature showcases"
+    },
+    {
+      "screen_slug": "cover_detail_3",
+      "screen_name": "Global Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Typography Card",
+          "location": "left",
+          "approximate_dimensions": "400x600",
+          "details": "White background, black and white text, dark header",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Colours Card",
+          "location": "right",
+          "approximate_dimensions": "400x600",
+          "details": "Dark header, color palette display",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Global Style Guide",
+          "location": "top",
+          "approximate_dimensions": "large text",
+          "details": "White text on purple background",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "top",
+          "approximate_dimensions": "smaller text",
+          "details": "White text on purple background",
+          "reusable": false,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Lightbulb Icon",
+          "location": "top right",
+          "approximate_dimensions": "small",
+          "details": "White icon on dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Card Divider",
+          "location": "inside cards",
+          "approximate_dimensions": "horizontal line",
+          "details": "Light gray",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "color_palette",
+          "name": "Color Palette",
+          "location": "right card",
+          "approximate_dimensions": "multiple colors",
+          "details": "Various colors displayed",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#685CF0",
+        "#1F1D2B",
+        "#AFB7C0",
+        "#E60019",
+        "#4CD964"
+      ],
+      "typography_notes": "Plus Jakarta Sans font used, various font weights and sizes",
+      "primary_purpose": "Displaying global style guide for typography and colors",
+      "enterprise_os_potential": "Reusable for design systems and style guides in enterprise applications"
+    },
+    {
+      "screen_slug": "cover_detail_4",
+      "screen_name": "Light & Dark Themes",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "center",
+          "approximate_dimensions": "Full screen",
+          "details": "Purple gradient background",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "Large text",
+          "details": "White text, 'Light & Dark Themes'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "top",
+          "approximate_dimensions": "Medium text",
+          "details": "White text, 'By using typography and styles you can change easily.'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Mobile Screen",
+          "location": "center",
+          "approximate_dimensions": "Mobile screen size",
+          "details": "Dark theme, contains menu, search bar, live streaming section, and top streaming section",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "menu",
+          "name": "Sidebar Menu",
+          "location": "left",
+          "approximate_dimensions": "Sidebar width",
+          "details": "Dark theme, contains menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "Wide search bar",
+          "details": "Contains search icon and placeholder text 'Search...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "Medium button",
+          "details": "Contains 'Go Live' text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "Small avatar",
+          "details": "Contains user image and dropdown icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "live_streaming_section",
+          "name": "Live Streaming Section",
+          "location": "center",
+          "approximate_dimensions": "Large section",
+          "details": "Contains live streaming video, title, and 'Live' badge",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "top_streaming_section",
+          "name": "Top Streaming Section",
+          "location": "bottom",
+          "approximate_dimensions": "Large section",
+          "details": "Contains top streaming videos, titles, and 'Live' badges",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "bottom",
+          "approximate_dimensions": "Medium tabs",
+          "details": "Contains 'All Categories', 'Gaming', 'Music', 'Esport', 'Podcast', and 'Chatting Room' tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "various",
+          "approximate_dimensions": "Small badge",
+          "details": "Red or orange background with 'Live' text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean, modern sans-serif font",
+      "primary_purpose": "To demonstrate light and dark themes",
+      "enterprise_os_potential": "Could be used as a template for a streaming or gaming platform"
+    },
+    {
+      "screen_slug": "cover_detail_5",
+      "screen_name": "Cover Detail 5",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Video Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Image with text overlay, live indicator, and view count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "right",
+          "approximate_dimensions": "100x30",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Verified Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Checkmark icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "top",
+          "approximate_dimensions": "50x20",
+          "details": "Red badge with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "bottom",
+          "approximate_dimensions": "100%",
+          "details": "Thin gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Displaying video content",
+      "enterprise_os_potential": "Reusable for video streaming platforms"
+    },
+    {
+      "screen_slug": "cover_detail_8",
+      "screen_name": "Dark Mode Gaming Dashboard",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background with navigation links and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Header Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Dark background with user profile and settings",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Stream Preview",
+          "location": "center",
+          "approximate_dimensions": "400x250",
+          "details": "Game preview with title, streamer, and view count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "right",
+          "approximate_dimensions": "100x30",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "bottom left",
+          "approximate_dimensions": "50x20",
+          "details": "Red badge with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "Full Width x 1",
+          "details": "Thin gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#6c5ce7"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Gaming dashboard for streamers",
+      "enterprise_os_potential": "Reusable for other gaming platforms"
+    },
+    {
+      "screen_slug": "cover_full_preview",
+      "screen_name": "Design Preview",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "screenshot",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "multiple screenshots of UI",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "location": "top",
+          "approximate_dimensions": "wide",
+          "details": "Design Preview, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "subtitle",
+          "location": "top",
+          "approximate_dimensions": "wide",
+          "details": "Light and dark mode design preview, smaller text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Thanks for Visiting",
+          "location": "bottom",
+          "approximate_dimensions": "200x50",
+          "details": "white button with blue text and emoji",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font",
+      "primary_purpose": "showcasing UI design",
+      "enterprise_os_potential": "template for design previews"
+    },
+    {
+      "screen_slug": "cover_hero_image",
+      "screen_name": "Hero Image Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains sign up and sign in buttons, purple background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px x full height",
+          "details": "Contains menu items, profile info, and other links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Hero Image Card",
+          "location": "center",
+          "approximate_dimensions": "800px x 400px",
+          "details": "Large image with text overlay, 'Valorant Champions Istanbul Opening'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "top right",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "top right",
+          "approximate_dimensions": "80px x 30px",
+          "details": "White button with purple text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icon",
+          "location": "left sidebar",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Three horizontal lines icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "topbar",
+          "approximate_dimensions": "200px x 30px",
+          "details": "Input field with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "topbar",
+          "approximate_dimensions": "30px x 30px",
+          "details": "Circular image representing the user",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Content Grid",
+          "location": "main content",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Grid displaying various content cards",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Content Cards",
+          "location": "content grid",
+          "approximate_dimensions": "variable",
+          "details": "Cards containing images, text, and other metadata",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "content cards",
+          "approximate_dimensions": "50px x 20px",
+          "details": "Red badge indicating live content",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font used throughout the interface",
+      "primary_purpose": "Displaying hero image and content grid for a streaming platform",
+      "enterprise_os_potential": "Reusable for other content platforms or applications requiring a hero image and grid layout"
+    },
+    {
+      "screen_slug": "cover_product_card",
+      "screen_name": "Product Card Cover",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Beatrix Logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "White 'B' on blue circle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Live Streaming Mobile App UI KIT",
+          "location": "center",
+          "approximate_dimensions": "Large text",
+          "details": "White text on blue background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Features List",
+          "location": "center",
+          "approximate_dimensions": "Medium text",
+          "details": "Orange checkmarks with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "50 Screens Button",
+          "location": "bottom",
+          "approximate_dimensions": "200x50",
+          "details": "Black button with white text and icons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Laptop Image",
+          "location": "right",
+          "approximate_dimensions": "Large image",
+          "details": "Laptop displaying UI kit screens",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Mobile Screens",
+          "location": "right",
+          "approximate_dimensions": "Multiple small images",
+          "details": "Various mobile screens displaying UI kit",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Free Google Font used",
+      "primary_purpose": "Promoting a UI kit for live streaming mobile app",
+      "enterprise_os_potential": "Reusable for marketing materials and product showcases"
+    },
+    {
+      "screen_slug": "design_area_category",
+      "screen_name": "Category Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Search bar, settings icon, notification icon, user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Text input with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Horizontal tabs with category names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Category Grid",
+          "location": "center",
+          "approximate_dimensions": "Full WidthxFull Height",
+          "details": "Grid of category cards with images and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Category Card",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Image with category name and viewer count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "100x30",
+          "details": "Rounded button with 'Go Live' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular user avatar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Bell icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Start Live Streaming Button",
+          "location": "bottom left",
+          "approximate_dimensions": "150x40",
+          "details": "Call-to-action button with 'Start Live Streaming' text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Category browsing and live streaming",
+      "enterprise_os_potential": "Reusable for content discovery and streaming platforms"
+    },
+    {
+      "screen_slug": "design_area_category_detail_clips",
+      "screen_name": "Category Detail Clips",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "Search bar, settings icon, user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "100%x300",
+          "details": "Valorant character image",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "100x20",
+          "details": "Back arrow, text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Clips, Videos, Events Tabs",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Three tabs with different states",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Clips Grid",
+          "location": "center",
+          "approximate_dimensions": "100%x500",
+          "details": "Grid of video clips with thumbnails, titles, and metadata",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Video Clip Card",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Video thumbnail, title, views, and username",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Verified Icon",
+          "location": "varies",
+          "approximate_dimensions": "16x16",
+          "details": "Small checkmark icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Load More Button",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Verified Badge",
+          "location": "varies",
+          "approximate_dimensions": "16x16",
+          "details": "Small checkmark icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#6C5CE7",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Displaying category details and clips",
+      "enterprise_os_potential": "Reusable layout for content discovery and management"
+    },
+    {
+      "screen_slug": "design_area_category_detail_events",
+      "screen_name": "Category Detail Events",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "Search bar, settings icon, notification icon, user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Category Header",
+          "location": "center",
+          "approximate_dimensions": "100%x300",
+          "details": "Background image, category name, description, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Content Tabs",
+          "location": "center",
+          "approximate_dimensions": "100%x40",
+          "details": "Live, Videos, Clips, Events tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Event Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Event image, title, time, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Discover More",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Rounded button with text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons used in the sidebar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "center",
+          "approximate_dimensions": "40x20",
+          "details": "Red badge with 'Live' text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Category Tags",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "Tags with text and icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#FF4655"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "Displaying category details and events",
+      "enterprise_os_potential": "Reusable for other categories and content types"
+    },
+    {
+      "screen_slug": "design_area_category_detail_live",
+      "screen_name": "Category Detail Live",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Search bar, settings icon, notification icon, user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Category Header",
+          "location": "center",
+          "approximate_dimensions": "100% x 300",
+          "details": "Background image, category name, description, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Content Tabs",
+          "location": "top",
+          "approximate_dimensions": "100% x 40",
+          "details": "Live, Videos, Clips, Events tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Live Streams Grid",
+          "location": "center",
+          "approximate_dimensions": "100% x auto",
+          "details": "3-column grid of live stream cards",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Live Stream Card",
+          "location": "center",
+          "approximate_dimensions": "250x150",
+          "details": "Stream thumbnail, live badge, viewer count, streamer name, game tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Load More Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Centered button with 'Load More' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "overlay",
+          "approximate_dimensions": "40x20",
+          "details": "Red badge with 'Live' text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Settings Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Gear icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Bell icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#FF4655"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Displaying live streams and related information for a specific category",
+      "enterprise_os_potential": "Reusable for other categories or content types, adaptable for different industries"
+    },
+    {
+      "screen_slug": "design_area_category_detail_videos",
+      "screen_name": "Category Detail Videos",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "Search bar, Go Live button, user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Back arrow, category name",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Valorant Live Now",
+          "location": "center",
+          "approximate_dimensions": "800x200",
+          "details": "Live stream thumbnails, streamer names, viewer counts",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See All",
+          "location": "right",
+          "approximate_dimensions": "60x30",
+          "details": "Text button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Streamer Avatars",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular images with streamer names",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Game Tags",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "FPS, Shooter, Action",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "100%x1",
+          "details": "Horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "top",
+          "approximate_dimensions": "100%x200",
+          "details": "Valorant game image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons in the sidebar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Displaying category details and live streams",
+      "enterprise_os_potential": "Reusable for other categories and content types"
+    },
+    {
+      "screen_slug": "design_area_category_gaming",
+      "screen_name": "Gaming Category Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Search bar, notification icon, user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Light background, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "All Categories, Gaming, Music, Esport, Podcast, Chatting Room",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Game Grid",
+          "location": "center",
+          "approximate_dimensions": "Full WidthxFull Height",
+          "details": "4 columns, game thumbnails with titles and view counts",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Game Card",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Game thumbnail, title, view count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "80x30",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Notification Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Bell icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Menu Divider",
+          "location": "left",
+          "approximate_dimensions": "Full Widthx1",
+          "details": "Thin line separating menu items",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#6C5CE7"
+      ],
+      "typography_notes": "Open Sans, font sizes vary",
+      "primary_purpose": "Display gaming content categories",
+      "enterprise_os_potential": "Reusable for other content categories"
+    },
+    {
+      "screen_slug": "design_area_detail_stream",
+      "screen_name": "Stream Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "Dark background, search bar, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "video",
+          "name": "Stream Video",
+          "location": "center",
+          "approximate_dimensions": "100%x400",
+          "details": "Video player with controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Stream Information",
+          "location": "center",
+          "approximate_dimensions": "100%x200",
+          "details": "Dark background, white text, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "FPS Tag",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "Light background, dark text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Gaming Tag",
+          "location": "center",
+          "approximate_dimensions": "60x20",
+          "details": "Light background, dark text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Shooter Tag",
+          "location": "center",
+          "approximate_dimensions": "60x20",
+          "details": "Light background, dark text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "center",
+          "approximate_dimensions": "100x30",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "chat",
+          "name": "Live Chat",
+          "location": "right",
+          "approximate_dimensions": "300x500",
+          "details": "Dark background, white text, input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom",
+          "approximate_dimensions": "100%x40",
+          "details": "Light background, dark text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Button",
+          "location": "bottom",
+          "approximate_dimensions": "40x40",
+          "details": "Blue background, white icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans, font sizes vary",
+      "primary_purpose": "Streaming video content",
+      "enterprise_os_potential": "Reusable for live streaming platforms"
+    },
+    {
+      "screen_slug": "design_area_detail_stream_gift",
+      "screen_name": "Stream Gift Detail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Dark background, white text, search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Video Player",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Dark background, video preview, controls",
+          "reusable": true,
+          "reuse_category": "media"
+        },
+        {
+          "type": "button",
+          "name": "Go Live",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "live_chat",
+          "name": "Live Chat",
+          "location": "right",
+          "approximate_dimensions": "300xFull Height",
+          "details": "Dark background, chat messages, input field",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input",
+          "location": "bottom right",
+          "approximate_dimensions": "250x40",
+          "details": "Text input, send button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "badge",
+          "name": "Balance Badge",
+          "location": "right",
+          "approximate_dimensions": "100x30",
+          "details": "Diamond icon, balance text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Gift Grid",
+          "location": "right",
+          "approximate_dimensions": "300x200",
+          "details": "Grid of gift icons, text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Gift Icons",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Various gift icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left",
+          "approximate_dimensions": "Full Width x 1",
+          "details": "Thin line, separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans, various font sizes",
+      "primary_purpose": "Displaying stream details and gifts",
+      "enterprise_os_potential": "Reusable for live streaming platforms"
+    },
+    {
+      "screen_slug": "design_area_detail_stream_leadborder",
+      "screen_name": "Stream Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x1080",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "1920x60",
+          "details": "Dark background, white text, search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "video_player",
+          "name": "Video Player",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Video preview, controls, title",
+          "reusable": true,
+          "reuse_category": "media"
+        },
+        {
+          "type": "button",
+          "name": "Go Live",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "leaderboard",
+          "name": "Leaderboard",
+          "location": "right",
+          "approximate_dimensions": "300x600",
+          "details": "List of users, points, rankings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Text input, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "menu",
+          "name": "Menu Items",
+          "location": "left",
+          "approximate_dimensions": "250x500",
+          "details": "List of menu items, icons, text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Verified Badge",
+          "location": "stream info",
+          "approximate_dimensions": "20x20",
+          "details": "Blue checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "various",
+          "approximate_dimensions": "20x20",
+          "details": "Different icons used throughout the screen",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Displaying stream details and leaderboard",
+      "enterprise_os_potential": "Reusable for various streaming platforms"
+    },
+    {
+      "screen_slug": "design_area_detail_stream_live_chat",
+      "screen_name": "Live Stream Detail with Chat",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Search bar, buttons, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "video_player",
+          "name": "Live Stream Video",
+          "location": "center",
+          "approximate_dimensions": "800x450",
+          "details": "Video player with controls, title, and tags",
+          "reusable": true,
+          "reuse_category": "media"
+        },
+        {
+          "type": "card",
+          "name": "Streamer Profile",
+          "location": "bottom left",
+          "approximate_dimensions": "200x100",
+          "details": "Streamer's avatar, name, and follower count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "bottom left",
+          "approximate_dimensions": "100x30",
+          "details": "Blue button with 'Following' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "chat",
+          "name": "Live Chat",
+          "location": "right",
+          "approximate_dimensions": "300x500",
+          "details": "Chat log with user messages and input field",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "input",
+          "name": "Chat Input Field",
+          "location": "bottom right",
+          "approximate_dimensions": "250x30",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Send Button",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "Paper airplane icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Follower Count",
+          "location": "bottom left",
+          "approximate_dimensions": "50x20",
+          "details": "Blue badge with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "To display a live stream with chat functionality",
+      "enterprise_os_potential": "Could be used as a template for live streaming platforms or community engagement features"
+    },
+    {
+      "screen_slug": "design_area_discover",
+      "screen_name": "Discover Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background with white text, icons, and dividers",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "White background with search bar, icons, and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "White background with magnifying glass icon and 'Miracle' placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "80x40",
+          "details": "Blue background with white text and icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with dropdown arrow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "dropdown",
+          "name": "Suggested Channels",
+          "location": "top",
+          "approximate_dimensions": "200x200",
+          "details": "White background with list of suggested channels and 'See All People' link",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "card",
+          "name": "Featured Stream",
+          "location": "center",
+          "approximate_dimensions": "800x400",
+          "details": "Dark background with Valorant Champions Istanbul Opening text and Riot Games logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "center",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "White background with 'All Categories', 'Gaming', 'Music', 'Esport', 'Podcast', and 'Chatting Room' tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Top Streaming Grid",
+          "location": "center",
+          "approximate_dimensions": "Full Width x 300",
+          "details": "Grid of stream thumbnails with live indicators, viewer counts, and streamer names",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Indicator",
+          "location": "varies",
+          "approximate_dimensions": "40x20",
+          "details": "Red background with 'Live' text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons used throughout the screen, including menu icons, category icons, and social media icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen with varying font sizes and weights",
+      "primary_purpose": "To display a discover page for a live streaming platform, showcasing featured streams, top streaming content, and navigation options",
+      "enterprise_os_potential": "This layout could be reused for other content discovery pages, such as video on demand or music streaming services, with modifications to the content and branding"
+    },
+    {
+      "screen_slug": "design_area_discover_before_login",
+      "screen_name": "Discover Page Before Login",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Contains menu items with icons, divider, and logout button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Contains search bar, sign up, and sign in buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input Field",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Rounded corners, placeholder text 'Search...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "top right",
+          "approximate_dimensions": "100x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "top right",
+          "approximate_dimensions": "100x40",
+          "details": "Gray background, blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Featured Stream Card",
+          "location": "center",
+          "approximate_dimensions": "80% x 300",
+          "details": "Contains image, title, and streamer information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Stream Preview Images",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Various stream preview images with different aspect ratios",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Filter Tabs",
+          "location": "center",
+          "approximate_dimensions": "80% x 40",
+          "details": "Contains multiple tabs for filtering content",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Stream Cards",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Multiple cards displaying stream information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "varies",
+          "approximate_dimensions": "50x20",
+          "details": "Red background, white text indicating live stream",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "Used in menu items, buttons, and cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#e74c3c"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are bold",
+      "primary_purpose": "Discover and explore live streams",
+      "enterprise_os_potential": "Can be reused as a template for content discovery in various industries"
+    },
+    {
+      "screen_slug": "design_area_discover_before_login_login",
+      "screen_name": "Login Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Login Modal",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Username Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, password masking",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Remember Me Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Gray border, white background, checked state",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in With Google Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Google logo, gray border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in With Discord Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Discord logo, gray border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Trouble Logging in? Text",
+          "location": "right",
+          "approximate_dimensions": "100x20",
+          "details": "Gray text, hyperlink style",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Don't have an account? Sign Up Text",
+          "location": "center",
+          "approximate_dimensions": "150x20",
+          "details": "Gray text, hyperlink style",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#cccccc"
+      ],
+      "typography_notes": "Open Sans font, various font sizes",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable login modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_discover_before_login_login_filled",
+      "screen_name": "Login Modal",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Login Modal",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Username Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background, white text, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background, password masking, border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Remember Me Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Blue checkmark, white background",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in With Google Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Google logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign in With Discord Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Discord logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Trouble Logging in? Link",
+          "location": "right",
+          "approximate_dimensions": "100x20",
+          "details": "Blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Sign Up Link",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "Blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#cccccc"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable login modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_following",
+      "screen_name": "Following Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, search bar, icons, profile avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light background, dark text, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "Profile Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, image of a person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top right",
+          "approximate_dimensions": "80x40",
+          "details": "Purple background, white text, 'Go Live'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Follower Cards",
+          "location": "center",
+          "approximate_dimensions": "1000x600",
+          "details": "Grid of cards with avatar, name, follower count, follow button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Follower Avatars",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, images of people",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Buttons",
+          "location": "center",
+          "approximate_dimensions": "80x30",
+          "details": "Outlined, 'Following' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Promotional Card",
+          "location": "bottom left",
+          "approximate_dimensions": "250x300",
+          "details": "Purple background, white text, 'Build Career With a Video'",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#7A5CFA"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Displaying followed users and their information",
+      "enterprise_os_potential": "Reusable as a user management or social media dashboard"
+    },
+    {
+      "screen_slug": "design_area_my_account",
+      "screen_name": "My Account",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Search bar, settings icon, notification icon, profile avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Profile Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "User Profile Card",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx200",
+          "details": "User name, follower count, social media links",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Content Navigation Tabs",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Broadcast, Clips, Videos, About tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Recently Streamed Card",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx300",
+          "details": "Grid of streamed videos with thumbnails, titles, and durations",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See All Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Text button with arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Streamed Categories Card",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx300",
+          "details": "Grid of categories with images and counts",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Build Career With a Video Card",
+          "location": "left",
+          "approximate_dimensions": "250x200",
+          "details": "Call to action card with image and text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Twitter and Instagram icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Follower Count Badge",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "8K followers badge",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans font used throughout the screen",
+      "primary_purpose": "User account management and profile showcase",
+      "enterprise_os_potential": "Reusable for user profile and account management in various applications"
+    },
+    {
+      "screen_slug": "design_area_my_account_edit_profile",
+      "screen_name": "Edit Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, menu items with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Search bar, buttons, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Profile Information Card",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Form fields for profile information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Nickname Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Text input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Username Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Text input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Blurb Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Text input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Bio Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx100",
+          "details": "Text area input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Mobile Phone Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Text input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Gender Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Select input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Date of Birth Input",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Date input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Save Changes Button",
+          "location": "bottom right",
+          "approximate_dimensions": "120x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Discard Button",
+          "location": "bottom right",
+          "approximate_dimensions": "80x40",
+          "details": "Gray button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Calendar Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Calendar icon in date input field",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#6c5ce7"
+      ],
+      "typography_notes": "Open sans font used throughout the screen",
+      "primary_purpose": "Editing user profile information",
+      "enterprise_os_potential": "Reusable for user profile management in various applications"
+    },
+    {
+      "screen_slug": "design_area_register",
+      "screen_name": "Registration Screen",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Registration Modal",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Username Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Date of Birth Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, calendar icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up With Google Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Google logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up With Discord Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Discord logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sign In Link",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "Blue text, underlined",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#cccccc"
+      ],
+      "typography_notes": "Open Sans, 14px, regular and bold weights",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable registration modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_register_filled",
+      "screen_name": "Registration Screen",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Registration Modal",
+          "location": "center",
+          "approximate_dimensions": "400x600",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "input",
+          "name": "Username Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Date of Birth Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, calendar icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray border, rounded corners, password masking",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up With Google Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Google logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up With Discord Button",
+          "location": "bottom",
+          "approximate_dimensions": "300x40",
+          "details": "White background, Discord logo, text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sign In Link",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "Blue text, underlined",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans font used throughout the modal",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable registration modal for various applications"
+    },
+    {
+      "screen_slug": "design_area_register_success",
+      "screen_name": "Registration Success Screen",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark gray background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Light gray background, search bar, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "modal",
+          "name": "Registration Success Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, blue and green accents, success icon",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Success Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Green checkmark",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "card",
+          "name": "Live Streaming Cards",
+          "location": "bottom",
+          "approximate_dimensions": "200x300",
+          "details": "Various images, text, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "top",
+          "approximate_dimensions": "100% x 300",
+          "details": "Gaming-themed image",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Gray background, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "menu",
+          "name": "Main Menu",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "List of menu items",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#333333",
+        "#FFFFFF",
+        "#007bff"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "To display a success message after user registration",
+      "enterprise_os_potential": "Can be reused in other registration flows"
+    },
+    {
+      "screen_slug": "design_area_user_detail",
+      "screen_name": "User Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60",
+          "details": "Dark background, search bar, profile picture, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Profile Picture",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, bordered",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "top",
+          "approximate_dimensions": "100x30",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Stream Previews",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Image, title, metadata",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Stream Thumbnails",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Gameplay screenshots",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Game Tags",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "FPS, Gaming, Shooter",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "100% x 1",
+          "details": "Gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Verified Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Checkmark",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Live Badge",
+          "location": "center",
+          "approximate_dimensions": "40x20",
+          "details": "Red background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#3498DB",
+        "#9B59B6"
+      ],
+      "typography_notes": "Open Sans, headings and body text",
+      "primary_purpose": "Display user profile and streaming information",
+      "enterprise_os_potential": "Reusable for user profile and content management"
+    },
+    {
+      "screen_slug": "design_area_your_videos_clips",
+      "screen_name": "Your Videos Clips",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Dark background, white text, search bar, buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "White background, dark text, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "80x30",
+          "details": "Blue background, white text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image, border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Video Tabs",
+          "location": "center",
+          "approximate_dimensions": "200x30",
+          "details": "White text, active tab highlighted",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Video Cards",
+          "location": "center",
+          "approximate_dimensions": "250x150",
+          "details": "Dark background, white text, video thumbnail, views, timestamp",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Video Thumbnails",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Video preview images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Verified Icon",
+          "location": "center",
+          "approximate_dimensions": "15x15",
+          "details": "Blue checkmark icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "dropdown",
+          "name": "Sort By Dropdown",
+          "location": "right",
+          "approximate_dimensions": "150x30",
+          "details": "White text, dropdown arrow",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#3498db"
+      ],
+      "typography_notes": "Open Sans font used throughout the interface",
+      "primary_purpose": "Display user's video clips",
+      "enterprise_os_potential": "Reusable for video content management systems"
+    },
+    {
+      "screen_slug": "design_area_your_videos_live",
+      "screen_name": "Your Videos Live",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Dark background, search bar, buttons, avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Light background, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Go Live Button",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Video Tabs",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Two tabs: Live, Clips",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Video Cards",
+          "location": "center",
+          "approximate_dimensions": "Grid of 4 cards",
+          "details": "Image thumbnails, text overlays, tags",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Video Tags",
+          "location": "center",
+          "approximate_dimensions": "Various",
+          "details": "FPS, Gaming, Shooter, etc.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "various",
+          "approximate_dimensions": "Various",
+          "details": "Icons for game names, etc.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left",
+          "approximate_dimensions": "Full Width x 1",
+          "details": "Thin line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Start Live Streaming Button",
+          "location": "bottom left",
+          "approximate_dimensions": "200x50",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#3498DB",
+        "#8E44AD"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Display user's videos, live streaming options",
+      "enterprise_os_potential": "Reusable for video content management, streaming platforms"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:40:07.851Z"
+}

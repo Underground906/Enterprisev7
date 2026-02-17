@@ -1,0 +1,2019 @@
+{
+  "generated_at": "2026-02-16T20:02:26.889Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 19,
+  "successful": 19,
+  "failed": 0,
+  "component_types": {
+    "topbar": 14,
+    "icon": 22,
+    "button": 30,
+    "footer": 9,
+    "input": 15,
+    "link": 1,
+    "image": 11,
+    "card": 21,
+    "statistic": 1,
+    "heading": 8,
+    "form": 1,
+    "divider": 2,
+    "accordion": 2,
+    "pricing_card": 4,
+    "testimonial": 1,
+    "faq": 1,
+    "grid": 2,
+    "checkbox": 2,
+    "text": 8,
+    "list": 3,
+    "chart": 3,
+    "logo": 2,
+    "progress": 1,
+    "avatar": 2,
+    "paragraph": 1,
+    "graph": 3,
+    "badge": 1
+  },
+  "reuse_categories": {
+    "navigation": 34,
+    "feedback": 2,
+    "action": 31,
+    "layout": 8,
+    "input": 20,
+    "data_display": 76
+  },
+  "layout_types": {
+    "centered": 11,
+    "split": 4,
+    "grid": 4
+  },
+  "screens": [
+    {
+      "screen_slug": "design_404_error",
+      "screen_name": "404 Error Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width, 60px height",
+          "details": "Contains logo, navigation links, login, and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "404 Error Icon",
+          "location": "center",
+          "approximate_dimensions": "large, 200x200",
+          "details": "Large 404 text with error label",
+          "reusable": false,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Go Back Home Button",
+          "location": "center",
+          "approximate_dimensions": "medium, 120x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 300px height",
+          "details": "Contains company information, newsletter subscription, and social media links",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "bottom left",
+          "approximate_dimensions": "200x40",
+          "details": "Text input for email address",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "80x40",
+          "details": "Purple button next to email input",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "various",
+          "details": "Links to company information, legal documents, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "small, 20x20",
+          "details": "Icons for Facebook, Instagram, and Twitter",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#7A0BC0",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display a 404 error page when a user navigates to a non-existent page",
+      "enterprise_os_potential": "Can be reused as a standard error page template across various enterprise applications"
+    },
+    {
+      "screen_slug": "design_about_us",
+      "screen_name": "About Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login, and sign-up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Hero Images",
+          "location": "center",
+          "approximate_dimensions": "3 images of varying sizes",
+          "details": "Showcasing office environments",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "4 cards in a grid",
+          "details": "Describing company features with icons and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "statistic",
+          "name": "Statistics",
+          "location": "center",
+          "approximate_dimensions": "3 numbers with descriptions",
+          "details": "Displaying company statistics",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Team Images",
+          "location": "center",
+          "approximate_dimensions": "4 images of team members",
+          "details": "Showcasing team members with names and titles",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call-to-Action Button",
+          "location": "center",
+          "approximate_dimensions": "1 button",
+          "details": "Encouraging users to 'Get All'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains company information, links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "small icons",
+          "details": "Links to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "1 input field",
+          "details": "For newsletter subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom",
+          "approximate_dimensions": "1 button",
+          "details": "Next to email input",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Uses a clean, modern sans-serif font",
+      "primary_purpose": "To inform visitors about the company and its values",
+      "enterprise_os_potential": "Reusable for company about pages or marketing landing pages"
+    },
+    {
+      "screen_slug": "design_careers",
+      "screen_name": "Careers Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login, and sign-up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "top right",
+          "approximate_dimensions": "80px x 30px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Hero Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "Large font, dark text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero Images",
+          "location": "center",
+          "approximate_dimensions": "variable width x height",
+          "details": "Three images showcasing office spaces",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "300px x 200px",
+          "details": "Contains icon, heading, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icons",
+          "location": "within feature cards",
+          "approximate_dimensions": "24px x 24px",
+          "details": "Simple line icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call-to-Action Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains company information, social media links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "footer",
+          "approximate_dimensions": "200px x 30px",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "footer",
+          "approximate_dimensions": "80px x 30px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To showcase company culture and job openings",
+      "enterprise_os_potential": "Reusable layout for company careers pages"
+    },
+    {
+      "screen_slug": "design_careers_details",
+      "screen_name": "Software Engineer Job Details",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, navigation links, and login/signup buttons. Purple color scheme.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Job Image",
+          "location": "center",
+          "approximate_dimensions": "400x250",
+          "details": "Image of a workspace with a desk, chair, and plants.",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Job Description Card",
+          "location": "left",
+          "approximate_dimensions": "500x600",
+          "details": "Contains job description, skills, job responsibilities, qualifications, and other benefits. White background with subtle shadow.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Apply for Position Form",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Contains input fields for name, email, and phone number, with a purple 'Apply Now' button.",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Apply Now Button",
+          "location": "right",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Purple button with white text.",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "varies",
+          "approximate_dimensions": "varies",
+          "details": "Thin gray lines separating sections.",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "footer",
+          "approximate_dimensions": "20x20",
+          "details": "Small icons linking to social media profiles.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "footer",
+          "approximate_dimensions": "200x40",
+          "details": "Input field for email subscription.",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "footer",
+          "approximate_dimensions": "80x40",
+          "details": "Purple button with white text.",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font used throughout the page.",
+      "primary_purpose": "To display job details and allow users to apply for the position.",
+      "enterprise_os_potential": "This layout could be reused for other job posting pages or career-related content."
+    },
+    {
+      "screen_slug": "design_faq",
+      "screen_name": "Frequently Asked Questions",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, navigation links, login, and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQ Accordion",
+          "location": "center",
+          "approximate_dimensions": "800px x variable height",
+          "details": "List of questions with expandable answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Call to Action Card",
+          "location": "center",
+          "approximate_dimensions": "800px x 300px",
+          "details": "Contains heading, text, and a call to action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Trial Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains company information, links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "200px x 40px",
+          "details": "Text input field for email subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom",
+          "approximate_dimensions": "100px x 40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Icons for Facebook, Twitter, and Instagram",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To provide answers to frequently asked questions about the service",
+      "enterprise_os_potential": "This layout could be reused for other informational or FAQ pages within an enterprise OS"
+    },
+    {
+      "screen_slug": "design_home",
+      "screen_name": "Design Home Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, and a login button. Purple and white color scheme.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Hero Call-to-Action",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Purple button with white text, inviting users to 'See for free'.",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "White cards with purple accents, containing icons, headings, and short descriptions.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plans",
+          "location": "center",
+          "approximate_dimensions": "250x400px",
+          "details": "Three pricing plans with different features and prices, highlighted with purple accents.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer Testimonials",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Quotes from satisfied customers, with images and names.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "faq",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Accordion-style FAQs with questions and answers.",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains copyright information, social media links, and contact details. Black background with white text.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20px",
+          "details": "Icons for social media platforms, colored white.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "varies",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Thin lines separating sections, colored light gray.",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Primary font is a sans-serif font, used in various sizes and weights. Headings are larger and bolder, while body text is smaller and lighter.",
+      "primary_purpose": "To showcase the features and benefits of the Align software, and to encourage users to sign up or learn more.",
+      "enterprise_os_potential": "This layout could be reused as a landing page or marketing page for other enterprise software products, with modifications to the content and imagery."
+    },
+    {
+      "screen_slug": "design_integrations",
+      "screen_name": "Integrations Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login, and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Page Title",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Large text 'Smart integrations at your fingertips'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Integrations Grid",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Displays various integration cards",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Integration Card",
+          "location": "within grid",
+          "approximate_dimensions": "250x150px",
+          "details": "Contains icon, text, and brief description of integration",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQ Accordion",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Expandable sections for FAQs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call to Action Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Purple button with white text 'Start Free Trial'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x auto",
+          "details": "Contains company information, links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "footer",
+          "approximate_dimensions": "200x40px",
+          "details": "Text input for email subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "footer",
+          "approximate_dimensions": "100x40px",
+          "details": "Purple button next to email input",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "footer",
+          "approximate_dimensions": "20x20px each",
+          "details": "Icons for social media platforms",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To showcase the various integrations available",
+      "enterprise_os_potential": "This layout could be reused for other marketing pages or product showcases"
+    },
+    {
+      "screen_slug": "design_sign_in",
+      "screen_name": "Sign In Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60px",
+          "details": "Contains logo, navigation links, and sign up/login buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Sign In Form",
+          "location": "center",
+          "approximate_dimensions": "400px x 400px",
+          "details": "Contains Google sign in button, email and password fields, remember me checkbox, and sign in button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Google Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "100% x 40px",
+          "details": "Contains Google logo and 'Sign In with Google' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Field",
+          "location": "center",
+          "approximate_dimensions": "100% x 40px",
+          "details": "Contains placeholder text 'Enter your Email'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Field",
+          "location": "center",
+          "approximate_dimensions": "100% x 40px",
+          "details": "Contains placeholder text 'Password' and password visibility toggle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Remember Me Checkbox",
+          "location": "center",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Contains 'Remember me' label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "100% x 40px",
+          "details": "Contains 'Sign in' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "100% x 300px",
+          "details": "Contains company information, legal links, contact details, and social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Subscribe Email Field",
+          "location": "bottom left",
+          "approximate_dimensions": "200px x 40px",
+          "details": "Contains placeholder text 'Enter your Email'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "100px x 40px",
+          "details": "Contains 'Subscribe' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Contains Twitter, Facebook, Instagram, and Pinterest icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#7A0BC0",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To allow users to sign in to their accounts",
+      "enterprise_os_potential": "This sign in page layout could be reused in various enterprise applications, such as CRM or project management tools, where secure user authentication is required"
+    },
+    {
+      "screen_slug": "design_sign_up",
+      "screen_name": "Sign Up Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, navigation links, login and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Sign Up Form",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "contains sign up with google button, name, email, password, confirm password fields, remember me checkbox, sign up button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up with Google",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "google icon, white text on blue background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Name Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "password input field with eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Confirm Password Field",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "password input field with eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Remember Me",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "checkbox with label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains company information, links, contact details, social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Subscribe Email",
+          "location": "bottom left",
+          "approximate_dimensions": "200x40",
+          "details": "text input field with placeholder text and subscribe button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe",
+          "location": "bottom left",
+          "approximate_dimensions": "80x40",
+          "details": "purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "twitter, facebook, instagram icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To allow users to sign up for the service",
+      "enterprise_os_potential": "This layout could be reused for other authentication pages or forms"
+    },
+    {
+      "screen_slug": "design_team",
+      "screen_name": "Design Team Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60px",
+          "details": "Contains logo, navigation links, and login/signup buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Page Title",
+          "location": "center",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Large font, 'Get to know amazing people'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Team Member Grid",
+          "location": "center",
+          "approximate_dimensions": "800px x 400px",
+          "details": "8 team member cards with images, names, and roles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Team Member Card",
+          "location": "center",
+          "approximate_dimensions": "200px x 250px",
+          "details": "Contains image, name, and role of team member",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Trial Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Purple background, white text, 'Start Free Trial'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "100% x 200px",
+          "details": "Contains company information, links, and contact details",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "bottom left",
+          "approximate_dimensions": "200px x 30px",
+          "details": "Text input field for email subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "80px x 30px",
+          "details": "Purple background, white text, 'Subscribe'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Icons for Facebook, Twitter, Instagram, and LinkedIn",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase the design team and promote the company's services",
+      "enterprise_os_potential": "This layout could be reused for other team or about pages in enterprise OS applications"
+    },
+    {
+      "screen_slug": "thumbnail_cover_images",
+      "screen_name": "Software Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation links, login, and sign-up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Hero Section",
+          "location": "center",
+          "approximate_dimensions": "80% of screen width x 70% of screen height",
+          "details": "Contains headline, subheading, call-to-action button, and background image",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Trial Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "bottom",
+          "approximate_dimensions": "various sizes",
+          "details": "Logos of various companies (Coinbase, Spotify, Slack, Dropbox, Webflow, Zoom)",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Followers Stats Card",
+          "location": "right",
+          "approximate_dimensions": "200px x 150px",
+          "details": "Contains bar chart and stats",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Business Growth Card",
+          "location": "right",
+          "approximate_dimensions": "200px x 150px",
+          "details": "Contains pie chart and stats",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Income & Expenses Card",
+          "location": "right",
+          "approximate_dimensions": "200px x 150px",
+          "details": "Contains line graph and stats",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font used throughout the design",
+      "primary_purpose": "To promote software and encourage sign-ups",
+      "enterprise_os_potential": "Could be reused as a landing page for various enterprise software solutions"
+    },
+    {
+      "screen_slug": "thumbnail_detail_image_1",
+      "screen_name": "SaaS Website Design",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Align logo",
+          "location": "top left",
+          "approximate_dimensions": "40x40",
+          "details": "Purple background with white 'A' icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "SaaS Website Design",
+          "location": "left",
+          "approximate_dimensions": "200x30",
+          "details": "White text, large font",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Feature list",
+          "location": "left",
+          "approximate_dimensions": "300x200",
+          "details": "White text, bullet points",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "SaaS Website Design Card",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "White background, shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "topbar",
+          "name": "Navigation menu",
+          "location": "top",
+          "approximate_dimensions": "800x50",
+          "details": "White background, black text, navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Trial",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Purple background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "chart",
+          "name": "Followers Stats",
+          "location": "right",
+          "approximate_dimensions": "200x150",
+          "details": "Bar chart, purple bars",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Income & Expenses",
+          "location": "right",
+          "approximate_dimensions": "200x150",
+          "details": "Line chart, purple line",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Trusted by companies",
+          "location": "bottom",
+          "approximate_dimensions": "400x50",
+          "details": "Logos of Coinbase, Spotify, Slack, Dropbox, Webflow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans font, headings are bold",
+      "primary_purpose": "Promoting SaaS website design services",
+      "enterprise_os_potential": "Reusable for other SaaS product promotions"
+    },
+    {
+      "screen_slug": "thumbnail_detail_image_2",
+      "screen_name": "SaaS Website Design Thumbnail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "SaaS Website Design Screenshots",
+          "location": "center",
+          "approximate_dimensions": "Multiple images of varying sizes",
+          "details": "Multiple screenshots of SaaS website design pages with varying layouts and content",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Align SaaS Website Design",
+          "location": "top left",
+          "approximate_dimensions": "200x50",
+          "details": "Title text 'Align' with a purple logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "SaaS Website Design",
+          "location": "top left",
+          "approximate_dimensions": "300x50",
+          "details": "Subtitle text 'SaaS Website Design' with a smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "17 Pages",
+          "location": "top left",
+          "approximate_dimensions": "100x50",
+          "details": "Text '17 Pages' with a circular icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Circular Icon",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "A circular icon with a colorful design",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "The design uses a clean sans-serif font with varying font sizes and weights",
+      "primary_purpose": "To showcase a SaaS website design template",
+      "enterprise_os_potential": "This layout could be reused for showcasing other design templates or digital products"
+    },
+    {
+      "screen_slug": "thumbnail_detail_image_3",
+      "screen_name": "Software Sales Dashboard",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, and sign in/sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Hero Section",
+          "location": "center",
+          "approximate_dimensions": "large rectangular area",
+          "details": "Features headline, subheading, call-to-action button, and statistics",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Trial",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "bottom",
+          "approximate_dimensions": "various sizes",
+          "details": "Logos of companies like Coinbase, Spotify, Slack, Dropbox, Webflow, and Zoom",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Features Section",
+          "location": "center",
+          "approximate_dimensions": "large rectangular area",
+          "details": "Describes the features of the software with images and text",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Feature Images",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Images illustrating the features of the software",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plans",
+          "location": "right",
+          "approximate_dimensions": "300x400px",
+          "details": "Displays different pricing plans with features and prices",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Purchase Now",
+          "location": "right",
+          "approximate_dimensions": "150x40px",
+          "details": "Button to purchase a pricing plan",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#f7f7f7"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or a similar font",
+      "primary_purpose": "To showcase the features and benefits of the software",
+      "enterprise_os_potential": "Could be reused as a template for other software sales dashboards"
+    },
+    {
+      "screen_slug": "thumbnail_detail_image_4",
+      "screen_name": "Marketing Dashboard UI Kit",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Hero Card",
+          "location": "center",
+          "approximate_dimensions": "large rectangular card",
+          "details": "Contains headline, subtext, call-to-action button, and statistics",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call-to-Action Button",
+          "location": "center",
+          "approximate_dimensions": "120x40px",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "bottom",
+          "approximate_dimensions": "various sizes",
+          "details": "Logos of various companies",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Followers Stats Chart",
+          "location": "right",
+          "approximate_dimensions": "200x150px",
+          "details": "Bar chart displaying follower statistics",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "progress",
+          "name": "Business Growth Progress",
+          "location": "right",
+          "approximate_dimensions": "100x100px",
+          "details": "Circular progress indicator showing 85% growth",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plan Cards",
+          "location": "center",
+          "approximate_dimensions": "three cards of equal size",
+          "details": "Cards displaying different pricing plans with features and prices",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Team Member Avatars",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Images of team members with names and titles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Article Images",
+          "location": "bottom",
+          "approximate_dimensions": "various sizes",
+          "details": "Images accompanying article summaries",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#f7f7f7"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are bold and larger",
+      "primary_purpose": "Marketing dashboard for a software company",
+      "enterprise_os_potential": "Reusable for various enterprise software marketing pages"
+    },
+    {
+      "screen_slug": "thumbnail_detail_image_5",
+      "screen_name": "Product Features Overview",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "250x200",
+          "details": "Dark background with rounded corners, purple icon, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Purple icon on a darker purple circle",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Feature Title",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Feature Description",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, regular font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Title",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#7A288A"
+      ],
+      "typography_notes": "White text on dark background, bold font for titles",
+      "primary_purpose": "To showcase the features of a product or service",
+      "enterprise_os_potential": "This layout could be reused for product or service feature showcases in various enterprise applications"
+    },
+    {
+      "screen_slug": "thumbnail_detail_image_6",
+      "screen_name": "Software Marketing Template",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Marketing Card",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "white background, purple accents, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "product screenshot",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "black text, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "paragraph",
+          "name": "Description",
+          "location": "top",
+          "approximate_dimensions": "200x100",
+          "details": "black text, regular font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call-to-Action",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "company logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "graph",
+          "name": "Chart",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "line graph, purple line",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plan",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans, bold and regular font weights",
+      "primary_purpose": "Marketing software features",
+      "enterprise_os_potential": "Reusable for various software marketing campaigns"
+    },
+    {
+      "screen_slug": "thumbnail_full_preview",
+      "screen_name": "SaaS Website Design Preview",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Align logo",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Purple icon with white 'A' shape",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "SaaS Website Design",
+          "location": "top",
+          "approximate_dimensions": "large text",
+          "details": "White text on dark background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Features list",
+          "location": "top",
+          "approximate_dimensions": "medium text",
+          "details": "White text with purple bullets",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Template previews",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Screenshots of various website templates",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Pricing plan cards",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Purple and white cards with text and icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View plans button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Client avatars",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular images of people",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature icons",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "Purple icons representing various features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section headings",
+          "location": "center",
+          "approximate_dimensions": "large text",
+          "details": "Black text on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Section descriptions",
+          "location": "center",
+          "approximate_dimensions": "medium text",
+          "details": "Black text on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Company images",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Images of offices and people",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Feature badges",
+          "location": "center",
+          "approximate_dimensions": "small text",
+          "details": "Purple badges with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout the design",
+      "primary_purpose": "Showcasing a SaaS website design template",
+      "enterprise_os_potential": "Reusable components for enterprise OS design, such as dashboard layouts and feature cards"
+    },
+    {
+      "screen_slug": "thumbnail_thumbnail",
+      "screen_name": "SaaS Website Design Thumbnail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Align logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Purple background with white 'A' icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Align",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "White text next to the logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "SaaS Website Design",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Features list",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "List of features with checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Laptop image",
+          "location": "right",
+          "approximate_dimensions": "large",
+          "details": "Image of a laptop displaying a website",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Website screenshot",
+          "location": "inside laptop image",
+          "approximate_dimensions": "variable",
+          "details": "Screenshot of a website with various elements like graphs and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Free Trial",
+          "location": "inside website screenshot",
+          "approximate_dimensions": "variable",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Three-dot menu icon",
+          "location": "inside card",
+          "approximate_dimensions": "small",
+          "details": "Three vertical dots",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "graph",
+          "name": "Business Growth graph",
+          "location": "inside card",
+          "approximate_dimensions": "small",
+          "details": "Pie chart with 85% value",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "graph",
+          "name": "Income & Expenses graph",
+          "location": "inside card",
+          "approximate_dimensions": "small",
+          "details": "Line graph",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Client logos",
+          "location": "inside card",
+          "approximate_dimensions": "variable",
+          "details": "Logos of various companies like Coinbase, Spotify, Slack, Dropbox, Webflow, Zoom",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "The design uses a clean sans-serif font, likely Open Sans or a similar font. The font sizes vary, with headings being larger and body text being smaller.",
+      "primary_purpose": "To showcase a SaaS website design template",
+      "enterprise_os_potential": "This design could be reused for other SaaS products or marketing materials, potentially with different color schemes and branding."
+    }
+  ]
+}

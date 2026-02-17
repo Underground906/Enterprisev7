@@ -1,0 +1,3302 @@
+{
+  "generated_at": "2026-02-16T18:24:57.328Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 30,
+  "successful": 30,
+  "failed": 0,
+  "component_types": {
+    "topbar": 24,
+    "heading": 14,
+    "text": 31,
+    "button": 44,
+    "icon": 29,
+    "card": 24,
+    "chart": 1,
+    "table": 4,
+    "pricing_card": 6,
+    "avatar": 3,
+    "tag": 3,
+    "grid": 1,
+    "image": 6,
+    "label": 1,
+    "input": 11,
+    "checkbox": 2,
+    "radio": 1,
+    "toggle": 1,
+    "header": 1,
+    "divider": 11,
+    "footer": 15,
+    "sidebar": 3,
+    "badge": 1,
+    "link": 20,
+    "breadcrumb": 4,
+    "list": 1,
+    "form": 1,
+    "logo": 3,
+    "select": 3,
+    "testimonial": 2,
+    "search_bar": 2,
+    "accordion": 4,
+    "dropdown": 1,
+    "tabs": 1,
+    "color_swatch": 1
+  },
+  "reuse_categories": {
+    "navigation": 60,
+    "data_display": 118,
+    "action": 62,
+    "feedback": 1,
+    "layout": 17,
+    "input": 22
+  },
+  "layout_types": {
+    "centered": 24,
+    "grid": 1,
+    "sidebar_content": 5
+  },
+  "screens": [
+    {
+      "screen_slug": "components_button",
+      "screen_name": "Button Component Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Blue background, white text, logo on the left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Button Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Smaller gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Primary Button",
+          "location": "center",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Secondary Button",
+          "location": "center",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "White background, blue text, rounded corners, border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Loading Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "White circular icon on blue background",
+          "reusable": true,
+          "reuse_category": "feedback"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font, varying font sizes for headings and text",
+      "primary_purpose": "To showcase different states and styles of buttons",
+      "enterprise_os_potential": "Reusable in various enterprise applications for consistent button styling"
+    },
+    {
+      "screen_slug": "components_card",
+      "screen_name": "Components Card",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Blue background, white text, CRM - Website Template UI Kit",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "White background, shadow, various content like charts, tables, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Line Chart",
+          "location": "inside cards",
+          "approximate_dimensions": "various sizes",
+          "details": "Colorful lines, grid background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Data Table",
+          "location": "inside cards",
+          "approximate_dimensions": "various sizes",
+          "details": "Simple table with headers and rows",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call to Action Button",
+          "location": "inside cards",
+          "approximate_dimensions": "various sizes",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Card",
+          "location": "center",
+          "approximate_dimensions": "300x400px",
+          "details": "White background, shadow, pricing information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Star Icon",
+          "location": "inside cards",
+          "approximate_dimensions": "16x16px",
+          "details": "Orange star icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Customer Avatar",
+          "location": "inside cards",
+          "approximate_dimensions": "40x40px",
+          "details": "Circular avatar with image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Status Tag",
+          "location": "inside cards",
+          "approximate_dimensions": "various sizes",
+          "details": "Colorful tags with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#f7f7f7"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "Showcasing various UI components",
+      "enterprise_os_potential": "Reusable components for enterprise OS design"
+    },
+    {
+      "screen_slug": "components_company_logo",
+      "screen_name": "Company Logo",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Blue background, white text, Tendly logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Company Logo Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Gray text, smaller font size",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Company Logo Grid",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Grid of company logos, dashed blue border",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Company Logos",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Various company logos in different styles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Footer Text",
+          "location": "bottom right",
+          "approximate_dimensions": "variable width x 15px",
+          "details": "Small gray text, copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#808080"
+      ],
+      "typography_notes": "Open sans font used throughout, varying font sizes and weights",
+      "primary_purpose": "Displaying company logos in a grid layout",
+      "enterprise_os_potential": "Reusable for displaying client or partner logos in an enterprise application"
+    },
+    {
+      "screen_slug": "components_forms",
+      "screen_name": "Forms",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "blue background, white text, logo on the left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "label",
+          "name": "Section Title",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "large font, black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Basic Input Field",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "gray border, white background, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "gray border, white background, flag icon, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Checkbox Group",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "blue checkmark, gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Radio Button Group",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "blue fill, gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "toggle",
+          "name": "Toggle Switch",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "blue toggle, gray background",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "large font for titles, regular font for body text",
+      "primary_purpose": "demonstrating form components",
+      "enterprise_os_potential": "reusable form components for various applications"
+    },
+    {
+      "screen_slug": "components_header_footer",
+      "screen_name": "Header and Footer Components",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Tendly Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 80px",
+          "details": "blue background, white text, logo on left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "header",
+          "name": "Header Section",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "large black text, smaller gray text below",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "light gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Tendly Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x variable height",
+          "details": "black text, copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Tendly Logo",
+          "location": "left",
+          "approximate_dimensions": "24x24",
+          "details": "white icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom right",
+          "approximate_dimensions": "variable width x 16px",
+          "details": "gray text, small font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#cccccc"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font used throughout",
+      "primary_purpose": "Demonstrating header and footer components",
+      "enterprise_os_potential": "Reusable in CRM or website template UI kits"
+    },
+    {
+      "screen_slug": "components_icons",
+      "screen_name": "Icons Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Blue background with white text and logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Icons Heading",
+          "location": "top",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Large black text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "top",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Smaller gray text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "24x24px",
+          "details": "Black icons on white background, various designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Footer Text",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Small gray text with copyright information",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#000000",
+        "#ffffff",
+        "#808080"
+      ],
+      "typography_notes": "Uses a sans-serif font, varying sizes for headings and body text",
+      "primary_purpose": "Displaying a collection of icons for design use",
+      "enterprise_os_potential": "Reusable for any application requiring a comprehensive icon set"
+    },
+    {
+      "screen_slug": "components_label",
+      "screen_name": "Components Label Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Notification Bell Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "White bell icon on blue background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Light Mode Text",
+          "location": "top",
+          "approximate_dimensions": "variable width x 24",
+          "details": "Black text next to notification bell icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Lock Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "White lock icon on blue background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Dark Mode Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x 24",
+          "details": "Black text next to lock icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Label Icon",
+          "location": "bottom",
+          "approximate_dimensions": "24x24",
+          "details": "White label icon on blue background with sparkles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Label Text",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 24",
+          "details": "Black text next to label icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2196F3",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Black text used for mode labels",
+      "primary_purpose": "Demonstrating different UI modes and labeling",
+      "enterprise_os_potential": "Reusable for settings or preferences pages"
+    },
+    {
+      "screen_slug": "components_logo_integration",
+      "screen_name": "Logo Integration",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Blue background, white text, logo on the left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Logo Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Smaller gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Logo Icons",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "Multiple logos of different companies and services",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Footer Text",
+          "location": "bottom left",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Black text, 'Tendly - Styleguide System'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom right",
+          "approximate_dimensions": "variable width x auto",
+          "details": "Gray text, ' 2024 Unnixel. All rights reserved'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000",
+        "#808080"
+      ],
+      "typography_notes": "Heading uses a large sans-serif font, description text uses a smaller sans-serif font",
+      "primary_purpose": "Showcasing logo integration and style guide",
+      "enterprise_os_potential": "Reusable for branding and style guide pages in enterprise OS applications"
+    },
+    {
+      "screen_slug": "components_native",
+      "screen_name": "Native Components",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Blue background, white text, logo on left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "top right",
+          "approximate_dimensions": "80x30px",
+          "details": "White text on transparent background, border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Start for Free Button",
+          "location": "top right",
+          "approximate_dimensions": "100x30px",
+          "details": "White text on blue background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Hero Card",
+          "location": "center",
+          "approximate_dimensions": "600x250px",
+          "details": "Blue background, white text, two buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "120x40px",
+          "details": "White text on blue background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "center",
+          "approximate_dimensions": "120x40px",
+          "details": "Blue text on white background, border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "White background, black text, links, social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20px",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Showcasing native components for a CRM website",
+      "enterprise_os_potential": "Reusable components for a CRM or business application"
+    },
+    {
+      "screen_slug": "full_pages_about_us",
+      "screen_name": "About Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 64px height",
+          "details": "Contains logo, navigation links, login and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Careers At Tendy Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Image of people working together",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Company Stats",
+          "location": "center",
+          "approximate_dimensions": "300x150",
+          "details": "Displays company statistics with numbers and icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Logos of companies integrated with Tendy",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Team Member Cards",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "Displays team member photos, names, and roles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "White button with blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Contains links to features, solutions, resources, and about sections",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "variable",
+          "details": "Icons linking to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are bold and larger",
+      "primary_purpose": "To provide information about the company Tendy, its values, and team",
+      "enterprise_os_potential": "This layout could be reused for other company about pages or informational sections within an enterprise OS"
+    },
+    {
+      "screen_slug": "full_pages_blog",
+      "screen_name": "Tendly Blog Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, navigation menu, login button, and 'Start for Free' button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Categories Sidebar",
+          "location": "left",
+          "approximate_dimensions": "200px width, variable height",
+          "details": "Contains list of categories with text labels",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Blog Post Card",
+          "location": "center",
+          "approximate_dimensions": "variable, repeated 4 times",
+          "details": "Contains image, category label, date, title, and 'Read More' button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Read More Button",
+          "location": "within card",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "Text button with arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Blog Post Image",
+          "location": "within card",
+          "approximate_dimensions": "variable",
+          "details": "Abstract blue and white design",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Category Badge",
+          "location": "within card",
+          "approximate_dimensions": "small, variable width",
+          "details": "Text label with background color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "footer",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Thin line separating content",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Page Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Contains copyright information, social media links, and navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "footer",
+          "approximate_dimensions": "small, variable",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "footer",
+          "approximate_dimensions": "variable",
+          "details": "Text links to various pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150px width, 40px height",
+          "details": "Prominent call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "center",
+          "approximate_dimensions": "120px width, 40px height",
+          "details": "Secondary call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f",
+        "#e74c3c"
+      ],
+      "typography_notes": "Open Sans font used throughout, with varying sizes and weights",
+      "primary_purpose": "Displaying blog posts and categories",
+      "enterprise_os_potential": "Reusable layout for documentation or knowledge base sections"
+    },
+    {
+      "screen_slug": "full_pages_blog_detail",
+      "screen_name": "Blog Detail Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, navigation links, login and signup buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "displays 'Engineering'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "displays 'Introducing Tendyly Automations: The Engine for your GTM team'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "blue abstract image",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "email input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "right",
+          "approximate_dimensions": "small",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "right",
+          "approximate_dimensions": "small",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "horizontal divider",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Call to Action Card",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "blue card with white text and buttons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "white button with blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains copyright information, social media links, and navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "uses a clean sans-serif font",
+      "primary_purpose": "to display a blog post",
+      "enterprise_os_potential": "could be reused as a template for other blog posts"
+    },
+    {
+      "screen_slug": "full_pages_career",
+      "screen_name": "Careers Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, login, and start for free button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Hero Heading",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Large font, bold text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "Photo of people working together",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Benefits Card",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Contains icon, heading, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Jobs List",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Contains job title, job type, and arrow icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains links, social media icons, and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "varies",
+          "details": "Various links to features, solutions, resources, and about pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To showcase the company's careers page and job openings",
+      "enterprise_os_potential": "This layout could be reused for other company pages such as about us or contact us"
+    },
+    {
+      "screen_slug": "full_pages_contact_us",
+      "screen_name": "Contact Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, navigation links, login and signup buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Contact Us Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Large font heading 'We're here to help'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Contact Form",
+          "location": "center",
+          "approximate_dimensions": "400px x 300px",
+          "details": "Contains input fields for first name, last name, email, and message",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Message Button",
+          "location": "center",
+          "approximate_dimensions": "200px x 40px",
+          "details": "Blue button with white text 'Send Message'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "logo",
+          "name": "Tendly Logo",
+          "location": "top left",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20px x 20px each",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Small gray text ' 2024 Tendly. All rights reserved.'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "CRM Promotion Card",
+          "location": "center",
+          "approximate_dimensions": "800px x 200px",
+          "details": "Blue card with white text 'All-in-one CRM, One Tool for All Your Relationships'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "White button with blue text 'Get Started'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Transparent button with white text 'Talk to Sales'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Links to features, solutions, resources, and about pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To provide a contact form for users to reach out to the company",
+      "enterprise_os_potential": "This layout could be reused for other contact or support pages within an enterprise OS"
+    },
+    {
+      "screen_slug": "full_pages_customer_stories",
+      "screen_name": "Customer Stories",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, navigation links, login, and start for free button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Displays 'Case Studies'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Customers Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Large font, 'Customers'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Customers Description",
+          "location": "center",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Describes Tendy's customer base",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "logo",
+          "name": "Customer Logos",
+          "location": "center",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Displays logos of companies like Medium, Square, Retool, Dropbox, Linear",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "select",
+          "name": "Region Filter",
+          "location": "left",
+          "approximate_dimensions": "150px width, 30px height",
+          "details": "Dropdown for selecting region",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Industry Filter",
+          "location": "left",
+          "approximate_dimensions": "150px width, 30px height",
+          "details": "Dropdown for selecting industry",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Plan Filter",
+          "location": "left",
+          "approximate_dimensions": "150px width, 30px height",
+          "details": "Dropdown for selecting plan",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Case Study Cards",
+          "location": "center",
+          "approximate_dimensions": "300px width, 200px height",
+          "details": "Displays case studies with images, headings, and descriptions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Read Case Study Button",
+          "location": "bottom",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "Calls to action to read more case studies",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer Testimonials",
+          "location": "center",
+          "approximate_dimensions": "variable width, 100px height",
+          "details": "Quotes from customers with images and names",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See Customer Reviews Button",
+          "location": "center",
+          "approximate_dimensions": "150px width, 30px height",
+          "details": "Calls to action to see more customer reviews",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "CRM Promotion Card",
+          "location": "center",
+          "approximate_dimensions": "full width, 150px height",
+          "details": "Promotes Tendy's CRM with heading, description, and call to action buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "right",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "Calls to action to get started with Tendy",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "right",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "Calls to action to talk to sales",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 100px height",
+          "details": "Contains links to features, solutions, resources, about, and social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To showcase Tendy's customer stories and promote their CRM",
+      "enterprise_os_potential": "Could be reused as a template for other customer-facing pages or as a component in a larger enterprise OS"
+    },
+    {
+      "screen_slug": "full_pages_faq",
+      "screen_name": "Frequently Asked Questions",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 50px",
+          "details": "Contains logo, navigation menu, login and start for free buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "FAQ Search Bar",
+          "location": "center",
+          "approximate_dimensions": "400px x 30px",
+          "details": "Contains search input and magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "sidebar",
+          "name": "Categories Sidebar",
+          "location": "left",
+          "approximate_dimensions": "200px x full height",
+          "details": "Contains list of categories with text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "accordion",
+          "name": "FAQ Accordion",
+          "location": "center",
+          "approximate_dimensions": "600px x variable height",
+          "details": "Contains list of FAQs with expand/collapse functionality",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Call to Action Card",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains blue background, heading, text and two buttons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 100px",
+          "details": "Contains copyright text, social media links and navigation menu",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "bottom",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Contains white text on blue background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "bottom",
+          "approximate_dimensions": "100px x 30px",
+          "details": "Contains blue text on white background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Contains LinkedIn, Twitter and Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To provide answers to frequently asked questions",
+      "enterprise_os_potential": "Can be reused as a knowledge base or support page"
+    },
+    {
+      "screen_slug": "full_pages_features",
+      "screen_name": "Features Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation menu, login, and sign-up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start for Free",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Green button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "White button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Contact Management Card",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Contains contact information and actions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Linear, Medium, Square, Dropbox Icons",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons representing integrations",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Kristin Watson Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Contacts Table",
+          "location": "center",
+          "approximate_dimensions": "800x200",
+          "details": "Table displaying contact information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Horizontal line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "800x200",
+          "details": "Accordion containing FAQs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains links to features, solutions, resources, and about",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Icons linking to social media profiles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#f1c40f"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase the features of the Tendly platform",
+      "enterprise_os_potential": "This layout could be reused for other enterprise software platforms"
+    },
+    {
+      "screen_slug": "full_pages_forgot_password",
+      "screen_name": "Forgot Password Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Password Reset Card",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Logo Icon",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Blue circle with white logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Reset Password Heading",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "Black text, large font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Instructional Text",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray text, smaller font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White background, gray border, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Reset Password Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Alternative Method Text",
+          "location": "bottom",
+          "approximate_dimensions": "200x20",
+          "details": "Gray text, smaller font, blue link",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Try Another Method Link",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "Blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "Small gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Privacy Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Small gray text, lock icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Terms Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Small gray text, document icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Get Help Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Small gray text, question mark icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Password recovery",
+      "enterprise_os_potential": "Reusable for various authentication flows"
+    },
+    {
+      "screen_slug": "full_pages_homepage_v1",
+      "screen_name": "Tendly Homepage",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100% x 60px",
+          "details": "Contains logo, navigation links, and call-to-action buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start for Free",
+          "location": "top",
+          "approximate_dimensions": "100px x 40px",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Unlock Growth Potential of Customer Experiences",
+          "location": "center",
+          "approximate_dimensions": "80% x auto",
+          "details": "Large heading with subtext",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Dashboard Preview",
+          "location": "center",
+          "approximate_dimensions": "80% x auto",
+          "details": "Contains various charts and statistics",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Company Logos",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Logos of various companies",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "80% x 1px",
+          "details": "Thin gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "80% x auto",
+          "details": "Contains icons, headings, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plans",
+          "location": "center",
+          "approximate_dimensions": "80% x auto",
+          "details": "Contains pricing information and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer Testimonials",
+          "location": "center",
+          "approximate_dimensions": "80% x auto",
+          "details": "Contains customer quotes and images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "100% x auto",
+          "details": "Contains links, social media icons, and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To showcase the features and benefits of Tendly CRM",
+      "enterprise_os_potential": "Could be reused as a template for other CRM or business software landing pages"
+    },
+    {
+      "screen_slug": "full_pages_homepage_v2",
+      "screen_name": "Tendly Homepage",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, navigation links, login and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start for Free",
+          "location": "top",
+          "approximate_dimensions": "120x40",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales",
+          "location": "top",
+          "approximate_dimensions": "120x40",
+          "details": "white button with blue text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Dashboard Preview",
+          "location": "center",
+          "approximate_dimensions": "800x400",
+          "details": "contains charts, graphs, and other dashboard elements",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Tendly Logo",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "blue logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "center",
+          "approximate_dimensions": "200x20",
+          "details": "contains navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "table",
+          "name": "Contact Management Table",
+          "location": "center",
+          "approximate_dimensions": "600x200",
+          "details": "contains contact information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Plan",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "contains pricing information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "Customer Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "contains customer image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Tag",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "contains text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase Tendly's features and pricing",
+      "enterprise_os_potential": "Could be reused as a template for other SaaS products"
+    },
+    {
+      "screen_slug": "full_pages_integrations",
+      "screen_name": "Integrations Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, navigation menu, login button, and 'Start for Free' button",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "sidebar",
+          "name": "Categories Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250px width, full height",
+          "details": "Contains list of categories with links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Integration Cards",
+          "location": "center",
+          "approximate_dimensions": "variable, grid layout",
+          "details": "Displays integration logos, names, and descriptions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call to Action Buttons",
+          "location": "center, bottom",
+          "approximate_dimensions": "variable",
+          "details": "Contains 'Start for Free' and 'Talk to Sales' buttons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "center",
+          "approximate_dimensions": "200px width",
+          "details": "Allows users to search for integrations",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Sort Dropdown",
+          "location": "center",
+          "approximate_dimensions": "150px width",
+          "details": "Allows users to sort integrations by latest updated",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains links to features, solutions, resources, and about sections",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20px width, 20px height",
+          "details": "Links to LinkedIn, Twitter, and Facebook",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To showcase available integrations and encourage users to sign up or contact sales",
+      "enterprise_os_potential": "This layout could be reused for other product pages or feature showcases within an enterprise OS"
+    },
+    {
+      "screen_slug": "full_pages_pricing",
+      "screen_name": "Pricing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login and signup buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Pricing Plan Tabs",
+          "location": "center",
+          "approximate_dimensions": "300px x 40px",
+          "details": "Monthly and Annual tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Standard Plan Card",
+          "location": "left",
+          "approximate_dimensions": "250px x 350px",
+          "details": "Contains plan details, price and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pro Plan Card",
+          "location": "center",
+          "approximate_dimensions": "250px x 350px",
+          "details": "Contains plan details, price and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Custom Plan Card",
+          "location": "right",
+          "approximate_dimensions": "250px x 350px",
+          "details": "Contains plan details and call-to-action button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Comparison Table",
+          "location": "center",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Compares features across different plans",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Contains questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Call-to-action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains links to various resources and social media",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20px x 20px",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase pricing plans and encourage signups",
+      "enterprise_os_potential": "Reusable for various SaaS applications"
+    },
+    {
+      "screen_slug": "full_pages_privacy_policy",
+      "screen_name": "Privacy Policy Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Contains logo, navigation menu, login and signup buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "none",
+          "approximate_dimensions": "not visible",
+          "details": "Not visible in the screenshot",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Privacy Policy Heading",
+          "location": "center",
+          "approximate_dimensions": "large text",
+          "details": "Large font, bold, centered",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Privacy Policy Content",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "Multiple paragraphs of text, headings, and lists",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "here link",
+          "location": "within text",
+          "approximate_dimensions": "small text",
+          "details": "Inline link within the text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Call to Action Card",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 150px",
+          "details": "Blue background, white text, contains 'Get Started' and 'Talk to Sales' buttons",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "bottom right",
+          "approximate_dimensions": "120x40px",
+          "details": "White background, blue text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Talk to Sales Button",
+          "location": "bottom right",
+          "approximate_dimensions": "120x40px",
+          "details": "Transparent background, white text, rounded corners, blue border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "Contains copyright information, social media links, and links to other pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20px",
+          "details": "LinkedIn, Twitter, Facebook icons",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To display the privacy policy of the company",
+      "enterprise_os_potential": "This layout could be reused for other informational or legal pages"
+    },
+    {
+      "screen_slug": "full_pages_set_new_password",
+      "screen_name": "Create New Password",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Create New Password Card",
+          "location": "center",
+          "approximate_dimensions": "400x400",
+          "details": "white background, subtle shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Lock Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24",
+          "details": "gray lock icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Create New Password Heading",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Enter your details to sign up",
+          "location": "center",
+          "approximate_dimensions": "auto",
+          "details": "smaller gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "New Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "password input field with eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Confirm Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "password input field with eye icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Create New Password Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "auto",
+          "details": "small gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Privacy Link",
+          "location": "bottom right",
+          "approximate_dimensions": "auto",
+          "details": "small gray text with lock icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Terms Link",
+          "location": "bottom right",
+          "approximate_dimensions": "auto",
+          "details": "small gray text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Get Help Link",
+          "location": "bottom right",
+          "approximate_dimensions": "auto",
+          "details": "small gray text with help icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#3498DB"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font",
+      "primary_purpose": "Create a new password for the user",
+      "enterprise_os_potential": "Reusable for password reset flows in various enterprise applications"
+    },
+    {
+      "screen_slug": "full_pages_sign_in",
+      "screen_name": "Sign In Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Login Card",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "White background, rounded corners, subtle shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "User Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Simple user icon, gray color",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Password input field with visibility toggle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Keep me logged in",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Simple checkbox with label",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign In Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Blue background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Forgot Password?",
+          "location": "right",
+          "approximate_dimensions": "100x20",
+          "details": "Simple text link, blue color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Sign Up",
+          "location": "center",
+          "approximate_dimensions": "100x20",
+          "details": "Simple text link, blue color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "Small gray text, copyright symbol",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Privacy Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Simple text link, gray color, lock icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Terms Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Simple text link, gray color, document icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Get help Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Simple text link, gray color, help icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1f1f1",
+        "#333333",
+        "#ffffff"
+      ],
+      "typography_notes": "Open Sans font, various font sizes and weights",
+      "primary_purpose": "User authentication",
+      "enterprise_os_potential": "Reusable login page template for various applications"
+    },
+    {
+      "screen_slug": "full_pages_sign_up",
+      "screen_name": "Sign Up Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign Up Card",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "White background, subtle shadow, rounded corners",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "User Icon",
+          "location": "top",
+          "approximate_dimensions": "24x24",
+          "details": "Simple user icon in a circle",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Full Name Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with label and placeholder",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Text input with label and placeholder",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Password input with label, placeholder, and visibility toggle",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Terms and Conditions Text",
+          "location": "bottom",
+          "approximate_dimensions": "300x20",
+          "details": "Small text with links to Terms and Conditions and Privacy Policy",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Sign In Link",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "Blue link text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "logo",
+          "name": "Tendly Logo",
+          "location": "top left",
+          "approximate_dimensions": "100x20",
+          "details": "Blue and white logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom left",
+          "approximate_dimensions": "100x20",
+          "details": "Small text with copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Privacy Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Small text link",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Terms Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Small text link",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Get Help Link",
+          "location": "bottom right",
+          "approximate_dimensions": "50x20",
+          "details": "Small text link with icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, various sizes and weights",
+      "primary_purpose": "User registration",
+      "enterprise_os_potential": "Reusable for various sign-up processes in enterprise applications"
+    },
+    {
+      "screen_slug": "full_pages_solution",
+      "screen_name": "CRM for Startups Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, navigation links, and call-to-action buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Start for Free",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Dashboard Preview",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Displays various charts and metrics",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Customer Logos",
+          "location": "center",
+          "approximate_dimensions": "various",
+          "details": "Displays logos of companies",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "accordion",
+          "name": "Frequently Asked Questions",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Expandable sections with questions and answers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Contains links to various pages and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "tag",
+          "name": "CRM for Startups",
+          "location": "top",
+          "approximate_dimensions": "100x20",
+          "details": "Small tag with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Dashboard Screenshot",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Screenshot of the dashboard",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "To promote the CRM solution for startups",
+      "enterprise_os_potential": "Could be reused as a landing page template for other enterprise software solutions"
+    },
+    {
+      "screen_slug": "getting_started_cover",
+      "screen_name": "Tendly Web Template Cover Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "large width, single line height",
+          "details": "Large white text 'Tendly - Web Template', bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "center",
+          "approximate_dimensions": "medium width, single line height",
+          "details": "Smaller white text 'CRM - Website Template UI Kit', regular font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Website Button",
+          "location": "center",
+          "approximate_dimensions": "rectangle, medium size",
+          "details": "White rectangle with black text 'WEBSITE', no border radius",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Master File Button",
+          "location": "center",
+          "approximate_dimensions": "rectangle, medium size",
+          "details": "White rectangle with black text 'MASTER FILE', no border radius",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Figma Logo",
+          "location": "top right",
+          "approximate_dimensions": "small, square",
+          "details": "Multicolored Figma logo in a white rounded rectangle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Email Address",
+          "location": "bottom left",
+          "approximate_dimensions": "medium width, single line height",
+          "details": "White text with envelope icon 'unpixeldsign@gmail.com'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Notice",
+          "location": "bottom right",
+          "approximate_dimensions": "medium width, single line height",
+          "details": "White text ' 2024 Unpixel. All rights reserved.'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff"
+      ],
+      "typography_notes": "The design uses a clean, modern sans-serif font. The primary text color is white on a blue background.",
+      "primary_purpose": "This screen serves as a cover page or introduction to the Tendly Web Template UI Kit, likely for a design or development project.",
+      "enterprise_os_potential": "This layout could be reused as a template for other UI kits or design system introductions within an enterprise setting, potentially for onboarding or documentation purposes."
+    },
+    {
+      "screen_slug": "style_guide_colors",
+      "screen_name": "Colors Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Tendly Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "blue background, white text, logo on left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Colors Heading",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "large font, black text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Colors Description",
+          "location": "center",
+          "approximate_dimensions": "variable width x auto",
+          "details": "smaller font, gray text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Color Palette Card",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "white background, shadow, padding around color swatches",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "color_swatch",
+          "name": "Color Swatch",
+          "location": "within Color Palette Card",
+          "approximate_dimensions": "variable width x 40px",
+          "details": "various colors, with hex code and label below",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between color palettes",
+          "approximate_dimensions": "full width x 1px",
+          "details": "light gray",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#F0EFFF",
+        "#E5E4FB",
+        "#A19CF0",
+        "#312BA0",
+        "#201C6C",
+        "#EFF8FF",
+        "#D1F0F9",
+        "#7EDCF1",
+        "#33CFFF",
+        "#106A97",
+        "#0C4D6E",
+        "#EFFEA",
+        "#DDF2EE",
+        "#90EDD3",
+        "#40C4AA",
+        "#287F6E",
+        "#174E43",
+        "#FEEFF2",
+        "#FADAE1",
+        "#ED8296",
+        "#DF1C41",
+        "#95122B",
+        "#710E21",
+        "#FFF6E0",
+        "#F9ECCB",
+        "#FBD882",
+        "#FFBD4C",
+        "#956321",
+        "#583D1E",
+        "#F8F9F9",
+        "#F6F8FA",
+        "#ECEFF3",
+        "#DFE1E6",
+        "#C1C7CF",
+        "#A4ABB8",
+        "#808897",
+        "#666D80",
+        "#353849",
+        "#272835",
+        "#1A1B25",
+        "#000012"
+      ],
+      "typography_notes": "Open Sans font used throughout, various font sizes and weights",
+      "primary_purpose": "To display the color palette for the Tendly design system",
+      "enterprise_os_potential": "Could be reused as a style guide for other enterprise OS applications"
+    },
+    {
+      "screen_slug": "style_guide_typography",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "Blue background, white text, logo on left",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Typography Title",
+          "location": "center",
+          "approximate_dimensions": "variable width x 30px",
+          "details": "Large font size, bold text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography Description",
+          "location": "center",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Smaller font size, regular text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Font Sample Card",
+          "location": "center",
+          "approximate_dimensions": "200x150px",
+          "details": "White background, shadow, font samples inside",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Font Sample Text",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Various font sizes and styles",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Small font size, regular text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#ffffff",
+        "#f7f7f7"
+      ],
+      "typography_notes": "The style guide showcases various font sizes and styles, including headings and body text. The font used is Inter Display V.",
+      "primary_purpose": "To demonstrate the typography style guide for the Tendly CRM Website Template UI Kit",
+      "enterprise_os_potential": "This layout could be reused in other style guides or documentation pages for enterprise OS applications."
+    }
+  ]
+}

@@ -1,0 +1,3004 @@
+{
+  "generated_at": "2026-02-16T20:24:13.727Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 26,
+  "successful": 25,
+  "failed": 1,
+  "component_types": {
+    "card": 21,
+    "image": 17,
+    "button": 46,
+    "text": 13,
+    "badge": 1,
+    "icon": 23,
+    "toggle": 1,
+    "input": 32,
+    "select": 5,
+    "topbar": 14,
+    "menu": 3,
+    "search_bar": 6,
+    "breadcrumb": 10,
+    "form": 11,
+    "tabs": 5,
+    "grid": 6,
+    "footer": 10,
+    "table": 2,
+    "divider": 4,
+    "checkbox": 1,
+    "link": 5,
+    "heading": 5,
+    "stats": 1,
+    "product_card": 1,
+    "social_media_links": 1,
+    "avatar": 2,
+    "pagination": 3,
+    "pricing_card": 1,
+    "radio": 1,
+    "color_palette": 7
+  },
+  "reuse_categories": {
+    "data_display": 75,
+    "action": 47,
+    "input": 59,
+    "navigation": 66,
+    "layout": 11
+  },
+  "layout_types": {
+    "centered": 11,
+    "split": 8,
+    "sidebar_content": 3,
+    "grid": 3
+  },
+  "screens": [
+    {
+      "screen_slug": "component_card",
+      "screen_name": "Card Component Examples",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Mobile Responsive Card",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "contains image, text, and button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Card Image",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "displays various interior design scenes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View more",
+          "location": "overlay",
+          "approximate_dimensions": "small",
+          "details": "transparent background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Card Title",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "descriptive text, e.g. 'Aesthetic Home Office'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "AI Card",
+          "location": "bottom left",
+          "approximate_dimensions": "small",
+          "details": "green background, black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See details",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "black background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Play icon",
+          "location": "right",
+          "approximate_dimensions": "small",
+          "details": "white play icon on transparent background",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#008000"
+      ],
+      "typography_notes": "uses a clean sans-serif font, varying font sizes for hierarchy",
+      "primary_purpose": "demonstrating different card component designs",
+      "enterprise_os_potential": "reusable card components for various applications, such as product showcases or article previews"
+    },
+    {
+      "screen_slug": "component_interaction",
+      "screen_name": "Component Interaction",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Start Membership Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Order all item Button",
+          "location": "center",
+          "approximate_dimensions": "80x40",
+          "details": "Dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Light Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Light background, dark text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "toggle",
+          "name": "Switch Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Light background, toggle switch",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White background, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "center",
+          "approximate_dimensions": "80x40",
+          "details": "Dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "First Name Input",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "White background, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Select Region",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "White background, dropdown icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Envelope Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Simple envelope icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Simple sans-serif font used throughout",
+      "primary_purpose": "Demonstrating various UI component interactions",
+      "enterprise_os_potential": "Reusable components for various enterprise applications"
+    },
+    {
+      "screen_slug": "component_nav_bar",
+      "screen_name": "Navigation Bar Component",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Dark Header",
+          "location": "top",
+          "approximate_dimensions": "full width x 100px",
+          "details": "Dark blue background, white text, logo on the right",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Logo",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Purple and blue gradient, white icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Desktop Navigation Bar Example",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "White background, border, two menu items, search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "menu",
+          "name": "Menu Items",
+          "location": "left",
+          "approximate_dimensions": "variable",
+          "details": "Two menu items with icons and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "center",
+          "approximate_dimensions": "200x30",
+          "details": "Gray background, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Three horizontal lines",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Mobile Navigation Bar Example",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "White background, border, three menu items, search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#7A7A7A"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes",
+      "primary_purpose": "Showcasing navigation bar components",
+      "enterprise_os_potential": "Reusable navigation components for various applications"
+    },
+    {
+      "screen_slug": "cover_cover_6",
+      "screen_name": "Simple Design Component",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Simple Design Component label",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Rounded rectangle with white text on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Navigation Bar example",
+          "location": "left",
+          "approximate_dimensions": "400x500",
+          "details": "White card with rounded corners, containing navigation elements",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Mana.id logo",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Black icon with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search by categories, name and title",
+          "location": "left",
+          "approximate_dimensions": "200x30",
+          "details": "Gray search bar with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "menu",
+          "name": "Three horizontal lines menu",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Three horizontal lines icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Mobile Responsive Card",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Card with image and text, labeled 'Mobile Responsive'",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Interior design image",
+          "location": "right",
+          "approximate_dimensions": "200x150",
+          "details": "Image of an office chair and desk",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "View more button",
+          "location": "right",
+          "approximate_dimensions": "80x30",
+          "details": "Gray button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Sans-serif font used throughout",
+      "primary_purpose": "Showcasing UI components",
+      "enterprise_os_potential": "Reusable components for dashboard or application"
+    },
+    {
+      "screen_slug": "design_area_about_us",
+      "screen_name": "About Us Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "white background, black text, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "small, below topbar",
+          "details": "displays current page location",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "full width, 300px height",
+          "details": "black and white image with overlay text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Award Cards",
+          "location": "center",
+          "approximate_dimensions": "multiple cards, 100px width each",
+          "details": "displaying award logos and descriptions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom right",
+          "approximate_dimensions": "400px width, 500px height",
+          "details": "contains input fields for name, email, phone number, and region",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom right",
+          "approximate_dimensions": "200px width, 40px height",
+          "details": "white button with black text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom left",
+          "approximate_dimensions": "200px width, 40px height",
+          "details": "input field for email subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "100px width, 40px height",
+          "details": "black button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "small, 20px width each",
+          "details": "displaying social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "uses a clean sans-serif font, headings are larger and bolder",
+      "primary_purpose": "to provide information about the company and its awards",
+      "enterprise_os_potential": "could be reused as a template for other company about pages"
+    },
+    {
+      "screen_slug": "design_area_ai_interior_assistant",
+      "screen_name": "Interior Design Assistant",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "full width x 40px",
+          "details": "contains categories like 'All Types', 'Bedroom', etc.",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Generate Ideas Button",
+          "location": "top right",
+          "approximate_dimensions": "100x30",
+          "details": "dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "grid",
+          "name": "Inspiration Grid",
+          "location": "center",
+          "approximate_dimensions": "full width x variable height",
+          "details": "displays images with captions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Inspiration Card",
+          "location": "center",
+          "approximate_dimensions": "variable x variable",
+          "details": "contains image, title, and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Inspiration Images",
+          "location": "center",
+          "approximate_dimensions": "variable x variable",
+          "details": "various images of interior designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Membership Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom right",
+          "approximate_dimensions": "400x300",
+          "details": "contains input fields and submit button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "First Name Input",
+          "location": "bottom right",
+          "approximate_dimensions": "150x30",
+          "details": "gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Last Name Input",
+          "location": "bottom right",
+          "approximate_dimensions": "150x30",
+          "details": "gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Type of Enquiry Select",
+          "location": "bottom right",
+          "approximate_dimensions": "150x30",
+          "details": "gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom right",
+          "approximate_dimensions": "150x40",
+          "details": "white background, dark text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width x 200px",
+          "details": "contains copyright information, social media links, and newsletter signup",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Signup Input",
+          "location": "bottom left",
+          "approximate_dimensions": "200x30",
+          "details": "gray background, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "80x30",
+          "details": "dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "contains icons for Instagram, Facebook, Twitter, LinkedIn",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333",
+        "#666666"
+      ],
+      "typography_notes": "uses a clean, modern sans-serif font",
+      "primary_purpose": "to provide interior design inspiration and allow users to book a call with an interior consultant",
+      "enterprise_os_potential": "could be reused as a template for other design or consulting services"
+    },
+    {
+      "screen_slug": "design_area_ai_interior_assistant_details",
+      "screen_name": "Aesthetic Home Office Details",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 64px",
+          "details": "Logo, search bar, menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width x 20px",
+          "details": "Homepage / AI Assistant / Home Office",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "800x400",
+          "details": "Aesthetic home office setup",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Product Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "Product image, name, price, rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Product Table",
+          "location": "center",
+          "approximate_dimensions": "800x200",
+          "details": "Product list with images, names, prices",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Order Button",
+          "location": "right",
+          "approximate_dimensions": "100x40",
+          "details": "Call to action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width x 1px",
+          "details": "Horizontal divider",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom",
+          "approximate_dimensions": "400x300",
+          "details": "Input fields for first name, last name, email, phone number",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "Call to action button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20",
+          "details": "Facebook, LinkedIn, Twitter icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase a home office design and provide a call to action to book a consultation",
+      "enterprise_os_potential": "This layout could be reused for other product or service pages, or for a dashboard"
+    },
+    {
+      "screen_slug": "design_area_ai_interior_assistant_interior_details",
+      "screen_name": "Product Details Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "displays navigation path",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "displays product image with carousel controls",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Product Information Card",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "contains product details, pricing, and call-to-action",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Add to Cart Button",
+          "location": "right",
+          "approximate_dimensions": "medium",
+          "details": "calls to action to add product to cart",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "grid",
+          "name": "Product Grid",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "displays related products",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Related Product Cards",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "displays related product information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom",
+          "approximate_dimensions": "large",
+          "details": "contains input fields for booking a call",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "medium",
+          "details": "submits booking form",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains copyright information, social media links, and newsletter signup",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "uses a clean sans-serif font",
+      "primary_purpose": "to display product details and facilitate purchases",
+      "enterprise_os_potential": "could be reused as a product details page in an e-commerce platform"
+    },
+    {
+      "screen_slug": "design_area_cart",
+      "screen_name": "Shopping Cart",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "displays 'Homepage / My Cart'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "table",
+          "name": "Cart Items Table",
+          "location": "center",
+          "approximate_dimensions": "70% of screen width, variable height",
+          "details": "lists cart items with images, descriptions, prices, quantities, and totals",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Order Summary Card",
+          "location": "right",
+          "approximate_dimensions": "30% of screen width, 300px height",
+          "details": "displays subtotal, shipping, and total",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Payment Button",
+          "location": "right",
+          "approximate_dimensions": "full width of Order Summary Card, 40px height",
+          "details": "labeled 'Payment'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom left",
+          "approximate_dimensions": "200px width, 40px height",
+          "details": "labeled 'Enter your email'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "100px width, 40px height",
+          "details": "labeled 'Subscribe'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "contains links to product categories, company information, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20px width, 20px height",
+          "details": "displays icons for Instagram, Facebook, Twitter, and LinkedIn",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Item Selection Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20px width, 20px height",
+          "details": "used to select cart items",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "left",
+          "approximate_dimensions": "80px width, 80px height",
+          "details": "displays product images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Table Row Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "separates table rows",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "uses a clean sans-serif font, with varying font sizes for headings and body text",
+      "primary_purpose": "to display and manage shopping cart contents",
+      "enterprise_os_potential": "could be reused in e-commerce applications for managing cart contents and checkout processes"
+    },
+    {
+      "screen_slug": "design_area_hamburger_menu",
+      "screen_name": "Hamburger Menu Screen",
+      "screen_type": "overlay",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "menu",
+          "name": "Hamburger Menu",
+          "location": "left",
+          "approximate_dimensions": "Full height, 250px wide",
+          "details": "Dark blue background, white text, dividers between menu items",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Menu Item Dividers",
+          "location": "left",
+          "approximate_dimensions": "Thin horizontal lines",
+          "details": "Light gray color, separating menu items",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Menu Item Text",
+          "location": "left",
+          "approximate_dimensions": "Various widths",
+          "details": "White color, varying font sizes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Product Image",
+          "location": "top right",
+          "approximate_dimensions": "300x200px",
+          "details": "Yellow sofa image with pillows and side table",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Input",
+          "location": "bottom left",
+          "approximate_dimensions": "200x40px",
+          "details": "White background, gray text, rounded corners",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "80x40px",
+          "details": "White background, dark blue text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "Various widths",
+          "details": "White color, varying font sizes",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "20x20px",
+          "details": "White color, various social media logos",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#F7DC6F"
+      ],
+      "typography_notes": "Open sans font used throughout the screen",
+      "primary_purpose": "To display a hamburger menu with various options",
+      "enterprise_os_potential": "Reusable as a navigation menu for various applications"
+    },
+    {
+      "screen_slug": "design_area_inspiration",
+      "screen_name": "Inspiration Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo, menu, and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "displays current page location",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "wide",
+          "details": "displays categories for inspiration",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "medium",
+          "details": "allows users to search for inspiration",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "grid",
+          "name": "Inspiration Grid",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "displays images of different interior designs",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Inspiration Card",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "contains image, title, and description of inspiration",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Membership Button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "calls to action to start membership",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom",
+          "approximate_dimensions": "large",
+          "details": "allows users to book a call with interior consultant",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Form Input Fields",
+          "location": "bottom",
+          "approximate_dimensions": "variable",
+          "details": "contains fields for first name, last name, email, phone number, etc.",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "medium",
+          "details": "submits booking form",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains copyright information, social media links, and other secondary information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "links to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "uses a clean, modern sans-serif font",
+      "primary_purpose": "to showcase interior design inspiration",
+      "enterprise_os_potential": "could be reused as a template for other design inspiration platforms"
+    },
+    {
+      "screen_slug": "design_area_landing_page_v2",
+      "screen_name": "Mana Furniture Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "top",
+          "approximate_dimensions": "full-width",
+          "details": "darkened background image of a chair and ottoman",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Original France Furniture",
+          "location": "top",
+          "approximate_dimensions": "large text",
+          "details": "white text on dark background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Discover more",
+          "location": "top right",
+          "approximate_dimensions": "small button",
+          "details": "white text on dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Why Paris?",
+          "location": "center",
+          "approximate_dimensions": "medium card",
+          "details": "blue background with white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Arrow icon",
+          "location": "center",
+          "approximate_dimensions": "small icon",
+          "details": "white arrow on blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Product images",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "images of furniture products",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "About Mana Furniture",
+          "location": "center",
+          "approximate_dimensions": "large text",
+          "details": "black text on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "stats",
+          "name": "Statistics",
+          "location": "center",
+          "approximate_dimensions": "small text",
+          "details": "numbers and text describing company stats",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "product_card",
+          "name": "Rebecca",
+          "location": "center",
+          "approximate_dimensions": "medium card",
+          "details": "image and text describing product",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Start Membership",
+          "location": "center",
+          "approximate_dimensions": "small button",
+          "details": "white text on blue background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full-width",
+          "details": "dark background with white text and social media links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search",
+          "location": "bottom",
+          "approximate_dimensions": "small input field",
+          "details": "text input field with magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "social_media_links",
+          "name": "Social Media Links",
+          "location": "bottom right",
+          "approximate_dimensions": "small icons",
+          "details": "icons linking to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#212121",
+        "#3498db"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase Mana Furniture products and provide information about the company",
+      "enterprise_os_potential": "This layout could be reused for other e-commerce websites or product showcases"
+    },
+    {
+      "screen_slug": "design_area_landing_v1",
+      "screen_name": "Design Area Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Main Navigation",
+          "location": "top",
+          "approximate_dimensions": "full width, 64px height",
+          "details": "white background, Mana logo, menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Furniture Categories",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "image, category name, item count",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Furniture Images",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "high-quality furniture images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "300x40px",
+          "details": "light background, dark text, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe",
+          "location": "bottom",
+          "approximate_dimensions": "100x40px",
+          "details": "dark background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20px",
+          "details": "Facebook, Twitter, LinkedIn icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To showcase furniture products and encourage users to sign up or make a purchase",
+      "enterprise_os_potential": "This layout could be reused for other e-commerce or product showcase websites"
+    },
+    {
+      "screen_slug": "design_area_login_page",
+      "screen_name": "Login Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "50% of screen width",
+          "details": "Black and white image of a bedroom with a quote overlay",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Login Form",
+          "location": "right",
+          "approximate_dimensions": "400x300",
+          "details": "White card with input fields, buttons, and text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "inside Login Form",
+          "approximate_dimensions": "full width",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "inside Login Form",
+          "approximate_dimensions": "full width",
+          "details": "Password input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Login Button",
+          "location": "inside Login Form",
+          "approximate_dimensions": "full width",
+          "details": "Dark blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue with Google Button",
+          "location": "inside Login Form",
+          "approximate_dimensions": "full width",
+          "details": "Light blue button with white text and Google icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sign up for free text",
+          "location": "inside Login Form",
+          "approximate_dimensions": "variable",
+          "details": "Small text link",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Dark blue footer with links, newsletter input, and social media icons",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Input",
+          "location": "inside Footer",
+          "approximate_dimensions": "variable",
+          "details": "Text input field with placeholder text and subscribe button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "inside Footer",
+          "approximate_dimensions": "variable",
+          "details": "Dark blue button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "inside Footer",
+          "approximate_dimensions": "variable",
+          "details": "Instagram, Facebook, Twitter, and LinkedIn icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#212121",
+        "#3498db",
+        "#f1f1f1"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "User login",
+      "enterprise_os_potential": "Reusable login page template for various applications"
+    },
+    {
+      "screen_slug": "design_area_media_all_media",
+      "screen_name": "All Media Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Input field for searching",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Media Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "full width, 30px height",
+          "details": "Tabs for All Media, Films, Article, Magazine, Social",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Media Grid",
+          "location": "center",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Grid displaying various media items with images and text overlays",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Media Item Card",
+          "location": "center",
+          "approximate_dimensions": "variable, approximately 200x250",
+          "details": "Contains image, category label, title, author, and date",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Discover More Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Button to load more media items",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "form",
+          "name": "Booking Call Form",
+          "location": "bottom",
+          "approximate_dimensions": "400x300",
+          "details": "Form for booking a call with an interior consultant",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Form Input Fields",
+          "location": "bottom",
+          "approximate_dimensions": "variable, approximately 200x40",
+          "details": "Input fields for first name, last name, email, phone number, and type of enquiry",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Button to submit the booking call form",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Contains subscription form, product links, company links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Subscribe Input",
+          "location": "bottom",
+          "approximate_dimensions": "200x40",
+          "details": "Input field for email subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom",
+          "approximate_dimensions": "80x40",
+          "details": "Button to subscribe to the newsletter",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Icons for Instagram, Facebook, Twitter, LinkedIn",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333",
+        "#666666"
+      ],
+      "typography_notes": "Uses a clean, modern sans-serif font. Headings are larger and bolder.",
+      "primary_purpose": "To display various media items and provide a way to book a call with an interior consultant.",
+      "enterprise_os_potential": "This layout could be reused for other media or content-heavy pages within an enterprise OS, potentially with modifications to the grid and card layouts."
+    },
+    {
+      "screen_slug": "design_area_media_all_media_detail_article",
+      "screen_name": "Media Article Detail",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Shows navigation path: Homepage > Media > Assembling Furniture for My Writing Station",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "Author Avatar",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Circular image of the author",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "left",
+          "approximate_dimensions": "small",
+          "details": "Text button with 'Follow' label",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Article Header Image",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Large image illustrating the article topic",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Article Title",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large text 'Assembling furniture for my writing station'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Article Content",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Paragraphs of text discussing furniture arrangement",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Inline Images",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Images illustrating different furniture arrangements",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination Controls",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "Numbered pagination with '1', '2', '3', '4'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Related Media Cards",
+          "location": "center",
+          "approximate_dimensions": "grid",
+          "details": "Grid of cards with images and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Booking Call Form",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Form with fields for first name, last name, email, phone number, and enquiry type",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Button to submit the booking call form",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "Links to 'About', 'Membership', 'Privacy Policy', 'Support', 'Terms of Service'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "small",
+          "details": "Icons linking to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with varying sizes for headings and body text",
+      "primary_purpose": "To display a detailed article on furniture arrangement",
+      "enterprise_os_potential": "Could be reused for other content-rich pages or blogs within an enterprise OS"
+    },
+    {
+      "screen_slug": "design_area_media_all_media_detail_article_profile",
+      "screen_name": "Media Detail Article Profile",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "white background, black text, search bar, menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "gray text, separator icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "60x60",
+          "details": "circular image, border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Follow Button",
+          "location": "center",
+          "approximate_dimensions": "80x30",
+          "details": "blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Media Type Tabs",
+          "location": "top",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "gray text, active tab underlined",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Media Grid",
+          "location": "center",
+          "approximate_dimensions": "variable width and height",
+          "details": "4-column grid, images with captions",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Media Card",
+          "location": "center",
+          "approximate_dimensions": "200x250",
+          "details": "image, title, author, date",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination",
+          "location": "bottom",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "numbered pages, navigation arrows",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom",
+          "approximate_dimensions": "variable width and height",
+          "details": "input fields, radio buttons, submit button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Form Input Fields",
+          "location": "bottom",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "text input, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "150x40",
+          "details": "white text, dark background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width, variable height",
+          "details": "dark background, white text, links, social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "various social media logos",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#2196F3"
+      ],
+      "typography_notes": "Open Sans font used throughout, various font sizes and weights",
+      "primary_purpose": "Displaying media content and allowing users to book a call with an interior consultant",
+      "enterprise_os_potential": "Reusable layout for media-rich websites or applications, potentially used in industries like interior design or media production"
+    },
+    {
+      "screen_slug": "design_area_membership",
+      "screen_name": "Membership Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "contains logo and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "small",
+          "details": "displays 'Homepage / Membership'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Page Title",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "displays 'Feature-rich plans with upfront pricing'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Pricing Card",
+          "location": "center",
+          "approximate_dimensions": "WxH",
+          "details": "four cards with different plans and features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Call to Action Button",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "displays 'Get started' or 'Started free trial'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "displays a photo of three people",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "form",
+          "name": "Booking Form",
+          "location": "bottom right",
+          "approximate_dimensions": "medium",
+          "details": "contains input fields for booking a call",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Input Field",
+          "location": "bottom right",
+          "approximate_dimensions": "medium",
+          "details": "used in the booking form",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Radio Button",
+          "location": "bottom right",
+          "approximate_dimensions": "small",
+          "details": "used to select 'Individual' or 'Company'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Select Field",
+          "location": "bottom right",
+          "approximate_dimensions": "medium",
+          "details": "used to select 'Type of enquiry'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom right",
+          "approximate_dimensions": "medium",
+          "details": "displays 'Booking Call'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Input",
+          "location": "bottom left",
+          "approximate_dimensions": "medium",
+          "details": "used to input email for newsletter",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom left",
+          "approximate_dimensions": "small",
+          "details": "displays 'Subscribe'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom right",
+          "approximate_dimensions": "small",
+          "details": "displays icons for Instagram, Facebook, Twitter, and LinkedIn",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#ffffff",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "uses a clean sans-serif font",
+      "primary_purpose": "to display membership plans and allow users to book a call",
+      "enterprise_os_potential": "could be reused for other SaaS applications with similar pricing plans"
+    },
+    {
+      "screen_slug": "design_area_paginantion",
+      "screen_name": "Landing Page / Home Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "center",
+          "approximate_dimensions": "wide text element",
+          "details": "white text on teal background, rounded corners",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#0097a7"
+      ],
+      "typography_notes": "large sans-serif font",
+      "primary_purpose": "display title or header",
+      "enterprise_os_potential": "could be used as a simple landing page or dashboard header"
+    },
+    {
+      "screen_slug": "design_area_payment",
+      "screen_name": "Payment Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "displays 'Homepage / My Cart'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Payment Form",
+          "location": "center",
+          "approximate_dimensions": "variable width, 300px height",
+          "details": "contains card number, expiration date, CVV, PIN password, and transaction password fields",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Card Number Field",
+          "location": "within payment form",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Expiration Date Field",
+          "location": "within payment form",
+          "approximate_dimensions": "half width, 40px height",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "CVV Field",
+          "location": "within payment form",
+          "approximate_dimensions": "quarter width, 40px height",
+          "details": "text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "PIN Password Field",
+          "location": "within payment form",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "password input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Transaction Password Field",
+          "location": "within payment form",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "password input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Order Summary",
+          "location": "right",
+          "approximate_dimensions": "300px width, variable height",
+          "details": "displays subtotal, shipping, and total",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Pay Now Button",
+          "location": "within order summary",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "dark colored button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "contains company information, links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Subscription Field",
+          "location": "within footer",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "text input field with subscribe button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "within newsletter subscription field",
+          "approximate_dimensions": "100px width, 40px height",
+          "details": "button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "within footer",
+          "approximate_dimensions": "20px width, 20px height",
+          "details": "display social media icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "uses a clean sans-serif font",
+      "primary_purpose": "to facilitate payment processing",
+      "enterprise_os_potential": "could be reused in e-commerce applications"
+    },
+    {
+      "screen_slug": "design_area_saved_content",
+      "screen_name": "Saved Content Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "Contains logo, search bar, and menu icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Shows 'Homepage / Saved Content'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Content Categories",
+          "location": "top",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Contains tabs for Media, Furniture, Inspiration, AI Inspiration, Project",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Saved Content Grid",
+          "location": "center",
+          "approximate_dimensions": "variable width and height",
+          "details": "Displays a grid of saved content cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Saved Content Card",
+          "location": "center",
+          "approximate_dimensions": "200x250px",
+          "details": "Contains image, title, author, and date",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination",
+          "location": "bottom",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Shows page numbers 1, 2, 3, 4 with navigation arrows",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "form",
+          "name": "Booking Call Form",
+          "location": "bottom",
+          "approximate_dimensions": "400x500px",
+          "details": "Contains fields for first name, last name, email, phone number, and type of enquiry",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Booking Call Button",
+          "location": "bottom",
+          "approximate_dimensions": "200x40px",
+          "details": "Submit button for booking call form",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Input",
+          "location": "bottom",
+          "approximate_dimensions": "200x40px",
+          "details": "Input field for newsletter subscription",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom",
+          "approximate_dimensions": "80x40px",
+          "details": "Submit button for newsletter subscription",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20px",
+          "details": "Icons for Instagram, Facebook, Twitter, LinkedIn",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#333333"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display saved content for the user",
+      "enterprise_os_potential": "This layout could be reused for other content management pages or dashboards"
+    },
+    {
+      "screen_slug": "design_area_screen_1",
+      "screen_name": "Furniture Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Furniture Image",
+          "location": "center",
+          "approximate_dimensions": "Large, occupying most of the screen",
+          "details": "Gray armchair with pillows and ottoman, side table with lamp, potted plant",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "top left",
+          "approximate_dimensions": "Small",
+          "details": "White text 'Mana Furniture'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Call to Action",
+          "location": "top right",
+          "approximate_dimensions": "Small",
+          "details": "White text 'Discover more'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Section Header",
+          "location": "bottom left",
+          "approximate_dimensions": "Medium",
+          "details": "White text 'Original France Furniture'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Description Text",
+          "location": "bottom center",
+          "approximate_dimensions": "Medium",
+          "details": "White text describing furniture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Room Name",
+          "location": "right",
+          "approximate_dimensions": "Small",
+          "details": "White text 'Einstein Room' with designer name",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2F4F4F",
+        "#3B3F4E"
+      ],
+      "typography_notes": "Clean, modern sans-serif font used throughout",
+      "primary_purpose": "Showcasing furniture design",
+      "enterprise_os_potential": "Could be used as a template for product showcases or marketing materials"
+    },
+    {
+      "screen_slug": "design_area_sign_up_page",
+      "screen_name": "Sign Up Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "left",
+          "approximate_dimensions": "50% of screen width",
+          "details": "Black and white image of a bedroom with a quote overlay",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "form",
+          "name": "Sign Up Form",
+          "location": "right",
+          "approximate_dimensions": "400x500",
+          "details": "Contains input fields for first name, last name, date of birth, phone number, country, ID type, password, and confirm password",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "First Name Input",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Last Name Input",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Date of Birth Input",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Date input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Phone Number Input",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with placeholder text and country code",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "Country Select",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Dropdown menu with country options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "select",
+          "name": "ID Type Select",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Dropdown menu with ID type options",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Password Input",
+          "location": "right",
+          "approximate_dimensions": "400x40",
+          "details": "Password input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Confirm Password Input",
+          "location": "right",
+          "approximate_dimensions": "400x40",
+          "details": "Password input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Confirm Button",
+          "location": "right",
+          "approximate_dimensions": "400x40",
+          "details": "Dark-colored button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Login Link",
+          "location": "right",
+          "approximate_dimensions": "100x20",
+          "details": "Text link to login page",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "100% screen width",
+          "details": "Contains newsletter subscription form, product links, company links, and social media links",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "input",
+          "name": "Newsletter Email Input",
+          "location": "bottom",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "bottom",
+          "approximate_dimensions": "100x40",
+          "details": "Dark-colored button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Product Links",
+          "location": "bottom",
+          "approximate_dimensions": "150x100",
+          "details": "List of links to product pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Company Links",
+          "location": "bottom",
+          "approximate_dimensions": "150x100",
+          "details": "List of links to company pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Icons for Instagram, Facebook, Twitter, and LinkedIn",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To allow users to sign up for the service",
+      "enterprise_os_potential": "This layout could be reused for other sign-up pages or forms within an enterprise OS"
+    },
+    {
+      "screen_slug": "design_style_color_style",
+      "screen_name": "Color Style",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Logo Icon",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Purple and blue gradient circular icon with a white 'F' logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Color Style Heading",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "White text 'Color Style' on dark blue background",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Light gray horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "color_palette",
+          "name": "Primary Neutral Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of gray color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_palette",
+          "name": "Brand Color Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of blue color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_palette",
+          "name": "Success Color Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of green color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_palette",
+          "name": "Error Color Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of red color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_palette",
+          "name": "Warning Color Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of orange color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_palette",
+          "name": "Information Color Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of blue color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_palette",
+          "name": "Secondary Color Palette",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "8 shades of gray color palette",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#70170C",
+        "#872814",
+        "#A84020",
+        "#C95D2F",
+        "#EA7E41",
+        "#F2A66F",
+        "#F8C18C",
+        "#FCDBB3",
+        "#0B0D0E",
+        "#1A2C33",
+        "#1D3E49",
+        "#1D5162",
+        "#1B657E",
+        "#318744",
+        "#55A8C9",
+        "#8984C3",
+        "#345302",
+        "#055467",
+        "#097380",
+        "#0D9699",
+        "#12B3A8",
+        "#44D1B8",
+        "#6AE8C9",
+        "#9EF7D9",
+        "#5F103B",
+        "#721A43",
+        "#8E2A4E",
+        "#AA3D5A",
+        "#C65468",
+        "#DC7D85",
+        "#ED9C9B",
+        "#F9C68F",
+        "#713F09",
+        "#88520F",
+        "#A96E18",
+        "#CA8B23",
+        "#ECAC31",
+        "#F3C762",
+        "#F9D982",
+        "#FDEAAC",
+        "#0E216E",
+        "#183285",
+        "#2A6087",
+        "#3863C6",
+        "#4D81E7",
+        "#78A5F0",
+        "#94BDF7",
+        "#B9D6FC",
+        "#04070E",
+        "#080B11",
+        "#0D1015",
+        "#131619",
+        "#1A1C1E",
+        "#6C7278",
+        "#ACB5BB",
+        "#DCE4E8"
+      ],
+      "typography_notes": "The design uses a clean sans-serif font. Headings are in a larger font size.",
+      "primary_purpose": "To showcase the color style and palette of the design system",
+      "enterprise_os_potential": "This color style page can be reused as a reference for designers and developers to ensure consistency across the application."
+    },
+    {
+      "screen_slug": "design_style_typography",
+      "screen_name": "Typography",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "wide header",
+          "details": "large white text on dark background, font size 48px",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Figma logo",
+          "location": "top right",
+          "approximate_dimensions": "32x32",
+          "details": "purple and blue gradient, white icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Section headers",
+          "location": "center",
+          "approximate_dimensions": "Regular, Medium, Bold headers",
+          "details": "black text, font sizes varying",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography examples",
+          "location": "center",
+          "approximate_dimensions": "multiple lines of text",
+          "details": "black text, various font sizes and weights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A",
+        "#643A7A"
+      ],
+      "typography_notes": "multiple font weights and sizes, line height variations",
+      "primary_purpose": "showcasing typography styles",
+      "enterprise_os_potential": "style guide for consistent typography across the application"
+    },
+    {
+      "screen_slug": "icon_icon_general",
+      "error": "Image too large - images can contain at most 33177600 pixels. but image contained 33551050",
+      "screen_type": "unknown",
+      "components": []
+    }
+  ],
+  "repaired_at": "2026-02-17T07:44:00.775Z"
+}

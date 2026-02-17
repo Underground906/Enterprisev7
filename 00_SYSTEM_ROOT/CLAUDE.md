@@ -8,19 +8,34 @@
 Every new chat session MUST begin by reading these files in order:
 
 ```
-1. 01_NAVIGATION_CENTRE/STATE_SNAPSHOTS/  → Read the LATEST file (system-wide status)
-2. 02_COMMAND_DECK/ACTIVE_SESSIONS/       → Read the LATEST session log (what happened last, what's next)
-3. 04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/SESSION_INDEX.md → Session history and context
+1. 00_SYSTEM_ROOT/V7_OPERATIONS_MANUAL.md → Foundational procedures for ALL tasks
+2. 01_NAVIGATION_CENTRE/STATE_SNAPSHOTS/  → Read the LATEST file (system-wide status)
+3. 02_COMMAND_DECK/ACTIVE_SESSIONS/       → Read the LATEST session log (what happened last, what's next)
+4. 04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/SESSION_INDEX.md → Session history and context
 ```
 
 Then ask: "I've read the latest state. Last session covered [X]. Next session focus is [Y]. Ready to start?"
 
 **End-of-session protocol:**
-1. Create/update session log in `02_COMMAND_DECK/ACTIVE_SESSIONS/YYYY-MM/`
-2. Export full chat transcript to `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/YYYY-MM/`
-3. Create summary version alongside full transcript
-4. Update SESSION_INDEX.md with new entry
+1. Save VERBATIM transcript → `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/YYYY-MM/YYYY-MM-DD_session_NN_full.md`
+2. Save TOKEN-EFFICIENT summary → `02_COMMAND_DECK/ACTIVE_SESSIONS/YYYY-MM/YYYY-MM-DD_session_NN.md`
+3. Update SESSION_INDEX.md with new entry
+4. Update STATE_SNAPSHOTS if system-wide state changed
 5. Commit to git
+
+## V7 Quick Ops Reference (Always Loaded)
+
+```
+TASK RISKS: R/SR/AN/PL/TS=None | LG/CM=Low | W/E/RT/IG/CV/IX/BD/PU/TB=Med | D/MV/RN=HIGH(need approval)
+ROUTING: Governance→00 | Goals→01 | Sessions→02 | Scripts→03 | Content→04 | Templates→05 | Domain→06 | Projects→07 | PostLaunch→08 | Unsure→04/UNROUTED
+NAMES: Folders=UPPERCASE | Canon=UPPERCASE.md | Working=lowercase.md | Dated=YYYY-MM-DD_desc.md
+SCAFFOLD: 01_Strategy|02_Product|03_Design|04_Architecture|05_Development|06_Testing|07_Deployment|08_Marketing|90_Archive
+BEFORE WRITE: Check name+route+no-overwrite → AFTER: Verify content+index
+BEFORE EDIT: Read first+check canon+backup → AFTER: Verify edit+no side effects
+NEVER: Delete(archive instead) | Move/Rename without approval | Overwrite | Guess routing | Truncate | Skip checkpoints
+SESSION: Start→read ops manual+state+last session | End→save verbatim+summary+update index+commit
+FULL MANUAL: 00_SYSTEM_ROOT/V7_OPERATIONS_MANUAL.md
+```
 
 ---
 

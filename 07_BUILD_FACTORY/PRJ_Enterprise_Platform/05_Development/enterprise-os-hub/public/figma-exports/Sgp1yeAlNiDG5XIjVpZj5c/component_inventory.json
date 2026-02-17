@@ -1,0 +1,816 @@
+{
+  "generated_at": "2026-02-16T20:09:15.988Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 10,
+  "successful": 10,
+  "failed": 0,
+  "component_types": {
+    "card": 7,
+    "text": 12,
+    "divider": 4,
+    "image": 4,
+    "button": 9,
+    "list": 2,
+    "icon": 7,
+    "link": 1,
+    "heading": 7,
+    "badge": 3,
+    "tag": 1,
+    "form": 1,
+    "input": 1,
+    "checkbox": 1
+  },
+  "reuse_categories": {
+    "feedback": 2,
+    "data_display": 38,
+    "layout": 5,
+    "action": 10,
+    "navigation": 2,
+    "input": 3
+  },
+  "layout_types": {
+    "centered": 8,
+    "split": 1,
+    "grid": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "live_preview_access_label",
+      "screen_name": "Coming Soon Label",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Coming Soon Card",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "Gradient background with white text, rounded corners, and subtle shadow",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Studio Name",
+          "location": "top",
+          "approximate_dimensions": "200x20",
+          "details": "White text 'ENVER STUDIO' at the top center",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Vertical Divider",
+          "location": "center",
+          "approximate_dimensions": "1x50",
+          "details": "Thin white line below the studio name",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Coming Soon Text",
+          "location": "center",
+          "approximate_dimensions": "300x100",
+          "details": "Large white text 'Code Version Coming Soon'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#00FFFF",
+        "#0000FF",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes",
+      "primary_purpose": "Display a coming soon message for a code version",
+      "enterprise_os_potential": "Reusable as a placeholder or teaser for new features or updates"
+    },
+    {
+      "screen_slug": "related_products_product_1",
+      "screen_name": "Cinemax Movie Apps UI Kit Promotion",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Phone Mockup",
+          "location": "right",
+          "approximate_dimensions": "300x600",
+          "details": "iPhone mockup with movie app UI",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "CINEMAX",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Turquoise text, bold font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Movie Apps UI Kits",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "30+ Screens",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "Gray button with turquoise text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "list",
+          "name": "Feature List",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "List with checkmarks and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Figma Logo",
+          "location": "bottom left",
+          "approximate_dimensions": "24x24",
+          "details": "Colorful Figma logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Cinemax - Movie Apps UI Kits",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "White text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "See more",
+          "location": "bottom right",
+          "approximate_dimensions": "variable width",
+          "details": "Turquoise text with underline and arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#0097a7",
+        "#ffffff",
+        "#333333"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font used throughout",
+      "primary_purpose": "Promoting Cinemax Movie Apps UI Kit",
+      "enterprise_os_potential": "Reusable for promoting UI kits or design assets"
+    },
+    {
+      "screen_slug": "related_products_product_2",
+      "screen_name": "QStudies Online Course App UI Kit",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Main Content Card",
+          "location": "center",
+          "approximate_dimensions": "800x600",
+          "details": "Light orange background, rounded corners, subtle shadow",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "QStudies Logo",
+          "location": "top left",
+          "approximate_dimensions": "20x20",
+          "details": "White text on orange background, rounded rectangle",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top left",
+          "approximate_dimensions": "200x50",
+          "details": "Large black text, 'Online Course App UI Kits'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "list",
+          "name": "Feature List",
+          "location": "left",
+          "approximate_dimensions": "300x200",
+          "details": "Four bullet points with checkmarks, describing features",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See more",
+          "location": "bottom right",
+          "approximate_dimensions": "100x30",
+          "details": "Blue underlined text, arrow icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Mobile Screenshots",
+          "location": "right",
+          "approximate_dimensions": "500x700",
+          "details": "Multiple mobile screenshots showcasing different app screens",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "42+ Screens",
+          "location": "bottom left",
+          "approximate_dimensions": "100x30",
+          "details": "Black background, white text, rounded rectangle",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Light and Dark Mode",
+          "location": "bottom left",
+          "approximate_dimensions": "150x30",
+          "details": "Black background, white text, rounded rectangle",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFC107",
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans font, varying sizes and weights",
+      "primary_purpose": "Showcasing the QStudies Online Course App UI Kit",
+      "enterprise_os_potential": "Reusable for educational or course selling platforms"
+    },
+    {
+      "screen_slug": "related_products_product_3",
+      "screen_name": "Podcast Mobile App UI Kit",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "UI Kit Information Card",
+          "location": "left",
+          "approximate_dimensions": "400x500",
+          "details": "Purple background, white text, pink button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "See more button",
+          "location": "bottom right",
+          "approximate_dimensions": "100x30",
+          "details": "Blue text, underlined",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Mobile App Screenshots",
+          "location": "right",
+          "approximate_dimensions": "Multiple images of various sizes",
+          "details": "Various mobile app screens showcasing different features",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Yellow checkmarks in circles",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "text",
+          "name": "Feature List",
+          "location": "left",
+          "approximate_dimensions": "200x200",
+          "details": "List of features with checkmarks",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "INDOCAST Badge",
+          "location": "top left",
+          "approximate_dimensions": "100x30",
+          "details": "Pink background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#7A288A",
+        "#FFFFFF",
+        "#000000",
+        "#2196F3"
+      ],
+      "typography_notes": "Open sans font used throughout the design",
+      "primary_purpose": "Showcasing a UI kit for a podcast mobile app",
+      "enterprise_os_potential": "Reusable for other mobile app UI kits or marketing materials"
+    },
+    {
+      "screen_slug": "style_guide_components_button",
+      "screen_name": "Button Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Button Type Heading",
+          "location": "left",
+          "approximate_dimensions": "200x20",
+          "details": "Black text, smaller than title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Button Description",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "Small gray text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Primary Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Blue or red fill, white text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Secondary Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Red outline, red text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Tertiary Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Gray or blue text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Link Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Blue or gray text, icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Button Icon",
+          "location": "inside buttons",
+          "approximate_dimensions": "16x16",
+          "details": "Small icon next to text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#ffffff",
+        "#blue",
+        "#red",
+        "#gray"
+      ],
+      "typography_notes": "Headings are in a large black font, descriptions are in a smaller gray font, button text is in various colors depending on the button type",
+      "primary_purpose": "To showcase different button styles and their variations",
+      "enterprise_os_potential": "This layout could be reused in a design system or style guide for an enterprise OS to demonstrate UI component variations"
+    },
+    {
+      "screen_slug": "style_guide_components_colors",
+      "screen_name": "Color Palette Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Title",
+          "location": "top",
+          "approximate_dimensions": "wide header",
+          "details": "large black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Color Swatches",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "circles with different colors and hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color Labels",
+          "location": "below icons",
+          "approximate_dimensions": "varies",
+          "details": "small text describing colors",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width",
+          "details": "thin gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#008000",
+        "#FF0000",
+        "#FFA500",
+        "#FFFF00",
+        "#00FF00",
+        "#4B0082",
+        "#800080",
+        "#808080"
+      ],
+      "typography_notes": "uses a sans-serif font, varying font sizes for headings and labels",
+      "primary_purpose": "displaying color palette options for design consistency",
+      "enterprise_os_potential": "reusable for branding and design guidelines across applications"
+    },
+    {
+      "screen_slug": "style_guide_components_components_light",
+      "screen_name": "Components Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "form",
+          "name": "User Details Form",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "Contains input fields, checkboxes, and a button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Text Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Simple text input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Checkbox",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Standard checkbox",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Submit Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Yellow button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Podcast Card",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Card with image, text, and button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Various social media icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Status Badge",
+          "location": "top right",
+          "approximate_dimensions": "50x20",
+          "details": "Color-coded status badge",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "1px height",
+          "details": "Thin line dividing sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#F7DC6F"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, with varying sizes and weights for hierarchy",
+      "primary_purpose": "To showcase various UI components for a style guide",
+      "enterprise_os_potential": "Reusable components for building consistent enterprise applications"
+    },
+    {
+      "screen_slug": "style_guide_components_typography",
+      "screen_name": "Typography Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Font Sample Card",
+          "location": "left",
+          "approximate_dimensions": "250x250",
+          "details": "Black background, white text, font samples",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Heading 1",
+          "location": "center",
+          "approximate_dimensions": "variable width, 80px height",
+          "details": "Syne font, 80px size, 120% line height",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Headings 2-8",
+          "location": "center",
+          "approximate_dimensions": "variable width, various heights",
+          "details": "Syne font, varying sizes and line heights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Body Text Samples",
+          "location": "center",
+          "approximate_dimensions": "variable width, various heights",
+          "details": "Syne font, various sizes, weights, and line heights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Syne font used throughout, various font sizes and weights demonstrated",
+      "primary_purpose": "To showcase typography guidelines for the application",
+      "enterprise_os_potential": "Reusable for style guides or documentation pages in enterprise OS applications"
+    },
+    {
+      "screen_slug": "style_guide_components_typography_responsive",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Font Sample Card",
+          "location": "left",
+          "approximate_dimensions": "250x250",
+          "details": "White background, black text, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Heading 1",
+          "location": "center",
+          "approximate_dimensions": "variable width, 40px height",
+          "details": "Font size 40px, line height 120%",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Heading 2-6",
+          "location": "center",
+          "approximate_dimensions": "variable width, varying heights",
+          "details": "Different font sizes and line heights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Body Text Samples",
+          "location": "center",
+          "approximate_dimensions": "variable width, varying heights",
+          "details": "Different font sizes, weights, and line heights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Download Font Button",
+          "location": "left",
+          "approximate_dimensions": "150x30",
+          "details": "Black background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The screen showcases various typography styles, including headings and body text, using the Syne font family.",
+      "primary_purpose": "To demonstrate typography guidelines for the application",
+      "enterprise_os_potential": "This layout could be reused as a style guide or documentation page for enterprise OS applications."
+    },
+    {
+      "screen_slug": "thumbnail_figma_thumbnail",
+      "screen_name": "Podcast Platform Website UI Kit",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "UI Kit Screenshots",
+          "location": "center",
+          "approximate_dimensions": "Multiple images of varying sizes",
+          "details": "Screenshots of different UI screens with blue backgrounds and white cards",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "Large text",
+          "details": "White text on black background, 'Podcast Platform Website UI Kit'",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "bottom",
+          "approximate_dimensions": "Three cards with text and icons",
+          "details": "White cards with black text, '35+ Premium UI Screen', 'Web & Mobile Version', 'Modern & Minimalist Design'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Figma Logo",
+          "location": "top right",
+          "approximate_dimensions": "Small icon",
+          "details": "Colorful Figma logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#0099FF",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout, varying font sizes and weights",
+      "primary_purpose": "Showcasing a UI kit for a podcast platform website",
+      "enterprise_os_potential": "Reusable components for building a modern and minimalist website"
+    }
+  ]
+}

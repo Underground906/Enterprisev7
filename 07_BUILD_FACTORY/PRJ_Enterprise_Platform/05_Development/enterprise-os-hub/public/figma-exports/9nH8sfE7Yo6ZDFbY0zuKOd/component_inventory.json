@@ -1,0 +1,630 @@
+{
+  "generated_at": "2026-02-16T23:17:35.434Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 6,
+  "successful": 6,
+  "failed": 0,
+  "component_types": {
+    "card": 4,
+    "button": 9,
+    "avatar": 2,
+    "icon": 6,
+    "tag": 1,
+    "chart": 1,
+    "badge": 1,
+    "divider": 3,
+    "table": 1,
+    "text": 3,
+    "topbar": 3,
+    "heading": 3,
+    "image": 4,
+    "footer": 3,
+    "link": 1,
+    "pricing_card": 1,
+    "social_media_icons": 1,
+    "hero": 1,
+    "testimonial": 1,
+    "input": 1
+  },
+  "reuse_categories": {
+    "data_display": 25,
+    "action": 9,
+    "layout": 6,
+    "navigation": 8,
+    "feedback": 1,
+    "input": 1
+  },
+  "layout_types": {
+    "grid": 2,
+    "centered": 4
+  },
+  "screens": [
+    {
+      "screen_slug": "component_component",
+      "screen_name": "Component Showcase",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Asset Card",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "white background, shadow, rounded corners, icon, text, button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "teal background, white text, rounded corners",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "varies",
+          "approximate_dimensions": "40x40",
+          "details": "circular, image or icon inside",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "different icons used throughout the cards",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Hashtags",
+          "location": "bottom",
+          "approximate_dimensions": "varies",
+          "details": "small, rectangular, colored background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Revenue Chart",
+          "location": "bottom",
+          "approximate_dimensions": "400x200",
+          "details": "line chart, colored lines, grid background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "small, circular, colored background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "varies",
+          "approximate_dimensions": "1px height",
+          "details": "thin, gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#F7F7F7",
+        "#4CAF50",
+        "#03A9F4",
+        "#FFC107"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Showcasing various UI components",
+      "enterprise_os_potential": "Reusable components for building complex enterprise applications"
+    },
+    {
+      "screen_slug": "thumb_frame_1",
+      "screen_name": "Logo Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Logo",
+          "location": "center",
+          "approximate_dimensions": "Large text",
+          "details": "White text on dark gray background, custom font",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Custom font used for logo, large size",
+      "primary_purpose": "Displaying a logo",
+      "enterprise_os_potential": "Could be used as a login or splash screen"
+    },
+    {
+      "screen_slug": "typography_style_typography_web",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "table",
+          "name": "Typography Comparison Table",
+          "location": "center",
+          "approximate_dimensions": "Full width, variable height",
+          "details": "Multiple tables with headers, rows for different typography styles, and columns for weight, type style, size, line-height, and character spacing",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography Headings",
+          "location": "top",
+          "approximate_dimensions": "Variable width, variable height",
+          "details": "Headings for different typography categories (e.g., DisplayXLarge, BodyLarge) with varying font sizes and weights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "Full width, 1px height",
+          "details": "Thin horizontal lines separating different typography categories",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The screen showcases various typography styles using the Open Sans font family, with different sizes, weights, and line-heights. The layout is primarily grid-based, making it easy to compare different typography styles.",
+      "primary_purpose": "To display and compare different typography styles for a web application",
+      "enterprise_os_potential": "This layout could be reused in other design systems or style guides for consistency and comparison of typography styles across different applications or platforms."
+    },
+    {
+      "screen_slug": "visual_design_app_landing_page",
+      "screen_name": "Payments Infrastructure Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "white text on teal background, contains links to Home, Products, Company, Pricing, News, Contact, and Sign Up",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "top right",
+          "approximate_dimensions": "80x30",
+          "details": "teal background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "heading",
+          "name": "Hero Heading",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "large black text on teal background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Download Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "white text on teal background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Watch our video Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "teal text on white background",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Phone Screenshot",
+          "location": "center",
+          "approximate_dimensions": "200x400",
+          "details": "screenshot of a phone with a payment app open",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "white background, contains icon, heading, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icon",
+          "location": "within card",
+          "approximate_dimensions": "20x20",
+          "details": "simple line icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Heading",
+          "location": "center",
+          "approximate_dimensions": "large",
+          "details": "large text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Section Text",
+          "location": "center",
+          "approximate_dimensions": "medium",
+          "details": "smaller text below heading",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "teal background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Illustration",
+          "location": "center",
+          "approximate_dimensions": "200x200",
+          "details": "simple illustration of a person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "contains links to Product, Status, About, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "link",
+          "name": "Footer Link",
+          "location": "within footer",
+          "approximate_dimensions": "variable",
+          "details": "text links to various pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icon",
+          "location": "within footer",
+          "approximate_dimensions": "20x20",
+          "details": "simple icons for Facebook, Instagram, Twitter",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#0097a7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To promote the payments infrastructure service and encourage sign-ups",
+      "enterprise_os_potential": "This layout could be reused for other financial services or technology landing pages"
+    },
+    {
+      "screen_slug": "visual_design_e_learning_landing_page",
+      "screen_name": "E-Learning Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Contains logo, navigation links, login, and sign up buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Orange button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Watch our video Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Transparent button with white text and play icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "400x500px",
+          "details": "Image of a person holding a laptop",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Feature Card",
+          "location": "center",
+          "approximate_dimensions": "300x200px",
+          "details": "Contains icon, heading, and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Feature Icon",
+          "location": "center",
+          "approximate_dimensions": "24x24px",
+          "details": "Colored icon representing a feature",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Heading",
+          "location": "center",
+          "approximate_dimensions": "variable x 40px",
+          "details": "Large font heading",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Section Text",
+          "location": "center",
+          "approximate_dimensions": "variable x variable",
+          "details": "Paragraph text describing a section",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "Subscription Plan Card",
+          "location": "center",
+          "approximate_dimensions": "250x300px",
+          "details": "Contains plan details, price, and select plan button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Select Plan Button",
+          "location": "center",
+          "approximate_dimensions": "150x40px",
+          "details": "Orange button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width x variable",
+          "details": "Contains company information, links, and social media icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "social_media_icons",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "variable x 24px",
+          "details": "Icons linking to social media profiles",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "To promote an e-learning platform and encourage sign-ups",
+      "enterprise_os_potential": "Could be used as a template for other educational platforms or corporate training websites"
+    },
+    {
+      "screen_slug": "visual_design_sass_landing_page",
+      "screen_name": "PR Software Landing Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Navigation Menu",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "Contains logo, navigation links, and call-to-action buttons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "hero",
+          "name": "Hero Section",
+          "location": "center",
+          "approximate_dimensions": "full width, 600px height",
+          "details": "Features headline, subheading, call-to-action button, and background image",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "card",
+          "name": "Feature Cards",
+          "location": "center",
+          "approximate_dimensions": "300px x 200px",
+          "details": "Displays features with icons, headings, and descriptions",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "testimonial",
+          "name": "Customer Testimonial",
+          "location": "center",
+          "approximate_dimensions": "400px x 200px",
+          "details": "Features customer quote, name, and company logo",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Call-to-Action Button",
+          "location": "center",
+          "approximate_dimensions": "150px x 40px",
+          "details": "Styled with a prominent color and hover effect",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "center",
+          "approximate_dimensions": "300px x 40px",
+          "details": "Simple text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "Contains copyright information, social media links, and other secondary links",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20px x 20px",
+          "details": "Features icons for various social media platforms",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Simple horizontal divider",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Background Image",
+          "location": "center",
+          "approximate_dimensions": "full width, variable height",
+          "details": "Features a background image with a subtle gradient effect",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "avatar",
+          "name": "Customer Avatar",
+          "location": "center",
+          "approximate_dimensions": "40px x 40px",
+          "details": "Features a circular avatar with a customer image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#4567b7",
+        "#6495ed"
+      ],
+      "typography_notes": "Uses a clean sans-serif font with varying font sizes and weights",
+      "primary_purpose": "To promote PR software and encourage sign-ups",
+      "enterprise_os_potential": "Could be reused as a landing page template for other software products"
+    }
+  ]
+}

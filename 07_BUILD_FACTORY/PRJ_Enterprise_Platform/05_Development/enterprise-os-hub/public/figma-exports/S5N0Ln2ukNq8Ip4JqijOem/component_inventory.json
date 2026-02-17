@@ -1,0 +1,479 @@
+{
+  "generated_at": "2026-02-16T20:08:30.625Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 5,
+  "successful": 4,
+  "failed": 1,
+  "component_types": {
+    "icon": 5,
+    "label": 1,
+    "button": 1,
+    "input": 1,
+    "checkbox": 1,
+    "radio": 1,
+    "avatar": 1,
+    "card": 2,
+    "pagination": 1,
+    "topbar": 2,
+    "heading": 1,
+    "grid": 1,
+    "color_swatch": 1,
+    "text": 3,
+    "divider": 1,
+    "search_bar": 1,
+    "dropdown": 4,
+    "tabs": 1,
+    "image": 1,
+    "badge": 1,
+    "map": 1
+  },
+  "reuse_categories": {
+    "data_display": 16,
+    "action": 1,
+    "input": 8,
+    "navigation": 6,
+    "layout": 1
+  },
+  "layout_types": {
+    "grid": 1,
+    "centered": 2,
+    "split": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "component_component",
+      "screen_name": "UI Component Library",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Logo Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Red and white logo icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "label",
+          "name": "Section Label",
+          "location": "top",
+          "approximate_dimensions": "variable width, 20px height",
+          "details": "Black text on white background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Premium Button",
+          "location": "bottom right",
+          "approximate_dimensions": "120x30",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Form Input",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Black text, white background, gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "checkbox",
+          "name": "Checkbox",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Black border, white background, orange checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Radio Button",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Black border, white background, orange fill",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with gray border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Finance Icons",
+          "location": "center",
+          "approximate_dimensions": "variable",
+          "details": "Various finance-related icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Video Card",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Image with gray border, white background, black text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination",
+          "location": "center",
+          "approximate_dimensions": "variable width, 30px height",
+          "details": "Gray background, black text, orange active page",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#FFC107",
+        "#2196F3",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "To showcase UI components for a design system",
+      "enterprise_os_potential": "Reusable components for building complex enterprise applications"
+    },
+    {
+      "screen_slug": "icons_icon_general",
+      "error": "Image too large - images can contain at most 33177600 pixels. but image contained 33548944",
+      "screen_type": "unknown",
+      "components": []
+    },
+    {
+      "screen_slug": "stye_guide_color_style",
+      "screen_name": "Color Styles Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Header Bar",
+          "location": "top",
+          "approximate_dimensions": "full width x 60px",
+          "details": "Black background, white text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Figma Logo",
+          "location": "top right",
+          "approximate_dimensions": "24x24",
+          "details": "White fill",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Color Styles Heading",
+          "location": "top",
+          "approximate_dimensions": "variable width x 24px",
+          "details": "White text, large font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "grid",
+          "name": "Color Palette Grid",
+          "location": "center",
+          "approximate_dimensions": "variable width x variable height",
+          "details": "Multiple color swatches arranged in a grid",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color_swatch",
+          "name": "Color Swatches",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Various colors with hex codes and labels",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Color Labels",
+          "location": "below color swatches",
+          "approximate_dimensions": "variable width x 16px",
+          "details": "Black text, small font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#72070A",
+        "#8A100C",
+        "#AB2313",
+        "#CC3B18",
+        "#EE5826",
+        "#FFFFFF",
+        "#345302",
+        "#055467",
+        "#097380",
+        "#0D9699",
+        "#12B3A8",
+        "#44D1B8",
+        "#6AE8C9",
+        "#9EF7D9",
+        "#CEFBE7",
+        "#5F103B",
+        "#721A43",
+        "#8E2A4E",
+        "#AA3D5A",
+        "#C65468",
+        "#DC7D85",
+        "#ED9C9B",
+        "#F9C6BF",
+        "#FCE4DF",
+        "#713F09",
+        "#88520F",
+        "#A96E18",
+        "#CA8B23",
+        "#ECAC31",
+        "#F3C762",
+        "#F9D982",
+        "#FDEAAC",
+        "#FEF5D5",
+        "#0E216E",
+        "#183285",
+        "#2A60B7",
+        "#3863C6",
+        "#4D81E7",
+        "#78A5F0",
+        "#94BDF7",
+        "#B9D6FC",
+        "#DBECFD",
+        "#0A070E",
+        "#080B11",
+        "#0D1015",
+        "#131619",
+        "#1A1C1E",
+        "#6C7278",
+        "#ACB5BB",
+        "#DCE4E8",
+        "#EDF1F3"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Displaying color styles for design system",
+      "enterprise_os_potential": "Reusable color palette for branding and UI components"
+    },
+    {
+      "screen_slug": "style_guide_typography",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Heading",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Text Styles heading in white on black background",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Figma logo",
+          "location": "top right",
+          "approximate_dimensions": "24x24",
+          "details": "White Figma logo on black background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Typography examples",
+          "location": "center",
+          "approximate_dimensions": "various",
+          "details": "Various font sizes and styles (Regular, Medium, SemiBold) with sample text 'The quick brown fox jumps over the lazy dog'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width",
+          "details": "Implicit dividers between typography sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "The screen showcases three font weights (Regular, Medium, SemiBold) across various font sizes, demonstrating a consistent typography system.",
+      "primary_purpose": "To display and guide the use of typography styles within the application or system.",
+      "enterprise_os_potential": "This typography guide can be reused across different enterprise applications for consistency in branding and readability."
+    },
+    {
+      "screen_slug": "thumbnail_thumbnail",
+      "screen_name": "Fitness Class Dashboard",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "Contains logo, search bar, location selector, and navigation links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with placeholder text 'Pilates, Yoga, massage...'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Category Dropdown",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Dropdown menu with label 'Fitness'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Activities Dropdown",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Dropdown menu with label 'Activities'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Date Dropdown",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Dropdown menu with label '01 Jan 25'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Time Dropdown",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "Dropdown menu with label 'Anytime'",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tabs",
+          "name": "Class Type Tabs",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Tabs with labels 'Classes' and 'Studios'",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Class Card",
+          "location": "center",
+          "approximate_dimensions": "300x150",
+          "details": "Card containing class information, including image, title, rating, and location",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Class Image",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "Image representing the fitness class",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Rating Icon",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Star icon representing the class rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Credit Badge",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "Badge displaying the number of credits",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "map",
+          "name": "Location Map",
+          "location": "right",
+          "approximate_dimensions": "300x400",
+          "details": "Map displaying the location of the fitness studios",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFC107",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "typography_notes": "Open sans font used throughout the interface",
+      "primary_purpose": "To display a list of fitness classes and their details",
+      "enterprise_os_potential": "This layout could be reused in other enterprise applications that require a dashboard for displaying information about services or products"
+    }
+  ],
+  "repaired_at": "2026-02-17T07:41:55.693Z"
+}

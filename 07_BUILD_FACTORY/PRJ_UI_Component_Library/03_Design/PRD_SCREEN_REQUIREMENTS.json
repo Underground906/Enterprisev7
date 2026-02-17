@@ -1,0 +1,3538 @@
+{
+  "generated_at": "2026-02-17",
+  "source_files": [
+    "07_BUILD_FACTORY/PRJ_Property_Connect_London/02_Product/PRD_COMPLETE_BUILD_SPEC.md",
+    "07_BUILD_FACTORY/PRJ_Property_Connect_London/02_Product/PRD_AI_APPS_COMPLETE.md",
+    "07_BUILD_FACTORY/PRJ_Fitness_Platform/02_Product/PRD_COMPLETE_BUILD_SPEC.md"
+  ],
+  "summary": {
+    "total_screens": 174,
+    "property_platform": 102,
+    "property_ai_apps": 56,
+    "fitness_platform": 16
+  },
+  "platforms": {
+    "property_platform": {
+      "total_screens": 102,
+      "phases": {
+        "P1": {
+          "name": "Marketing Site",
+          "screen_count": 17
+        },
+        "P2": {
+          "name": "Spokes",
+          "screen_count": 12
+        },
+        "P3": {
+          "name": "Platform Public",
+          "screen_count": 11
+        },
+        "P4": {
+          "name": "Professional Dashboard",
+          "screen_count": 34
+        },
+        "P5": {
+          "name": "Consumer Dashboard",
+          "screen_count": 28
+        }
+      },
+      "screens": [
+        {
+          "screen_id": "MKT_01",
+          "name": "Homepage",
+          "route": "/",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "topbar",
+            "button",
+            "card",
+            "tabs",
+            "carousel",
+            "accordion",
+            "form",
+            "badge",
+            "modal",
+            "search_bar"
+          ],
+          "priority": "high",
+          "notes": "16-section marketing page. Hero, problem/agitation/solution, channel showcase cards, pricing preview, FAQ accordion, newsletter signup form, trust badges, dual CTAs."
+        },
+        {
+          "screen_id": "MKT_02",
+          "name": "Video Production Service",
+          "route": "/services/video-production",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "carousel",
+            "accordion",
+            "progress"
+          ],
+          "priority": "high",
+          "notes": "Service page pattern: hero, deliverable cards, pricing packages, process steps, portfolio gallery, testimonial carousel, FAQ, CTA."
+        },
+        {
+          "screen_id": "MKT_03",
+          "name": "Magazine Advertising",
+          "route": "/services/magazine",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "carousel",
+            "accordion",
+            "map"
+          ],
+          "priority": "high",
+          "notes": "Service page pattern. Includes interactive London borough distribution map."
+        },
+        {
+          "screen_id": "MKT_04",
+          "name": "Podcast Guest Service",
+          "route": "/services/podcast",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "carousel",
+            "accordion"
+          ],
+          "priority": "high",
+          "notes": "Service page pattern. Episode audio samples."
+        },
+        {
+          "screen_id": "MKT_05",
+          "name": "Sponsorship Packages",
+          "route": "/services/sponsorship",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "carousel",
+            "accordion",
+            "form"
+          ],
+          "priority": "high",
+          "notes": "Service page pattern. Includes interactive ROI calculator."
+        },
+        {
+          "screen_id": "MKT_06",
+          "name": "Content & Platform Marketing",
+          "route": "/services/content-marketing",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "carousel",
+            "accordion"
+          ],
+          "priority": "high",
+          "notes": "Service page pattern. Content creation + SEO packages."
+        },
+        {
+          "screen_id": "MKT_07",
+          "name": "Pricing",
+          "route": "/pricing",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "toggle",
+            "card",
+            "table",
+            "badge",
+            "button",
+            "accordion",
+            "form"
+          ],
+          "priority": "high",
+          "notes": "Pro/Consumer toggle. Pricing cards, feature comparison table, annual discount badges, enterprise custom form."
+        },
+        {
+          "screen_id": "MKT_08",
+          "name": "Free Video Funnel Landing",
+          "route": "/free-video",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "form",
+            "button",
+            "card",
+            "video_player"
+          ],
+          "priority": "high",
+          "notes": "Lead gen landing. Application form, social proof video, upsell path."
+        },
+        {
+          "screen_id": "MKT_09",
+          "name": "About / Our Story",
+          "route": "/about",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "timeline"
+          ],
+          "priority": "medium",
+          "notes": "Mission, founder story, platform vision timeline, press section."
+        },
+        {
+          "screen_id": "MKT_10",
+          "name": "Contact",
+          "route": "/contact",
+          "layout": "split",
+          "layout_code": "SP",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "form",
+            "button",
+            "dropdown",
+            "accordion"
+          ],
+          "priority": "medium",
+          "notes": "Contact form with type dropdown (Professional/Consumer/Press/Partnership). FAQ section."
+        },
+        {
+          "screen_id": "MKT_11",
+          "name": "Login",
+          "route": "/login",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "form",
+            "input",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Email/password form, social login (Google, Apple, LinkedIn), forgot password link."
+        },
+        {
+          "screen_id": "MKT_12",
+          "name": "Register",
+          "route": "/register",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "form",
+            "input",
+            "button",
+            "dropdown",
+            "progress"
+          ],
+          "priority": "high",
+          "notes": "3-step registration: role selection, account details, profile basics. Email verification flow."
+        },
+        {
+          "screen_id": "MKT_13",
+          "name": "Terms of Service",
+          "route": "/terms",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "breadcrumb"
+          ],
+          "priority": "low",
+          "notes": "Legal page, static content."
+        },
+        {
+          "screen_id": "MKT_14",
+          "name": "Privacy Policy",
+          "route": "/privacy",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "breadcrumb"
+          ],
+          "priority": "low",
+          "notes": "Legal page, static content."
+        },
+        {
+          "screen_id": "MKT_15",
+          "name": "Cookie Policy",
+          "route": "/cookies",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "breadcrumb"
+          ],
+          "priority": "low",
+          "notes": "Legal page, static content."
+        },
+        {
+          "screen_id": "MKT_16",
+          "name": "404 Not Found",
+          "route": "/404",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Error page with redirect CTA."
+        },
+        {
+          "screen_id": "MKT_17",
+          "name": "Sitemap",
+          "route": "/sitemap",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 1,
+          "permission": "Public",
+          "components_needed": [],
+          "priority": "low",
+          "notes": "HTML sitemap for SEO."
+        },
+        {
+          "screen_id": "SPK_01",
+          "name": "Magazine Hub",
+          "route": "/magazine",
+          "layout": "grid",
+          "layout_code": "GR",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "tabs",
+            "dropdown",
+            "badge",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Editorial grid. Current issue hero, featured articles card grid, category nav tabs, borough selector dropdown, subscribe banner, archive browser."
+        },
+        {
+          "screen_id": "SPK_02",
+          "name": "Magazine Article",
+          "route": "/magazine/:slug",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 2,
+          "permission": "Public/Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "avatar",
+            "badge",
+            "button",
+            "chart"
+          ],
+          "priority": "high",
+          "notes": "Article with sidebar. Author card with avatar, borough data sidebar, related articles, share bar, QR-to-video link."
+        },
+        {
+          "screen_id": "SPK_03",
+          "name": "Newsletter Hub",
+          "route": "/newsletter",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "form",
+            "input",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "7 edition cards, signup form with multi-select, sample preview, subscriber stats, pricing."
+        },
+        {
+          "screen_id": "SPK_04",
+          "name": "Podcast Hub",
+          "route": "/podcast",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "tabs",
+            "button",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Podcast hero, episode list, topic filter tabs, sticky audio player, guest CTA sidebar, sponsor badges."
+        },
+        {
+          "screen_id": "SPK_05",
+          "name": "Video / CTV Hub",
+          "route": "/watch",
+          "layout": "grid",
+          "layout_code": "GR",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "tabs",
+            "badge",
+            "button",
+            "video_player"
+          ],
+          "priority": "medium",
+          "notes": "Video grid. Auto-play hero, platform selector tabs, CTV platform badges, production CTA."
+        },
+        {
+          "screen_id": "SPK_06",
+          "name": "Video Player",
+          "route": "/watch/:slug",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "video_player",
+            "card",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Video focus layout. Mux/YouTube embed, related videos, professional card sidebar, property card sidebar, share bar."
+        },
+        {
+          "screen_id": "SPK_07",
+          "name": "Social Hub",
+          "route": "/social-channels",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "button",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Links to social channels with follower counts, content highlights, follow CTAs."
+        },
+        {
+          "screen_id": "SPK_08",
+          "name": "Magazine Subscribe",
+          "route": "/magazine/subscribe",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "form",
+            "input",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Print subscription form: address, payment, edition preferences."
+        },
+        {
+          "screen_id": "SPK_09",
+          "name": "Podcast Episode Detail",
+          "route": "/podcast/:slug",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "button",
+            "tabs"
+          ],
+          "priority": "medium",
+          "notes": "Full episode page: player, show notes, guest bio, transcript, related episodes."
+        },
+        {
+          "screen_id": "SPK_10",
+          "name": "Newsletter Archive",
+          "route": "/newsletter/archive",
+          "layout": "grid",
+          "layout_code": "GR",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "dropdown",
+            "tabs"
+          ],
+          "priority": "low",
+          "notes": "Past editions browsable by date and edition type."
+        },
+        {
+          "screen_id": "SPK_11",
+          "name": "Events Hub",
+          "route": "/events",
+          "layout": "grid",
+          "layout_code": "GR",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "calendar",
+            "button",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Upcoming property events, webinars, open houses. RSVP/booking integration."
+        },
+        {
+          "screen_id": "SPK_12",
+          "name": "Content Hub",
+          "route": "/content",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 2,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "tabs",
+            "dropdown"
+          ],
+          "priority": "medium",
+          "notes": "Unified search across all content types. Filter by type, topic, borough, date."
+        },
+        {
+          "screen_id": "PUB_01",
+          "name": "Property Search",
+          "route": "/properties",
+          "layout": "split",
+          "layout_code": "MP",
+          "phase": 3,
+          "permission": "Public/Free/Premium",
+          "components_needed": [
+            "search_bar",
+            "input",
+            "map",
+            "card",
+            "button",
+            "dropdown",
+            "modal",
+            "toggle"
+          ],
+          "priority": "high",
+          "notes": "Map+list split view. Mapbox GL, property pins, filter bar (price slider, beds, type), advanced filters, save search, view toggle (List/Grid/Map), sort dropdown."
+        },
+        {
+          "screen_id": "PUB_02",
+          "name": "Property Detail",
+          "route": "/properties/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public/Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "carousel",
+            "card",
+            "map",
+            "chart",
+            "button",
+            "badge",
+            "modal",
+            "calendar",
+            "tabs"
+          ],
+          "priority": "high",
+          "notes": "Image gallery carousel, key facts bar, floor plan, location map, nearby amenities, market context card (premium), agent card sidebar, similar properties, EPC energy chart, modals for contact/viewing/report."
+        },
+        {
+          "screen_id": "PUB_03",
+          "name": "Area Explorer",
+          "route": "/areas",
+          "layout": "split",
+          "layout_code": "MP",
+          "phase": 3,
+          "permission": "Public/Premium",
+          "components_needed": [
+            "map",
+            "card",
+            "toggle",
+            "sidebar"
+          ],
+          "priority": "high",
+          "notes": "Interactive London borough map. Colour-coded by metric. Borough card sidebar, data layer toggles, area detail panel, comparison tool, neighbourhood list, People Like You card (Premium)."
+        },
+        {
+          "screen_id": "PUB_04",
+          "name": "Professional Directory",
+          "route": "/professionals",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "input",
+            "tabs",
+            "card",
+            "badge",
+            "carousel",
+            "dropdown"
+          ],
+          "priority": "high",
+          "notes": "Filter sidebar + card grid. Category tabs, professional cards with rating/badges, featured carousel, sort dropdown."
+        },
+        {
+          "screen_id": "PUB_05",
+          "name": "Professional Profile",
+          "route": "/professionals/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "badge",
+            "avatar",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Profile header with avatar/verification badge, about, services card grid, portfolio gallery, reviews list, stats sidebar, contact sidebar, active listings, published content."
+        },
+        {
+          "screen_id": "PUB_06",
+          "name": "Content Hub (Public)",
+          "route": "/content",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "tabs",
+            "dropdown"
+          ],
+          "priority": "medium",
+          "notes": "Unified content search across articles, videos, podcasts, reports. Trending section."
+        },
+        {
+          "screen_id": "PUB_07",
+          "name": "Market Intelligence",
+          "route": "/market",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "chart",
+            "card",
+            "form",
+            "map"
+          ],
+          "priority": "medium",
+          "notes": "Public market dashboard. Borough-level pricing, trends, volume. Interactive charts. Gated reports (email capture)."
+        },
+        {
+          "screen_id": "PUB_08",
+          "name": "Knowledge Hub",
+          "route": "/learn",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "tabs",
+            "form"
+          ],
+          "priority": "medium",
+          "notes": "Guides for all user types. Step-by-step journey guides. Calculators (mortgage, stamp duty, affordability, rental yield)."
+        },
+        {
+          "screen_id": "PUB_09",
+          "name": "Service Marketplace",
+          "route": "/marketplace",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "form",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Vetted service providers. Quote request system (multi-provider). Transaction-verified reviews."
+        },
+        {
+          "screen_id": "PUB_10",
+          "name": "Events (Public)",
+          "route": "/events",
+          "layout": "grid",
+          "layout_code": "GR",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "card",
+            "calendar",
+            "button",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Property events, webinars, open houses. RSVP/booking, calendar integration."
+        },
+        {
+          "screen_id": "PUB_11",
+          "name": "Sustainability Hub",
+          "route": "/sustainability",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 3,
+          "permission": "Public",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "form"
+          ],
+          "priority": "low",
+          "notes": "EPC data explorer, green professional directory, government grant finder, carbon footprint calculator."
+        },
+        {
+          "screen_id": "PRO_01",
+          "name": "Dashboard Home",
+          "route": "/pro",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "notification",
+            "button",
+            "badge",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "Quick stats row, live intent dashboard (Business+), activity feed, market pulse sidebar, alert centre, quick actions, revenue forecast chart (Enterprise)."
+        },
+        {
+          "screen_id": "PRO_02",
+          "name": "Lead Management",
+          "route": "/pro/leads",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "kanban",
+            "card",
+            "badge",
+            "chart",
+            "button",
+            "modal",
+            "search_bar",
+            "dropdown"
+          ],
+          "priority": "high",
+          "notes": "Kanban/list/map views. Lead cards with intent score badges (colour-coded). Lead detail panel. Buyer readiness chart. AI recommended approach. Smart routing. Filter/search bar."
+        },
+        {
+          "screen_id": "PRO_03",
+          "name": "Listings Management",
+          "route": "/pro/listings",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "card",
+            "badge",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Listing table with performance metrics. Add listing button. Listing detail panel. Issue detection alerts. Portal syndication badges. Bulk actions toolbar."
+        },
+        {
+          "screen_id": "PRO_04",
+          "name": "Content Management",
+          "route": "/pro/content",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "button",
+            "calendar",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Content list table, create button, content editor, AI content assistant sidebar (Business+), publishing calendar, content-to-lead funnel."
+        },
+        {
+          "screen_id": "PRO_05",
+          "name": "Client Management / CRM",
+          "route": "/pro/clients",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "card",
+            "timeline",
+            "notification"
+          ],
+          "priority": "medium",
+          "notes": "Client database with lifecycle tracking, communication logs, referral tracking. Past client activity alerts. Remortgage reminders."
+        },
+        {
+          "screen_id": "PRO_06",
+          "name": "Analytics & Reporting",
+          "route": "/pro/analytics",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "card",
+            "table",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Performance dashboards: listing views, lead conversion, revenue. Competitive benchmarking. Custom report builder (Enterprise). PDF/CSV export."
+        },
+        {
+          "screen_id": "PRO_07",
+          "name": "Market Intelligence",
+          "route": "/pro/market",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "map",
+            "chart",
+            "card",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Demand heatmaps, live search volume, competitor intelligence, timing intelligence, prediction engine (Business+)."
+        },
+        {
+          "screen_id": "PRO_08",
+          "name": "AI Tools Hub",
+          "route": "/pro/ai-tools",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "badge",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "App launcher grid. Usage stats per app. Explore more tools upgrade CTA."
+        },
+        {
+          "screen_id": "PRO_09",
+          "name": "Team Management",
+          "route": "/pro/team",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "card",
+            "chart",
+            "dropdown"
+          ],
+          "priority": "medium",
+          "notes": "Team member list with roles/permissions, workload distribution, lead assignment rules, performance comparison. Multi-branch command center (Enterprise)."
+        },
+        {
+          "screen_id": "PRO_10",
+          "name": "Business Profile",
+          "route": "/pro/profile",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "button",
+            "badge",
+            "avatar"
+          ],
+          "priority": "medium",
+          "notes": "Public profile editor (bio, services, portfolio, certifications). Verification management. Review management."
+        },
+        {
+          "screen_id": "PRO_11",
+          "name": "Marketing Tools",
+          "route": "/pro/marketing",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "table",
+            "button",
+            "form"
+          ],
+          "priority": "low",
+          "notes": "Campaign management, email templates, promotion packages, referral program dashboard."
+        },
+        {
+          "screen_id": "PRO_12",
+          "name": "Learning Centre",
+          "route": "/pro/learning",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "video_player",
+            "progress"
+          ],
+          "priority": "low",
+          "notes": "Courses, webinars, best practices, industry research library, platform tutorials."
+        },
+        {
+          "screen_id": "PRO_13",
+          "name": "Community",
+          "route": "/pro/community",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "tabs",
+            "avatar",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Professional networking, discussion forums by category, events."
+        },
+        {
+          "screen_id": "PRO_14",
+          "name": "Settings",
+          "route": "/pro/settings",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "toggle",
+            "button",
+            "tabs"
+          ],
+          "priority": "medium",
+          "notes": "Account settings, billing, integrations (CRM, portal feeds). Notification preferences. API keys (Enterprise). White-label config (Enterprise)."
+        },
+        {
+          "screen_id": "PRO_15",
+          "name": "Listing Analytics Deep Dive",
+          "route": "/pro/listings/:id/analytics",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "card",
+            "table",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Per-listing analytics: WHO is looking (buyer types), repeat viewers, comparisons, calculator usage, hot leads."
+        },
+        {
+          "screen_id": "PRO_16",
+          "name": "Lead Detail View",
+          "route": "/pro/leads/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "badge",
+            "timeline",
+            "button",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "Full behavioural profile: platform searches, properties viewed, calculator usage, content consumed, enquiries sent. Intent score. Buyer readiness breakdown. AI recommended approach."
+        },
+        {
+          "screen_id": "PRO_17",
+          "name": "Content Editor",
+          "route": "/pro/content/edit/:id",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "form",
+            "input",
+            "button",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Rich text editor with image upload, video embed, SEO fields, preview."
+        },
+        {
+          "screen_id": "PRO_18",
+          "name": "Listing Creation Wizard",
+          "route": "/pro/listings/new",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "form",
+            "input",
+            "button",
+            "progress",
+            "dropdown"
+          ],
+          "priority": "high",
+          "notes": "Multi-step listing creation with property details, photos, floor plans, pricing."
+        },
+        {
+          "screen_id": "PRO_19",
+          "name": "Demand Heatmap View",
+          "route": "/pro/market/heatmap",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 4,
+          "permission": "Business+",
+          "components_needed": [
+            "map",
+            "toggle",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Full-screen demand heatmap. Visual map of demand vs supply in territory."
+        },
+        {
+          "screen_id": "PRO_20",
+          "name": "Competitor Benchmarking",
+          "route": "/pro/market/competitors",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Business+",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "table",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Anonymised competitor comparison: response time, conversion, reviews."
+        },
+        {
+          "screen_id": "PRO_21",
+          "name": "Prediction Engine",
+          "route": "/pro/market/predictions",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Business+",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "card",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Lead conversion probability, market trends forecasting."
+        },
+        {
+          "screen_id": "PRO_22",
+          "name": "Custom Report Builder",
+          "route": "/pro/analytics/reports",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Enterprise",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "dropdown",
+            "chart",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Enterprise custom report builder with PDF/CSV export."
+        },
+        {
+          "screen_id": "PRO_23",
+          "name": "Team Performance Dashboard",
+          "route": "/pro/team/performance",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "table",
+            "card",
+            "avatar"
+          ],
+          "priority": "medium",
+          "notes": "Performance comparison across team members."
+        },
+        {
+          "screen_id": "PRO_24",
+          "name": "Lead Assignment Rules",
+          "route": "/pro/team/rules",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "table",
+            "dropdown",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Configure lead auto-assignment rules based on speciality, performance, availability."
+        },
+        {
+          "screen_id": "PRO_25",
+          "name": "Verification Management",
+          "route": "/pro/profile/verification",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "badge",
+            "button",
+            "progress"
+          ],
+          "priority": "medium",
+          "notes": "Upload credentials, request verification, track verification status."
+        },
+        {
+          "screen_id": "PRO_26",
+          "name": "Review Management",
+          "route": "/pro/profile/reviews",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "button",
+            "form"
+          ],
+          "priority": "medium",
+          "notes": "Respond to reviews, request reviews from clients."
+        },
+        {
+          "screen_id": "PRO_27",
+          "name": "Campaign Management",
+          "route": "/pro/marketing/campaigns",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "card",
+            "button",
+            "chart"
+          ],
+          "priority": "low",
+          "notes": "Email campaign management with templates and analytics."
+        },
+        {
+          "screen_id": "PRO_28",
+          "name": "Referral Program",
+          "route": "/pro/marketing/referrals",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Referral program dashboard with tracking and rewards."
+        },
+        {
+          "screen_id": "PRO_29",
+          "name": "Integrations Settings",
+          "route": "/pro/settings/integrations",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "toggle",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "CRM integrations (Reapit, Alto, Street), calendar, portal feeds."
+        },
+        {
+          "screen_id": "PRO_30",
+          "name": "API Keys Management",
+          "route": "/pro/settings/api",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Enterprise",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "button",
+            "modal"
+          ],
+          "priority": "low",
+          "notes": "Enterprise API key management."
+        },
+        {
+          "screen_id": "PRO_31",
+          "name": "White-Label Configuration",
+          "route": "/pro/settings/white-label",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Enterprise",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Enterprise white-label branding configuration."
+        },
+        {
+          "screen_id": "PRO_32",
+          "name": "Billing & Subscription",
+          "route": "/pro/settings/billing",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "table",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Current plan, invoices, payment method, upgrade/downgrade."
+        },
+        {
+          "screen_id": "PRO_33",
+          "name": "Multi-Branch Command Center",
+          "route": "/pro/branches",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Enterprise",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "map"
+          ],
+          "priority": "low",
+          "notes": "Aggregate view across all branches. Lead routing between branches. Performance benchmarking."
+        },
+        {
+          "screen_id": "PRO_34",
+          "name": "Notification Preferences",
+          "route": "/pro/settings/notifications",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 4,
+          "permission": "Pro+",
+          "components_needed": [
+            "sidebar",
+            "toggle",
+            "form"
+          ],
+          "priority": "medium",
+          "notes": "Configurable notification preferences for leads, reviews, opportunities."
+        },
+        {
+          "screen_id": "CON_01",
+          "name": "Consumer Dashboard Home",
+          "route": "/my",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "progress",
+            "button",
+            "badge"
+          ],
+          "priority": "high",
+          "notes": "Journey stage card with progress bar, matched professionals grid with match scores, property alerts list, quick actions, recommended next steps (AI), People Like You (Premium), saved properties."
+        },
+        {
+          "screen_id": "CON_02",
+          "name": "Property Search & Saved",
+          "route": "/my/properties",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "map",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Enhanced search with saved context. Saved properties with notes. Side-by-side comparison (up to 3). AI recommendations (Premium)."
+        },
+        {
+          "screen_id": "CON_03",
+          "name": "Area Research",
+          "route": "/my/areas",
+          "layout": "split",
+          "layout_code": "MP",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "map",
+            "card",
+            "sidebar",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Personal area shortlist. Enhanced neighbourhood data (crime, schools, transport, demographics). Community reviews. Ask a Local (Premium)."
+        },
+        {
+          "screen_id": "CON_04",
+          "name": "Financial Tools",
+          "route": "/my/tools",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "7 calculators: mortgage, stamp duty, affordability, rental yield, budget planner, buy vs rent, remortgage."
+        },
+        {
+          "screen_id": "CON_05",
+          "name": "Purchase/Sale Tracker",
+          "route": "/my/tracker",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "card",
+            "progress",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Timeline milestones (offer to completion), document checklist, chain status view, communication log."
+        },
+        {
+          "screen_id": "CON_06",
+          "name": "Landlord Dashboard",
+          "route": "/my/landlord",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "calendar",
+            "notification"
+          ],
+          "priority": "medium",
+          "notes": "Portfolio overview (properties, rental income, expenses). Rent tracking + arrears alerts. Compliance calendar. Maintenance request management."
+        },
+        {
+          "screen_id": "CON_07",
+          "name": "Investment Tools",
+          "route": "/my/invest",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card",
+            "notification"
+          ],
+          "priority": "medium",
+          "notes": "ROI calculator, portfolio tracker, market insights, deal alerts, auction listings."
+        },
+        {
+          "screen_id": "CON_08",
+          "name": "Home Improvement Tools",
+          "route": "/my/improve",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "card",
+            "progress",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Planning checker, renovation cost calculator, contractor finder, project tracker."
+        },
+        {
+          "screen_id": "CON_09",
+          "name": "Expert Finder",
+          "route": "/my/experts",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "search_bar",
+            "badge",
+            "avatar",
+            "calendar"
+          ],
+          "priority": "medium",
+          "notes": "Enhanced directory with personal matching. Consultation booking. Comparison tool for professionals."
+        },
+        {
+          "screen_id": "CON_10",
+          "name": "Learning Hub",
+          "route": "/my/learn",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "video_player",
+            "progress",
+            "tabs"
+          ],
+          "priority": "low",
+          "notes": "Step-by-step guides, video tutorials, articles, templates, checklists."
+        },
+        {
+          "screen_id": "CON_11",
+          "name": "AI Property Advisor",
+          "route": "/my/advisor",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "sidebar",
+            "chat",
+            "card",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Chat interface with AI property advisor. Personalized recommendations. 24/7 Q&A."
+        },
+        {
+          "screen_id": "CON_12",
+          "name": "Journey Roadmaps",
+          "route": "/my/roadmap",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "progress",
+            "card",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Customized step-by-step guide per journey type. Progress tracking vs typical timeline. Celebration milestones."
+        },
+        {
+          "screen_id": "CON_13",
+          "name": "Community",
+          "route": "/my/community",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "tabs",
+            "avatar",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Per-borough forums. Verified resident reviews. Local expert identification."
+        },
+        {
+          "screen_id": "CON_14",
+          "name": "Settings",
+          "route": "/my/settings",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "toggle",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Profile, preferences, notification controls, subscription management, data export, privacy controls."
+        },
+        {
+          "screen_id": "CON_15",
+          "name": "Saved Properties Manager",
+          "route": "/my/properties/saved",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "button",
+            "table"
+          ],
+          "priority": "medium",
+          "notes": "Saved properties with notes, comparison tool for up to 3 properties."
+        },
+        {
+          "screen_id": "CON_16",
+          "name": "Property Comparison",
+          "route": "/my/properties/compare",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": 5,
+          "permission": "Free/Premium",
+          "components_needed": [
+            "card",
+            "table",
+            "chart",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Side-by-side comparison of 2-3 properties with all metrics."
+        },
+        {
+          "screen_id": "CON_17",
+          "name": "Mortgage Calculator",
+          "route": "/my/tools/mortgage",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Monthly payments, affordability, comparison calculator."
+        },
+        {
+          "screen_id": "CON_18",
+          "name": "Stamp Duty Calculator",
+          "route": "/my/tools/stamp-duty",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "SDLT calculation with FTB relief."
+        },
+        {
+          "screen_id": "CON_19",
+          "name": "Affordability Checker",
+          "route": "/my/tools/affordability",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Income, debts, deposit -> max purchase price."
+        },
+        {
+          "screen_id": "CON_20",
+          "name": "Rental Yield Calculator",
+          "route": "/my/tools/rental-yield",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "For investor users. Yield calculations."
+        },
+        {
+          "screen_id": "CON_21",
+          "name": "Budget Planner",
+          "route": "/my/tools/budget",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Premium",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Full monthly budget analysis."
+        },
+        {
+          "screen_id": "CON_22",
+          "name": "Buy vs Rent Comparison",
+          "route": "/my/tools/buy-vs-rent",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Premium",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Long-term cost analysis."
+        },
+        {
+          "screen_id": "CON_23",
+          "name": "Remortgage Calculator",
+          "route": "/my/tools/remortgage",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Premium",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Should I remortgage? Analysis tool."
+        },
+        {
+          "screen_id": "CON_24",
+          "name": "Subscription Management",
+          "route": "/my/settings/subscription",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Current plan, upgrade/downgrade, billing history."
+        },
+        {
+          "screen_id": "CON_25",
+          "name": "Notification Preferences",
+          "route": "/my/settings/notifications",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "toggle",
+            "form"
+          ],
+          "priority": "low",
+          "notes": "Email/push notification preferences per category."
+        },
+        {
+          "screen_id": "CON_26",
+          "name": "Data Export & Privacy",
+          "route": "/my/settings/data",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "button",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Export all data, privacy controls, delete account."
+        },
+        {
+          "screen_id": "CON_27",
+          "name": "Property Alerts Management",
+          "route": "/my/alerts",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "toggle",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Manage saved search alerts, frequency settings, enable/disable."
+        },
+        {
+          "screen_id": "CON_28",
+          "name": "Onboarding Flow",
+          "route": "/my/onboarding",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": 5,
+          "permission": "Free",
+          "components_needed": [
+            "form",
+            "button",
+            "progress",
+            "card",
+            "dropdown"
+          ],
+          "priority": "high",
+          "notes": "First-time user: What are you looking for? Buyer/seller/renter/landlord/investor/improver selection with guided setup."
+        }
+      ]
+    },
+    "property_ai_apps": {
+      "total_screens": 56,
+      "suites": {
+        "estate_agents": {
+          "name": "Estate Agents AI Suite",
+          "app_count": 18
+        },
+        "letting_agents": {
+          "name": "Letting Agents Suite",
+          "app_count": 12
+        },
+        "property_investors": {
+          "name": "Property Investors Suite",
+          "app_count": 10
+        },
+        "home_furnishing": {
+          "name": "Home Furnishing & E-Commerce Suite",
+          "app_count": 8
+        },
+        "mortgage_finance": {
+          "name": "Mortgage & Finance Suite",
+          "app_count": 7
+        },
+        "developers_contractors": {
+          "name": "Developers & Contractors Suite",
+          "app_count": 7
+        },
+        "b2c_consumer": {
+          "name": "B2C Consumer Apps",
+          "app_count": 20
+        }
+      },
+      "screens": [
+        {
+          "screen_id": "EA_01",
+          "name": "AI Property Concierge",
+          "layout": "full-canvas",
+          "phase": 1,
+          "app_type": "Client-facing widget (Type A)",
+          "deploy": "White-label + PCL platform",
+          "components_needed": [
+            "chat",
+            "card",
+            "form",
+            "calendar",
+            "button",
+            "badge"
+          ],
+          "priority": "high",
+          "notes": "Floating chat bubble -> chat panel. States: bubble, open, conversation, booking, captured, handoff. Includes inline property cards, lead capture form, calendar picker, quick replies chip group, typing indicator."
+        },
+        {
+          "screen_id": "EA_01_ADMIN",
+          "name": "AI Property Concierge - Admin Panel",
+          "layout": "sidebar+content",
+          "phase": 1,
+          "app_type": "Admin dashboard",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "form",
+            "toggle",
+            "tabs"
+          ],
+          "priority": "high",
+          "notes": "Dashboard: conversations, leads, viewings, response time. Conversation logs, knowledge base management, brand settings, CRM integrations, analytics funnel."
+        },
+        {
+          "screen_id": "EA_02",
+          "name": "AI Listing Engine",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "card",
+            "button",
+            "dropdown"
+          ],
+          "priority": "medium",
+          "notes": "AI generates property descriptions from photos + floor plans + features. SEO-optimized. Multiple tone options. Auto-generates social media posts."
+        },
+        {
+          "screen_id": "EA_03",
+          "name": "Viewing Scheduler",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "calendar",
+            "form",
+            "button",
+            "card",
+            "notification"
+          ],
+          "priority": "medium",
+          "notes": "Calendar integration, self-service booking. Automated confirmations + reminders (email + SMS). Group viewing management. Post-viewing feedback."
+        },
+        {
+          "screen_id": "EA_04",
+          "name": "Lead Intelligence",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "badge",
+            "timeline"
+          ],
+          "priority": "medium",
+          "notes": "Lead scoring (0-100) based on behavioural signals. Buyer readiness breakdown. Recommended approach per lead. Optimal contact timing."
+        },
+        {
+          "screen_id": "EA_05",
+          "name": "Market Report Generator",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Auto-generates branded area market reports. PropertyData API + Land Registry data. PDF export, email-ready, social shareable."
+        },
+        {
+          "screen_id": "EA_06",
+          "name": "Vendor Management System",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "kanban",
+            "card",
+            "timeline",
+            "notification",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Vendor pipeline: instruction to completion. Automated vendor updates. Comparable evidence. Price reduction recommendation engine."
+        },
+        {
+          "screen_id": "EA_07",
+          "name": "Property Comparison Tool",
+          "layout": "centered",
+          "phase": 2,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "card",
+            "table",
+            "chart",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Side-by-side 2-4 property comparison. Auto-populated data. Shareable reports. AI advisor feature."
+        },
+        {
+          "screen_id": "EA_08",
+          "name": "Area Intelligence Bot",
+          "layout": "full-canvas",
+          "phase": 2,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "card",
+            "map",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Chat-based area Q&A: schools, transport, crime, prices, lifestyle. Live data sources. Borough + neighbourhood detail."
+        },
+        {
+          "screen_id": "EA_09",
+          "name": "Chain Tracker",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Agent + Client-facing (A+B)",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "card",
+            "notification",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Visual chain diagram. Status updates per link. Delay alerting + suggested interventions."
+        },
+        {
+          "screen_id": "EA_10",
+          "name": "AI Voice Receptionist",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "toggle"
+          ],
+          "priority": "low",
+          "notes": "Phone answering AI via Twilio. Books viewings, captures leads, answers FAQs. After-hours coverage. Dashboard for call analytics."
+        },
+        {
+          "screen_id": "EA_11",
+          "name": "Full Property Intelligence Suite",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Management dashboard (Type C)",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "card",
+            "table",
+            "tabs"
+          ],
+          "priority": "low",
+          "notes": "Aggregated all-in-one dashboard. Cross-listing analytics, team performance, market positioning."
+        },
+        {
+          "screen_id": "EA_12",
+          "name": "White-Label Data Portal",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Full suite (Type D)",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "map",
+            "card",
+            "table"
+          ],
+          "priority": "low",
+          "notes": "Branded market data portal on agent website. Area data, price trends, heatmaps. Lead generation through data access."
+        },
+        {
+          "screen_id": "EA_13",
+          "name": "Competitor Intelligence",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "table",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Track competitor listings, pricing, time on market. Market share analysis."
+        },
+        {
+          "screen_id": "EA_14",
+          "name": "AI Negotiation Coach",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "form",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "AI analyses offer vs comparable data. Counter-offer strategies. Vendor communication templates."
+        },
+        {
+          "screen_id": "EA_15",
+          "name": "Staff Training Academy",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "video_player",
+            "progress",
+            "form"
+          ],
+          "priority": "low",
+          "notes": "AI-powered training modules. Role-play scenarios. Performance assessment."
+        },
+        {
+          "screen_id": "EA_16",
+          "name": "Video-to-3D Converter",
+          "layout": "full-canvas",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "video_player",
+            "card",
+            "button",
+            "progress"
+          ],
+          "priority": "low",
+          "notes": "Convert video tours to interactive 3D walkthroughs. Floor plan generation."
+        },
+        {
+          "screen_id": "EA_17",
+          "name": "Multi-Branch Command Center",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Management dashboard (Type C)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "map"
+          ],
+          "priority": "low",
+          "notes": "Aggregate view across all branches. Lead routing. Performance benchmarking."
+        },
+        {
+          "screen_id": "EA_18",
+          "name": "Compliance Monitor",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "badge",
+            "notification",
+            "calendar"
+          ],
+          "priority": "medium",
+          "notes": "AML, GDPR, CPRs tracking. Document checklist per transaction. Expiry alerts."
+        },
+        {
+          "screen_id": "LA_01",
+          "name": "Tenant Acquisition Bot",
+          "layout": "full-canvas",
+          "phase": 2,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "card",
+            "form",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Chat widget for rental enquiries, viewings, lead capture."
+        },
+        {
+          "screen_id": "LA_02",
+          "name": "Tenant Screening",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "card",
+            "badge",
+            "chart"
+          ],
+          "priority": "medium",
+          "notes": "AI-powered reference checking, credit scoring, risk assessment."
+        },
+        {
+          "screen_id": "LA_03",
+          "name": "Compliance Command Center",
+          "layout": "sidebar+content",
+          "phase": 1,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "calendar",
+            "notification",
+            "badge",
+            "card"
+          ],
+          "priority": "high",
+          "notes": "Gas safety, EPC, deposit protection, licensing. Deadline tracking + auto-alerts."
+        },
+        {
+          "screen_id": "LA_04",
+          "name": "Maintenance Dispatch",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "Client + Agent-facing (A+B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "card",
+            "kanban",
+            "notification",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Tenant reports issue -> AI triages -> routes to contractor -> tracks resolution."
+        },
+        {
+          "screen_id": "LA_05",
+          "name": "Landlord Portal",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table"
+          ],
+          "priority": "medium",
+          "notes": "White-label portal for landlord clients: income, expenses, compliance, reports."
+        },
+        {
+          "screen_id": "LA_06",
+          "name": "Rent Collection Intelligence",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "chart",
+            "notification",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Payment tracking, arrears prediction, auto-reminders, escalation workflow."
+        },
+        {
+          "screen_id": "LA_07",
+          "name": "HMO Navigator",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "card",
+            "badge",
+            "table"
+          ],
+          "priority": "low",
+          "notes": "HMO licensing rules by borough, compliance checker, room-by-room assessment."
+        },
+        {
+          "screen_id": "LA_08",
+          "name": "Tenancy Document Generator",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "button",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "AI generates ASTs, section notices, inspection reports, inventories."
+        },
+        {
+          "screen_id": "LA_09",
+          "name": "Tenant Communication Hub",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Client + Agent-facing (A+B)",
+          "components_needed": [
+            "sidebar",
+            "chat",
+            "card",
+            "form",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Unified messaging: tenant-agent-landlord with templates + scheduling."
+        },
+        {
+          "screen_id": "LA_10",
+          "name": "Void Period Optimizer",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "card",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Predicts void periods, recommends pricing/marketing changes."
+        },
+        {
+          "screen_id": "LA_11",
+          "name": "Section Notice Generator",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "button",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Generate section 8/21/13 notices with AI compliance checking."
+        },
+        {
+          "screen_id": "LA_12",
+          "name": "Inventory Report Generator",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "card",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Photo + AI description -> professional inventory report."
+        },
+        {
+          "screen_id": "PI_01",
+          "name": "Deal Analyzer Pro",
+          "layout": "sidebar+content",
+          "phase": 1,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "high",
+          "notes": "Input property details -> AI calculates yield, ROI, cash flow, stress test."
+        },
+        {
+          "screen_id": "PI_02",
+          "name": "Portfolio Command Center",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Management dashboard (Type C)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "map"
+          ],
+          "priority": "medium",
+          "notes": "All properties: valuations, income, expenses, performance, rebalancing."
+        },
+        {
+          "screen_id": "PI_03",
+          "name": "Auction Intelligence",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "table",
+            "notification",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Track auctions, price predictions, lot analysis, alert on criteria matches."
+        },
+        {
+          "screen_id": "PI_04",
+          "name": "Development Feasibility",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card",
+            "table"
+          ],
+          "priority": "medium",
+          "notes": "Land + build cost + planning + sales analysis -> viability report."
+        },
+        {
+          "screen_id": "PI_05",
+          "name": "Tax Optimization Advisor",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "card",
+            "chart"
+          ],
+          "priority": "low",
+          "notes": "Structure analysis (personal/LTD/trust), CGT planning, expense optimization."
+        },
+        {
+          "screen_id": "PI_06",
+          "name": "Market Timing System",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "card",
+            "badge",
+            "notification"
+          ],
+          "priority": "low",
+          "notes": "Buy/hold/sell signals based on market data + economic indicators."
+        },
+        {
+          "screen_id": "PI_07",
+          "name": "Refinance Calculator Pro",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Current vs available rates, equity release options, cost analysis."
+        },
+        {
+          "screen_id": "PI_08",
+          "name": "Comparable Finder",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "map",
+            "table"
+          ],
+          "priority": "medium",
+          "notes": "Find comparables by criteria, data from Land Registry + portals."
+        },
+        {
+          "screen_id": "PI_09",
+          "name": "Cash Flow Projector",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card",
+            "table"
+          ],
+          "priority": "low",
+          "notes": "Multi-year projections with scenario modelling."
+        },
+        {
+          "screen_id": "PI_10",
+          "name": "Investor Deal Flow Platform",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Management dashboard (Type C)",
+          "components_needed": [
+            "sidebar",
+            "kanban",
+            "card",
+            "table",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Source off-market deals, manage pipeline, investor matching."
+        },
+        {
+          "screen_id": "HF_01",
+          "name": "AI Shopping Concierge",
+          "layout": "full-canvas",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "card",
+            "carousel",
+            "button"
+          ],
+          "priority": "medium",
+          "notes": "Chat-based product discovery, room-based recommendations."
+        },
+        {
+          "screen_id": "HF_02",
+          "name": "Room Design Advisor",
+          "layout": "split",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "card",
+            "form",
+            "button",
+            "carousel"
+          ],
+          "priority": "low",
+          "notes": "Upload room photo -> AI suggests furniture/decor from catalog."
+        },
+        {
+          "screen_id": "HF_03",
+          "name": "Product Comparison Engine",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "card",
+            "table",
+            "badge",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Side-by-side product comparison with specs + reviews."
+        },
+        {
+          "screen_id": "HF_04",
+          "name": "Style Quiz System",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "form",
+            "card",
+            "progress",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Interactive quiz -> style profile -> personalized product feed."
+        },
+        {
+          "screen_id": "HF_05",
+          "name": "Order Intelligence Bot",
+          "layout": "full-canvas",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "card",
+            "badge",
+            "timeline"
+          ],
+          "priority": "low",
+          "notes": "Order tracking, returns, warranty claims via chat."
+        },
+        {
+          "screen_id": "HF_06",
+          "name": "Trade Account Portal",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "card",
+            "form",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "B2B ordering, bulk pricing, project management for trade customers."
+        },
+        {
+          "screen_id": "HF_07",
+          "name": "Visual Search Engine",
+          "layout": "grid",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "card",
+            "button",
+            "search_bar"
+          ],
+          "priority": "low",
+          "notes": "Upload photo -> find matching products (image similarity)."
+        },
+        {
+          "screen_id": "HF_08",
+          "name": "Returns & Warranty Handler",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "form",
+            "card",
+            "progress",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Automated returns processing, warranty claim management."
+        },
+        {
+          "screen_id": "MF_01",
+          "name": "Mortgage Qualifier Bot",
+          "layout": "full-canvas",
+          "phase": 1,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "form",
+            "card",
+            "chart",
+            "button"
+          ],
+          "priority": "high",
+          "notes": "Chat-based pre-qualification: income, debts, deposit -> eligible products."
+        },
+        {
+          "screen_id": "MF_02",
+          "name": "Rate Intelligence Dashboard",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "chart",
+            "table",
+            "notification",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Live rate tracking, market comparison, alert on rate changes."
+        },
+        {
+          "screen_id": "MF_03",
+          "name": "Application Tracker",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Client + Agent-facing (A+B)",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "card",
+            "badge",
+            "notification"
+          ],
+          "priority": "medium",
+          "notes": "Client tracks application status, broker manages pipeline."
+        },
+        {
+          "screen_id": "MF_04",
+          "name": "Affordability Calculator Pro",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Advanced affordability with stress testing, scenario modelling."
+        },
+        {
+          "screen_id": "MF_05",
+          "name": "BTL Analysis System",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card",
+            "table"
+          ],
+          "priority": "low",
+          "notes": "Buy-to-let specific: yield, stress test, portfolio impact, tax."
+        },
+        {
+          "screen_id": "MF_06",
+          "name": "Remortgage Alert System",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "notification",
+            "card",
+            "calendar"
+          ],
+          "priority": "low",
+          "notes": "Track client mortgage expiries, auto-alert at optimal timing."
+        },
+        {
+          "screen_id": "MF_07",
+          "name": "Document Collection Bot",
+          "layout": "full-canvas",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "form",
+            "card",
+            "progress",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "AI guides clients through document requirements, validates uploads."
+        },
+        {
+          "screen_id": "DC_01",
+          "name": "Development Feasibility Engine",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "chart",
+            "card",
+            "table"
+          ],
+          "priority": "medium",
+          "notes": "Land + build + planning + sales -> viability with scenario modelling."
+        },
+        {
+          "screen_id": "DC_02",
+          "name": "Planning Intelligence System",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "map",
+            "table",
+            "card",
+            "chart"
+          ],
+          "priority": "medium",
+          "notes": "Planning application tracking, success rate analysis, policy monitoring."
+        },
+        {
+          "screen_id": "DC_03",
+          "name": "Quote Generation System",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "table",
+            "card",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "AI-assisted quote builder from scope -> materials -> labour -> margins."
+        },
+        {
+          "screen_id": "DC_04",
+          "name": "Project Scheduling Platform",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "kanban",
+            "calendar",
+            "card",
+            "timeline"
+          ],
+          "priority": "low",
+          "notes": "Gantt charts, contractor scheduling, milestone tracking, delay prediction."
+        },
+        {
+          "screen_id": "DC_05",
+          "name": "Client Enquiry Handler",
+          "layout": "full-canvas",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "chat",
+            "form",
+            "card",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Chat widget for builders: scope discussion, lead capture, quote requests."
+        },
+        {
+          "screen_id": "DC_06",
+          "name": "Invoice & Payment System",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "Agent-facing (Type B)",
+          "components_needed": [
+            "sidebar",
+            "table",
+            "form",
+            "card",
+            "button",
+            "notification"
+          ],
+          "priority": "low",
+          "notes": "Generate invoices, track payments, stage billing, late payment reminders."
+        },
+        {
+          "screen_id": "DC_07",
+          "name": "Portfolio Showcase System",
+          "layout": "grid",
+          "phase": 3,
+          "app_type": "Client-facing (Type A)",
+          "components_needed": [
+            "card",
+            "carousel",
+            "button",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Interactive project gallery with before/after, testimonials, specs."
+        },
+        {
+          "screen_id": "BC_01",
+          "name": "Home Search Assistant",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "map",
+            "notification"
+          ],
+          "priority": "medium",
+          "notes": "Free: basic search, 3 alerts. Premium: AI-powered recommendations, unlimited alerts."
+        },
+        {
+          "screen_id": "BC_02",
+          "name": "Affordability & Budget Planner",
+          "layout": "centered",
+          "phase": 2,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "medium",
+          "notes": "Free: basic calculator. Premium: full stress test, scenario modelling."
+        },
+        {
+          "screen_id": "BC_03",
+          "name": "Area Explorer",
+          "layout": "split",
+          "phase": 2,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "map",
+            "card",
+            "badge",
+            "sidebar"
+          ],
+          "priority": "medium",
+          "notes": "Free: borough-level data. Premium: neighbourhood detail, community reviews."
+        },
+        {
+          "screen_id": "BC_04",
+          "name": "My Home Purchase Tracker",
+          "layout": "sidebar+content",
+          "phase": 2,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "progress",
+            "card",
+            "badge"
+          ],
+          "priority": "medium",
+          "notes": "Free: basic timeline. Premium: full milestone tracker, document checklist."
+        },
+        {
+          "screen_id": "BC_05",
+          "name": "Instant Home Valuation",
+          "layout": "centered",
+          "phase": 2,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "form",
+            "input",
+            "chart",
+            "card",
+            "map"
+          ],
+          "priority": "medium",
+          "notes": "Free: postcode estimate. Premium: full comparable analysis, price trend."
+        },
+        {
+          "screen_id": "BC_06",
+          "name": "Agent Comparison Tool",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "card",
+            "table",
+            "badge",
+            "avatar",
+            "chart"
+          ],
+          "priority": "low",
+          "notes": "Free: top 3 agents. Premium: full comparison with fees, performance data."
+        },
+        {
+          "screen_id": "BC_07",
+          "name": "My Sale Tracker",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "progress",
+            "card",
+            "notification"
+          ],
+          "priority": "low",
+          "notes": "Free: basic timeline. Premium: full pipeline, chain status."
+        },
+        {
+          "screen_id": "BC_08",
+          "name": "Home Staging Advisor",
+          "layout": "split",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "card",
+            "form",
+            "carousel",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Free: basic tips. Premium: AI room-by-room recommendations from photos."
+        },
+        {
+          "screen_id": "BC_09",
+          "name": "Rental Search Assistant",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "map"
+          ],
+          "priority": "medium",
+          "notes": "Free: basic search. Premium: AI matching, area scoring."
+        },
+        {
+          "screen_id": "BC_10",
+          "name": "Tenant Toolkit",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "form",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Free: basic guides. Premium: document templates, deposit protection check."
+        },
+        {
+          "screen_id": "BC_11",
+          "name": "Rental Dispute Helper",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "chat",
+            "card",
+            "form"
+          ],
+          "priority": "low",
+          "notes": "Free: basic info. Premium: AI-guided dispute process."
+        },
+        {
+          "screen_id": "BC_12",
+          "name": "Should I Let My Property?",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Free: basic yield calc. Premium: full analysis with income projection."
+        },
+        {
+          "screen_id": "BC_13",
+          "name": "Landlord Starter Kit",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "progress",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Free: basic guides. Premium: step-by-step setup, compliance checklist."
+        },
+        {
+          "screen_id": "BC_14",
+          "name": "DIY Landlord Dashboard",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "table",
+            "calendar",
+            "notification"
+          ],
+          "priority": "low",
+          "notes": "Free: basic tracking. Premium: full portfolio with compliance calendar."
+        },
+        {
+          "screen_id": "BC_15",
+          "name": "Property Investment Academy",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "video_player",
+            "progress"
+          ],
+          "priority": "low",
+          "notes": "Free: intro content. Premium: full course library."
+        },
+        {
+          "screen_id": "BC_16",
+          "name": "First Investment Finder",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "chart",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Free: basic search. Premium: AI-matched deals, ROI calculations."
+        },
+        {
+          "screen_id": "BC_17",
+          "name": "Can I Build It?",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "form",
+            "input",
+            "card",
+            "map",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Free: basic PD check. Premium: full planning feasibility."
+        },
+        {
+          "screen_id": "BC_18",
+          "name": "Renovation Cost Calculator",
+          "layout": "centered",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "form",
+            "input",
+            "chart",
+            "card"
+          ],
+          "priority": "low",
+          "notes": "Free: basic estimates. Premium: detailed breakdown by trade."
+        },
+        {
+          "screen_id": "BC_19",
+          "name": "Find a Contractor",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "card",
+            "badge",
+            "avatar"
+          ],
+          "priority": "low",
+          "notes": "Free: basic directory. Premium: AI-matched, verified, rated."
+        },
+        {
+          "screen_id": "BC_20",
+          "name": "My Renovation Tracker",
+          "layout": "sidebar+content",
+          "phase": 3,
+          "app_type": "B2C Consumer",
+          "components_needed": [
+            "sidebar",
+            "timeline",
+            "card",
+            "progress",
+            "form"
+          ],
+          "priority": "low",
+          "notes": "Free: basic checklist. Premium: full project management."
+        }
+      ]
+    },
+    "fitness_platform": {
+      "total_screens": 16,
+      "phases": {
+        "MVP": {
+          "name": "MVP Core",
+          "screen_count": 10
+        },
+        "P2": {
+          "name": "Marketplace + Social",
+          "screen_count": 6
+        }
+      },
+      "screens": [
+        {
+          "screen_id": "FIT_01",
+          "name": "Landing / Marketing",
+          "route": "/",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": "MVP",
+          "permission": "Public",
+          "components_needed": [
+            "topbar",
+            "button",
+            "card",
+            "carousel",
+            "progress",
+            "form",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "Hero with AI-first messaging, problem/solution sections, how-it-works steps, 30 exercise pillar showcase carousel, social proof/testimonials, pricing cards (Free/Premium/Trainer), final CTA, sticky nav, footer."
+        },
+        {
+          "screen_id": "FIT_02",
+          "name": "Auth (Sign Up / Sign In)",
+          "route": "/auth",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": "MVP",
+          "permission": "Public",
+          "components_needed": [
+            "form",
+            "input",
+            "button",
+            "card",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "Auth card: email/password, social auth (Google, Apple), password strength indicator, forgot password, terms checkbox, error alerts."
+        },
+        {
+          "screen_id": "FIT_03",
+          "name": "Onboarding Intake",
+          "route": "/onboarding",
+          "layout": "centered",
+          "layout_code": "CT",
+          "phase": "MVP",
+          "permission": "Authenticated",
+          "components_needed": [
+            "progress",
+            "button",
+            "card",
+            "form",
+            "toggle",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "6-step wizard: goals (multi-select chips), experience level (3 cards), equipment (visual checklist), schedule (day toggles + duration slider), injuries (interactive body map), pillar preferences (30 chips). Skip option."
+        },
+        {
+          "screen_id": "FIT_04",
+          "name": "AI Workout Generator",
+          "route": "/generate",
+          "layout": "full-canvas",
+          "layout_code": "CH",
+          "phase": "MVP",
+          "permission": "Free (limited) / Premium (unlimited)",
+          "components_needed": [
+            "chat",
+            "card",
+            "button",
+            "badge",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "THE CORE SCREEN. Chat interface with output panel. States: default, chat, generating, workout_ready, modifying, limit_reached. Quick chips, exercise rows with swap, generation counter badge."
+        },
+        {
+          "screen_id": "FIT_05",
+          "name": "Active Workout Mode",
+          "route": "/workout/:id",
+          "layout": "full-canvas",
+          "layout_code": "FC",
+          "phase": "MVP",
+          "permission": "All tiers",
+          "components_needed": [
+            "video_player",
+            "form",
+            "input",
+            "progress",
+            "button",
+            "card",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "Full-screen workout. Exercise video player (YouTube), set logger (weight/reps/RPE), rest timer, progress bar, exercise queue list, form cues card, swap button. Modals for end early, exercise swap, PR celebration, notes."
+        },
+        {
+          "screen_id": "FIT_06",
+          "name": "Exercise Library",
+          "route": "/exercises",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "MVP",
+          "permission": "Free (limited) / Premium (full)",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "input",
+            "card",
+            "badge",
+            "dropdown"
+          ],
+          "priority": "medium",
+          "notes": "Sidebar filters + content grid. Muscle group body map, equipment filter, pillar filter, movement pattern filter, difficulty filter. Exercise cards with video thumbnail, name, muscle badges, difficulty badge."
+        },
+        {
+          "screen_id": "FIT_07",
+          "name": "Exercise Detail",
+          "route": "/exercises/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "MVP",
+          "permission": "Free (basic) / Premium (full)",
+          "components_needed": [
+            "sidebar",
+            "video_player",
+            "badge",
+            "card",
+            "timeline",
+            "button",
+            "modal"
+          ],
+          "priority": "medium",
+          "notes": "Video player, muscle map, attribute badges, form cues, step-by-step instructions, progression/regression chain (timeline), variations grid."
+        },
+        {
+          "screen_id": "FIT_08",
+          "name": "Dashboard / Home",
+          "route": "/dashboard",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "MVP",
+          "permission": "Authenticated",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "chart",
+            "button",
+            "calendar",
+            "badge",
+            "modal"
+          ],
+          "priority": "high",
+          "notes": "AI suggestion card, quick generate button, streak counter, weekly volume bar chart, recent workouts list, upcoming schedule calendar, PR highlights, body metrics summary."
+        },
+        {
+          "screen_id": "FIT_09",
+          "name": "Progress & History",
+          "route": "/progress",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "MVP",
+          "permission": "Free (basic) / Premium (advanced)",
+          "components_needed": [
+            "sidebar",
+            "tabs",
+            "chart",
+            "card",
+            "table",
+            "button",
+            "modal"
+          ],
+          "priority": "medium",
+          "notes": "5 tabs: Overview, Workouts, Body, Records, Analytics. Volume chart, frequency heatmap, PR board, weight trend chart, measurement log table, muscle balance radar chart (Premium)."
+        },
+        {
+          "screen_id": "FIT_10",
+          "name": "Settings / Profile",
+          "route": "/settings",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "MVP",
+          "permission": "Authenticated",
+          "components_needed": [
+            "sidebar",
+            "form",
+            "input",
+            "toggle",
+            "button",
+            "card",
+            "modal"
+          ],
+          "priority": "medium",
+          "notes": "Settings nav: Profile, Fitness, Preferences, Subscription, Notifications, Data. Profile form, unit toggle (kg/lbs), rest timer slider, subscription card, notification toggles."
+        },
+        {
+          "screen_id": "FIT_11",
+          "name": "Trainer / Influencer Profiles Directory",
+          "route": "/trainers",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "P2",
+          "permission": "All tiers",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "input",
+            "card",
+            "carousel",
+            "dropdown",
+            "badge"
+          ],
+          "priority": "low",
+          "notes": "Trainer directory. Search bar, filter sidebar, trainer cards with photo/name/badges/rating/price. Featured trainers carousel."
+        },
+        {
+          "screen_id": "FIT_12",
+          "name": "Trainer Detail",
+          "route": "/trainers/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "P2",
+          "permission": "All tiers",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "badge",
+            "avatar",
+            "button",
+            "modal",
+            "calendar"
+          ],
+          "priority": "low",
+          "notes": "Full trainer profile. Header with photo/name/badges/rating, bio, certifications, programs card grid, reviews list, contact/book sidebar."
+        },
+        {
+          "screen_id": "FIT_13",
+          "name": "Pre-Built Programs Directory",
+          "route": "/programs",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "P2",
+          "permission": "Free (browse) / Premium / Purchase",
+          "components_needed": [
+            "sidebar",
+            "search_bar",
+            "input",
+            "card",
+            "tabs",
+            "dropdown"
+          ],
+          "priority": "low",
+          "notes": "Program directory. Search bar, filter sidebar, program cards with cover/name/trainer/duration/difficulty/price/rating. Category tabs."
+        },
+        {
+          "screen_id": "FIT_14",
+          "name": "Program Detail / Flow",
+          "route": "/programs/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "P2",
+          "permission": "Per program pricing",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "accordion",
+            "progress",
+            "button",
+            "modal"
+          ],
+          "priority": "low",
+          "notes": "States: preview, active, week_view, completed. Program header, weekly schedule (accordion), progress bar, reviews list, trainer card sidebar."
+        },
+        {
+          "screen_id": "FIT_15",
+          "name": "Social Feed",
+          "route": "/social",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "P2",
+          "permission": "Authenticated",
+          "components_needed": [
+            "sidebar",
+            "tabs",
+            "card",
+            "avatar",
+            "button",
+            "modal"
+          ],
+          "priority": "low",
+          "notes": "Feed with Following/Discover tabs. Post cards with avatar, text, workout summary, progress photo, likes, comments."
+        },
+        {
+          "screen_id": "FIT_16",
+          "name": "User Profile (Public)",
+          "route": "/users/:id",
+          "layout": "sidebar+content",
+          "layout_code": "SB",
+          "phase": "P2",
+          "permission": "Public/Authenticated",
+          "components_needed": [
+            "sidebar",
+            "card",
+            "avatar",
+            "badge",
+            "button"
+          ],
+          "priority": "low",
+          "notes": "Public profile. Header with avatar/name/bio, stats grid, achievement badges grid, shared workouts list, follow/message buttons."
+        }
+      ]
+    }
+  },
+  "component_frequency": {
+    "_description": "Approximate frequency of each component type needed across all 174 screens",
+    "card": 160,
+    "button": 138,
+    "sidebar": 120,
+    "form": 85,
+    "chart": 62,
+    "badge": 58,
+    "input": 42,
+    "table": 40,
+    "modal": 32,
+    "tabs": 20,
+    "search_bar": 18,
+    "notification": 18,
+    "dropdown": 17,
+    "progress": 16,
+    "toggle": 14,
+    "timeline": 14,
+    "map": 14,
+    "carousel": 11,
+    "avatar": 10,
+    "calendar": 10,
+    "video_player": 10,
+    "chat": 10,
+    "accordion": 7,
+    "kanban": 5,
+    "topbar": 2,
+    "breadcrumb": 2
+  },
+  "layout_distribution": {
+    "_description": "Distribution of layout types across all screens",
+    "sidebar+content": 115,
+    "full-canvas": 24,
+    "centered": 22,
+    "split": 7,
+    "grid": 6
+  }
+}

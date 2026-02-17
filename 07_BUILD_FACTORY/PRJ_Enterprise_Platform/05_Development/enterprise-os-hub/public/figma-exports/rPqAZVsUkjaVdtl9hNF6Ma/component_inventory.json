@@ -1,0 +1,1456 @@
+{
+  "generated_at": "2026-02-16T23:08:29.643Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 14,
+  "successful": 14,
+  "failed": 0,
+  "component_types": {
+    "text": 24,
+    "icon": 17,
+    "divider": 7,
+    "button": 9,
+    "dropdown": 2,
+    "avatar": 10,
+    "input": 2,
+    "tag": 2,
+    "form": 2,
+    "search_bar": 5,
+    "menu": 1,
+    "submenu": 1,
+    "nav_menu": 1,
+    "user_profile": 1,
+    "email_element": 1,
+    "inbox": 1,
+    "tab_menu": 1,
+    "badge": 7,
+    "status": 1,
+    "pagination": 1,
+    "checkbox": 7,
+    "status_indicator": 1,
+    "sidebar": 2,
+    "topbar": 4,
+    "card": 4,
+    "notification": 1,
+    "chart": 2,
+    "table": 1
+  },
+  "reuse_categories": {
+    "none": 3,
+    "data_display": 54,
+    "layout": 7,
+    "action": 14,
+    "input": 19,
+    "navigation": 15,
+    "feedback": 6
+  },
+  "layout_types": {
+    "centered": 2,
+    "grid": 5,
+    "full_canvas": 5,
+    "sidebar_content": 2
+  },
+  "screens": [
+    {
+      "screen_slug": "styleguide_style_1",
+      "screen_name": "Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "text",
+          "name": "Colour Palette",
+          "location": "top",
+          "approximate_dimensions": "full width",
+          "details": "header text",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "icon",
+          "name": "Colour Swatches",
+          "location": "top",
+          "approximate_dimensions": "various",
+          "details": "coloured rectangles with hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Typography",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "header text with font samples",
+          "reusable": false,
+          "reuse_category": "none"
+        },
+        {
+          "type": "text",
+          "name": "Font Samples",
+          "location": "center",
+          "approximate_dimensions": "various",
+          "details": "various font sizes and styles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "horizontal line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Typography Dark Mode",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "header text on dark background",
+          "reusable": false,
+          "reuse_category": "none"
+        }
+      ],
+      "color_palette": [
+        "#00062F",
+        "#FFC542",
+        "#5088FF",
+        "#3DD868",
+        "#FF974A",
+        "#FC6A5A",
+        "#82C43C",
+        "#AA61DB",
+        "#FF9AD5",
+        "#707D8C",
+        "#444E6F",
+        "#606874",
+        "#323B4D",
+        "#959DA6",
+        "#B2BAC4",
+        "#CFD5DC",
+        "#F4F7F9",
+        "#FAFAFB",
+        "#FFFFFF"
+      ],
+      "typography_notes": "two primary fonts: Poppins and Roboto, various font sizes and styles",
+      "primary_purpose": "style guide for UI components",
+      "enterprise_os_potential": "reusable for various enterprise OS applications"
+    },
+    {
+      "screen_slug": "styleguide_style_2",
+      "screen_name": "Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "button",
+          "name": "Primary Button",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Secondary Button",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "gray or red outline, gray or red text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "dropdown",
+          "name": "Sort Dropdown",
+          "location": "center",
+          "approximate_dimensions": "fixed width, fixed height",
+          "details": "gray background, blue text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Pencil Icon",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "simple pencil icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "Profile Picture",
+          "location": "center",
+          "approximate_dimensions": "various sizes",
+          "details": "circular, various sizes and images",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Form Input",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "gray background, black text, various states",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "tag",
+          "name": "Tag",
+          "location": "center",
+          "approximate_dimensions": "small",
+          "details": "small, colored tag",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#6c757d",
+        "#dc3545"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "style guide for UI components",
+      "enterprise_os_potential": "reusable components for various enterprise applications"
+    },
+    {
+      "screen_slug": "styleguide_style_3",
+      "screen_name": "Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "form",
+          "name": "Email Form",
+          "location": "top",
+          "approximate_dimensions": "200x150",
+          "details": "contains input fields and dropdowns",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Form",
+          "location": "top",
+          "approximate_dimensions": "200x50",
+          "details": "contains input field and search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "menu",
+          "name": "Side Menu",
+          "location": "left",
+          "approximate_dimensions": "150x300",
+          "details": "contains menu items with icons and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "submenu",
+          "name": "Sub Menu",
+          "location": "left",
+          "approximate_dimensions": "150x200",
+          "details": "contains submenu items with text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "nav_menu",
+          "name": "Nav Menu",
+          "location": "left",
+          "approximate_dimensions": "150x200",
+          "details": "contains navigation menu items with icons and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "user_profile",
+          "name": "User Profile",
+          "location": "right",
+          "approximate_dimensions": "200x100",
+          "details": "contains user avatar and text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "email_element",
+          "name": "Email Element",
+          "location": "center",
+          "approximate_dimensions": "300x100",
+          "details": "contains email content with text and avatar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "inbox",
+          "name": "Inbox",
+          "location": "center",
+          "approximate_dimensions": "300x200",
+          "details": "contains inbox messages with text and avatar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tab_menu",
+          "name": "Tab Menu",
+          "location": "top",
+          "approximate_dimensions": "200x50",
+          "details": "contains tab menu items with text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Badge",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "contains badge with text or icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Tag",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "contains tag with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "status",
+          "name": "Status",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "contains status with text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pagination",
+          "name": "Pagination",
+          "location": "bottom",
+          "approximate_dimensions": "100x20",
+          "details": "contains pagination buttons with text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f",
+        "#2ecc71",
+        "#e74c3c"
+      ],
+      "typography_notes": "uses Open Sans font family",
+      "primary_purpose": "to showcase UI components",
+      "enterprise_os_potential": "can be used as a style guide for enterprise applications"
+    },
+    {
+      "screen_slug": "symbols_ui_element_dark_theme_other_email_selected_list",
+      "screen_name": "Email List Item",
+      "screen_type": "state_variant",
+      "is_variant_of": "email_list",
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "checkbox",
+          "name": "Selection Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White checkbox on a blue background",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Circular profile picture of Any Carrol",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Sender Name",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "White text 'Any Carrol'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Subject",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text 'Mobile Apps Redesign'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Preview",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Light gray text 'Hey Cak, Could you free now?...'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "White paperclip icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Time",
+          "location": "right",
+          "approximate_dimensions": "variable width",
+          "details": "White text '12:48PM'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1a1d23",
+        "#ffffff"
+      ],
+      "typography_notes": "Open sans or similar sans-serif font, varying font sizes for different text elements",
+      "primary_purpose": "To display a single email list item",
+      "enterprise_os_potential": "Reusable in email client applications"
+    },
+    {
+      "screen_slug": "symbols_ui_element_dark_theme_other_email_unread_list",
+      "screen_name": "Email Unread List",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with a profile picture",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "checkbox",
+          "name": "Selection Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Square checkbox",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Favorite Star",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Gray star icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Sender Name",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "White text, 'Any Carrol'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Subject",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, 'Mobile Apps Redesign'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Preview",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Gray text, email preview content",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray paperclip icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Time",
+          "location": "right",
+          "approximate_dimensions": "variable width",
+          "details": "White text, '12:48PM'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#808080"
+      ],
+      "typography_notes": "White text for names and times, gray text for email preview",
+      "primary_purpose": "Displaying a list of unread emails",
+      "enterprise_os_potential": "Reusable as an email client interface component"
+    },
+    {
+      "screen_slug": "symbols_ui_element_other_email_normal_list",
+      "screen_name": "Email List UI Element",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "checkbox",
+          "name": "Selection Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Unchecked, white background, gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Circular, profile picture of Any Carrol",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Sender Name",
+          "location": "left",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Black text, 'Any Carrol'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Subject",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Bold text, 'Mobile Apps Redesign'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Preview",
+          "location": "center",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Gray text, 'Hey Cak, Could you free now?...'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Gray paperclip icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Time Stamp",
+          "location": "right",
+          "approximate_dimensions": "variable width, fixed height",
+          "details": "Gray text, '12:48PM'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Favorite Star",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Gray star icon, outlined",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "status_indicator",
+          "name": "Status Indicator",
+          "location": "left",
+          "approximate_dimensions": "8x8",
+          "details": "Orange dot",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#000000",
+        "#808080",
+        "#FFA07A"
+      ],
+      "typography_notes": "Default font, varying font sizes and weights",
+      "primary_purpose": "Displaying email list",
+      "enterprise_os_potential": "Reusable in email client applications"
+    },
+    {
+      "screen_slug": "symbols_ui_element_other_email_selected_list",
+      "screen_name": "Email List Item",
+      "screen_type": "state_variant",
+      "is_variant_of": "email_list_item",
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "checkbox",
+          "name": "Selection Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White checkbox with a blue checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image with a green dot indicator",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Sender Name",
+          "location": "left",
+          "approximate_dimensions": "variable width",
+          "details": "White text, 'Any Carrol'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Subject",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, 'Mobile Apps Redesign'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Preview",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "White text, 'Hey Cak, Could you free now?...'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Star Icon",
+          "location": "center",
+          "approximate_dimensions": "16x16",
+          "details": "White star icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Time",
+          "location": "right",
+          "approximate_dimensions": "variable width",
+          "details": "White text, '12:48PM'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "White paperclip icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#2196F3",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans, white text",
+      "primary_purpose": "Email list item display",
+      "enterprise_os_potential": "Reusable in email client applications"
+    },
+    {
+      "screen_slug": "symbols_ui_element_other_email_unread_list",
+      "screen_name": "Unread Email List Item",
+      "screen_type": "state_variant",
+      "is_variant_of": "email_list_item",
+      "layout": {
+        "type": "full_canvas",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "checkbox",
+          "name": "Selection Checkbox",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Unchecked, circular checkbox",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "Sender Avatar",
+          "location": "left",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image with a person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Sender Name",
+          "location": "left",
+          "approximate_dimensions": "variable width x 16",
+          "details": "Black text, 'Any Carrol'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Favorite Star",
+          "location": "left",
+          "approximate_dimensions": "16x16",
+          "details": "Gray star icon, outlined",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Email Subject",
+          "location": "left",
+          "approximate_dimensions": "variable width x 16",
+          "details": "Black text, 'Mobile Apps Redesign'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Preview",
+          "location": "left",
+          "approximate_dimensions": "variable width x 16",
+          "details": "Gray text, truncated email content",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Attachment Icon",
+          "location": "right",
+          "approximate_dimensions": "16x16",
+          "details": "Gray paperclip icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Email Time",
+          "location": "right",
+          "approximate_dimensions": "variable width x 16",
+          "details": "Gray text, '12:48PM'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#808080",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Two font sizes used, black and gray colors",
+      "primary_purpose": "Displaying an unread email list item",
+      "enterprise_os_potential": "Reusable in email client applications"
+    },
+    {
+      "screen_slug": "ui_kit_elements_sidebars",
+      "screen_name": "Sidebar Elements",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250xH",
+          "details": "white background, vertical navigation, icons, text, badges",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Topbar",
+          "location": "top",
+          "approximate_dimensions": "W~60",
+          "details": "white background, title, back button, search input",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "gray background, magnifying glass icon, placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Course Card",
+          "location": "center",
+          "approximate_dimensions": "300x150",
+          "details": "white background, image, title, ratings, text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Back Button",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "chevron icon, gray color",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "red background, white text, rounded",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "various icons, gray color",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left",
+          "approximate_dimensions": "W~1",
+          "details": "gray color, horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "checkbox",
+          "name": "Filter Checkbox",
+          "location": "right",
+          "approximate_dimensions": "15x15",
+          "details": "green checkmark, white background, gray border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Filter Dropdown",
+          "location": "right",
+          "approximate_dimensions": "150x30",
+          "details": "gray background, down arrow icon, text",
+          "reusable": true,
+          "reuse_category": "input"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#F7F7F7",
+        "#333333",
+        "#4CAF50"
+      ],
+      "typography_notes": "Open Sans, various font sizes and weights",
+      "primary_purpose": "Course management and filtering",
+      "enterprise_os_potential": "Reusable for various dashboard and data management applications"
+    },
+    {
+      "screen_slug": "ui_kit_elements_sidebars_dark",
+      "screen_name": "Dark Sidebar UI Kit",
+      "screen_type": "state_variant",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x600",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width, 50px height",
+          "details": "Not visible, assumed to be present",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Course Card",
+          "location": "center",
+          "approximate_dimensions": "300x150",
+          "details": "Dark background, white text, image, rating",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "White background, dark text, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Filter Button",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Dark background, white text, filter icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "checkbox",
+          "name": "Filter Checkbox",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "White background, dark checkmark",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Red background, white text",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "icon",
+          "name": "Sidebar Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White icons on dark background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "left",
+          "approximate_dimensions": "full width, 1px height",
+          "details": "Light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#FF3B30"
+      ],
+      "typography_notes": "Open Sans font, varying sizes and weights",
+      "primary_purpose": "To demonstrate a dark sidebar UI kit",
+      "enterprise_os_potential": "Reusable for various enterprise applications with dark themes"
+    },
+    {
+      "screen_slug": "ui_kit_elements_toolbars",
+      "screen_name": "UI Kit Elements Toolbars",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Square Topbar",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "blue logo, search bar, avatar, notification bell",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200px width, 30px height",
+          "details": "light gray background, rounded corners, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "right",
+          "approximate_dimensions": "30px diameter",
+          "details": "circular, image of a person",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "notification",
+          "name": "Notification Bell",
+          "location": "right",
+          "approximate_dimensions": "20px diameter",
+          "details": "bell icon, red dot indicating notification",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Filter Button",
+          "location": "left",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "gray background, filter icon, text 'Filter'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Menu Icon",
+          "location": "left",
+          "approximate_dimensions": "20px diameter",
+          "details": "three horizontal lines",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "right",
+          "approximate_dimensions": "10px diameter",
+          "details": "red circle with white number",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Vertical Divider",
+          "location": "between components",
+          "approximate_dimensions": "1px width, variable height",
+          "details": "light gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#007bff",
+        "#f7f7f7",
+        "#ffffff",
+        "#ff0000"
+      ],
+      "typography_notes": "Open Sans font, various sizes and weights",
+      "primary_purpose": "demonstrating various topbar and toolbar components",
+      "enterprise_os_potential": "reusable in various enterprise OS applications for navigation and action bars"
+    },
+    {
+      "screen_slug": "ui_kit_elements_toolbars_dark",
+      "screen_name": "Dark Toolbars UI Kit Elements",
+      "screen_type": "state_variant",
+      "is_variant_of": "toolbars_ui_kit",
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "topbar",
+          "name": "Toolbar with logo and search",
+          "location": "top",
+          "approximate_dimensions": "full width, 40px height",
+          "details": "dark background, white logo and text, search bar with icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search bar with icon",
+          "location": "within topbar",
+          "approximate_dimensions": "200px width, 30px height",
+          "details": "white text, gray background, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "right of topbar",
+          "approximate_dimensions": "30px diameter",
+          "details": "circular, with image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Notification bell icon",
+          "location": "within topbar",
+          "approximate_dimensions": "20px diameter",
+          "details": "white, with red dot indicator",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "button",
+          "name": "Filter button",
+          "location": "within toolbar",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "dark background, white text, with icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "badge",
+          "name": "RF badge",
+          "location": "within toolbar",
+          "approximate_dimensions": "20px diameter",
+          "details": "yellow background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Mark Complete button",
+          "location": "right",
+          "approximate_dimensions": "100px width, 30px height",
+          "details": "white text, with dropdown arrow",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Vertical divider",
+          "location": "between elements",
+          "approximate_dimensions": "1px width, 20px height",
+          "details": "gray color",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#1A1D23",
+        "#FFFFFF",
+        "#F7C94B"
+      ],
+      "typography_notes": "Open Sans font, white and gray text colors",
+      "primary_purpose": "Demonstrating various toolbar UI elements in dark theme",
+      "enterprise_os_potential": "Reusable in enterprise OS for consistent navigation and action elements"
+    },
+    {
+      "screen_slug": "ui_kit_elements",
+      "screen_name": "UI Kit Elements",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "form",
+          "name": "Login Form",
+          "location": "center",
+          "approximate_dimensions": "300x400",
+          "details": "Input fields, buttons, checkbox",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Project Card",
+          "location": "center",
+          "approximate_dimensions": "200x150",
+          "details": "Image, text, buttons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Primary Button",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Blue background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Search Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "chart",
+          "name": "Sales Chart",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Line chart with data points",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image with initials",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Notification Badge",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "Red circle with white number",
+          "reusable": true,
+          "reuse_category": "feedback"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "1x400",
+          "details": "Gray horizontal line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#3498db",
+        "#f1c40f",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Showcasing UI kit elements",
+      "enterprise_os_potential": "Reusable components for enterprise applications"
+    },
+    {
+      "screen_slug": "ui_kit_elements_ui_kit_elements_dark",
+      "screen_name": "UI Kit Elements Dark",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Sign Up Card",
+          "location": "left",
+          "approximate_dimensions": "300x400",
+          "details": "Dark background, white text, input fields, buttons",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Email Input",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "White input field, dark border",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Sign Up Button",
+          "location": "left",
+          "approximate_dimensions": "100x40",
+          "details": "Blue button, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Google Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Colorful Google logo",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "chart",
+          "name": "Sales Chart",
+          "location": "center",
+          "approximate_dimensions": "400x200",
+          "details": "Bar chart, blue and green colors",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "center",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar, user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "New Badge",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "Red badge, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "table",
+          "name": "Transaction Table",
+          "location": "right",
+          "approximate_dimensions": "500x300",
+          "details": "Dark background, white text, table rows",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "right",
+          "approximate_dimensions": "500x1",
+          "details": "Gray divider line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#212121",
+        "#3498db",
+        "#2ecc71"
+      ],
+      "typography_notes": "Open Sans font, varying font sizes",
+      "primary_purpose": "UI kit elements showcase",
+      "enterprise_os_potential": "Reusable components for enterprise OS design"
+    }
+  ]
+}

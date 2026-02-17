@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-02-16T20:02:29.911Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 4,
+  "successful": 4,
+  "failed": 0,
+  "component_types": {
+    "icon": 2,
+    "card": 2,
+    "divider": 1,
+    "text": 9,
+    "color swatch": 1,
+    "heading": 3,
+    "link": 1,
+    "button": 1
+  },
+  "reuse_categories": {
+    "data_display": 14,
+    "layout": 2,
+    "action": 2,
+    "navigation": 2
+  },
+  "layout_types": {
+    "grid": 1,
+    "centered": 3
+  },
+  "screens": [
+    {
+      "screen_slug": "component_icon",
+      "screen_name": "Icon Collection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "grid",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "center",
+          "approximate_dimensions": "Multiple sizes, ranging from 16x16 to 24x24",
+          "details": "Black icons on a white background, simple line art style",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "No text present",
+      "primary_purpose": "Displaying a collection of icons for design use",
+      "enterprise_os_potential": "Reusable as a component library for various enterprise applications"
+    },
+    {
+      "screen_slug": "styleguide_colors",
+      "screen_name": "Color Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "card",
+          "name": "Color Palette Card",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "rectangular cards with color swatches, text labels, and hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "between sections",
+          "approximate_dimensions": "full width",
+          "details": "thin horizontal line separating color categories",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "text",
+          "name": "Color Label",
+          "location": "below color swatches",
+          "approximate_dimensions": "variable width",
+          "details": "text labels with color names and hex codes",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "color swatch",
+          "name": "Color Swatch",
+          "location": "within color palette cards",
+          "approximate_dimensions": "rectangular",
+          "details": "rectangular color swatches with varying colors",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "heading",
+          "name": "Section Heading",
+          "location": "above color categories",
+          "approximate_dimensions": "variable width",
+          "details": "headings for primary, secondary, greyscale, alert/success, alert/warning, and alert/error categories",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#1F10FF",
+        "#E7E5FF",
+        "#C7CCFF",
+        "#7B72FD",
+        "#7E78FF",
+        "#5E56FF",
+        "#E6E6FD",
+        "#CEB0FA",
+        "#878AF7",
+        "#9654F4",
+        "#8133F1",
+        "#5200EE",
+        "#F4F4F6",
+        "#EEFEE1",
+        "#D5D5D0",
+        "#C2C2CE",
+        "#787891",
+        "#424862",
+        "#020231",
+        "#01010D",
+        "#F5FEB8",
+        "#ECFEE2",
+        "#C2FEE0",
+        "#AEFCC8",
+        "#80FGAE",
+        "#42F57E",
+        "#FFFF8B",
+        "#FFFF50",
+        "#FFEC2",
+        "#F1DF99",
+        "#FF257A",
+        "#FFC647",
+        "#FFFF55",
+        "#FFD1D1",
+        "#FEACAC",
+        "#F26161",
+        "#ED3E3E"
+      ],
+      "typography_notes": "consistent font throughout, varying font sizes for headings and labels",
+      "primary_purpose": "displaying color style guide for design system",
+      "enterprise_os_potential": "reusable color palette for branding and UI components"
+    },
+    {
+      "screen_slug": "styleguide_typography",
+      "screen_name": "Typography Style Guide",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "heading",
+          "name": "Typography Title",
+          "location": "top",
+          "approximate_dimensions": "large width, 68px height",
+          "details": "Large font size, semibold weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subtitle",
+          "location": "top",
+          "approximate_dimensions": "medium width, 16px height",
+          "details": "Smaller font size, regular weight",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Download Font Link",
+          "location": "top",
+          "approximate_dimensions": "medium width, 16px height",
+          "details": "Underlined text, regular weight",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Font Style Card",
+          "location": "center",
+          "approximate_dimensions": "100x100",
+          "details": "White background, shadow, centered text",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "heading",
+          "name": "Heading Examples",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Different font sizes and weights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Body Text Examples",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Different font sizes and weights",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#FFFFFF"
+      ],
+      "typography_notes": "The style guide showcases various typography styles using the Inter Tight font family. It includes different heading sizes and body text styles with varying font weights.",
+      "primary_purpose": "To demonstrate and guide the use of typography in the design system.",
+      "enterprise_os_potential": "This layout could be reused as a style guide or documentation page for typography in an enterprise OS or design system."
+    },
+    {
+      "screen_slug": "welcome_thumb",
+      "screen_name": "Trakr Affiliate Marketing SaaS UI Kit Welcome Screen",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "icon",
+          "name": "Trakr Logo",
+          "location": "top",
+          "approximate_dimensions": "40x40",
+          "details": "White logo on a blue background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Trakr Text",
+          "location": "top",
+          "approximate_dimensions": "variable width",
+          "details": "White text next to the logo",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Large white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subheader Text",
+          "location": "center",
+          "approximate_dimensions": "variable width",
+          "details": "Smaller white text below the header",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Figma Button",
+          "location": "center",
+          "approximate_dimensions": "150x40",
+          "details": "White button with Figma logo and text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Email Address",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "White text with email address",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "bottom",
+          "approximate_dimensions": "variable width",
+          "details": "Small white text with copyright information",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "#Pixem Studio",
+          "location": "top right",
+          "approximate_dimensions": "variable width",
+          "details": "Small white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font, various sizes and weights",
+      "primary_purpose": "Introduction to Trakr Affiliate Marketing SaaS UI Kit",
+      "enterprise_os_potential": "Template for SaaS product landing pages or marketing materials"
+    }
+  ]
+}

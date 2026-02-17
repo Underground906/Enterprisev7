@@ -1,0 +1,1691 @@
+{
+  "generated_at": "2026-02-16T20:11:32.752Z",
+  "model_used": "meta-llama/llama-4-maverick-17b-128e-instruct",
+  "total_screens": 14,
+  "successful": 14,
+  "failed": 0,
+  "component_types": {
+    "sidebar": 11,
+    "topbar": 7,
+    "card": 11,
+    "button": 23,
+    "search_bar": 9,
+    "avatar": 9,
+    "icon": 16,
+    "footer": 8,
+    "divider": 6,
+    "table": 1,
+    "modal": 2,
+    "image": 9,
+    "input": 4,
+    "radio": 1,
+    "link": 3,
+    "dropdown": 2,
+    "breadcrumb": 2,
+    "tabs": 5,
+    "badge": 4,
+    "text": 6,
+    "menu": 1,
+    "tag": 1,
+    "textarea": 1,
+    "heading": 1,
+    "pricing_card": 3,
+    "grid": 1
+  },
+  "reuse_categories": {
+    "navigation": 43,
+    "data_display": 51,
+    "action": 27,
+    "input": 16,
+    "layout": 8,
+    "overlay": 2
+  },
+  "layout_types": {
+    "sidebar_content": 10,
+    "centered": 3,
+    "split": 1
+  },
+  "screens": [
+    {
+      "screen_slug": "page_1_categories",
+      "screen_name": "Categories Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left sidebar",
+          "location": "left",
+          "approximate_dimensions": "50px wide",
+          "details": "Dark background with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top navigation bar",
+          "location": "top",
+          "approximate_dimensions": "Full width, 50px height",
+          "details": "Transparent background, navigation tabs, search bar, and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Category cards",
+          "location": "center",
+          "approximate_dimensions": "Grid of 4 cards per row, varying image sizes",
+          "details": "Image thumbnails with category names, rounded corners, and subtle shadows",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Navigation tabs",
+          "location": "top",
+          "approximate_dimensions": "Various widths, 30px height",
+          "details": "Text buttons with hover effects",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search bar",
+          "location": "top",
+          "approximate_dimensions": "200px wide, 30px height",
+          "details": "Transparent background, magnifying glass icon, and text input",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User avatar",
+          "location": "top right",
+          "approximate_dimensions": "30px diameter",
+          "details": "Circular image with subtle border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Sidebar icons",
+          "location": "left",
+          "approximate_dimensions": "20px diameter",
+          "details": "Various icons with hover effects",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer section",
+          "location": "bottom",
+          "approximate_dimensions": "Full width, varying height",
+          "details": "Dark background with links, social media icons, and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal divider",
+          "location": "bottom",
+          "approximate_dimensions": "Full width, 1px height",
+          "details": "Subtle gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "Open Sans font family used throughout the page",
+      "primary_purpose": "Displaying categories of content for a streaming platform",
+      "enterprise_os_potential": "Reusable for other content categorization and discovery interfaces"
+    },
+    {
+      "screen_slug": "page_1_dashboard_content",
+      "screen_name": "Dashboard Content Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "200x600",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Channel Search",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background with white text and search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "table",
+          "name": "Video List",
+          "location": "center",
+          "approximate_dimensions": "800x400",
+          "details": "Table with video thumbnails, names, visibility, release dates, views, and comments",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "More Options Icon",
+          "location": "right",
+          "approximate_dimensions": "20x20",
+          "details": "Three dots icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Share Button",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Share icon button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Download Button",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Download icon button",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Save Button",
+          "location": "center",
+          "approximate_dimensions": "20x20",
+          "details": "Save icon button",
+          "reusable": true,
+          "reuse_category": "action"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "White text on dark background, clean and modern font",
+      "primary_purpose": "Displaying user's video content",
+      "enterprise_os_potential": "Reusable for content management systems"
+    },
+    {
+      "screen_slug": "page_1_dashboard_upload_video",
+      "screen_name": "Video Upload Dashboard",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Video Upload Modal",
+          "location": "center",
+          "approximate_dimensions": "400x500",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "image",
+          "name": "Video Thumbnail",
+          "location": "left",
+          "approximate_dimensions": "150x100",
+          "details": "Image of a woman, play button overlay",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "input",
+          "name": "Title Input",
+          "location": "right",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with placeholder text",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "input",
+          "name": "Description Input",
+          "location": "right",
+          "approximate_dimensions": "200x100",
+          "details": "Multiline text input field",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "radio",
+          "name": "Visibility Options",
+          "location": "right",
+          "approximate_dimensions": "200x150",
+          "details": "Three radio buttons with labels: Private, Public, Schedule",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Cancel Button",
+          "location": "bottom left",
+          "approximate_dimensions": "80x40",
+          "details": "Gray button with text 'Cancel'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Save as Draft Button",
+          "location": "bottom right",
+          "approximate_dimensions": "100x40",
+          "details": "Purple button with text 'Save as draft'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Publish Button",
+          "location": "bottom right",
+          "approximate_dimensions": "100x40",
+          "details": "Gradient button with text 'Publish'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "link",
+          "name": "Learn More Link",
+          "location": "bottom center",
+          "approximate_dimensions": "100x20",
+          "details": "Text link with text 'Learn more'",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top left",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top center",
+          "approximate_dimensions": "200x40",
+          "details": "Text input field with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons used for navigation",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open sans font used throughout the interface",
+      "primary_purpose": "Video upload and management",
+      "enterprise_os_potential": "Reusable for content management systems"
+    },
+    {
+      "screen_slug": "page_1_home",
+      "screen_name": "Home Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Dark background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "100%x60",
+          "details": "Transparent background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Watch Now Button",
+          "location": "center",
+          "approximate_dimensions": "120x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Trending Content Cards",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Image, title, text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "top",
+          "approximate_dimensions": "100%x400",
+          "details": "Image of Drake",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "dropdown",
+          "name": "Categories Dropdown",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "White text, gray background",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Various Icons",
+          "location": "varies",
+          "approximate_dimensions": "20x20",
+          "details": "White or colored icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "100%x200",
+          "details": "Dark background, white text, links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "200x40",
+          "details": "Gray background, magnifying glass icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "top",
+          "approximate_dimensions": "varies",
+          "details": "Not visible",
+          "reusable": false,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Categories Tabs",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Text tabs",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Trending Badge",
+          "location": "center",
+          "approximate_dimensions": "50x20",
+          "details": "Colored background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans, various font sizes",
+      "primary_purpose": "Streaming platform home page",
+      "enterprise_os_potential": "Reusable for various media streaming platforms"
+    },
+    {
+      "screen_slug": "page_1_home_page",
+      "screen_name": "Home Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60xFull Height",
+          "details": "Dark background with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Transparent background with menu items and search bar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "input",
+          "name": "Mobile Number Input",
+          "location": "center",
+          "approximate_dimensions": "300x40",
+          "details": "White input field with placeholder text and submit button",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Submit Button",
+          "location": "center",
+          "approximate_dimensions": "80x40",
+          "details": "Purple button with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "card",
+          "name": "Movie Cards",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Cards with movie posters and titles",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "center",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "Tabs with category names",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "image",
+          "name": "Movie Posters",
+          "location": "center",
+          "approximate_dimensions": "200x300",
+          "details": "Images of movie posters",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Icons in Sidebar",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "Various icons in the sidebar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "Full Width x 200",
+          "details": "Dark background with links and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "divider",
+          "name": "Horizontal Divider",
+          "location": "center",
+          "approximate_dimensions": "Full Width x 1",
+          "details": "Thin gray line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "To display trending movies and TV shows",
+      "enterprise_os_potential": "This layout could be reused for other media streaming platforms"
+    },
+    {
+      "screen_slug": "page_1_intro",
+      "screen_name": "Introduction Page",
+      "screen_type": "modal",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "modal",
+          "name": "Subscription Modal",
+          "location": "center",
+          "approximate_dimensions": "400x300",
+          "details": "White background, rounded corners, shadow",
+          "reusable": true,
+          "reuse_category": "overlay"
+        },
+        {
+          "type": "image",
+          "name": "Movie Posters",
+          "location": "top",
+          "approximate_dimensions": "300x200",
+          "details": "Collage of movie posters",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Try it Free",
+          "location": "bottom",
+          "approximate_dimensions": "120x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe",
+          "location": "bottom",
+          "approximate_dimensions": "120x40",
+          "details": "White background, purple text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Close Button",
+          "location": "top right",
+          "approximate_dimensions": "20x20",
+          "details": "Gray cross icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Start Watching Now",
+          "location": "center",
+          "approximate_dimensions": "200x20",
+          "details": "Large, bold text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Subscription Details",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Smaller text describing subscription details",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#6c5ce7",
+        "#ffffff"
+      ],
+      "typography_notes": "Bold font used for headings, regular font for body text",
+      "primary_purpose": "Encourage subscription to the service",
+      "enterprise_os_potential": "Reusable as a subscription modal for various services"
+    },
+    {
+      "screen_slug": "page_1_library",
+      "screen_name": "Library Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "250x100%",
+          "details": "Black background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Bar",
+          "location": "top",
+          "approximate_dimensions": "400x40",
+          "details": "Gray background, white text, search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Playlist Card",
+          "location": "center",
+          "approximate_dimensions": "150x200",
+          "details": "Image, title, artist name",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Liked Videos Card",
+          "location": "center",
+          "approximate_dimensions": "150x200",
+          "details": "Image, title",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Your Videos Card",
+          "location": "center",
+          "approximate_dimensions": "150x200",
+          "details": "Image, title, duration",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Navigation Icons",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White, simple icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Navigation Buttons",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "White text, hover effect",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "1x100%",
+          "details": "Gray, subtle",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "100%x100",
+          "details": "Black background, white text, links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "White, simple icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Open Sans, clean and modern typography",
+      "primary_purpose": "Video library management",
+      "enterprise_os_potential": "Reusable for media management platforms"
+    },
+    {
+      "screen_slug": "page_1_login",
+      "screen_name": "Login Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "split",
+        "has_sidebar": false,
+        "sidebar_style": "none",
+        "has_topbar": false,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "image",
+          "name": "Movie Posters Grid",
+          "location": "left",
+          "approximate_dimensions": "Full screen height, half screen width",
+          "details": "Grid of movie posters with various images and text overlays",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Purple Play Icon",
+          "location": "center",
+          "approximate_dimensions": "Small",
+          "details": "Purple icon with a white play symbol",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Header Text",
+          "location": "center",
+          "approximate_dimensions": "Large text block",
+          "details": "White text reading 'All You Love In One Place'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Continue with Google Button",
+          "location": "right",
+          "approximate_dimensions": "Medium button",
+          "details": "Button with Google logo and 'Continue with Google' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Continue with Streaming Button",
+          "location": "right",
+          "approximate_dimensions": "Medium button",
+          "details": "Button with 'Continue with streaming' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "input",
+          "name": "Email Input Field",
+          "location": "right",
+          "approximate_dimensions": "Medium input field",
+          "details": "Text input field with 'EMAIL' placeholder",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Get Started Button",
+          "location": "right",
+          "approximate_dimensions": "Medium button",
+          "details": "White button with 'Get started' text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "text",
+          "name": "Terms and Conditions Text",
+          "location": "right",
+          "approximate_dimensions": "Small text block",
+          "details": "Small text reading 'by subscribing to our service, you are agreeing to our terms & conditions'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Copyright Text",
+          "location": "right",
+          "approximate_dimensions": "Small text block",
+          "details": "Small text reading '2023 All rights reserved - Terms of Service - Privacy Policy'",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "Login or sign up for a streaming service",
+      "enterprise_os_potential": "This layout could be reused for other streaming services or media platforms"
+    },
+    {
+      "screen_slug": "page_1_music_video",
+      "screen_name": "Music Video Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "50x100%",
+          "details": "Dark background with icons and text",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "Light background with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "30x30",
+          "details": "Circular image with border",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tabs",
+          "name": "Category Tabs",
+          "location": "top",
+          "approximate_dimensions": "100%x30",
+          "details": "Text tabs with active state",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "New and Trending Card",
+          "location": "center",
+          "approximate_dimensions": "150x200",
+          "details": "Image with text overlay and shadow",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Album Artwork",
+          "location": "center",
+          "approximate_dimensions": "150x150",
+          "details": "Colorful album artwork",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Play Button",
+          "location": "center",
+          "approximate_dimensions": "30x30",
+          "details": "Circular play icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "center",
+          "approximate_dimensions": "100%x1",
+          "details": "Thin gray line",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "100%x100",
+          "details": "Dark background with text links",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Colorful social media icons",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF69B4"
+      ],
+      "typography_notes": "Open Sans font used throughout the page",
+      "primary_purpose": "Music video streaming platform",
+      "enterprise_os_potential": "Reusable layout for media streaming services"
+    },
+    {
+      "screen_slug": "page_1_open_menu",
+      "screen_name": "Main Menu Open",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Main Navigation",
+          "location": "left",
+          "approximate_dimensions": "250xFull Height",
+          "details": "Black background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Transparent background, white text, icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "button",
+          "name": "Watch Now",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Trailer",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "Transparent background, white text, border",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "image",
+          "name": "Hero Image",
+          "location": "center",
+          "approximate_dimensions": "Full Width x Full Height",
+          "details": "Three women in different colored shirts",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "text",
+          "name": "Movie Title",
+          "location": "left",
+          "approximate_dimensions": "200x40",
+          "details": "White text, large font",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Home Icon",
+          "location": "left",
+          "approximate_dimensions": "20x20",
+          "details": "White icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Search Icon",
+          "location": "top",
+          "approximate_dimensions": "20x20",
+          "details": "White icon",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "menu",
+          "name": "Category Menu",
+          "location": "top",
+          "approximate_dimensions": "100x40",
+          "details": "White text, dropdown menu",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top",
+          "approximate_dimensions": "30x30",
+          "details": "Colorful avatar",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans font used throughout",
+      "primary_purpose": "Main menu navigation",
+      "enterprise_os_potential": "Reusable for various media platforms"
+    },
+    {
+      "screen_slug": "page_1_play_video",
+      "screen_name": "Video Play Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "collapsed",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60xFull Height",
+          "details": "Dark background with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Width x 60",
+          "details": "Dark background with search bar and profile avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "card",
+          "name": "Movie Card",
+          "location": "center",
+          "approximate_dimensions": "800x450",
+          "details": "Video player with play button",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Play Button",
+          "location": "center",
+          "approximate_dimensions": "60x60",
+          "details": "Circular with play icon",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "breadcrumb",
+          "name": "Breadcrumb",
+          "location": "none",
+          "approximate_dimensions": "none",
+          "details": "Not visible",
+          "reusable": false,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "tabs",
+          "name": "Related Movies Tabs",
+          "location": "right",
+          "approximate_dimensions": "300xFull Height",
+          "details": "Tabbed section with movie cards",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "card",
+          "name": "Movie Cards",
+          "location": "right",
+          "approximate_dimensions": "250x150",
+          "details": "Image with title and description",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Divider",
+          "location": "bottom",
+          "approximate_dimensions": "Full Width x 1",
+          "details": "Thin line separating sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "Full Width x 200",
+          "details": "Dark background with links and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom",
+          "approximate_dimensions": "20x20",
+          "details": "Icons for social media platforms",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "bottom",
+          "approximate_dimensions": "varies",
+          "details": "Text links to various pages",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badge",
+          "location": "near movie title",
+          "approximate_dimensions": "40x20",
+          "details": "Displays rating with star icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "tag",
+          "name": "Genre Tags",
+          "location": "near movie title",
+          "approximate_dimensions": "varies",
+          "details": "Text tags for movie genres",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "textarea",
+          "name": "Comment Input",
+          "location": "bottom of comments section",
+          "approximate_dimensions": "Full Width x 40",
+          "details": "Text area for user comments",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "button",
+          "name": "Send Comment Button",
+          "location": "next to comment input",
+          "approximate_dimensions": "40x40",
+          "details": "Button to send comment",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatars in Comments",
+          "location": "left of comments",
+          "approximate_dimensions": "30x30",
+          "details": "Circular with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#333333"
+      ],
+      "typography_notes": "Uses a clean sans-serif font, likely Open Sans or similar",
+      "primary_purpose": "To display a video player with related information and allow user interaction through comments",
+      "enterprise_os_potential": "Could be adapted for various media platforms or content management systems requiring video playback and community engagement features"
+    },
+    {
+      "screen_slug": "page_1_pricing_plan",
+      "screen_name": "Pricing Plan Selection",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "centered",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": false
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Left Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60xFull Height",
+          "details": "Dark background, icons, and menu items",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "Full Widthx60",
+          "details": "Dark background, navigation links, search bar, and user profile",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "heading",
+          "name": "Select your plan",
+          "location": "center",
+          "approximate_dimensions": "Full Widthx40",
+          "details": "Large white text",
+          "reusable": false,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "1 Month Pass",
+          "location": "center",
+          "approximate_dimensions": "250x400",
+          "details": "Dark background, $7.99 price, 'Use for free' button, features list",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "3 Months Pass",
+          "location": "center",
+          "approximate_dimensions": "250x450",
+          "details": "Dark background with purple outline, $19.99 price, 'Get Started' button, features list",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "pricing_card",
+          "name": "12 Months Pass",
+          "location": "center",
+          "approximate_dimensions": "250x400",
+          "details": "Dark background, $49.99 price, 'Get Started' button, features list, 'Save 40%' badge",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Save 40%",
+          "location": "top right",
+          "approximate_dimensions": "60x20",
+          "details": "Purple background, white text",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Use for free",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "White outline, white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "button",
+          "name": "Get Started",
+          "location": "center",
+          "approximate_dimensions": "100x40",
+          "details": "White background, purple text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "icon",
+          "name": "Checkmark",
+          "location": "various",
+          "approximate_dimensions": "16x16",
+          "details": "Purple checkmark icon",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open Sans or similar sans-serif font, various font sizes and weights",
+      "primary_purpose": "To allow users to select a pricing plan for a streaming service",
+      "enterprise_os_potential": "This layout could be reused for other pricing plans or subscription-based services"
+    },
+    {
+      "screen_slug": "page_1_streamers",
+      "screen_name": "Streamers Profile Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": true,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Sidebar",
+          "location": "left",
+          "approximate_dimensions": "60px wide",
+          "details": "Dark background with icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "topbar",
+          "name": "Top Navigation Bar",
+          "location": "top",
+          "approximate_dimensions": "full width, 60px height",
+          "details": "Dark background with search bar and user avatar",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "avatar",
+          "name": "User Avatar",
+          "location": "top right",
+          "approximate_dimensions": "40x40",
+          "details": "Circular avatar with user image",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top center",
+          "approximate_dimensions": "300x40",
+          "details": "Gray background with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "Streamer Profile Card",
+          "location": "top center",
+          "approximate_dimensions": "full width, 200px height",
+          "details": "Dark background with streamer image and details",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "button",
+          "name": "Subscribe Button",
+          "location": "top center",
+          "approximate_dimensions": "100x40",
+          "details": "Purple background with white text",
+          "reusable": true,
+          "reuse_category": "action"
+        },
+        {
+          "type": "tabs",
+          "name": "Video Tabs",
+          "location": "center",
+          "approximate_dimensions": "200x40",
+          "details": "Two tabs: Latest and Popular",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "grid",
+          "name": "Video Grid",
+          "location": "center",
+          "approximate_dimensions": "full width",
+          "details": "Grid of video thumbnails with titles and timestamps",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "image",
+          "name": "Video Thumbnails",
+          "location": "center",
+          "approximate_dimensions": "varies",
+          "details": "Images with varying aspect ratios",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "footer",
+          "name": "Footer",
+          "location": "bottom",
+          "approximate_dimensions": "full width",
+          "details": "Dark background with links and copyright information",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "icon",
+          "name": "Social Media Icons",
+          "location": "bottom center",
+          "approximate_dimensions": "20x20",
+          "details": "Icons for social media platforms",
+          "reusable": true,
+          "reuse_category": "data_display"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF",
+        "#7A288A"
+      ],
+      "typography_notes": "Open sans font used throughout the page",
+      "primary_purpose": "Streamer profile page to showcase videos and information",
+      "enterprise_os_potential": "Reusable layout for various profile pages or dashboards"
+    },
+    {
+      "screen_slug": "page_1_tv_shows",
+      "screen_name": "TV Shows Page",
+      "screen_type": "full_page",
+      "is_variant_of": null,
+      "layout": {
+        "type": "sidebar_content",
+        "has_sidebar": true,
+        "sidebar_style": "expanded",
+        "has_topbar": false,
+        "has_footer": true
+      },
+      "components": [
+        {
+          "type": "sidebar",
+          "name": "Navigation Menu",
+          "location": "left",
+          "approximate_dimensions": "60xFull Height",
+          "details": "Dark background with white text and icons",
+          "reusable": true,
+          "reuse_category": "navigation"
+        },
+        {
+          "type": "search_bar",
+          "name": "Search Input",
+          "location": "top",
+          "approximate_dimensions": "200x30",
+          "details": "White input field with search icon",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "dropdown",
+          "name": "Filter Dropdowns",
+          "location": "top",
+          "approximate_dimensions": "Various",
+          "details": "Multiple dropdowns for filtering content",
+          "reusable": true,
+          "reuse_category": "input"
+        },
+        {
+          "type": "card",
+          "name": "TV Show Cards",
+          "location": "center",
+          "approximate_dimensions": "Grid of 200x300 cards",
+          "details": "Cards with show posters, titles, and ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "badge",
+          "name": "Rating Badges",
+          "location": "bottom right of cards",
+          "approximate_dimensions": "30x20",
+          "details": "Small badges with rating numbers",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "image",
+          "name": "Show Posters",
+          "location": "within cards",
+          "approximate_dimensions": "Various",
+          "details": "Posters of TV shows",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "icon",
+          "name": "Star Icons",
+          "location": "within rating badges",
+          "approximate_dimensions": "Small",
+          "details": "Star icons for ratings",
+          "reusable": true,
+          "reuse_category": "data_display"
+        },
+        {
+          "type": "divider",
+          "name": "Section Dividers",
+          "location": "between sections",
+          "approximate_dimensions": "Full Width",
+          "details": "Thin dividers separating content sections",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "footer",
+          "name": "Footer Section",
+          "location": "bottom",
+          "approximate_dimensions": "Full Width",
+          "details": "Dark background with white text and links",
+          "reusable": true,
+          "reuse_category": "layout"
+        },
+        {
+          "type": "link",
+          "name": "Footer Links",
+          "location": "within footer",
+          "approximate_dimensions": "Various",
+          "details": "Links to various pages and resources",
+          "reusable": true,
+          "reuse_category": "navigation"
+        }
+      ],
+      "color_palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "typography_notes": "Clean sans-serif font used throughout",
+      "primary_purpose": "Displaying TV shows and their information",
+      "enterprise_os_potential": "Reusable for media streaming platforms"
+    }
+  ]
+}
