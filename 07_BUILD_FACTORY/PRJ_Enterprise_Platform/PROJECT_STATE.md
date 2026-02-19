@@ -89,3 +89,4 @@
 | 2026-02-16 | session_01 | Pillar count fixed (23), SESSION_BOOTSTRAP, DAILY_PRACTICES |
 | 2026-02-17 | session_02 | Full infrastructure: PostgreSQL, ChromaDB, registry, search API |
 | 2026-02-19 | session_01 | SYSTEM_MANIFEST, PROJECT_STATE template, goals, daily checklist |
+| 2026-02-19 | session_01 | Block 1: System discipline lock-in. Created SYSTEM_MANIFEST.md (master routing doc), 4 PROJECT_STATE.md files, GOALS_90D |
