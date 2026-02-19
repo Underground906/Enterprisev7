@@ -186,6 +186,27 @@ Each project has a `PROJECT_STATE.md` in its Build Factory folder. Read that fil
 - Update the PROJECT_STATE.md for whatever project was touched.
 - Commit to git after each block.
 
+### Fast Session Wrap-Up (< 3 Minutes)
+
+**Script:** `03_CORE_ENGINE/SCRIPTS/session_wrapup.py`
+
+```bash
+# Quick (one command, auto-commit):
+python 03_CORE_ENGINE/SCRIPTS/session_wrapup.py --quick -s "Summary here" -p "Project1,Project2"
+
+# Interactive (prompts for everything):
+python 03_CORE_ENGINE/SCRIPTS/session_wrapup.py
+```
+
+**What it does automatically:**
+1. Creates session summary → `02_COMMAND_DECK/ACTIVE_SESSIONS/YYYY-MM/`
+2. Creates transcript → `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/YYYY-MM/`
+3. Updates `SESSION_INDEX.md` with new row
+4. Updates `PROJECT_STATE.md` session links for each project touched
+5. Git add, commit, push
+
+**Human guide:** `C:\Users\under\Documents\V7_DAILY_GUIDE.md`
+
 ### Quality Checks
 - Before writing: check name, route, no-overwrite.
 - After writing: verify content, update index.
