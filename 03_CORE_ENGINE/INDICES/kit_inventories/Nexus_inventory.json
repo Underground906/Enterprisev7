@@ -1,0 +1,5787 @@
+{
+  "kit_name": "Nexus",
+  "file_key": "yNs5Y0aYN5SxbfL9tGw92R",
+  "db_item_count": 45,
+  "total_screens": 35,
+  "processed_screens": [
+    "guideline_tokens.png",
+    "screen_channel.png",
+    "screen_channel_settings_general.png",
+    "screen_channel_settings_admin_settings.png",
+    "screen_channel_settings_member.png",
+    "screen_channel_thread.png",
+    "screen_inbox.png",
+    "guideline_typography.png",
+    "screen_channel_settings_notification.png",
+    "screen_detail_thread.png",
+    "screen_message_in_inbox.png",
+    "screen_message_send_picture.png",
+    "screen_create_new_thread.png",
+    "screen_profile.png",
+    "screen_confirmation_post_thread.png",
+    "screen_channel_discussion.png",
+    "screen_s.png",
+    "screen_set_custom_status.png",
+    "screen_settings_notification.png",
+    "screen_settings_chat.png",
+    "screen_settings_account.png",
+    "screen_settings_appearance.png",
+    "screen_settings_voice_video.png",
+    "screen_share_thread.png",
+    "screen_settings_profile.png",
+    "screen_teams_chat.png",
+    "screen_status.png",
+    "screen_view_more_profile_thread.png",
+    "screen_view_more_profile_general.png",
+    "screen_comment_in_thread.png",
+    "cover_thumbnail_figma.png",
+    "screen_login_filled.png",
+    "screen_login.png",
+    "screen_login_error.png",
+    "screen_register.png",
+    "screen_frame_1598.png",
+    "screen_frame_1599.png",
+    "screen_frame_1600.png",
+    "screen_frame_1602.png",
+    "screen_frame_1603.png",
+    "screen_frame_1604.png",
+    "screen_frame_1644.png",
+    "screen_frame_1645.png"
+  ],
+  "screens": {
+    "guideline_tokens.png": {
+      "subfolder": "screens",
+      "size_mb": 0.24,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "name": "Base Colors Title",
+            "location": "top-left",
+            "purpose": "Displays the title of the color palette",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Section Divider",
+            "location": "top-left, below title",
+            "purpose": "Separates the title from the color palette",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Neutral Color Swatches",
+            "location": "left section",
+            "purpose": "Displays a collection of neutral colors",
+            "elements": [
+              "color swatch",
+              "color code"
+            ],
+            "variant": "",
+            "count": 11
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Blue Color Swatches",
+            "location": "center section",
+            "purpose": "Displays a collection of blue colors",
+            "elements": [
+              "color swatch",
+              "color code"
+            ],
+            "variant": "",
+            "count": 10
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Success Color Swatches",
+            "location": "bottom-left",
+            "purpose": "Displays a collection of success colors",
+            "elements": [
+              "color swatch",
+              "color code"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Warning Color Swatches",
+            "location": "bottom-center",
+            "purpose": "Displays a collection of warning colors",
+            "elements": [
+              "color swatch",
+              "color code"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Error Color Swatches",
+            "location": "bottom-right",
+            "purpose": "Displays a collection of error colors",
+            "elements": [
+              "color swatch",
+              "color code"
+            ],
+            "variant": "",
+            "count": 5
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3397
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_channel.png": {
+      "subfolder": "screens",
+      "size_mb": 0.17,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation and search functionality",
+            "elements": [
+              "search_bar",
+              "nav_links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "nav_items",
+              "team_icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "team_list",
+              "channel_list"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Chat Bubble",
+            "location": "center",
+            "purpose": "Displays a message in a conversation",
+            "elements": [
+              "text",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "left",
+            "purpose": "Allows users to create a new team",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Make a Channel Button",
+            "location": "left",
+            "purpose": "Allows users to create a new channel",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Search Bar",
+            "location": "top-center",
+            "purpose": "Allows users to search for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Team List",
+            "location": "left",
+            "purpose": "Displays a list of teams",
+            "elements": [
+              "team_items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Channel List",
+            "location": "left",
+            "purpose": "Displays a list of channels",
+            "elements": [
+              "channel_items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Thread Card",
+            "location": "center",
+            "purpose": "Displays a thread of messages",
+            "elements": [
+              "text",
+              "timestamp",
+              "avatar"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "right",
+            "purpose": "Displays a user's profile information",
+            "elements": [
+              "avatar",
+              "name",
+              "role"
+            ],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "notification",
+            "name": "Notification",
+            "location": "top-right",
+            "purpose": "Displays a notification",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Messages Badge",
+            "location": "left",
+            "purpose": "Indicates the number of unread messages",
+            "elements": [
+              "number"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "left",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Icon Button",
+            "location": "top-right",
+            "purpose": "Opens settings",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Search Icon Button",
+            "location": "top-center",
+            "purpose": "Opens search",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 17,
+        "tokens_used": 3813
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_channel_settings_general.png": {
+      "subfolder": "screens",
+      "size_mb": 0.31,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar",
+            "name": "Main Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "Teams",
+              "Create New Team",
+              "Channels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Lists different navigation items",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "Teams",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "Nexus",
+              "UI/UX Community",
+              "#Thread",
+              "Search"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Allows users to configure settings for the UI/UX Community channel",
+            "elements": [
+              "General",
+              "Admin settings",
+              "Member",
+              "Notification"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Channel Name Input",
+            "location": "center",
+            "purpose": "Allows users to edit the channel name",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Channel Link Input",
+            "location": "center",
+            "purpose": "Displays the channel link",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Copy Link Button",
+            "location": "center",
+            "purpose": "Allows users to copy the channel link",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Color Swatches",
+            "location": "center",
+            "purpose": "Allows users to select a color for the channel",
+            "elements": [],
+            "variant": "",
+            "count": 16
+          },
+          {
+            "component_type": "input",
+            "name": "Custom Color Input",
+            "location": "center",
+            "purpose": "Allows users to enter a custom color",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Member List",
+            "location": "right",
+            "purpose": "Displays a list of members in the channel",
+            "elements": [
+              "Annette Black",
+              "Brooklyn Simmons",
+              "Guy Hawkins"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "Member Profile Card",
+            "location": "right",
+            "purpose": "Displays information about a member",
+            "elements": [
+              "name",
+              "role"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Search Button",
+            "location": "top",
+            "purpose": "Allows users to search for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Button",
+            "location": "top-right",
+            "purpose": "Allows users to access settings",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3610
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_channel_settings_admin_settings.png": {
+      "subfolder": "screens",
+      "size_mb": 0.32,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar",
+            "name": "Main Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation and access to different sections of the application",
+            "elements": [
+              "Teams",
+              "Create New Team",
+              "Channels",
+              "Integrations",
+              "Google Calendar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Enables navigation between different sections",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "Teams",
+              "Channel"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides access to main application sections and search functionality",
+            "elements": [
+              "UI/UX Community",
+              "#Thread",
+              "Search Bar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Allows configuration of community settings",
+            "elements": [
+              "General",
+              "Admin settings",
+              "Member",
+              "Notification"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Admin to Admin Toggle",
+            "location": "center",
+            "purpose": "Enables or disables admin to admin permissions",
+            "elements": [],
+            "variant": "on",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Let Admin Kick Out Another Admin Toggle",
+            "location": "center",
+            "purpose": "Controls admin ability to kick out another admin",
+            "elements": [],
+            "variant": "on",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Let Admin Block or Mute Another Admin Toggle",
+            "location": "center",
+            "purpose": "Controls admin ability to block or mute another admin",
+            "elements": [],
+            "variant": "on",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Let Admin Remove Thread Another Admin Toggle",
+            "location": "center",
+            "purpose": "Controls admin ability to remove thread from another admin",
+            "elements": [],
+            "variant": "on",
+            "count": 2
+          },
+          {
+            "component_type": "toggle",
+            "name": "Admin to Member Toggle",
+            "location": "center",
+            "purpose": "Enables or disables admin to member permissions",
+            "elements": [],
+            "variant": "on",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "All Above Permission is Allowed for Admin Toggle",
+            "location": "center",
+            "purpose": "Controls all above permissions for admin",
+            "elements": [],
+            "variant": "on",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Members List",
+            "location": "right",
+            "purpose": "Displays a list of community members",
+            "elements": [
+              "Annette Black",
+              "Brooklyn Simmons",
+              "Guy Hawkins"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top",
+            "purpose": "Enables searching within the application",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Back Button",
+            "location": "top",
+            "purpose": "Navigates back to the previous page",
+            "elements": [],
+            "variant": "icon",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Info Icon Button",
+            "location": "top",
+            "purpose": "Provides information about the application",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Notification Icon Button",
+            "location": "top",
+            "purpose": "Displays notifications",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Help Icon Button",
+            "location": "top",
+            "purpose": "Provides help and support",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "left",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Messages Badge",
+            "location": "left",
+            "purpose": "Indicates unread messages",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "left",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 19,
+        "tokens_used": 3968
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_channel_settings_member.png": {
+      "subfolder": "screens",
+      "size_mb": 0.33,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation and search functionality",
+            "elements": [
+              "search_bar",
+              "nav_links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "nav_items",
+              "team_icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Displays settings options for the current team",
+            "elements": [
+              "tabs",
+              "settings_items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "tab",
+            "name": "Settings Tabs",
+            "location": "center-top",
+            "purpose": "Allows switching between different settings sections",
+            "elements": [
+              "general_tab",
+              "admin_settings_tab",
+              "member_tab"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "list",
+            "name": "Member List",
+            "location": "center",
+            "purpose": "Displays a list of team members",
+            "elements": [
+              "member_items",
+              "member_names",
+              "member_roles"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "Member Avatars",
+            "location": "center",
+            "purpose": "Displays member avatars",
+            "elements": [],
+            "variant": "",
+            "count": 10
+          },
+          {
+            "component_type": "badge",
+            "name": "Member Roles",
+            "location": "center",
+            "purpose": "Indicates member roles (e.g. Owner, Admin)",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "button",
+            "name": "Write a Message Button",
+            "location": "bottom-center",
+            "purpose": "Opens a message composition interface",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Sidebar Toggle Button",
+            "location": "top-left",
+            "purpose": "Toggles the sidebar",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-center",
+            "purpose": "Allows searching for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "notification",
+            "name": "Notification Indicator",
+            "location": "top-right",
+            "purpose": "Indicates notifications",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_menu",
+            "name": "Sidebar Menu",
+            "location": "left",
+            "purpose": "Provides a menu for navigation",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "Member Profile Cards",
+            "location": "center",
+            "purpose": "Displays member profile information",
+            "elements": [],
+            "variant": "",
+            "count": 10
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "center",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "checkbox",
+            "name": "Member Selection Checkboxes",
+            "location": "center",
+            "purpose": "Allows selecting members",
+            "elements": [],
+            "variant": "",
+            "count": 10
+          }
+        ],
+        "component_count": 15,
+        "tokens_used": 3675
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_channel_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.17,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Main Navigation Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "Teams",
+              "Create New Team",
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Job-connect",
+              "Make a Channel",
+              "Google Calendar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides navigation to different sections of the application and search functionality",
+            "elements": [
+              "Nexus logo",
+              "search bar",
+              "notifications",
+              "settings"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Community Sidebar",
+            "location": "right",
+            "purpose": "Displays community information and members",
+            "elements": [
+              "UI/UX Community description",
+              "star messages",
+              "Docs, files, media",
+              "Tagged",
+              "Members list"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Brooklyn Simmons' Thread",
+            "location": "center",
+            "purpose": "Displays a thread message from Brooklyn Simmons",
+            "elements": [
+              "profile picture",
+              "username",
+              "timestamp",
+              "message text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Theresa Webb's Thread",
+            "location": "center",
+            "purpose": "Displays a thread message from Theresa Webb",
+            "elements": [
+              "profile picture",
+              "username",
+              "timestamp",
+              "message text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Message Button",
+            "location": "bottom-center",
+            "purpose": "Sends a message in the chat",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Message Input Field",
+            "location": "bottom-center",
+            "purpose": "Allows users to input text for a message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "Brooklyn Simmons' Avatar",
+            "location": "center",
+            "purpose": "Displays Brooklyn Simmons' profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "Theresa Webb's Avatar",
+            "location": "center",
+            "purpose": "Displays Theresa Webb's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Community Members List",
+            "location": "right",
+            "purpose": "Displays a list of community members",
+            "elements": [
+              "member avatars",
+              "member names"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Icon Button",
+            "location": "top-right",
+            "purpose": "Opens settings panel",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-center",
+            "purpose": "Allows users to search for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3609
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_inbox.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Create New Team",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Message Button",
+            "location": "top-right",
+            "purpose": "Allows users to create a new message",
+            "elements": [
+              "+"
+            ],
+            "variant": "icon_button",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for messages or files",
+            "elements": [
+              "input field",
+              "magnifying glass icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Message List",
+            "location": "center",
+            "purpose": "Displays a list of messages",
+            "elements": [
+              "message cards"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Message Card",
+            "location": "center",
+            "purpose": "Displays a single message",
+            "elements": [
+              "avatar",
+              "name",
+              "message text",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Message Badge",
+            "location": "top-left",
+            "purpose": "Indicates the number of unread messages",
+            "elements": [
+              "3"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "left",
+            "purpose": "Separates different sections of the sidebar",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Icon",
+            "location": "bottom-left",
+            "purpose": "Provides access to settings",
+            "elements": [
+              "..."
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "bottom-left",
+            "purpose": "Displays the user's profile information",
+            "elements": [
+              "Kevin Heart",
+              "On duty"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3563
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "guideline_typography.png": {
+      "subfolder": "screens",
+      "size_mb": 0.29,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "name": "Heading 1",
+            "location": "top-left",
+            "purpose": "Displays a sample of Heading 1 typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading 2",
+            "location": "below Heading 1",
+            "purpose": "Displays a sample of Heading 2 typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading 3",
+            "location": "below Heading 2",
+            "purpose": "Displays a sample of Heading 3 typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading 4",
+            "location": "below Heading 3",
+            "purpose": "Displays a sample of Heading 4 typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading 5",
+            "location": "below Heading 4",
+            "purpose": "Displays a sample of Heading 5 typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Body",
+            "location": "below Heading 5",
+            "purpose": "Displays a sample of Body typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Caption",
+            "location": "bottom",
+            "purpose": "Displays a sample of Caption typography",
+            "elements": [
+              "Bold text",
+              "Semibold text",
+              "Medium text",
+              "Regular text"
+            ],
+            "variant": [
+              "Bold",
+              "Semibold",
+              "Medium",
+              "Regular"
+            ],
+            "count": 4
+          },
+          {
+            "component_type": "logo",
+            "name": "Nexus UI KIT Logo",
+            "location": "top-right",
+            "purpose": "Displays the Nexus UI KIT logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3484
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_channel_settings_notification.png": {
+      "subfolder": "screens",
+      "size_mb": 0.3,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation and search functionality",
+            "elements": [
+              "search_bar",
+              "breadcrumbs",
+              "settings_icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "nav_items",
+              "team_icons",
+              "create_new_team_button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Provides settings and configuration options for the current channel",
+            "elements": [
+              "tabs",
+              "notification_settings",
+              "member_settings"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "tab_bar",
+            "name": "Settings Tabs",
+            "location": "center-top",
+            "purpose": "Provides navigation to different settings sections",
+            "elements": [
+              "general_tab",
+              "admin_settings_tab",
+              "member_tab",
+              "notification_tab"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "notification_settings",
+            "name": "Notification Settings",
+            "location": "center",
+            "purpose": "Provides options for customizing notifications",
+            "elements": [
+              "toggle_buttons",
+              "labels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Notification Toggle",
+            "location": "center",
+            "purpose": "Toggles notification on or off",
+            "elements": [],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Community Sidebar",
+            "location": "right",
+            "purpose": "Provides information about the community",
+            "elements": [
+              "community_description",
+              "star_messages",
+              "members",
+              "tagged"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatars",
+            "location": "right",
+            "purpose": "Displays user avatars",
+            "elements": [],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Icon Button",
+            "location": "top-right",
+            "purpose": "Opens settings panel",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "left",
+            "purpose": "Creates a new team",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-center",
+            "purpose": "Provides search functionality",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3471
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_detail_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.29,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the page and provides navigation",
+            "elements": [
+              "title text",
+              "breadcrumb"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "nav links",
+              "icons",
+              "labels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-right",
+            "purpose": "Provides additional navigation and actions",
+            "elements": [
+              "search bar",
+              "notifications",
+              "profile avatar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Post Card",
+            "location": "center",
+            "purpose": "Displays a single post with its content and metadata",
+            "elements": [
+              "author avatar",
+              "post text",
+              "post images",
+              "post metadata"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Post Images",
+            "location": "center",
+            "purpose": "Displays images related to the post",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "button",
+            "name": "Like Button",
+            "location": "top-right",
+            "purpose": "Allows users to like the post",
+            "elements": [
+              "icon"
+            ],
+            "variant": "icon_button",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Comment Button",
+            "location": "top-right",
+            "purpose": "Allows users to comment on the post",
+            "elements": [
+              "icon"
+            ],
+            "variant": "icon_button",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Share Button",
+            "location": "top-right",
+            "purpose": "Allows users to share the post",
+            "elements": [
+              "icon"
+            ],
+            "variant": "icon_button",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "Author Avatar",
+            "location": "top-left",
+            "purpose": "Displays the author's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Post Title",
+            "location": "center",
+            "purpose": "Displays the post title",
+            "elements": [],
+            "variant": "headline",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Post Text",
+            "location": "center",
+            "purpose": "Displays the post text",
+            "elements": [],
+            "variant": "body_text",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Sidebar Items",
+            "location": "left",
+            "purpose": "Displays a list of items in the sidebar",
+            "elements": [
+              "labels",
+              "icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "input field",
+              "search icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3608
+      },
+      "processed_at": "2026-02-18T01:34:47.344427"
+    },
+    "screen_message_in_inbox.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation and search functionality",
+            "elements": [
+              "logo",
+              "search_bar",
+              "phone icon",
+              "camera icon",
+              "menu icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Nexus Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "General",
+              "Draft",
+              "Teams",
+              "Create New Team",
+              "Channels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Nexus Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Web Designer"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Chat Bubble",
+            "location": "center",
+            "purpose": "Displays a message in the chat conversation",
+            "elements": [
+              "text",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "button",
+            "name": "Send Message Button",
+            "location": "bottom-center",
+            "purpose": "Sends a message in the chat conversation",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Chat Input",
+            "location": "bottom-center",
+            "purpose": "Allows the user to input text",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Emoji Button",
+            "location": "bottom-center",
+            "purpose": "Allows the user to add emojis to their message",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "File Upload Button",
+            "location": "bottom-center",
+            "purpose": "Allows the user to upload files",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Messages Badge",
+            "location": "top-left",
+            "purpose": "Displays the number of unread messages",
+            "elements": [
+              "number"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "left",
+            "purpose": "Displays the user's profile information",
+            "elements": [
+              "name",
+              "status"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3513
+      },
+      "processed_at": "2026-02-18T01:38:07.682310"
+    },
+    "screen_message_send_picture.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Draft",
+              "Teams",
+              "Create New Team",
+              "Channel",
+              "Integrations",
+              "Add another Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Displays the application's title and provides actions",
+            "elements": [
+              "Nexus logo",
+              "Back button",
+              "Title: Leslie Alexander",
+              "Phone icon",
+              "Video call icon",
+              "Search bar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Chat Bubble",
+            "location": "center",
+            "purpose": "Displays a message from a user",
+            "elements": [
+              "User avatar",
+              "Message text",
+              "Timestamp"
+            ],
+            "variant": "sender",
+            "count": 2
+          },
+          {
+            "component_type": "input",
+            "name": "Search Input",
+            "location": "top-right",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "Search icon",
+              "Input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Button",
+            "location": "bottom-center",
+            "purpose": "Sends a message",
+            "elements": [
+              "Send icon"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "Message Input",
+            "location": "bottom-center",
+            "purpose": "Allows users to type a message",
+            "elements": [
+              "Input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-left, within chat bubble",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "code_block",
+            "name": "Code Snippet",
+            "location": "center",
+            "purpose": "Displays a code snippet",
+            "elements": [
+              "Code text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Sidebar Items",
+            "location": "left",
+            "purpose": "Displays a list of items",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Count Badge",
+            "location": "top-left, within sidebar",
+            "purpose": "Displays the number of unread messages",
+            "elements": [
+              "Unread count: 3",
+              "Unread count: 24"
+            ],
+            "variant": "",
+            "count": 2
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3471
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_create_new_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.36,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides application-wide navigation and actions",
+            "elements": [
+              "Nexus",
+              "UI/UX Community",
+              "Find anything here"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Thread Button",
+            "location": "top-center",
+            "purpose": "Creates a new thread in the current channel",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Thread Card",
+            "location": "center",
+            "purpose": "Displays a single thread with its content and metadata",
+            "elements": [
+              "author avatar",
+              "author name",
+              "timestamp",
+              "thread content"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Message Input Field",
+            "location": "bottom-center",
+            "purpose": "Allows users to input a message to be sent",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Message Button",
+            "location": "bottom-center",
+            "purpose": "Sends the message in the input field",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Right Sidebar",
+            "location": "right",
+            "purpose": "Displays information about the community and its members",
+            "elements": [
+              "community description",
+              "member list"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Member List",
+            "location": "right",
+            "purpose": "Displays a list of community members",
+            "elements": [
+              "member avatars",
+              "member names"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "tooltip",
+            "name": "Thread Posting Information",
+            "location": "top-right",
+            "purpose": "Provides information about where the thread can be posted",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the avatar of the thread author",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Thread Title",
+            "location": "center",
+            "purpose": "Displays the title of the thread",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Thread Content",
+            "location": "center",
+            "purpose": "Displays the content of the thread",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Plugin Screenshots",
+            "location": "center",
+            "purpose": "Displays screenshots of plugins",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates thread content sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3656
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_profile.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation options for the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides sidebar navigation options for the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a sidebar for navigation and information",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Conversation List",
+            "location": "center",
+            "purpose": "Displays a list of conversations",
+            "elements": [
+              "conversation items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Conversation Card",
+            "location": "center",
+            "purpose": "Displays a single conversation",
+            "elements": [
+              "avatar",
+              "name",
+              "message",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "button",
+            "name": "New Message Button",
+            "location": "top-right",
+            "purpose": "Allows users to start a new conversation",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for conversations",
+            "elements": [
+              "input field",
+              "magnifying glass icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "bottom-center",
+            "purpose": "Displays the current user's profile information",
+            "elements": [
+              "avatar",
+              "name",
+              "status"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "bottom-center",
+            "purpose": "Provides settings options for the application",
+            "elements": [
+              "status",
+              "custom status",
+              "view profile",
+              "dark mode",
+              "settings"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "menu",
+            "name": "Context Menu",
+            "location": "bottom-center",
+            "purpose": "Provides a context menu for the user's profile",
+            "elements": [
+              "sign out",
+              "upgrade your account"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "bottom-center",
+            "purpose": "Displays the current user's avatar",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Message Badge",
+            "location": "top-left",
+            "purpose": "Indicates the number of unread messages",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Dark Mode Toggle",
+            "location": "bottom-center",
+            "purpose": "Toggles dark mode on and off",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3636
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_confirmation_post_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.41,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar",
+            "name": "Main Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation and access to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Lists various channels and teams for navigation",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides access to main application sections and search functionality",
+            "elements": [
+              "Nexus",
+              "UI/UX Community",
+              "#Thread",
+              "search bar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "left sidebar",
+            "purpose": "Allows users to create a new team",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Close Button",
+            "location": "modal",
+            "purpose": "Closes the modal window",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Post Thread Button",
+            "location": "modal",
+            "purpose": "Posts the thread",
+            "elements": [],
+            "variant": "blue",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Check #Thread Button",
+            "location": "modal",
+            "purpose": "Checks the #Thread",
+            "elements": [],
+            "variant": "blue",
+            "count": 1
+          },
+          {
+            "component_type": "modal",
+            "name": "Confirmation Modal",
+            "location": "center",
+            "purpose": "Confirms posting a thread",
+            "elements": [
+              "question mark icon",
+              "message text",
+              "Close Button",
+              "Post Thread Button",
+              "Check #Thread Button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatars",
+            "location": "right sidebar",
+            "purpose": "Displays user avatars",
+            "elements": [],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "card",
+            "name": "User Profile Cards",
+            "location": "right sidebar",
+            "purpose": "Displays user information",
+            "elements": [
+              "avatar",
+              "name text"
+            ],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "list",
+            "name": "Member List",
+            "location": "right sidebar",
+            "purpose": "Lists members of the community",
+            "elements": [
+              "avatar",
+              "name text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "header",
+            "name": "Community Header",
+            "location": "right sidebar",
+            "purpose": "Displays community information",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "search input",
+              "magnifying glass icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3622
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_channel_discussion.png": {
+      "subfolder": "screens",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Main Navigation Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides navigation to different sections of the application and search functionality",
+            "elements": [
+              "Nexus logo",
+              "search bar",
+              "settings icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Chat Message Bubble",
+            "location": "center",
+            "purpose": "Displays a single chat message",
+            "elements": [
+              "user avatar",
+              "message text",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Thread Button",
+            "location": "bottom-center",
+            "purpose": "Creates a new thread in the discussion",
+            "elements": [
+              "plus icon",
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sidebar Toggle Button",
+            "location": "top-left",
+            "purpose": "Toggles the sidebar",
+            "elements": [
+              "hamburger icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays a user's avatar",
+            "elements": [],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "sidebar",
+            "name": "UI/UX Team Group Sidebar",
+            "location": "right",
+            "purpose": "Displays information about the UI/UX Team Group",
+            "elements": [
+              "group description",
+              "star messages",
+              "docs, files, media",
+              "tagged",
+              "members list"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Members List",
+            "location": "right",
+            "purpose": "Displays a list of members in the UI/UX Team Group",
+            "elements": [
+              "member avatars",
+              "member names",
+              "member roles"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Search Bar",
+            "location": "top-center",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "search icon",
+              "input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Messages Badge",
+            "location": "left",
+            "purpose": "Indicates the number of unread messages",
+            "elements": [
+              "number"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "left",
+            "purpose": "Separates sections in the sidebar",
+            "elements": [],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Icon Button",
+            "location": "top-right",
+            "purpose": "Opens the settings panel",
+            "elements": [
+              "settings icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Search Icon Button",
+            "location": "top-center",
+            "purpose": "Opens the search bar",
+            "elements": [
+              "search icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3638
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_s.png": {
+      "subfolder": "screens",
+      "size_mb": 0.41,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation and search functionality across the application",
+            "elements": [
+              "search_bar",
+              "menu_items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "nav_items",
+              "team_channels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a collapsible navigation menu",
+            "elements": [
+              "nav_items",
+              "team_channels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "sidebar",
+            "purpose": "Allows users to create a new team",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Close Button",
+            "location": "modal",
+            "purpose": "Closes the modal window",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Check #Thread Button",
+            "location": "modal",
+            "purpose": "Navigates to the #Thread channel",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Close Modal Button",
+            "location": "modal",
+            "purpose": "Closes the modal window",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "modal",
+            "name": "Thread Posted Successfully Modal",
+            "location": "center",
+            "purpose": "Displays a confirmation message after posting a thread",
+            "elements": [
+              "title",
+              "message",
+              "buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "sidebar",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Messages Badge",
+            "location": "sidebar",
+            "purpose": "Indicates the number of unread messages",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Team Channels List",
+            "location": "sidebar",
+            "purpose": "Displays a list of team channels",
+            "elements": [
+              "channel_name",
+              "unread_messages"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Members List",
+            "location": "right-sidebar",
+            "purpose": "Displays a list of team members",
+            "elements": [
+              "member_avatar",
+              "member_name"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-center",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "input_field",
+              "search_icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3597
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_set_custom_status.png": {
+      "subfolder": "screens",
+      "size_mb": 0.3,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Create New Team",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Message Button",
+            "location": "top-right",
+            "purpose": "Opens a new message composition window",
+            "elements": [
+              "+"
+            ],
+            "variant": "icon_button",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for messages or files",
+            "elements": [
+              "input field",
+              "magnifying glass icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "dialog",
+            "name": "Set Custom Status Dialog",
+            "location": "center",
+            "purpose": "Allows users to set a custom status",
+            "elements": [
+              "What's happening?",
+              "Reset on",
+              "Activity",
+              "Save custom",
+              "Cancel"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "What's Happening Input",
+            "location": "center",
+            "purpose": "Allows users to input a custom status message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Reset On Select",
+            "location": "center",
+            "purpose": "Allows users to select a time to reset their status",
+            "elements": [
+              "24 hours"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Save Custom Status Button",
+            "location": "center",
+            "purpose": "Saves the custom status",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Cancel Button",
+            "location": "center",
+            "purpose": "Cancels the custom status changes",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Conversation List",
+            "location": "center",
+            "purpose": "Displays a list of conversations",
+            "elements": [
+              "Annette Black",
+              "Brooklyn Simmons",
+              "Leslie Alexander"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Conversation Card",
+            "location": "center",
+            "purpose": "Displays a single conversation",
+            "elements": [
+              "username",
+              "message",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 3
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3585
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_settings_notification.png": {
+      "subfolder": "screens",
+      "size_mb": 0.26,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Nexus Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Provides settings options for the application",
+            "elements": [
+              "Profile",
+              "Account",
+              "Chat",
+              "Voice & video",
+              "Appearance",
+              "Notification"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Notification Toggle",
+            "location": "settings_panel",
+            "purpose": "Toggles notification settings on or off",
+            "elements": [],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Nexus Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "sidebar",
+            "purpose": "Creates a new team",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Add Button",
+            "location": "top-right",
+            "purpose": "Adds a new item",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Teams List",
+            "location": "sidebar",
+            "purpose": "Displays a list of teams",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Channels List",
+            "location": "sidebar",
+            "purpose": "Displays a list of channels",
+            "elements": [
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Web Designer"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "Kevin Heart Profile Card",
+            "location": "bottom-left",
+            "purpose": "Displays user profile information",
+            "elements": [
+              "name",
+              "status"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3517
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_settings_chat.png": {
+      "subfolder": "screens",
+      "size_mb": 0.27,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Nexus Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Provides settings options for the application",
+            "elements": [
+              "Profile",
+              "Account",
+              "Chat",
+              "Voice & video",
+              "Appearance",
+              "Notification"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Use 'Enter' as send toggle",
+            "location": "settings panel",
+            "purpose": "Toggles the use of 'Enter' as send",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Render image toggle",
+            "location": "settings panel",
+            "purpose": "Toggles the automatic showing of images",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Convert to emojis toggle",
+            "location": "settings panel",
+            "purpose": "Toggles the conversion of symbols to emojis",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Display embedded content and preview URLs pasted into chat toggle",
+            "location": "settings panel",
+            "purpose": "Toggles the display of embedded content and preview URLs",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Text suggestion toggle",
+            "location": "settings panel",
+            "purpose": "Toggles text suggestions",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Auto correction toggle",
+            "location": "settings panel",
+            "purpose": "Toggles auto correction",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "search input"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "sidebar",
+            "purpose": "Allows users to create a new team",
+            "elements": [
+              "+"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Add another Integrations Button",
+            "location": "integrations section",
+            "purpose": "Allows users to add another integration",
+            "elements": [
+              "+"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Teams List",
+            "location": "sidebar",
+            "purpose": "Displays a list of teams",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Channels List",
+            "location": "sidebar",
+            "purpose": "Displays a list of channels",
+            "elements": [
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Web Designer"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "notification_panel",
+            "name": "Notification Panel",
+            "location": "right",
+            "purpose": "Displays notifications",
+            "elements": [
+              "notification list"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "Kevin Heart Profile Card",
+            "location": "bottom",
+            "purpose": "Displays user profile information",
+            "elements": [
+              "name",
+              "status"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 17,
+        "tokens_used": 3894
+      },
+      "processed_at": "2026-02-18T01:38:07.684323"
+    },
+    "screen_settings_account.png": {
+      "subfolder": "screens",
+      "size_mb": 0.28,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides main navigation links",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides links to different sections of the app",
+            "elements": [
+              "General",
+              "Teams",
+              "Create New Team",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Displays user settings",
+            "elements": [
+              "Profile",
+              "Account",
+              "Chat",
+              "Voice & video",
+              "Appearance",
+              "Notification"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Change Password Button",
+            "location": "center",
+            "purpose": "Allows the user to change their password",
+            "elements": [],
+            "variant": "blue",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Language Select",
+            "location": "center",
+            "purpose": "Allows the user to select their language",
+            "elements": [
+              "English"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "New Friend Toggle",
+            "location": "center",
+            "purpose": "Allows the user to toggle new friend settings",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Channel's Friend Toggle",
+            "location": "center",
+            "purpose": "Allows the user to toggle channel's friend settings",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Authenticator App Toggle",
+            "location": "center",
+            "purpose": "Allows the user to toggle authenticator app settings",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Disable Account Button",
+            "location": "center",
+            "purpose": "Allows the user to disable their account",
+            "elements": [],
+            "variant": "red",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Delete Account Button",
+            "location": "center",
+            "purpose": "Allows the user to delete their account",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Displays the user's email",
+            "elements": [],
+            "variant": "readonly",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "center",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3601
+      },
+      "processed_at": "2026-02-18T01:40:51.034774"
+    },
+    "screen_settings_appearance.png": {
+      "subfolder": "screens",
+      "size_mb": 0.26,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Nexus Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Allows users to customize their settings",
+            "elements": [
+              "Profile",
+              "Account",
+              "Chat",
+              "Voice & video",
+              "Appearance",
+              "Notification"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Teams Sidebar",
+            "location": "left",
+            "purpose": "Displays a list of teams",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Preference Mode Card",
+            "location": "center",
+            "purpose": "Allows users to select their preferred mode",
+            "elements": [
+              "Light mode",
+              "Dark mode"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Font Size Select",
+            "location": "center",
+            "purpose": "Allows users to select their preferred font size",
+            "elements": [
+              "16 px"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Zoom Display Select",
+            "location": "center",
+            "purpose": "Allows users to select their preferred zoom display",
+            "elements": [
+              "100 (normal)"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "radio",
+            "name": "Preference Mode Radio",
+            "location": "center",
+            "purpose": "Allows users to select their preferred mode",
+            "elements": [
+              "Light mode",
+              "Dark mode"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "button",
+            "name": "Search Button",
+            "location": "top-right",
+            "purpose": "Triggers a search action",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Search Input",
+            "location": "top-right",
+            "purpose": "Allows users to input search queries",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "notification_panel",
+            "name": "Notification Panel",
+            "location": "right",
+            "purpose": "Displays notifications",
+            "elements": [
+              "Notification 1",
+              "Notification 2",
+              "Notification 3"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "bottom-left",
+            "purpose": "Displays user information",
+            "elements": [
+              "Kevin Heart",
+              "On duty"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3584
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_settings_voice_video.png": {
+      "subfolder": "screens",
+      "size_mb": 0.27,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Nexus Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels for navigation",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides a list of channels and teams for navigation",
+            "elements": [
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Web Designer"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Provides settings for voice and video",
+            "elements": [
+              "Voice settings",
+              "Input device",
+              "Input volume device",
+              "Output device",
+              "Output volume device",
+              "Mic test",
+              "Record voice",
+              "Input sensitivity automatically"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "slider",
+            "name": "Input Volume Slider",
+            "location": "center",
+            "purpose": "Adjusts the input volume",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "slider",
+            "name": "Output Volume Slider",
+            "location": "center",
+            "purpose": "Adjusts the output volume",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Record Voice Button",
+            "location": "center",
+            "purpose": "Records voice for testing",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Input Sensitivity Toggle",
+            "location": "center",
+            "purpose": "Toggles input sensitivity",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Input Device Select",
+            "location": "center",
+            "purpose": "Selects the input device",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Output Device Select",
+            "location": "center",
+            "purpose": "Selects the output device",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "dialog",
+            "name": "Settings Dialog",
+            "location": "center",
+            "purpose": "Provides a dialog for settings",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Close Button",
+            "location": "top-right",
+            "purpose": "Closes the settings dialog",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3546
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_share_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.5,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Main Navigation Sidebar",
+            "location": "left",
+            "purpose": "Provides main navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides search functionality and navigation to different parts of the application",
+            "elements": [
+              "Search bar",
+              "Navigation links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "UI/UX Team Group Sidebar",
+            "location": "right",
+            "purpose": "Displays information about the UI/UX Team Group",
+            "elements": [
+              "Group description",
+              "Member list",
+              "Starred messages",
+              "Docs, files, media"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Thread Card",
+            "location": "center",
+            "purpose": "Displays a thread with text and images",
+            "elements": [
+              "Thread text",
+              "Thread images",
+              "Share thread link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Share Thread Button",
+            "location": "center",
+            "purpose": "Allows users to share the thread",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "center",
+            "purpose": "Allows users to enter an email address to share the thread",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Invite Button",
+            "location": "center",
+            "purpose": "Sends an invite to the entered email address",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Sharing Icons",
+            "location": "center",
+            "purpose": "Allows users to share the thread on social media",
+            "elements": [
+              "Facebook",
+              "Instagram",
+              "Telegram",
+              "X",
+              "Email"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Member List",
+            "location": "right",
+            "purpose": "Displays a list of members in the UI/UX Team Group",
+            "elements": [
+              "Member avatars",
+              "Member names"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatars",
+            "location": "right",
+            "purpose": "Displays the avatars of members in the UI/UX Team Group",
+            "elements": [],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "badge",
+            "name": "Admin Badge",
+            "location": "right",
+            "purpose": "Indicates admin status for certain members",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "divider",
+            "name": "Divider",
+            "location": "left",
+            "purpose": "Separates different sections of the sidebar",
+            "elements": [],
+            "variant": "",
+            "count": 5
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3580
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_settings_profile.png": {
+      "subfolder": "screens",
+      "size_mb": 0.28,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides links to different features and settings of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation Items",
+            "location": "left",
+            "purpose": "Provides links to different sections within the sidebar",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "settings_panel",
+            "name": "Settings Panel",
+            "location": "center",
+            "purpose": "Provides settings and profile information for the user",
+            "elements": [
+              "Profile picture",
+              "Profile name",
+              "Username",
+              "Status recently",
+              "About me"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "center",
+            "purpose": "Displays the user's profile information",
+            "elements": [
+              "Profile picture",
+              "Profile name",
+              "Username",
+              "Status recently",
+              "About me"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Profile Name Input",
+            "location": "center",
+            "purpose": "Allows the user to edit their profile name",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Username Input",
+            "location": "center",
+            "purpose": "Displays the user's username",
+            "elements": [],
+            "variant": "disabled",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Status Input",
+            "location": "center",
+            "purpose": "Displays the user's current status",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "About Me Textarea",
+            "location": "center",
+            "purpose": "Allows the user to edit their about me section",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Save Changes Button",
+            "location": "center",
+            "purpose": "Saves the changes made to the user's profile",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Change Picture Button",
+            "location": "center",
+            "purpose": "Allows the user to change their profile picture",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Delete Picture Button",
+            "location": "center",
+            "purpose": "Allows the user to delete their profile picture",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows the user to search for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3700
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_teams_chat.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Main Navigation Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Draft",
+              "Teams",
+              "Create New Team",
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Web Designer",
+              "Make a Channel"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Displays the current date and provides search functionality",
+            "elements": [
+              "Date (February 16th, 2024)",
+              "Search bar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Chat Message Bubble",
+            "location": "center",
+            "purpose": "Displays a single chat message",
+            "elements": [
+              "Avatar",
+              "Text message"
+            ],
+            "variant": "sender",
+            "count": 2
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Represents the user who sent the message",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "input",
+            "name": "Message Input Field",
+            "location": "bottom",
+            "purpose": "Allows the user to input a new message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Message Button",
+            "location": "bottom",
+            "purpose": "Sends the message in the input field",
+            "elements": [
+              "Icon (play)"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Right Sidebar",
+            "location": "right",
+            "purpose": "Displays information about the current team and conversation",
+            "elements": [
+              "Team description",
+              "Member list"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Member List",
+            "location": "right",
+            "purpose": "Displays a list of team members",
+            "elements": [
+              "Member avatars",
+              "Member names"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Team Information Card",
+            "location": "right",
+            "purpose": "Displays information about the current team",
+            "elements": [
+              "Team description",
+              "Member count"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "team_section",
+            "name": "Team Section",
+            "location": "left",
+            "purpose": "Displays a list of teams",
+            "elements": [
+              "Team names",
+              "Team member counts"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "right",
+            "purpose": "Displays information about a team member",
+            "elements": [
+              "Avatar",
+              "Name"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "notification_panel",
+            "name": "Notification Panel",
+            "location": "right",
+            "purpose": "Displays notifications",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3577
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_status.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides links to different features and settings of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Create New Team"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Message Button",
+            "location": "top-right",
+            "purpose": "Opens a new message composition window",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for messages, teams, and channels",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Conversation List",
+            "location": "center",
+            "purpose": "Displays a list of conversations",
+            "elements": [
+              "conversation items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Conversation Card",
+            "location": "center",
+            "purpose": "Displays a single conversation",
+            "elements": [
+              "avatar",
+              "name",
+              "message",
+              "timestamp"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "menu",
+            "name": "User Status Menu",
+            "location": "bottom-center",
+            "purpose": "Allows users to change their status",
+            "elements": [
+              "Online",
+              "Offline",
+              "Busy",
+              "AFK"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Settings Button",
+            "location": "bottom-center",
+            "purpose": "Opens the settings panel",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sign Out Button",
+            "location": "bottom-center",
+            "purpose": "Logs the user out of the application",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Dark Mode Toggle",
+            "location": "bottom-center",
+            "purpose": "Toggles dark mode on and off",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3547
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_view_more_profile_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.29,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Nexus Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Nexus Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Draft",
+              "Teams",
+              "Create New Team",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Nexus Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams and channels",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "left",
+            "purpose": "Allows users to create a new team",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Make a Channel Button",
+            "location": "left",
+            "purpose": "Allows users to create a new channel",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Add another Integrations Button",
+            "location": "left",
+            "purpose": "Allows users to add more integrations",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "bottom-left",
+            "purpose": "Displays the user's profile information",
+            "elements": [
+              "avatar",
+              "name",
+              "status"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for content",
+            "elements": [
+              "input field",
+              "magnifying glass icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Add Button",
+            "location": "top-right",
+            "purpose": "Allows users to add new content",
+            "elements": [
+              "plus icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "dialog",
+            "name": "Thread Dialog",
+            "location": "center",
+            "purpose": "Displays a list of threads",
+            "elements": [
+              "thread list",
+              "close button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "tab_bar",
+            "name": "Thread Tab Bar",
+            "location": "center",
+            "purpose": "Provides navigation links to different threads",
+            "elements": [
+              "General",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Thread List",
+            "location": "center",
+            "purpose": "Displays a list of threads",
+            "elements": [
+              "thread items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the user's avatar",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Messages Badge",
+            "location": "top",
+            "purpose": "Indicates the number of unread messages",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3682
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_view_more_profile_general.png": {
+      "subfolder": "screens",
+      "size_mb": 0.3,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the application",
+            "elements": [
+              "Inbox",
+              "Message",
+              "Friends",
+              "Blocked",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides links to different sections and features of the application",
+            "elements": [
+              "General",
+              "Draft",
+              "Teams",
+              "Create New Team",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of teams, channels, and integrations",
+            "elements": [
+              "UI/UX Teams",
+              "Research Gang",
+              "Talks Project",
+              "Mobile Designer",
+              "Front-End Community",
+              "UI/UX Community",
+              "Web Designer"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "profile_card",
+            "name": "User Profile Card",
+            "location": "center",
+            "purpose": "Displays user profile information",
+            "elements": [
+              "avatar",
+              "name",
+              "status",
+              "about me"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "tab_bar",
+            "name": "Profile Tab Bar",
+            "location": "center",
+            "purpose": "Provides tabs for different profile sections",
+            "elements": [
+              "Profile",
+              "General",
+              "Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Message Button",
+            "location": "top-right",
+            "purpose": "Allows users to create a new message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "top-right",
+            "purpose": "Allows users to search for content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Conversation List",
+            "location": "center",
+            "purpose": "Displays a list of conversations",
+            "elements": [
+              "conversation items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "notification_panel",
+            "name": "Notification Panel",
+            "location": "right",
+            "purpose": "Displays notifications",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "center",
+            "purpose": "Displays the user's avatar",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Status Badge",
+            "location": "center",
+            "purpose": "Displays the user's status",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3503
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "screen_comment_in_thread.png": {
+      "subfolder": "screens",
+      "size_mb": 0.51,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "name": "Main Navigation Sidebar",
+            "location": "left",
+            "purpose": "Provides navigation links to different sections of the application",
+            "elements": [
+              "General",
+              "Teams",
+              "Channel",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides search functionality and navigation",
+            "elements": [
+              "Search bar",
+              "UI/UX Community",
+              "#Thread"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "left sidebar",
+            "purpose": "Allows users to create a new team",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Comment Button",
+            "location": "center",
+            "purpose": "Submits a comment",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "Comment Input Field",
+            "location": "center",
+            "purpose": "Allows users to input their comments",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Cancel Button",
+            "location": "center",
+            "purpose": "Cancels the comment action",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "UI/UX Team Group Card",
+            "location": "right sidebar",
+            "purpose": "Displays information about the UI/UX Team Group",
+            "elements": [
+              "Description text",
+              "Star messages count",
+              "Docs, files, media count",
+              "Tagged count"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Members List",
+            "location": "right sidebar",
+            "purpose": "Displays a list of team members",
+            "elements": [
+              "Member avatars",
+              "Member names",
+              "Admin/Owner labels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatars",
+            "location": "right sidebar",
+            "purpose": "Displays user avatars",
+            "elements": [],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "badge",
+            "name": "Admin/Owner Badges",
+            "location": "right sidebar",
+            "purpose": "Indicates user roles",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "divider",
+            "name": "Section Divider",
+            "location": "left sidebar",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Thread Title",
+            "location": "center",
+            "purpose": "Displays the thread title",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "User Profile Images",
+            "location": "right sidebar",
+            "purpose": "Displays user profile images",
+            "elements": [],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "notification",
+            "name": "Unread Message Notification",
+            "location": "left sidebar",
+            "purpose": "Indicates unread messages",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3643
+      },
+      "processed_at": "2026-02-18T01:40:51.035536"
+    },
+    "cover_thumbnail_figma.png": {
+      "subfolder": "screens",
+      "size_mb": 0.66,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Nexus Header",
+            "location": "top-center",
+            "purpose": "Displays the Nexus logo and provides a sign-in option.",
+            "elements": [
+              "Nexus logo",
+              "Sign in button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sign In Button",
+            "location": "top-right",
+            "purpose": "Allows users to sign in to the Nexus platform.",
+            "elements": [
+              "Sign in text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Team Button",
+            "location": "sidebar",
+            "purpose": "Enables users to create a new team.",
+            "elements": [
+              "Create New Team text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Main Sidebar Navigation",
+            "location": "left",
+            "purpose": "Provides navigation to different sections of the Nexus platform.",
+            "elements": [
+              "Teams",
+              "Channels",
+              "Integrations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "UI/UX Team Group Card",
+            "location": "center",
+            "purpose": "Displays information about the UI/UX team group.",
+            "elements": [
+              "Group description",
+              "Member count"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Discussion Thread Card",
+            "location": "center",
+            "purpose": "Displays a discussion thread with messages and user information.",
+            "elements": [
+              "Thread title",
+              "User avatars",
+              "Messages"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "input",
+            "name": "Search Bar Input",
+            "location": "top-center",
+            "purpose": "Allows users to search for content within the platform.",
+            "elements": [
+              "Search icon",
+              "Input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture.",
+            "elements": [],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "badge",
+            "name": "Unread Message Badge",
+            "location": "sidebar",
+            "purpose": "Indicates the presence of unread messages.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Team Member List",
+            "location": "sidebar",
+            "purpose": "Displays a list of team members.",
+            "elements": [
+              "Member avatars",
+              "Member names"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Typography",
+            "location": "top-center",
+            "purpose": "Displays the title of the page.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle Typography",
+            "location": "top-center",
+            "purpose": "Displays a subtitle or description.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Sidebar Icons",
+            "location": "sidebar",
+            "purpose": "Displays icons for navigation.",
+            "elements": [
+              "Team icon",
+              "Channel icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Sidebar Divider",
+            "location": "sidebar",
+            "purpose": "Separates sections within the sidebar.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "notification",
+            "name": "New Message Notification",
+            "location": "top-right",
+            "purpose": "Alerts the user to new messages.",
+            "elements": [
+              "Notification icon",
+              "Notification text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chat_bubble",
+            "name": "Chat Bubble",
+            "location": "center",
+            "purpose": "Displays a message in a chat thread.",
+            "elements": [
+              "Message text",
+              "User avatar"
+            ],
+            "variant": "",
+            "count": 5
+          }
+        ],
+        "component_count": 16,
+        "tokens_used": 3816
+      },
+      "processed_at": "2026-02-18T01:45:02.363789"
+    },
+    "screen_login_filled.png": {
+      "subfolder": "screens",
+      "size_mb": 0.95,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "left side",
+            "purpose": "Introduces the application and showcases a testimonial",
+            "elements": [
+              "background image",
+              "testimonial text",
+              "testimonial rating",
+              "testimonial author",
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "login_form",
+            "name": "Login Form",
+            "location": "right side",
+            "purpose": "Allows users to log in to their account",
+            "elements": [
+              "email input",
+              "password input",
+              "signin button",
+              "signin with Google button",
+              "signin with Apple button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "within login form",
+            "purpose": "Allows users to enter their email or username",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "within login form",
+            "purpose": "Allows users to enter their password",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Signin Button",
+            "location": "within login form",
+            "purpose": "Submits the login form",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Signin with Google Button",
+            "location": "within login form",
+            "purpose": "Allows users to sign in with Google",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Signin with Apple Button",
+            "location": "within login form",
+            "purpose": "Allows users to sign in with Apple",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Nexus Logo",
+            "location": "top-right",
+            "purpose": "Displays the application's logo",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Welcome Back Text",
+            "location": "within login form",
+            "purpose": "Displays a welcome message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "rating",
+            "name": "Testimonial Rating",
+            "location": "within hero section",
+            "purpose": "Displays the rating of the testimonial",
+            "elements": [],
+            "variant": "5-star",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Background Image",
+            "location": "within hero section",
+            "purpose": "Displays a background image",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3490
+      },
+      "processed_at": "2026-02-18T01:45:02.363789"
+    },
+    "screen_login.png": {
+      "subfolder": "screens",
+      "size_mb": 1.13,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:45:02.363789"
+    },
+    "screen_login_error.png": {
+      "subfolder": "screens",
+      "size_mb": 1.03,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:45:02.363789"
+    },
+    "screen_register.png": {
+      "subfolder": "screens",
+      "size_mb": 1.15,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:45:02.363789"
+    },
+    "screen_frame_1598.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with title 'Private chat & Team Chat on Nexus'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating top nav from content"
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "default",
+            "count": 1,
+            "description": "Empty state screen with no chat conversations visible"
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 1,
+            "description": "Icon likely representing chat or messaging"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "Large text displaying 'Private chat & Team Chat on Nexus'"
+          }
+        ],
+        "component_count": 5,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3013
+      },
+      "processed_at": "2026-02-18T02:30:38.800563"
+    },
+    "screen_frame_1599.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "A text element displaying 'Comment and share on #Thread text-channel' in a simple font"
+          }
+        ],
+        "component_count": 1,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2852
+      },
+      "processed_at": "2026-02-18T02:30:42.969931"
+    },
+    "screen_frame_1600.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A prominent button with a bold color scheme, likely used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A less prominent button with a subtle color scheme, likely used for secondary actions."
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 1,
+            "description": "A standard text input field for users to enter information."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 3,
+            "description": "Small buttons that contain icons, used for various actions like search, settings, or notifications."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Horizontal lines that separate content sections."
+          },
+          {
+            "component_type": "divider",
+            "variant": "vertical",
+            "count": 1,
+            "description": "A vertical line that separates content sections."
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 1,
+            "description": "A small, colored label indicating a successful status."
+          },
+          {
+            "component_type": "badge",
+            "variant": "error",
+            "count": 1,
+            "description": "A small, colored label indicating an error status."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 2,
+            "description": "Circular images used to represent users."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "top",
+            "count": 1,
+            "description": "A top navigation bar with various menu items."
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "left",
+            "count": 1,
+            "description": "A left sidebar with menu items and possibly other content."
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 4,
+            "description": "Tabs used for navigation between different sections of content."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "bottom",
+            "count": 1,
+            "description": "A bottom tab bar with icons and labels."
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 3,
+            "description": "Cards that contain content and actions related to a single subject."
+          },
+          {
+            "component_type": "chip",
+            "variant": "filter",
+            "count": 4,
+            "description": "Small, rounded rectangles used for filtering or categorizing content."
+          },
+          {
+            "component_type": "chip",
+            "variant": "action",
+            "count": 2,
+            "description": "Small, rounded rectangles used for actions like adding or removing items."
+          },
+          {
+            "component_type": "alert",
+            "variant": "success",
+            "count": 1,
+            "description": "A banner that displays a successful message."
+          },
+          {
+            "component_type": "alert",
+            "variant": "error",
+            "count": 1,
+            "description": "A banner that displays an error message."
+          },
+          {
+            "component_type": "pagination",
+            "variant": "default",
+            "count": 1,
+            "description": "A pagination component with buttons for navigating through pages."
+          },
+          {
+            "component_type": "breadcrumb_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A breadcrumb navigation component showing the current page's location."
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "default",
+            "count": 1,
+            "description": "A small popup that provides additional information."
+          },
+          {
+            "component_type": "slider",
+            "variant": "default",
+            "count": 1,
+            "description": "A slider component for selecting a value within a range."
+          },
+          {
+            "component_type": "rating",
+            "variant": "star",
+            "count": 1,
+            "description": "A rating component using stars."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 2,
+            "description": "Checkbox components for selecting multiple options."
+          }
+        ],
+        "component_count": 24,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3799
+      },
+      "processed_at": "2026-02-18T02:30:49.382865"
+    },
+    "screen_frame_1602.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with a search bar and several icons"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Search bar with a magnifying glass icon and text input"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 5,
+            "description": "Icon buttons with various icons (e.g. bell, message, settings)"
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Sidebar navigation with several menu items and icons"
+          },
+          {
+            "component_type": "menu",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "Dropdown menu with several menu items"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "Primary buttons with text and a plus icon"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Secondary button with text"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider separating content sections"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 4,
+            "description": "Cards with various content (e.g. text, icons, buttons)"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 2,
+            "description": "Circle avatars with images"
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 1,
+            "description": "Success badge with text"
+          },
+          {
+            "component_type": "badge",
+            "variant": "error",
+            "count": 1,
+            "description": "Error badge with text"
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "default",
+            "count": 4,
+            "description": "Stat cards with various content (e.g. numbers, icons, text)"
+          },
+          {
+            "component_type": "chart",
+            "variant": "line",
+            "count": 1,
+            "description": "Line chart with data points and labels"
+          },
+          {
+            "component_type": "chart",
+            "variant": "bar",
+            "count": 1,
+            "description": "Bar chart with data points and labels"
+          },
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "Table with several rows and columns"
+          },
+          {
+            "component_type": "pagination",
+            "variant": "default",
+            "count": 1,
+            "description": "Pagination with several page buttons and navigation"
+          }
+        ],
+        "component_count": 17,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3486
+      },
+      "processed_at": "2026-02-18T02:30:55.035951"
+    },
+    "screen_frame_1603.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with profile picture, search bar, and navigation links"
+          },
+          {
+            "component_type": "profile",
+            "variant": "default",
+            "count": 1,
+            "description": "User profile section with profile picture, name, and view profile button"
+          },
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 1,
+            "description": "View profile button, likely used to navigate to the user's profile page"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circular",
+            "count": 1,
+            "description": "Circular profile picture of the user"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "Search bar with a magnifying glass icon"
+          },
+          {
+            "component_type": "divider",
+            "variant": "vertical",
+            "count": 1,
+            "description": "Vertical divider separating navigation links"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 3,
+            "description": "Icon buttons for navigation, likely used for notifications, settings, and help"
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": 1,
+            "description": "Notification badge with a red indicator"
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3142
+      },
+      "processed_at": "2026-02-18T02:31:00.254485"
+    },
+    "screen_frame_1604.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with account settings title"
+          },
+          {
+            "component_type": "settings",
+            "variant": "general",
+            "count": 1,
+            "description": "Account settings page with various options"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "Card container for account information"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider separating sections"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Save changes button"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Cancel button"
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 2,
+            "description": "Input fields for account information"
+          },
+          {
+            "component_type": "select",
+            "variant": "default",
+            "count": 1,
+            "description": "Dropdown select for account settings"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "switch",
+            "count": 1,
+            "description": "Toggle switch for account settings"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "edit",
+            "count": 1,
+            "description": "Edit icon button"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "delete",
+            "count": 1,
+            "description": "Delete icon button"
+          },
+          {
+            "component_type": "badge",
+            "variant": "info",
+            "count": 1,
+            "description": "Info badge for account status"
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3244
+      },
+      "processed_at": "2026-02-18T02:31:05.303234"
+    },
+    "screen_frame_1644.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "default",
+            "count": 1,
+            "description": "A top navigation bar with a title 'Channel settings'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating sections"
+          },
+          {
+            "component_type": "settings",
+            "variant": "default",
+            "count": 1,
+            "description": "A settings page with various options"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 1,
+            "description": "A container with a title and content"
+          },
+          {
+            "component_type": "input",
+            "variant": "default",
+            "count": 2,
+            "description": "Text input fields for entering information"
+          },
+          {
+            "component_type": "select",
+            "variant": "default",
+            "count": 1,
+            "description": "A dropdown menu for selecting options"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A primary button for saving changes"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A secondary button for canceling changes"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 1,
+            "description": "A toggle switch for enabling/disabling a feature"
+          },
+          {
+            "component_type": "slider",
+            "variant": "default",
+            "count": 1,
+            "description": "A slider for adjusting a value"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 2,
+            "description": "Checkbox options for selecting multiple items"
+          }
+        ],
+        "component_count": 11,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3230
+      },
+      "processed_at": "2026-02-18T02:31:09.590351"
+    },
+    "screen_frame_1645.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 1,
+            "description": "A button with the text 'Sign in to Nexus' and a background color."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "The text 'Sign in to Nexus' used as a heading."
+          }
+        ],
+        "component_count": 2,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2897
+      },
+      "processed_at": "2026-02-18T02:31:35.640463"
+    }
+  },
+  "summary": {
+    "total_screens": 43,
+    "screens_processed": 43,
+    "screens_successful": 40,
+    "screens_skipped": 0,
+    "screens_errored": 3,
+    "total_components_identified": 487,
+    "unique_component_types": 56,
+    "component_type_counts": {
+      "button": 69,
+      "top_nav": 32,
+      "sidebar_nav": 30,
+      "list": 27,
+      "avatar": 26,
+      "sidebar": 25,
+      "input": 23,
+      "icon_button": 22,
+      "toggle": 22,
+      "badge": 20,
+      "typography_sample": 18,
+      "divider": 18,
+      "card": 18,
+      "search_bar": 18,
+      "profile_card": 13,
+      "settings_panel": 11,
+      "chat_bubble": 8,
+      "select": 8,
+      "color_swatch": 6,
+      "notification": 4,
+      "tab_bar": 4,
+      "image": 4,
+      "notification_panel": 4,
+      "slider": 4,
+      "checkbox": 3,
+      "header": 3,
+      "textarea": 3,
+      "menu": 3,
+      "dialog": 3,
+      "tab": 2,
+      "logo": 2,
+      "tooltip": 2,
+      "modal": 2,
+      "rating": 2,
+      "navbar": 2,
+      "chip": 2,
+      "alert": 2,
+      "pagination": 2,
+      "chart": 2,
+      "settings": 2,
+      "sidebar_menu": 1,
+      "notification_settings": 1,
+      "code_block": 1,
+      "radio": 1,
+      "social_icons": 1,
+      "team_section": 1,
+      "icon_set": 1,
+      "hero": 1,
+      "login_form": 1,
+      "empty_state": 1,
+      "icon": 1,
+      "text": 1,
+      "breadcrumb_nav": 1,
+      "stat_card": 1,
+      "table": 1,
+      "profile": 1
+    },
+    "completed_at": "2026-02-18T02:31:37.652455"
+  },
+  "started_at": "2026-02-18T01:33:33.423261",
+  "last_checkpoint": "2026-02-18T02:31:37.652455"
+}

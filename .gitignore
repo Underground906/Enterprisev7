@@ -52,3 +52,11 @@ chromadb_data/
 
 # Large data files
 *.csv
+
+# Figma full JSON trees (100-150MB each, regenerable via figma_deep_extract.py)
+**/kit_screens/*/FIGMA_FULL.json
+
+# Kit screen PNGs (regenerable via figma_export_representative.py)
+**/kit_screens/*/representative/
+**/kit_screens/*/screens/
+**/kit_screens/*/components/

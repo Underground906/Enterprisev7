@@ -1,0 +1,4356 @@
+{
+  "kit_name": "Source Fusion AI",
+  "file_key": "U9Vy8iVwTyjDwRfYTOyPuV",
+  "db_item_count": 165,
+  "total_screens": 76,
+  "processed_screens": [
+    "assets_flags.png",
+    "assets_icons.png",
+    "assets_crypto_currency_icons.png",
+    "colour_system_neutrals.png",
+    "colour_system_accents_applications.png",
+    "colour_system_brand_semantic.png",
+    "colour_system_text.png",
+    "colour_system_accents_overview.png",
+    "components_brand.png",
+    "components_common_ui.png",
+    "components_list.png",
+    "components_menu.png",
+    "components_content.png",
+    "documentation_templates_documentation_content_card.png",
+    "documentation_templates_documentation_content_card_rows_only.png",
+    "colour_system_colour_relationships.png",
+    "documentation_templates_documentation_content_grid.png",
+    "components_overlays.png",
+    "components_progress.png",
+    "documentation_templates_documentation_content_header.png",
+    "assets_brand_logos.png",
+    "components_utils.png",
+    "components_buttons.png",
+    "documentation_templates_documentation_content_group_row.png",
+    "documentation_templates_documentation_page_template.png",
+    "documentation_templates_documentation_page_title.png",
+    "documentation_templates_documentation_content_row.png",
+    "components_navs.png",
+    "documentation_templates_documentation_page_section_header.png",
+    "foundation_radii.png",
+    "components_chart.png",
+    "foundation_spacing.png",
+    "modules_custom_dropdowns.png",
+    "foundation_copy.png",
+    "foundation_typography.png",
+    "modules_basic_input_types_styles.png",
+    "foundation_shadows.png",
+    "modules_cards.png",
+    "modules_data_display_stats.png",
+    "modules_form_controls.png",
+    "modules_headings_card_headings.png",
+    "modules_input_arrays.png",
+    "modules_flyouts.png",
+    "modules_forms.png",
+    "modules_headings_page_headings.png",
+    "modules_data_display_calendars.png",
+    "modules_input_groups.png",
+    "modules_lists.png",
+    "modules_overlays.png",
+    "modules_layouts.png",
+    "modules_template.png",
+    "modules_nav_bars.png",
+    "modules_sections.png",
+    "modules_navs.png",
+    "modules_data_display_description_list.png",
+    "modules_stacked_app_layout.png",
+    "modules_side_navs.png",
+    "style_components_base_flat.png",
+    "style_components_aqua_inner_stroke.png",
+    "style_components_focus_ring_double_ouline_single_outline.png",
+    "style_components_clean_gradients.png",
+    "style_components_focus_ring_outer_glow_border.png",
+    "style_components_focus_ring_hard_glow_single_outline.png",
+    "style_components_focus_ring_double_ouline_double_outline.png",
+    "style_components_focus_ring_hard_glow_double_outline.png",
+    "style_components_aqua_outer_double_stroke.png",
+    "style_components_focus_ring_outer_glow_border_double_outline.png",
+    "style_components_sharp_single_border_overlays.png",
+    "documentation_templates_documentation_content_header_cell.png",
+    "tokens_tokens.png",
+    "style_components_focus_ring_outer_glow_border_single_outline.png",
+    "style_components_soft_double_outline_overlays.png",
+    "style_components_style.png",
+    "cover_cover.png",
+    "modules_chats.png",
+    "screens_chats.png"
+  ],
+  "screens": {
+    "assets_flags.png": {
+      "subfolder": "screens",
+      "size_mb": 0.07,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "grid",
+            "variant": "",
+            "count": 1,
+            "description": "A grid of country flags"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A set of icons representing country flags"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text 'Country Flags'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 1,
+            "description": "Subtitle text 'Country flags by BRIX Templates'"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 1,
+            "description": "Discord icon button"
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 1,
+            "description": "Fusion AI logo"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating title and grid"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3023
+      },
+      "processed_at": "2026-02-18T02:48:09.605755"
+    },
+    "assets_icons.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "feather icons",
+            "count": 1,
+            "description": "A collection of various icons"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text 'Icons'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 1,
+            "description": "Subtitle text 'Feather Icons'"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "settings",
+            "count": 1,
+            "description": "A settings icon button"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "chat",
+            "count": 1,
+            "description": "A chat icon button"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2847
+      },
+      "processed_at": "2026-02-18T02:48:09.605755"
+    },
+    "assets_crypto_currency_icons.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "multicolor",
+            "count": 1,
+            "description": "A collection of various cryptocurrency icons"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "discord",
+            "count": 1,
+            "description": "A discord icon button"
+          },
+          {
+            "component_type": "logo",
+            "variant": "fusion_ai",
+            "count": 1,
+            "description": "The Fusion AI logo"
+          },
+          {
+            "component_type": "grid",
+            "variant": "crypto_icons_grid",
+            "count": 1,
+            "description": "A grid displaying various cryptocurrency icons"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "title",
+            "count": 1,
+            "description": "A title text sample reading 'Crypto Currency Icons'"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2815
+      },
+      "processed_at": "2026-02-18T02:48:09.605755"
+    },
+    "colour_system_neutrals.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 3,
+            "description": "A container component used to group related content."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A standard button with a filled style."
+          },
+          {
+            "component_type": "input",
+            "variant": "outlined",
+            "count": 1,
+            "description": "A text input field with an outlined style."
+          },
+          {
+            "component_type": "slider",
+            "variant": "default",
+            "count": 1,
+            "description": "A slider component for selecting a value within a range."
+          },
+          {
+            "component_type": "table",
+            "variant": "simple",
+            "count": 1,
+            "description": "A simple table for displaying data."
+          },
+          {
+            "component_type": "list",
+            "variant": "simple",
+            "count": 1,
+            "description": "A simple list for displaying items."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "default",
+            "count": 3,
+            "description": "A circular avatar component."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "A sample text with a headline style."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body_text",
+            "count": 6,
+            "description": "Samples of body text."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "An icon button."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider."
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "simple",
+            "count": 1,
+            "description": "A card displaying a statistic."
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A progress bar component."
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3117
+      },
+      "processed_at": "2026-02-18T02:48:09.605755"
+    },
+    "colour_system_accents_applications.png": {
+      "subfolder": "screens",
+      "size_mb": 0.23,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "text on light and dark background",
+            "count": 2,
+            "description": "Samples of text on light and dark backgrounds with different shades"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "various",
+            "count": 18,
+            "description": "Color swatches demonstrating different shades and their applications"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "various",
+            "count": 1,
+            "description": "A set of icons used for non-textual elements"
+          },
+          {
+            "component_type": "chart",
+            "variant": "line chart on light and dark background",
+            "count": 2,
+            "description": "Line charts on light and dark backgrounds"
+          },
+          {
+            "component_type": "chart",
+            "variant": "pie chart on light and dark background",
+            "count": 2,
+            "description": "Pie charts on light and dark backgrounds"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 7,
+            "description": "Horizontal dividers separating sections"
+          },
+          {
+            "component_type": "card",
+            "variant": "stat card",
+            "count": 6,
+            "description": "Stat cards showcasing different color applications"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2487
+      },
+      "processed_at": "2026-02-18T02:48:09.605755"
+    },
+    "colour_system_brand_semantic.png": {
+      "subfolder": "screens",
+      "size_mb": 0.17,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "color_swatch",
+            "variant": "brand color",
+            "count": 6,
+            "description": "Brand color swatches with different shades"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "success",
+            "count": 6,
+            "description": "Success color swatches with different shades"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "warning",
+            "count": 6,
+            "description": "Warning color swatches with different shades"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "danger",
+            "count": 6,
+            "description": "Danger color swatches with different shades"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 4,
+            "description": "Horizontal dividers separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 2,
+            "description": "Typography samples for headings"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 2,
+            "description": "Typography samples for paragraphs"
+          },
+          {
+            "component_type": "chart",
+            "variant": "color palette",
+            "count": 4,
+            "description": "Color palette charts for brand and semantic colors"
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 2937
+      },
+      "processed_at": "2026-02-18T02:48:09.605755"
+    },
+    "colour_system_text.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "light background",
+            "count": 1,
+            "description": "Sample text on a light background showcasing different text colors"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "dark background",
+            "count": 1,
+            "description": "Sample text on a dark background showcasing different text colors"
+          },
+          {
+            "component_type": "design_tokens_reference",
+            "variant": "light background",
+            "count": 1,
+            "description": "Reference chart for design tokens on light background"
+          },
+          {
+            "component_type": "design_tokens_reference",
+            "variant": "dark background",
+            "count": 1,
+            "description": "Reference chart for design tokens on dark background"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "base palette",
+            "count": 6,
+            "description": "Color swatches for base palette on light background"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "contrast palette",
+            "count": 6,
+            "description": "Color swatches for contrast palette on dark background"
+          },
+          {
+            "component_type": "text",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text 'Text colours'"
+          },
+          {
+            "component_type": "text",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "Descriptive text explaining the color palette"
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 2958
+      },
+      "processed_at": "2026-02-18T02:48:09.606696"
+    },
+    "colour_system_accents_overview.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "color_swatch",
+            "variant": "accent colors",
+            "count": 10,
+            "description": "A set of 10 color swatches showcasing different accent colors"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 2,
+            "description": "Two typography samples for headings"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating sections"
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "contrast and applications",
+            "count": 3,
+            "description": "Three stat cards illustrating contrast and applications for different design components"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "No explicit icon set, but a logo in the top left corner"
+          },
+          {
+            "component_type": "grid",
+            "variant": "",
+            "count": 1,
+            "description": "A grid layout for the accent colors"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2869
+      },
+      "processed_at": "2026-02-18T02:48:09.606696"
+    },
+    "components_brand.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "Title text 'Visual Identity Elements'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "Subtitle text 'Component Name'"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "Set of logo icons for Fusion AI"
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 2,
+            "description": "Logo with text and logo icon"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "Set of icons in different sizes"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "Set of glyph icons in different styles"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2987
+      },
+      "processed_at": "2026-02-18T02:48:09.606696"
+    },
+    "components_common_ui.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line that visually segments content into groups"
+          },
+          {
+            "component_type": "divider",
+            "variant": "vertical",
+            "count": 1,
+            "description": "A vertical line that visually segments content into groups"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text that reads 'Dividers'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "Subtitle text that reads 'A divider visually segments content into groups'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "label",
+            "count": 2,
+            "description": "Labels for divider types (Horisontal Divider, Vertical Divider)"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "A Discord icon button in the top right corner"
+          },
+          {
+            "component_type": "logo",
+            "variant": "default",
+            "count": 1,
+            "description": "The Fusion AI logo in the top left corner"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3062
+      },
+      "processed_at": "2026-02-18T02:48:09.606696"
+    },
+    "components_list.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "parse_error",
+        "reason": "JSON parse failed: Expecting value: line 35 column 14 (char 921)",
+        "raw_response": "[\n  {\n    \"component_type\": \"list\",\n    \"variant\": \"grouped with headers and separators\",\n    \"count\": 3,\n    \"description\": \"Sets of 1, 2 and 3 list item groups with headers and separators in between\"\n  },\n  {\n    \"component_type\": \"list\",\n    \"variant\": \"single column\",\n    \"count\": 1,\n    \"description\": \"Sets of 5, 10, 15 and 20 list items to use in groups\"\n  },\n  {\n    \"component_type\": \"list\",\n    \"variant\": \"multi-column\",\n    \"count\": 3,\n    \"description\": \"Sets of list items arranged in ",
+        "components": []
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "components_menu.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "Title of the page"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "Subtitle of the page"
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "Table showcasing menu sets with headers and text"
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "Table showcasing menu items"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "Divider separating sections"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2795
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "components_content.png": {
+      "subfolder": "screens",
+      "size_mb": 0.25,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": [
+              "text label",
+              "text block"
+            ],
+            "count": 2,
+            "description": "Text labels and blocks with optional leading and trailing icons"
+          },
+          {
+            "component_type": "hyperlink",
+            "variant": [
+              "rest",
+              "hover",
+              "focus"
+            ],
+            "count": 3,
+            "description": "Hyperlinks in different states"
+          },
+          {
+            "component_type": "badge",
+            "variant": [
+              "default",
+              "danger",
+              "warning",
+              "success",
+              "base",
+              "small",
+              "important contrast mode",
+              "false",
+              "true"
+            ],
+            "count": 16,
+            "description": "Badges with different statuses, sizes, and contrast modes"
+          },
+          {
+            "component_type": "value_trend",
+            "variant": [
+              "up",
+              "down"
+            ],
+            "count": 2,
+            "description": "Value trends with up and down indicators"
+          },
+          {
+            "component_type": "expander",
+            "variant": [
+              "expanded true",
+              "expanded false"
+            ],
+            "count": 2,
+            "description": "Expanders with more options"
+          },
+          {
+            "component_type": "notional_amount",
+            "variant": [],
+            "count": 1,
+            "description": "Pair of text labels for notional currency and amount"
+          },
+          {
+            "component_type": "placeholder",
+            "variant": [],
+            "count": 1,
+            "description": "Placeholder text with a swap option"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2799
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "documentation_templates_documentation_content_card.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [],
+        "component_count": 0,
+        "tokens_used": 1640
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "documentation_templates_documentation_content_card_rows_only.png": {
+      "subfolder": "screens",
+      "size_mb": 0.0,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Two horizontal dividers are visible, likely used for section separation."
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 1647
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "colour_system_colour_relationships.png": {
+      "subfolder": "screens",
+      "size_mb": 0.41,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "table",
+            "variant": "light/dark",
+            "count": 2,
+            "description": "Two tables comparing color relationships on light and dark surfaces"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "various",
+            "count": 36,
+            "description": "Multiple color swatches demonstrating different color combinations"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Two horizontal dividers separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading/body",
+            "count": 6,
+            "description": "Typography samples for headings and body text"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "single",
+            "count": 1,
+            "description": "A single icon set logo in the top-left corner"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2393
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "documentation_templates_documentation_content_grid.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "switch",
+            "variant": [
+              "default",
+              "small",
+              "dark"
+            ],
+            "count": 6,
+            "description": "A toggle switch with different sizes and styles"
+          },
+          {
+            "component_type": "table",
+            "variant": [
+              "default"
+            ],
+            "count": 2,
+            "description": "A table with property and value columns"
+          },
+          {
+            "component_type": "divider",
+            "variant": [
+              "horizontal"
+            ],
+            "count": 1,
+            "description": "A horizontal line separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": [
+              "heading",
+              "regular"
+            ],
+            "count": 2,
+            "description": "Sample text with different typography styles"
+          },
+          {
+            "component_type": "alert",
+            "variant": [
+              "dark mode"
+            ],
+            "count": 1,
+            "description": "A dark mode alert or notification section"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2969
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "components_overlays.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "tooltip",
+            "variant": "main",
+            "count": 1,
+            "description": "Main tooltip component"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "interactive",
+            "count": 1,
+            "description": "Interactive tooltip for prototyping purposes"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "chrome",
+            "count": 4,
+            "description": "Base component defining shape and layout options"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "arrow",
+            "count": 2,
+            "description": "Tooltip arrow component"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2765
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "components_progress.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "stepper",
+            "variant": "",
+            "count": 3,
+            "description": "A visual representation of a user's progress through a set of steps"
+          },
+          {
+            "component_type": "stepper_item",
+            "variant": "completed, active, pending",
+            "count": 3,
+            "description": "Individual step within a stepper component"
+          },
+          {
+            "component_type": "stepper_connector",
+            "variant": "",
+            "count": 1,
+            "description": "Connector between stepper items"
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 2742
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "documentation_templates_documentation_content_header.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "property",
+            "variant": "",
+            "count": 20,
+            "description": "A property component displaying 'property value'"
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 1640
+      },
+      "processed_at": "2026-02-18T02:48:21.069160"
+    },
+    "assets_brand_logos.png": {
+      "subfolder": "screens",
+      "size_mb": 0.42,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "multicolor",
+            "count": 1,
+            "description": "A collection of various brand logos"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "multicolor",
+            "count": 1,
+            "description": "A single icon button for chat"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2843
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "components_utils.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 1,
+            "description": "A text input field with a placeholder"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 4,
+            "description": "Four icon buttons with different icons"
+          },
+          {
+            "component_type": "annotation",
+            "variant": "default",
+            "count": 1,
+            "description": "A flowchart-like diagram with labels and arrows"
+          },
+          {
+            "component_type": "autolayout_spacer",
+            "variant": "default",
+            "count": 1,
+            "description": "A spacer element with a dashed border"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2924
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "components_buttons.png": {
+      "subfolder": "screens",
+      "size_mb": 0.23,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": [
+              "default",
+              "primary",
+              "toolbar",
+              "link",
+              "destructive",
+              "light",
+              "disabled",
+              "hover",
+              "active",
+              "focus"
+            ],
+            "count": 42,
+            "description": "Buttons with different styles, sizes, and states"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 7,
+            "description": "Horizontal dividers separating button sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title typography sample"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "Subtitle typography sample"
+          },
+          {
+            "component_type": "table",
+            "variant": "grid",
+            "count": 7,
+            "description": "Grid tables displaying button properties and states"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2853
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "documentation_templates_documentation_content_group_row.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "switch",
+            "variant": "small",
+            "count": 1,
+            "description": "A small-sized switch component"
+          },
+          {
+            "component_type": "card",
+            "variant": "",
+            "count": 1,
+            "description": "A card component with title and description"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "title",
+            "count": 1,
+            "description": "A title text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "description",
+            "count": 1,
+            "description": "A description text"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 1171
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "documentation_templates_documentation_page_template.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "A table with property and value columns"
+          },
+          {
+            "component_type": "switch",
+            "variant": "default, small",
+            "count": 6,
+            "description": "Switch components with different sizes and states"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 3,
+            "description": "Cards for main component, navigation pill item, and internal parts"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "title, description, component_name",
+            "count": 6,
+            "description": "Various typography samples for titles, descriptions, and component names"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 2,
+            "description": "Horizontal dividers separating sections"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2830
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "documentation_templates_documentation_page_title.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 2,
+            "description": "Two icons are visible: one is a purple logo with a white 'K' inside a circle, and another is a small grey chat bubble icon."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "A title text with a large font size is displayed."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 2,
+            "description": "Two subtitle texts are visible: 'Component Name' and 'Description'."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "An implied divider separates the title from the rest of the content."
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 1794
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "documentation_templates_documentation_content_row.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 6,
+            "description": "A basic card component with a style, label, and icon."
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 2227
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "components_navs.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "tab",
+            "variant": [
+              "default",
+              "selected",
+              "hover",
+              "focus"
+            ],
+            "count": 12,
+            "description": "Tab component with different states and styles"
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": [
+              "default"
+            ],
+            "count": 4,
+            "description": "Tab bar component with multiple tab items"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": [
+              "close"
+            ],
+            "count": 4,
+            "description": "Close icon button for tab items"
+          },
+          {
+            "component_type": "divider",
+            "variant": [
+              "horizontal"
+            ],
+            "count": 2,
+            "description": "Horizontal divider separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": [
+              "heading",
+              "body"
+            ],
+            "count": 6,
+            "description": "Typography samples for headings and body text"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2825
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "documentation_templates_documentation_page_section_header.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Section heading text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "label",
+            "count": 1,
+            "description": "Component name label"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body_text",
+            "count": 1,
+            "description": "Description text"
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 1134
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "foundation_radii.png": {
+      "subfolder": "screens",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "table",
+            "variant": "dark",
+            "count": 1,
+            "description": "A table displaying border radius scale with token names and values"
+          },
+          {
+            "component_type": "grid",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A grid of rectangles demonstrating different border radii"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "label",
+            "count": 8,
+            "description": "Labels for token names and values"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 8,
+            "description": "Horizontal lines separating table rows"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "white",
+            "count": 8,
+            "description": "Rectangles with different border radii, used to demonstrate visual effect"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "token_name",
+            "count": 8,
+            "description": "Text labels for token names (e.g. radii/none, radii/sm)"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "token_value",
+            "count": 8,
+            "description": "Text labels for token values (e.g. 0, 6, 8)"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3071
+      },
+      "processed_at": "2026-02-18T02:48:31.772562"
+    },
+    "components_chart.png": {
+      "subfolder": "screens",
+      "size_mb": 0.22,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "chart",
+            "variant": "bar, stacked, line, area, doughnut",
+            "count": 11,
+            "description": "Various types of data visualization charts"
+          },
+          {
+            "component_type": "card",
+            "variant": "light, with rounded corners",
+            "count": 9,
+            "description": "Cards containing charts"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Dividers separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading, paragraph",
+            "count": 2,
+            "description": "Typography samples for title and section headings"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "Icon set in the top left corner"
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "",
+            "count": 1,
+            "description": "Top navigation with a hamburger menu"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2858
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "foundation_spacing.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "table",
+            "variant": "spacing scale",
+            "count": 1,
+            "description": "A table displaying spacing scale values for major and minor/vertical spacing"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "size values",
+            "count": 20,
+            "description": "Typography samples displaying size values for major and minor/vertical spacing"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating the title from the table"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 21,
+            "description": "Horizontal dividers separating rows in the table"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2937
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "modules_custom_dropdowns.png": {
+      "subfolder": "screens",
+      "size_mb": 0.19,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dropdown",
+            "variant": "simple",
+            "count": 1,
+            "description": "A basic dropdown menu with a few options"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "with dividers",
+            "count": 1,
+            "description": "A dropdown menu with dividers separating options"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "with icons",
+            "count": 1,
+            "description": "A dropdown menu with icons next to each option"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "minimal menu button",
+            "count": 1,
+            "description": "A dropdown menu with a minimal menu button"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "add-ons",
+            "count": 2,
+            "description": "Dropdown menus with add-on options, one at the top and one at the bottom"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 4,
+            "description": "Horizontal dividers separating sections"
+          },
+          {
+            "component_type": "card",
+            "variant": "white background",
+            "count": 6,
+            "description": "Cards with a white background and a subtle shadow"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon button",
+            "count": 1,
+            "description": "An icon button used to trigger a dropdown menu"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Dropdown Menus'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "section title",
+            "count": 6,
+            "description": "Section titles for different types of dropdown menus"
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3039
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "foundation_copy.png": {
+      "subfolder": "screens",
+      "size_mb": 0.26,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "A rectangular container with rounded corners, used to group related content."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample text with a large font size, used as a title."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body_text",
+            "count": 1,
+            "description": "A sample text with a regular font size, used for body content."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 4,
+            "description": "A horizontal line that separates content sections."
+          },
+          {
+            "component_type": "list",
+            "variant": "numbered",
+            "count": 1,
+            "description": "A list of items with numbers, used for instructional content."
+          },
+          {
+            "component_type": "icon",
+            "variant": "monochrome",
+            "count": 1,
+            "description": "A small graphical symbol, used in the logo."
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2883
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "foundation_typography.png": {
+      "subfolder": "screens",
+      "size_mb": 0.4,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "display",
+            "count": 5,
+            "description": "Samples of display text with different font sizes and line heights"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 6,
+            "description": "Samples of heading text with different font sizes and line heights"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 5,
+            "description": "Samples of body text with different font sizes and line heights"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 5,
+            "description": "Samples of paragraph text with different font sizes and line heights"
+          },
+          {
+            "component_type": "component_elevations",
+            "variant": "",
+            "count": 1,
+            "description": "Illustration explaining relationship between different surfaces"
+          },
+          {
+            "component_type": "card",
+            "variant": "",
+            "count": 1,
+            "description": "A card component with elevation illustration"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "",
+            "count": 1,
+            "description": "A tooltip component with text 'Button'"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3056
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "modules_basic_input_types_styles.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "input",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 7,
+            "description": "Text input field with different styles"
+          },
+          {
+            "component_type": "select",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 1,
+            "description": "Dropdown select with different styles"
+          },
+          {
+            "component_type": "number_input",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 1,
+            "description": "Number input field with different styles"
+          },
+          {
+            "component_type": "password",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 1,
+            "description": "Password input field with different styles"
+          },
+          {
+            "component_type": "time_input",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 1,
+            "description": "Time input field with different styles"
+          },
+          {
+            "component_type": "date_input",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 1,
+            "description": "Date input field with different styles"
+          },
+          {
+            "component_type": "picker",
+            "variant": [
+              "default",
+              "clean",
+              "seamless",
+              "ghost"
+            ],
+            "count": 1,
+            "description": "Picker input field with different styles"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3108
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "foundation_shadows.png": {
+      "subfolder": "screens",
+      "size_mb": 0.35,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "level 1, intensity 100",
+            "count": 1,
+            "description": "A basic button component"
+          },
+          {
+            "component_type": "card",
+            "variant": "level 1, intensity 100",
+            "count": 1,
+            "description": "A basic card component"
+          },
+          {
+            "component_type": "input",
+            "variant": "level 1, intensity 100",
+            "count": 1,
+            "description": "A basic input field component"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": null,
+            "count": 8,
+            "description": "Tooltips describing various UI components and their elevations"
+          },
+          {
+            "component_type": "modal",
+            "variant": "level 6, intensity 200",
+            "count": 1,
+            "description": "A modal dialog component"
+          },
+          {
+            "component_type": "popover",
+            "variant": "level 5, intensity 200",
+            "count": 1,
+            "description": "A popover component"
+          },
+          {
+            "component_type": "toast",
+            "variant": "level 5, intensity 100",
+            "count": 1,
+            "description": "A toast notification component"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "level 4, intensity 200",
+            "count": 1,
+            "description": "A dropdown component"
+          },
+          {
+            "component_type": "toolbar",
+            "variant": null,
+            "count": 1,
+            "description": "A toolbar or top navigation component with a button and input"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 2994
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "modules_cards.png": {
+      "subfolder": "screens",
+      "size_mb": 0.27,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "New Chat button with a purple background"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "Main component card with chat history"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "Chat History Item card"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "Avatar icon button"
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": 1,
+            "description": "Notification badge with number 12"
+          },
+          {
+            "component_type": "list",
+            "variant": "vertical",
+            "count": 1,
+            "description": "Chat history list with multiple items"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 3,
+            "description": "User avatars in chat history items"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider separating components"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Chat History title"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 2,
+            "description": "Main Component and Chat History Item subtitles"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "mono",
+            "count": 1,
+            "description": "Figma kit logo icon set"
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3035
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "modules_data_display_stats.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "stat_card",
+            "variant": "light",
+            "count": 1,
+            "description": "A card displaying statistical information, including revenue, overdue invoices, and expenses."
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "light",
+            "count": 3,
+            "description": "Cards displaying statistical information, including total subscribers, average open rate, and average click rate."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "An icon button, likely used for navigation or actions."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Horizontal dividers separating sections of the UI."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A typography sample displaying the title 'Stats'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 10,
+            "description": "Typography samples displaying various statistical information."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "light",
+            "count": 3,
+            "description": "A set of icons used to represent different statistics."
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 2,
+            "description": "Badges indicating percentage changes in statistics."
+          },
+          {
+            "component_type": "badge",
+            "variant": "error",
+            "count": 1,
+            "description": "A badge indicating a negative percentage change in statistics."
+          },
+          {
+            "component_type": "chip",
+            "variant": "light",
+            "count": 3,
+            "description": "Chips displaying statistical information."
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3186
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "modules_form_controls.png": {
+      "subfolder": "screens",
+      "size_mb": 0.32,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "date_picker",
+            "variant": "default, range",
+            "count": 2,
+            "description": "Date picker for selecting dates"
+          },
+          {
+            "component_type": "time_picker",
+            "variant": "default",
+            "count": 1,
+            "description": "Time picker for selecting time"
+          },
+          {
+            "component_type": "input",
+            "variant": "text, number, password",
+            "count": 3,
+            "description": "Basic text input fields"
+          },
+          {
+            "component_type": "textarea",
+            "variant": "default",
+            "count": 1,
+            "description": "Multiline text input field"
+          },
+          {
+            "component_type": "select",
+            "variant": "default",
+            "count": 1,
+            "description": "Dropdown select menu"
+          },
+          {
+            "component_type": "slider",
+            "variant": "single, range",
+            "count": 4,
+            "description": "Slider for selecting a value within a range"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 1,
+            "description": "Toggle switch for enabling/disabling options"
+          },
+          {
+            "component_type": "radio",
+            "variant": "default",
+            "count": 1,
+            "description": "Radio buttons for selecting one option"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 0,
+            "description": "Not visible but likely used in validation states"
+          },
+          {
+            "component_type": "button",
+            "variant": "not visible but implied",
+            "count": 0,
+            "description": "Not directly visible but likely used with date/time pickers"
+          },
+          {
+            "component_type": "alert",
+            "variant": "error, success",
+            "count": 2,
+            "description": "Validation states for input fields"
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3197
+      },
+      "processed_at": "2026-02-18T02:49:02.735801"
+    },
+    "modules_headings_card_headings.png": {
+      "subfolder": "screens",
+      "size_mb": 0.17,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "basic",
+            "count": 1,
+            "description": "Basic card with a header"
+          },
+          {
+            "component_type": "card",
+            "variant": "with CTA button",
+            "count": 1,
+            "description": "Card with a header and a call-to-action button"
+          },
+          {
+            "component_type": "card",
+            "variant": "avatar and two actions",
+            "count": 1,
+            "description": "Card with an avatar and two action buttons"
+          },
+          {
+            "component_type": "card",
+            "variant": "header and sub header with CTA button",
+            "count": 1,
+            "description": "Card with a header, subheader, and a call-to-action button"
+          },
+          {
+            "component_type": "card",
+            "variant": "avatar with kebab button",
+            "count": 1,
+            "description": "Card with an avatar and a kebab menu button"
+          },
+          {
+            "component_type": "card",
+            "variant": "center aligned nav pills",
+            "count": 1,
+            "description": "Card with center-aligned navigation pills"
+          },
+          {
+            "component_type": "card",
+            "variant": "with underlined tabs and two buttons",
+            "count": 1,
+            "description": "Card with underlined tabs and two buttons"
+          },
+          {
+            "component_type": "card",
+            "variant": "with underlined tabs and one button",
+            "count": 1,
+            "description": "Card with underlined tabs and one button"
+          },
+          {
+            "component_type": "card",
+            "variant": "with search bar and some actions",
+            "count": 1,
+            "description": "Card with a search bar and action buttons"
+          },
+          {
+            "component_type": "button",
+            "variant": "CTA",
+            "count": 2,
+            "description": "Call-to-action button"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 2,
+            "description": "Circular avatar"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "phone",
+            "count": 1,
+            "description": "Icon button for phone"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "email",
+            "count": 1,
+            "description": "Icon button for email"
+          },
+          {
+            "component_type": "kebab_menu",
+            "variant": "default",
+            "count": 1,
+            "description": "Kebab menu button"
+          },
+          {
+            "component_type": "tab",
+            "variant": "underline",
+            "count": 2,
+            "description": "Tab with underline"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "Search bar"
+          },
+          {
+            "component_type": "nav_pills",
+            "variant": "center_aligned",
+            "count": 1,
+            "description": "Center-aligned navigation pills"
+          }
+        ],
+        "component_count": 17,
+        "tokens_used": 3451
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_input_arrays.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "variant": "login",
+            "count": 1,
+            "description": "A login form with inset labels"
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 2,
+            "description": "Text input fields for login form"
+          },
+          {
+            "component_type": "input",
+            "variant": "password",
+            "count": 1,
+            "description": "Password input field for login form"
+          },
+          {
+            "component_type": "form",
+            "variant": "inset labels",
+            "count": 1,
+            "description": "A form with inset labels for card details"
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 3,
+            "description": "Text input fields for card details"
+          },
+          {
+            "component_type": "form",
+            "variant": "grouped",
+            "count": 1,
+            "description": "A grouped form for card and billing details"
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 6,
+            "description": "Text input fields for card and billing details"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "default",
+            "count": 2,
+            "description": "Dropdown menus for selecting state/region and country"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "visibility",
+            "count": 1,
+            "description": "Visibility icon button for password input"
+          },
+          {
+            "component_type": "icon",
+            "variant": "visa",
+            "count": 2,
+            "description": "Visa icon for card type"
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3155
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_flyouts.png": {
+      "subfolder": "screens",
+      "size_mb": 0.19,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "white background with rounded corners",
+            "count": 3,
+            "description": "A container component with a white background and rounded corners, used to group related content."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary/secondary",
+            "count": 2,
+            "description": "A call-to-action element, used for 'Watch demo' and 'Contact sales'."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "gray with a small size",
+            "count": 1,
+            "description": "A small gray button with an icon, likely used for navigation or actions."
+          },
+          {
+            "component_type": "list",
+            "variant": "vertical with icons",
+            "count": 3,
+            "description": "A list component with icons, used to display information in a vertical layout."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal line",
+            "count": 2,
+            "description": "A horizontal line used to separate content sections."
+          },
+          {
+            "component_type": "chip",
+            "variant": "small with text",
+            "count": 1,
+            "description": "A small chip component with text, used to display information."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading/title",
+            "count": 1,
+            "description": "A typography sample component used as a title, displaying 'Custom Flyouts'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 3,
+            "description": "A typography sample component used as a subtitle, displaying 'Stacked with footer actions', 'Stacked with footer list', and 'Two columns'."
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3021
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_forms.png": {
+      "subfolder": "screens",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "variant": "stacked with left aligned labels, stacked with right aligned labels, seamless style with left aligned labels, seamless style with right aligned labels",
+            "count": 6,
+            "description": "A collection of form layouts with different label alignments and styles"
+          },
+          {
+            "component_type": "input",
+            "variant": "text, password, number",
+            "count": 9,
+            "description": "Text input fields for entering data"
+          },
+          {
+            "component_type": "select",
+            "variant": "default, error",
+            "count": 5,
+            "description": "Dropdown menus for selecting options"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default, checked",
+            "count": 2,
+            "description": "Checkbox for selecting options"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default, on",
+            "count": 2,
+            "description": "Toggle switch for enabling/disabling options"
+          },
+          {
+            "component_type": "date_picker",
+            "variant": "default",
+            "count": 3,
+            "description": "Date picker for selecting dates"
+          },
+          {
+            "component_type": "slider",
+            "variant": "default",
+            "count": 1,
+            "description": "Slider for selecting values within a range"
+          },
+          {
+            "component_type": "textarea",
+            "variant": "default",
+            "count": 2,
+            "description": "Multi-line text input field"
+          },
+          {
+            "component_type": "radio",
+            "variant": "default",
+            "count": 1,
+            "description": "Radio button for selecting options"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "info, error",
+            "count": 2,
+            "description": "Icon buttons for actions"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "default",
+            "count": 3,
+            "description": "Tooltips for providing additional information"
+          },
+          {
+            "component_type": "badge",
+            "variant": "error, required",
+            "count": 2,
+            "description": "Badges for displaying status or requirements"
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 2680
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_headings_page_headings.png": {
+      "subfolder": "screens",
+      "size_mb": 0.29,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "primary, secondary, outline, small, medium",
+            "count": 14,
+            "description": "Various buttons for actions like Edit, Review, Publish, New Query, View Profile, Get in Touch, Open Request"
+          },
+          {
+            "component_type": "card",
+            "variant": "default, compact",
+            "count": 9,
+            "description": "Cards displaying information about RiverStone Insurance Limited, Jacob Brown's profile"
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 1,
+            "description": "Tabs for filtering Incoming Queries by time period (Last 7 Days, Last 30 Days, All Time)"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "default, rounded",
+            "count": 2,
+            "description": "Jacob Brown's profile picture"
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 2,
+            "description": "Badges indicating status or role (e.g., Product Owner)"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 6,
+            "description": "Icon buttons for actions like Edit, Review, Publish"
+          },
+          {
+            "component_type": "list",
+            "variant": "default, compact",
+            "count": 2,
+            "description": "Lists of queries and requests related to RiverStone Insurance Limited"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 5,
+            "description": "Dividers separating sections and cards"
+          },
+          {
+            "component_type": "chip",
+            "variant": "default",
+            "count": 3,
+            "description": "Chips displaying categories or tags (e.g., Insurance, Yellow Pages)"
+          },
+          {
+            "component_type": "alert",
+            "variant": "info",
+            "count": 1,
+            "description": "No explicit alert, but a notification panel"
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "default",
+            "count": 1,
+            "description": "Notification panel showing 8 Request Opened, 2 Issues Raised, 12 Review Pending"
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "Top navigation with Fusion AI logo and a profile icon"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading, body",
+            "count": 6,
+            "description": "Various typography samples for headings and body text"
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3216
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_data_display_calendars.png": {
+      "subfolder": "screens",
+      "size_mb": 0.45,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "top navigation with logo",
+            "count": 1,
+            "description": "Top navigation bar with logo and possibly other elements"
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "left sidebar with calendar and upcoming meetings",
+            "count": 1,
+            "description": "Left sidebar with calendar and upcoming meetings"
+          },
+          {
+            "component_type": "calendar",
+            "variant": "monthly calendar view",
+            "count": 4,
+            "description": "Monthly calendar view with dates and events"
+          },
+          {
+            "component_type": "card",
+            "variant": "upcoming meetings card",
+            "count": 1,
+            "description": "Card displaying upcoming meetings with names, dates, and times"
+          },
+          {
+            "component_type": "card",
+            "variant": "schedule card",
+            "count": 1,
+            "description": "Card displaying schedule for a specific date with names, times, and locations"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary button",
+            "count": 2,
+            "description": "Primary button for adding new events"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "add event button",
+            "count": 2,
+            "description": "Icon button for adding new events"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circular avatar",
+            "count": 5,
+            "description": "Circular avatars for users in upcoming meetings and schedule cards"
+          },
+          {
+            "component_type": "tab",
+            "variant": "tab bar with day, week, month, and year views",
+            "count": 1,
+            "description": "Tab bar for switching between different calendar views"
+          },
+          {
+            "component_type": "table",
+            "variant": "schedule table",
+            "count": 1,
+            "description": "Table displaying schedule for a specific date with times and events"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "dropdown for selecting dates",
+            "count": 1,
+            "description": "Dropdown for selecting dates in the calendar"
+          },
+          {
+            "component_type": "badge",
+            "variant": "event badge",
+            "count": 5,
+            "description": "Badges for indicating events on the calendar"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal divider",
+            "count": 5,
+            "description": "Horizontal dividers separating sections"
+          },
+          {
+            "component_type": "chip",
+            "variant": "event chip",
+            "count": 5,
+            "description": "Chips for displaying events on the calendar"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "tooltip for events",
+            "count": 5,
+            "description": "Tooltips for displaying event details on hover"
+          }
+        ],
+        "component_count": 15,
+        "tokens_used": 3410
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_input_groups.png": {
+      "subfolder": "screens",
+      "size_mb": 0.16,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 1,
+            "description": "Inline text input field"
+          },
+          {
+            "component_type": "select",
+            "variant": "inline",
+            "count": 1,
+            "description": "Inline select dropdown"
+          },
+          {
+            "component_type": "input",
+            "variant": "number",
+            "count": 1,
+            "description": "Inline number input field"
+          },
+          {
+            "component_type": "input",
+            "variant": "password",
+            "count": 1,
+            "description": "Inline password input field"
+          },
+          {
+            "component_type": "input",
+            "variant": "time",
+            "count": 1,
+            "description": "Inline time input field"
+          },
+          {
+            "component_type": "input",
+            "variant": "date",
+            "count": 2,
+            "description": "Inline date input field"
+          },
+          {
+            "component_type": "input",
+            "variant": "picker",
+            "count": 1,
+            "description": "Inline picker input field"
+          },
+          {
+            "component_type": "stepper",
+            "variant": "combo",
+            "count": 1,
+            "description": "Combo stepper input field"
+          },
+          {
+            "component_type": "input",
+            "variant": "phone_number",
+            "count": 1,
+            "description": "Phone number input field"
+          },
+          {
+            "component_type": "stepper",
+            "variant": "quantity",
+            "count": 2,
+            "description": "Quantity stepper input field"
+          },
+          {
+            "component_type": "input",
+            "variant": "text_with_dropdown",
+            "count": 1,
+            "description": "Text input with dropdown button"
+          },
+          {
+            "component_type": "slider",
+            "variant": "range",
+            "count": 5,
+            "description": "Range slider input field"
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 2910
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_lists.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "contained, outlined",
+            "count": 10,
+            "description": "A card is a self-contained UI component that displays information about a single subject, including a header, content, and actions."
+          },
+          {
+            "component_type": "button",
+            "variant": "contained, disabled",
+            "count": 10,
+            "description": "A button is a UI element that triggers an action when clicked."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "info",
+            "count": 10,
+            "description": "An icon button is a button that uses an icon to represent the action it performs."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "brand",
+            "count": 10,
+            "description": "An avatar is a visual representation of a user or entity, often displayed as a profile picture or icon."
+          },
+          {
+            "component_type": "badge",
+            "variant": "status",
+            "count": 1,
+            "description": "A badge is a small UI element that displays a status or indicator, often used to highlight important information."
+          },
+          {
+            "component_type": "grid",
+            "variant": "default",
+            "count": 1,
+            "description": "A grid is a layout component that organizes content into a grid of rows and columns."
+          },
+          {
+            "component_type": "list",
+            "variant": "default",
+            "count": 1,
+            "description": "A list is a UI component that displays a collection of items in a vertical layout."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading, body",
+            "count": 10,
+            "description": "A typography sample is a UI component that displays a sample of text, often used to demonstrate font styles and sizes."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 10,
+            "description": "An icon set is a collection of icons used to represent different actions or concepts."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A divider is a UI element that separates content into distinct sections."
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 10,
+            "description": "A toggle is a UI component that allows users to switch between two states, often used for settings or preferences."
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3321
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_overlays.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "menu",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "A dropdown menu with user profile information and settings options"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circular",
+            "count": 1,
+            "description": "A circular avatar representing the user's profile picture"
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": 1,
+            "description": "A notification badge indicating a new version is available"
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "A text button for signing out"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "settings",
+            "count": 1,
+            "description": "An icon button for accessing settings"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A typography sample for the title 'User Menu'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 1,
+            "description": "A typography sample for the subtitle 'user-menu'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating sections"
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 2944
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_layouts.png": {
+      "subfolder": "screens",
+      "size_mb": 0.34,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar",
+            "variant": "left-aligned",
+            "count": 1,
+            "description": "A sidebar with a list of menu items and favorites"
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "vertical",
+            "count": 1,
+            "description": "A vertical navigation menu in the sidebar"
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "none",
+            "count": 0,
+            "description": "No top navigation bar visible"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A purple 'New Chat' button"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "A button with a chat icon"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A search input field with a magnifying glass icon"
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 3,
+            "description": "Three tab items"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 4,
+            "description": "Four cards displaying conversation history"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 2,
+            "description": "Two circular avatars, one in the sidebar and one in the top right corner"
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": 1,
+            "description": "A green badge with the number 12"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 2,
+            "description": "Two toggle buttons, one for 'Toolbar Content' and one for 'Placeholder'"
+          },
+          {
+            "component_type": "label",
+            "variant": "default",
+            "count": 2,
+            "description": "Two label buttons"
+          },
+          {
+            "component_type": "list",
+            "variant": "vertical",
+            "count": 1,
+            "description": "A list of favorites in the sidebar"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "An icon button for settings"
+          },
+          {
+            "component_type": "profile",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "A profile dropdown menu in the top right corner"
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "default",
+            "count": 1,
+            "description": "A panel displaying conversation history"
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "none",
+            "count": 0,
+            "description": "No chat bubbles visible"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A progress bar showing 50% completion"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating sections"
+          }
+        ],
+        "component_count": 19,
+        "tokens_used": 3518
+      },
+      "processed_at": "2026-02-18T02:49:19.191104"
+    },
+    "modules_template.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 1,
+            "description": "Logo icon for Fusion AI"
+          },
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "Title text 'AI Response'"
+          },
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "Subtitle text 'Main Component'"
+          },
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "Link text 'share-chat-modal'"
+          },
+          {
+            "component_type": "container",
+            "variant": "card",
+            "count": 1,
+            "description": "Main Component container"
+          },
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "Title text 'Content'"
+          },
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "Link text 'share-chat-modal / content'"
+          },
+          {
+            "component_type": "container",
+            "variant": "card",
+            "count": 1,
+            "description": "Content container"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 1,
+            "description": "Chat or messaging icon button"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3081
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "modules_nav_bars.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "center-aligned underlined tabs, app nav bar, left aligned nav items, center aligned nav items",
+            "count": "4",
+            "description": "Navigation bars with different alignment and style variants"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary, secondary",
+            "count": "2",
+            "description": "Buttons for new requests"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light, dark",
+            "count": "8",
+            "description": "Icon buttons for settings, help, and notifications"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "light, dark",
+            "count": "4",
+            "description": "User avatars"
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": "2",
+            "description": "Notification badges"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light, dark",
+            "count": "2",
+            "description": "Search bars for navigation"
+          },
+          {
+            "component_type": "tab",
+            "variant": "center-aligned underlined",
+            "count": "1",
+            "description": "Center-aligned underlined tabs"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "projects",
+            "count": "4",
+            "description": "Dropdown menus for projects"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": "multiple",
+            "description": "Dividers separating sections"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3121
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "modules_sections.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "pricing_card",
+            "variant": "light, dark, popular",
+            "count": 3,
+            "description": "Pricing plans for different tiers of service"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary, secondary",
+            "count": 2,
+            "description": "Upgrade buttons for plans"
+          },
+          {
+            "component_type": "radio",
+            "variant": "default",
+            "count": 2,
+            "description": "Billing cycle selection radio buttons"
+          },
+          {
+            "component_type": "badge",
+            "variant": "popular",
+            "count": 1,
+            "description": "Popular plan badge"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Divider between pricing plans"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading, paragraph",
+            "count": 2,
+            "description": "Title and description typography"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "Logo icon set"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "Discord icon button"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "Main component card"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3101
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "modules_navs.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 1,
+            "description": "Logo icon in the top left corner"
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "",
+            "count": 1,
+            "description": "Top navigation bar with a Discord icon"
+          },
+          {
+            "component_type": "settings",
+            "variant": "",
+            "count": 1,
+            "description": "Settings navigation page header"
+          },
+          {
+            "component_type": "card",
+            "variant": "",
+            "count": 1,
+            "description": "Main component card container"
+          },
+          {
+            "component_type": "list",
+            "variant": "",
+            "count": 1,
+            "description": "List of settings options"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 8,
+            "description": "Icons for each settings option"
+          },
+          {
+            "component_type": "button",
+            "variant": "",
+            "count": 1,
+            "description": "Delete account button"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "Divider line separating settings options"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Settings navigation page title"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "breadcrumb",
+            "count": 1,
+            "description": "Breadcrumb text 'settings'"
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 2975
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "modules_data_display_description_list.png": {
+      "subfolder": "screens",
+      "size_mb": 0.26,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "base, zebra rows, top labels, full bleed, top labels in a card",
+            "count": 5,
+            "description": "Container for applicant information"
+          },
+          {
+            "component_type": "list",
+            "variant": "description list",
+            "count": 5,
+            "description": "List of applicant details"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon button",
+            "count": 10,
+            "description": "Download button for resume"
+          },
+          {
+            "component_type": "chip",
+            "variant": "label",
+            "count": 3,
+            "description": "Applicant information labels"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 4,
+            "description": "Separates sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading, paragraph",
+            "count": 2,
+            "description": "Title and description text"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "none",
+            "count": 1,
+            "description": "Figma kit logo"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "selected, unselected",
+            "count": 10,
+            "description": "Resume file checkboxes"
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 2493
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "modules_stacked_app_layout.png": {
+      "subfolder": "screens",
+      "size_mb": 0.17,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": [
+              "dark",
+              "light",
+              "purple"
+            ],
+            "count": 7,
+            "description": "Top navigation bar with logo, tabs, and icons"
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": [
+              "dark",
+              "light",
+              "purple"
+            ],
+            "count": 7,
+            "description": "Tab bar with multiple tabs"
+          },
+          {
+            "component_type": "card",
+            "variant": [
+              "default"
+            ],
+            "count": 7,
+            "description": "Card component with content"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": [
+              "default"
+            ],
+            "count": 14,
+            "description": "Icon buttons for notifications and settings"
+          },
+          {
+            "component_type": "badge",
+            "variant": [
+              "dot"
+            ],
+            "count": 14,
+            "description": "Notification badges"
+          },
+          {
+            "component_type": "divider",
+            "variant": [
+              "default"
+            ],
+            "count": 6,
+            "description": "Horizontal dividers between cards"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3002
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "modules_side_navs.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Vertical navigation menu with icons and text"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Search input field with a magnifying glass icon"
+          },
+          {
+            "component_type": "list",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Vertical list of items with icons and text"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light, dark",
+            "count": 4,
+            "description": "Small buttons with icons"
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 4,
+            "description": "Text buttons with various labels"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 4,
+            "description": "Horizontal lines separating sections"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "light, dark",
+            "count": 4,
+            "description": "Dropdown menus with expandable/collapsible content"
+          },
+          {
+            "component_type": "badge",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Small labels with numbers (e.g. '3', '4')"
+          },
+          {
+            "component_type": "chip",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Small labels with text (e.g. 'Today', 'Yesterday')"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 2995
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "style_components_base_flat.png": {
+      "subfolder": "screens",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "progress_bar",
+            "variant": "base, primary, secondary, success, danger, warning",
+            "count": "6",
+            "description": "Horizontal progress bars with different colors and sizes"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "dark",
+            "count": "1",
+            "description": "Horizontal progress bar on a dark background"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "indeterminate",
+            "count": "6",
+            "description": "Indeterminate progress bars with different colors"
+          },
+          {
+            "component_type": "slider",
+            "variant": "base",
+            "count": "1",
+            "description": "Slider with multiple handles"
+          },
+          {
+            "component_type": "radio",
+            "variant": "base",
+            "count": "3",
+            "description": "Radio buttons with different states"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "base",
+            "count": "3",
+            "description": "Checkboxes with different states"
+          },
+          {
+            "component_type": "switch",
+            "variant": "base",
+            "count": "3",
+            "description": "Switches with different states"
+          },
+          {
+            "component_type": "chip",
+            "variant": "base",
+            "count": "1",
+            "description": "Chips with different colors"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": "multiple",
+            "description": "Horizontal dividers used to separate content"
+          },
+          {
+            "component_type": "skeleton",
+            "variant": "base",
+            "count": "1",
+            "description": "Skeleton screen for loading state"
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3013
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "style_components_aqua_inner_stroke.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "slider",
+            "variant": "various",
+            "count": 12,
+            "description": "Horizontal sliders with different colors and sizes"
+          },
+          {
+            "component_type": "slider",
+            "variant": "horizontal",
+            "count": 12,
+            "description": "Horizontal sliders with different colors and sizes"
+          },
+          {
+            "component_type": "slider",
+            "variant": "colored",
+            "count": 4,
+            "description": "Sliders with different colors (purple, red, green, etc.)"
+          },
+          {
+            "component_type": "slider",
+            "variant": "sized",
+            "count": 3,
+            "description": "Sliders of different sizes (small, medium, large)"
+          },
+          {
+            "component_type": "slider",
+            "variant": "disabled",
+            "count": 2,
+            "description": "Disabled state of sliders"
+          },
+          {
+            "component_type": "slider",
+            "variant": "filled",
+            "count": 6,
+            "description": "Sliders with filled and unfilled states"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "indeterminate",
+            "count": 6,
+            "description": "Indeterminate progress bars with different colors"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "determinate",
+            "count": 6,
+            "description": "Determinate progress bars with different colors"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "various",
+            "count": 3,
+            "description": "Color swatches for different colors"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 2989
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "style_components_focus_ring_double_ouline_single_outline.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text 'Double outline' and description text 'Made for inner stroke visual styles'"
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 4,
+            "description": "Four outlined buttons with different colors (purple, red, orange, green, and teal)"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 1993
+      },
+      "processed_at": "2026-02-18T02:49:34.776777"
+    },
+    "style_components_clean_gradients.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "progress_bar",
+            "variant": "various",
+            "count": 16,
+            "description": "Horizontal progress bars with different colors and styles"
+          },
+          {
+            "component_type": "slider",
+            "variant": "various",
+            "count": 3,
+            "description": "Sliders with different styles and colors"
+          },
+          {
+            "component_type": "radio",
+            "variant": "various",
+            "count": 2,
+            "description": "Radio buttons with different styles and colors"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "various",
+            "count": 2,
+            "description": "Checkboxes with different styles and colors"
+          },
+          {
+            "component_type": "chip",
+            "variant": "various",
+            "count": 6,
+            "description": "Chips with different colors and styles"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Typography sample for title"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2892
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_focus_ring_outer_glow_border.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with logo and chat icon"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Large heading text 'Nav Pills Background Surface'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "description",
+            "count": 1,
+            "description": "Smaller description text below the heading"
+          },
+          {
+            "component_type": "skeleton",
+            "variant": "rectangular",
+            "count": 1,
+            "description": "Skeleton loading state for content"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "chat",
+            "count": 1,
+            "description": "Icon button for chat or messaging"
+          },
+          {
+            "component_type": "logo",
+            "variant": "fusion_ai",
+            "count": 1,
+            "description": "Logo for Fusion AI"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2133
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_focus_ring_hard_glow_single_outline.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Large heading text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "Smaller text below heading"
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 5,
+            "description": "Outlined buttons with different colors (purple, red, orange, green, blue)"
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 2017
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_focus_ring_double_ouline_double_outline.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "Title text 'Double outline' and description text 'Made for double stroke visual styles'"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 1,
+            "description": "Discord icon button"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "Fusion AI logo"
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 4,
+            "description": "Four outline buttons with different colors (purple, red, orange, green, teal)"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2058
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_focus_ring_hard_glow_double_outline.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Large heading text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "Smaller text below heading"
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 5,
+            "description": "Outlined buttons with different colors (purple, red, orange, green, teal)"
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 2018
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_aqua_outer_double_stroke.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "slider",
+            "variant": "various",
+            "count": 5,
+            "description": "Horizontal sliders with different colors and styles"
+          },
+          {
+            "component_type": "slider",
+            "variant": "disabled",
+            "count": 1,
+            "description": "Disabled horizontal slider"
+          },
+          {
+            "component_type": "slider",
+            "variant": "filled",
+            "count": 6,
+            "description": "Horizontal sliders with filled and outlined styles"
+          },
+          {
+            "component_type": "radio",
+            "variant": "various",
+            "count": 3,
+            "description": "Radio buttons with different colors"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "various",
+            "count": 3,
+            "description": "Checkbox with different colors"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "various",
+            "count": 5,
+            "description": "Color swatches with different colors"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "various",
+            "count": 1,
+            "description": "Typography sample with title and description"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2889
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_focus_ring_outer_glow_border_double_outline.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 4,
+            "description": "Outlined buttons with different colors (purple, red, orange, green, blue)"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "solid",
+            "count": 1,
+            "description": "Discord icon button"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Large heading text 'Soft glow'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 1,
+            "description": "Subtitle text 'Made for double stroke visual styles'"
+          },
+          {
+            "component_type": "logo",
+            "variant": "icon",
+            "count": 1,
+            "description": "Fusion AI logo"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating sections"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2130
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_sharp_single_border_overlays.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "modal",
+            "variant": "sharp single border",
+            "count": 1,
+            "description": "A modal dialog with a sharp single border overlay"
+          },
+          {
+            "component_type": "toast",
+            "variant": "sharp single border",
+            "count": 1,
+            "description": "A toast notification with a sharp single border overlay and a teal background"
+          },
+          {
+            "component_type": "popover",
+            "variant": "sharp single border",
+            "count": 4,
+            "description": "Four popover components with sharp single border overlays of varying sizes"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "sharp single border",
+            "count": 1,
+            "description": "A dropdown component with a sharp single border overlay"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2799
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "documentation_templates_documentation_content_header_cell.png": {
+      "subfolder": "components",
+      "size_mb": 0.0,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "A simple table with two columns: 'property' and 'value'"
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 778
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "tokens_tokens.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "grid",
+            "variant": "default",
+            "count": 1,
+            "description": "A grid displaying various shape components with different radii"
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 8,
+            "description": "Tabs for different shape component radii sizes (none, round, sm, base, md, lg, xl)"
+          },
+          {
+            "component_type": "shape",
+            "variant": "rectangle with various radii",
+            "count": 35,
+            "description": "Rectangle shape components with varying border radii"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Divider separating sections on the page"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 2,
+            "description": "Typography samples for titles (Radii, Shape Anatomy)"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body text",
+            "count": 2,
+            "description": "Typography samples for body text"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "Icon set for Fusion AI logo"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2915
+      },
+      "processed_at": "2026-02-18T02:49:48.231829"
+    },
+    "style_components_focus_ring_outer_glow_border_single_outline.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 4,
+            "description": "Outlined buttons with different colors (purple, red, orange, green, blue)"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "solid",
+            "count": 1,
+            "description": "Discord icon button"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Large heading text 'Soft glow'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "Subheading text 'Made for inner stroke visual styles'"
+          },
+          {
+            "component_type": "logo",
+            "variant": "icon",
+            "count": 1,
+            "description": "Fusion AI logo"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating sections"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "solid",
+            "count": 5,
+            "description": "Color swatches for different colors (purple, red, orange, green, blue)"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2182
+      },
+      "processed_at": "2026-02-18T02:57:57.112637"
+    },
+    "style_components_soft_double_outline_overlays.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "modal",
+            "variant": "soft double outline",
+            "count": 1,
+            "description": "A modal with a soft double outline overlay"
+          },
+          {
+            "component_type": "toast",
+            "variant": "soft double outline",
+            "count": 1,
+            "description": "A toast notification with a soft double outline overlay and a teal color variant"
+          },
+          {
+            "component_type": "popover",
+            "variant": "soft double outline",
+            "count": 4,
+            "description": "Four popover components with soft double outline overlays"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "soft double outline",
+            "count": 1,
+            "description": "A dropdown component with a soft double outline overlay"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2796
+      },
+      "processed_at": "2026-02-18T02:57:57.113639"
+    },
+    "style_components_style.png": {
+      "subfolder": "screens",
+      "size_mb": 0.39,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "default, primary, danger",
+            "count": 3,
+            "description": "Different button styles with various states (rest, hover, active, disabled)"
+          },
+          {
+            "component_type": "button",
+            "variant": "default, primary, danger",
+            "count": 3,
+            "description": "Button chrome with different styles and states"
+          },
+          {
+            "component_type": "focus_ring",
+            "variant": "success, default, danger, warning, info",
+            "count": 5,
+            "description": "Focus visual component with different styles"
+          },
+          {
+            "component_type": "list_group_item",
+            "variant": "default",
+            "count": 1,
+            "description": "List group item base style"
+          },
+          {
+            "component_type": "input",
+            "variant": "default, success, danger, warning, info, clean",
+            "count": 6,
+            "description": "Text box/form control chrome with different styles and states"
+          },
+          {
+            "component_type": "form_toggles",
+            "variant": "checkbox, radio, toggle",
+            "count": 3,
+            "description": "Checkboxes, radio buttons, and toggle switches"
+          },
+          {
+            "component_type": "input_group",
+            "variant": "default",
+            "count": 1,
+            "description": "Simplified style for inputs sitting inside input groups/arrays"
+          },
+          {
+            "component_type": "tab",
+            "variant": "classic, underline",
+            "count": 2,
+            "description": "Tab chrome with different styles"
+          },
+          {
+            "component_type": "ui_element",
+            "variant": "menu item, list item, tree item, non-interactive, pill tab",
+            "count": 5,
+            "description": "Base style for interactive UI elements that are clickable, hoverable, and selectable"
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3186
+      },
+      "processed_at": "2026-02-18T02:57:57.113639"
+    },
+    "cover_cover.png": {
+      "subfolder": "screens",
+      "size_mb": 0.49,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "single",
+            "count": 1,
+            "description": "A single icon representing the Fusion AI UI Kit"
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 2660
+      },
+      "processed_at": "2026-02-18T02:57:57.113639"
+    },
+    "modules_chats.png": {
+      "subfolder": "screens",
+      "size_mb": 1.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 6,
+            "description": "A container component used to group related content."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary, secondary, icon",
+            "count": 7,
+            "description": "A clickable element that triggers an action."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 10,
+            "description": "A button that uses an icon to represent the action."
+          },
+          {
+            "component_type": "image",
+            "variant": "default",
+            "count": 4,
+            "description": "An element used to display images."
+          },
+          {
+            "component_type": "video",
+            "variant": "default",
+            "count": 1,
+            "description": "An element used to display videos."
+          },
+          {
+            "component_type": "player",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to control media playback."
+          },
+          {
+            "component_type": "rating",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to display ratings."
+          },
+          {
+            "component_type": "textarea",
+            "variant": "default",
+            "count": 1,
+            "description": "A multi-line text input field."
+          },
+          {
+            "component_type": "code_editor",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to edit code."
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "default",
+            "count": 2,
+            "description": "A component used to select from a list of options."
+          },
+          {
+            "component_type": "select",
+            "variant": "default",
+            "count": 2,
+            "description": "A component used to select from a list of options."
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to toggle between two states."
+          },
+          {
+            "component_type": "switch",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to toggle between two states."
+          },
+          {
+            "component_type": "chip",
+            "variant": "default",
+            "count": 5,
+            "description": "A small component used to display a value or category."
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 2,
+            "description": "A small component used to display a value or status."
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 5,
+            "description": "A component used to separate content."
+          },
+          {
+            "component_type": "list",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to display a list of items."
+          },
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to display data in a tabular format."
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to navigate between sections."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to navigate between sections."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used for navigation."
+          },
+          {
+            "component_type": "alert",
+            "variant": "default",
+            "count": 2,
+            "description": "A component used to display important information."
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to display additional information."
+          },
+          {
+            "component_type": "dialog",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to display a modal window."
+          },
+          {
+            "component_type": "modal",
+            "variant": "default",
+            "count": 1,
+            "description": "A component used to display a modal window."
+          }
+        ],
+        "component_count": 25,
+        "tokens_used": 3762
+      },
+      "processed_at": "2026-02-18T02:57:57.113639"
+    },
+    "screens_chats.png": {
+      "subfolder": "screens",
+      "size_mb": 1.53,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T02:57:57.113639"
+    }
+  },
+  "summary": {
+    "total_screens": 76,
+    "screens_processed": 76,
+    "screens_successful": 74,
+    "screens_skipped": 0,
+    "screens_errored": 2,
+    "total_components_identified": 525,
+    "unique_component_types": 86,
+    "component_type_counts": {
+      "typography_sample": 77,
+      "divider": 42,
+      "icon_button": 32,
+      "card": 32,
+      "button": 28,
+      "icon_set": 19,
+      "input": 19,
+      "slider": 15,
+      "badge": 15,
+      "color_swatch": 13,
+      "dropdown": 13,
+      "table": 12,
+      "list": 11,
+      "avatar": 9,
+      "tooltip": 9,
+      "tab": 9,
+      "chip": 9,
+      "progress_bar": 8,
+      "logo": 7,
+      "text": 7,
+      "top_nav": 7,
+      "grid": 6,
+      "radio": 6,
+      "checkbox": 6,
+      "switch": 5,
+      "icon": 5,
+      "select": 5,
+      "toggle": 5,
+      "stat_card": 4,
+      "chart": 4,
+      "alert": 4,
+      "modal": 4,
+      "search_bar": 4,
+      "form": 4,
+      "stepper": 3,
+      "tab_bar": 3,
+      "popover": 3,
+      "toast": 3,
+      "textarea": 3,
+      "design_tokens_reference": 2,
+      "date_picker": 2,
+      "notification_panel": 2,
+      "navbar": 2,
+      "sidebar": 2,
+      "sidebar_nav": 2,
+      "container": 2,
+      "skeleton": 2,
+      "hyperlink": 1,
+      "value_trend": 1,
+      "expander": 1,
+      "notional_amount": 1,
+      "placeholder": 1,
+      "stepper_item": 1,
+      "stepper_connector": 1,
+      "property": 1,
+      "annotation": 1,
+      "autolayout_spacer": 1,
+      "component_elevations": 1,
+      "number_input": 1,
+      "password": 1,
+      "time_input": 1,
+      "date_input": 1,
+      "picker": 1,
+      "toolbar": 1,
+      "time_picker": 1,
+      "kebab_menu": 1,
+      "nav_pills": 1,
+      "calendar": 1,
+      "menu": 1,
+      "label": 1,
+      "profile": 1,
+      "chat_bubble": 1,
+      "pricing_card": 1,
+      "settings": 1,
+      "shape": 1,
+      "focus_ring": 1,
+      "list_group_item": 1,
+      "form_toggles": 1,
+      "input_group": 1,
+      "ui_element": 1,
+      "image": 1,
+      "video": 1,
+      "player": 1,
+      "rating": 1,
+      "code_editor": 1,
+      "dialog": 1
+    },
+    "completed_at": "2026-02-18T02:57:57.119637"
+  },
+  "started_at": "2026-02-18T02:47:43.540083",
+  "last_checkpoint": "2026-02-18T02:57:57.123831"
+}

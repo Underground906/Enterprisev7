@@ -1,0 +1,5152 @@
+{
+  "kit_name": "Aitentico",
+  "file_key": "XK3d5YHdoyV60avw3cpQCo",
+  "db_item_count": 780,
+  "total_screens": 326,
+  "processed_screens": [
+    "component_annotation.png",
+    "component_avatar.png",
+    "component_button.png",
+    "component_form_input.png",
+    "component_label.png",
+    "component_native.png",
+    "component_sidebar_navbar_cards.png",
+    "cover_thumbnail.png",
+    "design_guide_colors.png",
+    "design_guide_spacing_borders_shadows.png",
+    "design_guide_typography.png",
+    "doc_license_documentation.png",
+    "doc_license_license.png",
+    "icons_arrows.png",
+    "icons_arrows_action.png",
+    "icons_astronomy.png",
+    "icons_building_infrastructure.png",
+    "icons_business_statistic.png",
+    "icons_call.png",
+    "icons_design_tools.png",
+    "icons_electronic_devices.png",
+    "icons_essentional_ui.png",
+    "icons_faces_emotions_stickers.png",
+    "icons_files.png",
+    "icons_folders.png",
+    "icons_food_kitchen.png",
+    "icons_hands.png",
+    "icons_home_furniture.png",
+    "icons_info_banner.png",
+    "icons_like.png",
+    "icons_list.png",
+    "icons_logos.png",
+    "icons_map_location.png",
+    "icons_medicine.png",
+    "icons_messages_conversation.png",
+    "icons_money.png",
+    "icons_nature_travel.png",
+    "icons_network_connection.png",
+    "icons_notes.png",
+    "icons_notifications.png",
+    "icons_school.png",
+    "icons_search.png",
+    "icons_security.png",
+    "icons_settings_fine_tuning.png",
+    "icons_shopping_ecommerce.png",
+    "icons_sports.png",
+    "icons_text_formatting.png",
+    "icons_time.png",
+    "icons_transport_parts_service.png",
+    "icons_users.png",
+    "icons_video_audio_sound.png",
+    "icons_weather.png",
+    "ui_preview_image_contacts_adding_contacts_empty_state.png",
+    "ui_preview_image_contacts_adding_contacts_filled.png",
+    "ui_preview_image_contacts_contact_added_successfully.png",
+    "ui_preview_image_contacts_empty_state.png",
+    "ui_preview_image_document_editor_adding_a_signature.png",
+    "ui_preview_image_document_editor_drawing_a_signature_empty_state.png",
+    "ui_preview_image_document_editor_drawing_a_signature_filled.png",
+    "ui_preview_image_document_editor_editing.png",
+    "ui_preview_image_document_editor_empty_states.png",
+    "ui_preview_image_document_editor_placing_a_signature.png",
+    "ui_preview_image_documents_empty_state.png",
+    "ui_preview_image_documents_filled.png",
+    "ui_preview_image_forgot_password_create_new_password_empty_state.png",
+    "ui_preview_image_forgot_password_create_new_password_filled.png",
+    "ui_preview_image_forgot_password_email_confirmation_empty_state.png",
+    "ui_preview_image_forgot_password_email_confirmation_filled.png",
+    "ui_preview_image_forgot_password_enter_email_empty_state.png",
+    "ui_preview_image_forgot_password_enter_email_filled.png",
+    "ui_preview_image_forgot_password_error.png",
+    "ui_preview_image_forgot_password_success_confirmation.png",
+    "ui_preview_image_home.png",
+    "ui_preview_image_home_build_with_ai_creating.png",
+    "ui_preview_image_home_build_with_ai_default.png",
+    "ui_preview_image_home_build_with_ai_filled.png",
+    "ui_preview_image_home_build_with_ai_success.png",
+    "ui_preview_image_home_create_new_document.png",
+    "ui_preview_image_home_first_landing_sidebar_closed.png",
+    "ui_preview_image_home_first_landing_sidebar_opened.png",
+    "ui_preview_image_home_upload_default.png",
+    "ui_preview_image_home_upload_loading.png",
+    "ui_preview_image_home_upload_success.png",
+    "ui_preview_image_inbox_downloading_file.png",
+    "ui_preview_image_inbox_dropdown.png",
+    "ui_preview_image_inbox_empty_state.png",
+    "ui_preview_image_inbox_filled.png",
+    "ui_preview_image_inbox_filter.png",
+    "ui_preview_image_inbox_item_checked.png",
+    "ui_preview_image_integrations.png",
+    "ui_preview_image_integrations_connect.png",
+    "ui_preview_image_integrations_successfully_connected.png",
+    "ui_preview_image_logout.png",
+    "ui_preview_image_quick_tour_step_1.png",
+    "ui_preview_image_quick_tour_step_2.png",
+    "ui_preview_image_quick_tour_step_3.png",
+    "ui_preview_image_quick_tour_step_4.png",
+    "ui_preview_image_quick_tour_welcome_message.png",
+    "ui_preview_image_settings_my_account.png",
+    "ui_preview_image_settings_payment_empty_state.png",
+    "ui_preview_image_settings_payment_filled.png",
+    "ui_preview_image_settings_payment_payment_success.png",
+    "ui_preview_image_settings_subscription_plan.png",
+    "ui_preview_image_sign_in_with_2fa_empty_state.png",
+    "ui_preview_image_sign_in_with_2fa_filled.png",
+    "ui_preview_image_sign_in_with_2fa_otp_code_empty_state.png",
+    "ui_preview_image_sign_in_with_2fa_otp_code_filled.png",
+    "ui_preview_image_sign_in_without_2fa_empty_state.png",
+    "ui_preview_image_sign_in_without_2fa_filled.png",
+    "ui_preview_image_sign_up_empty_state.png",
+    "ui_preview_image_sign_up_filled.png",
+    "ui_preview_image_splash_screen.png",
+    "ui_preview_image_template_gallery.png",
+    "ui_preview_image_template_gallery_ghost_state.png",
+    "ui_preview_image_template_gallery_hover.png",
+    "ui_preview_image_template_gallery_preview.png",
+    "ui_preview_image_template_gallery_workspace.png",
+    "ui_preview_image_workspace.png",
+    "ui_preview_non_image_contacts_adding_contacts_empty_state.png",
+    "ui_preview_non_image_contacts_adding_contacts_filled.png",
+    "ui_preview_non_image_contacts_contact_added_successfully.png",
+    "ui_preview_non_image_contacts_empty_state.png",
+    "ui_preview_non_image_document_editor_adding_a_signature.png",
+    "ui_preview_non_image_document_editor_drawing_a_signature_empty_state.png",
+    "ui_preview_non_image_document_editor_drawing_a_signature_filled.png",
+    "ui_preview_non_image_document_editor_editing.png",
+    "ui_preview_non_image_document_editor_empty_states.png",
+    "ui_preview_non_image_document_editor_placing_a_signature.png",
+    "ui_preview_non_image_documents_empty_state.png",
+    "ui_preview_non_image_documents_filled.png",
+    "ui_preview_non_image_forgot_password_create_new_password_empty_state.png",
+    "ui_preview_non_image_forgot_password_create_new_password_filled.png",
+    "ui_preview_non_image_forgot_password_email_confirmation_empty_state.png",
+    "ui_preview_non_image_forgot_password_email_confirmation_filled.png",
+    "ui_preview_non_image_forgot_password_enter_email_empty_state.png",
+    "ui_preview_non_image_forgot_password_enter_email_filled.png",
+    "ui_preview_non_image_forgot_password_error.png",
+    "ui_preview_non_image_forgot_password_success_confirmation.png",
+    "ui_preview_non_image_home.png",
+    "ui_preview_non_image_home_build_with_ai_creating.png",
+    "ui_preview_non_image_home_build_with_ai_default.png",
+    "ui_preview_non_image_home_build_with_ai_filled.png",
+    "ui_preview_non_image_home_build_with_ai_success.png",
+    "ui_preview_non_image_home_create_new_document.png",
+    "ui_preview_non_image_home_first_landing_sidebar_closed.png",
+    "ui_preview_non_image_home_first_landing_sidebar_opened.png",
+    "ui_preview_non_image_home_upload_default.png",
+    "ui_preview_non_image_home_upload_loading.png",
+    "ui_preview_non_image_home_upload_success.png",
+    "ui_preview_non_image_inbox_downloading_file.png",
+    "ui_preview_non_image_inbox_dropdown.png",
+    "ui_preview_non_image_inbox_empty_state.png",
+    "ui_preview_non_image_inbox_filled.png",
+    "ui_preview_non_image_inbox_filter.png",
+    "ui_preview_non_image_inbox_item_checked.png",
+    "ui_preview_non_image_integrations.png",
+    "ui_preview_non_image_integrations_connect.png",
+    "ui_preview_non_image_integrations_successfully_connected.png",
+    "ui_preview_non_image_logout.png",
+    "ui_preview_non_image_quick_tour_step_1.png",
+    "ui_preview_non_image_quick_tour_step_2.png",
+    "ui_preview_non_image_quick_tour_step_3.png",
+    "ui_preview_non_image_quick_tour_step_4.png",
+    "ui_preview_non_image_quick_tour_welcome_message.png",
+    "ui_preview_non_image_settings_my_account.png",
+    "ui_preview_non_image_settings_payment_empty_state.png",
+    "ui_preview_non_image_settings_payment_filled.png",
+    "ui_preview_non_image_settings_payment_payment_success.png",
+    "ui_preview_non_image_settings_subscription_plan.png",
+    "ui_preview_non_image_sign_in_with_2fa_empty_state.png",
+    "ui_preview_non_image_sign_in_with_2fa_filled.png",
+    "ui_preview_non_image_sign_in_with_2fa_otp_code_empty_state.png",
+    "ui_preview_non_image_sign_in_with_2fa_otp_code_filled.png",
+    "ui_preview_non_image_sign_in_without_2fa_empty_state.png",
+    "ui_preview_non_image_sign_in_without_2fa_filled.png",
+    "ui_preview_non_image_sign_up_empty_state.png",
+    "ui_preview_non_image_sign_up_filled.png",
+    "ui_preview_non_image_splash_screen.png",
+    "ui_preview_non_image_template_gallery.png",
+    "ui_preview_non_image_template_gallery_ghost_state.png",
+    "ui_preview_non_image_template_gallery_hover.png",
+    "ui_preview_non_image_template_gallery_preview.png",
+    "ui_preview_non_image_template_gallery_workspace.png",
+    "ui_preview_non_image_workspace.png",
+    "ui_preview_image_contacts_adding_contacts_empty_state.png",
+    "ui_preview_image_contacts_adding_contacts_filled.png",
+    "ui_preview_image_contacts_contact_added_successfully.png",
+    "ui_preview_image_contacts_empty_state.png",
+    "ui_preview_image_document_editor_adding_a_signature.png",
+    "ui_preview_image_document_editor_drawing_a_signature_empty_state.png",
+    "ui_preview_image_document_editor_drawing_a_signature_filled.png",
+    "ui_preview_image_document_editor_editing.png",
+    "ui_preview_image_document_editor_empty_states.png",
+    "ui_preview_image_document_editor_placing_a_signature.png",
+    "ui_preview_image_documents_empty_state.png",
+    "ui_preview_image_documents_filled.png",
+    "ui_preview_image_forgot_password_create_new_password_empty_state.png",
+    "ui_preview_image_forgot_password_create_new_password_filled.png",
+    "ui_preview_image_forgot_password_email_confirmation_empty_state.png",
+    "ui_preview_image_forgot_password_email_confirmation_filled.png",
+    "ui_preview_image_forgot_password_enter_email_empty_state.png",
+    "ui_preview_image_forgot_password_enter_email_filled.png",
+    "ui_preview_image_forgot_password_error.png",
+    "ui_preview_image_forgot_password_success_confirmation.png",
+    "ui_preview_image_home.png",
+    "ui_preview_image_home_build_with_ai_creating.png",
+    "ui_preview_image_home_build_with_ai_default.png",
+    "ui_preview_image_home_build_with_ai_filled.png",
+    "ui_preview_image_home_build_with_ai_success.png",
+    "ui_preview_image_home_create_new_document.png",
+    "ui_preview_image_home_first_landing_sidebar_closed_1.png",
+    "ui_preview_image_home_first_landing_sidebar_closed_2.png",
+    "ui_preview_image_home_first_landing_sidebar_closed_3.png",
+    "ui_preview_image_home_first_landing_sidebar_closed_4.png",
+    "ui_preview_image_home_first_landing_sidebar_opened.png",
+    "ui_preview_image_home_upload_default.png",
+    "ui_preview_image_home_upload_loading.png",
+    "ui_preview_image_home_upload_success.png",
+    "ui_preview_image_inbox_downloading_file.png",
+    "ui_preview_image_inbox_empty_state.png",
+    "ui_preview_image_inbox_filled.png",
+    "ui_preview_image_inbox_filter.png",
+    "ui_preview_image_inbox_item_checked.png",
+    "ui_preview_image_integrations.png",
+    "ui_preview_image_integrations_connect.png",
+    "ui_preview_image_integrations_successfully_connected.png",
+    "ui_preview_image_logout.png",
+    "ui_preview_image_quick_tour_step_1.png",
+    "ui_preview_image_quick_tour_step_2.png",
+    "ui_preview_image_quick_tour_step_3.png",
+    "ui_preview_image_quick_tour_step_4.png",
+    "ui_preview_image_quick_tour_step_5.png",
+    "ui_preview_image_quick_tour_step_6.png",
+    "ui_preview_image_quick_tour_step_7.png",
+    "ui_preview_image_quick_tour_step_8.png",
+    "ui_preview_image_quick_tour_welcome_message.png",
+    "ui_preview_image_settings_my_account.png",
+    "ui_preview_image_settings_payment_empty_state.png",
+    "ui_preview_image_settings_payment_filled.png",
+    "ui_preview_image_settings_subscription_plan.png",
+    "ui_preview_image_settings_subscription_plan_payment_success.png",
+    "ui_preview_image_sign_in_with_2fa_empty_state.png",
+    "ui_preview_image_sign_in_with_2fa_filled.png",
+    "ui_preview_image_sign_in_with_2fa_otp_code_empty_state.png",
+    "ui_preview_image_sign_in_with_2fa_otp_code_filled.png",
+    "ui_preview_image_sign_in_without_2fa_empty_state.png",
+    "ui_preview_image_sign_in_without_2fa_filled.png",
+    "ui_preview_image_sign_up_empty_state.png",
+    "ui_preview_image_splash_screen.png",
+    "ui_preview_image_template_gallery.png",
+    "ui_preview_image_template_gallery_ghost_state.png",
+    "ui_preview_image_template_gallery_hover.png",
+    "ui_preview_image_template_gallery_preview.png",
+    "ui_preview_image_template_gallery_workspace.png",
+    "ui_preview_image_workspace.png",
+    "ui_preview_non_image_contacts_adding_contacts_empty_state.png",
+    "ui_preview_non_image_contacts_adding_contacts_filled.png",
+    "ui_preview_non_image_contacts_contact_added_successfully.png",
+    "ui_preview_non_image_contacts_empty_state.png",
+    "ui_preview_non_image_document_editor_adding_a_signature.png",
+    "ui_preview_non_image_document_editor_drawing_a_signature_empty_state.png",
+    "ui_preview_non_image_document_editor_drawing_a_signature_filled.png",
+    "ui_preview_non_image_document_editor_editing.png",
+    "ui_preview_non_image_document_editor_empty_states.png",
+    "ui_preview_non_image_document_editor_placing_a_signature.png",
+    "ui_preview_non_image_documents_empty_state.png",
+    "ui_preview_non_image_documents_filled.png",
+    "ui_preview_non_image_forgot_password_create_new_password_empty_state.png",
+    "ui_preview_non_image_forgot_password_create_new_password_filled.png",
+    "ui_preview_non_image_forgot_password_email_confirmation_empty_state.png",
+    "ui_preview_non_image_forgot_password_email_confirmation_filled.png",
+    "ui_preview_non_image_forgot_password_enter_email_empty_state.png",
+    "ui_preview_non_image_forgot_password_enter_email_filled.png",
+    "ui_preview_non_image_forgot_password_error.png",
+    "ui_preview_non_image_forgot_password_success_confirmation.png",
+    "ui_preview_non_image_home.png",
+    "ui_preview_non_image_home_build_with_ai_creating.png",
+    "ui_preview_non_image_home_build_with_ai_default.png",
+    "ui_preview_non_image_home_build_with_ai_filled.png",
+    "ui_preview_non_image_home_build_with_ai_success.png",
+    "ui_preview_non_image_home_create_new_document.png",
+    "ui_preview_non_image_home_first_landing_sidebar_closed_1.png",
+    "ui_preview_non_image_home_first_landing_sidebar_closed_2.png",
+    "ui_preview_non_image_home_first_landing_sidebar_closed_3.png",
+    "ui_preview_non_image_home_first_landing_sidebar_closed_4.png",
+    "ui_preview_non_image_home_first_landing_sidebar_opened.png",
+    "ui_preview_non_image_home_upload_default.png",
+    "ui_preview_non_image_home_upload_loading.png",
+    "ui_preview_non_image_home_upload_success.png",
+    "ui_preview_non_image_inbox_downloading_file.png",
+    "ui_preview_non_image_inbox_empty_state.png",
+    "ui_preview_non_image_inbox_filled.png",
+    "ui_preview_non_image_inbox_filter.png",
+    "ui_preview_non_image_inbox_item_checked.png",
+    "ui_preview_non_image_integrations.png",
+    "ui_preview_non_image_integrations_connect.png",
+    "ui_preview_non_image_integrations_successfully_connected.png",
+    "ui_preview_non_image_logout.png",
+    "ui_preview_non_image_quick_tour_step_1.png",
+    "ui_preview_non_image_quick_tour_step_2.png",
+    "ui_preview_non_image_quick_tour_step_3.png",
+    "ui_preview_non_image_quick_tour_step_4.png",
+    "ui_preview_non_image_quick_tour_step_5.png",
+    "ui_preview_non_image_quick_tour_step_6.png",
+    "ui_preview_non_image_quick_tour_step_7.png",
+    "ui_preview_non_image_quick_tour_step_8.png",
+    "ui_preview_non_image_quick_tour_welcome_message.png",
+    "ui_preview_non_image_settings_my_account.png",
+    "ui_preview_non_image_settings_payment_empty_state.png",
+    "ui_preview_non_image_settings_payment_filled.png",
+    "ui_preview_non_image_settings_subscription_plan.png",
+    "ui_preview_non_image_settings_subscription_plan_payment_success.png",
+    "ui_preview_non_image_sign_in_with_2fa_empty_state.png",
+    "ui_preview_non_image_sign_in_with_2fa_filled.png",
+    "ui_preview_non_image_sign_in_with_2fa_otp_code_empty_state.png",
+    "ui_preview_non_image_sign_in_with_2fa_otp_code_filled.png",
+    "ui_preview_non_image_sign_in_without_2fa_empty_state.png",
+    "ui_preview_non_image_sign_in_without_2fa_filled.png",
+    "ui_preview_non_image_sign_up_empty_state.png",
+    "ui_preview_non_image_splash_screen.png",
+    "ui_preview_non_image_template_gallery.png",
+    "ui_preview_non_image_template_gallery_ghost_state.png",
+    "ui_preview_non_image_template_gallery_hover.png",
+    "ui_preview_non_image_template_gallery_preview.png",
+    "ui_preview_non_image_template_gallery_workspace.png",
+    "ui_preview_non_image_workspace.png"
+  ],
+  "screens": {
+    "component_annotation.png": {
+      "subfolder": "screens",
+      "size_mb": 1.1,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:40:40.645798"
+    },
+    "component_avatar.png": {
+      "subfolder": "screens",
+      "size_mb": 0.96,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:41:14.249704"
+    },
+    "component_button.png": {
+      "subfolder": "screens",
+      "size_mb": 0.77,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:41:40.488718"
+    },
+    "component_form_input.png": {
+      "subfolder": "screens",
+      "size_mb": 0.88,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:42:12.402462"
+    },
+    "component_label.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:42:38.443483"
+    },
+    "component_native.png": {
+      "subfolder": "screens",
+      "size_mb": 0.89,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:43:10.928621"
+    },
+    "component_sidebar_navbar_cards.png": {
+      "subfolder": "screens",
+      "size_mb": 2.91,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:43:37.182547"
+    },
+    "cover_thumbnail.png": {
+      "subfolder": "screens",
+      "size_mb": 0.32,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:44:04.818879"
+    },
+    "design_guide_colors.png": {
+      "subfolder": "screens",
+      "size_mb": 1.38,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:44:30.923450"
+    },
+    "design_guide_spacing_borders_shadows.png": {
+      "subfolder": "screens",
+      "size_mb": 0.76,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:45:03.011843"
+    },
+    "design_guide_typography.png": {
+      "subfolder": "screens",
+      "size_mb": 0.83,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:45:29.139338"
+    },
+    "doc_license_documentation.png": {
+      "subfolder": "screens",
+      "size_mb": 0.16,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:45:59.688559"
+    },
+    "doc_license_license.png": {
+      "subfolder": "screens",
+      "size_mb": 0.33,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:46:25.833474"
+    },
+    "icons_arrows.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:47:03.979793"
+    },
+    "icons_arrows_action.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:47:30.005922"
+    },
+    "icons_astronomy.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:48:05.881941"
+    },
+    "icons_building_infrastructure.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:48:38.499800"
+    },
+    "icons_business_statistic.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:49:04.605124"
+    },
+    "icons_call.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:49:47.280916"
+    },
+    "icons_design_tools.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:50:13.205686"
+    },
+    "icons_electronic_devices.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:50:51.485758"
+    },
+    "icons_essentional_ui.png": {
+      "subfolder": "screens",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:51:17.641304"
+    },
+    "icons_faces_emotions_stickers.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:51:43.711852"
+    },
+    "icons_files.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:52:16.109305"
+    },
+    "icons_folders.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:52:42.108938"
+    },
+    "icons_food_kitchen.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:53:08.801417"
+    },
+    "icons_hands.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:53:36.375351"
+    },
+    "icons_home_furniture.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:54:02.525025"
+    },
+    "icons_info_banner.png": {
+      "subfolder": "screens",
+      "size_mb": 0.38,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:54:45.516349"
+    },
+    "icons_like.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:55:14.210663"
+    },
+    "icons_list.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:55:40.281666"
+    },
+    "icons_logos.png": {
+      "subfolder": "screens",
+      "size_mb": 0.75,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:56:11.453124"
+    },
+    "icons_map_location.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:56:44.852297"
+    },
+    "icons_medicine.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:57:10.879016"
+    },
+    "icons_messages_conversation.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:57:47.619350"
+    },
+    "icons_money.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:58:14.102914"
+    },
+    "icons_nature_travel.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:59:01.924983"
+    },
+    "icons_network_connection.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T04:59:28.127010"
+    },
+    "icons_notes.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:00:11.665830"
+    },
+    "icons_notifications.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:00:40.584141"
+    },
+    "icons_school.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:01:07.705392"
+    },
+    "icons_search.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:01:33.684947"
+    },
+    "icons_security.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:02:06.808784"
+    },
+    "icons_settings_fine_tuning.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:02:32.869043"
+    },
+    "icons_shopping_ecommerce.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:03:01.645498"
+    },
+    "icons_sports.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:03:27.703923"
+    },
+    "icons_text_formatting.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:03:53.613258"
+    },
+    "icons_time.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:04:25.419963"
+    },
+    "icons_transport_parts_service.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:04:51.492806"
+    },
+    "icons_users.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:05:17.476454"
+    },
+    "icons_video_audio_sound.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:05:56.366236"
+    },
+    "icons_weather.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:06:24.724641"
+    },
+    "ui_preview_image_contacts_adding_contacts_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:16:53.062692"
+    },
+    "ui_preview_image_contacts_adding_contacts_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:17:41.265842"
+    },
+    "ui_preview_image_contacts_contact_added_successfully.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:18:18.346590"
+    },
+    "ui_preview_image_contacts_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:18:55.205507"
+    },
+    "ui_preview_image_document_editor_adding_a_signature.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:19:21.099707"
+    },
+    "ui_preview_image_document_editor_drawing_a_signature_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:19:58.188647"
+    },
+    "ui_preview_image_document_editor_drawing_a_signature_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:20:23.985077"
+    },
+    "ui_preview_image_document_editor_editing.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:21:01.302038"
+    },
+    "ui_preview_image_document_editor_empty_states.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:21:48.228588"
+    },
+    "ui_preview_image_document_editor_placing_a_signature.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:22:25.205333"
+    },
+    "ui_preview_image_documents_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:23:13.017689"
+    },
+    "ui_preview_image_documents_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:23:40.618550"
+    },
+    "ui_preview_image_forgot_password_create_new_password_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:24:06.760600"
+    },
+    "ui_preview_image_forgot_password_create_new_password_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:24:32.917367"
+    },
+    "ui_preview_image_forgot_password_email_confirmation_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:24:59.308359"
+    },
+    "ui_preview_image_forgot_password_email_confirmation_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:25:43.345100"
+    },
+    "ui_preview_image_forgot_password_enter_email_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:26:09.747090"
+    },
+    "ui_preview_image_forgot_password_enter_email_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:26:35.962471"
+    },
+    "ui_preview_image_forgot_password_error.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:27:02.597833"
+    },
+    "ui_preview_image_forgot_password_success_confirmation.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:27:27.409729"
+    },
+    "ui_preview_image_home.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:27:55.505703"
+    },
+    "ui_preview_image_home_build_with_ai_creating.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:28:20.091060"
+    },
+    "ui_preview_image_home_build_with_ai_default.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:28:45.951130"
+    },
+    "ui_preview_image_home_build_with_ai_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:29:15.381540"
+    },
+    "ui_preview_image_home_build_with_ai_success.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:29:41.053987"
+    },
+    "ui_preview_image_home_create_new_document.png": {
+      "subfolder": "components",
+      "size_mb": 0.08,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:30:09.413468"
+    },
+    "ui_preview_image_home_first_landing_sidebar_closed.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:19:59.297481"
+    },
+    "ui_preview_image_home_first_landing_sidebar_opened.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:32:27.284250"
+    },
+    "ui_preview_image_home_upload_default.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:32:56.635342"
+    },
+    "ui_preview_image_home_upload_loading.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:33:22.488109"
+    },
+    "ui_preview_image_home_upload_success.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:33:58.622982"
+    },
+    "ui_preview_image_inbox_downloading_file.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:34:26.992509"
+    },
+    "ui_preview_image_inbox_dropdown.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:23:00.134335"
+    },
+    "ui_preview_image_inbox_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:34:54.449502"
+    },
+    "ui_preview_image_inbox_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:35:27.233719"
+    },
+    "ui_preview_image_inbox_filter.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:35:59.113796"
+    },
+    "ui_preview_image_inbox_item_checked.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:36:26.353544"
+    },
+    "ui_preview_image_integrations.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:36:53.643631"
+    },
+    "ui_preview_image_integrations_connect.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:37:25.011541"
+    },
+    "ui_preview_image_integrations_successfully_connected.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:37:52.272077"
+    },
+    "ui_preview_image_logout.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:38:17.891195"
+    },
+    "ui_preview_image_quick_tour_step_1.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:38:44.576989"
+    },
+    "ui_preview_image_quick_tour_step_2.png": {
+      "subfolder": "components",
+      "size_mb": 0.08,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:39:19.628376"
+    },
+    "ui_preview_image_quick_tour_step_3.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:39:53.192437"
+    },
+    "ui_preview_image_quick_tour_step_4.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:40:19.178044"
+    },
+    "ui_preview_image_quick_tour_welcome_message.png": {
+      "subfolder": "components",
+      "size_mb": 0.07,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:42:58.170258"
+    },
+    "ui_preview_image_settings_my_account.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:43:33.688871"
+    },
+    "ui_preview_image_settings_payment_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:43:59.787786"
+    },
+    "ui_preview_image_settings_payment_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:44:25.065863"
+    },
+    "ui_preview_image_settings_payment_payment_success.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:31:44.735522"
+    },
+    "ui_preview_image_settings_subscription_plan.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:44:51.332224"
+    },
+    "ui_preview_image_sign_in_with_2fa_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:45:45.752308"
+    },
+    "ui_preview_image_sign_in_with_2fa_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:46:09.340611"
+    },
+    "ui_preview_image_sign_in_with_2fa_otp_code_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:46:33.680173"
+    },
+    "ui_preview_image_sign_in_with_2fa_otp_code_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:46:59.923580"
+    },
+    "ui_preview_image_sign_in_without_2fa_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:47:27.227522"
+    },
+    "ui_preview_image_sign_in_without_2fa_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:47:52.218320"
+    },
+    "ui_preview_image_sign_up_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:48:16.408784"
+    },
+    "ui_preview_image_sign_up_filled.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:36:14.555837"
+    },
+    "ui_preview_image_splash_screen.png": {
+      "subfolder": "components",
+      "size_mb": 0.15,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:49:08.333426"
+    },
+    "ui_preview_image_template_gallery.png": {
+      "subfolder": "components",
+      "size_mb": 0.12,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:49:42.655049"
+    },
+    "ui_preview_image_template_gallery_ghost_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:50:06.548620"
+    },
+    "ui_preview_image_template_gallery_hover.png": {
+      "subfolder": "components",
+      "size_mb": 0.1,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:50:35.651102"
+    },
+    "ui_preview_image_template_gallery_preview.png": {
+      "subfolder": "components",
+      "size_mb": 0.27,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:51:47.104030"
+    },
+    "ui_preview_image_template_gallery_workspace.png": {
+      "subfolder": "components",
+      "size_mb": 0.19,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:52:23.395137"
+    },
+    "ui_preview_image_workspace.png": {
+      "subfolder": "components",
+      "size_mb": 0.19,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:53:21.529874"
+    },
+    "ui_preview_non_image_contacts_adding_contacts_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:53:54.976131"
+    },
+    "ui_preview_non_image_contacts_adding_contacts_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:54:24.706280"
+    },
+    "ui_preview_non_image_contacts_contact_added_successfully.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:54:52.412319"
+    },
+    "ui_preview_non_image_contacts_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:55:18.618410"
+    },
+    "ui_preview_non_image_document_editor_adding_a_signature.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:55:51.899179"
+    },
+    "ui_preview_non_image_document_editor_drawing_a_signature_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:56:22.414339"
+    },
+    "ui_preview_non_image_document_editor_drawing_a_signature_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:56:48.725164"
+    },
+    "ui_preview_non_image_document_editor_editing.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:57:12.322059"
+    },
+    "ui_preview_non_image_document_editor_empty_states.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:57:38.409758"
+    },
+    "ui_preview_non_image_document_editor_placing_a_signature.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:58:02.818190"
+    },
+    "ui_preview_non_image_documents_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:58:32.566201"
+    },
+    "ui_preview_non_image_documents_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:59:04.960958"
+    },
+    "ui_preview_non_image_forgot_password_create_new_password_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:59:42.315443"
+    },
+    "ui_preview_non_image_forgot_password_create_new_password_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:00:18.651357"
+    },
+    "ui_preview_non_image_forgot_password_email_confirmation_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.01,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:00:50.778162"
+    },
+    "ui_preview_non_image_forgot_password_email_confirmation_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:01:19.839340"
+    },
+    "ui_preview_non_image_forgot_password_enter_email_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:01:46.682466"
+    },
+    "ui_preview_non_image_forgot_password_enter_email_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:02:28.268799"
+    },
+    "ui_preview_non_image_forgot_password_error.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:03:05.490488"
+    },
+    "ui_preview_non_image_forgot_password_success_confirmation.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:03:36.685849"
+    },
+    "ui_preview_non_image_home.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:04:09.732285"
+    },
+    "ui_preview_non_image_home_build_with_ai_creating.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:04:48.958786"
+    },
+    "ui_preview_non_image_home_build_with_ai_default.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:05:32.864590"
+    },
+    "ui_preview_non_image_home_build_with_ai_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:07:22.578902"
+    },
+    "ui_preview_non_image_home_build_with_ai_success.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:08:39.386118"
+    },
+    "ui_preview_non_image_home_create_new_document.png": {
+      "subfolder": "components",
+      "size_mb": 0.08,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:09:10.365815"
+    },
+    "ui_preview_non_image_home_first_landing_sidebar_closed.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:53:47.726593"
+    },
+    "ui_preview_non_image_home_first_landing_sidebar_opened.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "sidebar_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A vertical navigation menu with various sections like Dashboard, Inbox, Documents, etc."
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 9,
+            "description": "Icons used for navigation and actions, such as a house for Dashboard, an envelope for Inbox, etc."
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "A button to create a new item, represented by a plus icon."
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "A text button to create a new item, labeled 'Create New'."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "An icon button for closing, represented by an 'X' icon."
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 1,
+            "description": "A horizontal line separating sections of the sidebar."
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 2,
+            "description": "Text buttons for Settings and Logout."
+          },
+          {
+            "component_type": "logo",
+            "variant": "default",
+            "count": 1,
+            "description": "The Altentico logo displayed at the top of the sidebar."
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1712
+      },
+      "processed_at": "2026-02-18T07:10:57.444223"
+    },
+    "ui_preview_non_image_home_upload_default.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "default",
+            "count": 1,
+            "description": "A modal dialog box for uploading documents"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A close button to dismiss the dialog"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "back",
+            "count": 1,
+            "description": "A back button to navigate to the previous screen"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A button to select files for upload"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Upload your document'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 2,
+            "description": "Body text describing supported file types and upload instructions"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "upload",
+            "count": 1,
+            "description": "An icon representing file upload"
+          },
+          {
+            "component_type": "chip",
+            "variant": "file_type",
+            "count": 4,
+            "description": " Chips listing supported file types (PDF, Word, PowerPoint, JPG, PNG)"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1720
+      },
+      "processed_at": "2026-02-18T07:11:19.319848"
+    },
+    "ui_preview_non_image_home_upload_loading.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "default",
+            "count": 1,
+            "description": "A modal dialog box for uploading a document"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "circular",
+            "count": 1,
+            "description": "A circular progress bar indicating the upload progress"
+          },
+          {
+            "component_type": "button",
+            "variant": "outlined",
+            "count": 1,
+            "description": "A cancel button to stop the upload process"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A close button to dismiss the dialog"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating the dialog header and content"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "A headline text displaying the dialog title"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 2,
+            "description": "Body text describing the supported file types and the uploading file name"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "A set of icons indicating the supported file types"
+          },
+          {
+            "component_type": "badge",
+            "variant": "file_type",
+            "count": 1,
+            "description": "A badge or label displaying the uploading file name"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1725
+      },
+      "processed_at": "2026-02-18T07:11:41.794489"
+    },
+    "ui_preview_non_image_home_upload_success.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "default",
+            "count": 1,
+            "description": "A modal dialog box for uploading a document"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A close button to dismiss the dialog"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "back",
+            "count": 1,
+            "description": "A back button to navigate to the previous step"
+          },
+          {
+            "component_type": "file_upload",
+            "variant": "default",
+            "count": 1,
+            "description": "A file upload component that displays the uploaded file"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A continue button to proceed with the uploaded file"
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 1,
+            "description": "A green checkmark badge indicating successful file upload"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 1,
+            "description": "A subtle divider separating the dialog content"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "A heading text that reads 'Upload your document'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 1,
+            "description": "A body text that describes the supported file types"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 1,
+            "description": "A body text that displays the uploaded file name"
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1765
+      },
+      "processed_at": "2026-02-18T07:11:51.989840"
+    },
+    "ui_preview_non_image_inbox_downloading_file.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with inbox title, search icon, and help icon"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 2,
+            "description": "Menu icon and help icon buttons"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Search bar with magnifying glass icon"
+          },
+          {
+            "component_type": "filter",
+            "variant": "outline",
+            "count": 1,
+            "description": "Filter button with dropdown options"
+          },
+          {
+            "component_type": "table",
+            "variant": "light",
+            "count": 1,
+            "description": "Inbox table with recipient and last action columns"
+          },
+          {
+            "component_type": "table_row",
+            "variant": "light",
+            "count": 4,
+            "description": "Individual rows in the inbox table"
+          },
+          {
+            "component_type": "badge",
+            "variant": "colored",
+            "count": 2,
+            "description": "Colored badges (e.g. HP, CW, ME, SE)"
+          },
+          {
+            "component_type": "menu",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "Dropdown menu with download and delete options"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "No visible primary buttons, but there are menu item buttons (download, delete)"
+          },
+          {
+            "component_type": "snackbar",
+            "variant": "success",
+            "count": 1,
+            "description": "Snackbar notification for file download"
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 1,
+            "description": "Horizontal divider separating table sections"
+          },
+          {
+            "component_type": "icon",
+            "variant": "monochrome",
+            "count": 3,
+            "description": "Various icons used throughout the component (e.g. menu, help, download)"
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "Inbox title typography"
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 8,
+            "description": "Body text typography for table rows and snackbar"
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1933
+      },
+      "processed_at": "2026-02-18T07:11:57.032947"
+    },
+    "ui_preview_non_image_inbox_dropdown.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T05:56:53.446611"
+    },
+    "ui_preview_non_image_inbox_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with inbox title, search icon, and help icon"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 3,
+            "description": "Icon buttons for menu, search, and help"
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "default",
+            "count": 1,
+            "description": "Empty state screen with a message and a call-to-action button"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "New Document button to create a new document"
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 1,
+            "description": "Green circle icon with a document symbol"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating the top nav from the content"
+          },
+          {
+            "component_type": "typography",
+            "variant": "headline",
+            "count": 1,
+            "description": "You're all caught up headline text"
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 1,
+            "description": "Shared documents will appear here body text"
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1683
+      },
+      "processed_at": "2026-02-18T07:12:02.419190"
+    },
+    "ui_preview_non_image_inbox_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 3,
+            "description": "Small button with an icon, used for search, help, and menu."
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "Vertical navigation menu on the left side."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "Top navigation bar with title and actions."
+          },
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "Table displaying document list with columns for name and status."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 5,
+            "description": "Checkbox for selecting documents."
+          },
+          {
+            "component_type": "badge",
+            "variant": "multiple (Draft, Action needed, Completed, Pending)",
+            "count": 4,
+            "description": "Badges indicating document status."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Horizontal line separating sections."
+          },
+          {
+            "component_type": "chip",
+            "variant": "multiple (Draft, Action needed, Completed, Pending)",
+            "count": 4,
+            "description": "Small colored chip representing document status."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "Input field for searching documents."
+          },
+          {
+            "component_type": "button",
+            "variant": "filter",
+            "count": 1,
+            "description": "Button for filtering documents."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "multiple (headings, labels)",
+            "count": 6,
+            "description": "Various text elements for labels and headings."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "multiple (filter, search, help)",
+            "count": 3,
+            "description": "Icons used within buttons and navigation."
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1854
+      },
+      "processed_at": "2026-02-18T07:12:07.776400"
+    },
+    "ui_preview_non_image_inbox_filter.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "default",
+            "count": 1,
+            "description": "A dialog box with a filter option for inbox messages"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A close button to dismiss the dialog box"
+          },
+          {
+            "component_type": "input",
+            "variant": "dropdown",
+            "count": 2,
+            "description": "Dropdown inputs for filtering by status and time period"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 6,
+            "description": "Checkboxes for selecting tabs (Document name, Status, Recipients, Last actions, Document type)"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 1,
+            "description": "A horizontal divider separating sections within the dialog"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "The title of the dialog box, 'Filter'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "label",
+            "count": 3,
+            "description": "Labels for sections within the dialog (Status, Time period, Tabs)"
+          }
+        ],
+        "component_count": 7,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1656
+      },
+      "processed_at": "2026-02-18T07:12:12.755714"
+    },
+    "ui_preview_non_image_inbox_item_checked.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A search bar with a magnifying glass icon and a text input field"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "A button with a question mark icon"
+          },
+          {
+            "component_type": "menu",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "A dropdown menu with options to download or delete"
+          },
+          {
+            "component_type": "list",
+            "variant": "default",
+            "count": 1,
+            "description": "A list of items with recipient information and last action"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 4,
+            "description": "Cards displaying recipient information and last action"
+          },
+          {
+            "component_type": "badge",
+            "variant": "colored",
+            "count": 4,
+            "description": "Small colored badges representing recipients (e.g. HP, CW, ME, SE, TK)"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Horizontal dividers separating list items"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "A typography sample for the 'Recipients' header"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "label",
+            "count": 1,
+            "description": "A typography sample for the 'Last action' header"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 8,
+            "description": "Typography samples for list item text"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "An ellipsis icon set"
+          },
+          {
+            "component_type": "button",
+            "variant": "dropdown_item",
+            "count": 2,
+            "description": "Buttons for 'Download' and 'Delete' actions"
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1858
+      },
+      "processed_at": "2026-02-18T07:12:17.535878"
+    },
+    "ui_preview_non_image_integrations.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with title 'Integrations' and icons for search and help"
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 3,
+            "description": "Tab bar with three tabs: 'All apps', 'Connected', 'Disconnected'"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 3,
+            "description": "Cards for cloud storage services like Google Drive, Dropbox, and OneDrive"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "Connect buttons for Google Drive and Dropbox"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 3,
+            "description": "Toggles to switch on/off for each cloud storage service"
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 3,
+            "description": "Service logos for Google Drive, Dropbox, and OneDrive"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 1,
+            "description": "Divider separating the header from the content"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "Search bar at the top right corner"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 2,
+            "description": "Icon buttons for search and help"
+          },
+          {
+            "component_type": "badge",
+            "variant": "none",
+            "count": 0,
+            "description": "No badges visible"
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "Heading 'Integrations'"
+          },
+          {
+            "component_type": "typography",
+            "variant": "subheading",
+            "count": 1,
+            "description": "Subheading 'Cloud Storage'"
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1846
+      },
+      "processed_at": "2026-02-18T07:12:22.046726"
+    },
+    "ui_preview_non_image_integrations_connect.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "modal",
+            "variant": "default",
+            "count": 1,
+            "description": "A modal dialog box with a white background and rounded corners, used to prompt the user to connect Google Drive to their workspace."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, used to confirm the connection to Google Drive."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button with dark text, used to cancel the connection to Google Drive."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 1,
+            "description": "A checkbox with a green checkmark, used to confirm agreement to terms and conditions."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A small button with a close icon, used to dismiss the modal dialog box."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the content of the modal dialog box."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "A heading text displaying the title of the modal dialog box."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 2,
+            "description": "Body text describing the purpose of connecting Google Drive to the workspace and the terms of service."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 3,
+            "description": "A set of three icons representing different cloud storage services, including Google Drive."
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1783
+      },
+      "processed_at": "2026-02-18T07:12:28.529485"
+    },
+    "ui_preview_non_image_integrations_successfully_connected.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 3,
+            "description": "Tabs for filtering integrations: All apps, Connected, Disconnected"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 3,
+            "description": "Integration cards for Google Drive, Dropbox, and OneDrive"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 2,
+            "description": "Toggles for enabling/disabling integrations"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Connect button for Dropbox"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Remove button for Google Drive"
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 3,
+            "description": "Service logos for Google Drive, Dropbox, and OneDrive"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 1,
+            "description": "Divider separating Cloud Storage section from integrations"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "Search bar for finding integrations"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "Info icon button for help"
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 1,
+            "description": "Connected badge for Google Drive"
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "Header text for Integrations"
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 5,
+            "description": "Text descriptions for integrations and sections"
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1821
+      },
+      "processed_at": "2026-02-18T07:12:33.471797"
+    },
+    "ui_preview_non_image_logout.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "alert",
+            "count": 1,
+            "description": "A modal dialog box with a warning message and two buttons."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text that says 'Yes, log me out'."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button with black text that says 'Cancel'."
+          },
+          {
+            "component_type": "icon",
+            "variant": "warning",
+            "count": 1,
+            "description": "A green icon of a device with an arrow coming out of it."
+          },
+          {
+            "component_type": "icon",
+            "variant": "close",
+            "count": 1,
+            "description": "A small 'X' icon in the top right corner of the dialog box."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A thin horizontal line separating the dialog box content from the buttons."
+          },
+          {
+            "component_type": "typography",
+            "variant": "headline",
+            "count": 1,
+            "description": "The title of the dialog box that says 'Are you sure you want to log out?'."
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 1,
+            "description": "The text below the title that says 'You'll need to sign in again to access your dashboard'."
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1723
+      },
+      "processed_at": "2026-02-18T07:12:43.960041"
+    },
+    "ui_preview_non_image_quick_tour_step_1.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "light",
+            "count": 1,
+            "description": "A dialog box with a white background and rounded corners, used to display information or request user input."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, used to navigate to the next step."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small button with a white cross icon, used to close the dialog box."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal step indicator showing the current step and total number of steps."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading text displaying the title of the dialog box."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 1,
+            "description": "A body text describing the purpose and instructions for the dialog box."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the dialog box content from the footer."
+          },
+          {
+            "component_type": "icon",
+            "variant": "green",
+            "count": 1,
+            "description": "A green circle icon with a white plus sign, used to indicate adding a new page."
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1724
+      },
+      "processed_at": "2026-02-18T07:12:48.902103"
+    },
+    "ui_preview_non_image_quick_tour_step_2.png": {
+      "subfolder": "components",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "light",
+            "count": 1,
+            "description": "A dialog box with a white background and a green accent, displaying a step in a process."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, labeled 'Next'."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button with dark text, labeled 'Previous'."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "default",
+            "count": 1,
+            "description": "A step indicator showing 'Step 2 of 4'."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A small icon button with a white 'X' on a gray background, used for closing the dialog."
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "right",
+            "count": 1,
+            "description": "A vertical sidebar with a list of icons, likely used for adding content blocks."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "A set of icons for adding different types of content blocks."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the dialog content from the buttons."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample heading text, 'Content Blocks Panel'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A sample paragraph text, 'Insert elements like text, images, videos, or tables from the right-side panel.'."
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1819
+      },
+      "processed_at": "2026-02-18T07:13:04.298845"
+    },
+    "ui_preview_non_image_quick_tour_step_3.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "light",
+            "count": 1,
+            "description": "A dialog box with a white background and a green accent, displaying information about Form & Signature Tools."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button labeled 'Next'."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button labeled 'Previous'."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A small 'X' icon button to close the dialog."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A step indicator showing 'Step 3 of 4'."
+          },
+          {
+            "component_type": "card",
+            "variant": "tool_card",
+            "count": 4,
+            "description": "Four tool cards labeled 'Text field', 'Signature', 'Date', and 'Checkbox'."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating the dialog content from the tools."
+          },
+          {
+            "component_type": "icon",
+            "variant": "pencil",
+            "count": 1,
+            "description": "A green pencil icon in a circle."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Form & Signature Tools'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A paragraph describing the purpose of Form & Signature Tools."
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1790
+      },
+      "processed_at": "2026-02-18T07:13:11.869133"
+    },
+    "ui_preview_non_image_quick_tour_step_4.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "modal",
+            "count": 1,
+            "description": "A modal dialog box with a white background and a green accent, displaying a message about sending and sharing a document."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with the text 'Finish' used to complete the current step."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button with the text 'Previous' used to navigate to the previous step."
+          },
+          {
+            "component_type": "stepper",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A stepper component displaying the current step (4 of 4)."
+          },
+          {
+            "component_type": "icon",
+            "variant": "filled",
+            "count": 1,
+            "description": "A green circle icon with a white triangle inside, used as a logo or indicator."
+          },
+          {
+            "component_type": "icon",
+            "variant": "filled",
+            "count": 1,
+            "description": "A close icon (X) used to dismiss the dialog box."
+          },
+          {
+            "component_type": "typography",
+            "variant": "headline",
+            "count": 1,
+            "description": "A heading with the text 'Send & Share'."
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 1,
+            "description": "A paragraph of text describing the action to be taken."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the dialog box content from the buttons."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "A top navigation bar with a search bar and menu items."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "A search bar with a placeholder text 'Freelance Design...'."
+          },
+          {
+            "component_type": "menu",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "A menu icon (three horizontal lines) used to open a menu."
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "A back button (chevron) used to navigate back."
+          },
+          {
+            "component_type": "chip",
+            "variant": "label",
+            "count": 1,
+            "description": "A small green label with the text 'HP'."
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1986
+      },
+      "processed_at": "2026-02-18T07:13:17.493119"
+    },
+    "ui_preview_non_image_quick_tour_welcome_message.png": {
+      "subfolder": "components",
+      "size_mb": 0.07,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "light",
+            "count": 1,
+            "description": "A dialog box with a white background and rounded corners, used to display a welcome message and guide the user through the interface."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, used to initiate a tour of the interface."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button with dark text, used to decline the tour and explore the interface independently."
+          },
+          {
+            "component_type": "icon",
+            "variant": "logo",
+            "count": 1,
+            "description": "A green circle with a white logo, used as the avatar for Trent from Altentico."
+          },
+          {
+            "component_type": "icon",
+            "variant": "emoji",
+            "count": 1,
+            "description": "A smiling face emoji, used to add a friendly tone to the welcome message."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A small button with a gray 'X' icon, used to close the dialog box."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A thin gray line, used to separate the dialog box content from the background."
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "A bold, black heading that reads 'Hey Harry, I am Trent from Altentico'."
+          },
+          {
+            "component_type": "typography",
+            "variant": "body_text",
+            "count": 1,
+            "description": "A smaller, dark gray text that reads 'I'll walk you through how to use the interface, step by step.'"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1810
+      },
+      "processed_at": "2026-02-18T07:14:04.384439"
+    },
+    "ui_preview_non_image_settings_my_account.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "settings",
+            "variant": "",
+            "count": 1,
+            "description": "A settings page component that contains various user account settings"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "initials",
+            "count": 1,
+            "description": "A circular avatar with initials 'HP'"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "An 'Upload Photo' button to upload a profile picture"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A 'Remove' button to remove the profile picture"
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 1,
+            "description": "A text input field for the user's name"
+          },
+          {
+            "component_type": "input",
+            "variant": "email",
+            "count": 1,
+            "description": "An email input field for the user's email address"
+          },
+          {
+            "component_type": "input",
+            "variant": "password",
+            "count": 1,
+            "description": "A password input field with masked input"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A 'Save Changes' button to save updated settings"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A horizontal divider separating sections"
+          },
+          {
+            "component_type": "signature",
+            "variant": "",
+            "count": 1,
+            "description": "A signature component with a drawn signature"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 3,
+            "description": "Icon buttons for menu, search, and help"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "",
+            "count": 1,
+            "description": "A dropdown menu for 'My Account'"
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1827
+      },
+      "processed_at": "2026-02-18T07:14:10.173803"
+    },
+    "ui_preview_non_image_settings_payment_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 2,
+            "description": "Payment method buttons (Credit card and PayPal)"
+          },
+          {
+            "component_type": "input",
+            "variant": "outlined",
+            "count": 6,
+            "description": "Text inputs for credit card information and billing information"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Divider separating payment methods"
+          },
+          {
+            "component_type": "icon",
+            "variant": "payment method",
+            "count": 4,
+            "description": "Payment method icons (American Express, Mastercard, Visa, PayPal)"
+          },
+          {
+            "component_type": "select",
+            "variant": "outlined",
+            "count": 1,
+            "description": "Country select dropdown"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "outlined",
+            "count": 1,
+            "description": "Country dropdown"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text 'Payment details'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "Subtitle text 'Select how you'd like to make your payment'"
+          },
+          {
+            "component_type": "badge",
+            "variant": "payment method",
+            "count": 4,
+            "description": "Payment method badges (American Express, Mastercard, Visa, PayPal)"
+          },
+          {
+            "component_type": "form",
+            "variant": "payment",
+            "count": 1,
+            "description": "Payment form"
+          },
+          {
+            "component_type": "card",
+            "variant": "payment",
+            "count": 1,
+            "description": "Payment card"
+          }
+        ],
+        "component_count": 11,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1783
+      },
+      "processed_at": "2026-02-18T07:14:15.817675"
+    },
+    "ui_preview_non_image_settings_payment_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A set of icons representing different payment methods (American Express, Mastercard, Visa, and PayPal)"
+          },
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 2,
+            "description": "Two buttons for selecting payment method (one for credit card and one for PayPal)"
+          },
+          {
+            "component_type": "input",
+            "variant": "outlined",
+            "count": 4,
+            "description": "Four input fields for credit card information (Card Number, Expires, CVV) and billing information (First name)"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A horizontal line separating payment method selection from payment details"
+          },
+          {
+            "component_type": "select",
+            "variant": "",
+            "count": 2,
+            "description": "Two dropdown menus for selecting country and state"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Payment details'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "A subheading that reads 'Select how you'd like to make your payment'"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 2,
+            "description": "Two icon buttons for calendar and dropdown menu"
+          },
+          {
+            "component_type": "badge",
+            "variant": "",
+            "count": 4,
+            "description": "Four badges or icons representing different payment methods (American Express, Mastercard, Visa, and PayPal)"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1760
+      },
+      "processed_at": "2026-02-18T07:14:20.085385"
+    },
+    "ui_preview_non_image_settings_payment_payment_success.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:06:57.935682"
+    },
+    "ui_preview_non_image_settings_subscription_plan.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "settings",
+            "variant": "",
+            "count": 1,
+            "description": "A settings page component that allows users to view and manage their account settings."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "",
+            "count": 1,
+            "description": "A top navigation bar with a hamburger menu, search bar, and a help icon."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "",
+            "count": 1,
+            "description": "A search bar with a magnifying glass icon."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 2,
+            "description": "Two icon buttons, one for search and one for help."
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "",
+            "count": 1,
+            "description": "A dropdown menu for selecting a subscription plan."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "",
+            "count": 1,
+            "description": "A tab bar with two tabs: Monthly and Yearly."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "free",
+            "count": 1,
+            "description": "A pricing card for the free plan, displaying features and pricing information."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "premium",
+            "count": 1,
+            "description": "A pricing card for the premium plan, displaying features and pricing information."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A button indicating the current plan."
+          },
+          {
+            "component_type": "list",
+            "variant": "",
+            "count": 1,
+            "description": "A list of features for the free plan."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "",
+            "count": 6,
+            "description": "Checkboxes indicating the features included in the free plan."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A divider separating the free plan from the premium plan."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that displays the title of the page."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 6,
+            "description": "Paragraphs of text describing the features of each plan."
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1942
+      },
+      "processed_at": "2026-02-18T07:14:24.697577"
+    },
+    "ui_preview_non_image_sign_in_with_2fa_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "login",
+            "variant": "",
+            "count": 1,
+            "description": "A login screen with input fields for email and password, and options to sign in with Google or Apple."
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 2,
+            "description": "Two input fields, one for email address and one for password."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A 'Continue' button to proceed with the login."
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 2,
+            "description": "Two buttons to sign in with Google and Apple."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A divider with the text 'Or Sign in with'."
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 1,
+            "description": "A 'Forgot password' link."
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 1,
+            "description": "A 'Sign Up' link."
+          },
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 2,
+            "description": "Icons for Google and Apple sign-in."
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 1,
+            "description": "The Altentico logo."
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that says 'We missed you! Time to dive back in.'"
+          },
+          {
+            "component_type": "typography",
+            "variant": "label",
+            "count": 2,
+            "description": "Labels for email address and password input fields."
+          }
+        ],
+        "component_count": 11,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1802
+      },
+      "processed_at": "2026-02-18T07:14:32.910207"
+    },
+    "ui_preview_non_image_sign_in_with_2fa_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "variant": "",
+            "count": 1,
+            "description": "A container for the login form with fields for email and password"
+          },
+          {
+            "component_type": "input",
+            "variant": "filled",
+            "count": 2,
+            "description": "Text input fields for email and password"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "The main 'Continue' button to proceed with login"
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 2,
+            "description": "Buttons to sign in with Google and Apple"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A horizontal line separating sign in options"
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "A link to 'Sign Up' for new users"
+          },
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 1,
+            "description": "The Altentico logo at the top"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "The main heading 'We missed you! Time to dive back in.'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 2,
+            "description": "Labels for 'Email address' and 'Password'"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 1,
+            "description": "An icon button to show/hide password"
+          },
+          {
+            "component_type": "link",
+            "variant": "text",
+            "count": 1,
+            "description": "A link to 'Forgot password'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "caption",
+            "count": 1,
+            "description": "The text 'Or Sign in with'"
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1840
+      },
+      "processed_at": "2026-02-18T07:14:37.184380"
+    },
+    "ui_preview_non_image_sign_in_with_2fa_otp_code_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "modal",
+            "count": 1,
+            "description": "A modal dialog box for two-factor authentication"
+          },
+          {
+            "component_type": "icon",
+            "variant": "shield with a checkmark",
+            "count": 1,
+            "description": "A green shield icon with a checkmark inside"
+          },
+          {
+            "component_type": "text",
+            "variant": "heading",
+            "count": 1,
+            "description": "Two-Factor Authentication heading"
+          },
+          {
+            "component_type": "text",
+            "variant": "body",
+            "count": 1,
+            "description": "Instructional text for entering the code"
+          },
+          {
+            "component_type": "input",
+            "variant": "OTP",
+            "count": 6,
+            "description": "Six input fields for entering a 6-digit code"
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "Resend OTP button"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Verify button"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "Close button for the dialog"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating content"
+          },
+          {
+            "component_type": "badge",
+            "variant": "email",
+            "count": 1,
+            "description": "Email address badge with partial email address"
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1737
+      },
+      "processed_at": "2026-02-18T07:14:41.169161"
+    },
+    "ui_preview_non_image_sign_in_with_2fa_otp_code_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "white background with rounded corners and a subtle shadow",
+            "count": 1,
+            "description": "A card component containing the two-factor authentication form"
+          },
+          {
+            "component_type": "icon",
+            "variant": "green and white shield icon",
+            "count": 1,
+            "description": "An icon used to represent security and authentication"
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "The title of the card, 'Two-Factor Authentication'"
+          },
+          {
+            "component_type": "typography",
+            "variant": "body text",
+            "count": 1,
+            "description": "The text describing the purpose of the two-factor authentication"
+          },
+          {
+            "component_type": "input",
+            "variant": "number input with a green outline",
+            "count": 6,
+            "description": "Individual input fields for entering the 6-digit code"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary green button",
+            "count": 1,
+            "description": "The 'Verify' button to submit the code"
+          },
+          {
+            "component_type": "button",
+            "variant": "text link",
+            "count": 1,
+            "description": "The 'Resend OTP' link to resend the code"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal line",
+            "count": 1,
+            "description": "A horizontal line separating the input fields from the buttons"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close button",
+            "count": 1,
+            "description": "The 'X' button to close the card"
+          },
+          {
+            "component_type": "alert",
+            "variant": "none",
+            "count": 0,
+            "description": "No alert component is visible"
+          },
+          {
+            "component_type": "typography",
+            "variant": "label",
+            "count": 1,
+            "description": "The label 'Email address' (partially visible)"
+          }
+        ],
+        "component_count": 11,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1833
+      },
+      "processed_at": "2026-02-18T07:14:45.770398"
+    },
+    "ui_preview_non_image_sign_in_without_2fa_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "login",
+            "variant": "",
+            "count": 1,
+            "description": "A login screen with input fields for email and password, and options to sign in with Google or Apple."
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 2,
+            "description": "Two input fields for email address and password."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A 'Continue' button to proceed with login."
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 2,
+            "description": "Buttons to sign in with Google and Apple."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A divider with 'Or Sign in with' text."
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 1,
+            "description": "A 'Forgot password' link."
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 1,
+            "description": "A 'Sign Up' link for new users."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that says 'We missed you! Time to dive back in.'"
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 1,
+            "description": "The Altentico logo."
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1721
+      },
+      "processed_at": "2026-02-18T07:14:49.642826"
+    },
+    "ui_preview_non_image_sign_in_without_2fa_filled.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "login",
+            "variant": "",
+            "count": 1,
+            "description": "A login screen with email and password input fields, and options to sign in with Google or Apple."
+          },
+          {
+            "component_type": "input",
+            "variant": "filled",
+            "count": 2,
+            "description": "Two input fields, one for email and one for password, with a green outline around the email field."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green 'Continue' button to proceed with the login."
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 2,
+            "description": "Two buttons to sign in with Google and Apple."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A horizontal line separating the login options from the sign up option."
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "A 'Sign Up' button for users without an account."
+          },
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 2,
+            "description": "Two icons, one for Google and one for Apple, used for sign in options."
+          },
+          {
+            "component_type": "text",
+            "variant": "",
+            "count": 1,
+            "description": "A 'Forgot password' text link."
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 1,
+            "description": "The Altentico logo at the top of the screen."
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that says 'We missed you! Time to dive back in.'"
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1793
+      },
+      "processed_at": "2026-02-18T07:14:53.696576"
+    },
+    "ui_preview_non_image_sign_up_empty_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "variant": "",
+            "count": 1,
+            "description": "A form with fields for name, email address, and password, and a submit button."
+          },
+          {
+            "component_type": "input",
+            "variant": "",
+            "count": 3,
+            "description": "Text input fields for name, email address, and password."
+          },
+          {
+            "component_type": "button",
+            "variant": "",
+            "count": 1,
+            "description": "A 'Continue' button to submit the form."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A horizontal line separating the form from the social login options."
+          },
+          {
+            "component_type": "button",
+            "variant": "social login",
+            "count": 2,
+            "description": "Buttons to sign up with Google and Apple."
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "A 'Sign In' button for users who already have an account."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Experience everything free for 30 days.'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "A subheading that reads 'No credit card needed'."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "The Altentico logo."
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1734
+      },
+      "processed_at": "2026-02-18T07:14:58.058278"
+    },
+    "ui_preview_non_image_sign_up_filled.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:12:10.336920"
+    },
+    "ui_preview_non_image_splash_screen.png": {
+      "subfolder": "components",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "The text 'Altentico' is displayed in a simple white font, likely used as a title or logo."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A simple white logo/icon is placed to the left of the 'Altentico' text, possibly representing the brand."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 0,
+            "description": "No horizontal divider is visible, but the lack of other components makes it hard to assess."
+          },
+          {
+            "component_type": "divider",
+            "variant": "vertical",
+            "count": 0,
+            "description": "No vertical divider is visible."
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "",
+            "count": 1,
+            "description": "The entire screen can be considered an empty state as it only displays the brand name and logo with a plain background."
+          }
+        ],
+        "component_count": 5,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1602
+      },
+      "processed_at": "2026-02-18T07:15:23.272565"
+    },
+    "ui_preview_non_image_template_gallery.png": {
+      "subfolder": "components",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with title 'Template Gallery' and icons for search, help, and possibly settings or information."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Search bar with a magnifying glass icon, allowing users to search for templates."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Tab bar with buttons for 'All templates', 'Marketing', 'Product', and possibly 'Social'."
+          },
+          {
+            "component_type": "tab",
+            "variant": "light",
+            "count": 4,
+            "description": "Individual tabs within the tab bar for filtering templates by category."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 4,
+            "description": "Template cards displaying information about different templates, including title, description, and usage statistics."
+          },
+          {
+            "component_type": "icon",
+            "variant": "various",
+            "count": 4,
+            "description": "Icons used within template cards for visual representation."
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 8,
+            "description": "Badges showing view and interaction counts (e.g., '1.2K', '290') for each template."
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 3,
+            "description": "Horizontal dividers separating template cards."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Button for possibly creating or accessing a template (not fully visible)."
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1779
+      },
+      "processed_at": "2026-02-18T07:15:28.564019"
+    },
+    "ui_preview_non_image_template_gallery_ghost_state.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "",
+            "count": 1,
+            "description": "Top navigation bar with title 'Template Gallery', hamburger menu icon, search icon, and help icon."
+          },
+          {
+            "component_type": "tab",
+            "variant": "",
+            "count": 4,
+            "description": "Tab bar with four tabs: 'All templates', 'Marketing', 'Product', 'Social'."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 3,
+            "description": "Three icon buttons: hamburger menu, search, and help."
+          },
+          {
+            "component_type": "skeleton",
+            "variant": "",
+            "count": 4,
+            "description": "Four skeleton loading states for templates, each with a header and content area."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider separating the top navigation from the content."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 3,
+            "description": "Three horizontal dividers separating the skeleton loading states."
+          }
+        ],
+        "component_count": 6,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1623
+      },
+      "processed_at": "2026-02-18T07:15:32.199916"
+    },
+    "ui_preview_non_image_template_gallery_hover.png": {
+      "subfolder": "components",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with title 'Template Gallery', search icon, and question mark icon"
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Tab bar with 'All templates', 'Marketing', 'Product', and 'Social' tabs"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 3,
+            "description": "Template cards with image, title, description, and action buttons"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Green 'Use Template' button"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "White 'Preview' button"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 2,
+            "description": "Heart and comment icons for likes and comments"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider separating template cards"
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 6,
+            "description": "Badges showing likes, comments, and views for each template"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Search bar with magnifying glass icon"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1732
+      },
+      "processed_at": "2026-02-18T07:15:38.142387"
+    },
+    "ui_preview_non_image_template_gallery_preview.png": {
+      "subfolder": "components",
+      "size_mb": 0.27,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "A top navigation bar with a search input and menu button"
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 2,
+            "description": "Two rectangular cards with different colored backgrounds and text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A large heading text that reads 'Freelance Design Contract'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 2,
+            "description": "Two lines of smaller text below the heading, one with '[Client Name]' and the other with '[Date]'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the top nav from the rest of the content"
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 1,
+            "description": "A small icon next to the 'Altentico' text"
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 2,
+            "description": "Two badges with numbers (1.6K and 275, 1.7K and 310) likely representing engagement metrics"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "A menu button with three dots"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "A back button with a left arrow icon"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1764
+      },
+      "processed_at": "2026-02-18T07:15:46.001575"
+    },
+    "ui_preview_non_image_template_gallery_workspace.png": {
+      "subfolder": "components",
+      "size_mb": 0.19,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with title 'Freelance Design...' and icons for navigation and menu"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "Green floating action button with a plus icon for adding new elements"
+          },
+          {
+            "component_type": "card",
+            "variant": "dark",
+            "count": 1,
+            "description": "Dark green card with white text displaying 'Freelance Design Contract' and placeholders for client name and date"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 6,
+            "description": "Various icon buttons for editing and formatting, including a back arrow, add, link, and more"
+          },
+          {
+            "component_type": "divider",
+            "variant": "vertical",
+            "count": 1,
+            "description": "Vertical line separating the design canvas from the sidebar"
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "light",
+            "count": 1,
+            "description": "Right sidebar with various icons for design tools and actions"
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 1,
+            "description": "Tab or menu item with a single item visible, likely part of a larger tab bar"
+          },
+          {
+            "component_type": "badge",
+            "variant": "status",
+            "count": 1,
+            "description": "Small 'HP' badge in the top right corner, possibly indicating a status or role"
+          },
+          {
+            "component_type": "breadcrumb",
+            "variant": "simple",
+            "count": 1,
+            "description": "Breadcrumb navigation with a single item visible, showing '1' and a plus icon"
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1782
+      },
+      "processed_at": "2026-02-18T07:16:00.613498"
+    },
+    "ui_preview_non_image_workspace.png": {
+      "subfolder": "components",
+      "size_mb": 0.19,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with title 'Freelance Design...' and icons for navigation and menu"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "Green floating action button with a plus icon for adding new elements"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "Back button with a left arrow icon"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "Menu button with three horizontal lines icon"
+          },
+          {
+            "component_type": "card",
+            "variant": "dark",
+            "count": 1,
+            "description": "Dark green card with white text for freelance design contract"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "light",
+            "count": 1,
+            "description": "Logo icon set for Altentico"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Sample text for 'Freelance Design Contract'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating elements on the page"
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "light",
+            "count": 1,
+            "description": "Right sidebar with various design and formatting options"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 6,
+            "description": "Various icons for design and formatting options in the sidebar"
+          },
+          {
+            "component_type": "badge",
+            "variant": "small",
+            "count": 1,
+            "description": "Small badge with 'HP' label"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Button for adding a new page"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Button for adding a new element"
+          }
+        ],
+        "component_count": 13,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1890
+      },
+      "processed_at": "2026-02-18T07:16:10.713927"
+    },
+    "ui_preview_image_home_first_landing_sidebar_closed_1.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:30:36.548513"
+    },
+    "ui_preview_image_home_first_landing_sidebar_closed_2.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:31:02.029599"
+    },
+    "ui_preview_image_home_first_landing_sidebar_closed_3.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:31:26.965544"
+    },
+    "ui_preview_image_home_first_landing_sidebar_closed_4.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:31:55.329147"
+    },
+    "ui_preview_image_quick_tour_step_5.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:40:54.339654"
+    },
+    "ui_preview_image_quick_tour_step_6.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:41:26.960571"
+    },
+    "ui_preview_image_quick_tour_step_7.png": {
+      "subfolder": "components",
+      "size_mb": 0.09,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:41:53.537813"
+    },
+    "ui_preview_image_quick_tour_step_8.png": {
+      "subfolder": "components",
+      "size_mb": 0.07,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:42:27.305853"
+    },
+    "ui_preview_image_settings_subscription_plan_payment_success.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T06:45:17.656332"
+    },
+    "ui_preview_non_image_home_first_landing_sidebar_closed_1.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:09:40.582433"
+    },
+    "ui_preview_non_image_home_first_landing_sidebar_closed_2.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "error",
+        "reason": "Error code: 403 - {'error': {'message': 'Access denied. Please check your network settings.'}}",
+        "components": []
+      },
+      "processed_at": "2026-02-18T07:10:09.084251"
+    },
+    "ui_preview_non_image_home_first_landing_sidebar_closed_3.png": {
+      "subfolder": "components",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "progress_bar",
+            "variant": "linear",
+            "count": 1,
+            "description": "A horizontal progress bar showing 260 out of 520 used, with a green fill and a dotted line indicating the current progress."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "filter",
+            "count": 1,
+            "description": "A small button with a filter icon, used to open a filter menu."
+          },
+          {
+            "component_type": "table",
+            "variant": "simple",
+            "count": 1,
+            "description": "A table displaying recent activity with columns for document name and status."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 5,
+            "description": "Checkboxes next to each table row, likely used for selecting documents."
+          },
+          {
+            "component_type": "badge",
+            "variant": "status",
+            "count": 5,
+            "description": "Badges indicating the status of each document (Draft, Action needed, Completed, Completed, Pending)."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the 'Yesterday' and 'Last week' sections."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "The title 'Recent Activity' in a larger font size."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "section_title",
+            "count": 2,
+            "description": "Section titles 'Yesterday' and 'Last week' in a smaller font size."
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1737
+      },
+      "processed_at": "2026-02-18T07:10:42.606873"
+    },
+    "ui_preview_non_image_home_first_landing_sidebar_closed_4.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small circular button with a white menu icon, likely used for navigation or settings."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small circular button with a green crown icon, likely used for creating or adding new content."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small circular button with a red notification icon and a number badge, likely used for notifications."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small circular button with a question mark icon, likely used for help or support."
+          },
+          {
+            "component_type": "badge",
+            "variant": "red",
+            "count": 1,
+            "description": "A small red circle with the number 7, likely used to indicate notifications or alerts."
+          },
+          {
+            "component_type": "badge",
+            "variant": "green",
+            "count": 1,
+            "description": "A small white circle with the letters 'HP', likely used to indicate a specific status or role."
+          },
+          {
+            "component_type": "card",
+            "variant": "dark",
+            "count": 1,
+            "description": "A rectangular container with a title and a list of steps, likely used for onboarding or tutorials."
+          },
+          {
+            "component_type": "list",
+            "variant": "numbered",
+            "count": 1,
+            "description": "A list of 6 steps with checkboxes and descriptions, likely used for guiding the user through a process."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "dark",
+            "count": 2,
+            "description": "A small checkbox with a green checkmark, likely used for selecting or validating options."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A thin horizontal line separating sections, likely used for visual organization."
+          },
+          {
+            "component_type": "icon",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small chevron icon, likely used for expanding or collapsing sections."
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "A small circular button with a white square icon, likely used for navigation or actions."
+          },
+          {
+            "component_type": "button",
+            "variant": "alert",
+            "count": 1,
+            "description": "A red circular button with a warning icon, likely used for alerts or errors."
+          },
+          {
+            "component_type": "bottom_nav",
+            "variant": "dark",
+            "count": 1,
+            "description": "A navigation bar with icons, likely used for navigating between sections or features."
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2033
+      },
+      "processed_at": "2026-02-18T07:10:51.566393"
+    },
+    "ui_preview_non_image_quick_tour_step_5.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "dark",
+            "count": 1,
+            "description": "A dark-themed dialog box with a green accent, used to provide instructions to the user."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, labeled 'Finish', used to complete a task."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A gray button with white text, labeled 'Previous', used to navigate to a previous step."
+          },
+          {
+            "component_type": "stepper",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal stepper component showing 'Step 4 of 4', indicating the current progress."
+          },
+          {
+            "component_type": "icon",
+            "variant": "green",
+            "count": 1,
+            "description": "A green circle icon with a white triangle inside, used as a notification or indicator."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line dividing the dialog box into sections."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A close button with an 'X' icon, used to dismiss the dialog box."
+          },
+          {
+            "component_type": "typography",
+            "variant": "headline",
+            "count": 1,
+            "description": "A heading text 'Send & Share' in a large font size."
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 1,
+            "description": "A paragraph of text providing instructions to the user."
+          },
+          {
+            "component_type": "button",
+            "variant": "icon",
+            "count": 1,
+            "description": "Not visible but inferred as part of the UI."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "dark",
+            "count": 1,
+            "description": "A top navigation bar with a title 'Freelance Design...' and a menu icon."
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": 1,
+            "description": "A small green badge with 'HP' initials, possibly indicating a notification or a status."
+          }
+        ],
+        "component_count": 12,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1914
+      },
+      "processed_at": "2026-02-18T07:13:22.881382"
+    },
+    "ui_preview_non_image_quick_tour_step_6.png": {
+      "subfolder": "components",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "dark",
+            "count": 1,
+            "description": "A dialog box with a title, description, and navigation buttons"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text labeled 'Next'"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A dark gray button with white text labeled 'Previous'"
+          },
+          {
+            "component_type": "stepper",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal stepper showing 'Step 3 of 4'"
+          },
+          {
+            "component_type": "icon",
+            "variant": "pencil",
+            "count": 1,
+            "description": "A pencil icon used in the dialog title"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "close",
+            "count": 1,
+            "description": "A close icon button to dismiss the dialog"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating sections within the dialog"
+          },
+          {
+            "component_type": "form",
+            "variant": "inline",
+            "count": 1,
+            "description": "A form with various input fields and labels"
+          },
+          {
+            "component_type": "button",
+            "variant": "ghost",
+            "count": 4,
+            "description": "Buttons for form tools (Text field, Signature, Date, Checkbox)"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "dark",
+            "count": 1,
+            "description": "A tooltip or hint text describing the form and signature tools"
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1772
+      },
+      "processed_at": "2026-02-18T07:13:42.685922"
+    },
+    "ui_preview_non_image_quick_tour_step_7.png": {
+      "subfolder": "components",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "dark",
+            "count": 1,
+            "description": "A dark-themed dialog box with a title, description, and buttons."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, used for 'Next' action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A dark gray button with white text, used for 'Previous' action."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small button with a white 'X' icon, used for closing the dialog."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small button with a white '+' icon, used for adding content."
+          },
+          {
+            "component_type": "stepper",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal stepper component showing 'Step 2 of 4'."
+          },
+          {
+            "component_type": "card",
+            "variant": "dark",
+            "count": 1,
+            "description": "A dark-themed card with a title, description, and buttons."
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "dark",
+            "count": 1,
+            "description": "A vertical sidebar with various icons for adding content."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "dark",
+            "count": 7,
+            "description": "A set of 7 icons in the sidebar, including text, image, video, table, link, settings, and more."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider separating the dialog content from the buttons."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "A sample headline text 'Content Blocks Panel'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A sample paragraph text 'Insert elements like text, images, videos, or tables from the right-side panel.'."
+          },
+          {
+            "component_type": "badge",
+            "variant": "dark",
+            "count": 1,
+            "description": "A dark badge with white text 'T'."
+          },
+          {
+            "component_type": "badge",
+            "variant": "gray",
+            "count": 1,
+            "description": "A gray badge with green text 'HP'."
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1994
+      },
+      "processed_at": "2026-02-18T07:13:52.537804"
+    },
+    "ui_preview_non_image_quick_tour_step_8.png": {
+      "subfolder": "components",
+      "size_mb": 0.07,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "variant": "dark",
+            "count": 1,
+            "description": "A dialog box with a dark background and white text, used to guide the user through a process."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button with white text, used to proceed to the next step."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "dark",
+            "count": 1,
+            "description": "A small button with a white 'X' icon, used to close the dialog box."
+          },
+          {
+            "component_type": "icon",
+            "variant": "white",
+            "count": 1,
+            "description": "A white '+' icon, used to indicate adding a new page."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "numbered",
+            "count": 1,
+            "description": "A step indicator showing 'Step 1 of 4', used to guide the user through a multi-step process."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the dialog box content from the rest of the screen."
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Add & Edit Pages', used to title the dialog box."
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 1,
+            "description": "A paragraph of text describing how to use the page management feature."
+          },
+          {
+            "component_type": "icon",
+            "variant": "green",
+            "count": 1,
+            "description": "A green circle with a white '+' icon, used to indicate adding a new page."
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1786
+      },
+      "processed_at": "2026-02-18T07:13:57.916645"
+    },
+    "ui_preview_non_image_settings_subscription_plan_payment_success.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A set of icons used in the logo"
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 1,
+            "description": "The logo of the application, consisting of a stylized letter and text"
+          },
+          {
+            "component_type": "icon",
+            "variant": "success",
+            "count": 1,
+            "description": "A green icon indicating successful payment"
+          },
+          {
+            "component_type": "alert",
+            "variant": "success",
+            "count": 1,
+            "description": "A notification indicating that the payment was successful"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A green button to navigate to the dashboard"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading text that says 'Payment successful!'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 1,
+            "description": "A body text that says 'Your transaction was completed successfully.'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "Implicit divider between elements, using white space"
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1679
+      },
+      "processed_at": "2026-02-18T07:14:28.991979"
+    }
+  },
+  "summary": {
+    "total_screens": 326,
+    "screens_processed": 326,
+    "screens_successful": 43,
+    "screens_skipped": 0,
+    "screens_errored": 159,
+    "total_components_identified": 434,
+    "unique_component_types": 49,
+    "component_type_counts": {
+      "button": 71,
+      "divider": 45,
+      "typography_sample": 43,
+      "icon_button": 40,
+      "icon": 27,
+      "typography": 24,
+      "badge": 21,
+      "dialog": 15,
+      "input": 13,
+      "card": 13,
+      "icon_set": 12,
+      "top_nav": 11,
+      "search_bar": 9,
+      "checkbox": 6,
+      "logo": 5,
+      "tab": 5,
+      "link": 5,
+      "step_indicator": 4,
+      "sidebar": 4,
+      "stepper": 4,
+      "form": 4,
+      "chip": 3,
+      "table": 3,
+      "menu": 3,
+      "list": 3,
+      "dropdown": 3,
+      "tab_bar": 3,
+      "login": 3,
+      "text": 3,
+      "sidebar_nav": 2,
+      "progress_bar": 2,
+      "empty_state": 2,
+      "toggle": 2,
+      "settings": 2,
+      "select": 2,
+      "pricing_card": 2,
+      "alert": 2,
+      "navbar": 2,
+      "file_upload": 1,
+      "filter": 1,
+      "table_row": 1,
+      "snackbar": 1,
+      "modal": 1,
+      "avatar": 1,
+      "signature": 1,
+      "skeleton": 1,
+      "breadcrumb": 1,
+      "bottom_nav": 1,
+      "tooltip": 1
+    },
+    "completed_at": "2026-02-18T07:16:12.735915"
+  },
+  "started_at": "2026-02-18T04:40:10.599999",
+  "last_checkpoint": "2026-02-18T07:16:12.736917"
+}

@@ -1,0 +1,7603 @@
+{
+  "kit_name": "Aitentico",
+  "file_key": "XK3d5YHdoyV60avw3cpQCo",
+  "figma_name": "Aitentico - AI E-Signature Dashboard",
+  "last_modified": "2026-02-16T19:41:29Z",
+  "fetched_at": "2026-02-18T13:59:32.090420",
+  "pages": [
+    {
+      "page_id": "0:1",
+      "page_name": "\u2318 Cover",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "14018:57791",
+          "name": "Thumbnail",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1600.0,
+          "height": 900.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "4045:428",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "1:2",
+      "page_name": "\ud83d\udcd5  Design Guide",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "18:9940",
+          "name": "Colors",
+          "type": "FRAME",
+          "skip": false,
+          "width": 3794.0,
+          "height": 4596.0
+        },
+        {
+          "id": "18:9983",
+          "name": "Typography",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 2750.000244140625
+        },
+        {
+          "id": "18:10484",
+          "name": "Spacing, Borders, Shadows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2313.0,
+          "height": 2928.0
+        }
+      ],
+      "components": [],
+      "screen_count": 3,
+      "component_count": 0,
+      "light_desktop_screens": 3,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "1:4",
+      "page_name": "\ud83e\udde9  Component",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "18:13306",
+          "name": "Form Input",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 2674.0
+        },
+        {
+          "id": "18:15158",
+          "name": "Avatar",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 2245.0
+        },
+        {
+          "id": "18:15577",
+          "name": "Native",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 1803.0
+        },
+        {
+          "id": "6041:51814",
+          "name": "Sidebar, Navbar, Cards",
+          "type": "FRAME",
+          "skip": false,
+          "width": 4596.0,
+          "height": 13663.0
+        },
+        {
+          "id": "18:17623",
+          "name": "Button",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 2250.0
+        }
+      ],
+      "components": [
+        {
+          "id": "16:1456",
+          "name": "Annotation",
+          "type": "COMPONENT_SET",
+          "skip": false,
+          "width": 2560.0,
+          "height": 1021.0
+        },
+        {
+          "id": "16:1476",
+          "name": "Label",
+          "type": "COMPONENT_SET",
+          "skip": false,
+          "width": 865.0,
+          "height": 576.0
+        },
+        {
+          "id": "17:9770",
+          "name": "logo",
+          "type": "COMPONENT_SET",
+          "skip": false,
+          "width": 233.0,
+          "height": 362.0
+        }
+      ],
+      "screen_count": 5,
+      "component_count": 3,
+      "light_desktop_screens": 5,
+      "light_desktop_components": 3
+    },
+    {
+      "page_id": "1:5",
+      "page_name": "\ud83d\udd79\ufe0f  Icons",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "18405:3811",
+          "name": "Logos",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 1543.0
+        },
+        {
+          "id": "17:8114",
+          "name": "Logos",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2528.0,
+          "height": 1543.0
+        },
+        {
+          "id": "18035:524",
+          "name": "Messages, Conversation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 569.0
+        },
+        {
+          "id": "18035:698",
+          "name": "Messages, Conversation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 569.0
+        },
+        {
+          "id": "18035:816",
+          "name": "Messages, Conversation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 569.0
+        },
+        {
+          "id": "18035:988",
+          "name": "Messages, Conversation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 569.0
+        },
+        {
+          "id": "18035:1101",
+          "name": "Messages, Conversation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 569.0
+        },
+        {
+          "id": "18035:1274",
+          "name": "Messages, Conversation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 569.0
+        },
+        {
+          "id": "18035:1452",
+          "name": "Arrows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 639.0
+        },
+        {
+          "id": "18035:1675",
+          "name": "Arrows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 639.0
+        },
+        {
+          "id": "18035:1825",
+          "name": "Arrows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 639.0
+        },
+        {
+          "id": "18035:2043",
+          "name": "Arrows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 639.0
+        },
+        {
+          "id": "18035:2193",
+          "name": "Arrows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 639.0
+        },
+        {
+          "id": "18035:2416",
+          "name": "Arrows",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 639.0
+        },
+        {
+          "id": "18035:2648",
+          "name": "Map & Location",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:2809",
+          "name": "Map & Location",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:2909",
+          "name": "Map & Location",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:3047",
+          "name": "Map & Location",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:3138",
+          "name": "Map & Location",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:3299",
+          "name": "Map & Location",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:3456",
+          "name": "Video, Audio, Sound",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 828.0
+        },
+        {
+          "id": "18035:3955",
+          "name": "Video, Audio, Sound",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 828.0
+        },
+        {
+          "id": "18035:4187",
+          "name": "Video, Audio, Sound",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 828.0
+        },
+        {
+          "id": "18035:4542",
+          "name": "Video, Audio, Sound",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 828.0
+        },
+        {
+          "id": "18035:4765",
+          "name": "Video, Audio, Sound",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 828.0
+        },
+        {
+          "id": "18035:5226",
+          "name": "Money",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:5423",
+          "name": "Money",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:5509",
+          "name": "Money",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:5648",
+          "name": "Money",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:5846",
+          "name": "Money",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:5933",
+          "name": "Money",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:6127",
+          "name": "Electronic, Devices",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 763.0
+        },
+        {
+          "id": "18035:6649",
+          "name": "Electronic, Devices",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 763.0
+        },
+        {
+          "id": "18035:7168",
+          "name": "Electronic, Devices",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 763.0
+        },
+        {
+          "id": "18035:7365",
+          "name": "Electronic, Devices",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 763.0
+        },
+        {
+          "id": "18035:7726",
+          "name": "Electronic, Devices",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 763.0
+        },
+        {
+          "id": "18035:7920",
+          "name": "Electronic, Devices",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 763.0
+        },
+        {
+          "id": "18035:8431",
+          "name": "Weather",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:8629",
+          "name": "Weather",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:8827",
+          "name": "Weather",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:8923",
+          "name": "Weather",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:9067",
+          "name": "Weather",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:9166",
+          "name": "Weather",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:9363",
+          "name": "Files",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 437.0
+        },
+        {
+          "id": "18035:9447",
+          "name": "Files",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:9531",
+          "name": "Files",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 437.0
+        },
+        {
+          "id": "18035:9577",
+          "name": "Files",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 437.0
+        },
+        {
+          "id": "18035:9652",
+          "name": "Files",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 437.0
+        },
+        {
+          "id": "18035:9698",
+          "name": "Files",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 437.0
+        },
+        {
+          "id": "18035:9782",
+          "name": "Astronomy",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:9934",
+          "name": "Astronomy",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:10091",
+          "name": "Astronomy",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:10182",
+          "name": "Astronomy",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:10310",
+          "name": "Astronomy",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:10397",
+          "name": "Astronomy",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:10561",
+          "name": "Folders",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:10625",
+          "name": "Folders",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:10689",
+          "name": "Folders",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:10733",
+          "name": "Folders",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:10793",
+          "name": "Folders",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:10837",
+          "name": "Folders",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:10900",
+          "name": "Faces, Emotions, Stickers",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:11037",
+          "name": "Faces, Emotions, Stickers",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:11173",
+          "name": "Faces, Emotions, Stickers",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:11231",
+          "name": "Faces, Emotions, Stickers",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:11289",
+          "name": "Faces, Emotions, Stickers",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:11378",
+          "name": "Faces, Emotions, Stickers",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:11515",
+          "name": "Sports",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:11722",
+          "name": "Sports",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:11932",
+          "name": "Sports",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:12030",
+          "name": "Sports",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:12132",
+          "name": "Sports",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:12284",
+          "name": "Sports",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:12492",
+          "name": "Search",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:12553",
+          "name": "Search",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:12614",
+          "name": "Search",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:12654",
+          "name": "Search",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:12715",
+          "name": "Search",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:12755",
+          "name": "Search",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:12816",
+          "name": "Time",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:12964",
+          "name": "Time",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13112",
+          "name": "Time",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13182",
+          "name": "Time",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13252",
+          "name": "Time",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13373",
+          "name": "Time",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13521",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13694",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13867",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:13939",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:14011",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:14119",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:14292",
+          "name": "Essentional, UI",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 958.0
+        },
+        {
+          "id": "18035:14895",
+          "name": "Essentional, UI",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 958.0
+        },
+        {
+          "id": "18035:15511",
+          "name": "Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:15595",
+          "name": "Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:15667",
+          "name": "Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:15746",
+          "name": "Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:15830",
+          "name": "Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:15920",
+          "name": "Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:15980",
+          "name": "Medicine",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:16162",
+          "name": "Medicine",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:16344",
+          "name": "Medicine",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:16429",
+          "name": "Medicine",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:16524",
+          "name": "Medicine",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:16716",
+          "name": "Medicine",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:16882",
+          "name": "Home, Furniture",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:17101",
+          "name": "Home, Furniture",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:17323",
+          "name": "Home, Furniture",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:17544",
+          "name": "Home, Furniture",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:17630",
+          "name": "Home, Furniture",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:17730",
+          "name": "Home, Furniture",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:17887",
+          "name": "Network, Connection",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:18085",
+          "name": "Network, Connection",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:18283",
+          "name": "Network, Connection",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:18361",
+          "name": "Network, Connection",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:18555",
+          "name": "Network, Connection",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:18634",
+          "name": "Network, Connection",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:18773",
+          "name": "Settings, Fine Tuning",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:18878",
+          "name": "Settings, Fine Tuning",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:18935",
+          "name": "Settings, Fine Tuning",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:19005",
+          "name": "Settings, Fine Tuning",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:19104",
+          "name": "Settings, Fine Tuning",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:19210",
+          "name": "Settings, Fine Tuning",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:19256",
+          "name": "Text Formatting",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:19393",
+          "name": "Text Formatting",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:19529",
+          "name": "Text Formatting",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:19615",
+          "name": "Text Formatting",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:19735",
+          "name": "Text Formatting",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:19817",
+          "name": "Text Formatting",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:19957",
+          "name": "Business, Statistic",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20044",
+          "name": "Business, Statistic",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20131",
+          "name": "Business, Statistic",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20218",
+          "name": "Business, Statistic",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20278",
+          "name": "Business, Statistic",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20360",
+          "name": "Business, Statistic",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20414",
+          "name": "Shopping, Ecommerce",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20566",
+          "name": "Shopping, Ecommerce",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20644",
+          "name": "Shopping, Ecommerce",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20775",
+          "name": "Shopping, Ecommerce",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20845",
+          "name": "Shopping, Ecommerce",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:20994",
+          "name": "Shopping, Ecommerce",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:21141",
+          "name": "Nature, Travel",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:21191",
+          "name": "Nature, Travel",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:21241",
+          "name": "Nature, Travel",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:21276",
+          "name": "Nature, Travel",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:21326",
+          "name": "Nature, Travel",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:21360",
+          "name": "Nature, Travel",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:21411",
+          "name": "School",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:21570",
+          "name": "School",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:21730",
+          "name": "School",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:21804",
+          "name": "School",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:21883",
+          "name": "School",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22004",
+          "name": "School",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22162",
+          "name": "Design, Tools",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22309",
+          "name": "Design, Tools",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22452",
+          "name": "Design, Tools",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22533",
+          "name": "Design, Tools",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22655",
+          "name": "Design, Tools",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22729",
+          "name": "Design, Tools",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 503.0
+        },
+        {
+          "id": "18035:22880",
+          "name": "Food, Kitchen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:22979",
+          "name": "Food, Kitchen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23079",
+          "name": "Food, Kitchen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23134",
+          "name": "Food, Kitchen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23216",
+          "name": "Food, Kitchen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23268",
+          "name": "Food, Kitchen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23376",
+          "name": "Like",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23458",
+          "name": "Like",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23541",
+          "name": "Like",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23602",
+          "name": "Like",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23673",
+          "name": "Like",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23723",
+          "name": "Like",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:23811",
+          "name": "Arrows Action",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 633.0
+        },
+        {
+          "id": "18035:24020",
+          "name": "Arrows Action",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 633.0
+        },
+        {
+          "id": "18035:24225",
+          "name": "Arrows Action",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 633.0
+        },
+        {
+          "id": "18035:24363",
+          "name": "Arrows Action",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 633.0
+        },
+        {
+          "id": "18035:24495",
+          "name": "Arrows Action",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 633.0
+        },
+        {
+          "id": "18035:24712",
+          "name": "Arrows Action",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 633.0
+        },
+        {
+          "id": "18035:24909",
+          "name": "Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:25036",
+          "name": "Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:25166",
+          "name": "Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:25265",
+          "name": "Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:25339",
+          "name": "Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:25401",
+          "name": "Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:25531",
+          "name": "Notifications",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:25574",
+          "name": "Notifications",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:25617",
+          "name": "Notifications",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:25647",
+          "name": "Notifications",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:25677",
+          "name": "Notifications",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:25720",
+          "name": "Notifications",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:25763",
+          "name": "Security",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 568.0
+        },
+        {
+          "id": "18035:25985",
+          "name": "Security",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 568.0
+        },
+        {
+          "id": "18035:26097",
+          "name": "Security",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 568.0
+        },
+        {
+          "id": "18035:26281",
+          "name": "Security",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 568.0
+        },
+        {
+          "id": "18035:26503",
+          "name": "Security",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 568.0
+        },
+        {
+          "id": "18035:26733",
+          "name": "Security",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 568.0
+        },
+        {
+          "id": "18035:26841",
+          "name": "Users",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:26932",
+          "name": "Users",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:27035",
+          "name": "Video, Audio, Sound",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 828.0
+        },
+        {
+          "id": "18035:27534",
+          "name": "Essentional, UI",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 958.0
+        },
+        {
+          "id": "18035:27850",
+          "name": "Essentional, UI",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 958.0
+        },
+        {
+          "id": "18035:28154",
+          "name": "Essentional, UI",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 958.0
+        },
+        {
+          "id": "18035:28663",
+          "name": "Essentional, UI",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 958.0
+        },
+        {
+          "id": "18035:29263",
+          "name": "Info Banner",
+          "type": "FRAME",
+          "skip": false,
+          "width": 7118.0,
+          "height": 750.0
+        },
+        {
+          "id": "18035:29367",
+          "name": "Users",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:29478",
+          "name": "Users",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:29598",
+          "name": "Users",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:29658",
+          "name": "Users",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:29780",
+          "name": "Building, Infrastructure",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:29869",
+          "name": "Building, Infrastructure",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:29899",
+          "name": "Building, Infrastructure",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:29940",
+          "name": "Building, Infrastructure",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:29970",
+          "name": "Building, Infrastructure",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30059",
+          "name": "Building, Infrastructure",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30146",
+          "name": "Hands",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30190",
+          "name": "Hands",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30220",
+          "name": "Hands",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30251",
+          "name": "Hands",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30291",
+          "name": "Hands",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30317",
+          "name": "Hands",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 373.0
+        },
+        {
+          "id": "18035:30357",
+          "name": "Transport, Parts, Service",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:30521",
+          "name": "Transport, Parts, Service",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:30684",
+          "name": "Transport, Parts, Service",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:30738",
+          "name": "Transport, Parts, Service",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:30798",
+          "name": "Transport, Parts, Service",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        },
+        {
+          "id": "18035:30893",
+          "name": "Transport, Parts, Service",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1103.0,
+          "height": 438.0
+        }
+      ],
+      "components": [
+        {
+          "id": "18035:25718",
+          "name": "Bold Duotone / Notes / Notes",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 24.0,
+          "height": 24.0
+        },
+        {
+          "id": "18035:25719",
+          "name": "Bold Duotone / Notifications / Notification Unread Lines",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 24.0,
+          "height": 24.0
+        }
+      ],
+      "screen_count": 225,
+      "component_count": 2,
+      "light_desktop_screens": 225,
+      "light_desktop_components": 2
+    },
+    {
+      "page_id": "4184:20103",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "18006:55360",
+      "page_name": "\ud83c\udfa8  UI Preview Non Image",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "18472:96280",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:94720",
+          "name": "Settings -> Payment -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:94730",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:94789",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:95577",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:94866",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:93833",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:93491",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:93188",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:89244",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:89372",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:89557",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:89740",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:88962",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:88580",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:87057",
+          "name": "Quick Tour -> Step 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:87207",
+          "name": "Quick Tour -> Step 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:87366",
+          "name": "Quick Tour -> Step 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:87525",
+          "name": "Quick Tour -> Step 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:87660",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:84834",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:84948",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:85057",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:85137",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:85265",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:84503",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:84241",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:83905",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:83686",
+          "name": "Inbox -> Dropdown",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:83498",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:83265",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:82971",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:82410",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:81356",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73844",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73862",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73880",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73898",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73916",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:80963",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73951",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73969",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:73987",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:74005",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:78847",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:72577",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:72594",
+          "name": "Home -> First Landing -> Sidebar Closed",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:52960",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:52974",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:52988",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53002",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53027",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53052",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53066",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53080",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53129",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53204",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53279",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53327",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53376",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:53424",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:52042",
+          "name": "Sign Up -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:52091",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:47539",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18430:58948",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18442:4994",
+          "name": "Settings -> Payment -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18442:4552",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18430:59390",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18428:57429",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18420:57012",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18420:56674",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18420:55934",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18412:54975",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18411:54712",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:91332",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18411:3684",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:91378",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18405:4541",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:91423",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18403:3608",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18472:91468",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18370:5486",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18366:4943",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18354:3410",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18351:2374",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18345:2759",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18290:53934",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18343:5817",
+          "name": "Quick Tour -> Step 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18343:5449",
+          "name": "Quick Tour -> Step 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18343:5105",
+          "name": "Quick Tour -> Step 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18343:4813",
+          "name": "Quick Tour -> Step 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18290:54210",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18282:51432",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18269:43302",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18269:40122",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18269:41751",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18182:1510",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18397:35485",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18397:36042",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18397:8709",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18397:6155",
+          "name": "Inbox -> Dropdown",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18394:3843",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18394:3563",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18392:3304",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18389:2780",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18381:6654",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18379:6248",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18374:5820",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18112:5361",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18108:2174",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18108:1863",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18108:1592",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18108:1250",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18104:849",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18100:29201",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18092:28676",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18092:28405",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18085:655",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18059:1870",
+          "name": "Home -> First Landing -> Sidebar Closed",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18059:1825",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18059:1770",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18059:1720",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18059:1686",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18057:1642",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18057:1599",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18054:1427",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18054:1239",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18054:1104",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18043:716",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18043:647",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18043:586",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18017:60206",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18017:60011",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18017:59827",
+          "name": "Sign Up -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18017:59419",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18017:59413",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        }
+      ],
+      "components": [
+        {
+          "id": "18500:61121",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:61177",
+          "name": "Logout (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:60522",
+          "name": "Settings -> Subscription Plan -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:60532",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:60570",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:60608",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:60643",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:60687",
+          "name": "Settings (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:58241",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:58309",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:58398",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:58466",
+          "name": "Integrations (Contact)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:57698",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57769",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57837",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57905",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57951",
+          "name": "Contacts (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:57112",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57202",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57335",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57466",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57556",
+          "name": "Drawing a Signature (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:56854",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:56956",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:57034",
+          "name": "Document Editor (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:55801",
+          "name": "Quick Tour -> Step 5",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:55975",
+          "name": "Quick Tour -> Step 6",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:56152",
+          "name": "Quick Tour -> Step 7",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:56275",
+          "name": "Quick Tour -> Step 8",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:56392",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:56480",
+          "name": "Quick Tour (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:53614",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53690",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53943",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:54163",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:54285",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:54501",
+          "name": "Tamplate Gallery (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:53394",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53519",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53568",
+          "name": "Documents (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:52629",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:52767",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:52904",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53055",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53179",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:53214",
+          "name": "Inbox (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:50321",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50397",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50438",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50482",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50515",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50548",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50603",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:50634",
+          "name": "Build with AI (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3330.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:48557",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:48590",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:48623",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:48656",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:48711",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:48742",
+          "name": "Upload (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:47854",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47856",
+          "name": "Home -> First Landing -> Sidebar Closed 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47887",
+          "name": "Home -> First Landing -> Sidebar Closed 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47918",
+          "name": "First Landing (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:47597",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47608",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47619",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47630",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47652",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47674",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47685",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47696",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47724",
+          "name": "Forgot Password (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3820.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:47302",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47357",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47412",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47440",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47468",
+          "name": "Sign In (With 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:47181",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47209",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47237",
+          "name": "Sign In (Without 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1160.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:47044",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47073",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47102",
+          "name": "Sign Up (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:47030",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:47032",
+          "name": "Splash Screen (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 844.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:46910",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:46729",
+          "name": "Logout (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:46515",
+          "name": "Settings -> Subscription Plan -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:46075",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:45325",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:45104",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:44936",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:44252",
+          "name": "Settings (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:43755",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:43409",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:42682",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:41878",
+          "name": "Integrations (Contact)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:41489",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:41089",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:40789",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:40686",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:40145",
+          "name": "Contacts (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:39851",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:39627",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:39452",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:39328",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:38850",
+          "name": "Drawing a Signature (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:38072",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:37925",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:37696",
+          "name": "Document Editor (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18498:37072",
+          "name": "Quick Tour -> Step 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18497:46324",
+          "name": "Quick Tour -> Step 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18497:45954",
+          "name": "Quick Tour -> Step 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18497:45726",
+          "name": "Quick Tour -> Step 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18497:45581",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18497:44637",
+          "name": "Quick Tour (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18497:45368",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18496:43510",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18496:43263",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18496:42978",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18496:41804",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18494:40142",
+          "name": "Tamplate Gallery (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18494:39366",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18494:39184",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18494:38941",
+          "name": "Documents (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18494:38582",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18492:37957",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18492:37714",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18492:37549",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18492:37157",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18492:36613",
+          "name": "Inbox (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18489:76182",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:75810",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:75450",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:75078",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:74658",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:74260",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:73938",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:71269",
+          "name": "Build with AI (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3330.0,
+          "height": 148.0
+        },
+        {
+          "id": "18489:70680",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:70310",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:69890",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:68990",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:68668",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:66528",
+          "name": "Upload (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18489:66061",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:65730",
+          "name": "Home -> First Landing -> Sidebar Closed 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18489:62717",
+          "name": "Home -> First Landing -> Sidebar Closed 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61957",
+          "name": "First Landing (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18487:61875",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61723",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61579",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61534",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61483",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61423",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61334",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:61251",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:60165",
+          "name": "Forgot Password (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3820.0,
+          "height": 148.0
+        },
+        {
+          "id": "18487:59876",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:59784",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:59728",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:59672",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:58019",
+          "name": "Sign In (With 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18487:57697",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:57393",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18487:56578",
+          "name": "Sign In (Without 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1160.0,
+          "height": 148.0
+        },
+        {
+          "id": "18487:56379",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18484:56369",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18484:31582",
+          "name": "Sign Up (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:96501",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18472:96492",
+          "name": "Splash Screen (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 844.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:95878",
+          "name": "Logout",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:94893",
+          "name": "Settings",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:92356",
+          "name": "Integrations",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 4520.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:89868",
+          "name": "Drawing a Signature",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:88696",
+          "name": "Document Editor",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:87788",
+          "name": "Quick Tour",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:85313",
+          "name": "Tamplate Gallery",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:84260",
+          "name": "Documents",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:82427",
+          "name": "Inbox",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 9140.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:73950",
+          "name": "Build with AI",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 10680.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:74039",
+          "name": "Upload",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:72610",
+          "name": "First Landing",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:53128",
+          "name": "Forgot Password",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 12220.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:53375",
+          "name": "Sign In (With 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:53472",
+          "name": "Sign In (Without 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:51100",
+          "name": "Sign Up",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:47530",
+          "name": "Splash Screen",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:47502",
+          "name": "Dark Mode",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 12220.0,
+          "height": 148.0
+        },
+        {
+          "id": "18430:58939",
+          "name": "Logout",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18420:57003",
+          "name": "Settings",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18412:54966",
+          "name": "Integrations",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 4520.0,
+          "height": 148.0
+        },
+        {
+          "id": "18403:3599",
+          "name": "Contacts",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18472:91491",
+          "name": "Contacts",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18373:5811",
+          "name": "Drawing a Signature",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18345:2750",
+          "name": "Document Editor",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18290:53905",
+          "name": "Quick Tour",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18182:1501",
+          "name": "Tamplate Gallery",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18397:35476",
+          "name": "Documents",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18389:2771",
+          "name": "Inbox",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 9140.0,
+          "height": 148.0
+        },
+        {
+          "id": "18108:1583",
+          "name": "Build with AI",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 10680.0,
+          "height": 148.0
+        },
+        {
+          "id": "18092:28396",
+          "name": "Upload",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18006:59033",
+          "name": "First Landing",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18006:57719",
+          "name": "Forgot Password",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 12220.0,
+          "height": 148.0
+        },
+        {
+          "id": "18017:60830",
+          "name": "Sign In (With 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18006:56028",
+          "name": "Sign In (Without 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18006:55362",
+          "name": "Splash Screen",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18017:59474",
+          "name": "Sign Up",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18006:55361",
+          "name": "Light Mode",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 12220.0,
+          "height": 148.0
+        }
+      ],
+      "screen_count": 136,
+      "component_count": 210,
+      "light_desktop_screens": 136,
+      "light_desktop_components": 175
+    },
+    {
+      "page_id": "18500:69977",
+      "page_name": "\ud83c\udfa8  UI Preview Image",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "18500:79212",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79252",
+          "name": "Settings -> Payment -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79262",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79321",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79380",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79398",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79426",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79470",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79535",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79580",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79708",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:79893",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80076",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80205",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80345",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80462",
+          "name": "Quick Tour -> Step 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80612",
+          "name": "Quick Tour -> Step 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80771",
+          "name": "Quick Tour -> Step 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:80930",
+          "name": "Quick Tour -> Step 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81081",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81210",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81324",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81433",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81513",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81641",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81690",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81798",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81818",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:81939",
+          "name": "Inbox -> Dropdown",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82059",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82164",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82295",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82399",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82417",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82531",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82549",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82567",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82585",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82603",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82621",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82638",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82656",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82674",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82692",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82710",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82727",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82744",
+          "name": "Home -> First Landing -> Sidebar Closed",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82761",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82775",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82789",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82803",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82828",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82853",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82867",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82881",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:82930",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83005",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83080",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83128",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83177",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83225",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83274",
+          "name": "Sign Up -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83323",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83373",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83377",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83417",
+          "name": "Settings -> Payment -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83427",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83486",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83545",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83563",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83591",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83635",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83700",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83745",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83791",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83837",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83882",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83927",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:83972",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84017",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84040",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84065",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84193",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84378",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84561",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84690",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84830",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:84947",
+          "name": "Quick Tour -> Step 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85097",
+          "name": "Quick Tour -> Step 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85256",
+          "name": "Quick Tour -> Step 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85415",
+          "name": "Quick Tour -> Step 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85566",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85695",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85809",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85918",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:85998",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86126",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86175",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86283",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86303",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86424",
+          "name": "Inbox -> Dropdown",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86544",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86649",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86780",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86884",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:86902",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87016",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87034",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87052",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87070",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87088",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87106",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87123",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87141",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87159",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87177",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87195",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87212",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87229",
+          "name": "Home -> First Landing -> Sidebar Closed",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87246",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87260",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87274",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87288",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87313",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87338",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87352",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87366",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87415",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87490",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87565",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87613",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87662",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87710",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87759",
+          "name": "Sign Up -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87808",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        },
+        {
+          "id": "18500:87859",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1024.0
+        }
+      ],
+      "components": [
+        {
+          "id": "18500:69978",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70034",
+          "name": "Logout (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:70035",
+          "name": "Settings -> Subscription Plan -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70045",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70083",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70121",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70156",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70200",
+          "name": "Settings (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:70201",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70269",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70358",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70426",
+          "name": "Integrations (Contact)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:70427",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70498",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70566",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70634",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70680",
+          "name": "Contacts (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:70681",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70771",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:70904",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71035",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71125",
+          "name": "Drawing a Signature (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:71126",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71228",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71306",
+          "name": "Document Editor (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:71307",
+          "name": "Quick Tour -> Step 5",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71481",
+          "name": "Quick Tour -> Step 6",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71658",
+          "name": "Quick Tour -> Step 7",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71781",
+          "name": "Quick Tour -> Step 8",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71898",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:71986",
+          "name": "Quick Tour (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:71987",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:72063",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:72316",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:72536",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:72638",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:72854",
+          "name": "Tamplate Gallery (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:72855",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:72980",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73029",
+          "name": "Documents (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:73030",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73168",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73305",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73456",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73580",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73615",
+          "name": "Inbox (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:73616",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73692",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73733",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73777",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73810",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73843",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73898",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73929",
+          "name": "Build with AI (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3330.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:73930",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73963",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:73996",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74029",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74084",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74115",
+          "name": "Upload (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74116",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74118",
+          "name": "Home -> First Landing -> Sidebar Closed 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74149",
+          "name": "Home -> First Landing -> Sidebar Closed 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74180",
+          "name": "First Landing (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74181",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74192",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74203",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74214",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74236",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74258",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74269",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74280",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74308",
+          "name": "Forgot Password (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3820.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74309",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74364",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74419",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74447",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74475",
+          "name": "Sign In (With 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74476",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74504",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74532",
+          "name": "Sign In (Without 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1160.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74533",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74562",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74591",
+          "name": "Sign Up (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74592",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74594",
+          "name": "Splash Screen (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 844.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74595",
+          "name": "Logout",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74651",
+          "name": "Logout (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74652",
+          "name": "Settings -> Subscription Plan -> Payment Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74662",
+          "name": "Settings -> Payment -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74700",
+          "name": "Settings -> Payment -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74738",
+          "name": "Settings -> Subscription Plan",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74773",
+          "name": "Settings -> My Account",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74817",
+          "name": "Settings (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:74818",
+          "name": "Integrations -> Successfully Connected",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74886",
+          "name": "Integrations -> Connect",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:74975",
+          "name": "Integrations",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75043",
+          "name": "Integrations (Contact)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:75044",
+          "name": "Contacts -> Contact Added Successfully",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75115",
+          "name": "Contacts -> Adding Contacts -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75183",
+          "name": "Contacts -> Adding Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75251",
+          "name": "Contacts -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75297",
+          "name": "Contacts (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:75298",
+          "name": "Document Editor -> Placing a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75388",
+          "name": "Document Editor -> Drawing a Signature -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75521",
+          "name": "Document Editor -> Drawing a Signature -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75652",
+          "name": "Document Editor -> Adding a Signature",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75742",
+          "name": "Drawing a Signature (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:75743",
+          "name": "Document Editor -> Editing",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75845",
+          "name": "Document Editor -> Empty States",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:75923",
+          "name": "Document Editor (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:75924",
+          "name": "Quick Tour -> Step 4",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76098",
+          "name": "Quick Tour -> Step 3",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76275",
+          "name": "Quick Tour -> Step 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76398",
+          "name": "Quick Tour -> Step 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76515",
+          "name": "Quick Tour -> Welcome Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76603",
+          "name": "Quick Tour (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:76604",
+          "name": "Template Gallery -> Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76680",
+          "name": "Template Gallery -> Preview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:76933",
+          "name": "Template Gallery -> Hover",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77153",
+          "name": "Template Gallery -> Ghost State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77255",
+          "name": "Template Gallery",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77471",
+          "name": "Tamplate Gallery (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:77472",
+          "name": "Documents -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77597",
+          "name": "Documents -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77646",
+          "name": "Documents (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:77647",
+          "name": "Inbox -> Downloading File",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77785",
+          "name": "Inbox -> Item Checked",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:77922",
+          "name": "Inbox -> Filter",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78073",
+          "name": "Inbox -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78197",
+          "name": "Inbox -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78232",
+          "name": "Inbox (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:78233",
+          "name": "Workspace",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78309",
+          "name": "Home -> Build with AI -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78350",
+          "name": "Home -> Build with AI -> Creating",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78394",
+          "name": "Home -> Build with AI -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78427",
+          "name": "Home -> Build with AI -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78460",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78515",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78546",
+          "name": "Build with AI (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3330.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:78547",
+          "name": "Home -> Upload -> Success",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78580",
+          "name": "Home -> Upload -> Loading",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78613",
+          "name": "Home -> Upload -> Default",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78646",
+          "name": "Home -> Create New Document",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78701",
+          "name": "Home",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78732",
+          "name": "Upload (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 2350.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:78733",
+          "name": "Home -> First Landing -> Sidebar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78735",
+          "name": "Home -> First Landing -> Sidebar Closed 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78766",
+          "name": "Home -> First Landing -> Sidebar Closed 1",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78797",
+          "name": "First Landing (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1370.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:78798",
+          "name": "Forgot Password -> Success Confirmation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78809",
+          "name": "Forgot Password -> Create New Password  -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78820",
+          "name": "Forgot Password -> Create New Password  -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78831",
+          "name": "Forgot Password -> Email Confirmation -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78853",
+          "name": "Forgot Password -> Email Confirmation -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78875",
+          "name": "Forgot Password -> Enter Email -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78886",
+          "name": "Forgot Password -> Enter Email -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78897",
+          "name": "Forgot Password -> Error",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78925",
+          "name": "Forgot Password (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 3820.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:78926",
+          "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:78981",
+          "name": "Sign In (With 2FA) -> OTP Code -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79036",
+          "name": "Sign In (With 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79064",
+          "name": "Sign In (With 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79092",
+          "name": "Sign In (With 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1860.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:79093",
+          "name": "Sign In (Without 2FA) -> Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79121",
+          "name": "Sign In (Without 2FA) -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79149",
+          "name": "Sign In (Without 2FA) (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 1160.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:79150",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79179",
+          "name": "Sign Up -> Empty State",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79208",
+          "name": "Sign Up (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 880.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:79209",
+          "name": "Splash Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 390.0,
+          "height": 844.0
+        },
+        {
+          "id": "18500:79211",
+          "name": "Splash Screen (Mobile)",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 844.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:79251",
+          "name": "Logout",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:79425",
+          "name": "Settings",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:79579",
+          "name": "Integrations",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 4520.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:80204",
+          "name": "Drawing a Signature",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:80461",
+          "name": "Document Editor",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:81209",
+          "name": "Quick Tour",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:81689",
+          "name": "Tamplate Gallery",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:81817",
+          "name": "Documents",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:82416",
+          "name": "Inbox",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 9140.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:82637",
+          "name": "Build with AI",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 10680.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:82726",
+          "name": "Upload",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:82760",
+          "name": "First Landing",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:82929",
+          "name": "Forgot Password",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 12220.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83176",
+          "name": "Sign In (With 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83273",
+          "name": "Sign In (Without 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83372",
+          "name": "Sign Up",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83375",
+          "name": "Splash Screen",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83376",
+          "name": "Dark Mode",
+          "type": "INSTANCE",
+          "skip": true,
+          "width": 12220.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83416",
+          "name": "Logout",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83590",
+          "name": "Settings",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:83744",
+          "name": "Integrations",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 4520.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:84063",
+          "name": "Contacts",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:84064",
+          "name": "Contacts",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:84689",
+          "name": "Drawing a Signature",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:84946",
+          "name": "Document Editor",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:85694",
+          "name": "Quick Tour",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:86174",
+          "name": "Tamplate Gallery",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:86302",
+          "name": "Documents",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:86901",
+          "name": "Inbox",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 9140.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87122",
+          "name": "Build with AI",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 10680.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87211",
+          "name": "Upload",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 7600.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87245",
+          "name": "First Landing",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87414",
+          "name": "Forgot Password",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 12220.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87661",
+          "name": "Sign In (With 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 6060.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87758",
+          "name": "Sign In (Without 2FA)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87857",
+          "name": "Splash Screen",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87858",
+          "name": "Sign Up",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 2980.0,
+          "height": 148.0
+        },
+        {
+          "id": "18500:87861",
+          "name": "Light Mode",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 12220.0,
+          "height": 148.0
+        }
+      ],
+      "screen_count": 136,
+      "component_count": 210,
+      "light_desktop_screens": 136,
+      "light_desktop_components": 175
+    },
+    {
+      "page_id": "14015:27958",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "14015:27957",
+      "page_name": "\ud83d\udcdc  Doc + License",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "14015:27960",
+          "name": "Documentation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1059.0,
+          "height": 1169.0
+        },
+        {
+          "id": "14015:27977",
+          "name": "License",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1059.0,
+          "height": 1844.0
+        }
+      ],
+      "components": [],
+      "screen_count": 2,
+      "component_count": 0,
+      "light_desktop_screens": 2,
+      "light_desktop_components": 0
+    }
+  ],
+  "totals": {
+    "pages": 10,
+    "all_screens": 508,
+    "all_components": 425,
+    "light_desktop_screens": 508,
+    "light_desktop_components": 355,
+    "skipped_screens": 0,
+    "skipped_components": 70
+  }
+}

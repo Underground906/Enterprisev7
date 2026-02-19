@@ -1,0 +1,871 @@
+{
+  "kit_name": "Briefberry",
+  "file_key": "NPFFSPpbO27fWSX0cUaFJO",
+  "figma_name": "Briefberry Full",
+  "last_modified": "2025-08-18T18:55:44Z",
+  "fetched_at": "2026-02-18T14:00:09.194165",
+  "pages": [
+    {
+      "page_id": "0:1",
+      "page_name": "Page 1",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "1:3773",
+          "name": "Sign in",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3791",
+          "name": "Upgrade to Premium",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3838",
+          "name": "Upgrade to Premium",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3885",
+          "name": "Sign in",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3921",
+          "name": "Sign up",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4975",
+          "name": "Edit form",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5126",
+          "name": "Brief (premium) - hover on section",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5130",
+          "name": "Brief (premium) - click on text box to edit",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5162",
+          "name": "Brief (premium) - edit references",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5221",
+          "name": "Brief (premium) - upload more images",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5252",
+          "name": "Brief (premium) - AI typing...",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5256",
+          "name": "Brief (premium) - AI typing...",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5260",
+          "name": "Brief (premium) - click on regenerate",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5348",
+          "name": "Create link (click on)",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5414",
+          "name": "Brief (premium) (scrolling)",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5471",
+          "name": "Brief (premium) (action state - hover)",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5529",
+          "name": "Brief (premium) (action state - hover)",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        }
+      ],
+      "components": [
+        {
+          "id": "1:3601",
+          "name": "landing page (gradient added)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 4320.0
+        },
+        {
+          "id": "1:3772",
+          "name": "landing page (gradient added)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 4320.0
+        },
+        {
+          "id": "1:3903",
+          "name": "Sign up",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3939",
+          "name": "Form - type of project (hover - select)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3942",
+          "name": "Form - type of project (hover - select)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3943",
+          "name": "Form - project name (typing)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3981",
+          "name": "Form - project name (typing)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:3982",
+          "name": "Form - main goals (typing)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4019",
+          "name": "Form - main goals (typing)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4020",
+          "name": "Form - project budget",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4059",
+          "name": "Form - project budget",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4060",
+          "name": "budget breakdown",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4144",
+          "name": "budget breakdown",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4145",
+          "name": "Form - type of project",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4186",
+          "name": "Form - type of project",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4187",
+          "name": "Form - project name",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4227",
+          "name": "Form - project name",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4228",
+          "name": "Form - main goals",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4268",
+          "name": "Form - main goals",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4269",
+          "name": "Form - select date",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4309",
+          "name": "Form - select date",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4310",
+          "name": "Form - project budget",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4352",
+          "name": "Form - project budget",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4353",
+          "name": "Form - budget breakdown",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4402",
+          "name": "Form - budget breakdown",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4403",
+          "name": "Form - references",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4449",
+          "name": "Form - references",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4450",
+          "name": "Form - Brief is generating",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4558",
+          "name": "Form - Brief is generating",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4559",
+          "name": "references (drag images)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4611",
+          "name": "references (drag images)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4612",
+          "name": "references (uploaded - uploading - link added)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4662",
+          "name": "references (uploaded - uploading - link added)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4663",
+          "name": "select date (calendar)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4809",
+          "name": "select date (calendar)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4810",
+          "name": "Typing or select the day",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4954",
+          "name": "Typing or select the day",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4955",
+          "name": "icon button --> Edit form",
+          "type": "VECTOR",
+          "skip": false,
+          "width": 2736.5,
+          "height": 178.5
+        },
+        {
+          "id": "1:4956",
+          "name": "Edit form",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:4994",
+          "name": "Brief - linked page (v1)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1807.0
+        },
+        {
+          "id": "1:5059",
+          "name": "Brief - linked page (premium)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1771.0
+        },
+        {
+          "id": "1:5123",
+          "name": "Brief (premium)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 2017.0
+        },
+        {
+          "id": "1:5124",
+          "name": "Brief (premium) - hover on section",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5128",
+          "name": "Brief (premium) - click on text box to edit",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5132",
+          "name": "Brief (premium) - edit references",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5192",
+          "name": "Brief (premium) - upload more images",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5250",
+          "name": "Brief (premium) - AI typing...",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5254",
+          "name": "Brief (premium) - AI typing...",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5258",
+          "name": "Brief (premium) - click on regenerate",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "1:5262",
+          "name": "Brief (free)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 2017.0
+        },
+        {
+          "id": "1:5290",
+          "name": "hover on regenerate button",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5293",
+          "name": "hover on lock icon",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5303",
+          "name": "Brief - linked page (v1)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1807.0
+        },
+        {
+          "id": "1:5304",
+          "name": "Brief - linked page (premium)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1771.0
+        },
+        {
+          "id": "1:5305",
+          "name": "Brief (free)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 2017.0
+        },
+        {
+          "id": "1:5306",
+          "name": "hover on regenerate button",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5307",
+          "name": "hover on lock icon",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5308",
+          "name": "Brief (premium) (fixed bottom actions)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5309",
+          "name": "Brief (premium) (fixed bottom actions)",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5310",
+          "name": "Create link (click on)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5386",
+          "name": "Brief (premium) (scrolling)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5442",
+          "name": "Brief (premium) (action state - hover)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5500",
+          "name": "Brief (premium) (action state - hover)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5558",
+          "name": "upload image state",
+          "type": "FRAME",
+          "skip": false,
+          "width": 864.0,
+          "height": 224.0
+        },
+        {
+          "id": "1:5564",
+          "name": "icon button --> Edit form",
+          "type": "VECTOR",
+          "skip": false,
+          "width": 2736.5,
+          "height": 178.5
+        },
+        {
+          "id": "1:5565",
+          "name": "Brief (premium)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 2017.0
+        },
+        {
+          "id": "1:5593",
+          "name": "User menu",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5594",
+          "name": "Briefs",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1268.0
+        },
+        {
+          "id": "1:5595",
+          "name": "Briefs/Empty state",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5596",
+          "name": "Manage plan",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5597",
+          "name": "Account settings",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1210.0
+        },
+        {
+          "id": "1:5598",
+          "name": "Account settings/Hover on avatar to upload",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1210.0
+        },
+        {
+          "id": "1:5599",
+          "name": "Manage plan",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5600",
+          "name": "Upgrade to Premium",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5601",
+          "name": "Downgrade to Free",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5602",
+          "name": "User menu",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5603",
+          "name": "Briefs",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1268.0
+        },
+        {
+          "id": "1:5604",
+          "name": "Briefs/Empty state",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5605",
+          "name": "Manage plan",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5606",
+          "name": "Account settings",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1210.0
+        },
+        {
+          "id": "1:5607",
+          "name": "Account settings/Hover on avatar to upload",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1210.0
+        },
+        {
+          "id": "1:5608",
+          "name": "Manage plan",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5609",
+          "name": "Upgrade to Premium",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5610",
+          "name": "Downgrade to Free",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5611",
+          "name": "User menu",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 375.0,
+          "height": 812.0
+        },
+        {
+          "id": "1:5612",
+          "name": "User menu",
+          "type": "INSTANCE",
+          "skip": false,
+          "width": 375.0,
+          "height": 812.0
+        },
+        {
+          "id": "1:5613",
+          "name": "Reset password",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        },
+        {
+          "id": "1:5628",
+          "name": "Reset password (check your inbox)",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1440.0,
+          "height": 900.0
+        }
+      ],
+      "screen_count": 17,
+      "component_count": 88,
+      "light_desktop_screens": 17,
+      "light_desktop_components": 88
+    }
+  ],
+  "totals": {
+    "pages": 1,
+    "all_screens": 17,
+    "all_components": 88,
+    "light_desktop_screens": 17,
+    "light_desktop_components": 88,
+    "skipped_screens": 0,
+    "skipped_components": 0
+  }
+}

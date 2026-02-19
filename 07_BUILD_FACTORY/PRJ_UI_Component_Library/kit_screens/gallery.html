@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>UI Kit Gallery — Screen Selector</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0a0a;--bg2:#111;--bg3:#1a1a1a;--bg4:#222;--border:#2a2a2a;--text:#fff;--text2:#aaa;--text3:#555;--green:#0B8C00;--green2:#49ba61;--red:#ef4444;--blue:#3b82f6}
+body{font-family:Inter,-apple-system,sans-serif;background:var(--bg);color:var(--text);overflow:hidden;height:100vh}
+
+.top{position:sticky;top:0;z-index:100;background:var(--bg2);border-bottom:1px solid var(--border);padding:6px 12px;display:flex;align-items:center;gap:10px;height:42px}
+.top h1{font-size:13px;font-weight:700;white-space:nowrap}
+.tabs{display:flex;gap:2px}
+.tab{padding:5px 12px;font-size:11px;font-weight:600;background:0;border:1px solid var(--border);border-radius:4px;color:var(--text2);cursor:pointer}
+.tab.on{background:var(--green);color:#fff;border-color:var(--green)}
+.tab:hover:not(.on){background:var(--bg3)}
+.top .stats{margin-left:auto;font-size:11px;color:var(--text2);display:flex;gap:14px}
+.top .stats b{color:var(--green2)}
+.search-box{padding:4px 10px;background:var(--bg);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;width:200px;outline:0}
+.search-box:focus{border-color:var(--green)}
+.filter-toggle{padding:4px 10px;font-size:11px;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--text2);cursor:pointer}
+.filter-toggle.on{background:var(--green);color:#fff;border-color:var(--green)}
+
+.wrap{display:flex;height:calc(100vh - 42px - 40px)}
+
+.side{width:240px;min-width:240px;background:var(--bg2);border-right:1px solid var(--border);overflow-y:auto;padding:4px 0}
+.side-item{padding:6px 10px;cursor:pointer;font-size:12px;display:flex;justify-content:space-between;align-items:center;border-left:3px solid transparent}
+.side-item:hover{background:var(--bg3)}
+.side-item.on{background:var(--bg3);border-left-color:var(--green)}
+.side-item .cnt{font-size:10px;background:var(--bg4);padding:1px 5px;border-radius:3px;color:var(--text2)}
+.side-hdr{padding:6px 10px 3px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--text3)}
+
+.main{flex:1;overflow-y:auto;padding:10px}
+.grid{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+
+.card{background:var(--bg2);border:2px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;position:relative;transition:border-color .1s}
+.card:hover{border-color:var(--green)}
+.card.sel{border-color:var(--green2);box-shadow:0 0 0 2px rgba(73,186,97,.3)}
+.card .img-wrap{width:100%;height:150px;background:var(--bg3);overflow:hidden}
+.card .img-wrap img{width:100%;height:100%;object-fit:cover;object-position:top}
+.card .info{padding:6px 8px}
+.card .nm{font-size:11px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .kit{font-size:10px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .cat{font-size:9px;color:var(--text3);margin-top:2px}
+.card .badge{position:absolute;top:4px;right:4px;width:20px;height:20px;border-radius:50%;background:var(--bg4);border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700}
+.card.sel .badge{background:var(--green);border-color:var(--green2);color:#fff}
+
+.bot{position:fixed;bottom:0;left:0;right:0;z-index:100;background:var(--bg2);border-top:1px solid var(--border);padding:8px 12px;display:flex;align-items:center;gap:10px;height:40px}
+.bot .sel-count{font-size:12px;font-weight:600}
+.bot .sel-count b{color:var(--green2)}
+.spacer{flex:1}
+.btn{padding:6px 14px;font-size:11px;font-weight:600;border:none;border-radius:4px;cursor:pointer}
+.btn-g{background:var(--green);color:#fff}
+.btn-g:hover{background:var(--green2)}
+.btn-s{background:var(--bg3);color:var(--text);border:1px solid var(--border)}
+.btn-s:hover{background:var(--bg4)}
+
+/* LIGHTBOX */
+.lightbox{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.9);align-items:center;justify-content:center;flex-direction:column}
+.lightbox.show{display:flex}
+.lightbox img{max-width:92vw;max-height:80vh;border-radius:8px;box-shadow:0 4px 40px rgba(0,0,0,.5)}
+.lightbox .lb-info{margin-top:12px;text-align:center;color:var(--text2);font-size:13px}
+.lightbox .lb-info b{color:var(--text);font-size:15px}
+.lightbox .lb-close{position:absolute;top:16px;right:20px;font-size:28px;color:var(--text2);cursor:pointer;background:0;border:0}
+.lightbox .lb-close:hover{color:#fff}
+.lightbox .lb-nav{position:absolute;top:50%;transform:translateY(-50%);font-size:36px;color:var(--text2);cursor:pointer;background:rgba(0,0,0,.5);border:0;padding:8px 14px;border-radius:6px}
+.lightbox .lb-nav:hover{color:#fff;background:rgba(0,0,0,.8)}
+.lightbox .lb-prev{left:16px}
+.lightbox .lb-next{right:16px}
+.lightbox .lb-select{margin-top:10px}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <h1>UI Kit Gallery</h1>
+  <div class="tabs">
+    <button class="tab on" onclick="setMode('kit')">By Kit</button>
+    <button class="tab" onclick="setMode('sel')">Selected</button>
+  </div>
+  <div class="tabs" style="margin-left:4px">
+    <button class="tab on" id="catAll" onclick="setCatFilter('')">All</button>
+    <button class="tab" id="catScreens" onclick="setCatFilter('screens')">Screens</button>
+    <button class="tab" id="catComps" onclick="setCatFilter('components')">Components</button>
+  </div>
+  <input class="search-box" id="search" placeholder="Search screens..." oninput="doSearch()">
+  <button class="filter-toggle on" id="lightBtn" onclick="toggleLight()">Light Only</button>
+  <div class="stats">
+    <span>Showing: <b id="showCount">0</b></span>
+    <span>Selected: <b id="selCount">0</b></span>
+    <span>Target: <b>~200</b></span>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="side" id="sidebar"></div>
+  <div class="main" id="main"><div class="grid" id="grid"></div></div>
+</div>
+
+<div class="bot">
+  <div class="sel-count">Selected: <b id="selCount2">0</b> / ~200</div>
+  <div class="spacer"></div>
+  <button class="btn btn-s" onclick="clearSel()">Clear All</button>
+  <button class="btn btn-s" onclick="exportSel()">Export JSON</button>
+  <button class="btn btn-g" onclick="saveSel()">Save Selection</button>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" onclick="closeLB()">&times;</button>
+  <button class="lb-nav lb-prev" onclick="navLB(-1)">&lsaquo;</button>
+  <button class="lb-nav lb-next" onclick="navLB(1)">&rsaquo;</button>
+  <img id="lbImg" src="">
+  <div class="lb-info"><b id="lbName"></b><br><span id="lbKit"></span> &middot; <span id="lbCat"></span></div>
+  <button class="btn btn-g lb-select" id="lbSelBtn" onclick="toggleFromLB()">Select</button>
+</div>
+
+<script>
+let mode = 'kit';
+let summary = {kits:[]};
+let currentPngs = [];
+let currentItem = null; // sidebar selection
+let lightOnly = true;
+let catFilter = ''; // '' = all, 'screens', 'components'
+let selected = JSON.parse(localStorage.getItem('gallery_sel') || '{}');
+let lbIdx = -1;
+
+async function init() {
+  const res = await fetch('/api/summary');
+  summary = await res.json();
+  renderSidebar();
+  if (summary.kits.length > 0) {
+    loadItem(summary.kits[0].name);
+  }
+  updateCounts();
+}
+
+function setMode(m) {
+  mode = m;
+  document.querySelectorAll('.tabs')[0].querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('on', ['kit','sel'][i]===m));
+  if (m === 'sel') {
+    renderSelected();
+  } else {
+    renderSidebar();
+    if (summary.kits.length > 0) loadItem(summary.kits[0].name);
+  }
+}
+
+function setCatFilter(c) {
+  catFilter = c;
+  document.getElementById('catAll').classList.toggle('on', c === '');
+  document.getElementById('catScreens').classList.toggle('on', c === 'screens');
+  document.getElementById('catComps').classList.toggle('on', c === 'components');
+  renderSidebar();
+  if (currentItem) loadItem(currentItem);
+}
+
+function renderSidebar() {
+  const sb = document.getElementById('sidebar');
+  const items = summary.kits;
+  const q = document.getElementById('search').value.toLowerCase();
+  let html = '<div class="side-hdr">Kits</div>';
+  items.filter(i => !q || i.name.toLowerCase().includes(q)).forEach(item => {
+    let cnt;
+    if (catFilter === 'screens') cnt = item.screens || 0;
+    else if (catFilter === 'components') cnt = item.components || 0;
+    else cnt = lightOnly ? item.light : item.total;
+    const on = currentItem === item.name ? 'on' : '';
+    const src = item.source === 'exported' ? '' : ' <span style="color:var(--text3);font-size:9px">(old)</span>';
+    html += `<div class="side-item ${on}" onclick="loadItem('${item.name.replace(/'/g,"\\'")}')">`
+      + `<span>${item.name}${src}</span><span class="cnt">${cnt}</span></div>`;
+  });
+  sb.innerHTML = html;
+}
+
+async function loadItem(name) {
+  currentItem = name;
+  renderSidebar();
+  let url = `/api/kit?name=${encodeURIComponent(name)}&light=${lightOnly?1:0}`;
+  if (catFilter) url += `&cat=${catFilter}`;
+  const res = await fetch(url);
+  currentPngs = await res.json();
+  renderGrid();
+}
+
+function renderGrid() {
+  const grid = document.getElementById('grid');
+  const q = document.getElementById('search').value.toLowerCase();
+  let pngs = currentPngs;
+  if (q && mode !== 'sel') {
+    pngs = pngs.filter(p => p.name.toLowerCase().includes(q) || p.kit.toLowerCase().includes(q));
+  }
+  document.getElementById('showCount').textContent = pngs.length;
+
+  if (pngs.length === 0) {
+    grid.innerHTML = '<p style="color:var(--text3);padding:40px;grid-column:1/-1;text-align:center">No screens to show</p>';
+    return;
+  }
+
+  let html = '';
+  pngs.forEach((p, i) => {
+    const key = p.path;
+    const isSel = !!selected[key];
+    html += `<div class="card ${isSel?'sel':''}" data-i="${i}" onclick="toggleCard(${i})" ondblclick="openLB(${i})">
+      <div class="badge">${isSel?'✓':''}</div>
+      <div class="img-wrap"><img src="/img/${encodeURI(p.path)}" loading="lazy"></div>
+      <div class="info">
+        <div class="nm" title="${p.name}">${p.name}</div>
+        <div class="kit">${p.kit}</div>
+        <div class="cat">${p.cat}</div>
+      </div>
+    </div>`;
+  });
+  grid.innerHTML = html;
+}
+
+function toggleCard(i) {
+  const p = currentPngs[i];
+  const key = p.path;
+  if (selected[key]) {
+    delete selected[key];
+  } else {
+    selected[key] = {path:p.path, name:p.name, kit:p.kit, cat:p.cat, fk:p.fk, at:new Date().toISOString()};
+  }
+  saveSt();
+  // Update just this card
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(c => {
+    const ci = parseInt(c.dataset.i);
+    if (ci === i) {
+      c.classList.toggle('sel');
+      c.querySelector('.badge').textContent = c.classList.contains('sel') ? '✓' : '';
+    }
+  });
+  updateCounts();
+}
+
+// === LIGHTBOX ===
+function openLB(i) {
+  lbIdx = i;
+  showLB();
+}
+function showLB() {
+  const p = currentPngs[lbIdx];
+  if (!p) return;
+  document.getElementById('lbImg').src = `/img/${encodeURI(p.path)}`;
+  document.getElementById('lbName').textContent = p.name;
+  document.getElementById('lbKit').textContent = p.kit;
+  document.getElementById('lbCat').textContent = p.cat;
+  const isSel = !!selected[p.path];
+  document.getElementById('lbSelBtn').textContent = isSel ? '✓ Selected' : 'Select';
+  document.getElementById('lbSelBtn').className = isSel ? 'btn btn-s lb-select' : 'btn btn-g lb-select';
+  document.getElementById('lightbox').classList.add('show');
+}
+function closeLB() { document.getElementById('lightbox').classList.remove('show'); }
+function navLB(dir) {
+  lbIdx = Math.max(0, Math.min(currentPngs.length - 1, lbIdx + dir));
+  showLB();
+}
+function toggleFromLB() {
+  toggleCard(lbIdx);
+  const p = currentPngs[lbIdx];
+  const isSel = !!selected[p.path];
+  document.getElementById('lbSelBtn').textContent = isSel ? '✓ Selected' : 'Select';
+  document.getElementById('lbSelBtn').className = isSel ? 'btn btn-s lb-select' : 'btn btn-g lb-select';
+}
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('lightbox').classList.contains('show')) return;
+  if (e.key === 'Escape') closeLB();
+  if (e.key === 'ArrowLeft') navLB(-1);
+  if (e.key === 'ArrowRight') navLB(1);
+  if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggleFromLB(); }
+});
+
+// === SELECTED VIEW ===
+function renderSelected() {
+  document.getElementById('sidebar').innerHTML = '<div class="side-hdr">Selected by Kit</div>' +
+    Object.entries(groupByKit()).map(([kit, items]) =>
+      `<div class="side-item" onclick="filterSelKit('${kit.replace(/'/g,"\\'")}')"><span>${kit}</span><span class="cnt">${items.length}</span></div>`
+    ).join('');
+  currentPngs = Object.values(selected);
+  renderGrid();
+}
+function groupByKit() {
+  const g = {};
+  Object.values(selected).forEach(s => {
+    if (!g[s.kit]) g[s.kit] = [];
+    g[s.kit].push(s);
+  });
+  return g;
+}
+function filterSelKit(kit) {
+  currentPngs = Object.values(selected).filter(s => s.kit === kit);
+  renderGrid();
+}
+
+function toggleLight() {
+  lightOnly = !lightOnly;
+  document.getElementById('lightBtn').classList.toggle('on', lightOnly);
+  if (currentItem) loadItem(currentItem);
+}
+
+function doSearch() {
+  if (mode === 'sel') { renderSelected(); return; }
+  renderSidebar();
+  renderGrid();
+}
+
+function saveSt() { localStorage.setItem('gallery_sel', JSON.stringify(selected)); }
+function updateCounts() {
+  const c = Object.keys(selected).length;
+  document.getElementById('selCount').textContent = c;
+  document.getElementById('selCount2').textContent = c;
+}
+
+function clearSel() {
+  if (!confirm('Clear all selections?')) return;
+  selected = {};
+  saveSt();
+  updateCounts();
+  if (mode === 'sel') renderSelected();
+  else renderGrid();
+}
+
+function exportSel() {
+  const data = {exported: new Date().toISOString(), total: Object.keys(selected).length, by_kit: groupByKit(), screens: selected};
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `selected_screens_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+}
+
+async function saveSel() {
+  const data = {saved: new Date().toISOString(), total: Object.keys(selected).length, screens: selected};
+  const res = await fetch('/api/save', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data,null,2)});
+  const r = await res.json();
+  alert('Saved ' + Object.keys(selected).length + ' selections to:\n' + r.path);
+}
+
+init();
+</script>
+</body>
+</html>

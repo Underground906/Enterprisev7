@@ -1,0 +1,770 @@
+{
+  "kit_name": "Strivo",
+  "file_key": "gX3vYcBHFTbMdSkgJOcTaV",
+  "figma_name": "Strivo - Task Management Web UI Kit",
+  "last_modified": "2026-02-10T00:31:37Z",
+  "fetched_at": "2026-02-18T14:02:53.656125",
+  "pages": [
+    {
+      "page_id": "1461:2819",
+      "page_name": "Thumbnail",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "11039:67124",
+          "name": "Strivo Thumbnail",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "2744:18072",
+      "page_name": "------",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "2329:147362",
+      "page_name": "Foundation",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "11028:43192",
+          "name": "Primitive Colors",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1856.0,
+          "height": 4872.0
+        },
+        {
+          "id": "11028:43623",
+          "name": "Semantic Colors",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1160.0,
+          "height": 2524.0
+        },
+        {
+          "id": "11028:45871",
+          "name": "Typography",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1600.0,
+          "height": 5576.0
+        },
+        {
+          "id": "11028:46444",
+          "name": "Grids",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1520.0,
+          "height": 2616.0
+        },
+        {
+          "id": "11028:46875",
+          "name": "Elevation",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1472.0,
+          "height": 1408.0
+        },
+        {
+          "id": "11028:46971",
+          "name": "Corner Radius",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1232.0,
+          "height": 720.0
+        }
+      ],
+      "components": [],
+      "screen_count": 6,
+      "component_count": 0,
+      "light_desktop_screens": 6,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "1863:25548",
+      "page_name": "Logo",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "7205:20815",
+          "name": "Logo",
+          "type": "SECTION",
+          "skip": false,
+          "width": 972.0,
+          "height": 619.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 1,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "1461:2818",
+      "page_name": "Icons",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "875:26409",
+          "name": "Icons",
+          "type": "SECTION",
+          "skip": false,
+          "width": 6928.0,
+          "height": 23416.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 1,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "2570:33458",
+      "page_name": "Assets",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "11034:96724",
+          "name": "Brand Icon",
+          "type": "SECTION",
+          "skip": false,
+          "width": 728.0,
+          "height": 1253.0
+        },
+        {
+          "id": "11034:96812",
+          "name": "Cursor",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 640.0
+        },
+        {
+          "id": "11034:96863",
+          "name": "Country Flags",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 1672.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 3,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 3
+    },
+    {
+      "page_id": "2754:89552",
+      "page_name": "----",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "1464:13499",
+      "page_name": "Core Components",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "11034:99231",
+          "name": "Avatar",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1304.0,
+          "height": 1384.0
+        },
+        {
+          "id": "11034:99441",
+          "name": "Badge",
+          "type": "SECTION",
+          "skip": false,
+          "width": 880.0,
+          "height": 600.0
+        },
+        {
+          "id": "11034:99495",
+          "name": "Button",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1676.0,
+          "height": 3220.0
+        },
+        {
+          "id": "11034:100047",
+          "name": "Checkbox",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 1025.0
+        },
+        {
+          "id": "11034:100417",
+          "name": "Date Picker",
+          "type": "SECTION",
+          "skip": false,
+          "width": 828.0,
+          "height": 1612.0
+        },
+        {
+          "id": "11034:100479",
+          "name": "Divider",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 751.0
+        },
+        {
+          "id": "11034:100591",
+          "name": "Dropdown",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1739.0,
+          "height": 6361.0
+        },
+        {
+          "id": "11034:100593",
+          "name": "Menu Item",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1159.0,
+          "height": 809.0
+        },
+        {
+          "id": "11034:100595",
+          "name": "Menu",
+          "type": "SECTION",
+          "skip": false,
+          "width": 2064.0,
+          "height": 845.0
+        },
+        {
+          "id": "11034:100731",
+          "name": "Text Input",
+          "type": "SECTION",
+          "skip": false,
+          "width": 2352.0,
+          "height": 1612.0
+        },
+        {
+          "id": "11034:100733",
+          "name": "Tag Input",
+          "type": "SECTION",
+          "skip": false,
+          "width": 2696.0,
+          "height": 1693.0
+        },
+        {
+          "id": "11034:100735",
+          "name": "Text Area",
+          "type": "SECTION",
+          "skip": false,
+          "width": 2224.0,
+          "height": 524.0
+        },
+        {
+          "id": "11034:100737",
+          "name": "Code Input",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 521.0
+        },
+        {
+          "id": "11034:100924",
+          "name": "Pagination",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1312.0,
+          "height": 576.0
+        },
+        {
+          "id": "11034:100947",
+          "name": "Progress Bar",
+          "type": "SECTION",
+          "skip": false,
+          "width": 600.0,
+          "height": 1772.0
+        },
+        {
+          "id": "11034:100949",
+          "name": "Stepped Progress Bar",
+          "type": "SECTION",
+          "skip": false,
+          "width": 880.0,
+          "height": 649.0
+        },
+        {
+          "id": "11034:101007",
+          "name": "Radio",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 887.0
+        },
+        {
+          "id": "11034:101038",
+          "name": "Search Bar",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1720.0,
+          "height": 546.0
+        },
+        {
+          "id": "11034:101069",
+          "name": "Segmented Buttons",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1016.0,
+          "height": 1817.0
+        },
+        {
+          "id": "11034:101114",
+          "name": "Container Tabs",
+          "type": "SECTION",
+          "skip": false,
+          "width": 976.0,
+          "height": 2035.0
+        },
+        {
+          "id": "11034:101116",
+          "name": "Bar Tabs",
+          "type": "SECTION",
+          "skip": false,
+          "width": 976.0,
+          "height": 1113.0
+        },
+        {
+          "id": "11034:101175",
+          "name": "Tag",
+          "type": "SECTION",
+          "skip": false,
+          "width": 869.0,
+          "height": 995.0
+        },
+        {
+          "id": "11034:101177",
+          "name": "Status Tag",
+          "type": "SECTION",
+          "skip": false,
+          "width": 630.0,
+          "height": 608.0
+        },
+        {
+          "id": "11034:101239",
+          "name": "Toggle",
+          "type": "SECTION",
+          "skip": false,
+          "width": 600.0,
+          "height": 710.0
+        },
+        {
+          "id": "11034:101273",
+          "name": "Tooltip",
+          "type": "SECTION",
+          "skip": false,
+          "width": 2248.0,
+          "height": 483.0
+        },
+        {
+          "id": "11036:16145",
+          "name": "Mini Bar Chart",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 872.0
+        },
+        {
+          "id": "11036:16147",
+          "name": "Chart Legend",
+          "type": "SECTION",
+          "skip": false,
+          "width": 689.0,
+          "height": 468.0
+        },
+        {
+          "id": "11036:16149",
+          "name": "Bar Chart",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1224.0,
+          "height": 3917.0
+        },
+        {
+          "id": "11036:16151",
+          "name": "Mini Line Chart",
+          "type": "SECTION",
+          "skip": false,
+          "width": 944.0,
+          "height": 728.0
+        },
+        {
+          "id": "11036:16153",
+          "name": "Semi Donut Chart",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1376.0,
+          "height": 1597.0
+        },
+        {
+          "id": "11036:22408",
+          "name": "Reactions",
+          "type": "SECTION",
+          "skip": false,
+          "width": 593.0,
+          "height": 844.0
+        },
+        {
+          "id": "11036:22410",
+          "name": "Chat Message",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1180.0,
+          "height": 3438.0
+        },
+        {
+          "id": "11036:22412",
+          "name": "Chat Input",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1841.0,
+          "height": 2287.0
+        },
+        {
+          "id": "11036:22414",
+          "name": "Chat Profile",
+          "type": "SECTION",
+          "skip": false,
+          "width": 560.0,
+          "height": 656.0
+        },
+        {
+          "id": "11036:24318",
+          "name": "File Preview",
+          "type": "SECTION",
+          "skip": false,
+          "width": 608.0,
+          "height": 1870.0
+        },
+        {
+          "id": "11036:24457",
+          "name": "File Upload",
+          "type": "SECTION",
+          "skip": false,
+          "width": 664.0,
+          "height": 1045.0
+        },
+        {
+          "id": "11036:24947",
+          "name": "Notification",
+          "type": "SECTION",
+          "skip": false,
+          "width": 800.0,
+          "height": 1695.0
+        },
+        {
+          "id": "11036:26109",
+          "name": "Overview Card",
+          "type": "SECTION",
+          "skip": false,
+          "width": 840.0,
+          "height": 1676.0
+        },
+        {
+          "id": "11036:27170",
+          "name": "Table",
+          "type": "SECTION",
+          "skip": false,
+          "width": 2392.0,
+          "height": 2939.0
+        },
+        {
+          "id": "11036:28789",
+          "name": "Topbar Navigation",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1088.0,
+          "height": 808.0
+        },
+        {
+          "id": "11036:28791",
+          "name": "Side Navigation",
+          "type": "SECTION",
+          "skip": false,
+          "width": 712.0,
+          "height": 1879.0
+        },
+        {
+          "id": "11036:28793",
+          "name": "Profile Menu",
+          "type": "SECTION",
+          "skip": false,
+          "width": 600.0,
+          "height": 945.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 42,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 42
+    },
+    {
+      "page_id": "1209:31997",
+      "page_name": "Task Management Components",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "7206:40806",
+          "name": "Task Card",
+          "type": "SECTION",
+          "skip": false,
+          "width": 520.0,
+          "height": 1218.0
+        },
+        {
+          "id": "7206:40804",
+          "name": "Project Card",
+          "type": "SECTION",
+          "skip": false,
+          "width": 544.0,
+          "height": 1184.0
+        },
+        {
+          "id": "7206:40805",
+          "name": "Task Tile",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1218.0,
+          "height": 1236.0
+        },
+        {
+          "id": "7206:40810",
+          "name": "Manage User",
+          "type": "SECTION",
+          "skip": false,
+          "width": 584.0,
+          "height": 904.0
+        },
+        {
+          "id": "7206:40811",
+          "name": "Event",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1360.0,
+          "height": 862.0
+        },
+        {
+          "id": "7206:40813",
+          "name": "Integration Card",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1112.0,
+          "height": 624.0
+        },
+        {
+          "id": "7206:40808",
+          "name": "Comment",
+          "type": "SECTION",
+          "skip": false,
+          "width": 657.0,
+          "height": 862.0
+        },
+        {
+          "id": "7206:40814",
+          "name": "Kanban",
+          "type": "SECTION",
+          "skip": false,
+          "width": 520.0,
+          "height": 1072.0
+        },
+        {
+          "id": "7206:40812",
+          "name": "Monthly Calendar",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1216.0,
+          "height": 2114.0
+        },
+        {
+          "id": "7206:40815",
+          "name": "Event Calendar",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1160.0,
+          "height": 2519.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 10,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 10
+    },
+    {
+      "page_id": "1191:12118",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "1461:2816",
+      "page_name": "+",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "2633:54517",
+          "name": "Dashboard",
+          "type": "SECTION",
+          "skip": false,
+          "width": 6440.0,
+          "height": 1972.0
+        },
+        {
+          "id": "2633:54523",
+          "name": "Messages",
+          "type": "SECTION",
+          "skip": false,
+          "width": 6440.0,
+          "height": 1220.0
+        },
+        {
+          "id": "2633:54525",
+          "name": "Tasks",
+          "type": "SECTION",
+          "skip": false,
+          "width": 9560.0,
+          "height": 1220.0
+        },
+        {
+          "id": "2633:54526",
+          "name": "Events",
+          "type": "SECTION",
+          "skip": false,
+          "width": 6440.0,
+          "height": 1220.0
+        },
+        {
+          "id": "2633:54524",
+          "name": "Projects",
+          "type": "SECTION",
+          "skip": false,
+          "width": 20480.0,
+          "height": 1316.0
+        },
+        {
+          "id": "2633:54527",
+          "name": "Settings",
+          "type": "SECTION",
+          "skip": false,
+          "width": 11120.0,
+          "height": 1220.0
+        },
+        {
+          "id": "2633:54515",
+          "name": "Sign up & Onboarding",
+          "type": "SECTION",
+          "skip": false,
+          "width": 8000.0,
+          "height": 2440.0
+        },
+        {
+          "id": "2633:54528",
+          "name": "Integrations",
+          "type": "SECTION",
+          "skip": false,
+          "width": 1760.0,
+          "height": 1220.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 8,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 8
+    },
+    {
+      "page_id": "1353:29098",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "3069:74830",
+      "page_name": "Documentation Assets",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "2327:145582",
+          "name": ".Type Scale Guide Item",
+          "type": "COMPONENT",
+          "skip": false,
+          "width": 1608.0,
+          "height": 152.0
+        },
+        {
+          "id": "2435:74791",
+          "name": ".Color Swatch",
+          "type": "COMPONENT_SET",
+          "skip": false,
+          "width": 168.0,
+          "height": 304.0
+        },
+        {
+          "id": "2939:31607",
+          "name": ".Component Page Header",
+          "type": "COMPONENT_SET",
+          "skip": false,
+          "width": 592.0,
+          "height": 264.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 3,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 3
+    }
+  ],
+  "totals": {
+    "pages": 13,
+    "all_screens": 7,
+    "all_components": 68,
+    "light_desktop_screens": 7,
+    "light_desktop_components": 68,
+    "skipped_screens": 0,
+    "skipped_components": 0
+  }
+}

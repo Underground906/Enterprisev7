@@ -1,0 +1,738 @@
+{
+  "kit_name": "Aimate",
+  "file_key": "EXhqJe4YbbyS0Hegl8OEDk",
+  "db_item_count": 18,
+  "total_screens": 18,
+  "processed_screens": [
+    "cover_thumbnail.png",
+    "final_design_aimate_about.png",
+    "final_design_aimate_contact.png",
+    "final_design_aimate_features.png",
+    "final_design_aimate_get_started.png",
+    "final_design_aimate_home.png",
+    "final_design_aimate_login.png",
+    "final_design_aimate_pricing.png",
+    "final_design_blog.png",
+    "final_design_blog_singlepage.png",
+    "final_design_aimate_about.png",
+    "final_design_aimate_contact.png",
+    "final_design_aimate_features.png",
+    "final_design_aimate_home.png",
+    "final_design_aimate_login.png",
+    "final_design_aimate_pricing.png",
+    "final_design_blog.png",
+    "final_design_blog_singlepage.png"
+  ],
+  "screens": {
+    "cover_thumbnail.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "The text 'aimate' in a large, bold font"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "Two purple star icons of different sizes"
+          }
+        ],
+        "component_count": 2,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2306
+      },
+      "processed_at": "2026-02-18T00:13:06.534803"
+    },
+    "final_design_aimate_about.png": {
+      "subfolder": "components",
+      "size_mb": 1.41,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:04:37.452875"
+    },
+    "final_design_aimate_contact.png": {
+      "subfolder": "components",
+      "size_mb": 0.24,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A prominent header section with a heading and a subheading, introducing the contact page."
+          },
+          {
+            "component_type": "form",
+            "variant": "light",
+            "count": 1,
+            "description": "A form with fields for full name, email, and a short message, used for contacting the company."
+          },
+          {
+            "component_type": "input",
+            "variant": "light",
+            "count": 3,
+            "description": "Text input fields for full name, email, and short message in the contact form."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A 'Send message' button to submit the contact form."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "A testimonial card with a quote, author, and company information."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "light",
+            "count": 1,
+            "description": "A circular avatar displaying the profile picture of the testimonial author."
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 1,
+            "description": "A horizontal line separating sections on the page."
+          },
+          {
+            "component_type": "icon",
+            "variant": "light",
+            "count": 2,
+            "description": "Icons used for phone and email in the contact information section."
+          },
+          {
+            "component_type": "list",
+            "variant": "light",
+            "count": 1,
+            "description": "An unordered list highlighting what you can talk about with the team."
+          },
+          {
+            "component_type": "accordion",
+            "variant": "light",
+            "count": 4,
+            "description": "Accordion items for FAQs, each containing a question and an answer."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A 'Get started for free' button encouraging users to take action."
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark",
+            "count": 1,
+            "description": "A footer section with company information, social media links, and a newsletter signup."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "dark",
+            "count": 1,
+            "description": "A navigation bar with links to various sections of the website."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 4,
+            "description": "Social media buttons for Facebook, Instagram, LinkedIn, and X."
+          },
+          {
+            "component_type": "input",
+            "variant": "light",
+            "count": 1,
+            "description": "An email input field for newsletter signup."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A 'Get started' button for newsletter signup."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample heading typography."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A sample paragraph typography."
+          }
+        ],
+        "component_count": 18,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3013
+      },
+      "processed_at": "2026-02-18T01:05:32.639566"
+    },
+    "final_design_aimate_features.png": {
+      "subfolder": "components",
+      "size_mb": 0.48,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A prominent hero section with a heading, description, and call-to-action button."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 3,
+            "description": "A primary button with a purple background and white text, used for calls-to-action."
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "light",
+            "count": 1,
+            "description": "A testimonial card with a quote, author, and company information."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 6,
+            "description": "Feature cards with icons, headings, and descriptions."
+          },
+          {
+            "component_type": "icon",
+            "variant": "filled",
+            "count": 14,
+            "description": "Various icons used throughout the page for visual interest and to support content."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 5,
+            "description": "Horizontal dividers used to separate content sections."
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark",
+            "count": 1,
+            "description": "A footer section with contact information, social media links, and a newsletter signup form."
+          },
+          {
+            "component_type": "input",
+            "variant": "light",
+            "count": 1,
+            "description": "An email address input field for the newsletter signup form."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A secondary button used for the newsletter signup form."
+          },
+          {
+            "component_type": "social_media_links",
+            "variant": "light",
+            "count": 1,
+            "description": "A group of social media links."
+          },
+          {
+            "component_type": "nav",
+            "variant": "light",
+            "count": 1,
+            "description": "A top navigation menu with links to main sections of the site."
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 2,
+            "description": "Badges used to highlight features or status."
+          },
+          {
+            "component_type": "chart",
+            "variant": "bar",
+            "count": 1,
+            "description": "A bar chart used to display data in the hero section."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 1,
+            "description": "A circular avatar used in the testimonial section."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "Various typography samples used for headings and body text."
+          }
+        ],
+        "component_count": 15,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3454
+      },
+      "processed_at": "2026-02-18T01:06:31.753849"
+    },
+    "final_design_aimate_get_started.png": {
+      "subfolder": "screens",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "A rectangular container with a subtle shadow, holding the account creation form."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "The title 'Create an account' in a prominent font."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "The text 'Use the email address you use at work.' in a regular font."
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 1,
+            "description": "A text input field to enter a work email address."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A purple button labeled 'Create an account'."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the two account creation options."
+          },
+          {
+            "component_type": "button",
+            "variant": "outline",
+            "count": 1,
+            "description": "A button labeled 'Continue with Google' featuring the Google logo."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "link",
+            "count": 1,
+            "description": "The text 'Already have an account? Login' in a link font."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "back",
+            "count": 1,
+            "description": "A small back arrow icon button labeled 'Go back'."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "logo",
+            "count": 1,
+            "description": "The Aimate logo featuring a star symbol."
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3245
+      },
+      "processed_at": "2026-02-18T00:24:14.877419"
+    },
+    "final_design_aimate_home.png": {
+      "subfolder": "components",
+      "size_mb": 1.16,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "dark with white text and purple button",
+            "count": 1,
+            "description": "A prominent hero section with a heading, subheading, and call-to-action buttons."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary (purple)/secondary (white with dark text)",
+            "count": 6,
+            "description": "Buttons for calls-to-action, such as 'Get started for free' and 'See pricing'."
+          },
+          {
+            "component_type": "card",
+            "variant": "white with dark text and icons",
+            "count": 8,
+            "description": "Feature cards highlighting different aspects of the product, such as 'Train a chatbot on your data' and 'Intelligent ticketing system'."
+          },
+          {
+            "component_type": "icon",
+            "variant": "various colors and sizes",
+            "count": 14,
+            "description": "Icons used within feature cards and other components for visual representation."
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "white with dark text and green accents",
+            "count": 3,
+            "description": "Cards displaying statistics, such as '100% Clients satisfaction' and '34% Decrease in expenses'."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "dark with white text and green accents",
+            "count": 3,
+            "description": "Cards comparing different pricing plans, including features and pricing."
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "white with dark text and images",
+            "count": 2,
+            "description": "Quotes from satisfied customers, including images and ratings."
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark with white text and social media icons",
+            "count": 1,
+            "description": "A footer section with contact information, social media links, and copyright details."
+          },
+          {
+            "component_type": "input",
+            "variant": "text input with placeholder text",
+            "count": 1,
+            "description": "An input field for subscribing to a newsletter."
+          },
+          {
+            "component_type": "badge",
+            "variant": "green with white text",
+            "count": 1,
+            "description": "A badge indicating a 'New' feature."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal line",
+            "count": 5,
+            "description": "Horizontal lines separating different sections of the page."
+          },
+          {
+            "component_type": "chart",
+            "variant": "bar chart with green and gray bars",
+            "count": 1,
+            "description": "A chart illustrating data and statistics."
+          },
+          {
+            "component_type": "accordion",
+            "variant": "white with dark text and icons",
+            "count": 1,
+            "description": "An accordion section with frequently asked questions."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "dark with white text and hamburger menu",
+            "count": 1,
+            "description": "A navigation bar with a logo, menu items, and a hamburger menu."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "rounded images of people",
+            "count": 2,
+            "description": "Images of people used in testimonials and other sections."
+          },
+          {
+            "component_type": "rating",
+            "variant": "star ratings",
+            "count": 2,
+            "description": "Star ratings used in testimonials and other sections."
+          },
+          {
+            "component_type": "tag",
+            "variant": "small labels with various colors",
+            "count": 5,
+            "description": "Small labels used to categorize or highlight features."
+          },
+          {
+            "component_type": "alert",
+            "variant": "colored banners with text",
+            "count": 1,
+            "description": "A colored banner highlighting a promotion or important information."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "various font sizes and styles",
+            "count": 20,
+            "description": "Various font sizes and styles used throughout the page."
+          }
+        ],
+        "component_count": 19,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3728
+      },
+      "processed_at": "2026-02-18T01:07:34.140736"
+    },
+    "final_design_aimate_login.png": {
+      "subfolder": "components",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_button",
+            "variant": "outlined",
+            "count": 1,
+            "description": "A back arrow icon button to navigate back"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "A light-colored card container for the sign-up form"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Create an account'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A paragraph that reads 'Use the email address you use at work.'"
+          },
+          {
+            "component_type": "input",
+            "variant": "outlined",
+            "count": 1,
+            "description": "An input field to enter work email address"
+          },
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 1,
+            "description": "A purple button to create an account"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal divider with 'OR' text"
+          },
+          {
+            "component_type": "button",
+            "variant": "outlined",
+            "count": 1,
+            "description": "A button to continue with Google"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "link",
+            "count": 1,
+            "description": "A link that reads 'Login'"
+          },
+          {
+            "component_type": "logo",
+            "variant": "icon",
+            "count": 1,
+            "description": "The Aimate logo"
+          }
+        ],
+        "component_count": 10,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2046
+      },
+      "processed_at": "2026-02-18T01:07:43.279579"
+    },
+    "final_design_aimate_pricing.png": {
+      "subfolder": "components",
+      "size_mb": 0.32,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A hero section with a heading, text, and buttons"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "light",
+            "count": 3,
+            "description": "Cards showcasing different pricing plans with features and pricing"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 6,
+            "description": "Buttons to get started with plans or sign up"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 2,
+            "description": "Outlined buttons for navigation"
+          },
+          {
+            "component_type": "tab",
+            "variant": "light",
+            "count": 1,
+            "description": "Tabs for switching between monthly and yearly plans"
+          },
+          {
+            "component_type": "table",
+            "variant": "light",
+            "count": 1,
+            "description": "A comparison table for plans and features"
+          },
+          {
+            "component_type": "accordion",
+            "variant": "light",
+            "count": 5,
+            "description": "Accordion sections for FAQs"
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark",
+            "count": 1,
+            "description": "A footer with contact information, social media links, and more"
+          },
+          {
+            "component_type": "form",
+            "variant": "light",
+            "count": 1,
+            "description": "A form to subscribe to the newsletter"
+          },
+          {
+            "component_type": "input",
+            "variant": "light",
+            "count": 1,
+            "description": "An input field for email address"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 4,
+            "description": "Icon buttons for social media links"
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 2,
+            "description": "Horizontal dividers separating sections"
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 1,
+            "description": "A badge indicating a popular or recommended plan"
+          },
+          {
+            "component_type": "chip",
+            "variant": "light",
+            "count": 2,
+            "description": "Chips or tags for plan features"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "Various typography samples for headings and text"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "light",
+            "count": 1,
+            "description": "A set of icons used throughout the page"
+          },
+          {
+            "component_type": "alert",
+            "variant": "info",
+            "count": 1,
+            "description": "An alert or notification for a special offer"
+          }
+        ],
+        "component_count": 17,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3480
+      },
+      "processed_at": "2026-02-18T01:08:37.937625"
+    },
+    "final_design_blog.png": {
+      "subfolder": "components",
+      "size_mb": 1.87,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:18:19.607673"
+    },
+    "final_design_blog_singlepage.png": {
+      "subfolder": "components",
+      "size_mb": 1.35,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:28:22.750941"
+    }
+  },
+  "summary": {
+    "total_screens": 18,
+    "screens_processed": 18,
+    "screens_successful": 7,
+    "screens_skipped": 0,
+    "screens_errored": 3,
+    "total_components_identified": 91,
+    "unique_component_types": 29,
+    "component_type_counts": {
+      "button": 13,
+      "typography_sample": 12,
+      "input": 7,
+      "divider": 6,
+      "card": 5,
+      "hero": 4,
+      "footer": 4,
+      "icon_set": 3,
+      "avatar": 3,
+      "icon": 3,
+      "accordion": 3,
+      "badge": 3,
+      "icon_button": 3,
+      "form": 2,
+      "navbar": 2,
+      "testimonial": 2,
+      "chart": 2,
+      "pricing_card": 2,
+      "alert": 2,
+      "list": 1,
+      "social_media_links": 1,
+      "nav": 1,
+      "stat_card": 1,
+      "rating": 1,
+      "tag": 1,
+      "logo": 1,
+      "tab": 1,
+      "table": 1,
+      "chip": 1
+    },
+    "completed_at": "2026-02-18T01:28:27.199388"
+  },
+  "started_at": "2026-02-18T00:13:04.708374",
+  "last_checkpoint": "2026-02-18T01:28:27.200917"
+}

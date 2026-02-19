@@ -1,0 +1,1631 @@
+{
+  "kit_name": "Adify (Job Finding)",
+  "file_key": "xkTk1662YKoVNNSZt1FyRQ",
+  "db_item_count": 39,
+  "total_screens": 19,
+  "processed_screens": [
+    "component_icons.png",
+    "component_input_toggle.png",
+    "component_button.png",
+    "component_company_logo.png",
+    "style_guide_typography.png",
+    "style_guide_color_palette.png",
+    "widget_error.png",
+    "widget_cta.png",
+    "component_logo_integration.png",
+    "widget_faq.png",
+    "widget_section.png",
+    "widget_coming_soon.png",
+    "widget_about_us.png",
+    "greeting_cover.png",
+    "widget_footer.png",
+    "widget_sign_up.png",
+    "widget_who_we_are.png",
+    "widget_blog.png",
+    "widget_why_chose_us.png"
+  ],
+  "screens": {
+    "component_icons.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "name": "Icon Set",
+            "location": "top-left",
+            "purpose": "Displays a collection of various icons",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-left",
+            "purpose": "Provides links to social media platforms",
+            "elements": [
+              "Instagram icon",
+              "YouTube icon",
+              "LinkedIn icon",
+              "Twitter icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Icon Set 2",
+            "location": "center",
+            "purpose": "Displays another collection of various icons",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Icon Set 3",
+            "location": "bottom-center",
+            "purpose": "Displays a third collection of various icons",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Icon Set 4",
+            "location": "bottom-right",
+            "purpose": "Displays a fourth collection of various icons",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3244
+      },
+      "processed_at": "2026-02-18T00:41:18.739743"
+    },
+    "component_input_toggle.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "login_form",
+            "name": "Login Form",
+            "location": "top-left",
+            "purpose": "Allows users to log in with email and password or social media accounts",
+            "elements": [
+              "full name input",
+              "email input",
+              "password input",
+              "forgot password link",
+              "social login buttons"
+            ],
+            "variant": "",
+            "count": "2"
+          },
+          {
+            "component_type": "input",
+            "name": "Full Name Input",
+            "location": "top-left",
+            "purpose": "Collects user's full name",
+            "elements": [],
+            "variant": "",
+            "count": "2"
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "top-left",
+            "purpose": "Collects user's email address",
+            "elements": [],
+            "variant": "",
+            "count": "2"
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "top-left",
+            "purpose": "Collects user's password",
+            "elements": [],
+            "variant": "",
+            "count": "2"
+          },
+          {
+            "component_type": "button",
+            "name": "Social Login Button",
+            "location": "top-right",
+            "purpose": "Allows users to log in with social media accounts",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "",
+            "count": "6"
+          },
+          {
+            "component_type": "button",
+            "name": "Forgot Password Link",
+            "location": "top-left",
+            "purpose": "Allows users to reset their password",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": "2"
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Login Options",
+            "location": "top-right",
+            "purpose": "Displays available social media login options",
+            "elements": [
+              "Google",
+              "Apple",
+              "Facebook",
+              "LinkedIn"
+            ],
+            "variant": "",
+            "count": "1"
+          },
+          {
+            "component_type": "footer",
+            "name": "Page Footer",
+            "location": "bottom",
+            "purpose": "Displays copyright information and company name",
+            "elements": [
+              "copyright text",
+              "company name",
+              "logo"
+            ],
+            "variant": "",
+            "count": "1"
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Page Title",
+            "location": "bottom",
+            "purpose": "Displays the page title",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": "1"
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "bottom-right",
+            "purpose": "Displays the company logo",
+            "elements": [],
+            "variant": "",
+            "count": "1"
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3564
+      },
+      "processed_at": "2026-02-18T00:41:18.743755"
+    },
+    "component_button.png": {
+      "subfolder": "screens",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "name": "Get in touch button",
+            "location": "center",
+            "purpose": "Encourages users to get in touch",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "primary, secondary, small, medium, large",
+            "count": 9
+          },
+          {
+            "component_type": "button",
+            "name": "Get a demo button",
+            "location": "center",
+            "purpose": "Encourages users to get a demo",
+            "elements": [
+              "icon",
+              "text",
+              "chevron"
+            ],
+            "variant": "primary, secondary, small, medium, large",
+            "count": 9
+          },
+          {
+            "component_type": "divider",
+            "name": "Vertical divider",
+            "location": "center",
+            "purpose": "Separates columns",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal divider",
+            "location": "center",
+            "purpose": "Separates rows",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 3185
+      },
+      "processed_at": "2026-02-18T00:41:18.744735"
+    },
+    "component_company_logo.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Page Header",
+            "location": "top-center",
+            "purpose": "Displays the page title and navigation",
+            "elements": [
+              "title text",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Job Search Bar",
+            "location": "top-center",
+            "purpose": "Allows users to search for jobs",
+            "elements": [
+              "search input",
+              "search button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "filter",
+            "name": "Job Filters",
+            "location": "top-right",
+            "purpose": "Enables users to filter job listings",
+            "elements": [
+              "dropdowns",
+              "checkboxes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Job Card",
+            "location": "center",
+            "purpose": "Displays a single job listing",
+            "elements": [
+              "job title",
+              "company name",
+              "location",
+              "description"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Apply Button",
+            "location": "card",
+            "purpose": "Allows users to apply for a job",
+            "elements": [],
+            "variant": "primary",
+            "count": 4
+          },
+          {
+            "component_type": "pagination",
+            "name": "Job List Pagination",
+            "location": "bottom-center",
+            "purpose": "Enables users to navigate through job listings",
+            "elements": [
+              "page numbers",
+              "prev/next buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar",
+            "name": "Job Search Sidebar",
+            "location": "left",
+            "purpose": "Provides additional job search options",
+            "elements": [
+              "categories",
+              "locations"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3235
+      },
+      "processed_at": "2026-02-18T00:41:18.744735"
+    },
+    "style_guide_typography.png": {
+      "subfolder": "screens",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "name": "Font Styles",
+            "location": "top-left",
+            "purpose": "Displays available font styles and their variations",
+            "elements": [
+              "font names",
+              "font weights",
+              "font sizes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading Styles",
+            "location": "center",
+            "purpose": "Displays heading styles with different weights and sizes",
+            "elements": [
+              "heading texts",
+              "weights",
+              "sizes",
+              "line heights"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Body Text Styles",
+            "location": "bottom",
+            "purpose": "Displays body text styles with different weights and sizes",
+            "elements": [
+              "body texts",
+              "weights",
+              "sizes",
+              "line heights"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "header",
+            "name": "Header Section",
+            "location": "top",
+            "purpose": "Displays the title and description of the typography guide",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3127
+      },
+      "processed_at": "2026-02-18T00:41:18.745738"
+    },
+    "style_guide_color_palette.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Color Palette Header",
+            "location": "top-center",
+            "purpose": "Displays the title and description of the color palette",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Typography",
+            "location": "top-center",
+            "purpose": "Displays the title of the color palette",
+            "elements": [
+              "title text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Description Typography",
+            "location": "top-center",
+            "purpose": "Displays the description of the color palette",
+            "elements": [
+              "description text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Primary Color Swatches",
+            "location": "center",
+            "purpose": "Displays a range of primary colors",
+            "elements": [
+              "color swatches with hex codes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Secondary Color Swatches",
+            "location": "center",
+            "purpose": "Displays a range of secondary colors",
+            "elements": [
+              "color swatches with hex codes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Pink Color Swatches",
+            "location": "center",
+            "purpose": "Displays a range of pink colors",
+            "elements": [
+              "color swatches with hex codes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Yellow Color Swatches",
+            "location": "center",
+            "purpose": "Displays a range of yellow colors",
+            "elements": [
+              "color swatches with hex codes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Neutral Color Swatches",
+            "location": "center",
+            "purpose": "Displays a range of neutral colors",
+            "elements": [
+              "color swatches with hex codes"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [
+              "profile picture"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Username Typography",
+            "location": "top-right",
+            "purpose": "Displays the username",
+            "elements": [
+              "username text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3437
+      },
+      "processed_at": "2026-02-18T00:41:18.745738"
+    },
+    "widget_error.png": {
+      "subfolder": "screens",
+      "size_mb": 0.56,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "name": "404 Error Card",
+            "location": "center",
+            "purpose": "Displays a 404 error message to the user",
+            "elements": [
+              "error code",
+              "error message",
+              "back home button"
+            ],
+            "variant": "default",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Back Home Button",
+            "location": "within 404 Error Card",
+            "purpose": "Navigates the user back to the home page",
+            "elements": [
+              "button text",
+              "icon"
+            ],
+            "variant": "default",
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Error Code Typography",
+            "location": "within 404 Error Card",
+            "purpose": "Displays the error code in a prominent font size",
+            "elements": [
+              "error code text"
+            ],
+            "variant": "large",
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Error Message Typography",
+            "location": "within 404 Error Card",
+            "purpose": "Displays the error message in a readable font size",
+            "elements": [
+              "error message text"
+            ],
+            "variant": "medium",
+            "count": 4
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 3218
+      },
+      "processed_at": "2026-02-18T00:41:18.745738"
+    },
+    "widget_cta.png": {
+      "subfolder": "screens",
+      "size_mb": 0.5,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Job Search Header",
+            "location": "top-center",
+            "purpose": "Introduces the job search experience",
+            "elements": [
+              "title text",
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "card",
+            "name": "Job Listing Card",
+            "location": "center",
+            "purpose": "Displays a job listing",
+            "elements": [
+              "company logo",
+              "job title",
+              "location",
+              "salary",
+              "apply button"
+            ],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "bottom-center",
+            "purpose": "Collects user's email for subscription",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Subscribe Button",
+            "location": "bottom-center",
+            "purpose": "Submits the email for subscription",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 4
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Newsletter Signup Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to subscribe to newsletters",
+            "elements": [
+              "input field",
+              "subscribe button"
+            ],
+            "variant": "",
+            "count": 4
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2527
+      },
+      "processed_at": "2026-02-18T00:41:18.745738"
+    },
+    "component_logo_integration.png": {
+      "subfolder": "screens",
+      "size_mb": 0.24,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "top-left",
+            "purpose": "Displays the company logo for branding",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links",
+            "elements": [
+              "Home",
+              "Jobs",
+              "Companies",
+              "Resources"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Job Search Bar",
+            "location": "top-center",
+            "purpose": "Allows users to search for jobs",
+            "elements": [
+              "search input",
+              "search button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Post a Job Button",
+            "location": "top-right",
+            "purpose": "Encourages companies to post job openings",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "center",
+            "purpose": "Introduces the platform's purpose",
+            "elements": [
+              "headline",
+              "subheading",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Featured Job Card",
+            "location": "center",
+            "purpose": "Displays featured job listings",
+            "elements": [
+              "job title",
+              "company logo",
+              "job description",
+              "apply button"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "tab_bar",
+            "name": "Job Filter Tabs",
+            "location": "center",
+            "purpose": "Allows users to filter jobs by category",
+            "elements": [
+              "tab 1",
+              "tab 2",
+              "tab 3"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Job Listings",
+            "location": "center",
+            "purpose": "Displays a list of job openings",
+            "elements": [
+              "job title",
+              "company name",
+              "location"
+            ],
+            "variant": "",
+            "count": 10
+          },
+          {
+            "component_type": "pagination",
+            "name": "Job List Pagination",
+            "location": "bottom-center",
+            "purpose": "Helps users navigate through job listings",
+            "elements": [
+              "page numbers",
+              "next button",
+              "previous button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "headline",
+              "subheading",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Site Footer",
+            "location": "bottom",
+            "purpose": "Provides site information and links",
+            "elements": [
+              "copyright information",
+              "social media links"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3668
+      },
+      "processed_at": "2026-02-18T00:41:18.745738"
+    },
+    "widget_faq.png": {
+      "subfolder": "screens",
+      "size_mb": 0.25,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "faq_section",
+            "name": "Frequently Asked Questions Section",
+            "location": "full-width, multiple instances",
+            "purpose": "Provides answers to common questions about the job finding platform",
+            "elements": [
+              "question text",
+              "answer text",
+              "accordion toggle"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "accordion",
+            "name": "FAQ Accordion Item",
+            "location": "within FAQ sections",
+            "purpose": "Expands to show detailed answers to questions",
+            "elements": [
+              "question text",
+              "accordion toggle",
+              "answer text"
+            ],
+            "variant": "",
+            "count": 20
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Section Title",
+            "location": "top of each FAQ section",
+            "purpose": "Displays title of FAQ section",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Accordion Toggle Button",
+            "location": "right side of each FAQ question",
+            "purpose": "Toggles expansion of FAQ answer",
+            "elements": [],
+            "variant": "",
+            "count": 20
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "between FAQ sections",
+            "purpose": "Visually separates FAQ sections",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3258
+      },
+      "processed_at": "2026-02-18T00:41:18.745738"
+    },
+    "widget_section.png": {
+      "subfolder": "screens",
+      "size_mb": 0.5,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "World Best Platform For Job Seekers Header",
+            "location": "top-center",
+            "purpose": "Displays the main title and tagline of the platform",
+            "elements": [
+              "main title",
+              "tagline"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Feature Section",
+            "location": "center",
+            "purpose": "Highlights the key features of the platform",
+            "elements": [
+              "Career Booster",
+              "Profile Highlighters",
+              "Interactive Assessment"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "card",
+            "name": "Feature Card",
+            "location": "center",
+            "purpose": "Displays information about a specific feature",
+            "elements": [
+              "icon",
+              "title",
+              "description"
+            ],
+            "variant": "different colors for each feature",
+            "count": 15
+          },
+          {
+            "component_type": "icon",
+            "name": "Feature Icon",
+            "location": "within feature cards",
+            "purpose": "Visually represents the feature",
+            "elements": [],
+            "variant": "different icons for each feature",
+            "count": 15
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Feature Title",
+            "location": "within feature cards",
+            "purpose": "Displays the title of the feature",
+            "elements": [],
+            "variant": "",
+            "count": 15
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Feature Description",
+            "location": "within feature cards",
+            "purpose": "Provides a brief description of the feature",
+            "elements": [],
+            "variant": "",
+            "count": 15
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3326
+      },
+      "processed_at": "2026-02-18T00:54:58.099914"
+    },
+    "widget_coming_soon.png": {
+      "subfolder": "screens",
+      "size_mb": 0.58,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the website",
+            "elements": [
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Get in touch Button",
+            "location": "top-right",
+            "purpose": "Encourages users to get in touch with the company",
+            "elements": [],
+            "variant": "primary",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Log in Button",
+            "location": "top-right",
+            "purpose": "Allows users to log in to their accounts",
+            "elements": [],
+            "variant": "secondary",
+            "count": 4
+          },
+          {
+            "component_type": "card",
+            "name": "Coming Soon Card",
+            "location": "center",
+            "purpose": "Informs users that the website is coming soon and invites them to subscribe for updates",
+            "elements": [
+              "header text",
+              "description text",
+              "email input field",
+              "subscribe button"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "center",
+            "purpose": "Allows users to enter their email address to subscribe for updates",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Subscribe Button",
+            "location": "center",
+            "purpose": "Submits the user's email address to subscribe for updates",
+            "elements": [],
+            "variant": "primary",
+            "count": 4
+          },
+          {
+            "component_type": "hero",
+            "name": "Coming Soon Hero Section",
+            "location": "center",
+            "purpose": "Displays a prominent message indicating that the website is coming soon",
+            "elements": [
+              "header text",
+              "description text"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "top-left",
+            "purpose": "Represents the company's brand identity",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "badge",
+            "name": "Coming Soon Badge",
+            "location": "top-center",
+            "purpose": "Indicates that the website is coming soon",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 2950
+      },
+      "processed_at": "2026-02-18T00:54:58.099914"
+    },
+    "widget_about_us.png": {
+      "subfolder": "screens",
+      "size_mb": 0.54,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the website",
+            "elements": [
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Get in Touch Button",
+            "location": "top-right",
+            "purpose": "Encourages users to get in touch with the company",
+            "elements": [],
+            "variant": "purple",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Log in Button",
+            "location": "top-right",
+            "purpose": "Allows users to log in to their accounts",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "header",
+            "name": "Hero Header",
+            "location": "center",
+            "purpose": "Displays the main title and mission statement",
+            "elements": [
+              "Empowering Your Career Journey: Our Mission & Story",
+              "Our mission is to support your career journey with the tools and connections you need to succeed."
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "center",
+            "purpose": "Allows users to enter their email address",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Join with us Button",
+            "location": "center",
+            "purpose": "Encourages users to join the platform",
+            "elements": [],
+            "variant": "purple",
+            "count": 4
+          },
+          {
+            "component_type": "card",
+            "name": "Job Card",
+            "location": "center",
+            "purpose": "Displays job listings with details",
+            "elements": [
+              "Job title",
+              "Job description",
+              "Salary",
+              "Apply Now button"
+            ],
+            "variant": "",
+            "count": 8
+          },
+          {
+            "component_type": "chart",
+            "name": "Top Job Categories Chart",
+            "location": "center",
+            "purpose": "Displays top job categories",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "avatar",
+            "name": "Customer Success Avatar",
+            "location": "top-left",
+            "purpose": "Displays the customer's avatar",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "stat_card",
+            "name": "Customer Success Stat Card",
+            "location": "top-left",
+            "purpose": "Displays customer success statistics",
+            "elements": [
+              "7.89%"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "top-left",
+            "purpose": "Displays the company logo",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3646
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    },
+    "greeting_cover.png": {
+      "subfolder": "screens",
+      "size_mb": 0.56,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Header Section",
+            "location": "top-center",
+            "purpose": "Displays the main title and navigation of the page",
+            "elements": [
+              "title text",
+              "tags"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Main Title",
+            "location": "center",
+            "purpose": "Displays the main title of the page",
+            "elements": [
+              "Job Finder Web Template UI Kit Design"
+            ],
+            "variant": "large heading",
+            "count": 1
+          },
+          {
+            "component_type": "tag",
+            "name": "Tags",
+            "location": "center",
+            "purpose": "Displays keywords related to the UI kit",
+            "elements": [
+              "Web Template",
+              "UI Kit",
+              "SaaS UI Kit",
+              "Tokens & Variables"
+            ],
+            "variant": "inline tags",
+            "count": 4
+          },
+          {
+            "component_type": "contact_form",
+            "name": "Contact Information",
+            "location": "bottom-left",
+            "purpose": "Provides contact details for the designer",
+            "elements": [
+              "email address",
+              "phone number"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Profile and Social Info",
+            "location": "top-right",
+            "purpose": "Displays profile picture and possibly social media links",
+            "elements": [
+              "profile picture",
+              "username"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "top-left",
+            "purpose": "Represents the brand or company",
+            "elements": [
+              "logo image"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3191
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    },
+    "widget_footer.png": {
+      "subfolder": "screens",
+      "size_mb": 0.98,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom",
+            "purpose": "Provides site-wide information and links",
+            "elements": [
+              "logo",
+              "contact information",
+              "social media icons",
+              "copyright notice"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to social media profiles",
+            "elements": [
+              "Facebook icon",
+              "Instagram icon",
+              "Twitter icon",
+              "LinkedIn icon"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "newsletter_signup",
+            "name": "Newsletter Signup",
+            "location": "bottom-center",
+            "purpose": "Encourages users to subscribe to newsletters",
+            "elements": [
+              "input field",
+              "subscribe button"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "nav",
+            "name": "Main Navigation",
+            "location": "top",
+            "purpose": "Provides main site navigation",
+            "elements": [
+              "Explore",
+              "Company",
+              "Resources",
+              "Support",
+              "Legal"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Subscribe Button",
+            "location": "bottom-center",
+            "purpose": "Submits the newsletter signup form",
+            "elements": [],
+            "variant": "primary",
+            "count": 4
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "bottom-center",
+            "purpose": "Collects user's email for newsletter signup",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "top-left",
+            "purpose": "Represents the company brand",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Copyright Text",
+            "location": "bottom-left",
+            "purpose": "Displays copyright information",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Contact Information",
+            "location": "bottom-left",
+            "purpose": "Displays contact details",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3495
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    },
+    "widget_sign_up.png": {
+      "subfolder": "screens",
+      "size_mb": 0.85,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "login_form",
+            "name": "Login Form",
+            "location": "center",
+            "purpose": "Allows users to log in to their account",
+            "elements": [
+              "full name input",
+              "email input",
+              "password input",
+              "forgot password link",
+              "terms and conditions checkbox",
+              "login button",
+              "or separator",
+              "google login button",
+              "apple login button",
+              "sign up link"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "input",
+            "name": "Full Name Input",
+            "location": "center",
+            "purpose": "Collects user's full name",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Collects user's email",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "center",
+            "purpose": "Collects user's password",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Login Button",
+            "location": "center",
+            "purpose": "Submits the login form",
+            "elements": [],
+            "variant": "primary",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Google Login Button",
+            "location": "center",
+            "purpose": "Allows users to log in with Google",
+            "elements": [],
+            "variant": "icon",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Apple Login Button",
+            "location": "center",
+            "purpose": "Allows users to log in with Apple",
+            "elements": [],
+            "variant": "icon",
+            "count": 4
+          },
+          {
+            "component_type": "link",
+            "name": "Sign Up Link",
+            "location": "center",
+            "purpose": "Redirects users to sign up page",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "link",
+            "name": "Forgot Password Link",
+            "location": "center",
+            "purpose": "Redirects users to forgot password page",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "checkbox",
+            "name": "Terms and Conditions Checkbox",
+            "location": "center",
+            "purpose": "Requires users to agree to terms and conditions",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "divider",
+            "name": "Or Divider",
+            "location": "center",
+            "purpose": "Separates login methods",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "icon",
+            "name": "Adify Logo",
+            "location": "top-center",
+            "purpose": "Displays the Adify logo",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Back Button",
+            "location": "top-left",
+            "purpose": "Navigates users back to previous page",
+            "elements": [],
+            "variant": "icon",
+            "count": 4
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3736
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    },
+    "widget_who_we_are.png": {
+      "subfolder": "screens",
+      "size_mb": 1.39,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    },
+    "widget_blog.png": {
+      "subfolder": "screens",
+      "size_mb": 3.29,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    },
+    "widget_why_chose_us.png": {
+      "subfolder": "screens",
+      "size_mb": 1.13,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T00:54:58.100869"
+    }
+  },
+  "summary": {
+    "total_screens": 19,
+    "screens_processed": 19,
+    "screens_successful": 16,
+    "screens_skipped": 0,
+    "screens_errored": 3,
+    "total_components_identified": 120,
+    "unique_component_types": 36,
+    "component_type_counts": {
+      "button": 19,
+      "typography_sample": 15,
+      "input": 10,
+      "header": 7,
+      "card": 7,
+      "logo": 6,
+      "color_swatch": 5,
+      "icon_set": 4,
+      "social_icons": 4,
+      "divider": 4,
+      "footer": 3,
+      "avatar": 3,
+      "top_nav": 3,
+      "login_form": 2,
+      "search_bar": 2,
+      "pagination": 2,
+      "cta_section": 2,
+      "hero": 2,
+      "icon": 2,
+      "link": 2,
+      "filter": 1,
+      "sidebar": 1,
+      "tab_bar": 1,
+      "list": 1,
+      "faq_section": 1,
+      "accordion": 1,
+      "icon_button": 1,
+      "feature_section": 1,
+      "badge": 1,
+      "chart": 1,
+      "stat_card": 1,
+      "tag": 1,
+      "contact_form": 1,
+      "newsletter_signup": 1,
+      "nav": 1,
+      "checkbox": 1
+    },
+    "completed_at": "2026-02-18T00:54:58.103105"
+  },
+  "started_at": "2026-02-18T00:38:16.928674",
+  "last_checkpoint": "2026-02-18T00:54:58.106490"
+}

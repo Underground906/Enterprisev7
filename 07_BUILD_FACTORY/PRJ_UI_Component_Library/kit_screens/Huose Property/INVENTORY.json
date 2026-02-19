@@ -1,0 +1,1767 @@
+{
+  "kit_name": "Huose Property",
+  "file_key": "BeqInrAMGdwwDnD4sAhpXi",
+  "figma_name": "Huose Property Dashboard",
+  "last_modified": "2026-02-13T15:01:34Z",
+  "fetched_at": "2026-02-18T14:01:00.772090",
+  "pages": [
+    {
+      "page_id": "0:1",
+      "page_name": "\ud83d\uddbc\ufe0f Thumbnail",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "268:56965",
+          "name": "Thumbnail",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1600.0,
+          "height": 960.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "203:39445",
+      "page_name": "\ud83d\udcc8 Dashboard",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "203:39446",
+          "name": "Dashboard",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 2226.0
+        },
+        {
+          "id": "268:51506",
+          "name": "Dashboard_Calendar Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "268:52431",
+          "name": "Dashboard_Messages Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "268:53356",
+          "name": "Dashboard_Notification Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "268:50560",
+          "name": "Dashboard_Language Opened",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:39469",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        }
+      ],
+      "components": [],
+      "screen_count": 6,
+      "component_count": 0,
+      "light_desktop_screens": 6,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "64:1544",
+      "page_name": "+++++",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "64:2041",
+          "name": "Leads",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1440.0
+        },
+        {
+          "id": "179:15426",
+          "name": "Delete Leads",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "175:12353",
+          "name": "Add Leads",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1039.0
+        },
+        {
+          "id": "179:15187",
+          "name": "Add Leads Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1039.0
+        },
+        {
+          "id": "160:9430",
+          "name": "Leads Details Minimize_Overview",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "180:16280",
+          "name": "Leads Details Minimize_Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "193:13610",
+          "name": "Delete Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "193:16064",
+          "name": "Delete Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "184:9002",
+          "name": "Add",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "184:10758",
+          "name": "Add Meet Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "193:17471",
+          "name": "Add Call Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "193:18124",
+          "name": "Add Call Schedule Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "193:12228",
+          "name": "Add Meet Schedule Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "191:11411",
+          "name": "Add Meet History",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "197:15103",
+          "name": "Add Call History",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "193:12918",
+          "name": "Add Meet History Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "197:16443",
+          "name": "Add Call History Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "180:17904",
+          "name": "Leads Details Minimize_Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "197:18279",
+          "name": "Delete Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "197:19211",
+          "name": "Delete Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "180:21298",
+          "name": "Leads Details Minimize_Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:28682",
+          "name": "Delete Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:29548",
+          "name": "Delete Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:27280",
+          "name": "Leads Details Minimize_Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:32557",
+          "name": "Delete Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:31658",
+          "name": "Delete Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:20194",
+          "name": "Task Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:21763",
+          "name": "Add Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1080.0
+        },
+        {
+          "id": "199:25467",
+          "name": "Add Task Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1171.0
+        },
+        {
+          "id": "158:5163",
+          "name": "Leads Details Full Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "181:22729",
+          "name": "Leads Details Full Screen_Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "199:35644",
+          "name": "Delete Meet Fullscreen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "199:33396",
+          "name": "Add Fullscreen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "199:33783",
+          "name": "Add Meet Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:34200",
+          "name": "Add Meet Schedule Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:34663",
+          "name": "Add Meet History",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:35142",
+          "name": "Add Meet History Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "199:36063",
+          "name": "Delete Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "181:23081",
+          "name": "Leads Details Full Screen_Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1080.0
+        },
+        {
+          "id": "203:29521",
+          "name": "Delete Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "203:27472",
+          "name": "Add Call Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:27936",
+          "name": "Add Call Schedule Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:28446",
+          "name": "Add Call History",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:28972",
+          "name": "Add Call History Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:29980",
+          "name": "Delete Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "181:24200",
+          "name": "Leads Details Full Screen_Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "203:32168",
+          "name": "Delete Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:32986",
+          "name": "Leads Details Full Screen_Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:33835",
+          "name": "Delete Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:33435",
+          "name": "Delete Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:32622",
+          "name": "Delete Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:30591",
+          "name": "Task Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:31091",
+          "name": "Add Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1080.0
+        },
+        {
+          "id": "203:31633",
+          "name": "Add Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1171.0
+        },
+        {
+          "id": "160:12197",
+          "name": "Leads Details Alt 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "203:36436",
+          "name": "Leads Details Alt 2_Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "205:43727",
+          "name": "Leads Details Alt 2_Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1020.0
+        },
+        {
+          "id": "205:46338",
+          "name": "Add Call Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:46742",
+          "name": "Add Call Schedule Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:47146",
+          "name": "Add Call History",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:47550",
+          "name": "Add Call History Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:47954",
+          "name": "Delete Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:49030",
+          "name": "Leads Details Alt 2_Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:51691",
+          "name": "Leads Details Alt 2_Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:52486",
+          "name": "Delete Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:52097",
+          "name": "Delete Notes",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:49549",
+          "name": "Task Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:49867",
+          "name": "Add Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1080.0
+        },
+        {
+          "id": "205:50185",
+          "name": "Add Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1171.0
+        },
+        {
+          "id": "205:50548",
+          "name": "Delete Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:50993",
+          "name": "Delete Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:48358",
+          "name": "Delete Call",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "205:43034",
+          "name": "Delete Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "205:43371",
+          "name": "Delete Meet",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:37705",
+          "name": "Add Meet Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:38524",
+          "name": "Add Meet History",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:38973",
+          "name": "Add Meet History Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:38091",
+          "name": "Add Meet Schedule Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:36956",
+          "name": "Add",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1200.0
+        },
+        {
+          "id": "199:33777",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        },
+        {
+          "id": "199:33779",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        }
+      ],
+      "components": [],
+      "screen_count": 81,
+      "component_count": 0,
+      "light_desktop_screens": 81,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "203:40372",
+      "page_name": "\ud83c\udfe0 Property",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "203:40373",
+          "name": "Property Details Alt 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1518.0
+        },
+        {
+          "id": "203:40499",
+          "name": "Property Details Full Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1542.0
+        },
+        {
+          "id": "203:40627",
+          "name": "Property",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1650.0
+        },
+        {
+          "id": "213:56324",
+          "name": "Delete Property",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "203:40677",
+          "name": "Property Details Minimize",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1117.0
+        },
+        {
+          "id": "203:40854",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        },
+        {
+          "id": "213:55284",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        },
+        {
+          "id": "218:2585",
+          "name": "Add Property",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1333.0
+        },
+        {
+          "id": "221:2871",
+          "name": "Add Property Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1653.0
+        }
+      ],
+      "components": [],
+      "screen_count": 9,
+      "component_count": 0,
+      "light_desktop_screens": 9,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "232:36137",
+      "page_name": "+",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "242:38139",
+          "name": "Sales",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1440.0
+        },
+        {
+          "id": "245:41961",
+          "name": "Delete Sales",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "243:42926",
+          "name": "Sales Details Minimize",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1232.0
+        },
+        {
+          "id": "245:40917",
+          "name": "Sales Details Full Screen",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1359.0
+        },
+        {
+          "id": "245:41462",
+          "name": "Sales Details Alt 2",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1290.0
+        },
+        {
+          "id": "245:42585",
+          "name": "Add Sales",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1021.0
+        },
+        {
+          "id": "255:41508",
+          "name": "Add Sales_Add Property",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1021.0
+        },
+        {
+          "id": "255:42374",
+          "name": "Add Sales_Add Buyer",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1019.0
+        },
+        {
+          "id": "255:18894",
+          "name": "Add Sales",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1112.0
+        },
+        {
+          "id": "255:2237",
+          "name": "Sales Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1191.0
+        },
+        {
+          "id": "245:42918",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        },
+        {
+          "id": "245:42920",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1300.0,
+          "height": 258.0
+        }
+      ],
+      "components": [],
+      "screen_count": 12,
+      "component_count": 0,
+      "light_desktop_screens": 12,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "255:43660",
+      "page_name": "\ud83d\udce2 Campaign",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "255:44654",
+          "name": "Campaign Summary",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1725.0
+        },
+        {
+          "id": "263:6831",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1432.0,
+          "height": 258.0
+        },
+        {
+          "id": "263:6834",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1432.0,
+          "height": 258.0
+        },
+        {
+          "id": "263:6836",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1432.0,
+          "height": 258.0
+        },
+        {
+          "id": "264:6838",
+          "name": "Campaign",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1309.0
+        },
+        {
+          "id": "268:23175",
+          "name": "Campaign Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1309.0
+        },
+        {
+          "id": "268:22455",
+          "name": "Campaign Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1551.0
+        },
+        {
+          "id": "268:24352",
+          "name": "Campaign Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1623.0
+        },
+        {
+          "id": "264:11056",
+          "name": "Delete Campaign",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "264:10240",
+          "name": "Add Campaign",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "268:25537",
+          "name": "Add Campaign Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        }
+      ],
+      "components": [],
+      "screen_count": 11,
+      "component_count": 0,
+      "light_desktop_screens": 11,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "269:44785",
+      "page_name": "\ud83d\udcc4 Miscellaneous ",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "270:51931",
+          "name": "Sign Up",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 800.0
+        },
+        {
+          "id": "270:51976",
+          "name": "Sign In",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 800.0
+        },
+        {
+          "id": "283:66433",
+          "name": "Sign In Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 800.0
+        },
+        {
+          "id": "270:52020",
+          "name": "Sign Up Filled",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 800.0
+        },
+        {
+          "id": "272:15266",
+          "name": "Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "283:58006",
+          "name": "Calendar",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1074.0
+        },
+        {
+          "id": "283:59193",
+          "name": "Schedule Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1074.0
+        },
+        {
+          "id": "283:58695",
+          "name": "Add Schedule",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1074.0
+        },
+        {
+          "id": "276:12192",
+          "name": "Message_Contact Details",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1440.0,
+          "height": 1000.0
+        },
+        {
+          "id": "283:59964",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1000.0,
+          "height": 258.0
+        },
+        {
+          "id": "283:59969",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1000.0,
+          "height": 258.0
+        },
+        {
+          "id": "283:66679",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1000.0,
+          "height": 258.0
+        },
+        {
+          "id": "283:59967",
+          "name": "Title",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1000.0,
+          "height": 258.0
+        }
+      ],
+      "components": [],
+      "screen_count": 13,
+      "component_count": 0,
+      "light_desktop_screens": 13,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "12:74",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "14:6470",
+      "page_name": "Badge",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "14:6497",
+          "name": "Badge",
+          "type": "FRAME",
+          "skip": false,
+          "width": 816.0,
+          "height": 1172.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 1,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "21:1884",
+      "page_name": "Button",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "114:5258",
+          "name": "Text Button",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1148.0,
+          "height": 1660.0
+        }
+      ],
+      "components": [
+        {
+          "id": "21:1889",
+          "name": "Link",
+          "type": "FRAME",
+          "skip": false,
+          "width": 589.0,
+          "height": 814.0
+        },
+        {
+          "id": "23:1501",
+          "name": "Icon Button",
+          "type": "FRAME",
+          "skip": false,
+          "width": 684.0,
+          "height": 1332.0
+        }
+      ],
+      "screen_count": 1,
+      "component_count": 2,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 2
+    },
+    {
+      "page_id": "101:10733",
+      "page_name": "Breadcrumbs",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "101:10941",
+          "name": "Breadcrumbs",
+          "type": "FRAME",
+          "skip": false,
+          "width": 749.0,
+          "height": 1061.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 1,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "43:448",
+      "page_name": "Card",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "43:490",
+          "name": "Statistic Card",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1940.0,
+          "height": 1848.0
+        },
+        {
+          "id": "90:2064",
+          "name": "Property",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1076.0,
+          "height": 686.0
+        },
+        {
+          "id": "199:28351",
+          "name": "Task",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1024.0,
+          "height": 838.0
+        },
+        {
+          "id": "199:30446",
+          "name": "Card",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2130.0,
+          "height": 581.0
+        }
+      ],
+      "components": [],
+      "screen_count": 4,
+      "component_count": 0,
+      "light_desktop_screens": 4,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "282:46786",
+      "page_name": "Calendar",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "283:6564",
+          "name": "Calendar",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2336.0,
+          "height": 1897.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "272:15975",
+      "page_name": "Chat",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "272:16831",
+          "name": "Chat",
+          "type": "FRAME",
+          "skip": false,
+          "width": 988.0,
+          "height": 1507.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "43:630",
+      "page_name": "Chart",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "58:2834",
+          "name": "Bar Chart",
+          "type": "FRAME",
+          "skip": false,
+          "width": 3836.0,
+          "height": 4521.0
+        },
+        {
+          "id": "72:740",
+          "name": "Line Chart",
+          "type": "FRAME",
+          "skip": false,
+          "width": 3836.0,
+          "height": 4521.0
+        },
+        {
+          "id": "73:5482",
+          "name": "Progress Chart",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1480.0,
+          "height": 876.0
+        },
+        {
+          "id": "101:12309",
+          "name": "Wheel Chart",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1924.0,
+          "height": 1527.0
+        }
+      ],
+      "components": [],
+      "screen_count": 4,
+      "component_count": 0,
+      "light_desktop_screens": 4,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "14:8183",
+      "page_name": "Input Field",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "14:8461",
+          "name": "Text Field",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1732.0,
+          "height": 1718.0
+        },
+        {
+          "id": "51:62",
+          "name": "Select",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1916.0,
+          "height": 2102.0
+        },
+        {
+          "id": "188:12087",
+          "name": "Datepicker",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2660.0,
+          "height": 1990.0
+        },
+        {
+          "id": "177:14724",
+          "name": "Suggestion Field",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1756.0,
+          "height": 2297.0
+        },
+        {
+          "id": "175:13260",
+          "name": "Text Area",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1396.0,
+          "height": 933.0
+        },
+        {
+          "id": "177:14639",
+          "name": "Image",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1070.0,
+          "height": 1594.0
+        }
+      ],
+      "components": [
+        {
+          "id": "84:4375",
+          "name": "Selection Controls",
+          "type": "FRAME",
+          "skip": false,
+          "width": 657.0,
+          "height": 518.0
+        }
+      ],
+      "screen_count": 6,
+      "component_count": 1,
+      "light_desktop_screens": 6,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "13:83",
+      "page_name": "Menu",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "13:198",
+          "name": "Text Menu",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2110.0,
+          "height": 3124.0
+        },
+        {
+          "id": "14:9114",
+          "name": "Profile",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1384.0,
+          "height": 824.0
+        },
+        {
+          "id": "42:1297",
+          "name": "Kebab Menu",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1380.0,
+          "height": 1140.0
+        },
+        {
+          "id": "23:3118",
+          "name": "Sidebar Menu",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1280.0,
+          "height": 1370.0
+        },
+        {
+          "id": "23:3428",
+          "name": "Header",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1540.0,
+          "height": 516.0
+        },
+        {
+          "id": "21:981",
+          "name": "Notification",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1596.0,
+          "height": 1479.0
+        },
+        {
+          "id": "21:3198",
+          "name": "Message",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1596.0,
+          "height": 1397.0
+        },
+        {
+          "id": "23:2552",
+          "name": "Calendar",
+          "type": "FRAME",
+          "skip": false,
+          "width": 932.0,
+          "height": 776.0
+        }
+      ],
+      "components": [
+        {
+          "id": "21:906",
+          "name": "Language",
+          "type": "FRAME",
+          "skip": false,
+          "width": 772.0,
+          "height": 568.0
+        }
+      ],
+      "screen_count": 8,
+      "component_count": 1,
+      "light_desktop_screens": 8,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "99:4638",
+      "page_name": "Map",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "101:5203",
+          "name": "Map",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1347.0,
+          "height": 1624.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "180:17568",
+      "page_name": "Notification",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "180:17570",
+          "name": "Notification",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1404.0,
+          "height": 547.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "84:3892",
+      "page_name": "Pagination",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "84:3894",
+          "name": "Pagination",
+          "type": "FRAME",
+          "skip": false,
+          "width": 728.0,
+          "height": 644.0
+        },
+        {
+          "id": "90:1539",
+          "name": "Stepper",
+          "type": "FRAME",
+          "skip": false,
+          "width": 452.0,
+          "height": 516.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 2,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 2
+    },
+    {
+      "page_id": "175:14151",
+      "page_name": "Progress",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "175:14153",
+          "name": "Progress",
+          "type": "FRAME",
+          "skip": false,
+          "width": 624.0,
+          "height": 380.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 1,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 1
+    },
+    {
+      "page_id": "99:3812",
+      "page_name": "List",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "101:5637",
+          "name": "List",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1908.0,
+          "height": 3340.0
+        },
+        {
+          "id": "101:6467",
+          "name": "Widget",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1572.0,
+          "height": 3432.0
+        }
+      ],
+      "components": [],
+      "screen_count": 2,
+      "component_count": 0,
+      "light_desktop_screens": 2,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "43:809",
+      "page_name": "Table",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "84:1986",
+          "name": "Cell",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1708.0,
+          "height": 1948.0
+        },
+        {
+          "id": "283:75217",
+          "name": "Table",
+          "type": "FRAME",
+          "skip": false,
+          "width": 2668.0,
+          "height": 3885.0
+        }
+      ],
+      "components": [],
+      "screen_count": 2,
+      "component_count": 0,
+      "light_desktop_screens": 2,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "58:703",
+      "page_name": "Tab",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "58:705",
+          "name": "Tab",
+          "type": "FRAME",
+          "skip": false,
+          "width": 932.0,
+          "height": 778.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "14:6942",
+      "page_name": "Tooltips",
+      "skip_page": false,
+      "screens": [
+        {
+          "id": "14:6952",
+          "name": "Tootip",
+          "type": "FRAME",
+          "skip": false,
+          "width": 1014.0,
+          "height": 560.0
+        }
+      ],
+      "components": [],
+      "screen_count": 1,
+      "component_count": 0,
+      "light_desktop_screens": 1,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "14:334",
+      "page_name": "---",
+      "skip_page": false,
+      "screens": [],
+      "components": [],
+      "screen_count": 0,
+      "component_count": 0,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 0
+    },
+    {
+      "page_id": "14:335",
+      "page_name": "Icon",
+      "skip_page": false,
+      "screens": [],
+      "components": [
+        {
+          "id": "14:337",
+          "name": "Phosphor Icons Regular",
+          "type": "FRAME",
+          "skip": false,
+          "width": 856.0,
+          "height": 4984.0
+        },
+        {
+          "id": "14:3362",
+          "name": "Phosphor Icons Fill",
+          "type": "FRAME",
+          "skip": false,
+          "width": 856.0,
+          "height": 4984.0
+        },
+        {
+          "id": "283:60122",
+          "name": "Social",
+          "type": "FRAME",
+          "skip": false,
+          "width": 376.0,
+          "height": 184.0
+        }
+      ],
+      "screen_count": 0,
+      "component_count": 3,
+      "light_desktop_screens": 0,
+      "light_desktop_components": 3
+    }
+  ],
+  "totals": {
+    "pages": 27,
+    "all_screens": 166,
+    "all_components": 12,
+    "light_desktop_screens": 166,
+    "light_desktop_components": 12,
+    "skipped_screens": 0,
+    "skipped_components": 0
+  }
+}

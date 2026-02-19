@@ -1,0 +1,2766 @@
+{
+  "kit_name": "Majin",
+  "file_key": "FcQ8RuwXhtMfNXOJDlZYS7",
+  "db_item_count": 26,
+  "total_screens": 27,
+  "processed_screens": [
+    "icon_buildings.png",
+    "icon_communication.png",
+    "icon_editor.png",
+    "icon_arrows.png",
+    "icon_document.png",
+    "icon_finance.png",
+    "icon_health_medical.png",
+    "icon_map.png",
+    "icon_media.png",
+    "icon_logo.png",
+    "icon_device.png",
+    "icon_business.png",
+    "icon_design.png",
+    "icon_flags.png",
+    "icon_others.png",
+    "icon_user_faces.png",
+    "icon_development.png",
+    "icon_system.png",
+    "getting_started_contact_us.png",
+    "web_pages_pricing_page.png",
+    "icon_weather.png",
+    "getting_started_overview.png",
+    "web_pages_contact_page.png",
+    "web_pages_article_page.png",
+    "web_pages_landing_page_1.png",
+    "cover_thumbnail.png",
+    "web_pages_landing_page_2.png"
+  ],
+  "screens": {
+    "icon_buildings.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, solid",
+            "count": 2,
+            "description": "A set of icons representing buildings and structures in both outline and solid styles."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 9,
+            "description": "Horizontal dividers separating the icon sets."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 1690
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_communication.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "various",
+            "count": 2,
+            "description": "A collection of various icons for chat and messaging functionality"
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "filled/outline",
+            "count": 2,
+            "description": "Chat bubble icons for messaging"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "various",
+            "count": 1,
+            "description": "Individual icons used as buttons"
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 1726
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_editor.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "various",
+            "count": 1,
+            "description": "A collection of typography samples showcasing different font styles, sizes, and symbols."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "various",
+            "count": 1,
+            "description": "A collection of various icons, including symbols, glyphs, and characters."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line dividing the typography samples from the icon set."
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 1744
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_arrows.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "monochrome",
+            "count": 2,
+            "description": "A collection of various icons in different styles and sizes."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "outlined, filled",
+            "count": 16,
+            "description": "Small buttons with icons, some filled and some outlined."
+          },
+          {
+            "component_type": "button",
+            "variant": "icon, outlined, filled",
+            "count": 6,
+            "description": "Various button styles with icons."
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 1733
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_document.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline",
+            "count": 1,
+            "description": "A collection of various icons in outline style"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "filled",
+            "count": 1,
+            "description": "A collection of various icons in filled style"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2264
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_finance.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, solid",
+            "count": 2,
+            "description": "A collection of icons for various e-commerce and finance-related actions and objects"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "outline, solid",
+            "count": 12,
+            "description": "Icon buttons for various actions"
+          },
+          {
+            "component_type": "button",
+            "variant": "not shown explicitly but implied through icons",
+            "count": 0,
+            "description": "Not directly shown but implied through shopping cart and other action icons"
+          },
+          {
+            "component_type": "badge",
+            "variant": "not shown explicitly",
+            "count": 0,
+            "description": "Implied through VIP icon"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "not shown",
+            "count": 0,
+            "description": "Not directly shown"
+          },
+          {
+            "component_type": "chip",
+            "variant": "not shown explicitly",
+            "count": 0,
+            "description": "Implied through various status icons"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal, implied",
+            "count": 2,
+            "description": "Horizontal lines separating sections"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 1894
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_health_medical.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, filled, various sizes",
+            "count": 2,
+            "description": "A collection of medical-related icons in outline and filled styles"
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 1651
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_map.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, filled",
+            "count": 2,
+            "description": "A collection of icons for various travel and transportation-related actions and objects"
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 1766
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_media.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline",
+            "count": 2,
+            "description": "A collection of icons for media player and video editing controls"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "filled",
+            "count": 1,
+            "description": "A collection of filled icons for media player and video editing controls"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2271
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_logo.png": {
+      "subfolder": "screens",
+      "size_mb": 0.09,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "monochrome",
+            "count": 1,
+            "description": "A collection of various social media and technology logos/icons"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal lines separating sections"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2263
+      },
+      "processed_at": "2026-02-18T01:07:47.244467"
+    },
+    "icon_device.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "line, solid",
+            "count": 2,
+            "description": "A collection of various icons for different devices, actions, and objects."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "line, solid",
+            "count": 2,
+            "description": "Icon buttons are represented within the icon set."
+          },
+          {
+            "component_type": "button",
+            "variant": "not explicitly shown but implied through icons",
+            "count": 0,
+            "description": "No explicit buttons are shown, but icons could be used as button elements."
+          },
+          {
+            "component_type": "alert",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No alerts are directly visible."
+          },
+          {
+            "component_type": "badge",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No badges are directly visible."
+          },
+          {
+            "component_type": "chip",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No chips are directly visible."
+          },
+          {
+            "component_type": "divider",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No dividers are directly visible."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No avatars are directly visible."
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No progress bars are directly visible."
+          },
+          {
+            "component_type": "loading_state",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No loading states are directly visible."
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No empty states are directly visible."
+          },
+          {
+            "component_type": "error_state",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No error states are directly visible."
+          },
+          {
+            "component_type": "notification",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No notifications are directly visible."
+          },
+          {
+            "component_type": "snackbar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No snackbars are directly visible."
+          },
+          {
+            "component_type": "dialog",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No dialogs are directly visible."
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No tooltips are directly visible."
+          },
+          {
+            "component_type": "modal",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No modals are directly visible."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No navbars are directly visible."
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No sidebars are directly visible."
+          },
+          {
+            "component_type": "footer",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No footers are directly visible."
+          },
+          {
+            "component_type": "form",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No forms are directly visible."
+          },
+          {
+            "component_type": "input",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No inputs are directly visible."
+          },
+          {
+            "component_type": "textarea",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No textareas are directly visible."
+          },
+          {
+            "component_type": "select",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No selects are directly visible."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No checkboxes are directly visible."
+          },
+          {
+            "component_type": "radio",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No radios are directly visible."
+          },
+          {
+            "component_type": "toggle",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No toggles are directly visible."
+          },
+          {
+            "component_type": "switch",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No switches are directly visible."
+          },
+          {
+            "component_type": "slider",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No sliders are directly visible."
+          },
+          {
+            "component_type": "calendar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No calendars are directly visible."
+          },
+          {
+            "component_type": "date_picker",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No date pickers are directly visible."
+          },
+          {
+            "component_type": "file_upload",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No file uploads are directly visible."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No search bars are directly visible."
+          },
+          {
+            "component_type": "breadcrumb",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No breadcrumbs are directly visible."
+          },
+          {
+            "component_type": "pagination",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No paginations are directly visible."
+          },
+          {
+            "component_type": "stepper",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No steppers are directly visible."
+          },
+          {
+            "component_type": "accordion",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No accordions are directly visible."
+          },
+          {
+            "component_type": "tab",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No tabs are directly visible."
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No dropdowns are directly visible."
+          },
+          {
+            "component_type": "menu",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No menus are directly visible."
+          },
+          {
+            "component_type": "fab",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No fabs are directly visible."
+          },
+          {
+            "component_type": "list",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No lists are directly visible."
+          },
+          {
+            "component_type": "grid",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No grids are directly visible."
+          },
+          {
+            "component_type": "card",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No cards are directly visible."
+          },
+          {
+            "component_type": "chart",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No charts are directly visible."
+          },
+          {
+            "component_type": "table",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No tables are directly visible."
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No stat cards are directly visible."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No pricing cards are directly visible."
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No testimonials are directly visible."
+          },
+          {
+            "component_type": "hero",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No heroes are directly visible."
+          },
+          {
+            "component_type": "timeline",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No timelines are directly visible."
+          },
+          {
+            "component_type": "rating",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No ratings are directly visible."
+          },
+          {
+            "component_type": "tag",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No tags are directly visible."
+          },
+          {
+            "component_type": "banner",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No banners are directly visible."
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No color swatches are directly visible."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No typography samples are directly visible."
+          },
+          {
+            "component_type": "illustration",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No illustrations are directly visible."
+          },
+          {
+            "component_type": "player",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No players are directly visible."
+          },
+          {
+            "component_type": "editor",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No editors are directly visible."
+          },
+          {
+            "component_type": "comment",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No comments are directly visible."
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No chat bubbles are directly visible."
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No notification panels are directly visible."
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No sidebar navs are directly visible."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No top navs are directly visible."
+          },
+          {
+            "component_type": "bottom_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No bottom navs are directly visible."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No tab bars are directly visible."
+          },
+          {
+            "component_type": "pagination",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No paginations are directly visible."
+          },
+          {
+            "component_type": "breadcrumb_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No breadcrumb navs are directly visible."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No step indicators are directly visible."
+          },
+          {
+            "component_type": "kanban",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No kanban boards are directly visible."
+          },
+          {
+            "component_type": "map",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No maps are directly visible."
+          },
+          {
+            "component_type": "data_table",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No data tables are directly visible."
+          },
+          {
+            "component_type": "dashboard_widget",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No dashboard widgets are directly visible."
+          },
+          {
+            "component_type": "onboarding",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No onboarding components are directly visible."
+          },
+          {
+            "component_type": "login",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No login components are directly visible."
+          },
+          {
+            "component_type": "signup",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No signup components are directly visible."
+          },
+          {
+            "component_type": "profile",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No profile components are directly visible."
+          },
+          {
+            "component_type": "settings",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "No settings components are directly visible."
+          }
+        ],
+        "component_count": 78,
+        "tokens_used": 4750
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_business.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, solid",
+            "count": 2,
+            "description": "A collection of various icons for different UI elements and actions"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "outline, solid",
+            "count": 12,
+            "description": "Small buttons that use icons to represent actions"
+          },
+          {
+            "component_type": "button",
+            "variant": "not explicitly shown but implied through icons",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "alert",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "badge",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "chart",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "calendar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "card",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "carousel",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "chip",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "datepicker",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "dialog",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "divider",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "error_state",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "fab",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "file_upload",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "footer",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "form",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "grid",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "hero",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "input",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "list",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "loading_state",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "login",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "menu",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "modal",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "navbar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "notification",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "onboarding",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "pagination",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "player",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "radio",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "rating",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "select",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "slider",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "snackbar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "stepper",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "switch",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "tab",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "tag",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "textarea",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "timeline",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "toast",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "bottom_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "breadcrumb_nav",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "illustration",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "kanban",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "map",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "data_table",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "dashboard_widget",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "comment",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "editor",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "profile",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "settings",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          },
+          {
+            "component_type": "signup",
+            "variant": "not explicitly shown",
+            "count": 0,
+            "description": "Not directly visible but implied through context"
+          }
+        ],
+        "component_count": 73,
+        "tokens_used": 4634
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_design.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, filled",
+            "count": 2,
+            "description": "A collection of icons in outline and filled styles"
+          },
+          {
+            "component_type": "button",
+            "variant": "icon, outline, filled",
+            "count": 6,
+            "description": "Various button styles including icon buttons, outline, and filled"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "outline, filled",
+            "count": 8,
+            "description": "Icon buttons in different outline and filled styles"
+          },
+          {
+            "component_type": "fab",
+            "variant": "outline, filled",
+            "count": 2,
+            "description": "Floating Action Buttons in outline and filled styles"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "image, icon",
+            "count": 2,
+            "description": "Avatar components with image and icon variants"
+          },
+          {
+            "component_type": "badge",
+            "variant": "outline, filled, different sizes",
+            "count": 4,
+            "description": "Badges in various styles including outline, filled, and different sizes"
+          },
+          {
+            "component_type": "chip",
+            "variant": "outline, filled",
+            "count": 4,
+            "description": "Chips in outline and filled styles"
+          },
+          {
+            "component_type": "tag",
+            "variant": "outline, filled",
+            "count": 2,
+            "description": "Tags in outline and filled styles"
+          },
+          {
+            "component_type": "alert",
+            "variant": "success, error, warning, info",
+            "count": 4,
+            "description": "Alerts in different states (success, error, warning, info)"
+          },
+          {
+            "component_type": "notification",
+            "variant": "toast, alert",
+            "count": 2,
+            "description": "Notifications in toast and alert styles"
+          },
+          {
+            "component_type": "snackbar",
+            "variant": "success, error",
+            "count": 2,
+            "description": "Snackbars in success and error states"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "simple",
+            "count": 1,
+            "description": "Tooltips in a simple style"
+          },
+          {
+            "component_type": "dialog",
+            "variant": "simple",
+            "count": 1,
+            "description": "Dialogs in a simple style"
+          },
+          {
+            "component_type": "modal",
+            "variant": "simple",
+            "count": 1,
+            "description": "Modals in a simple style"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "simple",
+            "count": 1,
+            "description": "Dropdowns in a simple style"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "switch",
+            "count": 1,
+            "description": "Toggles in switch style"
+          },
+          {
+            "component_type": "switch",
+            "variant": "simple",
+            "count": 1,
+            "description": "Switches in a simple style"
+          },
+          {
+            "component_type": "slider",
+            "variant": "simple",
+            "count": 1,
+            "description": "Sliders in a simple style"
+          },
+          {
+            "component_type": "radio",
+            "variant": "simple",
+            "count": 1,
+            "description": "Radios in a simple style"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "simple",
+            "count": 1,
+            "description": "Checkboxes in a simple style"
+          },
+          {
+            "component_type": "input",
+            "variant": "text, password",
+            "count": 2,
+            "description": "Inputs for text and password"
+          },
+          {
+            "component_type": "textarea",
+            "variant": "simple",
+            "count": 1,
+            "description": "Textareas in a simple style"
+          },
+          {
+            "component_type": "select",
+            "variant": "simple",
+            "count": 1,
+            "description": "Selects in a simple style"
+          },
+          {
+            "component_type": "datepicker",
+            "variant": "simple",
+            "count": 1,
+            "description": "Datepickers in a simple style"
+          },
+          {
+            "component_type": "calendar",
+            "variant": "simple",
+            "count": 1,
+            "description": "Calendars in a simple style"
+          },
+          {
+            "component_type": "timepicker",
+            "variant": "simple",
+            "count": 0,
+            "description": "No timepicker found"
+          },
+          {
+            "component_type": "file_upload",
+            "variant": "simple",
+            "count": 1,
+            "description": "File uploads in a simple style"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "simple",
+            "count": 1,
+            "description": "Progress bars in a simple style"
+          },
+          {
+            "component_type": "rating",
+            "variant": "star",
+            "count": 1,
+            "description": "Ratings in star style"
+          },
+          {
+            "component_type": "pagination",
+            "variant": "simple",
+            "count": 1,
+            "description": "Pagination in a simple style"
+          },
+          {
+            "component_type": "breadcrumb",
+            "variant": "simple",
+            "count": 1,
+            "description": "Breadcrumbs in a simple style"
+          },
+          {
+            "component_type": "stepper",
+            "variant": "simple",
+            "count": 1,
+            "description": "Step indicators in a simple style"
+          },
+          {
+            "component_type": "accordion",
+            "variant": "simple",
+            "count": 1,
+            "description": "Accordions in a simple style"
+          },
+          {
+            "component_type": "list",
+            "variant": "simple",
+            "count": 1,
+            "description": "Lists in a simple style"
+          },
+          {
+            "component_type": "grid",
+            "variant": "simple",
+            "count": 1,
+            "description": "Grids in a simple style"
+          },
+          {
+            "component_type": "card",
+            "variant": "simple",
+            "count": 1,
+            "description": "Cards in a simple style"
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "simple",
+            "count": 1,
+            "description": "Stat cards in a simple style"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "simple",
+            "count": 1,
+            "description": "Pricing cards in a simple style"
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "simple",
+            "count": 1,
+            "description": "Testimonials in a simple style"
+          },
+          {
+            "component_type": "hero",
+            "variant": "simple",
+            "count": 1,
+            "description": "Hero sections in a simple style"
+          },
+          {
+            "component_type": "footer",
+            "variant": "simple",
+            "count": 1,
+            "description": "Footers in a simple style"
+          },
+          {
+            "component_type": "navbar",
+            "variant": "simple",
+            "count": 1,
+            "description": "Navigation bars in a simple style"
+          },
+          {
+            "component_type": "sidebar",
+            "variant": "simple",
+            "count": 1,
+            "description": "Sidebars in a simple style"
+          },
+          {
+            "component_type": "tab",
+            "variant": "simple",
+            "count": 1,
+            "description": "Tabs in a simple style"
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "simple",
+            "count": 1,
+            "description": "Tab bars in a simple style"
+          },
+          {
+            "component_type": "bottom_nav",
+            "variant": "simple",
+            "count": 1,
+            "description": "Bottom navigation in a simple style"
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "simple",
+            "count": 1,
+            "description": "Top navigation in a simple style"
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "simple",
+            "count": 1,
+            "description": "Sidebar navigation in a simple style"
+          },
+          {
+            "component_type": "breadcrumb_nav",
+            "variant": "simple",
+            "count": 1,
+            "description": "Breadcrumbs navigation in a simple style"
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "simple",
+            "count": 1,
+            "description": "Step indicators in a simple style"
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "simple",
+            "count": 1,
+            "description": "Color swatches in a simple style"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "simple",
+            "count": 1,
+            "description": "Typography samples in a simple style"
+          },
+          {
+            "component_type": "illustration",
+            "variant": "simple",
+            "count": 1,
+            "description": "Illustrations in a simple style"
+          },
+          {
+            "component_type": "chart",
+            "variant": "simple",
+            "count": 1,
+            "description": "Charts in a simple style"
+          },
+          {
+            "component_type": "table",
+            "variant": "simple",
+            "count": 1,
+            "description": "Tables in a simple style"
+          },
+          {
+            "component_type": "data_table",
+            "variant": "simple",
+            "count": 1,
+            "description": "Data tables in a simple style"
+          },
+          {
+            "component_type": "kanban",
+            "variant": "simple",
+            "count": 1,
+            "description": "Kanban boards in a simple style"
+          },
+          {
+            "component_type": "map",
+            "variant": "simple",
+            "count": 1,
+            "description": "Maps in a simple style"
+          },
+          {
+            "component_type": "player",
+            "variant": "simple",
+            "count": 1,
+            "description": "Media players in a simple style"
+          },
+          {
+            "component_type": "editor",
+            "variant": "simple",
+            "count": 1,
+            "description": "Editors in a simple style"
+          },
+          {
+            "component_type": "comment",
+            "variant": "simple",
+            "count": 1,
+            "description": "Comments in a simple style"
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "simple",
+            "count": 1,
+            "description": "Chat bubbles in a simple style"
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "simple",
+            "count": 1,
+            "description": "Notification panels in a simple style"
+          },
+          {
+            "component_type": "dashboard_widget",
+            "variant": "simple",
+            "count": 1,
+            "description": "Dashboard widgets in a simple style"
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "simple",
+            "count": 1,
+            "description": "Empty states in a simple style"
+          },
+          {
+            "component_type": "error_state",
+            "variant": "simple",
+            "count": 1,
+            "description": "Error states in a simple style"
+          },
+          {
+            "component_type": "loading_state",
+            "variant": "simple",
+            "count": 1,
+            "description": "Loading states in a simple style"
+          },
+          {
+            "component_type": "onboarding",
+            "variant": "simple",
+            "count": 1,
+            "description": "Onboarding flows in a simple style"
+          },
+          {
+            "component_type": "login",
+            "variant": "simple",
+            "count": 1,
+            "description": "Login forms in a simple style"
+          },
+          {
+            "component_type": "signup",
+            "variant": "simple",
+            "count": 1,
+            "description": "Signup forms in a simple style"
+          },
+          {
+            "component_type": "profile",
+            "variant": "simple",
+            "count": 1,
+            "description": "Profile pages in a simple style"
+          },
+          {
+            "component_type": "settings",
+            "variant": "simple",
+            "count": 1,
+            "description": "Settings pages in a simple style"
+          }
+        ],
+        "component_count": 72,
+        "tokens_used": 4421
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_flags.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "multicolor",
+            "count": 1,
+            "description": "A set of circular icons representing various country flags"
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 2225
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_others.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "monochrome",
+            "count": 1,
+            "description": "A collection of monochrome icons"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "filled",
+            "count": 1,
+            "description": "A collection of filled icons"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 1681
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_user_faces.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline, filled",
+            "count": 2,
+            "description": "A collection of icons representing different user interface elements, primarily focused on user and emoticon representations."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "filled, outlined",
+            "count": 16,
+            "description": "Simple user avatar icons in various styles and combinations."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "filled, outlined",
+            "count": 8,
+            "description": "Icon buttons represented by simple icons."
+          }
+        ],
+        "component_count": 3,
+        "tokens_used": 1739
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_development.png": {
+      "subfolder": "screens",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "monochrome",
+            "count": 2,
+            "description": "A collection of icons for coding and development"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Icon buttons for various actions"
+          },
+          {
+            "component_type": "button",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Buttons for various actions"
+          },
+          {
+            "component_type": "input",
+            "variant": "text, code",
+            "count": 2,
+            "description": "Input fields for text and code"
+          },
+          {
+            "component_type": "code_editor",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Code editor components"
+          },
+          {
+            "component_type": "terminal",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Terminal or console components"
+          },
+          {
+            "component_type": "browser_window",
+            "variant": "light, dark",
+            "count": 2,
+            "description": "Browser window or frame components"
+          },
+          {
+            "component_type": "connection_node",
+            "variant": "light, dark",
+            "count": 6,
+            "description": "Connection nodes or joiner components"
+          },
+          {
+            "component_type": "cursor",
+            "variant": "pointer",
+            "count": 1,
+            "description": "Cursor icon"
+          },
+          {
+            "component_type": "link",
+            "variant": "text",
+            "count": 4,
+            "description": "Text links"
+          },
+          {
+            "component_type": "brackets",
+            "variant": "code",
+            "count": 6,
+            "description": "Code brackets"
+          },
+          {
+            "component_type": "parenthesis",
+            "variant": "code",
+            "count": 2,
+            "description": "Code parenthesis"
+          },
+          {
+            "component_type": "braces",
+            "variant": "code",
+            "count": 2,
+            "description": "Code braces"
+          },
+          {
+            "component_type": "chip",
+            "variant": "language",
+            "count": 2,
+            "description": "Language chips"
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 2127
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_system.png": {
+      "subfolder": "screens",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "outline and filled",
+            "count": 1,
+            "description": "A collection of various icons in both outline and filled styles."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "outline and filled",
+            "count": 16,
+            "description": "Small buttons with icons, available in both outline and filled styles."
+          },
+          {
+            "component_type": "button",
+            "variant": "not explicitly shown but implied through icons",
+            "count": 0,
+            "description": "Not directly visible but implied through the presence of button-like icons."
+          },
+          {
+            "component_type": "toggle",
+            "variant": "not explicitly shown but implied through icons",
+            "count": 0,
+            "description": "Not directly visible but implied through the presence of toggle-like icons."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "not explicitly shown but implied through icons",
+            "count": 0,
+            "description": "Not directly visible but implied through the presence of checkbox-like icons."
+          },
+          {
+            "component_type": "radio",
+            "variant": "not explicitly shown but implied through icons",
+            "count": 0,
+            "description": "Not directly visible but implied through the presence of radio-like icons."
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2475
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "getting_started_contact_us.png": {
+      "subfolder": "components",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "A container with a logo, text, and buttons"
+          },
+          {
+            "component_type": "icon",
+            "variant": "monochrome",
+            "count": 1,
+            "description": "A stylized logo icon"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A call-to-action button with the text 'Contact us'"
+          },
+          {
+            "component_type": "link",
+            "variant": "text",
+            "count": 1,
+            "description": "A link with the text 'Site links'"
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading with the text 'Lunative Studio'"
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 2,
+            "description": "Two blocks of body text with information about the studio"
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 1562
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "web_pages_pricing_page.png": {
+      "subfolder": "screens",
+      "size_mb": 0.65,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with links to Features, Why Majin?, and Resources"
+          },
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "Hero section with title, subtitle, and call-to-action button"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "light",
+            "count": 2,
+            "description": "Pricing cards for Personal and Teams plans"
+          },
+          {
+            "component_type": "tab",
+            "variant": "light",
+            "count": 2,
+            "description": "Tabs for Monthly and Yearly plans"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "Call-to-action buttons for Get started and Purchase"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Contact us button"
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "light",
+            "count": 2,
+            "description": "Stat cards for Workflow enhances and Worldwide users"
+          },
+          {
+            "component_type": "table",
+            "variant": "light",
+            "count": 1,
+            "description": "Comparison table for Plans and Features"
+          },
+          {
+            "component_type": "accordion",
+            "variant": "light",
+            "count": 4,
+            "description": "Accordion for Frequently asked questions"
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "light",
+            "count": 1,
+            "description": "Testimonial with quote and author"
+          },
+          {
+            "component_type": "footer",
+            "variant": "light",
+            "count": 1,
+            "description": "Footer with links to About us, Careers, and Support"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 2,
+            "description": "Icon buttons for social media links"
+          },
+          {
+            "component_type": "chip",
+            "variant": "light",
+            "count": 1,
+            "description": "Chip for NEW label"
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 1,
+            "description": "Badge for Updated label"
+          },
+          {
+            "component_type": "toggle",
+            "variant": "light",
+            "count": 2,
+            "description": "Toggles for plan selection"
+          },
+          {
+            "component_type": "radio",
+            "variant": "light",
+            "count": 2,
+            "description": "Radio buttons for plan selection"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "light",
+            "count": 1,
+            "description": "Checkbox for terms and conditions"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "light",
+            "count": 1,
+            "description": "Typography sample for title and subtitle"
+          }
+        ],
+        "component_count": 18,
+        "tokens_used": 3466
+      },
+      "processed_at": "2026-02-18T01:08:52.722661"
+    },
+    "icon_weather.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "name": "Weather Icons",
+            "location": "center",
+            "purpose": "Displays a collection of weather-related icons",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 1820
+      },
+      "processed_at": "2026-02-18T01:23:43.466014"
+    },
+    "getting_started_overview.png": {
+      "subfolder": "screens",
+      "size_mb": 0.86,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the Majin UI Collection with a welcome message and overview.",
+            "elements": [
+              "title text",
+              "subtitle text",
+              "emoji"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Key Features Section",
+            "location": "center",
+            "purpose": "Lists the key features of the Majin UI Collection.",
+            "elements": [
+              "title text",
+              "list of features"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Benefits of Figma Variables Section",
+            "location": "center",
+            "purpose": "Explains the benefits of using Figma Variables.",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Foundational Component Section",
+            "location": "center",
+            "purpose": "Describes the foundational component system.",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Pixel Perfect Section",
+            "location": "center",
+            "purpose": "Highlights the pixel-perfect design and accessibility features.",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Interactive Ready Section",
+            "location": "center",
+            "purpose": "Describes the interactive elements ready for use.",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Free Updates Section",
+            "location": "center",
+            "purpose": "Informs about the free updates and future improvements.",
+            "elements": [
+              "title text",
+              "description text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom",
+            "purpose": "Provides contact information and a call to action.",
+            "elements": [
+              "store link",
+              "website link",
+              "email address"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading Typography",
+            "location": "top-center",
+            "purpose": "Displays a sample of heading typography.",
+            "elements": [
+              "heading text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Body Typography",
+            "location": "center",
+            "purpose": "Displays a sample of body typography.",
+            "elements": [
+              "body text"
+            ],
+            "variant": "default",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3479
+      },
+      "processed_at": "2026-02-18T01:23:43.466996"
+    },
+    "web_pages_contact_page.png": {
+      "subfolder": "screens",
+      "size_mb": 0.69,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides main navigation links to different sections of the website",
+            "elements": [
+              "logo",
+              "features link",
+              "why majin link",
+              "resources link",
+              "purchase button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the Majin UI Collection and invites users to learn more",
+            "elements": [
+              "heading",
+              "subheading",
+              "learn more link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "contact_form",
+            "name": "Customer Support Form",
+            "location": "center",
+            "purpose": "Allows users to send messages to customer support",
+            "elements": [
+              "name input",
+              "email input",
+              "message textarea",
+              "send message button",
+              "terms and condition checkbox"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "map",
+            "name": "Contact Map",
+            "location": "center",
+            "purpose": "Displays the physical location of the company",
+            "elements": [
+              "map view",
+              "address text",
+              "phone number text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "faq_section",
+            "name": "Frequently Asked Questions",
+            "location": "center",
+            "purpose": "Provides answers to common questions",
+            "elements": [
+              "question 1",
+              "question 2",
+              "question 3",
+              "question 4",
+              "view all button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Get Started Call to Action",
+            "location": "center",
+            "purpose": "Encourages users to start enhancing their workflow",
+            "elements": [
+              "heading",
+              "subheading",
+              "purchase button",
+              "preview link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Website Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "copyright text",
+              "terms and conditions link",
+              "privacy policy link",
+              "social media links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Footer Navigation",
+            "location": "bottom",
+            "purpose": "Provides links to different sections of the website",
+            "elements": [
+              "workflow link",
+              "company link",
+              "resources link",
+              "features link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom",
+            "purpose": "Displays social media links",
+            "elements": [
+              "email icon",
+              "linkedin icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Tagline",
+            "location": "bottom",
+            "purpose": "Displays a short description of the product",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Purchase Button",
+            "location": "top-right",
+            "purpose": "Encourages users to purchase the product",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Learn More Button",
+            "location": "top-center",
+            "purpose": "Invites users to learn more about the product",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Message Button",
+            "location": "center",
+            "purpose": "Sends the user's message to customer support",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "View All Button",
+            "location": "center",
+            "purpose": "Displays all frequently asked questions",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Purchase Now Button",
+            "location": "center",
+            "purpose": "Encourages users to purchase the product",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Preview Link",
+            "location": "center",
+            "purpose": "Allows users to preview the product",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          }
+        ],
+        "component_count": 16,
+        "tokens_used": 3894
+      },
+      "processed_at": "2026-02-18T01:23:43.466996"
+    },
+    "web_pages_article_page.png": {
+      "subfolder": "screens",
+      "size_mb": 1.45,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the main purpose of Majin Board",
+            "elements": [
+              "heading",
+              "subheading",
+              "image"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Streamline your projects",
+            "location": "center",
+            "purpose": "Describes a feature of Majin Board",
+            "elements": [
+              "heading",
+              "description",
+              "image"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Prioritize effectively",
+            "location": "center",
+            "purpose": "Describes another feature of Majin Board",
+            "elements": [
+              "heading",
+              "description",
+              "image"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "testimonial",
+            "name": "Testimonial",
+            "location": "center",
+            "purpose": "Displays a user testimonial",
+            "elements": [
+              "quote",
+              "author",
+              "avatar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Start enhancing your workflow today",
+            "location": "bottom-center",
+            "purpose": "Encourages the user to take action",
+            "elements": [
+              "heading",
+              "description",
+              "button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Purchase Button",
+            "location": "top-right",
+            "purpose": "Allows users to purchase Majin",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Learn more Button",
+            "location": "top-center",
+            "purpose": "Provides more information about Majin UI Collection",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation",
+            "location": "top-center",
+            "purpose": "Provides navigation links",
+            "elements": [
+              "Features",
+              "Why Majin?",
+              "Resources"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "social_icons",
+              "contact_info",
+              "copyright"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "related_articles",
+            "name": "Related Articles",
+            "location": "center",
+            "purpose": "Displays related articles",
+            "elements": [
+              "article_card",
+              "article_card",
+              "article_card"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "faq_section",
+            "name": "Frequently Asked Questions",
+            "location": "center",
+            "purpose": "Displays frequently asked questions",
+            "elements": [
+              "question",
+              "answer",
+              "question",
+              "answer"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "profile_card",
+            "name": "Author Profile Card",
+            "location": "center",
+            "purpose": "Displays author information",
+            "elements": [
+              "avatar",
+              "name",
+              "date"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "image",
+            "name": "Article Images",
+            "location": "center",
+            "purpose": "Illustrates the article",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Headings",
+            "location": "center",
+            "purpose": "Displays headings",
+            "elements": [],
+            "variant": "",
+            "count": 5
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3826
+      },
+      "processed_at": "2026-02-18T01:23:43.466996"
+    },
+    "web_pages_landing_page_1.png": {
+      "subfolder": "screens",
+      "size_mb": 2.39,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:23:43.468002"
+    },
+    "cover_thumbnail.png": {
+      "subfolder": "screens",
+      "size_mb": 2.3,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:23:43.468002"
+    },
+    "web_pages_landing_page_2.png": {
+      "subfolder": "screens",
+      "size_mb": 1.61,
+      "result": {
+        "status": "error",
+        "reason": "Connection error.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:23:43.468002"
+    }
+  },
+  "summary": {
+    "total_screens": 24,
+    "screens_processed": 27,
+    "screens_successful": 24,
+    "screens_skipped": 0,
+    "screens_errored": 3,
+    "total_components_identified": 340,
+    "unique_component_types": 101,
+    "component_type_counts": {
+      "icon_set": 22,
+      "button": 18,
+      "icon_button": 10,
+      "typography_sample": 9,
+      "feature_section": 9,
+      "divider": 6,
+      "chip": 6,
+      "footer": 6,
+      "hero": 6,
+      "badge": 5,
+      "checkbox": 5,
+      "radio": 5,
+      "toggle": 5,
+      "chat_bubble": 4,
+      "avatar": 4,
+      "navbar": 4,
+      "input": 4,
+      "pagination": 4,
+      "tab": 4,
+      "card": 4,
+      "stat_card": 4,
+      "pricing_card": 4,
+      "testimonial": 4,
+      "sidebar_nav": 4,
+      "top_nav": 4,
+      "map": 4,
+      "alert": 3,
+      "progress_bar": 3,
+      "loading_state": 3,
+      "empty_state": 3,
+      "error_state": 3,
+      "notification": 3,
+      "snackbar": 3,
+      "dialog": 3,
+      "tooltip": 3,
+      "modal": 3,
+      "sidebar": 3,
+      "textarea": 3,
+      "select": 3,
+      "switch": 3,
+      "slider": 3,
+      "calendar": 3,
+      "file_upload": 3,
+      "stepper": 3,
+      "accordion": 3,
+      "dropdown": 3,
+      "fab": 3,
+      "list": 3,
+      "grid": 3,
+      "chart": 3,
+      "table": 3,
+      "rating": 3,
+      "tag": 3,
+      "color_swatch": 3,
+      "illustration": 3,
+      "player": 3,
+      "editor": 3,
+      "comment": 3,
+      "notification_panel": 3,
+      "bottom_nav": 3,
+      "tab_bar": 3,
+      "breadcrumb_nav": 3,
+      "step_indicator": 3,
+      "kanban": 3,
+      "data_table": 3,
+      "dashboard_widget": 3,
+      "onboarding": 3,
+      "login": 3,
+      "signup": 3,
+      "profile": 3,
+      "settings": 3,
+      "cta_section": 3,
+      "form": 2,
+      "search_bar": 2,
+      "breadcrumb": 2,
+      "menu": 2,
+      "timeline": 2,
+      "datepicker": 2,
+      "link": 2,
+      "typography": 2,
+      "faq_section": 2,
+      "date_picker": 1,
+      "banner": 1,
+      "carousel": 1,
+      "toast": 1,
+      "timepicker": 1,
+      "code_editor": 1,
+      "terminal": 1,
+      "browser_window": 1,
+      "connection_node": 1,
+      "cursor": 1,
+      "brackets": 1,
+      "parenthesis": 1,
+      "braces": 1,
+      "icon": 1,
+      "header": 1,
+      "contact_form": 1,
+      "social_icons": 1,
+      "related_articles": 1,
+      "profile_card": 1,
+      "image": 1
+    },
+    "completed_at": "2026-02-18T01:23:43.473563"
+  },
+  "started_at": "2026-02-18T01:07:30.264736",
+  "last_checkpoint": "2026-02-18T01:23:43.478557"
+}

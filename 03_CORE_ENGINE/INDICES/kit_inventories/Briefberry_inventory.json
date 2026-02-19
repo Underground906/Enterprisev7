@@ -1,0 +1,5011 @@
+{
+  "kit_name": "Briefberry",
+  "file_key": "NPFFSPpbO27fWSX0cUaFJO",
+  "db_item_count": 57,
+  "total_screens": 39,
+  "processed_screens": [
+    "page_1_brief_linked_page_premium.png",
+    "page_1_brief_premium_ai_typing.png",
+    "page_1_brief_free.png",
+    "page_1_brief_premium_upload_more_images.png",
+    "page_1_budget_breakdown.png",
+    "page_1_create_link_click_on.png",
+    "page_1_edit_form.png",
+    "page_1_form_brief_is_generating.png",
+    "page_1_brief_premium_scrolling.png",
+    "page_1_form_main_goals.png",
+    "page_1_brief_linked_page_v1.png",
+    "page_1_form_main_goals_typing.png",
+    "page_1_form_project_budget.png",
+    "page_1_form_budget_breakdown.png",
+    "page_1_form_project_name.png",
+    "page_1_brief_premium_click_on_regenerate.png",
+    "page_1_brief_premium_click_on_text_box_to_edit.png",
+    "page_1_brief_premium_hover_on_section.png",
+    "page_1_form_references.png",
+    "page_1_brief_premium_edit_references.png",
+    "page_1_form_project_name_typing.png",
+    "page_1_form_type_of_project_hover_select.png",
+    "page_1_brief_premium_action_state_hover.png",
+    "page_1_form_type_of_project.png",
+    "page_1_references_drag_images.png",
+    "page_1_hover_on_regenerate_button.png",
+    "page_1_select_date_calendar.png",
+    "page_1_reset_password_check_your_inbox.png",
+    "page_1_landing_page_gradient_added.png",
+    "page_1_reset_password.png",
+    "page_1_sign_in.png",
+    "page_1_upload_image_state.png",
+    "page_1_sign_up.png",
+    "page_1_hover_on_lock_icon.png",
+    "page_1_typing_or_select_the_day.png",
+    "page_1_form_select_date.png",
+    "page_1_upgrade_to_premium.png",
+    "page_1_brief_premium.png",
+    "page_1_references_uploaded_uploading_link_added.png"
+  ],
+  "screens": {
+    "page_1_brief_linked_page_premium.png": {
+      "subfolder": "screens",
+      "size_mb": 0.25,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Project Title Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the project",
+            "elements": [
+              "title text: U18 Studio 2024",
+              "subtitle text: UI/UI Design"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Section Title",
+            "location": "center",
+            "purpose": "Serves as a title for the introduction section",
+            "elements": [
+              "title text: Introduction"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Text",
+            "location": "center",
+            "purpose": "Provides a brief introduction to the project",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Section Title",
+            "location": "center",
+            "purpose": "Serves as a title for the goals section",
+            "elements": [
+              "title text: Goals"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Text",
+            "location": "center",
+            "purpose": "Describes the goals of the project",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Section Title",
+            "location": "center",
+            "purpose": "Serves as a title for the timeline section",
+            "elements": [
+              "title text: Timeline"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Text",
+            "location": "center",
+            "purpose": "Provides information about the project timeline",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Section Title",
+            "location": "center",
+            "purpose": "Serves as a title for the budget section",
+            "elements": [
+              "title text: Budget"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Text",
+            "location": "center",
+            "purpose": "Details the budget for the project",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Section Title",
+            "location": "center",
+            "purpose": "Serves as a title for the references section",
+            "elements": [
+              "title text: References"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Text",
+            "location": "center",
+            "purpose": "Provides information about references used",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Reference Images",
+            "location": "center",
+            "purpose": "Displays images used for reference",
+            "elements": [
+              "image 1",
+              "image 2",
+              "image 3",
+              "image 4"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Conclusion Section Title",
+            "location": "center",
+            "purpose": "Serves as a title for the conclusion section",
+            "elements": [
+              "title text: Conclusion"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Conclusion Text",
+            "location": "center",
+            "purpose": "Summarizes the project and its objectives",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3844
+      },
+      "processed_at": "2026-02-18T01:58:52.921440"
+    },
+    "page_1_brief_premium_ai_typing.png": {
+      "subfolder": "screens",
+      "size_mb": 0.33,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "logo",
+              "project title",
+              "share icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "button text",
+              "icon"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Card",
+            "location": "center",
+            "purpose": "Displays project information",
+            "elements": [
+              "project title",
+              "introduction text",
+              "goals text",
+              "timeline text",
+              "budget text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "Goals Textarea",
+            "location": "center",
+            "purpose": "Allows editing of the project's goals",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link",
+            "elements": [
+              "button text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Download Button",
+            "location": "bottom-center",
+            "purpose": "Downloads content",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Email Button",
+            "location": "bottom-center",
+            "purpose": "Sends an email",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Share Button",
+            "location": "bottom-center",
+            "purpose": "Shares content",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Copy Link Button",
+            "location": "bottom-center",
+            "purpose": "Copies a link",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3530
+      },
+      "processed_at": "2026-02-18T01:58:52.921440"
+    },
+    "page_1_brief_free.png": {
+      "subfolder": "screens",
+      "size_mb": 0.28,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the page and provides a link to the user's profile.",
+            "elements": [
+              "title text",
+              "link to user's profile"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Allows the user to create a new brief.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "filled",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Share Button",
+            "location": "top-right",
+            "purpose": "Allows the user to share the page.",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title",
+            "location": "center",
+            "purpose": "Displays the title of the project.",
+            "elements": [
+              "title text"
+            ],
+            "variant": "large heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle",
+            "location": "center",
+            "purpose": "Displays the subtitle of the project.",
+            "elements": [
+              "subtitle text"
+            ],
+            "variant": "small heading",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Section Divider",
+            "location": "center",
+            "purpose": "Separates sections of the page.",
+            "elements": [],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Section Title",
+            "location": "center",
+            "purpose": "Displays the title of a section.",
+            "elements": [
+              "section title text"
+            ],
+            "variant": "medium heading",
+            "count": 6
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Section Text",
+            "location": "center",
+            "purpose": "Displays the text of a section.",
+            "elements": [
+              "section text"
+            ],
+            "variant": "body text",
+            "count": 6
+          },
+          {
+            "component_type": "image",
+            "name": "Reference Image",
+            "location": "center",
+            "purpose": "Displays a reference image for the project.",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Conclusion Text",
+            "location": "center",
+            "purpose": "Displays the conclusion text of the project.",
+            "elements": [
+              "conclusion text"
+            ],
+            "variant": "body text",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the Briefberry logo.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3534
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_brief_premium_upload_more_images.png": {
+      "subfolder": "screens",
+      "size_mb": 0.41,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the page and provides context",
+            "elements": [
+              "title text",
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main heading",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "text",
+              "icon"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Reference Images Card",
+            "location": "center",
+            "purpose": "Displays a set of reference images",
+            "elements": [
+              "images",
+              "descriptive text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Reference Image",
+            "location": "center",
+            "purpose": "Displays a reference image",
+            "elements": [],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Share Icon Button",
+            "location": "bottom-center",
+            "purpose": "Shares the content",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Email Icon Button",
+            "location": "bottom-center",
+            "purpose": "Opens email client",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Copy Icon Button",
+            "location": "bottom-center",
+            "purpose": "Copies content to clipboard",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Settings Icon Button",
+            "location": "bottom-right",
+            "purpose": "Opens settings",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Theme Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3637
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_budget_breakdown.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main heading of the page",
+            "elements": [
+              "Let's break down your budget."
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in the process",
+            "elements": [
+              "6/7"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "form",
+            "name": "Budget Breakdown Form",
+            "location": "center",
+            "purpose": "Allows users to input their budget breakdown",
+            "elements": [
+              "Scope of work input",
+              "Budget input",
+              "Add more button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Scope of Work Input",
+            "location": "center",
+            "purpose": "Allows users to input the scope of work",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "input",
+            "name": "Budget Input",
+            "location": "center",
+            "purpose": "Allows users to input the budget",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "button",
+            "name": "Add More Button",
+            "location": "center",
+            "purpose": "Allows users to add more budget breakdowns",
+            "elements": [
+              "+ Add more"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Remove Button",
+            "location": "center",
+            "purpose": "Allows users to remove a budget breakdown",
+            "elements": [
+              "Remove"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to continue to the next step",
+            "elements": [
+              "Continue"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Allows users to go back to the previous step",
+            "elements": [
+              "Previous"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Allows users to toggle the theme",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right Side Skeleton",
+            "location": "right",
+            "purpose": "Displays a skeleton of the right side content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3586
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_create_link_click_on.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "logo",
+              "title text",
+              "settings icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Generates a custom link",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Link Copy Icon Button",
+            "location": "bottom-center",
+            "purpose": "Copies the custom link to the clipboard",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Link Share Icon Button",
+            "location": "bottom-center",
+            "purpose": "Shares the custom link",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Link Refresh Icon Button",
+            "location": "bottom-center",
+            "purpose": "Refreshes the custom link",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Custom Link Input",
+            "location": "center",
+            "purpose": "Displays the custom link",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates content sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Title",
+            "location": "center",
+            "purpose": "Displays the introduction title",
+            "elements": [
+              "title text"
+            ],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Text",
+            "location": "center",
+            "purpose": "Displays the introduction text",
+            "elements": [
+              "text"
+            ],
+            "variant": "body",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Title",
+            "location": "center",
+            "purpose": "Displays the goals title",
+            "elements": [
+              "title text"
+            ],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Text",
+            "location": "center",
+            "purpose": "Displays the goals text",
+            "elements": [
+              "text"
+            ],
+            "variant": "body",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the Briefberry logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3625
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_edit_form.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step in the process",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Type Card",
+            "location": "center",
+            "purpose": "Displays project type options",
+            "elements": [
+              "icon",
+              "label"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Back Button",
+            "location": "top-left",
+            "purpose": "Navigates back to the previous screen",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Text",
+            "location": "top-center",
+            "purpose": "Displays the page title",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates project type cards",
+            "elements": [],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in the process",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3193
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_form_brief_is_generating.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "progress_bar",
+            "name": "Brief Generation Progress Bar",
+            "location": "top-center",
+            "purpose": "Displays the progress of brief generation",
+            "elements": [
+              "progress indicator"
+            ],
+            "variant": "indeterminate",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Brief Card",
+            "location": "center",
+            "purpose": "Displays brief information",
+            "elements": [
+              "title text",
+              "subtitle text",
+              "placeholder content"
+            ],
+            "variant": "loading",
+            "count": 2
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the Briefberry logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Text",
+            "location": "top-center",
+            "purpose": "Displays a header message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles the theme of the application",
+            "elements": [
+              "moon icon",
+              "sun icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Button",
+            "location": "bottom-left",
+            "purpose": "Opens the settings panel",
+            "elements": [
+              "gear icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Scroll to Top Button",
+            "location": "bottom-right",
+            "purpose": "Scrolls the page to the top",
+            "elements": [
+              "up arrow icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3274
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_brief_premium_scrolling.png": {
+      "subfolder": "screens",
+      "size_mb": 0.34,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the page and a green indicator",
+            "elements": [
+              "title text",
+              "green indicator"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Brief Description",
+            "location": "center",
+            "purpose": "Displays a brief description of the project",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Title",
+            "location": "center",
+            "purpose": "Displays the title of the timeline section",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Description",
+            "location": "center",
+            "purpose": "Displays the description of the timeline",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Title",
+            "location": "center",
+            "purpose": "Displays the title of the budget section",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Description",
+            "location": "center",
+            "purpose": "Displays the description of the budget",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Title",
+            "location": "center",
+            "purpose": "Displays the title of the references section",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Description",
+            "location": "center",
+            "purpose": "Displays the description of the references",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link",
+            "elements": [
+              "button text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Share Icon Button",
+            "location": "bottom-center",
+            "purpose": "Shares the content",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Download Icon Button",
+            "location": "bottom-center",
+            "purpose": "Downloads the content",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Delete Icon Button",
+            "location": "bottom-center",
+            "purpose": "Deletes the content",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Info Icon Button",
+            "location": "bottom-center",
+            "purpose": "Displays information",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 15,
+        "tokens_used": 3687
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_form_main_goals.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "textarea",
+            "name": "Project Goals Textarea",
+            "location": "top-center",
+            "purpose": "Allows users to input project goals",
+            "elements": [
+              "label text",
+              "input field"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles the theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "light/dark mode",
+            "count": 1
+          },
+          {
+            "component_type": "stepper",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step",
+            "elements": [
+              "step numbers"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [
+              "image"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the brand logo",
+            "elements": [
+              "logo image"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Text",
+            "location": "top-center",
+            "purpose": "Displays the main heading",
+            "elements": [
+              "heading text"
+            ],
+            "variant": "title",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Label Text",
+            "location": "top-center",
+            "purpose": "Displays the label text",
+            "elements": [
+              "label text"
+            ],
+            "variant": "label",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right Side Skeleton",
+            "location": "right-center",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "rectangles",
+              "lines"
+            ],
+            "variant": "default",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3410
+      },
+      "processed_at": "2026-02-18T01:58:52.922946"
+    },
+    "page_1_brief_linked_page_v1.png": {
+      "subfolder": "screens",
+      "size_mb": 0.26,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Page Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the page",
+            "elements": [
+              "title text: UI8 Studio 2024",
+              "subtitle text: UI/UI Design"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Title",
+            "location": "center",
+            "purpose": "Displays the title of the introduction section",
+            "elements": [
+              "title text: Introduction"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Text",
+            "location": "center",
+            "purpose": "Displays the text of the introduction section",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Title",
+            "location": "center",
+            "purpose": "Displays the title of the goals section",
+            "elements": [
+              "title text: Goals"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Text",
+            "location": "center",
+            "purpose": "Displays the text of the goals section",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Title",
+            "location": "center",
+            "purpose": "Displays the title of the timeline section",
+            "elements": [
+              "title text: Timeline"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Text",
+            "location": "center",
+            "purpose": "Displays the text of the timeline section",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Title",
+            "location": "center",
+            "purpose": "Displays the title of the budget section",
+            "elements": [
+              "title text: Budget"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Text",
+            "location": "center",
+            "purpose": "Displays the text of the budget section",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Title",
+            "location": "center",
+            "purpose": "Displays the title of the references section",
+            "elements": [
+              "title text: References"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Text",
+            "location": "center",
+            "purpose": "Displays the text of the references section",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Reference Images",
+            "location": "center",
+            "purpose": "Displays reference images",
+            "elements": [
+              "image 1",
+              "image 2",
+              "image 3",
+              "image 4"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Conclusion Title",
+            "location": "center",
+            "purpose": "Displays the title of the conclusion section",
+            "elements": [
+              "title text: Conclusion"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Conclusion Text",
+            "location": "center",
+            "purpose": "Displays the text of the conclusion section",
+            "elements": [
+              "paragraph text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3838
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_form_main_goals_typing.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main title of the page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Page Subtitle",
+            "location": "top-center",
+            "purpose": "Displays a subtitle or description of the page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "Project Goals Textarea",
+            "location": "center",
+            "purpose": "Allows users to input text describing their project goals",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Submits the user's project goals and continues to the next step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates back to the previous step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Dark Mode Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's dark mode",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in a multi-step process",
+            "elements": [
+              "step number",
+              "step progress"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3400
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_form_project_budget.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main title of the page",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Indicates the current step in a multi-step process",
+            "elements": [
+              "step numbers"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Budget Input Field",
+            "location": "center",
+            "purpose": "Allows users to enter their budget for the project",
+            "elements": [
+              "label",
+              "input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [
+              "image"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Settings Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's settings",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Side Skeleton",
+            "location": "right",
+            "purpose": "Displays a placeholder for content",
+            "elements": [
+              "lines",
+              "blocks"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3393
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_form_budget_breakdown.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Briefberry Header",
+            "location": "top-left",
+            "purpose": "Displays the Briefberry logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "User Avatar Button",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [
+              "user profile picture"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main heading",
+            "elements": [
+              "Let's break down your budget."
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step",
+            "elements": [
+              "6/7"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "form",
+            "name": "Budget Form",
+            "location": "center",
+            "purpose": "Allows users to input scope of work and budget",
+            "elements": [
+              "Scope of work input",
+              "Budget input"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Scope of Work Input",
+            "location": "center",
+            "purpose": "Allows users to input scope of work",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Budget Input",
+            "location": "center",
+            "purpose": "Allows users to input budget",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Submits the form and continues to the next step",
+            "elements": [
+              "Continue text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Goes back to the previous step",
+            "elements": [
+              "Previous text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the theme between light and dark",
+            "elements": [
+              "moon icon",
+              "sun icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Side Skeleton",
+            "location": "right",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "lines",
+              "rectangles"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3469
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_form_project_name.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the title of the page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Project Name Input",
+            "location": "center",
+            "purpose": "Allows the user to input the name of their project",
+            "elements": [
+              "label",
+              "input field",
+              "placeholder text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Allows the user to continue to the next step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Allows the user to go back to the previous step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in the process",
+            "elements": [
+              "step number",
+              "step progress"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Allows the user to toggle the theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Dark Mode Toggle",
+            "location": "bottom-left",
+            "purpose": "Allows the user to toggle dark mode",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Hand Illustration",
+            "location": "right",
+            "purpose": "Displays a placeholder for an illustration",
+            "elements": [
+              "illustration skeleton"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3411
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_brief_premium_click_on_regenerate.png": {
+      "subfolder": "screens",
+      "size_mb": 0.33,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "logo",
+              "project_name",
+              "link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "button_text",
+              "icon"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Brief Card",
+            "location": "center",
+            "purpose": "Displays project information and details",
+            "elements": [
+              "title",
+              "description",
+              "sections"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "header",
+            "name": "Project Title Header",
+            "location": "center",
+            "purpose": "Displays the project title",
+            "elements": [
+              "title_text",
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "Goals Textarea",
+            "location": "center",
+            "purpose": "Allows users to input project goals",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link for the project",
+            "elements": [
+              "button_text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Download Button",
+            "location": "bottom-center",
+            "purpose": "Downloads project information",
+            "elements": [
+              "button_text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Email Button",
+            "location": "bottom-center",
+            "purpose": "Sends project information via email",
+            "elements": [
+              "button_text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Share Button",
+            "location": "bottom-center",
+            "purpose": "Shares project information",
+            "elements": [
+              "button_text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Copy Link Icon Button",
+            "location": "bottom-center",
+            "purpose": "Copies the project link to the clipboard",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Expand/Collapse Icon Button",
+            "location": "top-right",
+            "purpose": "Toggles the expansion or collapse of the project brief",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3663
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_brief_premium_click_on_text_box_to_edit.png": {
+      "subfolder": "screens",
+      "size_mb": 0.36,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the project and provides navigation",
+            "elements": [
+              "project title text",
+              "back button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Allows users to create a new brief",
+            "elements": [
+              "button text: New brief"
+            ],
+            "variant": "contained",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Card",
+            "location": "center",
+            "purpose": "Displays project information",
+            "elements": [
+              "project title: UI8 Studio 2024",
+              "introduction text",
+              "goals text",
+              "timeline text",
+              "budget text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to create a link",
+            "elements": [
+              "button icon: link"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Download Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to download content",
+            "elements": [
+              "button icon: download"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Email Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to send an email",
+            "elements": [
+              "button icon: email"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Refresh Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to refresh content",
+            "elements": [
+              "button icon: refresh"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Settings Button",
+            "location": "bottom-center",
+            "purpose": "Toggles settings panel",
+            "elements": [
+              "button icon: settings"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the Briefberry logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3574
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_brief_premium_hover_on_section.png": {
+      "subfolder": "screens",
+      "size_mb": 0.36,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Displays the title of the project and provides navigation",
+            "elements": [
+              "project title text",
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "button text",
+              "icon"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Card",
+            "location": "center",
+            "purpose": "Displays project information",
+            "elements": [
+              "project title",
+              "introduction text",
+              "goals text",
+              "timeline text",
+              "budget text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Regenerate Button",
+            "location": "center",
+            "purpose": "Regenerates the project information",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link for the project",
+            "elements": [
+              "button text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Download Button",
+            "location": "bottom-center",
+            "purpose": "Downloads project information",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Email Button",
+            "location": "bottom-center",
+            "purpose": "Sends project information via email",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Share Button",
+            "location": "bottom-center",
+            "purpose": "Shares project information",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Copy Button",
+            "location": "bottom-center",
+            "purpose": "Copies project information",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3542
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_form_references.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the page title",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle Text",
+            "location": "center",
+            "purpose": "Displays a brief description",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "file_upload",
+            "name": "Image Upload",
+            "location": "center",
+            "purpose": "Allows users to upload images",
+            "elements": [
+              "drag and drop text",
+              "browse button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Reference Link Input",
+            "location": "center",
+            "purpose": "Allows users to enter a URL",
+            "elements": [
+              "input field",
+              "add link button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Submits the user's references and inspirations",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step",
+            "elements": [
+              "step number",
+              "total steps"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Hand Illustration",
+            "location": "right",
+            "purpose": "Displays a placeholder for an illustration",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3382
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_brief_premium_edit_references.png": {
+      "subfolder": "screens",
+      "size_mb": 0.41,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "logo",
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "text",
+              "icon"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Represents the current user",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "header",
+            "name": "Page Header",
+            "location": "top-center",
+            "purpose": "Displays the title and studio information",
+            "elements": [
+              "text",
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Header",
+            "location": "center",
+            "purpose": "Displays a header text",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Header",
+            "location": "center",
+            "purpose": "Displays a header text",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Conclusion Header",
+            "location": "center",
+            "purpose": "Displays a header text",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Reference Images",
+            "location": "center",
+            "purpose": "Displays inspirational images",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Email Icon Button",
+            "location": "bottom-center",
+            "purpose": "Triggers email action",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Share Icon Button",
+            "location": "bottom-center",
+            "purpose": "Triggers share action",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Settings Icon Button",
+            "location": "bottom-right",
+            "purpose": "Triggers settings action",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Theme Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates content sections",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3740
+      },
+      "processed_at": "2026-02-18T01:59:37.489666"
+    },
+    "page_1_form_project_name_typing.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "input",
+            "name": "Project Name Input",
+            "location": "top-left",
+            "purpose": "Allows users to input the name of their project.",
+            "elements": [
+              "label text",
+              "input field"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step in the process.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step in the process.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle Button",
+            "location": "bottom-left",
+            "purpose": "Toggles the theme of the application.",
+            "elements": [
+              "icon"
+            ],
+            "variant": "light/dark mode",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture.",
+            "elements": [
+              "image"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Indicates the current step in the process.",
+            "elements": [
+              "step number",
+              "step progress bar"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Text",
+            "location": "top-left",
+            "purpose": "Displays the main heading of the page.",
+            "elements": [
+              "text"
+            ],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the application's logo.",
+            "elements": [
+              "image"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Page Skeleton",
+            "location": "right-center",
+            "purpose": "Displays a placeholder for the page content.",
+            "elements": [
+              "rectangles",
+              "lines"
+            ],
+            "variant": "default",
+            "count": 1
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3369
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_form_type_of_project_hover_select.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo",
+              "profile picture"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main title of the page",
+            "elements": [
+              "title text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle Text",
+            "location": "top-center",
+            "purpose": "Displays a subtitle or description",
+            "elements": [
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Triggers the next step in the process",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Type Card",
+            "location": "center",
+            "purpose": "Displays a selection of project types",
+            "elements": [
+              "icon",
+              "label"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Profile Picture Button",
+            "location": "top-right",
+            "purpose": "Opens a profile or settings menu",
+            "elements": [
+              "profile picture"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [
+              "toggle button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in a multi-step process",
+            "elements": [
+              "step number",
+              "step text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates sections of content",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Loading Skeleton",
+            "location": "right",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "lines",
+              "rectangles"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3454
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_brief_premium_action_state_hover.png": {
+      "subfolder": "screens",
+      "size_mb": 0.34,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the page and provides context",
+            "elements": [
+              "title text",
+              "green checkmark icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Allows users to create a new brief",
+            "elements": [
+              "button text"
+            ],
+            "variant": "contained",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Brief Description",
+            "location": "center",
+            "purpose": "Provides a brief description of the project",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Title",
+            "location": "center",
+            "purpose": "Displays the title of the timeline section",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Description",
+            "location": "center",
+            "purpose": "Provides a description of the timeline",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Title",
+            "location": "center",
+            "purpose": "Displays the title of the budget section",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Budget Description",
+            "location": "center",
+            "purpose": "Provides a description of the budget",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Title",
+            "location": "center",
+            "purpose": "Displays the title of the references section",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "References Description",
+            "location": "center",
+            "purpose": "Provides a description of the references",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Email Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to send an email",
+            "elements": [
+              "button text"
+            ],
+            "variant": "contained",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Copy to Clipboard Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to copy content to clipboard",
+            "elements": [
+              "button icon"
+            ],
+            "variant": "icon",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3578
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_form_type_of_project.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the page title",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stepper",
+            "name": "Progress Indicator",
+            "location": "top-center",
+            "purpose": "Indicates the current step in a multi-step process",
+            "elements": [
+              "step indicator"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Type Card",
+            "location": "center",
+            "purpose": "Allows users to select a project type",
+            "elements": [
+              "icon",
+              "label"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Submits the user's project type selection",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Side Skeleton",
+            "location": "right",
+            "purpose": "Displays a loading state for the right-side content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3260
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_references_drag_images.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "User Profile Button",
+            "location": "top-right",
+            "purpose": "Opens user profile information",
+            "elements": [
+              "user profile picture"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the page title",
+            "elements": [
+              "Share your references and inspirations"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step",
+            "elements": [
+              "7/7"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Reference Card",
+            "location": "center",
+            "purpose": "Allows users to upload or add references",
+            "elements": [
+              "image upload area",
+              "add link button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Reference Link Input",
+            "location": "center",
+            "purpose": "Allows users to enter a reference link",
+            "elements": [
+              "input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Add Link Button",
+            "location": "center",
+            "purpose": "Adds a new link",
+            "elements": [
+              "+ Add link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [
+              "Previous"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step",
+            "elements": [
+              "Continue"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Vertical Divider",
+            "location": "left",
+            "purpose": "Separates sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [
+              "light/dark mode toggle"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right Panel Skeleton",
+            "location": "right",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "grey rectangles"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3507
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_hover_on_regenerate_button.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the current project",
+            "elements": [
+              "project title text",
+              "lock icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Allows users to create a new brief",
+            "elements": [
+              "button text: New brief"
+            ],
+            "variant": "filled",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Card",
+            "location": "center",
+            "purpose": "Displays project information",
+            "elements": [
+              "project title: UI8 Studio 2024",
+              "project description",
+              "tags: UI/UI Design"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Regenerate Button",
+            "location": "bottom-center",
+            "purpose": "Allows users to regenerate content",
+            "elements": [
+              "button text: Regenerate",
+              "refresh icon"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Copy to Clipboard Button",
+            "location": "top-right",
+            "purpose": "Allows users to copy content to clipboard",
+            "elements": [
+              "copy icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Briefberry Logo",
+            "location": "top-left",
+            "purpose": "Displays the Briefberry logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "bottom",
+            "purpose": "Separates content sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Title",
+            "location": "center",
+            "purpose": "Displays a title for the introduction section",
+            "elements": [
+              "title text: Introduction"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Title",
+            "location": "center",
+            "purpose": "Displays a title for the goals section",
+            "elements": [
+              "title text: Goals"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Title",
+            "location": "center",
+            "purpose": "Displays a title for the timeline section",
+            "elements": [
+              "title text: Timeline"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3485
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_select_date_calendar.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main heading of the page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Date Input Field",
+            "location": "center",
+            "purpose": "Allows users to input a specific date or type a date manually",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "calendar",
+            "name": "Date Picker Calendar",
+            "location": "center",
+            "purpose": "Provides a visual calendar for users to select dates",
+            "elements": [
+              "days of the week",
+              "date numbers",
+              "month/year display"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step or page",
+            "elements": [
+              "icon",
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Proceeds to the next step or page",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Today Button",
+            "location": "center",
+            "purpose": "Selects the current date",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Tomorrow Button",
+            "location": "center",
+            "purpose": "Selects the next day",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "1 week Button",
+            "location": "center",
+            "purpose": "Selects a date one week from now",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "2 week Button",
+            "location": "center",
+            "purpose": "Selects a date two weeks from now",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "1 month Button",
+            "location": "center",
+            "purpose": "Selects a date one month from now",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "3 months Button",
+            "location": "center",
+            "purpose": "Selects a date three months from now",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates different sections of the calendar",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in the process",
+            "elements": [
+              "step number",
+              "step progress"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 15,
+        "tokens_used": 3714
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_reset_password_check_your_inbox.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "modal",
+            "name": "Reset Password Modal",
+            "location": "center",
+            "purpose": "This modal allows users to reset their password by entering their email address.",
+            "elements": [
+              "title text",
+              "input field",
+              "action button",
+              "link to login"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "inside modal",
+            "purpose": "This input field allows users to enter their email address to reset their password.",
+            "elements": [
+              "placeholder text",
+              "checkmark icon"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Reset Password Button",
+            "location": "inside modal",
+            "purpose": "This button triggers the password reset process when clicked.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Login Link",
+            "location": "inside modal",
+            "purpose": "This link redirects users to the login page if they already have a password.",
+            "elements": [
+              "link text"
+            ],
+            "variant": "default",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Close Modal Button",
+            "location": "top-right",
+            "purpose": "This button closes the modal when clicked.",
+            "elements": [
+              "close icon"
+            ],
+            "variant": "default",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3134
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_landing_page_gradient_added.png": {
+      "subfolder": "screens",
+      "size_mb": 0.55,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Displays the main title and tagline of the website.",
+            "elements": [
+              "title text",
+              "tagline text",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Get Started for Free Button",
+            "location": "top-center",
+            "purpose": "Encourages users to sign up for the service.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the service and its benefits.",
+            "elements": [
+              "background image",
+              "title text",
+              "tagline text",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "AI-Powered Briefs Section",
+            "location": "center",
+            "purpose": "Explains the features of the service.",
+            "elements": [
+              "section title",
+              "description text",
+              "screenshot images"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Feature Card",
+            "location": "center",
+            "purpose": "Highlights a specific feature of the service.",
+            "elements": [
+              "title text",
+              "description text",
+              "icon"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "pricing_card",
+            "name": "Pricing Card",
+            "location": "center",
+            "purpose": "Displays the pricing plans of the service.",
+            "elements": [
+              "plan name",
+              "price",
+              "features list"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "button",
+            "name": "Create an Account Button",
+            "location": "center",
+            "purpose": "Encourages users to sign up for the free plan.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Get Started Now Button",
+            "location": "center",
+            "purpose": "Encourages users to sign up for the premium plan.",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to sign up for the service.",
+            "elements": [
+              "section title",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom-center",
+            "purpose": "Displays copyright information and terms.",
+            "elements": [
+              "copyright text",
+              "terms link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Sign In Button",
+            "location": "top-right",
+            "purpose": "Allows users to sign in to their account.",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "progress_bar",
+            "name": "Progress Bar",
+            "location": "center",
+            "purpose": "Displays the progress of a task.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "checkbox",
+            "name": "Project Type Checkbox",
+            "location": "center",
+            "purpose": "Allows users to select project types.",
+            "elements": [
+              "label text"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "slider",
+            "name": "Goal Slider",
+            "location": "center",
+            "purpose": "Allows users to set a goal.",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 15,
+        "tokens_used": 3341
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_reset_password.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "name": "Reset Password Dialog",
+            "location": "center",
+            "purpose": "A dialog box for resetting password",
+            "elements": [
+              "title text",
+              "input field",
+              "action button",
+              "link to login"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "inside Reset Password Dialog",
+            "purpose": "To input the user's email for password reset",
+            "elements": [
+              "placeholder text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Account Button",
+            "location": "inside Reset Password Dialog",
+            "purpose": "To create a new account",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Login Link",
+            "location": "inside Reset Password Dialog",
+            "purpose": "To navigate to the login page",
+            "elements": [
+              "link text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Close Button",
+            "location": "top-right",
+            "purpose": "To close the dialog box",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3099
+      },
+      "processed_at": "2026-02-18T02:00:29.441454"
+    },
+    "page_1_sign_in.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "name": "Login Dialog",
+            "location": "center",
+            "purpose": "A modal dialog for user login",
+            "elements": [
+              "title text",
+              "sign in with Google button",
+              "email input",
+              "password input",
+              "sign in button",
+              "sign up link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sign in with Google Button",
+            "location": "center",
+            "purpose": "Allow users to sign in with Google",
+            "elements": [
+              "Google logo",
+              "Sign in with Google text"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Input email for login",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "center",
+            "purpose": "Input password for login",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sign in Button",
+            "location": "center",
+            "purpose": "Submit login credentials",
+            "elements": [
+              "Sign in text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sign up Link",
+            "location": "bottom",
+            "purpose": "Redirect to sign up page",
+            "elements": [
+              "Sign up text"
+            ],
+            "variant": "text",
+            "count": 1
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3162
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_upload_image_state.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "name": "Add Widget Button",
+            "location": "center",
+            "purpose": "Allows users to add a new widget to the dashboard",
+            "elements": [
+              "plus icon",
+              "green circle background"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Close Button",
+            "location": "top-right",
+            "purpose": "Closes the current widget",
+            "elements": [
+              "x icon"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Widget Card",
+            "location": "center",
+            "purpose": "Displays a widget with a background image and a black overlay",
+            "elements": [
+              "background image",
+              "black overlay",
+              "grid icon"
+            ],
+            "variant": "default",
+            "count": 4
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Camera Button",
+            "location": "top-left",
+            "purpose": "Opens the camera to take a photo",
+            "elements": [
+              "camera icon"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Loading Button",
+            "location": "center",
+            "purpose": "Indicates that the widget is loading",
+            "elements": [
+              "loading animation"
+            ],
+            "variant": "disabled",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 1371
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_sign_up.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "dialog",
+            "name": "Signup Dialog",
+            "location": "center",
+            "purpose": "Contains the signup form",
+            "elements": [
+              "header text",
+              "signup form",
+              "social login button",
+              "create account button",
+              "signin link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Google Signup Button",
+            "location": "center",
+            "purpose": "Sign up with Google",
+            "elements": [
+              "Google logo",
+              "text"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Enter email address",
+            "elements": [
+              "input field",
+              "placeholder text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "center",
+            "purpose": "Enter password",
+            "elements": [
+              "input field",
+              "placeholder text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Account Button",
+            "location": "center",
+            "purpose": "Create a new account",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "form",
+            "name": "Signup Form",
+            "location": "center",
+            "purpose": "Collects user information for signup",
+            "elements": [
+              "email input",
+              "password input",
+              "create account button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Text",
+            "location": "top-center",
+            "purpose": "Displays the dialog title",
+            "elements": [
+              "text"
+            ],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Signin Link",
+            "location": "bottom-center",
+            "purpose": "Links to signin page",
+            "elements": [
+              "text"
+            ],
+            "variant": "link",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3286
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_hover_on_lock_icon.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides navigation and actions at the top of the page",
+            "elements": [
+              "logo",
+              "new brief button",
+              "user profile avatar"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Allows users to create a new brief",
+            "elements": [
+              "text: New brief"
+            ],
+            "variant": "filled",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Profile Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Upgrade Button",
+            "location": "center",
+            "purpose": "Prompts the user to upgrade to a premium subscription",
+            "elements": [
+              "text: Upgrade"
+            ],
+            "variant": "filled",
+            "count": 1
+          },
+          {
+            "component_type": "pricing_card",
+            "name": "Premium Features Card",
+            "location": "center",
+            "purpose": "Displays information about premium features and pricing",
+            "elements": [
+              "title: Go premium!",
+              "description: Unlock all premium features...",
+              "price: $4.99/month"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "header",
+            "name": "Page Header",
+            "location": "center",
+            "purpose": "Displays the title of the page",
+            "elements": [
+              "text: UI8 Studio 2024"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Copy Link Button",
+            "location": "center",
+            "purpose": "Allows users to copy a link",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create Link Button",
+            "location": "bottom-center",
+            "purpose": "Creates a link",
+            "elements": [
+              "text: Create link"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Introduction Text",
+            "location": "center",
+            "purpose": "Displays introductory text",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Goals Text",
+            "location": "center",
+            "purpose": "Displays goals text",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Timeline Text",
+            "location": "center",
+            "purpose": "Displays timeline text",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 11,
+        "tokens_used": 3487
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_typing_or_select_the_day.png": {
+      "subfolder": "screens",
+      "size_mb": 0.13,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the page title",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step in the process",
+            "elements": [
+              "step number",
+              "step text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Date Input",
+            "location": "center",
+            "purpose": "Allows the user to select a date",
+            "elements": [
+              "input field",
+              "calendar icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "calendar",
+            "name": "Date Picker Calendar",
+            "location": "center",
+            "purpose": "Displays a calendar for selecting dates",
+            "elements": [
+              "days of the week",
+              "date grid",
+              "navigation buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates content sections",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Side Skeleton",
+            "location": "right",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "header skeleton",
+              "content skeleton"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3394
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_form_select_date.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "center",
+            "purpose": "Displays the main question",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Date Input Field",
+            "location": "center",
+            "purpose": "Allows users to input a date",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "step_indicator",
+            "name": "Step Indicator",
+            "location": "top-center",
+            "purpose": "Displays the current step",
+            "elements": [
+              "step number",
+              "step progress"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Dark Mode Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles dark mode",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Side Skeleton",
+            "location": "right",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "text skeleton",
+              "image skeleton"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3374
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_upgrade_to_premium.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "modal",
+            "name": "Premium Upgrade Modal",
+            "location": "center",
+            "purpose": "Prompts the user to upgrade to a premium subscription",
+            "elements": [
+              "title text",
+              "pricing information",
+              "feature list",
+              "call-to-action button"
+            ],
+            "variant": "dark theme",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Subscribe Now Button",
+            "location": "inside modal",
+            "purpose": "Triggers the subscription process",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Close Modal Button",
+            "location": "top-right",
+            "purpose": "Closes the modal",
+            "elements": [
+              "close icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Premium Features List",
+            "location": "inside modal",
+            "purpose": "Displays the features included in the premium subscription",
+            "elements": [
+              "feature checkmarks",
+              "feature text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Modal Title",
+            "location": "inside modal",
+            "purpose": "Displays the modal title",
+            "elements": [
+              "title text"
+            ],
+            "variant": "headline",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Pricing Information",
+            "location": "inside modal",
+            "purpose": "Displays pricing information",
+            "elements": [
+              "pricing text"
+            ],
+            "variant": "body text",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "inside modal",
+            "purpose": "Separates content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "chip",
+            "name": "Payment Security Chip",
+            "location": "inside modal",
+            "purpose": "Indicates secure payment",
+            "elements": [
+              "chip text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3286
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_brief_premium.png": {
+      "subfolder": "screens",
+      "size_mb": 0.28,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-center",
+            "purpose": "Displays the title of the project and provides navigation",
+            "elements": [
+              "project title text",
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "New Brief Button",
+            "location": "top-right",
+            "purpose": "Triggers the creation of a new brief",
+            "elements": [
+              "button text"
+            ],
+            "variant": "filled",
+            "count": 1
+          },
+          {
+            "component_type": "avatar",
+            "name": "User Avatar",
+            "location": "top-right",
+            "purpose": "Displays the user's profile picture",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Project Card",
+            "location": "center",
+            "purpose": "Displays detailed information about the UI8 Studio 2024 project",
+            "elements": [
+              "title text",
+              "introduction text",
+              "goals text",
+              "timeline text",
+              "budget text",
+              "references text",
+              "images"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Reference Images",
+            "location": "center",
+            "purpose": "Displays reference images for design inspiration",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Share Icon Button",
+            "location": "top-right",
+            "purpose": "Allows users to share the project",
+            "elements": [
+              "icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3183
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    },
+    "page_1_references_uploaded_uploading_link_added.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top-left",
+            "purpose": "Displays the application's logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "User Profile Button",
+            "location": "top-right",
+            "purpose": "Opens user profile information",
+            "elements": [
+              "user profile picture"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the page title",
+            "elements": [
+              "What's your type of project?"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "badge",
+            "name": "Progress Badge",
+            "location": "top-center",
+            "purpose": "Displays progress information",
+            "elements": [
+              "7/7"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Image Upload Card",
+            "location": "center-left",
+            "purpose": "Allows users to upload images",
+            "elements": [
+              "uploaded images",
+              "add image button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Reference Link Input",
+            "location": "center-left",
+            "purpose": "Allows users to input a reference link",
+            "elements": [
+              "input field"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Add Link Button",
+            "location": "center-left",
+            "purpose": "Adds a new link",
+            "elements": [
+              "+ Add link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Previous Button",
+            "location": "bottom-left",
+            "purpose": "Navigates to the previous step",
+            "elements": [
+              "Previous"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Continue Button",
+            "location": "bottom-center",
+            "purpose": "Navigates to the next step",
+            "elements": [
+              "Continue"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Theme Toggle",
+            "location": "bottom-left",
+            "purpose": "Toggles the application's theme",
+            "elements": [
+              "light/dark mode toggle"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Settings Toggle",
+            "location": "bottom-left",
+            "purpose": "Opens application settings",
+            "elements": [
+              "settings icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "skeleton",
+            "name": "Right-Side Skeleton",
+            "location": "right-center",
+            "purpose": "Displays a loading state",
+            "elements": [
+              "grey rectangles"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3508
+      },
+      "processed_at": "2026-02-18T02:01:40.935658"
+    }
+  },
+  "summary": {
+    "total_screens": 39,
+    "screens_processed": 39,
+    "screens_successful": 39,
+    "screens_skipped": 0,
+    "screens_errored": 0,
+    "total_components_identified": 406,
+    "unique_component_types": 33,
+    "component_type_counts": {
+      "button": 99,
+      "typography_sample": 84,
+      "icon_button": 42,
+      "avatar": 28,
+      "header": 27,
+      "input": 20,
+      "card": 15,
+      "skeleton": 13,
+      "divider": 11,
+      "step_indicator": 11,
+      "logo": 7,
+      "image": 6,
+      "toggle": 6,
+      "top_nav": 5,
+      "textarea": 4,
+      "form": 3,
+      "dialog": 3,
+      "progress_bar": 2,
+      "stepper": 2,
+      "calendar": 2,
+      "modal": 2,
+      "link": 2,
+      "pricing_card": 2,
+      "file_upload": 1,
+      "hero": 1,
+      "feature_section": 1,
+      "cta_section": 1,
+      "footer": 1,
+      "checkbox": 1,
+      "slider": 1,
+      "list": 1,
+      "chip": 1,
+      "badge": 1
+    },
+    "completed_at": "2026-02-18T02:01:40.937692"
+  },
+  "started_at": "2026-02-18T01:57:29.382934",
+  "last_checkpoint": "2026-02-18T02:01:40.939650"
+}

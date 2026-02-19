@@ -1,0 +1,6003 @@
+{
+  "kit_name": "Tendly CRM",
+  "file_key": "ibUAqii0Lx1BiP6OvtME0l",
+  "db_item_count": 49,
+  "total_screens": 31,
+  "processed_screens": [
+    "components_header_footer.png",
+    "components_label.png",
+    "components_button.png",
+    "components_icons.png",
+    "components_company_logo.png",
+    "components_forms.png",
+    "components_logo_integration.png",
+    "full_pages_contact_us.png",
+    "full_pages_faq.png",
+    "full_pages_forgot_password.png",
+    "components_native.png",
+    "full_pages_integrations.png",
+    "full_pages_customer_stories.png",
+    "full_pages_pricing.png",
+    "full_pages_set_new_password.png",
+    "full_pages_blog.png",
+    "full_pages_sign_in.png",
+    "full_pages_sign_up.png",
+    "getting_started_cover.png",
+    "full_pages_privacy_policy.png",
+    "style_guide_colors.png",
+    "style_guide_typography.png",
+    "documentation_documentation_tendly.png",
+    "full_pages_features.png",
+    "full_pages_solution.png",
+    "full_pages_homepage_v2.png",
+    "full_pages_career.png",
+    "full_pages_blog_detail.png",
+    "full_pages_about_us.png",
+    "full_pages_homepage_v1.png",
+    "components_card.png",
+    "full_pages_about_mobile.png",
+    "full_pages_blog_detaill_mobile.png",
+    "full_pages_blog_mobile.png",
+    "full_pages_careers_mobile.png",
+    "full_pages_contact_us_mobile.png",
+    "full_pages_customer_stories_mobile.png",
+    "full_pages_faq_mobile.png",
+    "full_pages_features_mobile.png",
+    "full_pages_forgot_password_mobile.png",
+    "full_pages_homepage_v1_mobile.png",
+    "full_pages_homepage_v2_mobile.png",
+    "full_pages_integrations_mobile.png",
+    "full_pages_pricing_mobile.png",
+    "full_pages_privacy_policy_mobile.png",
+    "full_pages_set_new_password_mobile.png",
+    "full_pages_sign_in_mobile.png",
+    "full_pages_sign_up_mobile.png",
+    "full_pages_solution_mobile.png"
+  ],
+  "screens": {
+    "components_header_footer.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top",
+            "purpose": "Provides a header section for the style guide page",
+            "elements": [
+              "logo",
+              "title text",
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Title",
+            "location": "center",
+            "purpose": "Displays the title of the header section",
+            "elements": [
+              "title text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Header Subtitle",
+            "location": "center",
+            "purpose": "Provides a brief description of the header section",
+            "elements": [
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Styleguide Footer",
+            "location": "bottom",
+            "purpose": "Displays copyright information and style guide system name",
+            "elements": [
+              "copyright text",
+              "styleguide system name"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Represents the brand identity",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides navigation and title for the style guide",
+            "elements": [
+              "title text",
+              "CRM - Website Template UI Kit text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 2448
+      },
+      "processed_at": "2026-02-18T01:20:49.677488"
+    },
+    "components_label.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_button",
+            "name": "Theme Mode Toggle",
+            "location": "top-left",
+            "purpose": "Toggles between different display modes (Light, Dark)",
+            "elements": [
+              "Light Mode icon",
+              "Dark Mode icon",
+              "Label icon"
+            ],
+            "variant": "",
+            "count": 3
+          }
+        ],
+        "component_count": 1,
+        "tokens_used": 1549
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "components_button.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "name": "Primary Button",
+            "location": "center",
+            "purpose": "A primary button with various states",
+            "elements": [
+              "text"
+            ],
+            "variant": "large, medium, small; default, pressed, loading, disabled; primary, secondary",
+            "count": 12
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title",
+            "location": "top-center",
+            "purpose": "The title of the page",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle",
+            "location": "top-center",
+            "purpose": "A brief description of the style guide",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "divider",
+            "name": "Section Divider",
+            "location": "top-center",
+            "purpose": "Separates the title section from the rest of the content",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Component Title",
+            "location": "left",
+            "purpose": "Labels for button sizes",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "State Labels",
+            "location": "left",
+            "purpose": "Labels for button states",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 4
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3152
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "components_icons.png": {
+      "subfolder": "screens",
+      "size_mb": 0.1,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "name": "Tendly Icon Set",
+            "location": "center",
+            "purpose": "Displays a collection of icons for use in the UI design",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Page Title",
+            "location": "top-center",
+            "purpose": "Displays the title of the page",
+            "elements": [
+              "Icons"
+            ],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Page Description",
+            "location": "top-center",
+            "purpose": "Provides a brief description of the page content",
+            "elements": [
+              "The style guide provides to change stylistic for your design site."
+            ],
+            "variant": "paragraph",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Tendly - Styleguide System",
+            "location": "bottom-center",
+            "purpose": "Displays the title of the style guide system",
+            "elements": [
+              "Tendly - Styleguide System"
+            ],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Copyright Information",
+            "location": "bottom-right",
+            "purpose": "Displays copyright information",
+            "elements": [
+              " 2024 Unpixel. All rights reserved."
+            ],
+            "variant": "paragraph",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides navigation to other parts of the site",
+            "elements": [
+              "Tendly",
+              "CRM - Website Template UI Kit"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 6,
+        "tokens_used": 3349
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "components_company_logo.png": {
+      "subfolder": "screens",
+      "size_mb": 0.11,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Top Header",
+            "location": "top",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "Tendly logo",
+              "CRM - Website Template UI Kit text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main title of the page",
+            "elements": [
+              "Company Logo text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle Text",
+            "location": "top-center",
+            "purpose": "Provides a brief description of the style guide",
+            "elements": [
+              "The style guide provides to change stylistic for your design site. text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "grid",
+            "name": "Logo Grid",
+            "location": "center",
+            "purpose": "Displays a collection of company logos",
+            "elements": [
+              "multiple company logos"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logos",
+            "location": "center",
+            "purpose": "Represents various companies",
+            "elements": [
+              "Adobe, Evernote, PayPal, Airbnb, Figma, Shopify, ..."
+            ],
+            "variant": "",
+            "count": 40
+          },
+          {
+            "component_type": "divider",
+            "name": "Dashed Border",
+            "location": "center",
+            "purpose": "Separates the content from the rest of the page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Footer Text",
+            "location": "bottom",
+            "purpose": "Displays the footer text",
+            "elements": [
+              "Tendly - Styleguide System text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Copyright Text",
+            "location": "bottom-right",
+            "purpose": "Displays the copyright information",
+            "elements": [
+              " 2024 Unpixel. All rights reserved. text"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3461
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "components_forms.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "name": "Basic Input Field Form",
+            "location": "center",
+            "purpose": "Provides various input field styles for user data collection",
+            "elements": [
+              "labels",
+              "input fields",
+              "hints"
+            ],
+            "variant": "multiple variants of input fields",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Basic Input Field",
+            "location": "within Basic Input Field Form",
+            "purpose": "Collects user input",
+            "elements": [
+              "label",
+              "input field",
+              "hint text"
+            ],
+            "variant": "multiple variants (e.g., with/without hints, different lengths)",
+            "count": 8
+          },
+          {
+            "component_type": "checkbox",
+            "name": "Checkbox Options",
+            "location": "bottom-left",
+            "purpose": "Allows users to select multiple options",
+            "elements": [
+              "checkboxes",
+              "labels"
+            ],
+            "variant": "multiple checkboxes with different states",
+            "count": 1
+          },
+          {
+            "component_type": "radio",
+            "name": "Radio Button Options",
+            "location": "bottom-center",
+            "purpose": "Allows users to select one option from multiple",
+            "elements": [
+              "radio buttons",
+              "labels"
+            ],
+            "variant": "multiple radio buttons with different states",
+            "count": 1
+          },
+          {
+            "component_type": "toggle",
+            "name": "Toggle Switch",
+            "location": "bottom-right",
+            "purpose": "Allows users to switch between two states",
+            "elements": [
+              "toggle switch",
+              "labels"
+            ],
+            "variant": "multiple toggle switches with different states",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3326
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "components_logo_integration.png": {
+      "subfolder": "screens",
+      "size_mb": 0.26,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Tendly CRM Header",
+            "location": "top",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "logo",
+              "title"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the main title",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle Text",
+            "location": "top-center",
+            "purpose": "Provides a brief description",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Social Media Icons",
+            "location": "top-center",
+            "purpose": "Displays a collection of social media logos",
+            "elements": [
+              "icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "App Icons",
+            "location": "center",
+            "purpose": "Displays a collection of app logos",
+            "elements": [
+              "icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Footer Text",
+            "location": "bottom",
+            "purpose": "Displays copyright information",
+            "elements": [
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "bottom-left",
+            "purpose": "Displays the Tendly logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3201
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "full_pages_contact_us.png": {
+      "subfolder": "screens",
+      "size_mb": 0.15,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "contact_form",
+            "name": "Contact Form",
+            "location": "center",
+            "purpose": "Allows users to send a message",
+            "elements": [
+              "first name input",
+              "last name input",
+              "email input",
+              "message textarea",
+              "send message button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Send Message Button",
+            "location": "center",
+            "purpose": "Submits the contact form",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "First Name Input",
+            "location": "center",
+            "purpose": "Collects user's first name",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Last Name Input",
+            "location": "center",
+            "purpose": "Collects user's last name",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Collects user's email",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "textarea",
+            "name": "Message Textarea",
+            "location": "center",
+            "purpose": "Collects user's message",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Hero Section",
+            "location": "bottom-center",
+            "purpose": "Promotes the CRM product",
+            "elements": [
+              "heading",
+              "subheading",
+              "Get Started button",
+              "Talk to Sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom",
+            "purpose": "Provides additional navigation and information",
+            "elements": [
+              "logo",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to social media profiles",
+            "elements": [
+              "LinkedIn",
+              "Twitter",
+              "Facebook"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Represents the brand",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Partner Logos",
+            "location": "center-bottom",
+            "purpose": "Displays partner logos",
+            "elements": [
+              "Medium",
+              "Square",
+              "Retool",
+              "Dropbox",
+              "Linear"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Tagline",
+            "location": "bottom-center",
+            "purpose": "Describes the product",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3619
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "full_pages_faq.png": {
+      "subfolder": "screens",
+      "size_mb": 0.27,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the website",
+            "elements": [
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-right",
+            "purpose": "Encourages users to start using the service for free",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Login Button",
+            "location": "top-right",
+            "purpose": "Allows existing users to log in",
+            "elements": [],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the FAQ section and provides a brief description",
+            "elements": [
+              "title text",
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "search_bar",
+            "name": "Search Bar",
+            "location": "center",
+            "purpose": "Allows users to search for specific questions or topics",
+            "elements": [
+              "search input",
+              "search button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Categories Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of categories for FAQs",
+            "elements": [
+              "category links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "accordion",
+            "name": "FAQ Accordion",
+            "location": "center",
+            "purpose": "Displays a list of FAQs that can be expanded or collapsed",
+            "elements": [
+              "question text",
+              "answer text",
+              "expand/collapse icon"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to get started with the service",
+            "elements": [
+              "title text",
+              "subtitle text",
+              "Get Started button",
+              "Talk to Sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Footer Section",
+            "location": "bottom",
+            "purpose": "Provides additional information and links to other sections of the website",
+            "elements": [
+              "Tendly logo",
+              "Features links",
+              "Solutions links",
+              "Resources links",
+              "About links",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to Tendly's social media profiles",
+            "elements": [
+              "LinkedIn icon",
+              "Twitter icon",
+              "Facebook icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3496
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "full_pages_forgot_password.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "name": "Password Reset Card",
+            "location": "center",
+            "purpose": "Contains the password reset form",
+            "elements": [
+              "logo",
+              "title text",
+              "instruction text",
+              "email input field",
+              "reset password button",
+              "alternative method link"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "App Logo",
+            "location": "top-center",
+            "purpose": "Represents the application brand",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays the title of the password reset page",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Instruction Text",
+            "location": "center",
+            "purpose": "Provides instructions for password reset",
+            "elements": [],
+            "variant": "body",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "center",
+            "purpose": "Allows users to input their email address",
+            "elements": [],
+            "variant": "text",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Reset Password Button",
+            "location": "center",
+            "purpose": "Submits the email address to reset the password",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Alternative Method Link",
+            "location": "bottom-center",
+            "purpose": "Provides an alternative method for users who can't access their email",
+            "elements": [],
+            "variant": "link",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Page Footer",
+            "location": "bottom",
+            "purpose": "Contains links to important pages",
+            "elements": [
+              "privacy link",
+              "terms link",
+              "help link"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3297
+      },
+      "processed_at": "2026-02-18T01:20:49.678549"
+    },
+    "components_native.png": {
+      "subfolder": "screens",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the website",
+            "elements": [
+              "Tendly logo",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "center",
+            "purpose": "Introduces the main value proposition of the CRM tool",
+            "elements": [
+              "header text",
+              "subheading text",
+              "Get Started button",
+              "Talk to Sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "All-in-one CRM, One Tool for All Your Relationships text",
+              "Get Started button",
+              "Talk to Sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "Tendly logo",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Bottom Footer",
+            "location": "bottom",
+            "purpose": "Provides copyright information and social media links",
+            "elements": [
+              "copyright text",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Get Started Button",
+            "location": "center",
+            "purpose": "Encourages users to sign up",
+            "elements": [],
+            "variant": "primary",
+            "count": 2
+          },
+          {
+            "component_type": "button",
+            "name": "Talk to Sales Button",
+            "location": "center",
+            "purpose": "Encourages users to contact sales",
+            "elements": [],
+            "variant": "secondary",
+            "count": 2
+          },
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Represents the brand",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to social media profiles",
+            "elements": [
+              "LinkedIn",
+              "Twitter",
+              "Facebook"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "nav",
+            "name": "Mobile Navigation",
+            "location": "top-left",
+            "purpose": "Provides main navigation links on mobile devices",
+            "elements": [
+              "menu icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3478
+      },
+      "processed_at": "2026-02-18T01:23:03.899229"
+    },
+    "full_pages_integrations.png": {
+      "subfolder": "screens",
+      "size_mb": 0.25,
+      "result": {
+        "status": "parse_error",
+        "reason": "Bad JSON",
+        "raw_response": "[\n  {\n    \"component_type\": \"header\",\n    \"name\": \"Main Header\",\n    \"location\": \"top-center\",\n    \"purpose\": \"Provides main navigation and branding\",\n    \"elements\": [\"logo\", \"nav links\", \"login button\", \"start for free button\"],\n    \"variant\": \"\",\n    \"count\": 1\n  },\n  {\n    \"component_type\": \"top",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_customer_stories.png": {
+      "subfolder": "screens",
+      "size_mb": 0.62,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links",
+              "login button",
+              "start for free button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Sub Navigation",
+            "location": "top-center",
+            "purpose": "Provides secondary navigation options",
+            "elements": [
+              "products",
+              "solutions",
+              "customers",
+              "resources",
+              "pricing"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the company and its offerings",
+            "elements": [
+              "heading",
+              "subheading",
+              "filter dropdowns"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Region Filter",
+            "location": "top-left",
+            "purpose": "Filters case studies by region",
+            "elements": [
+              "dropdown options"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Industry Filter",
+            "location": "top-center",
+            "purpose": "Filters case studies by industry",
+            "elements": [
+              "dropdown options"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "select",
+            "name": "Plan Filter",
+            "location": "top-right",
+            "purpose": "Filters case studies by plan",
+            "elements": [
+              "dropdown options"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Case Study Card",
+            "location": "center",
+            "purpose": "Displays a case study with a title, company logo, and read more link",
+            "elements": [
+              "company logo",
+              "case study title",
+              "read more link"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "testimonial",
+            "name": "Customer Testimonial",
+            "location": "center",
+            "purpose": "Displays a customer testimonial with a quote and avatar",
+            "elements": [
+              "quote text",
+              "avatar",
+              "customer name"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to get started or talk to sales",
+            "elements": [
+              "cta button",
+              "talk to sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom-center",
+            "purpose": "Provides additional navigation and company information",
+            "elements": [
+              "nav links",
+              "social icons",
+              "copyright information"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Feature Section",
+            "location": "bottom-center",
+            "purpose": "Describes the features and benefits of the product",
+            "elements": [
+              "feature list",
+              "feature descriptions"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to the company's social media profiles",
+            "elements": [
+              "linkedin icon",
+              "twitter icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 12,
+        "tokens_used": 3161
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_pricing.png": {
+      "subfolder": "screens",
+      "size_mb": 0.38,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links",
+            "elements": [
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Login Button",
+            "location": "top-right",
+            "purpose": "Directs users to the login page",
+            "elements": [],
+            "variant": "text",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-right",
+            "purpose": "Directs users to the sign-up page",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the product and its benefits",
+            "elements": [
+              "heading",
+              "subheading",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "pricing_card",
+            "name": "Standard Pricing Card",
+            "location": "center-left",
+            "purpose": "Displays features and pricing for the Standard plan",
+            "elements": [
+              "plan name",
+              "price",
+              "features list",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "pricing_card",
+            "name": "Pro Pricing Card",
+            "location": "center-center",
+            "purpose": "Displays features and pricing for the Pro plan",
+            "elements": [
+              "plan name",
+              "price",
+              "features list",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "pricing_card",
+            "name": "Custom Plan Pricing Card",
+            "location": "center-right",
+            "purpose": "Displays features and pricing for the Custom plan",
+            "elements": [
+              "plan name",
+              "price",
+              "features list",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "tab_bar",
+            "name": "Monthly/Annually Tab Bar",
+            "location": "center",
+            "purpose": "Switches between monthly and annual pricing plans",
+            "elements": [
+              "Monthly tab",
+              "Annually tab"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "comparison_plan",
+            "name": "Comparison Plan Section",
+            "location": "center",
+            "purpose": "Compares features across different plans",
+            "elements": [
+              "plan names",
+              "features table"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "accordion",
+            "name": "Frequently Asked Questions Accordion",
+            "location": "bottom-center",
+            "purpose": "Displays frequently asked questions and answers",
+            "elements": [
+              "question",
+              "answer"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "heading",
+              "call-to-action button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "logo",
+              "nav links",
+              "social media links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to social media profiles",
+            "elements": [
+              "LinkedIn",
+              "Twitter",
+              "Facebook"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3598
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_set_new_password.png": {
+      "subfolder": "screens",
+      "size_mb": 0.04,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "card",
+            "name": "Password Reset Card",
+            "location": "center",
+            "purpose": "Contains the password reset form",
+            "elements": [
+              "title text",
+              "form",
+              "input fields",
+              "button"
+            ],
+            "variant": "modal",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Create New Password Title",
+            "location": "center",
+            "purpose": "Displays the title of the password reset form",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Enter Details Subtitle",
+            "location": "center",
+            "purpose": "Provides a subtitle for the password reset form",
+            "elements": [],
+            "variant": "subtitle",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "New Password Input",
+            "location": "center",
+            "purpose": "Allows the user to enter a new password",
+            "elements": [
+              "password input field",
+              "eye icon"
+            ],
+            "variant": "password",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Confirm Password Input",
+            "location": "center",
+            "purpose": "Allows the user to confirm their new password",
+            "elements": [
+              "password input field",
+              "eye icon"
+            ],
+            "variant": "password",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Create New Password Button",
+            "location": "center",
+            "purpose": "Submits the new password and confirms the change",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "icon",
+            "name": "Lock Icon",
+            "location": "top-center",
+            "purpose": "Displays a lock icon above the form",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Page Footer",
+            "location": "bottom",
+            "purpose": "Contains links to important pages",
+            "elements": [
+              "privacy link",
+              "terms link",
+              "help link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Copyright Text",
+            "location": "bottom-left",
+            "purpose": "Displays the copyright information",
+            "elements": [],
+            "variant": "caption",
+            "count": 1
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3367
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_blog.png": {
+      "subfolder": "screens",
+      "size_mb": 0.74,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "name": "Main Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links to different sections of the website",
+            "elements": [
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Blog Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the blog section and provides a call to action",
+            "elements": [
+              "title text",
+              "subtitle text",
+              "Tendly Blog link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "sidebar_nav",
+            "name": "Blog Categories Sidebar",
+            "location": "left",
+            "purpose": "Provides a list of categories for blog posts",
+            "elements": [
+              "All Categories",
+              "Contract & Proposals",
+              "Customer Success",
+              "Dashboard & Analytics",
+              "Data Privacy",
+              "Help Desk",
+              "Integration Platform"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Blog Post Card",
+            "location": "center",
+            "purpose": "Displays a summary of a blog post",
+            "elements": [
+              "title text",
+              "date text",
+              "read more button"
+            ],
+            "variant": "",
+            "count": 4
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "title text",
+              "Get Started button",
+              "Talk to Sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "Tendly logo",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom-right",
+            "purpose": "Links to Tendly's social media profiles",
+            "elements": [
+              "LinkedIn icon",
+              "Twitter icon",
+              "Facebook icon"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3325
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_sign_in.png": {
+      "subfolder": "screens",
+      "size_mb": 0.07,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Displays the Tendly logo",
+            "elements": [
+              "logo"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "login_form",
+            "name": "Login Form",
+            "location": "center",
+            "purpose": "Allows users to log in to their account",
+            "elements": [
+              "email input",
+              "password input",
+              "keep me logged in checkbox",
+              "forgot password link",
+              "sign in button",
+              "sign up link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Allows users to enter their email address",
+            "elements": [
+              "input field",
+              "placeholder text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "center",
+            "purpose": "Allows users to enter their password",
+            "elements": [
+              "input field",
+              "placeholder text",
+              "show password icon"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "checkbox",
+            "name": "Keep Me Logged In Checkbox",
+            "location": "center",
+            "purpose": "Allows users to choose to stay logged in",
+            "elements": [
+              "checkbox",
+              "label text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Sign In Button",
+            "location": "center",
+            "purpose": "Submits the login form",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Forgot Password Link",
+            "location": "center",
+            "purpose": "Allows users to reset their password",
+            "elements": [
+              "link text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Sign Up Link",
+            "location": "bottom-center",
+            "purpose": "Allows users to create a new account",
+            "elements": [
+              "link text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Footer",
+            "location": "bottom",
+            "purpose": "Displays copyright information and links",
+            "elements": [
+              "copyright text",
+              "privacy link",
+              "terms link",
+              "get help link"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 9,
+        "tokens_used": 3403
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_sign_up.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Displays the brand logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "signup_form",
+            "name": "Signup Form",
+            "location": "center",
+            "purpose": "Collects user information for account creation",
+            "elements": [
+              "full name input",
+              "email input",
+              "password input",
+              "signup button",
+              "terms and conditions link",
+              "privacy policy link"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Full Name Input",
+            "location": "center",
+            "purpose": "Collects user's full name",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input",
+            "location": "center",
+            "purpose": "Collects user's email",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Password Input",
+            "location": "center",
+            "purpose": "Collects user's password",
+            "elements": [
+              "password toggle"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Signup Button",
+            "location": "center",
+            "purpose": "Submits the signup form",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Terms and Conditions Link",
+            "location": "center",
+            "purpose": "Links to terms and conditions page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Privacy Policy Link",
+            "location": "center",
+            "purpose": "Links to privacy policy page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "link",
+            "name": "Signin Link",
+            "location": "bottom-center",
+            "purpose": "Links to signin page",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Footer",
+            "location": "bottom",
+            "purpose": "Displays copyright information and links",
+            "elements": [
+              "copyright text",
+              "privacy link",
+              "terms link",
+              "help link"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3407
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "getting_started_cover.png": {
+      "subfolder": "screens",
+      "size_mb": 0.07,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "name": "Title",
+            "location": "center",
+            "purpose": "Displays the title of the template",
+            "elements": [
+              "Tendly - Web Template"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle",
+            "location": "center",
+            "purpose": "Provides additional context about the template",
+            "elements": [
+              "CRM - Website Template UI Kit"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Company Name",
+            "location": "top-left",
+            "purpose": "Displays the company name",
+            "elements": [
+              "UNPIXEL DESIGN"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Contact Email",
+            "location": "bottom-left",
+            "purpose": "Provides contact information",
+            "elements": [
+              "unpixeldesign@gmail.com"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Copyright Information",
+            "location": "bottom-right",
+            "purpose": "Displays copyright information",
+            "elements": [
+              " 2024 Unpixel. All rights reserved."
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Website Button",
+            "location": "top-center",
+            "purpose": "Navigates to the website",
+            "elements": [
+              "WEBSITE"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Master File Button",
+            "location": "top-center",
+            "purpose": "Accesses the master file",
+            "elements": [
+              "MASTER FILE"
+            ],
+            "variant": "outlined",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Figma Logo",
+            "location": "top-right",
+            "purpose": "Represents the Figma brand",
+            "elements": [
+              "Figma logo"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 3286
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "full_pages_privacy_policy.png": {
+      "subfolder": "screens",
+      "size_mb": 0.6,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top-center",
+            "purpose": "Provides main navigation links",
+            "elements": [
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Login Button",
+            "location": "top-right",
+            "purpose": "Directs users to the login page",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-right",
+            "purpose": "Directs users to the sign-up page",
+            "elements": [],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the main topic of the page",
+            "elements": [
+              "title text",
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Privacy Policy Title",
+            "location": "center",
+            "purpose": "Displays the title of the page",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Last Updated Text",
+            "location": "center",
+            "purpose": "Displays the last updated date",
+            "elements": [],
+            "variant": "body text",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "What this Privacy Policy Covers",
+            "location": "center",
+            "purpose": "Displays a section title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Categories of Personal Data We Collect",
+            "location": "center",
+            "purpose": "Displays a section title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Categories of Sources of Personal Data",
+            "location": "center",
+            "purpose": "Displays a section title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Our Commercial or Business Purposes for Collecting Personal Data",
+            "location": "center",
+            "purpose": "Displays a section title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Changes to this Privacy Policy",
+            "location": "center",
+            "purpose": "Displays a section title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Contact Information",
+            "location": "center",
+            "purpose": "Displays a section title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom-center",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "copyright text",
+              "social media links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "All-in-one CRM, One Tool for All Your Relationships",
+            "location": "bottom-center",
+            "purpose": "Promotes the main product",
+            "elements": [
+              "title text",
+              "subtitle text",
+              "Get Started button",
+              "Talk to Sales button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "grid",
+            "name": "Footer Links",
+            "location": "bottom-center",
+            "purpose": "Provides links to different sections of the website",
+            "elements": [
+              "Features",
+              "Solutions",
+              "Resources",
+              "About"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Links",
+            "location": "bottom-right",
+            "purpose": "Provides links to social media profiles",
+            "elements": [
+              "LinkedIn",
+              "Twitter",
+              "Facebook"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 17,
+        "tokens_used": 3452
+      },
+      "processed_at": "2026-02-18T01:23:03.900621"
+    },
+    "style_guide_colors.png": {
+      "subfolder": "screens",
+      "size_mb": 0.16,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Tendly Header",
+            "location": "top",
+            "purpose": "Provides navigation and branding",
+            "elements": [
+              "logo",
+              "text: CRM - Website Template UI Kit"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "color_swatch",
+            "name": "Color Swatches",
+            "location": "center",
+            "purpose": "Displays color palette",
+            "elements": [
+              "color boxes",
+              "hex codes"
+            ],
+            "variant": "",
+            "count": 7
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Title Text",
+            "location": "top-center",
+            "purpose": "Displays title",
+            "elements": [
+              "text: Colors"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subtitle Text",
+            "location": "top-center",
+            "purpose": "Displays subtitle",
+            "elements": [
+              "text: The style guide provides to change stylistic for your design site."
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Tendly Footer",
+            "location": "bottom",
+            "purpose": "Provides copyright information",
+            "elements": [
+              "text: Tendly - Styleguide System",
+              "text:  2024 Unpixel. All rights reserved."
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 3121
+      },
+      "processed_at": "2026-02-18T01:33:14.375385"
+    },
+    "style_guide_typography.png": {
+      "subfolder": "screens",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "name": "Inter Display V Font Samples",
+            "location": "top-left",
+            "purpose": "Displays font styles for Inter Display V",
+            "elements": [
+              "Inter Display V Medium",
+              "Inter Display V Regular"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Display Typography Samples",
+            "location": "center",
+            "purpose": "Displays various display typography styles",
+            "elements": [
+              "Display 1",
+              "Display 2",
+              "Display 3",
+              "Display 4",
+              "Display 5"
+            ],
+            "variant": "",
+            "count": 5
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Heading Typography Samples",
+            "location": "center",
+            "purpose": "Displays various heading typography styles",
+            "elements": [
+              "Heading/Large",
+              "Heading/Medium",
+              "Heading/Small"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Body Typography Samples",
+            "location": "center",
+            "purpose": "Displays various body typography styles",
+            "elements": [
+              "Body Large",
+              "Body Medium",
+              "Body Small",
+              "Body XSmall"
+            ],
+            "variant": "",
+            "count": 12
+          },
+          {
+            "component_type": "divider",
+            "name": "Horizontal Divider",
+            "location": "center",
+            "purpose": "Separates typography sections",
+            "elements": [],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "footer",
+            "name": "Tendly Styleguide Footer",
+            "location": "bottom-center",
+            "purpose": "Provides copyright information and system name",
+            "elements": [
+              "Tendly - Styleguide System",
+              "2024 Unpixel. All rights reserved."
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Tendly CRM Navigation Bar",
+            "location": "top-center",
+            "purpose": "Displays navigation and title",
+            "elements": [
+              "Tendly",
+              "CRM - Website Template UI Kit"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 3295
+      },
+      "processed_at": "2026-02-18T01:33:14.377443"
+    },
+    "documentation_documentation_tendly.png": {
+      "subfolder": "components",
+      "size_mb": 0.52,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Documentation Header",
+            "location": "top",
+            "purpose": "Provides title and navigation for the documentation",
+            "elements": [
+              "title text",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Welcome Hero",
+            "location": "top-center",
+            "purpose": "Introduces the Unpixel Design documentation",
+            "elements": [
+              "hero image",
+              "title text",
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Resource Asset Card",
+            "location": "top-left",
+            "purpose": "Displays resource asset information",
+            "elements": [
+              "image",
+              "title text",
+              "description text",
+              "links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "section",
+            "name": "Getting Up and Running Section",
+            "location": "center",
+            "purpose": "Provides tips for getting started with the UI kit",
+            "elements": [
+              "title text",
+              "description text",
+              "links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Figma Illustration",
+            "location": "center",
+            "purpose": "Illustrates the Figma design",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Figma Tutorial Link",
+            "location": "center",
+            "purpose": "Links to Figma tutorials",
+            "elements": [
+              "button text"
+            ],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "section",
+            "name": "How to use this UI Kit in Figma Section",
+            "location": "center",
+            "purpose": "Provides instructions for using the UI kit in Figma",
+            "elements": [
+              "title text",
+              "description text",
+              "steps"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stepper",
+            "name": "Figma Import Steps",
+            "location": "center",
+            "purpose": "Guides the user through importing the UI kit into Figma",
+            "elements": [
+              "step 1 text",
+              "step 2 text",
+              "step 3 text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "section",
+            "name": "Let's Play Section",
+            "location": "center",
+            "purpose": "Encourages the user to explore the UI kit",
+            "elements": [
+              "title text",
+              "description text",
+              "steps"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stepper",
+            "name": "Let's Play Steps",
+            "location": "center",
+            "purpose": "Guides the user through exploring the UI kit",
+            "elements": [
+              "step 1 text",
+              "step 2 text",
+              "step 3 text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "section",
+            "name": "How to change Icon or Component Section",
+            "location": "center",
+            "purpose": "Provides instructions for changing icons or components",
+            "elements": [
+              "title text",
+              "description text",
+              "steps"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stepper",
+            "name": "Change Icon or Component Steps",
+            "location": "center",
+            "purpose": "Guides the user through changing icons or components",
+            "elements": [
+              "step 1 text",
+              "step 2 text",
+              "step 3 text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "section",
+            "name": "How to change Colors Section",
+            "location": "center",
+            "purpose": "Provides instructions for changing colors",
+            "elements": [
+              "title text",
+              "description text",
+              "steps"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stepper",
+            "name": "Change Color Steps",
+            "location": "center",
+            "purpose": "Guides the user through changing colors",
+            "elements": [
+              "step 1 text",
+              "step 2 text",
+              "step 3 text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Support Footer",
+            "location": "bottom",
+            "purpose": "Provides support information and links",
+            "elements": [
+              "title text",
+              "description text",
+              "links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Links",
+            "location": "bottom",
+            "purpose": "Links to social media profiles",
+            "elements": [
+              "icon links"
+            ],
+            "variant": "",
+            "count": 3
+          }
+        ],
+        "component_count": 16,
+        "tokens_used": 3465
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_features.png": {
+      "subfolder": "screens",
+      "size_mb": 0.7,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the main value proposition of Tendly CRM",
+            "elements": [
+              "headline",
+              "subheading",
+              "call-to-action buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-center",
+            "purpose": "Encourages users to start using Tendly CRM for free",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Talk to Sales Button",
+            "location": "top-center",
+            "purpose": "Allows users to contact sales for more information",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Features Section",
+            "location": "center",
+            "purpose": "Highlights key features of Tendly CRM",
+            "elements": [
+              "feature cards"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Benefits Section",
+            "location": "center",
+            "purpose": "Explains the benefits of using Tendly CRM",
+            "elements": [
+              "benefit cards"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "call-to-action buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "faq_section",
+            "name": "Frequently Asked Questions Section",
+            "location": "center",
+            "purpose": "Provides answers to common questions",
+            "elements": [
+              "accordion items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "testimonial",
+            "name": "Testimonial",
+            "location": "center",
+            "purpose": "Displays a customer testimonial",
+            "elements": [
+              "quote text",
+              "author name",
+              "author title"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "copyright text",
+              "social media links",
+              "navigation links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides navigation links to main sections",
+            "elements": [
+              "navigation links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Represents the Tendly brand",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons",
+            "location": "bottom",
+            "purpose": "Links to Tendly's social media profiles",
+            "elements": [
+              "social media icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Get Started Call to Action",
+            "location": "bottom",
+            "purpose": "Encourages users to get started with Tendly CRM",
+            "elements": [
+              "call-to-action buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "accordion",
+            "name": "FAQ Accordion",
+            "location": "center",
+            "purpose": "Displays frequently asked questions",
+            "elements": [
+              "accordion items"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Screenshot of Tendly CRM",
+            "location": "center",
+            "purpose": "Displays a screenshot of Tendly CRM in action",
+            "elements": [],
+            "variant": "",
+            "count": 2
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Headline Typography",
+            "location": "top-center",
+            "purpose": "Displays a headline with a specific typography style",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Body Typography",
+            "location": "center",
+            "purpose": "Displays body text with a specific typography style",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 17,
+        "tokens_used": 4020
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_solution.png": {
+      "subfolder": "screens",
+      "size_mb": 0.8,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-right",
+            "purpose": "Encourages users to start using the service for free",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Talk to Sales Button",
+            "location": "top-right",
+            "purpose": "Encourages users to contact sales",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the product and its benefits",
+            "elements": [
+              "headline",
+              "subheading",
+              "image"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "The Best Solutions for Your Business",
+            "location": "center",
+            "purpose": "Highlights key features of the product",
+            "elements": [
+              "headline",
+              "subheading",
+              "image",
+              "text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "headline",
+              "subheading",
+              "button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "faq_section",
+            "name": "Frequently Asked Questions",
+            "location": "center",
+            "purpose": "Provides answers to common questions",
+            "elements": [
+              "headline",
+              "questions",
+              "answers"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom-center",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "logo",
+              "nav links",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Get Started Button",
+            "location": "bottom-center",
+            "purpose": "Encourages users to get started",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Talk to Sales Button",
+            "location": "bottom-center",
+            "purpose": "Encourages users to contact sales",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Headline Typography",
+            "location": "hero",
+            "purpose": "Displays headline text",
+            "elements": [],
+            "variant": "headline",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Subheading Typography",
+            "location": "hero",
+            "purpose": "Displays subheading text",
+            "elements": [],
+            "variant": "subheading",
+            "count": 1
+          },
+          {
+            "component_type": "icon_set",
+            "name": "Social Icons",
+            "location": "footer",
+            "purpose": "Displays social media links",
+            "elements": [
+              "icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Company Logo",
+            "location": "header",
+            "purpose": "Displays the company logo",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "nav links",
+            "name": "Main Navigation",
+            "location": "header",
+            "purpose": "Provides main navigation links",
+            "elements": [
+              "links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stat_card",
+            "name": "Revenue Stat Card",
+            "location": "center",
+            "purpose": "Displays revenue statistics",
+            "elements": [
+              "icon",
+              "value",
+              "label"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "stat_card",
+            "name": "Sales Stat Card",
+            "location": "center",
+            "purpose": "Displays sales statistics",
+            "elements": [
+              "icon",
+              "value",
+              "label"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "accordion",
+            "name": "FAQ Accordion",
+            "location": "center",
+            "purpose": "Displays frequently asked questions",
+            "elements": [
+              "questions",
+              "answers"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 18,
+        "tokens_used": 4063
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_homepage_v2.png": {
+      "subfolder": "screens",
+      "size_mb": 0.93,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the product and its benefits",
+            "elements": [
+              "hero image",
+              "headline",
+              "subheading",
+              "cta buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-center",
+            "purpose": "Encourages users to start a free trial",
+            "elements": [
+              "button text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Talk to Sales Button",
+            "location": "top-center",
+            "purpose": "Encourages users to contact sales",
+            "elements": [
+              "button text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "stat_card",
+            "name": "Revenue Stat Card",
+            "location": "center",
+            "purpose": "Displays key revenue statistics",
+            "elements": [
+              "stat value",
+              "stat label"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "chart",
+            "name": "Revenue Chart",
+            "location": "center",
+            "purpose": "Visualizes revenue data over time",
+            "elements": [
+              "chart data",
+              "chart labels"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Feature Section",
+            "location": "center",
+            "purpose": "Highlights key features of the product",
+            "elements": [
+              "feature icons",
+              "feature text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "testimonial",
+            "name": "Customer Testimonial",
+            "location": "center",
+            "purpose": "Displays customer feedback",
+            "elements": [
+              "testimonial text",
+              "customer name"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "pricing_card",
+            "name": "Pricing Card",
+            "location": "center",
+            "purpose": "Displays pricing plans",
+            "elements": [
+              "plan name",
+              "plan price",
+              "plan features"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "cta_section",
+            "name": "CTA Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "cta text",
+              "cta buttons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom-center",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "copyright text",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "logo",
+            "name": "Tendly Logo",
+            "location": "top-left",
+            "purpose": "Represents the brand",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Icons",
+            "location": "bottom-right",
+            "purpose": "Provides links to social media",
+            "elements": [
+              "social icon links"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 13,
+        "tokens_used": 3757
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_career.png": {
+      "subfolder": "screens",
+      "size_mb": 1.35,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top-center",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links",
+              "login button",
+              "start for free button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the company and its mission",
+            "elements": [
+              "image",
+              "title text",
+              "subtitle text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Competitive Benefits Section",
+            "location": "center",
+            "purpose": "Highlights the company's benefits",
+            "elements": [
+              "title text",
+              "benefit cards"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "card",
+            "name": "Benefit Card",
+            "location": "center",
+            "purpose": "Describes a specific benefit",
+            "elements": [
+              "icon",
+              "title text",
+              "description text"
+            ],
+            "variant": "",
+            "count": 6
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom-center",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "title text",
+              "cta button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom-center",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "logo",
+              "nav links",
+              "social icons",
+              "copyright text"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-right",
+            "purpose": "Encourages users to sign up",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Login Button",
+            "location": "top-right",
+            "purpose": "Allows users to log in",
+            "elements": [
+              "text"
+            ],
+            "variant": "secondary",
+            "count": 1
+          },
+          {
+            "component_type": "nav",
+            "name": "Main Navigation",
+            "location": "top-center",
+            "purpose": "Provides main navigation links",
+            "elements": [
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Hero Image",
+            "location": "top-center",
+            "purpose": "Illustrates the company's mission",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Hero Title",
+            "location": "top-center",
+            "purpose": "Displays the hero title",
+            "elements": [],
+            "variant": "heading",
+            "count": 1
+          },
+          {
+            "component_type": "typography_sample",
+            "name": "Hero Subtitle",
+            "location": "top-center",
+            "purpose": "Displays the hero subtitle",
+            "elements": [],
+            "variant": "subheading",
+            "count": 1
+          },
+          {
+            "component_type": "list",
+            "name": "Job Openings List",
+            "location": "center",
+            "purpose": "Lists available job openings",
+            "elements": [
+              "job title",
+              "job description"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "cta_button",
+            "name": "Get Started Button",
+            "location": "bottom-center",
+            "purpose": "Encourages users to get started",
+            "elements": [
+              "text"
+            ],
+            "variant": "primary",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3240
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_blog_detail.png": {
+      "subfolder": "screens",
+      "size_mb": 0.92,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "header",
+            "name": "Main Header",
+            "location": "top",
+            "purpose": "Provides main navigation and branding",
+            "elements": [
+              "logo",
+              "nav links"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "top_nav",
+            "name": "Top Navigation Bar",
+            "location": "top",
+            "purpose": "Provides main navigation",
+            "elements": [
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Login Button",
+            "location": "top-right",
+            "purpose": "Directs users to the login page",
+            "elements": [
+              "Login text"
+            ],
+            "variant": "text",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Start for Free Button",
+            "location": "top-right",
+            "purpose": "Directs users to the sign-up page",
+            "elements": [
+              "Start for Free text"
+            ],
+            "variant": "contained",
+            "count": 1
+          },
+          {
+            "component_type": "hero",
+            "name": "Hero Section",
+            "location": "top-center",
+            "purpose": "Introduces the main topic of the page",
+            "elements": [
+              "title",
+              "subtitle",
+              "image"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "image",
+            "name": "Hero Image",
+            "location": "top-center",
+            "purpose": "Visually supports the hero section",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "input",
+            "name": "Email Input Field",
+            "location": "center",
+            "purpose": "Collects email for newsletter subscription",
+            "elements": [],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "button",
+            "name": "Subscribe Button",
+            "location": "center",
+            "purpose": "Submits the email for newsletter subscription",
+            "elements": [
+              "Subscribe text"
+            ],
+            "variant": "contained",
+            "count": 1
+          },
+          {
+            "component_type": "icon_button",
+            "name": "Social Media Icons",
+            "location": "top-right",
+            "purpose": "Provides links to social media profiles",
+            "elements": [
+              "LinkedIn",
+              "X",
+              "Facebook"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "feature_section",
+            "name": "Feature Section 1",
+            "location": "center",
+            "purpose": "Describes a feature of the product",
+            "elements": [
+              "title",
+              "text",
+              "image"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "cta_section",
+            "name": "Call to Action Section",
+            "location": "bottom",
+            "purpose": "Encourages users to take action",
+            "elements": [
+              "title",
+              "text",
+              "button"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "footer",
+            "name": "Main Footer",
+            "location": "bottom",
+            "purpose": "Provides additional information and links",
+            "elements": [
+              "logo",
+              "nav links",
+              "social icons"
+            ],
+            "variant": "",
+            "count": 1
+          },
+          {
+            "component_type": "social_icons",
+            "name": "Social Media Icons in Footer",
+            "location": "bottom-right",
+            "purpose": "Provides links to social media profiles",
+            "elements": [
+              "LinkedIn",
+              "X",
+              "Facebook"
+            ],
+            "variant": "",
+            "count": 3
+          },
+          {
+            "component_type": "banner",
+            "name": "All-in-one CRM Banner",
+            "location": "bottom",
+            "purpose": "Promotes a key product feature",
+            "elements": [
+              "title",
+              "text",
+              "button"
+            ],
+            "variant": "",
+            "count": 1
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3254
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_about_us.png": {
+      "subfolder": "screens",
+      "size_mb": 1.62,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "full_pages_homepage_v1.png": {
+      "subfolder": "screens",
+      "size_mb": 0.93,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:33:14.378401"
+    },
+    "components_card.png": {
+      "subfolder": "screens",
+      "size_mb": 1.43,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T01:33:33.382528"
+    },
+    "full_pages_about_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.97,
+      "result": {
+        "status": "error",
+        "reason": "Request timed out.",
+        "components": []
+      },
+      "processed_at": "2026-02-18T02:41:21.193637"
+    },
+    "full_pages_blog_detaill_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.51,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A large, eye-catching section introducing Tendly Automations, with a title, text, and no call-to-action button."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "A prominent call-to-action button with a blue background and white text, used for 'Get Started' and 'Talk to Sales'."
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark",
+            "count": 1,
+            "description": "A section at the bottom of the page with links to various parts of the website, social media icons, and copyright information."
+          },
+          {
+            "component_type": "nav",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A navigation bar at the top with links to main sections of the website."
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 1,
+            "description": "A small, light-colored badge used for 'Engineering'."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Horizontal lines separating sections of content."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 3,
+            "description": "Small buttons with icons for social media links."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 6,
+            "description": "Various headings and subheadings with different font sizes and styles."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body_text",
+            "count": 1,
+            "description": "Body text with a standard font and size."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "A card with a title, text, and a form to subscribe to newsletters."
+          },
+          {
+            "component_type": "input",
+            "variant": "email",
+            "count": 1,
+            "description": "An input field for entering an email address."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A button to subscribe to newsletters."
+          },
+          {
+            "component_type": "list",
+            "variant": "unordered",
+            "count": 1,
+            "description": "An unordered list with bullet points describing features."
+          },
+          {
+            "component_type": "grid",
+            "variant": "2_column",
+            "count": 1,
+            "description": "A grid layout for showcasing features and their descriptions."
+          },
+          {
+            "component_type": "image",
+            "variant": "illustration",
+            "count": 1,
+            "description": "An illustration used in the hero section."
+          },
+          {
+            "component_type": "tag",
+            "variant": "light",
+            "count": 1,
+            "description": "A tag or label used for categorization."
+          },
+          {
+            "component_type": "alert",
+            "variant": "info",
+            "count": 1,
+            "description": "An informational alert with a message."
+          },
+          {
+            "component_type": "chip",
+            "variant": "light",
+            "count": 1,
+            "description": "A chip or token used for filtering or categorization."
+          }
+        ],
+        "component_count": 18,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3601
+      },
+      "processed_at": "2026-02-18T02:42:09.623210"
+    },
+    "full_pages_blog_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.45,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A prominent header section with a title, subtitle, and a background image or gradient."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 4,
+            "description": "A rectangular container with a title, date, and a 'Read More' button, used for blog posts."
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "light",
+            "count": 1,
+            "description": "A dropdown menu for selecting categories."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "A call-to-action button with a blue background and white text."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A button with a white background and blue text."
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark",
+            "count": 1,
+            "description": "A section with links to various pages, social media icons, and copyright information."
+          },
+          {
+            "component_type": "nav",
+            "variant": "light",
+            "count": 1,
+            "description": "A navigation menu with links to features, solutions, and more."
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 1,
+            "description": "A small label indicating the category of a blog post (e.g. 'Engineering')."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "A button with an icon, used for navigation or actions."
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 1,
+            "description": "A horizontal line separating sections."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample text with a large font size, used for headings."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A sample text with a regular font size, used for body text."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "light",
+            "count": 1,
+            "description": "A set of icons used for social media links."
+          },
+          {
+            "component_type": "banner",
+            "variant": "light",
+            "count": 1,
+            "description": "A promotional section with a title, text, and a call-to-action button."
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2708
+      },
+      "processed_at": "2026-02-18T02:42:48.181786"
+    },
+    "full_pages_careers_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.35,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "full-width",
+            "count": 1,
+            "description": "A full-width hero section with a heading, subheading, and a call-to-action"
+          },
+          {
+            "component_type": "image",
+            "variant": "rounded",
+            "count": 1,
+            "description": "A rounded image of two women working together"
+          },
+          {
+            "component_type": "badge",
+            "variant": "text",
+            "count": 2,
+            "description": "Badges for 'Careers' and 'Benefits'"
+          },
+          {
+            "component_type": "card",
+            "variant": "benefits",
+            "count": 3,
+            "description": "Cards highlighting company benefits, such as 'Work from anywhere', 'Generous healthcare plan', and 'Home office support'"
+          },
+          {
+            "component_type": "icon",
+            "variant": "outline",
+            "count": 6,
+            "description": "Icons used within benefit cards, such as a house, heart, and briefcase"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A primary button to 'Get Started'"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A secondary button to 'Talk to Sales'"
+          },
+          {
+            "component_type": "navbar",
+            "variant": "top",
+            "count": 1,
+            "description": "A top navigation bar with company logo and links"
+          },
+          {
+            "component_type": "footer",
+            "variant": "standard",
+            "count": 1,
+            "description": "A standard footer with company information, social media links, and copyright information"
+          },
+          {
+            "component_type": "list",
+            "variant": "simple",
+            "count": 1,
+            "description": "A simple list of job openings, including 'Product Designer', 'Backend Engineer', and 'Data Analyst'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 2,
+            "description": "Horizontal dividers separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 5,
+            "description": "Various typography samples used for headings and body text"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "social",
+            "count": 1,
+            "description": "A set of social media icons for LinkedIn, Twitter, and Facebook"
+          },
+          {
+            "component_type": "banner",
+            "variant": "cta",
+            "count": 1,
+            "description": "A call-to-action banner promoting the company's CRM solution"
+          },
+          {
+            "component_type": "chip",
+            "variant": "filter",
+            "count": 3,
+            "description": "Chips used as filters for job openings, such as 'Full-time' and 'Remote'"
+          }
+        ],
+        "component_count": 15,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3045
+      },
+      "processed_at": "2026-02-18T02:43:35.383617"
+    },
+    "full_pages_contact_us_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with logo and menu"
+          },
+          {
+            "component_type": "menu",
+            "variant": "dropdown",
+            "count": 1,
+            "description": "Dropdown menu with navigation links"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "Call-to-action buttons with blue color"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Outlined button with white background"
+          },
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "Hero section with heading, text, and call-to-action"
+          },
+          {
+            "component_type": "form",
+            "variant": "light",
+            "count": 1,
+            "description": "Contact form with input fields and submit button"
+          },
+          {
+            "component_type": "input",
+            "variant": "text",
+            "count": 4,
+            "description": "Text input fields for form"
+          },
+          {
+            "component_type": "textarea",
+            "variant": "light",
+            "count": 1,
+            "description": "Textarea for additional information"
+          },
+          {
+            "component_type": "footer",
+            "variant": "light",
+            "count": 1,
+            "description": "Footer with copyright information and social media links"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "social media",
+            "count": 3,
+            "description": "Social media icon buttons"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider separating sections"
+          },
+          {
+            "component_type": "badge",
+            "variant": "text",
+            "count": 1,
+            "description": "Badge with text"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 1,
+            "description": "Card with contact form"
+          },
+          {
+            "component_type": "card",
+            "variant": "blue",
+            "count": 1,
+            "description": "Blue card with call-to-action and text"
+          },
+          {
+            "component_type": "list",
+            "variant": "navigation",
+            "count": 1,
+            "description": "List of navigation links"
+          },
+          {
+            "component_type": "list",
+            "variant": "footer",
+            "count": 1,
+            "description": "List of footer links"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Sample heading text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "Sample paragraph text"
+          }
+        ],
+        "component_count": 18,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3485
+      },
+      "processed_at": "2026-02-18T02:43:48.043720"
+    },
+    "full_pages_customer_stories_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.61,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with logo and menu"
+          },
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "Hero section with heading and text"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 6,
+            "description": "Case study cards with images and text"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "Call-to-action buttons"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "Talk to Sales button"
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "light",
+            "count": 3,
+            "description": "Dropdown menus for filtering case studies"
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "light",
+            "count": 2,
+            "description": "Customer testimonials with quotes and avatars"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "light",
+            "count": 2,
+            "description": "Customer avatars in testimonials"
+          },
+          {
+            "component_type": "footer",
+            "variant": "light",
+            "count": 1,
+            "description": "Footer with links and copyright information"
+          },
+          {
+            "component_type": "grid",
+            "variant": "light",
+            "count": 1,
+            "description": "Grid layout for case study cards"
+          },
+          {
+            "component_type": "list",
+            "variant": "light",
+            "count": 1,
+            "description": "List of links in the footer"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 3,
+            "description": "Social media icon buttons in the footer"
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 1,
+            "description": "Badge indicating 'Our Customer'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 1,
+            "description": "Horizontal divider separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "light",
+            "count": 1,
+            "description": "Sample text with different font sizes and styles"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "light",
+            "count": 1,
+            "description": "Set of icons used throughout the page"
+          },
+          {
+            "component_type": "chip",
+            "variant": "light",
+            "count": 3,
+            "description": "Chips for filtering case studies"
+          }
+        ],
+        "component_count": 17,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3311
+      },
+      "processed_at": "2026-02-18T02:44:15.449366"
+    },
+    "full_pages_faq_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A prominent hero section with a heading, text, and a call-to-action button."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "A search bar with a text input and a search icon."
+          },
+          {
+            "component_type": "tab",
+            "variant": "light",
+            "count": 3,
+            "description": "Tabs for navigating between sections (Importing, Billing, Integrations)."
+          },
+          {
+            "component_type": "accordion",
+            "variant": "light",
+            "count": 5,
+            "description": "Accordion sections for FAQs with expandable and collapsible content."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "Call-to-action buttons (Get Started, Talk to Sales)."
+          },
+          {
+            "component_type": "footer",
+            "variant": "dark",
+            "count": 1,
+            "description": "A footer section with links, social media icons, and copyright information."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "A top navigation bar with links to different sections of the website."
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "A sidebar navigation menu with links to different sections of the website."
+          },
+          {
+            "component_type": "list",
+            "variant": "light",
+            "count": 1,
+            "description": "A list of categories for FAQs."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 6,
+            "description": "FAQ cards with questions and answers."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "An icon button for menu or navigation."
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 3,
+            "description": "Badges for categories (Importing, Billing, Integrations)."
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 1,
+            "description": "A horizontal divider separating sections."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample of heading typography."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A sample of paragraph typography."
+          }
+        ],
+        "component_count": 15,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 2568
+      },
+      "processed_at": "2026-02-18T02:44:41.028371"
+    },
+    "full_pages_features_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.46,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "primary",
+            "count": 1,
+            "description": "A prominent hero section with a heading, subheading, and call-to-action button."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 5,
+            "description": "A blue button with white text, used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 3,
+            "description": "A white button with black text, used for secondary actions."
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 4,
+            "description": "A rectangular container with a heading, text, and sometimes an image."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "default",
+            "count": 7,
+            "description": "A small circular image representing a user."
+          },
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "A table with columns and rows, used for displaying data."
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 1,
+            "description": "A tabbed interface with multiple tabs."
+          },
+          {
+            "component_type": "icon",
+            "variant": "default",
+            "count": 14,
+            "description": "A small graphical symbol used for decoration or indication."
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 5,
+            "description": "A horizontal or vertical line used to separate content."
+          },
+          {
+            "component_type": "accordion",
+            "variant": "default",
+            "count": 1,
+            "description": "A collapsible section with a heading and content."
+          },
+          {
+            "component_type": "footer",
+            "variant": "default",
+            "count": 1,
+            "description": "A section at the bottom of the page with links and information."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "default",
+            "count": 1,
+            "description": "A navigation bar with links to different sections of the website."
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "default",
+            "count": 1,
+            "description": "A small text bubble that appears when hovering over an element."
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 2,
+            "description": "A small label with text, used to indicate status or category."
+          },
+          {
+            "component_type": "chip",
+            "variant": "default",
+            "count": 1,
+            "description": "A small label with text, used to indicate a category or filter."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "A sample of different typography styles, used for headings and text."
+          },
+          {
+            "component_type": "illustration",
+            "variant": "default",
+            "count": 2,
+            "description": "A graphical illustration used for decoration or explanation."
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "default",
+            "count": 1,
+            "description": "A quote from a satisfied customer, used to build trust."
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "default",
+            "count": 1,
+            "description": "A card with a statistic and a brief description."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "default",
+            "count": 1,
+            "description": "A card with pricing information and features."
+          },
+          {
+            "component_type": "alert",
+            "variant": "default",
+            "count": 1,
+            "description": "A notification with a message and sometimes an icon."
+          },
+          {
+            "component_type": "notification",
+            "variant": "default",
+            "count": 1,
+            "description": "A notification with a message and sometimes an icon."
+          },
+          {
+            "component_type": "snackbar",
+            "variant": "default",
+            "count": 0,
+            "description": "A notification that appears at the bottom of the screen."
+          },
+          {
+            "component_type": "dialog",
+            "variant": "default",
+            "count": 0,
+            "description": "A modal window with a message and sometimes a form."
+          },
+          {
+            "component_type": "modal",
+            "variant": "default",
+            "count": 0,
+            "description": "A modal window with a message and sometimes a form."
+          },
+          {
+            "component_type": "form",
+            "variant": "default",
+            "count": 1,
+            "description": "A form with input fields and a submit button."
+          },
+          {
+            "component_type": "input",
+            "variant": "default",
+            "count": 5,
+            "description": "A text input field."
+          },
+          {
+            "component_type": "textarea",
+            "variant": "default",
+            "count": 1,
+            "description": "A multi-line text input field."
+          },
+          {
+            "component_type": "select",
+            "variant": "default",
+            "count": 1,
+            "description": "A dropdown select menu."
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "default",
+            "count": 2,
+            "description": "A checkbox input field."
+          },
+          {
+            "component_type": "radio",
+            "variant": "default",
+            "count": 1,
+            "description": "A radio input field."
+          },
+          {
+            "component_type": "switch",
+            "variant": "default",
+            "count": 1,
+            "description": "A toggle switch input field."
+          },
+          {
+            "component_type": "slider",
+            "variant": "default",
+            "count": 0,
+            "description": "A slider input field."
+          },
+          {
+            "component_type": "date_picker",
+            "variant": "default",
+            "count": 0,
+            "description": "A date picker input field."
+          },
+          {
+            "component_type": "file_upload",
+            "variant": "default",
+            "count": 0,
+            "description": "A file upload input field."
+          },
+          {
+            "component_type": "pagination",
+            "variant": "default",
+            "count": 1,
+            "description": "A pagination component with links to different pages."
+          },
+          {
+            "component_type": "breadcrumb",
+            "variant": "default",
+            "count": 1,
+            "description": "A breadcrumb navigation component."
+          },
+          {
+            "component_type": "stepper",
+            "variant": "default",
+            "count": 0,
+            "description": "A stepper component with multiple steps."
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "default",
+            "count": 0,
+            "description": "A color swatch component."
+          },
+          {
+            "component_type": "menu",
+            "variant": "default",
+            "count": 1,
+            "description": "A menu component with links."
+          },
+          {
+            "component_type": "list",
+            "variant": "default",
+            "count": 2,
+            "description": "A list component with items."
+          },
+          {
+            "component_type": "grid",
+            "variant": "default",
+            "count": 1,
+            "description": "A grid component with items."
+          },
+          {
+            "component_type": "carousel",
+            "variant": "default",
+            "count": 0,
+            "description": "A carousel component with slides."
+          },
+          {
+            "component_type": "rating",
+            "variant": "default",
+            "count": 0,
+            "description": "A rating component with stars."
+          },
+          {
+            "component_type": "timeline",
+            "variant": "default",
+            "count": 0,
+            "description": "A timeline component with events."
+          },
+          {
+            "component_type": "tag",
+            "variant": "default",
+            "count": 0,
+            "description": "A tag component with text."
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "default",
+            "count": 0,
+            "description": "An empty state component with a message."
+          },
+          {
+            "component_type": "error_state",
+            "variant": "default",
+            "count": 0,
+            "description": "An error state component with a message."
+          },
+          {
+            "component_type": "loading_state",
+            "variant": "default",
+            "count": 0,
+            "description": "A loading state component with a spinner."
+          },
+          {
+            "component_type": "onboarding",
+            "variant": "default",
+            "count": 0,
+            "description": "An onboarding component with steps."
+          },
+          {
+            "component_type": "login",
+            "variant": "default",
+            "count": 0,
+            "description": "A login component with a form."
+          },
+          {
+            "component_type": "signup",
+            "variant": "default",
+            "count": 0,
+            "description": "A signup component with a form."
+          },
+          {
+            "component_type": "profile",
+            "variant": "default",
+            "count": 0,
+            "description": "A profile component with information."
+          },
+          {
+            "component_type": "settings",
+            "variant": "default",
+            "count": 0,
+            "description": "A settings component with options."
+          },
+          {
+            "component_type": "dashboard_widget",
+            "variant": "default",
+            "count": 0,
+            "description": "A dashboard widget component with information."
+          },
+          {
+            "component_type": "data_table",
+            "variant": "default",
+            "count": 0,
+            "description": "A data table component with data."
+          },
+          {
+            "component_type": "kanban",
+            "variant": "default",
+            "count": 0,
+            "description": "A kanban component with boards."
+          },
+          {
+            "component_type": "map",
+            "variant": "default",
+            "count": 0,
+            "description": "A map component with markers."
+          },
+          {
+            "component_type": "player",
+            "variant": "default",
+            "count": 0,
+            "description": "A player component with media."
+          },
+          {
+            "component_type": "editor",
+            "variant": "default",
+            "count": 0,
+            "description": "An editor component with text input."
+          },
+          {
+            "component_type": "comment",
+            "variant": "default",
+            "count": 0,
+            "description": "A comment component with text."
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "default",
+            "count": 0,
+            "description": "A chat bubble component with text."
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "default",
+            "count": 0,
+            "description": "A notification panel component with notifications."
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "default",
+            "count": 0,
+            "description": "A sidebar navigation component with links."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "default",
+            "count": 0,
+            "description": "A top navigation component with links."
+          },
+          {
+            "component_type": "bottom_nav",
+            "variant": "default",
+            "count": 0,
+            "description": "A bottom navigation component with links."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "default",
+            "count": 0,
+            "description": "A tab bar component with tabs."
+          },
+          {
+            "component_type": "pagination_nav",
+            "variant": "default",
+            "count": 0,
+            "description": "A pagination navigation component with links."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "default",
+            "count": 0,
+            "description": "A step indicator component with steps."
+          }
+        ],
+        "component_count": 69,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 5544
+      },
+      "processed_at": "2026-02-18T02:47:50.879255"
+    },
+    "full_pages_forgot_password_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A blue circle with a white logo inside, likely representing the brand or application."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Reset your password'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A paragraph of text explaining the password reset process."
+          },
+          {
+            "component_type": "form",
+            "variant": "",
+            "count": 1,
+            "description": "A form containing an email input field and a password reset button."
+          },
+          {
+            "component_type": "input",
+            "variant": "",
+            "count": 1,
+            "description": "An email input field with a placeholder text 'johndoe@mail.com'."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A blue button labeled 'Reset Password'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "link",
+            "count": 1,
+            "description": "A link that reads 'Try another method'."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "An implied divider separating the main content from the footer."
+          },
+          {
+            "component_type": "footer",
+            "variant": "",
+            "count": 1,
+            "description": "A footer containing copyright information and links to 'Privacy', 'Terms', and 'Get help'."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "copyright",
+            "count": 1,
+            "description": "A small text that reads ' 2024 Tendly'."
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 3,
+            "description": "Three text links in the footer: 'Privacy', 'Terms', and 'Get help'."
+          }
+        ],
+        "component_count": 11,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1839
+      },
+      "processed_at": "2026-02-18T02:47:57.255796"
+    },
+    "full_pages_homepage_v1_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.66,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "primary",
+            "count": 1,
+            "description": "A prominent hero section with a heading, subheading, and call-to-action buttons."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 4,
+            "description": "Filled buttons with text, used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 2,
+            "description": "Outlined buttons with text, used for secondary actions."
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 8,
+            "description": "Cards used to display information about features, plans, and testimonials."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "default",
+            "count": 3,
+            "description": "Cards used to display pricing plans and their features."
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "default",
+            "count": 2,
+            "description": "Testimonials from customers, displayed with quotes and avatars."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "default",
+            "count": 2,
+            "description": "User avatars used in testimonials and other sections."
+          },
+          {
+            "component_type": "chart",
+            "variant": "line",
+            "count": 1,
+            "description": "A line chart used to display sales data."
+          },
+          {
+            "component_type": "chart",
+            "variant": "bar",
+            "count": 1,
+            "description": "A bar chart used to display data."
+          },
+          {
+            "component_type": "chart",
+            "variant": "pie",
+            "count": 1,
+            "description": "A pie chart used to display data."
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 1,
+            "description": "Tabs used for navigation."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A tab bar used for navigation."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "default",
+            "count": 1,
+            "description": "A navigation bar with links to different sections."
+          },
+          {
+            "component_type": "footer",
+            "variant": "default",
+            "count": 1,
+            "description": "A footer with links to different sections and social media."
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 2,
+            "description": "Badges used to display information."
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 5,
+            "description": "Dividers used to separate sections."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 5,
+            "description": "Icon buttons used for various actions."
+          },
+          {
+            "component_type": "toggle",
+            "variant": "default",
+            "count": 1,
+            "description": "A toggle used to switch between monthly and annually plans."
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "default",
+            "count": 1,
+            "description": "A dropdown used to select plan types."
+          },
+          {
+            "component_type": "list",
+            "variant": "default",
+            "count": 1,
+            "description": "A list used to display features."
+          },
+          {
+            "component_type": "grid",
+            "variant": "default",
+            "count": 1,
+            "description": "A grid used to display features."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "Headings used to display titles and subtitles."
+          }
+        ],
+        "component_count": 22,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3697
+      },
+      "processed_at": "2026-02-18T02:49:47.318699"
+    },
+    "full_pages_homepage_v2_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.65,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A prominent hero section with a heading, subheading, and call-to-action buttons."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 5,
+            "description": "Filled buttons with text, used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 2,
+            "description": "Outlined buttons with text, used for secondary actions."
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 6,
+            "description": "Containers with a subtle shadow, used to group related content."
+          },
+          {
+            "component_type": "chart",
+            "variant": "line",
+            "count": 2,
+            "description": "Line charts used to display data trends."
+          },
+          {
+            "component_type": "chart",
+            "variant": "pie",
+            "count": 1,
+            "description": "A pie chart used to display data distribution."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 4,
+            "description": "Circular avatars used to represent users."
+          },
+          {
+            "component_type": "badge",
+            "variant": "light",
+            "count": 2,
+            "description": "Small, subtle badges used to highlight status or categories."
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "light",
+            "count": 3,
+            "description": "Cards used to display pricing plans and features."
+          },
+          {
+            "component_type": "testimonial",
+            "variant": "light",
+            "count": 2,
+            "description": "Containers with quotes and attribution, used to showcase customer feedback."
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "light",
+            "count": 1,
+            "description": "A card used to display a statistic or metric."
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "linear",
+            "count": 1,
+            "description": "A progress bar used to display progress or completion."
+          },
+          {
+            "component_type": "footer",
+            "variant": "light",
+            "count": 1,
+            "description": "A footer section with links and information."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "light",
+            "count": 1,
+            "description": "A top navigation bar with links."
+          },
+          {
+            "component_type": "tab",
+            "variant": "light",
+            "count": 1,
+            "description": "Tabs used to switch between content sections."
+          },
+          {
+            "component_type": "table",
+            "variant": "light",
+            "count": 1,
+            "description": "A table used to display data in a grid."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 5,
+            "description": "Buttons with icons, used for actions or navigation."
+          },
+          {
+            "component_type": "divider",
+            "variant": "light",
+            "count": 2,
+            "description": "Horizontal dividers used to separate content sections."
+          },
+          {
+            "component_type": "chip",
+            "variant": "light",
+            "count": 4,
+            "description": "Small, rounded chips used to represent categories or tags."
+          },
+          {
+            "component_type": "alert",
+            "variant": "light",
+            "count": 1,
+            "description": "An alert message used to display important information."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "Headings and paragraphs used to display text content."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "light",
+            "count": 10,
+            "description": "Sets of icons used to represent actions or categories."
+          },
+          {
+            "component_type": "tag",
+            "variant": "light",
+            "count": 4,
+            "description": "Small, rounded tags used to represent categories or labels."
+          }
+        ],
+        "component_count": 23,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3757
+      },
+      "processed_at": "2026-02-18T02:50:57.023405"
+    },
+    "full_pages_integrations_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.22,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "primary",
+            "count": 1,
+            "description": "A prominent header section with a heading, subheading, and call-to-action buttons."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "A blue button with white text, used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A blue button with white text, used for secondary actions."
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A text input field with a search icon, used for searching integrations."
+          },
+          {
+            "component_type": "dropdown",
+            "variant": "default",
+            "count": 2,
+            "description": "A dropdown menu with a list of options, used for filtering and sorting."
+          },
+          {
+            "component_type": "card",
+            "variant": "integration",
+            "count": 8,
+            "description": "A rectangular container with an icon, heading, and text, used to display integrations."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "A button with an icon, used for navigation and actions."
+          },
+          {
+            "component_type": "footer",
+            "variant": "default",
+            "count": 1,
+            "description": "A section with links to various pages and social media icons."
+          },
+          {
+            "component_type": "nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A navigation menu with links to various pages."
+          },
+          {
+            "component_type": "badge",
+            "variant": "integration_type",
+            "count": 8,
+            "description": "A small label indicating the type of integration."
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 1,
+            "description": "A horizontal line separating sections."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample text with a heading style."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subheading",
+            "count": 1,
+            "description": "A sample text with a subheading style."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "A set of icons used throughout the page."
+          },
+          {
+            "component_type": "alert",
+            "variant": "info",
+            "count": 1,
+            "description": "A notification with information about the product."
+          }
+        ],
+        "component_count": 15,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3015
+      },
+      "processed_at": "2026-02-18T02:51:45.774207"
+    },
+    "full_pages_pricing_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.35,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "light",
+            "count": 1,
+            "description": "A prominent hero section with a call-to-action button"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "standard",
+            "count": 1,
+            "description": "A pricing card for the Standard plan"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "pro",
+            "count": 1,
+            "description": "A pricing card for the Pro plan"
+          },
+          {
+            "component_type": "pricing_card",
+            "variant": "custom",
+            "count": 1,
+            "description": "A pricing card for the Custom plan"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 2,
+            "description": "A primary button to start a free trial"
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 1,
+            "description": "A secondary button to talk to sales"
+          },
+          {
+            "component_type": "tab",
+            "variant": "default",
+            "count": 2,
+            "description": "Tabs for monthly and annually pricing plans"
+          },
+          {
+            "component_type": "table",
+            "variant": "comparison",
+            "count": 1,
+            "description": "A comparison table for different plans"
+          },
+          {
+            "component_type": "accordion",
+            "variant": "default",
+            "count": 4,
+            "description": "Accordion sections for frequently asked questions"
+          },
+          {
+            "component_type": "footer",
+            "variant": "default",
+            "count": 1,
+            "description": "A footer section with links and copyright information"
+          },
+          {
+            "component_type": "navbar",
+            "variant": "default",
+            "count": 1,
+            "description": "A navigation bar with links to different sections"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "An icon button for menu or settings"
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 1,
+            "description": "A badge indicating a plan's features"
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 2,
+            "description": "A horizontal divider separating sections"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A sample typography for headings"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A sample typography for paragraphs"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "A set of icons used throughout the UI"
+          },
+          {
+            "component_type": "chip",
+            "variant": "default",
+            "count": 1,
+            "description": "A chip indicating a plan's features"
+          },
+          {
+            "component_type": "alert",
+            "variant": "info",
+            "count": 1,
+            "description": "An info alert with a message"
+          },
+          {
+            "component_type": "alert",
+            "variant": "success",
+            "count": 1,
+            "description": "A success alert with a message"
+          }
+        ],
+        "component_count": 20,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3594
+      },
+      "processed_at": "2026-02-18T02:52:20.741184"
+    },
+    "full_pages_privacy_policy_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.59,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "default",
+            "count": 1,
+            "description": "A prominent section at the bottom with a blue background, white text, and a call-to-action button, likely used for marketing or promotional purposes."
+          },
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 2,
+            "description": "Two buttons with blue background and white text, used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "outlined",
+            "count": 1,
+            "description": "A button with a blue border and white text, used for secondary actions."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating sections of content."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "Various headings and subheadings used throughout the page."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body_text",
+            "count": 20,
+            "description": "Body text used to describe the content and purpose of the page."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "A set of icons used in the hero section."
+          },
+          {
+            "component_type": "contact_information",
+            "variant": "default",
+            "count": 1,
+            "description": "A section containing contact information, including email, phone number, and address."
+          }
+        ],
+        "component_count": 8,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 3177
+      },
+      "processed_at": "2026-02-18T02:52:41.932036"
+    },
+    "full_pages_set_new_password_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 1,
+            "description": "A lock icon in a circle, used as a logo or branding element."
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "Title text 'Create New Password'."
+          },
+          {
+            "component_type": "typography",
+            "variant": "body",
+            "count": 1,
+            "description": "Subtitle text 'Enter your details to sign up'."
+          },
+          {
+            "component_type": "input",
+            "variant": "outlined",
+            "count": 2,
+            "description": "Two password input fields with eye icons for toggling visibility."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 2,
+            "description": "Eye icons for toggling password visibility."
+          },
+          {
+            "component_type": "button",
+            "variant": "contained",
+            "count": 1,
+            "description": "Blue 'Create New Password' button."
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "Horizontal space separating content from footer."
+          },
+          {
+            "component_type": "typography",
+            "variant": "caption",
+            "count": 1,
+            "description": "Copyright text ' 2024 Tendly'."
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 3,
+            "description": "Links for 'Privacy', 'Terms', and 'Get help'."
+          }
+        ],
+        "component_count": 9,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1720
+      },
+      "processed_at": "2026-02-18T02:52:52.431971"
+    },
+    "full_pages_sign_in_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "variant": "",
+            "count": 1,
+            "description": "A container for the login form with fields for email and password"
+          },
+          {
+            "component_type": "input",
+            "variant": "filled",
+            "count": 2,
+            "description": "Text input fields for email and password"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "The main sign-in button"
+          },
+          {
+            "component_type": "button",
+            "variant": "text",
+            "count": 1,
+            "description": "The sign-up button"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "",
+            "count": 1,
+            "description": "A checkbox to keep the user logged in"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 1,
+            "description": "An eye icon to toggle password visibility"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the form from the sign-up option"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "headline",
+            "count": 1,
+            "description": "The title of the login screen"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 1,
+            "description": "The subtitle of the login screen"
+          },
+          {
+            "component_type": "footer",
+            "variant": "",
+            "count": 1,
+            "description": "The footer with copyright information and links"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "The Tendly logo"
+          },
+          {
+            "component_type": "badge",
+            "variant": "",
+            "count": 1,
+            "description": "The year in the copyright information"
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 3,
+            "description": "Links for privacy, terms, and help"
+          },
+          {
+            "component_type": "login",
+            "variant": "",
+            "count": 1,
+            "description": "The overall login screen component"
+          }
+        ],
+        "component_count": 14,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1886
+      },
+      "processed_at": "2026-02-18T02:53:04.598953"
+    },
+    "full_pages_sign_up_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "form",
+            "variant": "",
+            "count": 1,
+            "description": "A form with fields for full name, email, and password"
+          },
+          {
+            "component_type": "input",
+            "variant": "",
+            "count": 3,
+            "description": "Text input fields for full name, email, and password"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "A blue 'Sign Up' button"
+          },
+          {
+            "component_type": "divider",
+            "variant": "text",
+            "count": 1,
+            "description": "A divider with text 'By creating an account, you agreeing to our Terms and Conditions, and Privacy Policy'"
+          },
+          {
+            "component_type": "link",
+            "variant": "",
+            "count": 3,
+            "description": "Links to Terms and Conditions, Privacy Policy, and others"
+          },
+          {
+            "component_type": "icon",
+            "variant": "",
+            "count": 1,
+            "description": "A blue icon with a white 'X' in the top left corner"
+          },
+          {
+            "component_type": "logo",
+            "variant": "",
+            "count": 1,
+            "description": "The Tendly logo"
+          },
+          {
+            "component_type": "footer",
+            "variant": "",
+            "count": 1,
+            "description": "A footer with copyright information and links"
+          },
+          {
+            "component_type": "typography",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that says 'Create a new account'"
+          },
+          {
+            "component_type": "typography",
+            "variant": "paragraph",
+            "count": 1,
+            "description": "A paragraph that says 'Enter your details to sign up'"
+          },
+          {
+            "component_type": "checkbox",
+            "variant": "",
+            "count": 1,
+            "description": "An implicit checkbox for terms and conditions"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 3,
+            "description": "Icon buttons for help, terms, and privacy"
+          },
+          {
+            "component_type": "badge",
+            "variant": "",
+            "count": 1,
+            "description": "No visible badges, but could be considered for the year in the footer"
+          },
+          {
+            "component_type": "tooltip",
+            "variant": "",
+            "count": 0,
+            "description": "No visible tooltips"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "",
+            "count": 1,
+            "description": "A circular avatar/icon in the center of the screen"
+          }
+        ],
+        "component_count": 15,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 1964
+      },
+      "processed_at": "2026-02-18T02:53:12.617573"
+    },
+    "full_pages_solution_mobile.png": {
+      "subfolder": "components",
+      "size_mb": 0.47,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "hero",
+            "variant": "primary",
+            "count": 1,
+            "description": "A prominent hero section with a heading, text, and a call-to-action button."
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 3,
+            "description": "A primary button with a blue background and white text, used for calls-to-action."
+          },
+          {
+            "component_type": "button",
+            "variant": "secondary",
+            "count": 2,
+            "description": "A secondary button with a white background and dark text, used for secondary actions."
+          },
+          {
+            "component_type": "card",
+            "variant": "default",
+            "count": 6,
+            "description": "A card component used to display information, such as features, benefits, and customer reviews."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "default",
+            "count": 1,
+            "description": "An icon button used for navigation and actions."
+          },
+          {
+            "component_type": "avatar",
+            "variant": "default",
+            "count": 1,
+            "description": "An avatar component used to display a user's profile picture."
+          },
+          {
+            "component_type": "badge",
+            "variant": "default",
+            "count": 2,
+            "description": "A badge component used to display status or labels."
+          },
+          {
+            "component_type": "divider",
+            "variant": "default",
+            "count": 5,
+            "description": "A divider component used to separate sections."
+          },
+          {
+            "component_type": "accordion",
+            "variant": "default",
+            "count": 1,
+            "description": "An accordion component used to display frequently asked questions."
+          },
+          {
+            "component_type": "footer",
+            "variant": "default",
+            "count": 1,
+            "description": "A footer component used to display copyright information and links."
+          },
+          {
+            "component_type": "grid",
+            "variant": "default",
+            "count": 1,
+            "description": "A grid component used to display a list of items."
+          },
+          {
+            "component_type": "list",
+            "variant": "default",
+            "count": 1,
+            "description": "A list component used to display a list of items."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 10,
+            "description": "A typography sample component used to display headings and text."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "paragraph",
+            "count": 20,
+            "description": "A typography sample component used to display paragraphs and text."
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "default",
+            "count": 1,
+            "description": "An icon set component used to display a set of icons."
+          },
+          {
+            "component_type": "chart",
+            "variant": "line_chart",
+            "count": 1,
+            "description": "A line chart component used to display data."
+          },
+          {
+            "component_type": "table",
+            "variant": "default",
+            "count": 1,
+            "description": "A table component used to display data."
+          },
+          {
+            "component_type": "navbar",
+            "variant": "default",
+            "count": 1,
+            "description": "A navbar component used for navigation."
+          },
+          {
+            "component_type": "top_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A top navigation component used for navigation."
+          },
+          {
+            "component_type": "bottom_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A bottom navigation component used for navigation."
+          },
+          {
+            "component_type": "tab_bar",
+            "variant": "default",
+            "count": 1,
+            "description": "A tab bar component used for navigation."
+          },
+          {
+            "component_type": "pagination",
+            "variant": "default",
+            "count": 1,
+            "description": "A pagination component used for navigation."
+          },
+          {
+            "component_type": "breadcrumb_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A breadcrumb navigation component used for navigation."
+          },
+          {
+            "component_type": "step_indicator",
+            "variant": "default",
+            "count": 1,
+            "description": "A step indicator component used to display progress."
+          },
+          {
+            "component_type": "color_swatch",
+            "variant": "default",
+            "count": 1,
+            "description": "A color swatch component used to display colors."
+          },
+          {
+            "component_type": "alert",
+            "variant": "default",
+            "count": 1,
+            "description": "An alert component used to display alerts."
+          },
+          {
+            "component_type": "banner",
+            "variant": "default",
+            "count": 1,
+            "description": "A banner component used to display a banner."
+          },
+          {
+            "component_type": "empty_state",
+            "variant": "default",
+            "count": 1,
+            "description": "An empty state component used to display an empty state."
+          },
+          {
+            "component_type": "error_state",
+            "variant": "default",
+            "count": 1,
+            "description": "An error state component used to display an error state."
+          },
+          {
+            "component_type": "loading_state",
+            "variant": "default",
+            "count": 1,
+            "description": "A loading state component used to display a loading state."
+          },
+          {
+            "component_type": "onboarding",
+            "variant": "default",
+            "count": 1,
+            "description": "An onboarding component used to display an onboarding process."
+          },
+          {
+            "component_type": "login",
+            "variant": "default",
+            "count": 1,
+            "description": "A login component used to display a login form."
+          },
+          {
+            "component_type": "signup",
+            "variant": "default",
+            "count": 1,
+            "description": "A signup component used to display a signup form."
+          },
+          {
+            "component_type": "profile",
+            "variant": "default",
+            "count": 1,
+            "description": "A profile component used to display a user's profile."
+          },
+          {
+            "component_type": "settings",
+            "variant": "default",
+            "count": 1,
+            "description": "A settings component used to display settings."
+          },
+          {
+            "component_type": "dashboard_widget",
+            "variant": "default",
+            "count": 1,
+            "description": "A dashboard widget component used to display a dashboard widget."
+          },
+          {
+            "component_type": "data_table",
+            "variant": "default",
+            "count": 1,
+            "description": "A data table component used to display data."
+          },
+          {
+            "component_type": "kanban",
+            "variant": "default",
+            "count": 1,
+            "description": "A kanban component used to display a kanban board."
+          },
+          {
+            "component_type": "map",
+            "variant": "default",
+            "count": 1,
+            "description": "A map component used to display a map."
+          },
+          {
+            "component_type": "player",
+            "variant": "default",
+            "count": 1,
+            "description": "A player component used to display a player."
+          },
+          {
+            "component_type": "editor",
+            "variant": "default",
+            "count": 1,
+            "description": "An editor component used to display an editor."
+          },
+          {
+            "component_type": "comment",
+            "variant": "default",
+            "count": 1,
+            "description": "A comment component used to display a comment."
+          },
+          {
+            "component_type": "chat_bubble",
+            "variant": "default",
+            "count": 1,
+            "description": "A chat bubble component used to display a chat bubble."
+          },
+          {
+            "component_type": "notification_panel",
+            "variant": "default",
+            "count": 1,
+            "description": "A notification panel component used to display notifications."
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "default",
+            "count": 1,
+            "description": "A sidebar navigation component used for navigation."
+          }
+        ],
+        "component_count": 45,
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "tokens_used": 4687
+      },
+      "processed_at": "2026-02-18T02:55:11.176906"
+    }
+  },
+  "summary": {
+    "total_screens": 49,
+    "screens_processed": 49,
+    "screens_successful": 44,
+    "screens_skipped": 0,
+    "screens_errored": 5,
+    "total_components_identified": 618,
+    "unique_component_types": 95,
+    "component_type_counts": {
+      "typography_sample": 76,
+      "button": 61,
+      "footer": 36,
+      "hero": 25,
+      "divider": 20,
+      "input": 20,
+      "card": 18,
+      "icon_button": 15,
+      "icon_set": 15,
+      "header": 14,
+      "badge": 14,
+      "top_nav": 13,
+      "cta_section": 13,
+      "logo": 12,
+      "social_icons": 11,
+      "pricing_card": 10,
+      "list": 10,
+      "navbar": 9,
+      "accordion": 8,
+      "link": 8,
+      "grid": 7,
+      "testimonial": 7,
+      "feature_section": 7,
+      "chart": 7,
+      "alert": 7,
+      "form": 6,
+      "image": 6,
+      "chip": 6,
+      "avatar": 6,
+      "checkbox": 5,
+      "sidebar_nav": 5,
+      "nav": 5,
+      "icon": 5,
+      "section": 5,
+      "stepper": 5,
+      "stat_card": 5,
+      "tab": 5,
+      "typography": 5,
+      "select": 4,
+      "tab_bar": 4,
+      "banner": 4,
+      "dropdown": 4,
+      "table": 4,
+      "textarea": 3,
+      "search_bar": 3,
+      "color_swatch": 3,
+      "tag": 3,
+      "login": 3,
+      "radio": 2,
+      "toggle": 2,
+      "faq_section": 2,
+      "menu": 2,
+      "tooltip": 2,
+      "pagination": 2,
+      "empty_state": 2,
+      "error_state": 2,
+      "loading_state": 2,
+      "onboarding": 2,
+      "signup": 2,
+      "profile": 2,
+      "settings": 2,
+      "dashboard_widget": 2,
+      "data_table": 2,
+      "kanban": 2,
+      "map": 2,
+      "player": 2,
+      "editor": 2,
+      "comment": 2,
+      "chat_bubble": 2,
+      "notification_panel": 2,
+      "bottom_nav": 2,
+      "step_indicator": 2,
+      "contact_form": 1,
+      "comparison_plan": 1,
+      "login_form": 1,
+      "signup_form": 1,
+      "nav links": 1,
+      "cta_button": 1,
+      "illustration": 1,
+      "notification": 1,
+      "snackbar": 1,
+      "dialog": 1,
+      "modal": 1,
+      "switch": 1,
+      "slider": 1,
+      "date_picker": 1,
+      "file_upload": 1,
+      "breadcrumb": 1,
+      "carousel": 1,
+      "rating": 1,
+      "timeline": 1,
+      "pagination_nav": 1,
+      "progress_bar": 1,
+      "contact_information": 1,
+      "breadcrumb_nav": 1
+    },
+    "completed_at": "2026-02-18T02:55:13.194627"
+  },
+  "started_at": "2026-02-18T01:19:28.388250",
+  "last_checkpoint": "2026-02-18T02:55:13.195626"
+}

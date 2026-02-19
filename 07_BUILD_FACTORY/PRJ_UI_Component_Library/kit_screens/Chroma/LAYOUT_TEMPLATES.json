@@ -1,0 +1,3071 @@
+{
+  "kit": "Chroma",
+  "file_key": "TWNCPNCVswFQwUKMq99dYI",
+  "analyzed_at": "2026-02-18T22:32:30.130240",
+  "unique_layouts": 29,
+  "total_screens": 48,
+  "dedup_ratio": "48 screens -> 29 templates (60%)",
+  "layouts": [
+    {
+      "layout_id": "CH_L1",
+      "name": "Thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Thumbnail"
+      ],
+      "screen_ids": [
+        "1034:848"
+      ],
+      "count": 1,
+      "representative_screen": "1034:848",
+      "representative_name": "Thumbnail",
+      "dimensions": {
+        "width": 1600,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1179×1895), Center main_content (241×64), Center main_content (542×122), Center main_content (555×146), Center main_content (380×72), Center main_content (382×72)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Screen",
+            "width_approx": 1179,
+            "height_approx": 1895,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "CaretRight",
+              "ArrowLeft",
+              "github",
+              "arrow_forward",
+              "Pinwheel",
+              "ArrowRight",
+              "figma"
+            ],
+            "text_labels": [
+              "We do this differently",
+              "We make it effortlessly to track \nall user analytics",
+              "Experience unparalleled flexibility with our SaaS product",
+              "We've answered the most frequent of those frequent questions below.",
+              "We’re a dedicated group of lorem ipsum dolor sit amet consectetur \nadipiscing eli purus massa id quam risus a elite",
+              "What our client are saying",
+              "Used and loved by people at brilliant companies",
+              "Integrations",
+              "Seamless integrations with \nother great tools",
+              "Chroma absolutely works great with tools in your other existing platform.",
+              "Integrations",
+              "Seamless integrations with \nother great tools",
+              "Chroma absolutely works great with tools in your other existing platform.",
+              "View all intergrations",
+              "We’re a dedicated group of lorem ipsum dolor sit amet consectetur \nadipiscing eli purus massa id quam risus a elite"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chroma Logo",
+            "width_approx": 241,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Item",
+            "width_approx": 542,
+            "height_approx": 122,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "10",
+              "Premium \nWeb Pages",
+              "100+",
+              "Reusable \nBlocks"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "SaaS Website Template",
+            "width_approx": 555,
+            "height_approx": 146,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Modern SaaS WebsiteTemplate"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 380,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "CheckCircle"
+            ],
+            "text_labels": [
+              "Figma Auto Layout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 382,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "CheckCircle"
+            ],
+            "text_labels": [
+              "Responsive Design"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward",
+        "arrowleft",
+        "arrowright",
+        "balloon",
+        "caretdown",
+        "caretright",
+        "chartbar",
+        "checkcircle",
+        "figma",
+        "filetext",
+        "github",
+        "lockkey",
+        "magnifyingglass",
+        "pinwheel",
+        "rocket",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L2",
+      "name": "News & Blogs",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "News & Blogs",
+        "News & Blogs",
+        "Integrations"
+      ],
+      "screen_ids": [
+        "981:9201",
+        "981:9334",
+        "981:6609"
+      ],
+      "count": 3,
+      "representative_screen": "981:9201",
+      "representative_name": "News & Blogs",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×780)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1140,
+            "height_approx": 780,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "News & Blogs",
+              "Articles on Growth & Marketing",
+              "See all articles"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "media",
+        "messaging",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L3",
+      "name": "News & Blogs",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "News & Blogs",
+        "News & Blogs "
+      ],
+      "screen_ids": [
+        "981:9244",
+        "981:9283"
+      ],
+      "count": 2,
+      "representative_screen": "981:9244",
+      "representative_name": "News & Blogs",
+      "dimensions": {
+        "width": 1440,
+        "height": 872
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×692)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1140,
+            "height_approx": 692,
+            "role": "main_content",
+            "components": [
+              "CaretRight"
+            ],
+            "text_labels": [
+              "News & Blogs",
+              "Articles on Growth & Marketing",
+              "More articles"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretright"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L4",
+      "name": "Team",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Team",
+        "Team",
+        "Team",
+        "Team",
+        "CTA",
+        "CTA",
+        "FAQs",
+        "FAQs",
+        "Testimonial",
+        "Testimonial",
+        "Features"
+      ],
+      "screen_ids": [
+        "998:624",
+        "991:954",
+        "988:625",
+        "981:8717",
+        "981:7185",
+        "981:7258",
+        "981:6695",
+        "981:6829",
+        "981:6212",
+        "981:6358",
+        "981:4980"
+      ],
+      "count": 11,
+      "representative_screen": "998:624",
+      "representative_name": "Team",
+      "dimensions": {
+        "width": 1440,
+        "height": 1284
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×1084)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1140,
+            "height_approx": 1084,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our Team",
+              "Meet the squad",
+              "We’re a dedicated group of lorem ipsum dolor sit amet consectetur \nadipiscing eli purus massa id quam risus a elite"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "file_management",
+        "form",
+        "notifications",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L5",
+      "name": "Company Achievements ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Company Achievements "
+      ],
+      "screen_ids": [
+        "981:8211"
+      ],
+      "count": 1,
+      "representative_screen": "981:8211",
+      "representative_name": "Company Achievements ",
+      "dimensions": {
+        "width": 1440,
+        "height": 646
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×446)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1140,
+            "height_approx": 446,
+            "role": "main_content",
+            "components": [
+              "ChartPie",
+              "UsersThree",
+              "ClockCountdown"
+            ],
+            "text_labels": [
+              "Our 13 years together have given us much to be proud of"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "chartpie",
+        "clockcountdown",
+        "usersthree"
+      ],
+      "capabilities": [
+        "analytics",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L6",
+      "name": "About us",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "About us"
+      ],
+      "screen_ids": [
+        "981:7969"
+      ],
+      "count": 1,
+      "representative_screen": "981:7969",
+      "representative_name": "About us",
+      "dimensions": {
+        "width": 1440,
+        "height": 932
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1392×832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1392,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started",
+              "About our company",
+              "We are Chroma, an awesome & powerful tools for your business, increase business revenue with enterprise-grade links built to acquire and engage customers."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L7",
+      "name": "About us",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "About us",
+        "About us",
+        "Integrations"
+      ],
+      "screen_ids": [
+        "994:1399",
+        "994:1582",
+        "981:6545"
+      ],
+      "count": 3,
+      "representative_screen": "994:1399",
+      "representative_name": "About us",
+      "dimensions": {
+        "width": 1440,
+        "height": 1274
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1392×1174)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1392,
+            "height_approx": 1174,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "CaretRight"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started",
+              "Welcome to Chroma - Where excellence meets innovation",
+              "At Chroma, we are dedicated to delivering exceptional solutions that cater to the needs of our valued customers. With a strong commitment to quality, reliability, and customer satisfaction, we have established ourselves as a trusted name in the industry."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretright",
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L8",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Pricing",
+        "Pricing"
+      ],
+      "screen_ids": [
+        "981:7789",
+        "983:11141"
+      ],
+      "count": 2,
+      "representative_screen": "981:7789",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 1136
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1392×1036)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1392,
+            "height_approx": 1036,
+            "role": "main_content",
+            "components": [
+              "Pinwheel"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretright",
+        "pinwheel"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "e_commerce",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L9",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "994:1660"
+      ],
+      "count": 1,
+      "representative_screen": "994:1660",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 964
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×864)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1140,
+            "height_approx": 864,
+            "role": "main_content",
+            "components": [
+              "CaretRight",
+              "Rocket",
+              "Pinwheel",
+              "Balloon"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started",
+              "Pricing Plans",
+              "At Worthy, we are dedicated to delivering exceptional solutions that cater \nto the needs of our valued customers.",
+              "Montly",
+              "Yearly",
+              "Ideal for small businesses and startups lorem ipsum dolor set amet.",
+              "Perfect for growing businesses lorem ipsum dolor set amet.",
+              "Start for free"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "balloon",
+        "caretright",
+        "pinwheel",
+        "rocket"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L10",
+      "name": "Footer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Footer"
+      ],
+      "screen_ids": [
+        "981:7620"
+      ],
+      "count": 1,
+      "representative_screen": "981:7620",
+      "representative_name": "Footer",
+      "dimensions": {
+        "width": 1440,
+        "height": 864
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×664)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1140,
+            "height_approx": 664,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Leverage the power \nof businesses technology",
+              "Copyright © 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "English (UK)"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "profile",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "CH_L11",
+      "name": "Testimonials",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Testimonials"
+      ],
+      "screen_ids": [
+        "981:6187"
+      ],
+      "count": 1,
+      "representative_screen": "981:6187",
+      "representative_name": "Testimonials",
+      "dimensions": {
+        "width": 1440,
+        "height": 660
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×460)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1140,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "ArrowLeft",
+              "ArrowRight"
+            ],
+            "text_labels": [
+              "Sam Michale Gray",
+              "Marketing Manager at D&G",
+              "“Our team has been using Chroma \nfor the past year and we couldn't be happier with the results. It has transformed the way we work and has significantly improved our productivity.”"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrowleft",
+        "arrowright"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L12",
+      "name": "Header",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Header",
+        "Header",
+        "Header"
+      ],
+      "screen_ids": [
+        "979:2699",
+        "979:2609",
+        "979:2233"
+      ],
+      "count": 3,
+      "representative_screen": "979:2699",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1140,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started",
+              "Cloud-based brilliance at \nyour fingertips"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "caretright",
+        "chartbar",
+        "filetext",
+        "magnifyingglass",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L13",
+      "name": "Header",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Header"
+      ],
+      "screen_ids": [
+        "1000:730"
+      ],
+      "count": 1,
+      "representative_screen": "1000:730",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1392×1435)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1392,
+            "height_approx": 1435,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "Play",
+              "Device Bezels"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started",
+              "Experience the future of SaaS tools with Chroma",
+              "Discover how our SaaS solution can streamline your daily \noperations, saving you time and resources."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "device bezels",
+        "play",
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L14",
+      "name": "Footer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Footer"
+      ],
+      "screen_ids": [
+        "981:7666"
+      ],
+      "count": 1,
+      "representative_screen": "981:7666",
+      "representative_name": "Footer",
+      "dimensions": {
+        "width": 1440,
+        "height": 619
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×230), Center main_content (1140×48), Center main_content (1140×81)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Top",
+            "width_approx": 1140,
+            "height_approx": 230,
+            "role": "main_content",
+            "components": [
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@whimsy.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Language + Social media",
+            "width_approx": 1140,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "CaretDown"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Bottom",
+            "width_approx": 1140,
+            "height_approx": 81,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "envelopesimple",
+        "phone",
+        "treepalm"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L15",
+      "name": "Integrations",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Integrations"
+      ],
+      "screen_ids": [
+        "981:6464"
+      ],
+      "count": 1,
+      "representative_screen": "981:6464",
+      "representative_name": "Integrations",
+      "dimensions": {
+        "width": 1440,
+        "height": 860
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×228), Center main_content (1392×240), Center main_content (653×64)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 1140,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Integrations",
+              "Seamless integrations with \nother great tools",
+              "Chroma absolutely works great with tools in your other existing platform."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Logos",
+            "width_approx": 1392,
+            "height_approx": 240,
+            "role": "main_content",
+            "components": [
+              "github",
+              "figma"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 653,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "CaretRight"
+            ],
+            "text_labels": [
+              "View all integrations"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretright",
+        "figma",
+        "github"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "CH_L16",
+      "name": "FAQs",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "FAQs"
+      ],
+      "screen_ids": [
+        "981:6666"
+      ],
+      "count": 1,
+      "representative_screen": "981:6666",
+      "representative_name": "FAQs",
+      "dimensions": {
+        "width": 1440,
+        "height": 897
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×58), Center main_content (1140×595)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Explore our amazing",
+            "width_approx": 1140,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Frequently asked questions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Questions",
+            "width_approx": 1140,
+            "height_approx": 595,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "CaretUp"
+            ],
+            "text_labels": [
+              "Can I customize Chroma software to meet my business needs?",
+              "What happens to my data if I cancel my subscription",
+              "If you decide to discontinue using a SaaS application, you can typically terminate your subscription. Depending on the provider's policies, you may be able to export your data or transition it to another system. It's important to review the provider's terms and conditions regarding data retention and exit strategies.",
+              "How do I choose the right plan for my business",
+              "What are the advantages of using Chroma?",
+              "How does Chroma compare to the competition?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "caretup"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L17",
+      "name": "Integrations",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Integrations"
+      ],
+      "screen_ids": [
+        "981:6413"
+      ],
+      "count": 1,
+      "representative_screen": "981:6413",
+      "representative_name": "Integrations",
+      "dimensions": {
+        "width": 1440,
+        "height": 700
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1140×228), Center main_content (1140×140), Center main_content (218×24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 1140,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Integrations",
+              "Seamless integrations with \nother great tools",
+              "Chroma absolutely works great with tools in your other existing platform."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Icons",
+            "width_approx": 1140,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Hypertext",
+            "width_approx": 218,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "View all intergrations"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L18",
+      "name": "Header",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Header"
+      ],
+      "screen_ids": [
+        "981:10515"
+      ],
+      "count": 1,
+      "representative_screen": "981:10515",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1440,
+        "height": 804
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1140×88), Center main_content (1440×596)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1140,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1440,
+            "height_approx": 596,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "TreePalm",
+              "FileText",
+              "ChartBar",
+              "MagnifyingGlass"
+            ],
+            "text_labels": [
+              "Drive growth with our scalable SaaS applications",
+              "An awesome tools for your business, increase business revenue \nwith enterprise-grade links built to acquire and engage customers.",
+              "Analytics",
+              "11 May - 11 June 2020",
+              "clock",
+              "Showing data for :",
+              "2,285",
+              "New Subscriptions",
+              "1,865",
+              "New Trials",
+              "895",
+              "Reactivations",
+              "Monthly Progress",
+              "33%",
+              "History"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "chartbar",
+        "filetext",
+        "magnifyingglass",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L19",
+      "name": "Color",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Color"
+      ],
+      "screen_ids": [
+        "78:2477"
+      ],
+      "count": 1,
+      "representative_screen": "78:2477",
+      "representative_name": "Color",
+      "dimensions": {
+        "width": 1440,
+        "height": 2031
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (852×136), Center main_content (1146×209), Center main_content (1146×226), Center main_content (1146×226), Center main_content (584×127)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Color sign",
+            "width_approx": 852,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Shadow & elevation"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Grayscale",
+            "width_approx": 1146,
+            "height_approx": 209,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "#222222",
+              "#4E4E4E",
+              "#767676",
+              "#BEBEBE",
+              "#E1E1E1",
+              "#FFFFFF",
+              "Grayscale"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Secondary color",
+            "width_approx": 1146,
+            "height_approx": 226,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "#91E0F1",
+              "Gradient Light",
+              "Gradient Dark",
+              "Secondary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Primary color",
+            "width_approx": 1146,
+            "height_approx": 226,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "#9988FF",
+              "#FFA7A7",
+              "#512C7E",
+              "Primary color"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Color & Style",
+            "width_approx": 584,
+            "height_approx": 127,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Color & Style"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L20",
+      "name": "Contact us",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Contact us"
+      ],
+      "screen_ids": [
+        "939:4437"
+      ],
+      "count": 1,
+      "representative_screen": "939:4437",
+      "representative_name": "Contact us",
+      "dimensions": {
+        "width": 1440,
+        "height": 2559
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×880), Center main_content (1440×316), Center main_content (1440×700), Center main_content (1440×663)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contact",
+            "width_approx": 1440,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "Pinwheel"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "More Contact",
+            "width_approx": 1440,
+            "height_approx": 316,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Need more assistance?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get started with Chroma today",
+              "Join 13k+ teams who have streamlined the way they manage \nprojects and collaborate remotely."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@chroma.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center",
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "caretright",
+        "envelopesimple",
+        "phone",
+        "pinwheel",
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "messaging",
+        "notifications",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L21",
+      "name": "Pricing",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "938:3772"
+      ],
+      "count": 1,
+      "representative_screen": "938:3772",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 4404
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×1136), Center main_content (1440×1008), Center main_content (1440×897), Center main_content (1440×700), Center main_content (1440×663)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Picing",
+            "width_approx": 1440,
+            "height_approx": 1136,
+            "role": "main_content",
+            "components": [
+              "Pinwheel"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Compare Plans",
+            "width_approx": 1440,
+            "height_approx": 1008,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Compare Plans"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQs",
+            "width_approx": 1440,
+            "height_approx": 897,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "CaretUp"
+            ],
+            "text_labels": [
+              "Frequently asked questions",
+              "Can I customize Chroma software to meet my business needs?",
+              "What happens to my data if I cancel my subscription",
+              "If you decide to discontinue using a SaaS application, you can typically terminate your subscription. Depending on the provider's policies, you may be able to export your data or transition it to another system. It's important to review the provider's terms and conditions regarding data retention and exit strategies.",
+              "How do I choose the right plan for my business",
+              "What are the advantages of using Chroma?",
+              "How does Chroma compare to the competition?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get started with Chroma today",
+              "Join 13k+ teams who have streamlined the way they manage \nprojects and collaborate remotely."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@chroma.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center",
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "caretright",
+        "caretup",
+        "envelopesimple",
+        "phone",
+        "pinwheel",
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L22",
+      "name": "Blog details",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Blog details",
+        "Blog"
+      ],
+      "screen_ids": [
+        "943:183",
+        "937:2931"
+      ],
+      "count": 2,
+      "representative_screen": "943:183",
+      "representative_name": "Blog details",
+      "dimensions": {
+        "width": 1440,
+        "height": 4723
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×1094), Center main_content (1440×1720), Center main_content (1440×546), Center main_content (1440×700), Center main_content (1440×663)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 1094,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Article",
+            "width_approx": 1440,
+            "height_approx": 1720,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Subscribe to our newsletter",
+              "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma.",
+              "Enter your email"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Clients",
+            "width_approx": 1440,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Used and loved by people at brilliant companies"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get started with Chroma today",
+              "Join 13k+ teams who have streamlined the way they manage \nprojects and collaborate remotely."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@chroma.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center",
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "envelopesimple",
+        "phone",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L23",
+      "name": "FAQ",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "FAQ"
+      ],
+      "screen_ids": [
+        "937:2116"
+      ],
+      "count": 1,
+      "representative_screen": "937:2116",
+      "representative_name": "FAQ",
+      "dimensions": {
+        "width": 1440,
+        "height": 3588
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×430), Center main_content (1440×989), Center main_content (1440×260), Center main_content (1440×546), Center main_content (1440×700), Center main_content (1440×663)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 430,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "MagnifyingGlass"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "FAQ",
+              "Search question..."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQs",
+            "width_approx": 1440,
+            "height_approx": 989,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "CaretUp"
+            ],
+            "text_labels": [
+              "Can I customize Chroma software to meet my business needs?",
+              "What happens to my data if I cancel my subscription",
+              "If you decide to discontinue using a SaaS application, you can typically terminate your subscription. Depending on the provider's policies, you may be able to export your data or transition it to another system. It's important to review the provider's terms and conditions regarding data retention and exit strategies.",
+              "How do I choose the right plan for my business",
+              "What are the advantages of using Chroma?",
+              "How does Chroma compare to the competition?",
+              "How secure is my data with Whimsy SaaS?",
+              "How can I add  more emails to my account?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "More Contact",
+            "width_approx": 1440,
+            "height_approx": 260,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Need more assistance?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Clients",
+            "width_approx": 1440,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Used and loved by people at brilliant companies"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get started with Chroma today",
+              "Join 13k+ teams who have streamlined the way they manage \nprojects and collaborate remotely."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@chroma.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center",
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caretdown",
+        "caretup",
+        "envelopesimple",
+        "magnifyingglass",
+        "phone",
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L24",
+      "name": "About us",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "About us"
+      ],
+      "screen_ids": [
+        "937:685"
+      ],
+      "count": 1,
+      "representative_screen": "937:685",
+      "representative_name": "About us",
+      "dimensions": {
+        "width": 1440,
+        "height": 5328
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×932), Center main_content (1440×563), Center main_content (1440×1008), Center main_content (1440×546), Center main_content (1440×916), Center main_content (1440×700), Center main_content (1440×663)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "About us",
+            "width_approx": 1440,
+            "height_approx": 932,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company Achievements ",
+            "width_approx": 1440,
+            "height_approx": 563,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "We do this differently",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis.",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis.",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis.",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Team",
+            "width_approx": 1440,
+            "height_approx": 1008,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our leaders",
+              "We’re a dedicated group of lorem ipsum dolor sit amet consectetur \nadipiscing eli purus massa id quam risus a elite"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Clients",
+            "width_approx": 1440,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Used and loved by people at brilliant companies"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Careers",
+            "width_approx": 1440,
+            "height_approx": 916,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Join our team"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get started with Chroma today",
+              "Join 13k+ teams who have streamlined the way they manage \nprojects and collaborate remotely."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@chroma.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center",
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bag",
+        "caretdown",
+        "envelopesimple",
+        "mappin",
+        "phone",
+        "treepalm"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "map",
+        "media",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L25",
+      "name": "Homepage",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Homepage"
+      ],
+      "screen_ids": [
+        "866:98"
+      ],
+      "count": 1,
+      "representative_screen": "866:98",
+      "representative_name": "Homepage",
+      "dimensions": {
+        "width": 1440,
+        "height": 7514
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×804), Center main_content (1440×249), Center main_content (1440×580), Center main_content (1440×560), Center main_content (1440×580), Center main_content (1440×950), Center main_content (1440×446), Center main_content (1440×816), Center main_content (1440×808), Center main_content (1440×985), Center main_content (1440×600), Center main_content (1440×136)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 804,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact",
+              "Login",
+              "Get Started",
+              "Drive growth with our scalable SaaS applications",
+              "An awesome tools for your business, increase business revenue \nwith enterprise-grade links built to acquire and engage customers.",
+              "Analytics",
+              "Showing data for :"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company Achievement",
+            "width_approx": 1440,
+            "height_approx": 249,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "A very good \nperformance has been \nachieved by our team",
+              "34%",
+              "Savings Rate",
+              "750+",
+              "Capital Raised",
+              "50K",
+              "Global Users"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Explore more details",
+              "Visitors this year",
+              "10k",
+              "Profile views",
+              "67m+"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [
+              "arrow_forward",
+              "LockKey"
+            ],
+            "text_labels": [
+              "Custom Properties",
+              "Project Manager, USA",
+              "Randy Harris",
+              "Explore more details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Explore more details",
+              "56%",
+              "Engagement rate"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonial",
+            "width_approx": 1440,
+            "height_approx": 950,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Testimonials",
+              "What our client are saying"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Clients",
+            "width_approx": 1440,
+            "height_approx": 446,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Used and loved by people at brilliant companies"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Integrations",
+            "width_approx": 1440,
+            "height_approx": 816,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Connect your app with \nthe tools you love",
+              "View all integrations",
+              "Asana, Inc., is an American software company based in San Francisco whose flagship Asana service is a web."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "News & Blogs",
+            "width_approx": 1440,
+            "height_approx": 808,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Our latest blogs",
+              "More articles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQs",
+            "width_approx": 1440,
+            "height_approx": 985,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Frequently asked questions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 600,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Experience unparalleled flexibility with our SaaS product",
+              "We've answered the most frequent of those frequent questions below."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward",
+        "caretdown",
+        "chartbar",
+        "filetext",
+        "lockkey",
+        "magnifyingglass",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "messaging",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L26",
+      "name": "Homepage",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Homepage"
+      ],
+      "screen_ids": [
+        "858:68"
+      ],
+      "count": 1,
+      "representative_screen": "858:68",
+      "representative_name": "Homepage",
+      "dimensions": {
+        "width": 1440,
+        "height": 7142
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×1024), Center main_content (1440×646), Center main_content (1440×580), Center main_content (1440×560), Center main_content (1440×580), Center main_content (1440×658), Center main_content (1440×1100), Center main_content (1440×898), Center main_content (1440×536), Center main_content (1440×560)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company Achievements ",
+            "width_approx": 1440,
+            "height_approx": 646,
+            "role": "main_content",
+            "components": [
+              "ChartPie",
+              "UsersThree",
+              "ClockCountdown"
+            ],
+            "text_labels": [
+              "Our 13 years together have given us much to be proud of"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Explore more details",
+              "Visitors this year",
+              "10k",
+              "Profile views",
+              "67m+"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [
+              "arrow_forward",
+              "LockKey"
+            ],
+            "text_labels": [
+              "Custom Properties",
+              "Project Manager, USA",
+              "Randy Harris",
+              "Explore more details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Explore more details",
+              "56%",
+              "Engagement rate"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Integrations",
+            "width_approx": 1440,
+            "height_approx": 658,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "CaretRight"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "News & Blogs ",
+            "width_approx": 1440,
+            "height_approx": 1100,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "News & Blogs",
+              "News & Updates"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonial",
+            "width_approx": 1440,
+            "height_approx": 898,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "What people are saying..."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 536,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer ",
+            "width_approx": 1440,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals",
+              "Join our newslatter",
+              "About us\nCareers\nPricing\nCustomers\nPartners\nContact",
+              "Company",
+              "Performance\nEngagement\nGrow\nAnalytics\nOKRs & Goals",
+              "Product",
+              "Blog\nNewslatter\nSupport\nTutorial\nHelp Center",
+              "Recources",
+              "Copyright © 2023 Chroma. All Rights Reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward",
+        "caretdown",
+        "caretright",
+        "chartbar",
+        "chartpie",
+        "clockcountdown",
+        "filetext",
+        "lockkey",
+        "magnifyingglass",
+        "treepalm",
+        "usersthree"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L27",
+      "name": "Homepage",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Homepage"
+      ],
+      "screen_ids": [
+        "828:47"
+      ],
+      "count": 1,
+      "representative_screen": "828:47",
+      "representative_name": "Homepage",
+      "dimensions": {
+        "width": 1440,
+        "height": 8407
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×760), Center main_content (1440×140), Center main_content (1440×563), Center main_content (1440×902), Center main_content (1440×580), Center main_content (1440×560), Center main_content (1440×580), Center main_content (1440×414), Center main_content (1440×860), Center main_content (1440×872), Center main_content (1440×857), Center main_content (1440×700), Center main_content (1440×619)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 760,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "FileText"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Clients",
+            "width_approx": 1440,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trusted by industry leaders"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company Achievements ",
+            "width_approx": 1440,
+            "height_approx": 563,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "We do this differently",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis.",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis.",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis.",
+              "Built with love for growing businesses lorem ipsum dolor sit amet erat eleifend lacus mattis."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Features",
+            "width_approx": 1440,
+            "height_approx": 902,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our Features",
+              "We make it effortlessly to track \nall user analytics"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Visitors this year",
+              "10k",
+              "Profile views",
+              "67m+",
+              "Explore more details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [
+              "arrow_forward",
+              "LockKey"
+            ],
+            "text_labels": [
+              "Explore more details",
+              "Custom Properties",
+              "Project Manager, USA",
+              "Randy Harris"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "56%",
+              "Engagement rate",
+              "Explore more details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonial",
+            "width_approx": 1440,
+            "height_approx": 414,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "“Our team has been using Chroma for the past year and we couldn't be happier with the results. It has transformed the way we work and has significantly improved our productivity.”",
+              "Cornelia Carter",
+              "Senior Marketing Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Integrations",
+            "width_approx": 1440,
+            "height_approx": 860,
+            "role": "main_content",
+            "components": [
+              "github",
+              "CaretRight",
+              "figma"
+            ],
+            "text_labels": [
+              "Integrations",
+              "Seamless integrations with \nother great tools",
+              "Chroma absolutely works great with tools in your other existing platform.",
+              "View all integrations"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "News & Blogs ",
+            "width_approx": 1440,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [
+              "CaretRight"
+            ],
+            "text_labels": [
+              "News & Blogs",
+              "Articles on Growth & Marketing",
+              "More articles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQs",
+            "width_approx": 1440,
+            "height_approx": 857,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Frequently asked questions",
+              "We've answered the most frequent of those frequent questions below."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get started with Chroma today",
+              "Join 13k+ teams who have streamlined the way they manage \nprojects and collaborate remotely."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 619,
+            "role": "main_content",
+            "components": [
+              "TreePalm",
+              "EnvelopeSimple",
+              "Phone"
+            ],
+            "text_labels": [
+              "We are passionate about helping businesses leverage the power of technology to achieve their goals.",
+              "contact@chroma.com",
+              "+123 456 789",
+              "Sales software\nFeatures\nPrivacy and security\nMarketplace\nStatus\nAPI",
+              "Product",
+              "Partner Program\nGet our newsletter\nSales Pipeline Course\nWhat is SaaS?\nSaaS Comparison\nResources",
+              "Discover",
+              "About\nPricing\nJobs\nBlog\nCareers",
+              "Company",
+              "Community\nKnowledge Base\nAcademy\nSupport",
+              "Help Center",
+              "© 2023 Chroma. All Rights Reserved.",
+              "Terms of Service",
+              "Privacy Policy",
+              "Cookie policy"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward",
+        "caretdown",
+        "caretright",
+        "envelopesimple",
+        "figma",
+        "filetext",
+        "github",
+        "lockkey",
+        "phone",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "media",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L28",
+      "name": "Homepage",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Homepage"
+      ],
+      "screen_ids": [
+        "94:58"
+      ],
+      "count": 1,
+      "representative_screen": "94:58",
+      "representative_name": "Homepage",
+      "dimensions": {
+        "width": 1440,
+        "height": 8854
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440×1368), Center main_content (1440×268), Center main_content (1440×532), Center main_content (1440×580), Center main_content (1440×560), Center main_content (1440×580), Center main_content (1440×660), Center main_content (1440×309), Center main_content (1440×700), Center main_content (1440×960), Center main_content (1440×897), Center main_content (1440×576), Center main_content (1440×864)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 1368,
+            "role": "main_content",
+            "components": [
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Product",
+              "Pricing",
+              "Company",
+              "Recources",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Clients",
+            "width_approx": 1440,
+            "height_approx": 268,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Features",
+            "width_approx": 1440,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "CaretRight"
+            ],
+            "text_labels": [
+              "Weekly Sales",
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Dashboard Report"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "56%",
+              "Engagement rate",
+              "Explore more details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [
+              "arrow_forward",
+              "LockKey"
+            ],
+            "text_labels": [
+              "Explore more details",
+              "Custom Properties",
+              "Project Manager, USA",
+              "Randy Harris"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 1440,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Visitors this year",
+              "10k",
+              "Profile views",
+              "67m+",
+              "Explore more details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonials",
+            "width_approx": 1440,
+            "height_approx": 660,
+            "role": "main_content",
+            "components": [
+              "ArrowLeft",
+              "ArrowRight"
+            ],
+            "text_labels": [
+              "“Our team has been using Chroma \nfor the past year and we couldn't be happier with the results. It has transformed the way we work and has significantly improved our productivity.”"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company Achievement",
+            "width_approx": 1440,
+            "height_approx": 309,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "30M+",
+              "Global Users",
+              "30%",
+              "Upto Savings rate",
+              "$100M",
+              "Capital raised",
+              "60+",
+              "Team Members"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Integrations",
+            "width_approx": 1440,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "Integrations",
+              "Seamless integrations with \nother great tools",
+              "Chroma absolutely works great with tools in your other existing platform.",
+              "View all intergrations"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "News & Blogs ",
+            "width_approx": 1440,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "arrow_forward"
+            ],
+            "text_labels": [
+              "News & Blogs",
+              "Articles on Growth & Marketing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQs",
+            "width_approx": 1440,
+            "height_approx": 897,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "CaretUp"
+            ],
+            "text_labels": [
+              "Frequently asked questions",
+              "Can I customize Chroma software to meet my business needs?",
+              "What happens to my data if I cancel my subscription",
+              "If you decide to discontinue using a SaaS application, you can typically terminate your subscription. Depending on the provider's policies, you may be able to export your data or transition it to another system. It's important to review the provider's terms and conditions regarding data retention and exit strategies.",
+              "How do I choose the right plan for my business",
+              "What are the advantages of using Chroma?",
+              "How does Chroma compare to the competition?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 576,
+            "role": "main_content",
+            "components": [
+              "CaretRight"
+            ],
+            "text_labels": [
+              "Transform your business with powerful SaaS solutions",
+              "Our flexible architecture ensures smooth interoperability, enabling you \nto maximize productivity without disruption."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 864,
+            "role": "main_content",
+            "components": [
+              "CaretDown",
+              "TreePalm"
+            ],
+            "text_labels": [
+              "Leverage the power \nof businesses technology",
+              "Copyright © 2023 Chroma. All Rights Reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow_forward",
+        "arrowleft",
+        "arrowright",
+        "caretdown",
+        "caretright",
+        "caretup",
+        "chartbar",
+        "filetext",
+        "lockkey",
+        "magnifyingglass",
+        "treepalm"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CH_L29",
+      "name": "Typography",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Typography"
+      ],
+      "screen_ids": [
+        "78:2546"
+      ],
+      "count": 1,
+      "representative_screen": "78:2546",
+      "representative_name": "Typography",
+      "dimensions": {
+        "width": 1440,
+        "height": 3196
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1146×1163), Center main_content (1155×94), Center main_content (1146×1254), Center main_content (92×30), Center main_content (545×127), Right right_panel (83×32)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Paragraph",
+            "width_approx": 1146,
+            "height_approx": 1163,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Small",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Medium",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Large",
+              "XL",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "XXL",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Paragraph"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Paragraph",
+            "width_approx": 1155,
+            "height_approx": 94,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "12pt/ Extrabold",
+              "Capital",
+              "Others"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1146,
+            "height_approx": 1254,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H1",
+              "72pt/ Bold",
+              "H2",
+              "64pt/ Bold",
+              "64pt/ Semibold",
+              "H3",
+              "48pt/ Semibold",
+              "H4",
+              "40pt/ Semibold",
+              "H5",
+              "32pt/ Bold",
+              "32pt/ Semibold",
+              "24pt/ Bold",
+              "24pt/ Semibold",
+              "24pt/ Medium"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Primary color",
+            "width_approx": 92,
+            "height_approx": 30,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Headline"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Primary color",
+            "width_approx": 83,
+            "height_approx": 32,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Switzer"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 545,
+            "height_approx": 127,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Typography"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics"
+      ],
+      "is_light": true
+    }
+  ]
+}

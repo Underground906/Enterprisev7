@@ -1,0 +1,786 @@
+{
+  "kit_name": "Caresync",
+  "file_key": "rpAaabZ8WnW6yT4vHXhpIA",
+  "db_item_count": 15,
+  "total_screens": 19,
+  "processed_screens": [
+    "component_mobile_medium.png",
+    "component_mobile_semibold.png",
+    "component_mobile_bold.png",
+    "component_desktop_regular.png",
+    "component_nations_flag.png",
+    "license_agreement_contact.png",
+    "component_general_icon.png",
+    "component_social_media.png",
+    "component_desktop_medium.png",
+    "component_button.png",
+    "license_agreement_license_agreement.png",
+    "license_agreement_follow_us.png",
+    "component_desktop_bold.png",
+    "component_desktop_semibold.png",
+    "component_emoji.png",
+    "component_single_primary_type_3.png",
+    "cover_cover.png",
+    "component_colors.png",
+    "component_mobile_regular.png"
+  ],
+  "screens": {
+    "component_mobile_medium.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "medium",
+            "count": 10,
+            "description": "A table showcasing different typography styles with various font sizes and headings."
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "A table with columns for class name, font family, font weight, font size, letter spacing, line height, and example."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2720
+      },
+      "processed_at": "2026-02-18T00:23:39.819787"
+    },
+    "component_mobile_semibold.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "semibold",
+            "count": 9,
+            "description": "A table showcasing different typography samples with font family Inter, semibold font weight, and various font sizes (36px to 14px) for headings, titles, subtitles, and small text."
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "A table with columns for class name, font family, font weight, font size, letter spacing, line height, and example, used to display typography samples."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2754
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_mobile_bold.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "bold",
+            "count": 8,
+            "description": "A table showcasing different typography samples with bold font weight, including headings (1-5), title, subtitle, and small text."
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "A table with columns for class name, font family, font weight, font size, letter spacing, line height, and example, displaying typography samples."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2738
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_desktop_regular.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading 1",
+            "count": 1,
+            "description": "Sample text for Heading 1 with font size 43px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading 2",
+            "count": 1,
+            "description": "Sample text for Heading 2 with font size 40px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading 3",
+            "count": 1,
+            "description": "Sample text for Heading 3 with font size 36px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading 4",
+            "count": 1,
+            "description": "Sample text for Heading 4 with font size 32px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading 5",
+            "count": 1,
+            "description": "Sample text for Heading 5 with font size 28px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "title",
+            "count": 1,
+            "description": "Sample text for Title with font size 24px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "subtitle",
+            "count": 1,
+            "description": "Sample text for Subtitle with font size 20px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "overline",
+            "count": 1,
+            "description": "Sample text for Overline with font size 16px"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "small",
+            "count": 1,
+            "description": "Sample text for Small with font size 14px"
+          },
+          {
+            "component_type": "table",
+            "variant": "typography-styleguide",
+            "count": 1,
+            "description": "Table displaying typography styles"
+          }
+        ],
+        "component_count": 10,
+        "tokens_used": 3076
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_nations_flag.png": {
+      "subfolder": "screens",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A collection of icons representing flags of various nations"
+          },
+          {
+            "component_type": "divider",
+            "variant": "",
+            "count": 1,
+            "description": "A horizontal dashed line separating the icon set from the title"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "The title text 'Icons / Nations Flags'"
+          },
+          {
+            "component_type": "card",
+            "variant": "",
+            "count": 1,
+            "description": "A rectangular container with a dashed border holding the icon set"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 1475
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "license_agreement_contact.png": {
+      "subfolder": "screens",
+      "size_mb": 0.05,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Heading text 'Proudly presented by'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "Heading text 'AGENSIP'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body",
+            "count": 1,
+            "description": "Body text 'Have a product design project? Contact us:'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "link",
+            "count": 1,
+            "description": "Link text 'hi@agensip.com'"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal teal divider at the bottom"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "footnote",
+            "count": 1,
+            "description": "Footnote text 'www.agensip.com'"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "social media icons",
+            "count": 3,
+            "description": "Social media icons for globe, Facebook, and Instagram"
+          }
+        ],
+        "component_count": 7,
+        "tokens_used": 2479
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_general_icon.png": {
+      "subfolder": "screens",
+      "size_mb": 0.19,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "various",
+            "count": 1,
+            "description": "A collection of various icons for different categories such as navigation, action, media, communication, maps, devices, system, and transportation."
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "various",
+            "count": 8,
+            "description": "Icon buttons for navigation, action, and other functions."
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 9,
+            "description": "Horizontal dividers separating different sections of icons."
+          },
+          {
+            "component_type": "label",
+            "variant": "text",
+            "count": 9,
+            "description": "Labels or headers for categorizing icons."
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2946
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_social_media.png": {
+      "subfolder": "screens",
+      "size_mb": 0.03,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "",
+            "count": 1,
+            "description": "A collection of social media and application icons"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "",
+            "count": 18,
+            "description": "Individual social media and application icons used as buttons"
+          },
+          {
+            "component_type": "card",
+            "variant": "",
+            "count": 18,
+            "description": "Outlined rectangular cards containing individual icons"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal line separating icon sets"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2335
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_desktop_medium.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "medium",
+            "count": 10,
+            "description": "A table showcasing different typography samples with various font sizes and styles."
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "A table with columns for class name, font family, font weight, font size, letter spacing, line height, and example."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2720
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "component_button.png": {
+      "subfolder": "components",
+      "size_mb": 0.01,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "button",
+            "variant": [
+              "filled",
+              "outlined"
+            ],
+            "count": 2,
+            "description": "Two button components with different styles: one filled and one outlined."
+          },
+          {
+            "component_type": "label",
+            "variant": [],
+            "count": 3,
+            "description": "Three label components with different styles and sizes."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 818
+      },
+      "processed_at": "2026-02-18T00:23:39.820786"
+    },
+    "license_agreement_license_agreement.png": {
+      "subfolder": "screens",
+      "size_mb": 0.08,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "License Agreement title"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body_text",
+            "count": 3,
+            "description": "License agreement text"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "caption",
+            "count": 1,
+            "description": "Agensip Team text"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Teal horizontal line at the bottom"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "logo",
+            "count": 1,
+            "description": "Agensip logo"
+          }
+        ],
+        "component_count": 5,
+        "tokens_used": 2373
+      },
+      "processed_at": "2026-02-18T00:24:04.056262"
+    },
+    "license_agreement_follow_us.png": {
+      "subfolder": "screens",
+      "size_mb": 0.06,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "multicolor",
+            "count": 1,
+            "description": "A set of icons representing different social media platforms"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "social media icons",
+            "count": 4,
+            "description": "Icon buttons for UI8, Dribbble, Behance, and Instagram"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "heading",
+            "count": 1,
+            "description": "A heading that reads 'Follow Agensip'"
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "body text",
+            "count": 4,
+            "description": "Body text displaying URLs for social media platforms"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "A horizontal line separating the content"
+          },
+          {
+            "component_type": "card",
+            "variant": "contained",
+            "count": 1,
+            "description": "A card containing social media links"
+          },
+          {
+            "component_type": "badge",
+            "variant": "notification",
+            "count": 1,
+            "description": "A notification badge with the number 8"
+          },
+          {
+            "component_type": "logo",
+            "variant": "single color",
+            "count": 1,
+            "description": "A logo for Agensip"
+          }
+        ],
+        "component_count": 8,
+        "tokens_used": 2517
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "component_desktop_bold.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "bold",
+            "count": 9,
+            "description": "A table showcasing different typography samples with varying font sizes and styles, including headings, titles, subtitles, and more."
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "A table with columns for class name, font family, font weight, font size, letter spacing, line height, and example, used to display typography samples."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2737
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "component_desktop_semibold.png": {
+      "subfolder": "screens",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "semibold",
+            "count": 9,
+            "description": "A sample text showcasing different typography styles with semibold font weight"
+          },
+          {
+            "component_type": "table",
+            "variant": "",
+            "count": 1,
+            "description": "A table displaying typography styles with their respective properties"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2706
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "component_emoji.png": {
+      "subfolder": "components",
+      "size_mb": 0.14,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "icon_set",
+            "variant": "emoji",
+            "count": 1,
+            "description": "A collection of various emojis"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "hands",
+            "count": 1,
+            "description": "A subset of emojis representing hands"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "face",
+            "count": 1,
+            "description": "A subset of emojis representing faces"
+          },
+          {
+            "component_type": "icon_set",
+            "variant": "others",
+            "count": 1,
+            "description": "A subset of emojis representing various objects and symbols"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 2780
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "component_single_primary_type_3.png": {
+      "subfolder": "components",
+      "size_mb": 0.02,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "input",
+            "variant": "outlined with phone icon",
+            "count": 5,
+            "description": "Text input field with a phone icon on the left and an eye icon on the right"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "visible/invisible toggle",
+            "count": 5,
+            "description": "Eye icon button to toggle visibility of input field"
+          },
+          {
+            "component_type": "label",
+            "variant": "text label",
+            "count": 5,
+            "description": "Simple text label"
+          },
+          {
+            "component_type": "divider",
+            "variant": "implicit (whitespace)",
+            "count": 4,
+            "description": "Whitespace divider between input fields"
+          }
+        ],
+        "component_count": 4,
+        "tokens_used": 1196
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "cover_cover.png": {
+      "subfolder": "screens",
+      "size_mb": 1.21,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "top_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Top navigation bar with search and profile"
+          },
+          {
+            "component_type": "sidebar_nav",
+            "variant": "light",
+            "count": 1,
+            "description": "Sidebar navigation menu"
+          },
+          {
+            "component_type": "card",
+            "variant": "light",
+            "count": 4,
+            "description": "Patient cards with image, name, and status"
+          },
+          {
+            "component_type": "stat_card",
+            "variant": "light",
+            "count": 6,
+            "description": "Statistic cards with numbers and labels"
+          },
+          {
+            "component_type": "chart",
+            "variant": "bar",
+            "count": 2,
+            "description": "Bar charts for patient data"
+          },
+          {
+            "component_type": "chart",
+            "variant": "line",
+            "count": 1,
+            "description": "Line chart for appointments"
+          },
+          {
+            "component_type": "avatar",
+            "variant": "circle",
+            "count": 4,
+            "description": "Patient avatars"
+          },
+          {
+            "component_type": "badge",
+            "variant": "success",
+            "count": 4,
+            "description": "Status badges for patients"
+          },
+          {
+            "component_type": "button",
+            "variant": "primary",
+            "count": 1,
+            "description": "Chat button on patient card"
+          },
+          {
+            "component_type": "search_bar",
+            "variant": "light",
+            "count": 1,
+            "description": "Search bar on top navigation"
+          },
+          {
+            "component_type": "tab",
+            "variant": "light",
+            "count": 1,
+            "description": "Tab navigation for appointments"
+          },
+          {
+            "component_type": "progress_bar",
+            "variant": "linear",
+            "count": 6,
+            "description": "Progress bars for patient data"
+          },
+          {
+            "component_type": "divider",
+            "variant": "horizontal",
+            "count": 1,
+            "description": "Horizontal divider between sections"
+          },
+          {
+            "component_type": "icon_button",
+            "variant": "light",
+            "count": 1,
+            "description": "Gear icon button on top navigation"
+          }
+        ],
+        "component_count": 14,
+        "tokens_used": 3142
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "component_colors.png": {
+      "subfolder": "screens",
+      "size_mb": 0.07,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "color_swatch",
+            "variant": "",
+            "count": 11,
+            "description": "A color swatch is a small sample of a color, usually presented in a square or rectangle shape, used to display a color and its corresponding hex code."
+          },
+          {
+            "component_type": "typography_sample",
+            "variant": "",
+            "count": 1,
+            "description": "The title 'Color Palette' serves as a typography sample, demonstrating font usage."
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2874
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    },
+    "component_mobile_regular.png": {
+      "subfolder": "screens",
+      "size_mb": 0.12,
+      "result": {
+        "status": "success",
+        "components": [
+          {
+            "component_type": "typography_sample",
+            "variant": "regular",
+            "count": 9,
+            "description": "A table showcasing different typography styles with various font sizes and examples of text"
+          },
+          {
+            "component_type": "table",
+            "variant": "regular",
+            "count": 1,
+            "description": "A table with columns for class name, font family, font weight, font size, letter spacing, line height, and example"
+          }
+        ],
+        "component_count": 2,
+        "tokens_used": 2724
+      },
+      "processed_at": "2026-02-18T00:24:04.059254"
+    }
+  },
+  "summary": {
+    "total_screens": 19,
+    "screens_processed": 19,
+    "screens_successful": 19,
+    "screens_skipped": 0,
+    "screens_errored": 0,
+    "total_components_identified": 82,
+    "unique_component_types": 20,
+    "component_type_counts": {
+      "typography_sample": 28,
+      "icon_set": 10,
+      "table": 8,
+      "divider": 8,
+      "icon_button": 5,
+      "card": 4,
+      "label": 3,
+      "button": 2,
+      "badge": 2,
+      "chart": 2,
+      "logo": 1,
+      "input": 1,
+      "top_nav": 1,
+      "sidebar_nav": 1,
+      "stat_card": 1,
+      "avatar": 1,
+      "search_bar": 1,
+      "tab": 1,
+      "progress_bar": 1,
+      "color_swatch": 1
+    },
+    "completed_at": "2026-02-18T00:24:04.061254"
+  },
+  "started_at": "2026-02-18T00:23:01.871135",
+  "last_checkpoint": "2026-02-18T00:24:04.084244"
+}

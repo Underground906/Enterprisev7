@@ -1,0 +1,4723 @@
+{
+  "kit": "Brainwave 2.0",
+  "file_key": "6hCuwRI0GsBmIOJelAVpND",
+  "analyzed_at": "2026-02-18T22:32:29.977825",
+  "unique_layouts": 49,
+  "total_screens": 103,
+  "dedup_ratio": "103 screens -> 49 templates (48%)",
+  "layouts": [
+    {
+      "layout_id": "BR_L1",
+      "name": "Prompt Input/Inspiration",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:toolbar:medium|center:main_content:narrow|center:main_content:medium|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Real-time 3D Canvas",
+        "Prompt Input/Inspiration",
+        "Real-time 3D Canvas",
+        "Real-time 3D Canvas",
+        "Real-time 3D Canvas",
+        "Zoom - View options",
+        "Zoom - View options",
+        "Zoom - View options"
+      ],
+      "screen_ids": [
+        "45:682",
+        "957:34944",
+        "58:4038",
+        "64:654",
+        "64:905",
+        "957:19530",
+        "957:30287",
+        "957:29996"
+      ],
+      "count": 8,
+      "representative_screen": "957:34944",
+      "representative_name": "Prompt Input/Inspiration",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center toolbar (549×56), Center main_content (240×876), Center main_content (542×188), Right navigation_sidebar (240×876)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Canvas/Full Screen/10",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Canvas"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Toolbar/Default",
+            "width_approx": 549,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [
+              "Toolbar",
+              "Move",
+              "Redo",
+              "Button",
+              "Undo",
+              "Pan",
+              "Zoom Control",
+              "Frame",
+              "Play mode",
+              "Comment"
+            ],
+            "text_labels": [
+              "100%",
+              "Export"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Project Description",
+              "Layer item",
+              "Project Logo",
+              "Project Name",
+              "Project Tabs",
+              "Search Bar",
+              "Sidebar",
+              "Minimize UI"
+            ],
+            "text_labels": [
+              "Search...",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Prompt Input",
+            "width_approx": 542,
+            "height_approx": 188,
+            "role": "main_content",
+            "components": [
+              "Premade prompt popover",
+              "Prompt Input"
+            ],
+            "text_labels": [
+              "Create a 3D model of a sleek, futuristic car with neon accents.",
+              "Design a 3D medieval sword with intricate engravings on the blade.",
+              "Generate a 3D low-poly tree with a vibrant, autumn color palette.",
+              "Build a 3D cozy wooden cabin with a detailed, textured roof.",
+              "Surprise me",
+              "Characters",
+              "Objects",
+              "Backgrounds",
+              "Cute",
+              "Characters"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Sidebar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "navigation_sidebar",
+            "components": [
+              "Material Add Icon",
+              "Material Header",
+              "Input value",
+              "Asset item",
+              "Style item",
+              "Button",
+              "Background Header",
+              "Color picker",
+              "Camera Toggle",
+              "Camera Header",
+              "Project Tabs",
+              "Styles Add Icon",
+              "Sidebar",
+              "Slider"
+            ],
+            "text_labels": [
+              "Share",
+              "Design",
+              "Animation",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera",
+              "Distortion"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "canvas",
+        "prompt input",
+        "real-time 3d canvas",
+        "sidebar",
+        "toolbar",
+        "zoom - view options"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "editing",
+        "form",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L2",
+      "name": "Export/Images",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:toolbar:medium|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Real-time 3D Canvas/Assets",
+        "Export/Images",
+        "Export/Video",
+        "Export/Video",
+        "Real-time 3D Canvas/Artboard",
+        "Real-time 3D Canvas/Assets"
+      ],
+      "screen_ids": [
+        "98:2421",
+        "957:18207",
+        "957:18603",
+        "957:19017",
+        "957:17563",
+        "919:33809"
+      ],
+      "count": 6,
+      "representative_screen": "957:18207",
+      "representative_name": "Export/Images",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center toolbar (549×56), Center main_content (240×876), Center main_content (542×128), Center main_content (272×324), Right navigation_sidebar (240×876)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Canvas/Full Screen/06",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Canvas"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Toolbar/Export",
+            "width_approx": 549,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [
+              "Toolbar",
+              "Export Modal"
+            ],
+            "text_labels": [
+              "Export"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Project Description",
+              "Materials",
+              "Project Logo",
+              "3D Objects",
+              "Project Name",
+              "Project Tabs",
+              "Search Bar",
+              "Sidebar",
+              "Minimize UI"
+            ],
+            "text_labels": [
+              "3D Objects",
+              "Materials",
+              "Search...",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Prompt Input",
+            "width_approx": 542,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [
+              "Prompt Input",
+              "Voice Button",
+              "Submit Button",
+              "Inspiration Dropdown",
+              "AI Model Dropdown",
+              "Component 4"
+            ],
+            "text_labels": [
+              "Describe your 3D object or scene...",
+              "Brainwave 2.5"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Sidebar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "navigation_sidebar",
+            "components": [
+              "Material Add Icon",
+              "Material Header",
+              "Input value",
+              "Asset item",
+              "Style item",
+              "Button",
+              "Background Header",
+              "Color picker",
+              "Camera Toggle",
+              "Camera Header",
+              "Project Tabs",
+              "Styles Add Icon",
+              "Sidebar",
+              "Slider"
+            ],
+            "text_labels": [
+              "Share",
+              "Design",
+              "Animation",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera",
+              "Distortion"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Asset Preview",
+            "width_approx": 272,
+            "height_approx": 324,
+            "role": "main_content",
+            "components": [
+              "Asset Preview",
+              "Icon Button (Large Icon)",
+              "Insert Button",
+              "Asset Image"
+            ],
+            "text_labels": [
+              "Shop House Icon",
+              "3D Objects"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "asset preview",
+        "canvas",
+        "export",
+        "prompt input",
+        "real-time 3d canvas",
+        "sidebar",
+        "toolbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "form",
+        "media",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L3",
+      "name": "User dropdown",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "User dropdown"
+      ],
+      "screen_ids": [
+        "1628:48679"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48679",
+      "representative_name": "User dropdown",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Right navigation_sidebar (221×272)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "My Scenes",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Home Sidebar",
+              "My Scenes",
+              "Scene Card",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "My Scenes"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Menu Items Container",
+            "width_approx": 221,
+            "height_approx": 272,
+            "role": "navigation_sidebar",
+            "components": [
+              "General ",
+              "User menu item",
+              "Menu Items Container"
+            ],
+            "text_labels": [
+              "Profile",
+              "Subscription",
+              "Join Dicord",
+              "Settings",
+              "Updates",
+              "Sign out"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "menu items container",
+        "my scenes"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L4",
+      "name": "Notification",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Notification"
+      ],
+      "screen_ids": [
+        "1628:48678"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48678",
+      "representative_name": "Notification",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (383×800), Right right_panel (40×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "My Scenes",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Home Sidebar",
+              "My Scenes",
+              "Scene Card",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "My Scenes"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Notification dropdown",
+            "width_approx": 383,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [
+              "Notification dropdown",
+              "Notification item"
+            ],
+            "text_labels": [
+              "Notifications",
+              "All",
+              "Unread",
+              "Commented on Classic Car in Studio",
+              "These draggabale sliders look really cool. Maybe these could be displayed when you hold shift, to rotate exactly on the X or Y.   But by default I don't think we need these controllers, you could just rotate the object by clicking and dragging anywhere as expected on any 3D tool (theoretically).",
+              "Matte texture - UI8 Style",
+              "Prompt: Create 3D character dancing",
+              "Invited you to edit Minimalist Architecture Scene",
+              "Liked Classic Car in Studio",
+              "These draggabale sliders look really cool. Maybe these could be displayed when you hold shift, to rotate exactly on the X or Y.   But by default I don't think we need these controllers, you could just rotate the object by clicking and dragging anywhere as expected on any 3D tool (theoretically).",
+              "Commented on Classic Car in Studio",
+              "These draggabale sliders look really cool. Maybe these could be displayed when you hold shift, to rotate exactly on the X or Y.   But by default I don't think we need these controllers, you could just rotate the object by clicking and dragging anywhere as expected on any 3D tool (theoretically).",
+              "12s – 720p",
+              "Prompt: Create 3D character dancing",
+              "Matte texture - UI8 Style"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Ghost Large Icon Button",
+            "width_approx": 40,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "Close Button",
+              "Ghost Large Icon Button"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "ghost large icon button",
+        "my scenes",
+        "notification dropdown"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "editing",
+        "file_management",
+        "messaging",
+        "notifications",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L5",
+      "name": "Share Modal",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Share Modal"
+      ],
+      "screen_ids": [
+        "1628:48884"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48884",
+      "representative_name": "Share Modal",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (396×551), Right right_panel (40×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Assets/3D Objects",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Home Sidebar",
+              "Asset card",
+              "Assets",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "3D Objects"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Share",
+            "width_approx": 396,
+            "height_approx": 551,
+            "role": "main_content",
+            "components": [
+              "Share",
+              "Icon Button (Large Icon)",
+              "Asset card",
+              "Button"
+            ],
+            "text_labels": [
+              "Cute Monster",
+              "Copy link"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Ghost Large Icon Button",
+            "width_approx": 40,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "Close Button",
+              "Ghost Large Icon Button"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "assets",
+        "ghost large icon button",
+        "share"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "file_management",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L6",
+      "name": "Settings/General",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Settings/General",
+        "Settings/Profile",
+        "Settings/Profile",
+        "Settings/Profile",
+        "Settings/Profile"
+      ],
+      "screen_ids": [
+        "1628:48593",
+        "1628:48592",
+        "1628:48591",
+        "1628:48590",
+        "1628:48589"
+      ],
+      "count": 5,
+      "representative_screen": "1628:48593",
+      "representative_name": "Settings/General",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (594×481), Right right_panel (40×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Profile",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Icon Button (Large Icon)",
+              "Edit Profile Button",
+              "User Avatar",
+              "Profile",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Ghost Large Icon Button",
+            "width_approx": 40,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "Close Button",
+              "Ghost Large Icon Button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Setting modal",
+            "width_approx": 594,
+            "height_approx": 481,
+            "role": "main_content",
+            "components": [
+              "Dropdown",
+              "Toggle Switch",
+              "Setting modal",
+              "Edit Username",
+              "Home Sidebar Item"
+            ],
+            "text_labels": [
+              "General",
+              "112",
+              "Profile",
+              "112",
+              "Security",
+              "112",
+              "Notifications",
+              "112",
+              "Subscription",
+              "112",
+              "General",
+              "Usename",
+              "sophie",
+              "Email",
+              "sophie@ui.live"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ghost large icon button",
+        "profile",
+        "setting modal"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "authentication",
+        "content_creation",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L7",
+      "name": "Profile/Share",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Profile/Share"
+      ],
+      "screen_ids": [
+        "352:20564"
+      ],
+      "count": 1,
+      "representative_screen": "352:20564",
+      "representative_name": "Profile/Share",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (420×343), Right right_panel (40×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Profile",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Icon Button (Large Icon)",
+              "Edit Profile Button",
+              "User Avatar",
+              "Profile",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 147",
+            "width_approx": 420,
+            "height_approx": 343,
+            "role": "main_content",
+            "components": [
+              "Icon Button (Large Icon)",
+              "User Avatar",
+              "Button",
+              "Frame 147"
+            ],
+            "text_labels": [
+              "Sophie Bennett ®",
+              "Copy link"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Video player/default",
+            "width_approx": 40,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "Close Button"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "close button",
+        "frame 147",
+        "profile"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L8",
+      "name": "Notification/Quick reply",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Notification/Quick reply",
+        "Notification/Quick reply/Typing"
+      ],
+      "screen_ids": [
+        "1628:48677",
+        "1628:48676"
+      ],
+      "count": 2,
+      "representative_screen": "1628:48677",
+      "representative_name": "Notification/Quick reply",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (383×800), Center main_content (369×605), Right right_panel (40×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "My Scenes",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Home Sidebar",
+              "My Scenes",
+              "Scene Card",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "My Scenes"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Notification dropdown",
+            "width_approx": 383,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [
+              "Notification dropdown",
+              "Notification item"
+            ],
+            "text_labels": [
+              "Notifications",
+              "All",
+              "Unread",
+              "Commented on Classic Car in Studio",
+              "These draggabale sliders look really cool. Maybe these could be displayed when you hold shift, to rotate exactly on the X or Y.   But by default I don't think we need these controllers, you could just rotate the object by clicking and dragging anywhere as expected on any 3D tool (theoretically).",
+              "Matte texture - UI8 Style",
+              "Prompt: Create 3D character dancing",
+              "Invited you to edit Minimalist Architecture Scene",
+              "Liked Classic Car in Studio",
+              "These draggabale sliders look really cool. Maybe these could be displayed when you hold shift, to rotate exactly on the X or Y.   But by default I don't think we need these controllers, you could just rotate the object by clicking and dragging anywhere as expected on any 3D tool (theoretically).",
+              "Commented on Classic Car in Studio",
+              "These draggabale sliders look really cool. Maybe these could be displayed when you hold shift, to rotate exactly on the X or Y.   But by default I don't think we need these controllers, you could just rotate the object by clicking and dragging anywhere as expected on any 3D tool (theoretically).",
+              "12s – 720p",
+              "Prompt: Create 3D character dancing",
+              "Matte texture - UI8 Style"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Notification Icon",
+            "width_approx": 40,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "Ghost Large Icon Button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Quick preview and reply",
+            "width_approx": 369,
+            "height_approx": 605,
+            "role": "main_content",
+            "components": [
+              "Quick preview and reply",
+              "Large Icon Button",
+              "Decline Button",
+              "Icon Button (Large Icon)",
+              "Commenter Avatar",
+              "Like comment button",
+              "Reply Avatar"
+            ],
+            "text_labels": [
+              "Shop House Icon",
+              "3D Objects",
+              "Tran Mau Tri Tam ✪",
+              "Reply to @randomfash",
+              "Send"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ghost large icon button",
+        "my scenes",
+        "notification dropdown",
+        "quick preview and reply"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "editing",
+        "file_management",
+        "messaging",
+        "notifications",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L9",
+      "name": "404/02",
+      "type": "other",
+      "panel_signature": "center:main_content:medium|right:right_panel:narrow|top:header:wide",
+      "screens_using": [
+        "404/02"
+      ],
+      "screen_ids": [
+        "408:12745"
+      ],
+      "count": 1,
+      "representative_screen": "408:12745",
+      "representative_name": "404/02",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Top header (1440×80), Center main_content (530×733), Right right_panel (52×564)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Logo",
+              "Redo",
+              "Topbar",
+              "Search Bar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Search",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 193",
+            "width_approx": 530,
+            "height_approx": 733,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Uh-oh... I think I took a wrong turn.",
+              "Let’s get you back to where the cute things live.",
+              "Go home"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "image list/vertical",
+            "width_approx": 52,
+            "height_approx": 564,
+            "role": "right_panel",
+            "components": [
+              "Thumbnail",
+              "image list",
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "image list",
+        "topbar"
+      ],
+      "capabilities": [
+        "media",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L10",
+      "name": "404/01",
+      "type": "other",
+      "panel_signature": "center:main_content:medium|right:right_panel:narrow|right:right_panel:narrow|top:header:wide",
+      "screens_using": [
+        "404/01"
+      ],
+      "screen_ids": [
+        "408:12744"
+      ],
+      "count": 1,
+      "representative_screen": "408:12744",
+      "representative_name": "404/01",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Top header (1440×80), Center main_content (530×733), Right right_panel (52×564), Right right_panel (82×24)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Logo",
+              "Redo",
+              "Topbar",
+              "Search Bar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Search",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 193",
+            "width_approx": 530,
+            "height_approx": 733,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Uh-oh... I think I took a wrong turn.",
+              "Let’s get you back to where the cute things live.",
+              "Go home"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "image list/vertical",
+            "width_approx": 52,
+            "height_approx": 564,
+            "role": "right_panel",
+            "components": [
+              "Thumbnail",
+              "image list",
+              "General "
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Tool tip",
+            "width_approx": 82,
+            "height_approx": 24,
+            "role": "right_panel",
+            "components": [
+              "Tool tip"
+            ],
+            "text_labels": [
+              "Copy prompt"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "image list",
+        "tool tip",
+        "topbar"
+      ],
+      "capabilities": [
+        "media",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L11",
+      "name": "Settings/General",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "Settings/General"
+      ],
+      "screen_ids": [
+        "1628:48594"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48594",
+      "representative_name": "Settings/General",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (594×481), Center main_content (133×72), Right right_panel (40×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Profile",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Icon Button (Large Icon)",
+              "Edit Profile Button",
+              "User Avatar",
+              "Profile",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Ghost Large Icon Button",
+            "width_approx": 40,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "Close Button",
+              "Ghost Large Icon Button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Setting modal",
+            "width_approx": 594,
+            "height_approx": 481,
+            "role": "main_content",
+            "components": [
+              "Dropdown",
+              "Toggle Switch",
+              "Setting modal",
+              "Edit Username",
+              "Home Sidebar Item"
+            ],
+            "text_labels": [
+              "General",
+              "112",
+              "Profile",
+              "112",
+              "Security",
+              "112",
+              "Notifications",
+              "112",
+              "Subscription",
+              "112",
+              "General",
+              "Usename",
+              "sophie",
+              "Email",
+              "sophie@ui.live"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Permission menu",
+            "width_approx": 133,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Small menu item",
+              "Permission menu"
+            ],
+            "text_labels": [
+              "English",
+              "Japanese"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ghost large icon button",
+        "permission menu",
+        "profile",
+        "setting modal"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L12",
+      "name": "Filter",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|right:right_panel:narrow",
+      "screens_using": [
+        "Filter"
+      ],
+      "screen_ids": [
+        "1628:48922"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48922",
+      "representative_name": "Filter",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Right right_panel (171×212)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Explore",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Prompt Input",
+              "Tags card",
+              "Explore",
+              "Explore card",
+              "Topbar",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Describe your 3D object or scene..."
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Report Options",
+            "width_approx": 171,
+            "height_approx": 212,
+            "role": "right_panel",
+            "components": [
+              "General ",
+              "Report Options",
+              "Zoom menu row"
+            ],
+            "text_labels": [
+              "All scenes",
+              "⌘ 0",
+              "Designs",
+              "⌘ -",
+              "Animation",
+              "⌘ +",
+              "Newest first",
+              "⌘ 0",
+              "Oldest first",
+              "⌘ 0"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "explore",
+        "report options"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "e_commerce",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L13",
+      "name": "Real-time 3D Canvas/Animation",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:toolbar:medium|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Real-time 3D Canvas/Animation",
+        "Real-time 3D Canvas/Animation"
+      ],
+      "screen_ids": [
+        "65:1407",
+        "919:32691"
+      ],
+      "count": 2,
+      "representative_screen": "919:32691",
+      "representative_name": "Real-time 3D Canvas/Animation",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440×900), Center toolbar (549×56), Center main_content (240×876), Center main_content (542×188), Center main_content (208×232), Center main_content (72×24), Center main_content (34×34), Center main_content (34×34), Right navigation_sidebar (240×876)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Canvas/Full Screen/02",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Canvas"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Toolbar/Default",
+            "width_approx": 549,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [
+              "Toolbar",
+              "Move",
+              "Redo",
+              "Button",
+              "Undo",
+              "Pan",
+              "Zoom Control",
+              "Frame",
+              "Play mode",
+              "Comment"
+            ],
+            "text_labels": [
+              "100%",
+              "Export"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Project Description",
+              "Layer item",
+              "Project Logo",
+              "Project Name",
+              "Project Tabs",
+              "Search Bar",
+              "Sidebar",
+              "Minimize UI"
+            ],
+            "text_labels": [
+              "Search...",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Prompt Input",
+            "width_approx": 542,
+            "height_approx": 188,
+            "role": "main_content",
+            "components": [
+              "Video player",
+              "Prompt Input"
+            ],
+            "text_labels": [
+              "8s",
+              "Describe your video or effects..."
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Sidebar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "navigation_sidebar",
+            "components": [
+              "Small Icon Button",
+              "Toggle Switch",
+              "Dropdown",
+              "Input value",
+              "Style item",
+              "Button",
+              "Small Toggle",
+              "Trim",
+              "Project Tabs",
+              "Sidebar",
+              "Properties Header"
+            ],
+            "text_labels": [
+              "Share",
+              "Design",
+              "Animation",
+              "Motion Blur",
+              "Loop",
+              "Effects",
+              "Lens"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Styles Section",
+            "width_approx": 208,
+            "height_approx": 232,
+            "role": "main_content",
+            "components": [
+              "Small Icon Button",
+              "Style item",
+              "Styles Section"
+            ],
+            "text_labels": [
+              "Variations",
+              "2 of 4"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tool tip",
+            "width_approx": 72,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [
+              "Tool tip"
+            ],
+            "text_labels": [
+              "Undo",
+              "⌘Z"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "canvas",
+        "general",
+        "prompt input",
+        "real-time 3d canvas",
+        "sidebar",
+        "styles section",
+        "tool tip",
+        "toolbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "form",
+        "media",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L14",
+      "name": "Sidebar",
+      "type": "other",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:properties_panel:narrow",
+      "screens_using": [
+        "Sidebar"
+      ],
+      "screen_ids": [
+        "919:33332"
+      ],
+      "count": 1,
+      "representative_screen": "919:33332",
+      "representative_name": "Sidebar",
+      "dimensions": {
+        "width": 1872,
+        "height": 908
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (240×876), Center main_content (240×876), Center main_content (240×876), Center main_content (240×876), Center main_content (240×876), Right properties_panel (240×876)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Tab=Design-General",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Material Add Icon",
+              "Material Header",
+              "Input value",
+              "Asset item",
+              "Style item",
+              "Button",
+              "Background Header",
+              "Color picker",
+              "Camera Toggle",
+              "Camera Header",
+              "Project Tabs",
+              "Styles Add Icon",
+              "Slider"
+            ],
+            "text_labels": [
+              "Share",
+              "Design",
+              "Animation",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera",
+              "Distortion"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Tab=Design-with Toolbar",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "properties_panel",
+            "components": [
+              "Sidebar content",
+              "3D View Controler"
+            ],
+            "text_labels": [
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tab=Scene",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Project Description",
+              "Layer item",
+              "Project Logo",
+              "Project Name",
+              "Project Tabs",
+              "Search Bar",
+              "Minimize UI"
+            ],
+            "text_labels": [
+              "Search...",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tab=Design-Artboard",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Small Icon Button",
+              "Dropdown",
+              "Toggle Switch",
+              "Small Toggle",
+              "Input value",
+              "Button",
+              "Color picker",
+              "Project Tabs",
+              "plus, add large",
+              "Properties Header",
+              "Slider"
+            ],
+            "text_labels": [
+              "Share",
+              "Design",
+              "Animation",
+              "Show Frame",
+              "Artboard",
+              "Backgrounds",
+              "Camera",
+              "Distortion"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tab=Assets",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Project Description",
+              "Materials",
+              "Project Logo",
+              "3D Objects",
+              "Project Name",
+              "Project Tabs",
+              "Search Bar",
+              "Minimize UI"
+            ],
+            "text_labels": [
+              "3D Objects",
+              "Materials",
+              "Search...",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tab=Animation",
+            "width_approx": 240,
+            "height_approx": 876,
+            "role": "main_content",
+            "components": [
+              "Small Icon Button",
+              "Toggle Switch",
+              "Dropdown",
+              "Input value",
+              "Style item",
+              "Button",
+              "Small Toggle",
+              "Trim",
+              "Project Tabs",
+              "Properties Header"
+            ],
+            "text_labels": [
+              "Share",
+              "Design",
+              "Animation",
+              "Motion Blur",
+              "Loop",
+              "Effects",
+              "Lens"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "3d view controler",
+        "asset item",
+        "background header",
+        "button",
+        "camera header",
+        "camera toggle",
+        "color picker",
+        "dropdown",
+        "input value",
+        "layer item",
+        "material add icon",
+        "material header",
+        "minimize ui",
+        "plus, add large",
+        "project description",
+        "project logo",
+        "project name",
+        "project tabs",
+        "properties header",
+        "search bar",
+        "sidebar content",
+        "slider",
+        "small icon button",
+        "style item",
+        "styles add icon",
+        "toggle switch"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "form",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L15",
+      "name": "File... Menu",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "File... Menu"
+      ],
+      "screen_ids": [
+        "1628:47983"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47983",
+      "representative_name": "File... Menu",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (204×248)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "File menu",
+            "width_approx": 204,
+            "height_approx": 248,
+            "role": "main_content",
+            "components": [
+              "File menu",
+              "Dropdown item"
+            ],
+            "text_labels": [
+              "Export...",
+              "⇧⌘E",
+              "Create new scene...",
+              "⌘N",
+              "Duplicate",
+              "⌘D",
+              "Rename",
+              "⇧⌘E",
+              "Move to folder...",
+              "⇧⌘E",
+              "Delete",
+              "⇧⌘E"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "file menu",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "editing",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L16",
+      "name": "Toast",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Toast"
+      ],
+      "screen_ids": [
+        "1628:48883"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48883",
+      "representative_name": "Toast",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (207×48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Assets/3D Objects",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Home Sidebar",
+              "Asset card",
+              "Assets",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "3D Objects"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Toast",
+            "width_approx": 207,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Toast"
+            ],
+            "text_labels": [
+              "Link copied to clipboard!"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "assets",
+        "toast"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "file_management",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L17",
+      "name": "Comment/Comment cursor",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Comment/Comment cursor"
+      ],
+      "screen_ids": [
+        "1628:47975"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47975",
+      "representative_name": "Comment/Comment cursor",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (36×36)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Comment",
+            "width_approx": 36,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [
+              "Comment Pin",
+              "Comment"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "comment",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L18",
+      "name": "Canvas/Adjust frame size",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Canvas/Adjust frame size"
+      ],
+      "screen_ids": [
+        "957:17562"
+      ],
+      "count": 1,
+      "representative_screen": "957:17562",
+      "representative_name": "Canvas/Adjust frame size",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (640×480), Center main_content (94×24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "crop",
+            "width_approx": 640,
+            "height_approx": 480,
+            "role": "main_content",
+            "components": [
+              "Resizes ",
+              "crop"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Tool tip",
+            "width_approx": 94,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [
+              "Tool tip"
+            ],
+            "text_labels": [
+              "800 x 600",
+              "px"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "crop",
+        "tool tip"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L19",
+      "name": "File... Menu/Move to folder",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "File... Menu/Move to folder",
+        "File... Menu/Create new folder"
+      ],
+      "screen_ids": [
+        "1628:47974",
+        "1628:47982"
+      ],
+      "count": 2,
+      "representative_screen": "1628:47974",
+      "representative_name": "File... Menu/Move to folder",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (276×264)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Move to folder",
+            "width_approx": 276,
+            "height_approx": 264,
+            "role": "main_content",
+            "components": [
+              "Search Bar",
+              "Home Sidebar Item",
+              "Move to folder"
+            ],
+            "text_labels": [
+              "Search folder...",
+              "New Folder",
+              "112",
+              "Untitled Folder",
+              "112",
+              "3D Icons",
+              "112",
+              "Cute Characters",
+              "112",
+              "Baby Monster",
+              "112"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "move to folder",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "editing",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L20",
+      "name": "File... Menu/Delete file confirm modal",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "File... Menu/Delete file confirm modal"
+      ],
+      "screen_ids": [
+        "1628:47977"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47977",
+      "representative_name": "File... Menu/Delete file confirm modal",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (356×349)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Delete Confirm Modal",
+            "width_approx": 356,
+            "height_approx": 349,
+            "role": "main_content",
+            "components": [
+              "Delete Confirm Modal",
+              "Button",
+              "Component 3"
+            ],
+            "text_labels": [
+              "Delete this file?",
+              "This action cannot be undone. Blinky is a bit nervous about it too.",
+              "Cancel",
+              "Yes, delete it"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "delete confirm modal",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L21",
+      "name": "Share modal",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Share modal",
+        "Share modal/Remove"
+      ],
+      "screen_ids": [
+        "1628:47978",
+        "1628:47980"
+      ],
+      "count": 2,
+      "representative_screen": "1628:47978",
+      "representative_name": "Share modal",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (420×504)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Share Modal",
+            "width_approx": 420,
+            "height_approx": 504,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "remove",
+              "Invite input",
+              "People row",
+              "Button",
+              "Tool tip",
+              "General ",
+              "General access row",
+              "Share Modal"
+            ],
+            "text_labels": [
+              "Invite",
+              "General access",
+              "People with access",
+              "https://brainwave.co/file/k373nH",
+              "Copy link",
+              "Remove"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "real-time 3d canvas",
+        "share modal"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L22",
+      "name": "Share modal/Show dropdown",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Share modal/Show dropdown"
+      ],
+      "screen_ids": [
+        "1628:47976"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47976",
+      "representative_name": "Share modal/Show dropdown",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (1440×900), Center main_content (420×504), Center main_content (102×72), Center main_content (34×34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Share Modal",
+            "width_approx": 420,
+            "height_approx": 504,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "remove",
+              "Invite input",
+              "People row",
+              "Button",
+              "Tool tip",
+              "General ",
+              "General access row",
+              "Share Modal"
+            ],
+            "text_labels": [
+              "Invite",
+              "General access",
+              "People with access",
+              "https://brainwave.co/file/k373nH",
+              "Copy link",
+              "Remove"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Permission menu",
+            "width_approx": 102,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Small menu item",
+              "Permission menu"
+            ],
+            "text_labels": [
+              "can view",
+              "can edit"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "general",
+        "permission menu",
+        "real-time 3d canvas",
+        "share modal"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "navigation",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L23",
+      "name": "Live notification",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Live notification"
+      ],
+      "screen_ids": [
+        "1628:48680"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48680",
+      "representative_name": "Live notification",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (411×128)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas/Assets",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Asset Preview",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Notification item",
+            "width_approx": 411,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [
+              "Notification item",
+              "Noti Icon",
+              "Decline Button",
+              "User Avatar",
+              "Accept Button"
+            ],
+            "text_labels": [
+              "Invited you to edit Value",
+              "Decline",
+              "Accept"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "notification item",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "messaging",
+        "notifications",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L24",
+      "name": "Explore/Detail/Report",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Explore/Detail/Report"
+      ],
+      "screen_ids": [
+        "1204:49821"
+      ],
+      "count": 1,
+      "representative_screen": "1204:49821",
+      "representative_name": "Explore/Detail/Report",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (343×128)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Explore/Detail/Report",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Scene property",
+              "Remix Button",
+              "zap, lightning, flash",
+              "Icon Button (Large Icon)",
+              "Explore",
+              "Like Button",
+              "Video player",
+              "Create Button",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "8s"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Report Options",
+            "width_approx": 343,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [
+              "Report Options"
+            ],
+            "text_labels": [
+              "Why are you reporting this image?",
+              "Nudity & Sexual Content",
+              "Child Exploitation"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "explore",
+        "report options"
+      ],
+      "capabilities": [
+        "file_management",
+        "media",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L25",
+      "name": "Comment/Comment Input",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Comment/Comment Input",
+        "Comment/Typing",
+        "Comment/Image uploaded",
+        "Comment/View comment",
+        "Comment/Conversation",
+        "Comment/Upload image to comment"
+      ],
+      "screen_ids": [
+        "1628:47971",
+        "1628:47979",
+        "1628:47973",
+        "1628:47969",
+        "1628:47981",
+        "1628:47970"
+      ],
+      "count": 6,
+      "representative_screen": "1628:47971",
+      "representative_name": "Comment/Comment Input",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (328×48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Comment",
+            "width_approx": 328,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "microphone, mic, sound, podcast",
+              "zap, lightning, flash",
+              "Submit Button",
+              "chevron-down-small",
+              "Comment Pin",
+              "plus, add large",
+              "Comment"
+            ],
+            "text_labels": [
+              "Add comment..."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "comment",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "form",
+        "media",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L26",
+      "name": "Play Mode",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:toolbar:medium|center:main_content:medium",
+      "screens_using": [
+        "Play Mode"
+      ],
+      "screen_ids": [
+        "1628:47967"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47967",
+      "representative_name": "Play Mode",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×926), Center toolbar (365×56), Center main_content (560×40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Canvas/Play mode",
+            "width_approx": 1440,
+            "height_approx": 926,
+            "role": "main_content",
+            "components": [
+              "Canvas"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Toolbar/Play Mode",
+            "width_approx": 365,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [
+              "Toolbar",
+              "Button",
+              "Zoom Control",
+              "Frame",
+              "Comment"
+            ],
+            "text_labels": [
+              "100%",
+              "Export"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Player (Transprent)",
+            "width_approx": 560,
+            "height_approx": 40,
+            "role": "main_content",
+            "components": [
+              "Video Player (Transprent)",
+              "Play Button",
+              "repeat"
+            ],
+            "text_labels": [
+              "8s"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "canvas",
+        "toolbar",
+        "video player (transprent)"
+      ],
+      "capabilities": [
+        "editing",
+        "media"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L27",
+      "name": "Canvas/Full Screen/09",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:toolbar:medium|center:main_content:medium",
+      "screens_using": [
+        "Canvas/Full Screen/09",
+        "Canvas/Full Screen/10"
+      ],
+      "screen_ids": [
+        "396:12275",
+        "456:33644"
+      ],
+      "count": 2,
+      "representative_screen": "396:12275",
+      "representative_name": "Canvas/Full Screen/09",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1556×1066), Center toolbar (549×56), Center main_content (542×128)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "ChatGPT Image Jun 5, 2025, 07_27_46 PM 1",
+            "width_approx": 1556,
+            "height_approx": 1066,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Toolbar/Default",
+            "width_approx": 549,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Prompt Input/Design/Default",
+            "width_approx": 542,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L28",
+      "name": "Play Mode/Resize Preview",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:toolbar:medium|center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Play Mode/Resize Preview"
+      ],
+      "screen_ids": [
+        "1628:47966"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47966",
+      "representative_name": "Play Mode/Resize Preview",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×926), Center toolbar (365×56), Center main_content (560×40), Center main_content (800×600), Center main_content (94×24), Center main_content (72×24), Center main_content (34×34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Canvas/Play mode",
+            "width_approx": 1440,
+            "height_approx": 926,
+            "role": "main_content",
+            "components": [
+              "Canvas"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Toolbar/Play Mode",
+            "width_approx": 365,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [
+              "Toolbar",
+              "Button",
+              "Zoom Control",
+              "Frame",
+              "Comment"
+            ],
+            "text_labels": [
+              "100%",
+              "Export"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Player (Transprent)",
+            "width_approx": 560,
+            "height_approx": 40,
+            "role": "main_content",
+            "components": [
+              "Video Player (Transprent)",
+              "Play Button",
+              "repeat"
+            ],
+            "text_labels": [
+              "8s"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 800,
+            "height_approx": 600,
+            "role": "main_content",
+            "components": [
+              "Resizes ",
+              "Frame"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Tool tip",
+            "width_approx": 94,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [
+              "Tool tip"
+            ],
+            "text_labels": [
+              "800 x 600",
+              "Px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tool tip",
+            "width_approx": 72,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [
+              "Tool tip"
+            ],
+            "text_labels": [
+              "Resize",
+              "C"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "canvas",
+        "frame",
+        "general",
+        "tool tip",
+        "toolbar",
+        "video player (transprent)"
+      ],
+      "capabilities": [
+        "editing",
+        "media"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L29",
+      "name": "Zoom in",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Zoom in"
+      ],
+      "screen_ids": [
+        "1204:49951"
+      ],
+      "count": 1,
+      "representative_screen": "1204:49951",
+      "representative_name": "Zoom in",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440×80), Center main_content (34×34), Center main_content (1440×820)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Ghost Icon Button",
+              "image list",
+              "Create Button",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Add to Asset"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 144",
+            "width_approx": 1440,
+            "height_approx": 820,
+            "role": "main_content",
+            "components": [
+              "Asset card",
+              "Redo",
+              "Undo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "asset card",
+        "general",
+        "redo",
+        "topbar",
+        "undo"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L30",
+      "name": "Profile/Show search",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Profile",
+        "Profile/Show search"
+      ],
+      "screen_ids": [
+        "352:20479",
+        "1204:51174"
+      ],
+      "count": 2,
+      "representative_screen": "1204:51174",
+      "representative_name": "Profile/Show search",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440×80), Center main_content (1440×1035), Center main_content (1400×120)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Logo",
+              "Redo",
+              "Topbar",
+              "Search Bar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Search",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Profile Container",
+            "width_approx": 1440,
+            "height_approx": 1035,
+            "role": "main_content",
+            "components": [
+              "Icon Button (Large Icon)",
+              "User Avatar",
+              "Edit Profile Button",
+              "Tool tip"
+            ],
+            "text_labels": [
+              "Sophie Bennett ®",
+              "Share"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1400,
+            "height_approx": 120,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "edit profile button",
+        "hand icon",
+        "icon button (large icon)",
+        "like icon",
+        "link 3, chain",
+        "pin, location",
+        "profile",
+        "repeat",
+        "text, t",
+        "tool tip",
+        "topbar",
+        "user avatar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "map",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L31",
+      "name": "Update",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Update"
+      ],
+      "screen_ids": [
+        "1628:48595"
+      ],
+      "count": 1,
+      "representative_screen": "1628:48595",
+      "representative_name": "Update",
+      "dimensions": {
+        "width": 1440,
+        "height": 1888
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440×80), Center main_content (450×96), Center main_content (1440×1788), Center main_content (1440×194)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Logo",
+              "Redo",
+              "Topbar",
+              "Search Bar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Search",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 185",
+            "width_approx": 450,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Updates",
+              "What’s new in Brainwave."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 188",
+            "width_approx": 1440,
+            "height_approx": 1788,
+            "role": "main_content",
+            "components": [
+              "Update post"
+            ],
+            "text_labels": [
+              "3D Library",
+              "May 28, 2025",
+              "New Materials",
+              "May 28, 2025"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 194,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "topbar",
+        "update post"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "calendar",
+        "content_creation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L32",
+      "name": "Sign in",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sign in",
+        "Create account"
+      ],
+      "screen_ids": [
+        "1628:48675",
+        "1628:48674"
+      ],
+      "count": 2,
+      "representative_screen": "1628:48675",
+      "representative_name": "Sign in",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (640×900), Center main_content (780×860)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Sign in",
+            "width_approx": 640,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Sign in with Google btt",
+              "Password Input",
+              "Sign in",
+              "Email Input",
+              "Sign in button"
+            ],
+            "text_labels": [
+              "Sign in to Brainwave",
+              "Sign in with Google",
+              "Or sign in with email",
+              "Email",
+              "Sign in",
+              "Need an account?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 780,
+            "height_approx": 860,
+            "role": "main_content",
+            "components": [
+              "Prompt Input"
+            ],
+            "text_labels": [
+              "A surreal image of a veiled figure on a horse atop a Persian rug in a vast white salt flat under a deep teal sky.",
+              "Try Brainwave 2.0 for free"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "prompt input",
+        "sign in"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "authentication",
+        "content_creation",
+        "form",
+        "media",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L33",
+      "name": "Sign in",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sign in"
+      ],
+      "screen_ids": [
+        "437:31428"
+      ],
+      "count": 1,
+      "representative_screen": "437:31428",
+      "representative_name": "Sign in",
+      "dimensions": {
+        "width": 1367,
+        "height": 932
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (640×900), Center main_content (640×900)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "State=Sign in",
+            "width_approx": 640,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Email Input",
+              "Password Input",
+              "Sign in with Google btt",
+              "Sign in button"
+            ],
+            "text_labels": [
+              "Sign in to Brainwave",
+              "Sign in with Google",
+              "Or sign in with email",
+              "Email",
+              "Sign in",
+              "Need an account?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Sign up",
+            "width_approx": 640,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Email Input",
+              "Password Input",
+              "Sign in with Google btt",
+              "Sign in button"
+            ],
+            "text_labels": [
+              "Create your account",
+              "Sign up with Google",
+              "Or sign up with email",
+              "Email",
+              "Create account",
+              "Already have an account?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "email input",
+        "password input",
+        "sign in button",
+        "sign in with google btt"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L34",
+      "name": "Frame 1000002586",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Frame 1000002586",
+        "Frame 1000002587"
+      ],
+      "screen_ids": [
+        "512:16519",
+        "512:16525"
+      ],
+      "count": 2,
+      "representative_screen": "512:16519",
+      "representative_name": "Frame 1000002586",
+      "dimensions": {
+        "width": 1440,
+        "height": 1080
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1084×500), Center main_content (1084×256)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Premade prompt popover",
+            "width_approx": 1084,
+            "height_approx": 500,
+            "role": "main_content",
+            "components": [
+              "Tab item",
+              "Premade prompt popover",
+              "Premade Prompt Item"
+            ],
+            "text_labels": [
+              "Create a 3D model of a sleek, futuristic car with neon accents.",
+              "Design a 3D medieval sword with intricate engravings on the blade.",
+              "Generate a 3D low-poly tree with a vibrant, autumn color palette.",
+              "Build a 3D cozy wooden cabin with a detailed, textured roof.",
+              "Surprise me",
+              "Characters",
+              "Objects",
+              "Backgrounds",
+              "Cute",
+              "Characters"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Prompt Input",
+            "width_approx": 1084,
+            "height_approx": 256,
+            "role": "main_content",
+            "components": [
+              "Prompt Input",
+              "Voice Button",
+              "Submit Button",
+              "Inspiration Dropdown",
+              "AI Model Dropdown",
+              "Component 4"
+            ],
+            "text_labels": [
+              "Describe your 3D object or scene...",
+              "Brainwave 2.5"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "premade prompt popover",
+        "prompt input"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L35",
+      "name": "Canvas/Full Screen/02",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Canvas/Full Screen/02"
+      ],
+      "screen_ids": [
+        "58:3503"
+      ],
+      "count": 1,
+      "representative_screen": "58:3503",
+      "representative_name": "Canvas/Full Screen/02",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (826×900), Center main_content (788×1182)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle 2",
+            "width_approx": 826,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Futuristic Robotic Head 1",
+            "width_approx": 788,
+            "height_approx": 1182,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L36",
+      "name": "Choose your plan/Hover",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Choose your plan",
+        "Choose your plan/Hover"
+      ],
+      "screen_ids": [
+        "1204:52013",
+        "1204:52411"
+      ],
+      "count": 2,
+      "representative_screen": "1204:52411",
+      "representative_name": "Choose your plan/Hover",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440×80), Center main_content (1440×820)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Logo",
+              "Redo",
+              "Topbar",
+              "Search Bar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Search",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Plan Options Container",
+            "width_approx": 1440,
+            "height_approx": 820,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "Plan card",
+              "Toggle"
+            ],
+            "text_labels": [
+              "Choose your plan",
+              "Free",
+              "Creator",
+              "Studio"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "general",
+        "plan card",
+        "toggle",
+        "topbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "media",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L37",
+      "name": "Explore/Detail/Add to assets",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Explore/Detail",
+        "Explore/Detail/Add to assets"
+      ],
+      "screen_ids": [
+        "365:20937",
+        "1204:49822"
+      ],
+      "count": 2,
+      "representative_screen": "1204:49822",
+      "representative_name": "Explore/Detail/Add to assets",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440×80), Center main_content (1440×820)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Topbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "Logo",
+              "Redo",
+              "Topbar",
+              "Search Bar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Search",
+              "⌘ K"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Player Container",
+            "width_approx": 1440,
+            "height_approx": 820,
+            "role": "main_content",
+            "components": [
+              "Small Icon Button",
+              "Scene property",
+              "Remix Button",
+              "Video Player",
+              "crossed large, close",
+              "zap, lightning, flash",
+              "Download Button Icon",
+              "Icon Button (Large Icon)",
+              "Like Button",
+              "Tool tip",
+              "Create Button"
+            ],
+            "text_labels": [
+              "8s",
+              "200",
+              "Mirror Gate v1.0"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "create button",
+        "crossed large, close",
+        "date icon",
+        "download button icon",
+        "icon button (large icon)",
+        "like button",
+        "remix button",
+        "scene property",
+        "small icon button",
+        "tool tip",
+        "topbar",
+        "user avatar",
+        "video player",
+        "zap, lightning, flash"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "map",
+        "media",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L38",
+      "name": "Comment/Tagging member",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "Comment/Tagging member"
+      ],
+      "screen_ids": [
+        "1628:47972"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47972",
+      "representative_name": "Comment/Tagging member",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (328×120), Center main_content (215×156)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Comment",
+            "width_approx": 328,
+            "height_approx": 120,
+            "role": "main_content",
+            "components": [
+              "microphone, mic, sound, podcast",
+              "Comment Input button",
+              "zap, lightning, flash",
+              "Submit Button",
+              "chevron-down-small",
+              "Comment Pin",
+              "plus, add large",
+              "Send Button",
+              "Comment"
+            ],
+            "text_labels": [
+              "I love this bag, it looks great. Could you make it with leather material?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "tag popover",
+            "width_approx": 215,
+            "height_approx": 156,
+            "role": "main_content",
+            "components": [
+              "Tag user item",
+              "tag popover"
+            ],
+            "text_labels": [
+              "Dash",
+              "@randomdash",
+              "Ellie",
+              "@ellie",
+              "Marina",
+              "@marina"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "comment",
+        "real-time 3d canvas",
+        "tag popover"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L39",
+      "name": "Comment/Show comment",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Comment/Show comment"
+      ],
+      "screen_ids": [
+        "1628:47968"
+      ],
+      "count": 1,
+      "representative_screen": "1628:47968",
+      "representative_name": "Comment/Show comment",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×900), Center main_content (36×36), Center main_content (36×36), Center main_content (36×36), Center main_content (52×36)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Comment Pin",
+            "width_approx": 36,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [
+              "Comment Pin",
+              "Profile Image"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Comment Pin",
+            "width_approx": 36,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [
+              "Comment Pin",
+              "Profile Image"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Comment Pin",
+            "width_approx": 36,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [
+              "Comment Pin",
+              "Profile Image"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Comment Pin",
+            "width_approx": 52,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [
+              "Comment Pin",
+              "Profile Image"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "comment pin",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "editing",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L40",
+      "name": "Frame 1000002588",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Frame 1000002588",
+        "Frame 1000002589",
+        "Frame 1000002590",
+        "Frame 1000002591",
+        "Frame 1000002592",
+        "Frame 1000002593",
+        "Frame 1000002594",
+        "Frame 1000002595",
+        "Frame 1000002596"
+      ],
+      "screen_ids": [
+        "512:16548",
+        "512:16588",
+        "512:16628",
+        "512:16668",
+        "512:16708",
+        "512:16748",
+        "512:16788",
+        "512:16828",
+        "512:16868"
+      ],
+      "count": 9,
+      "representative_screen": "512:16548",
+      "representative_name": "Frame 1000002588",
+      "dimensions": {
+        "width": 1440,
+        "height": 1080
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1084×256)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Prompt Input",
+            "width_approx": 1084,
+            "height_approx": 256,
+            "role": "main_content",
+            "components": [
+              "Voice Button",
+              "Submit Button",
+              "Inspiration Dropdown",
+              "AI Model Dropdown",
+              "Component 4"
+            ],
+            "text_labels": [
+              "Design a 3D medieval sword with intricate engravings on the blade.",
+              "Design a 3D medieval sword with intricate engravings on the blade.",
+              "Brainwave 2.5"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai model dropdown",
+        "component 4",
+        "inspiration dropdown",
+        "submit button",
+        "voice button"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L41",
+      "name": "Frame 1000002597",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Frame 1000002597"
+      ],
+      "screen_ids": [
+        "512:16892"
+      ],
+      "count": 1,
+      "representative_screen": "512:16892",
+      "representative_name": "Frame 1000002597",
+      "dimensions": {
+        "width": 1440,
+        "height": 1080
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1084×256)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 1000002571",
+            "width_approx": 1084,
+            "height_approx": 256,
+            "role": "main_content",
+            "components": [
+              "Add file popover",
+              "Prompt Input"
+            ],
+            "text_labels": [
+              "Describe your 3D object or scene...",
+              "Add photos or videos",
+              "Add 3D objects",
+              "Add files (docs, txt...)"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "add file popover",
+        "prompt input"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "file_management",
+        "form",
+        "media"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L42",
+      "name": "Canvas/Play mode",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Canvas/Play mode",
+        "Canvas/Full Screen/01",
+        "Canvas/Full Screen/03",
+        "Canvas/Full Screen/04",
+        "Canvas/Full Screen/05",
+        "Canvas/Full Screen/06",
+        "Canvas/Full Screen/07",
+        "Canvas/Full Screen/08",
+        "Canvas/Full Screen/11-200"
+      ],
+      "screen_ids": [
+        "149:4198",
+        "58:3504",
+        "58:3502",
+        "58:3501",
+        "58:4037",
+        "97:3362",
+        "104:3166",
+        "216:7294",
+        "957:19527"
+      ],
+      "count": 9,
+      "representative_screen": "149:4198",
+      "representative_name": "Canvas/Play mode",
+      "dimensions": {
+        "width": 1440,
+        "height": 926
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440×926)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "narkussj4_A_baby_mermaid_with_soft_orange_wavy_hair_and_a_tiny__c9303a73-6796-4e2c-8df0-40565341e923 1",
+            "width_approx": 1440,
+            "height_approx": 926,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L43",
+      "name": "Canvas/Full Screen/11-100",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium",
+      "screens_using": [
+        "Canvas/Full Screen/11-100",
+        "Canvas/Full Screen/11-75"
+      ],
+      "screen_ids": [
+        "957:19528",
+        "957:19526"
+      ],
+      "count": 2,
+      "representative_screen": "957:19528",
+      "representative_name": "Canvas/Full Screen/11-100",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (498×498)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "image-em0QUIsW2K1AYeCtbpxuUniDkcARay 1",
+            "width_approx": 498,
+            "height_approx": 498,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L44",
+      "name": "Canvas/Full Screen/12",
+      "type": "full_canvas",
+      "panel_signature": "center:toolbar:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Canvas/Full Screen/12"
+      ],
+      "screen_ids": [
+        "1628:49711"
+      ],
+      "count": 1,
+      "representative_screen": "1628:49711",
+      "representative_name": "Canvas/Full Screen/12",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center toolbar (549×56), Center main_content (542×128), Center main_content (568×852)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Toolbar/Default",
+            "width_approx": 549,
+            "height_approx": 56,
+            "role": "toolbar",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Prompt Input/Design/Default",
+            "width_approx": 542,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "ChatGPT Image Jun 15, 2025, 06_38_47 PM 1",
+            "width_approx": 568,
+            "height_approx": 852,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L45",
+      "name": "thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "thumbnail"
+      ],
+      "screen_ids": [
+        "3002:25373"
+      ],
+      "count": 1,
+      "representative_screen": "3002:25373",
+      "representative_name": "thumbnail",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2142×2142), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1036×955), Center main_content (1800×181), Center main_content (1036×955)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Disk",
+            "width_approx": 2142,
+            "height_approx": 2142,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Assets/Materials",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Home Sidebar",
+              "Asset card",
+              "Assets",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Materials"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Choose your plan",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Choose your plan",
+              "Plan card",
+              "Topbar",
+              "Toggle"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Choose your plan"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Explore/Detail",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Scene property",
+              "Remix Button",
+              "zap, lightning, flash",
+              "Icon Button (Large Icon)",
+              "Explore",
+              "Like Button",
+              "Video player",
+              "Create Button",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "8s"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Explore",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Prompt Input",
+              "Tags card",
+              "Explore",
+              "Explore card",
+              "Topbar",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Describe your 3D object or scene..."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Profile",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Icon Button (Large Icon)",
+              "Edit Profile Button",
+              "User Avatar",
+              "Profile",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "My Scenes",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Home Sidebar",
+              "My Scenes",
+              "Scene Card",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "My Scenes"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Assets/3D Objects",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Home Sidebar",
+              "Asset card",
+              "Assets",
+              "General ",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "3D Objects"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "404/01",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "404",
+              "Button",
+              "Tool tip",
+              "image list",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Brainwave",
+              "Uh-oh... I think I took a wrong turn.",
+              "Let’s get you back to where the cute things live.",
+              "Go home",
+              "Copy prompt"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Create account",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Sign in",
+              "Create account",
+              "Prompt Input"
+            ],
+            "text_labels": [
+              "Create your account",
+              "Sign up with Google",
+              "Or sign up with email",
+              "Already have an account?",
+              "Try Brainwave 2.0 for free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 1",
+            "width_approx": 1800,
+            "height_approx": 181,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Real-time 3D Canvas",
+            "width_approx": 1036,
+            "height_approx": 955,
+            "role": "main_content",
+            "components": [
+              "Toolbar",
+              "Canvas",
+              "Prompt Input",
+              "Real-time 3D Canvas",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Export",
+              "Describe your 3D object or scene...",
+              "Share",
+              "Materials",
+              "Styles",
+              "Backgrounds",
+              "Camera"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "404",
+        "assets",
+        "choose your plan",
+        "create account",
+        "explore",
+        "my scenes",
+        "profile",
+        "real-time 3d canvas"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L46",
+      "name": "My Scenes/Load more",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "My Scenes",
+        "My Scenes",
+        "My Scenes",
+        "My Scenes/Load more"
+      ],
+      "screen_ids": [
+        "216:5116",
+        "216:7025",
+        "216:6446",
+        "1204:49876"
+      ],
+      "count": 4,
+      "representative_screen": "1204:49876",
+      "representative_name": "My Scenes/Load more",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (220×900), Center main_content (1220×900), Center main_content (34×34)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 220,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Home Sub Item",
+              "Logo",
+              "Home Sidebar Item",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main Content",
+            "width_approx": 1220,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Topbar",
+              "Scene Card"
+            ],
+            "text_labels": [
+              "My Scenes",
+              "Create"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "filter",
+        "general",
+        "home sidebar",
+        "my scenes",
+        "scene card",
+        "sidebar",
+        "topbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "file_management",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L47",
+      "name": "Assets/Materials",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Assets/3D Objects",
+        "Assets/Materials"
+      ],
+      "screen_ids": [
+        "254:6607",
+        "257:6817"
+      ],
+      "count": 2,
+      "representative_screen": "257:6817",
+      "representative_name": "Assets/Materials",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (220×900), Center main_content (1220×1044), Center main_content (34×34)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Home Sidebar",
+            "width_approx": 220,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Home Sub Item",
+              "Logo",
+              "Home Sidebar Item",
+              "Home Sidebar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 126",
+            "width_approx": 1220,
+            "height_approx": 1044,
+            "role": "main_content",
+            "components": [
+              "Asset card",
+              "Topbar"
+            ],
+            "text_labels": [
+              "Create",
+              "Materials"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "asset card",
+        "assets",
+        "general",
+        "home sidebar",
+        "topbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "file_management",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L48",
+      "name": "Likes",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Likes"
+      ],
+      "screen_ids": [
+        "1204:49825"
+      ],
+      "count": 1,
+      "representative_screen": "1204:49825",
+      "representative_name": "Likes",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (220×900), Center main_content (1220×1063)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Home Sidebar",
+            "width_approx": 220,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Home Sub Item",
+              "Logo",
+              "Home Sidebar Item",
+              "Home Sidebar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 126",
+            "width_approx": 1220,
+            "height_approx": 1063,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Topbar",
+              "Scene Card"
+            ],
+            "text_labels": [
+              "Create",
+              "Likes"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filter",
+        "home sidebar",
+        "scene card",
+        "topbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "file_management",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L49",
+      "name": "Explore",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Explore",
+        "Explore",
+        "Explore"
+      ],
+      "screen_ids": [
+        "235:6937",
+        "376:13250",
+        "376:11726"
+      ],
+      "count": 3,
+      "representative_screen": "376:13250",
+      "representative_name": "Explore",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (220×900), Center main_content (1220×900)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 220,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Home Sub Item",
+              "Logo",
+              "Home Sidebar Item",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Brainwave"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main Content",
+            "width_approx": 1220,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Tags card",
+              "Explore card",
+              "Topbar",
+              "Prompt Input"
+            ],
+            "text_labels": [
+              "Describe your 3D object or scene..."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "explore",
+        "explore card",
+        "prompt input",
+        "sidebar",
+        "tags card",
+        "topbar"
+      ],
+      "capabilities": [
+        "3d_editing",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    }
+  ]
+}
