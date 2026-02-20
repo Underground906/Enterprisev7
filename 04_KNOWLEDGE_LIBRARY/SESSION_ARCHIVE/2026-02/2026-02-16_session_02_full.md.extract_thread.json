@@ -1,0 +1,210 @@
+{
+  "source_file": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+  "extraction_date": "2026-02-20T15:07:00Z",
+  "extraction_mode": "thread",
+  "thread_title": "EKX-1 Extraction: Session 02 - Boilerplate Rejection, Figma Discovery, and Build Factory Strategy",
+  "sections": {
+    "1_narrative": {
+      "title": "Narrative & Context",
+      "items": [
+        "Continuation from morning session (system housekeeping, fitness app, 200k token context review).",
+        "Session ran across two Claude Code conversations due to context limits.",
+        "Part 1: Claude built 11 generic React components and 8 demo pages for Enterprise OS hub app, which were harshly rejected by user John as 'AI-looking shite' not matching the intended workflow of converting real Figma templates.",
+        "Part 2: Course correction - examined actual Brainwave 2.0 Figma PNG exports to understand real design, extracted design tokens, and began rewriting components.",
+        "Part 3: Discovered the real bottleneck: no Figma-to-React tool allows batch URL conversion; all require manual plugin use per frame. Used Figma API to extract direct links to all 73 frames across 20 pages in the Brainwave file.",
+        "Part 4: Strategic planning for building a full component library, cataloging 77 page types and 96 component types, selecting Anima as the conversion tool (200 conversions/month), and planning a conversion budget.",
+        "Part 5: Batch export script `batch-export-all-kits.js` running, 8 of 38 kits completed, ~15 hours remaining.",
+        "Part 6: John's realization that the old approach of months of hand-building and expanding documentation was a 'mirage' and untenable due to token costs. Shift to new approach: Build a component library + token system + boilerplate assembly factory for rapid platform assembly."
+      ]
+    },
+    "2_objectives": {
+      "title": "Objectives",
+      "items": [
+        "Convert actual Brainwave 2.0 Figma template screens into React components (correcting initial misunderstanding).",
+        "Establish a viable Figma-to-React conversion workflow.",
+        "Build a comprehensive, reusable component library (the 'Build Factory').",
+        "Enable rapid assembly of multiple platforms (Enterprise OS, Fitness, Property, LeadEngine) from shared parts.",
+        "Reduce development time from months to days per platform.",
+        "Get the build factory capabilities operational this week."
+      ]
+    },
+    "3_success_criteria": {
+      "title": "Success Criteria",
+      "items": [
+        "Components match the exact design of the hi-fidelity Figma templates, not generic AI-looking UI.",
+        "A working process to convert Figma frames to React code is established and documented.",
+        "A complete P0+P1 component library is built, tokenized, and ready for use.",
+        "Platforms can be assembled rapidly (in days) from the library.",
+        "Token cost of context loading is reduced from the untenable 200k experienced."
+      ]
+    },
+    "4_decisions": {
+      "title": "Decisions & Rules",
+      "items": [
+        "REJECT generic, invented boilerplate components. Must convert real Figma designs.",
+        "Selected Anima as the Figma-to-React conversion tool (best value: 200 conversions/month).",
+        "Convert component library pages FIRST (e.g., Buttons, Inputs pages) before full screens for efficiency (one conversion yields many components).",
+        "Focus on 5-10 key pages per priority kit, ignore the other 100+ less critical pages.",
+        "The complete component library (Build Factory) is now the top priority, not any single platform like LeadEngine.",
+        "Brand tokens (e.g., Enterprise=#0B8C00) will be swapped per platform.",
+        "Corrected kit mapping: Fitness kit is 'Befit', not 'Fitness Pro'."
+      ]
+    },
+    "5_sops": {
+      "title": "SOPs / Workflows",
+      "items": [
+        "UI Assembly Pipeline: Must start from actual Figma designs, not invent components.",
+        "Figma Conversion Workflow: Open Figma file -> select frame -> run Anima plugin -> copy generated React code -> repeat per frame. (No batch URL mode exists).",
+        "Library Build Order: 1. Convert component pages. 2. Convert key screens. 3. Decompose & tokenize output into library components.",
+        "Session Onboarding: Need to standardize what documentation gets read at session start to reduce context loading cost."
+      ]
+    },
+    "6_scripts": {
+      "title": "Scripts / Commands",
+      "items": [
+        "`batch-export-all-kits.js` - Script running to export all 38 kit designs. Progress tracked in `figma-exports/batch_progress.json`."
+      ]
+    },
+    "7_inputs_outputs": {
+      "title": "Inputs & Outputs",
+      "items": [
+        "Inputs: Brainwave 2.0 Figma file (ID: 6hCuwRI0GsBmIOJelAVpND), PNG screenshot exports of Brainwave screens, List of 38 component kit Figma files.",
+        "Outputs (Created/Modified): `globals.css` (rewritten with Brainwave tokens), `AppShell.tsx` (rewritten to match Brainwave sidebar/topbar), `AuthSplit.tsx` (partially rewritten), 8 generic boilerplate components (REJECTED), 8 demo pages (REJECTED), `BUILD_FACTORY_PIPELINE.md`, `kit_roles.md` (updated), `MEMORY.md` (updated).",
+        "Outputs (Discovered/Generated): Direct Figma links for all 73 frames across 20 pages in the Brainwave file. Catalog of 77 page types (P0/P1/P2). Catalog of 96 component types (P0/P1/P2). Analysis table of Figma-to-React tools (Locofy, Builder.io, Anima, Codia AI, Figma Make)."
+      ]
+    },
+    "8_missteps": {
+      "title": "Missteps / Errors / Risks",
+      "items": [
+        "Major Misstep: Built 11 generic, 'AI-looking' React components from scratch instead of converting the actual Brainwave Figma templates, leading to user rejection and wasted time.",
+        "Risk: Relying on ever-expanding, unstructured documentation that is not in a database, making context retrieval for LLMs token-prohibitive and untenable.",
+        "Risk: Manual, per-frame Figma conversion process is time-consuming; no batch automation exists.",
+        "Risk: Potential cost of conversion tools (e.g., Locofy Lightning deemed too expensive with annual billing)."
+      ]
+    },
+    "9_blockers": {
+      "title": "Blockers",
+      "items": [
+        "No Figma-to-React tool allows batch processing via URLs; every tool requires manual, frame-by-frame plugin interaction within Figma.",
+        "High token cost (~200k) for loading session context is unsustainable.",
+        "Documentation and processes are scattered, not in a queryable database, hindering systematic reuse and context building."
+      ]
+    },
+    "10_status": {
+      "title": "Status",
+      "items": [
+        "Batch kit export: In Progress (8 of 38 kits completed, ~15 hours remaining).",
+        "Build Factory / Component Library: Planning and tool selection complete (Anima). Conversion not yet started.",
+        "Brainwave component updates: Partially complete (globals.css, AppShell.tsx updated; AuthSplit.tsx incomplete).",
+        "Overall session work: Ended in strategic planning phase, ready to execute conversion tomorrow."
+      ]
+    },
+    "11_progress": {
+      "title": "Progress Markers",
+      "items": [
+        "Identified and corrected fundamental workflow error (building vs. converting).",
+        "Extracted all direct Figma links for Brainwave screens and components.",
+        "Selected a viable conversion tool (Anima).",
+        "Defined a conversion budget and library build strategy.",
+        "Updated core design tokens and AppShell to match real Brainwave design.",
+        "Batch export script initiated and progressing."
+      ]
+    },
+    "12_refinements": {
+      "title": "Refinements",
+      "items": [
+        "Workflow refined from 'build generic components' to 'convert exact Figma designs'.",
+        "Strategy refined from 'build LeadEngine first' to 'build the component library factory first'.",
+        "Tool selection refined after evaluating 5 options; chose Anima for best value.",
+        "Kit mapping refined: Corrected 'Fitness Pro' to 'Befit'.",
+        "Documentation (`BUILD_FACTORY_PIPELINE.md`, `MEMORY.md`) updated to lock in the corrected process."
+      ]
+    },
+    "13_dependencies": {
+      "title": "Dependencies",
+      "items": [
+        "Completion of the `batch-export-all-kits.js` script for all 38 kits.",
+        "Access to Anima plugin (200 monthly conversions).",
+        "Granular PRDs being ready for cross-reference against kit inventories.",
+        "Database system to store components, tokens, and processes (to be designed in PRD MK11)."
+      ]
+    },
+    "14_entities": {
+      "title": "Entity Maps",
+      "items": [
+        "Brainwave 2.0: The primary Figma design system/kit being converted first.",
+        "Kits: 38 total component kits (e.g., Real Estate SaaS Kit, Huose Property, Social Dashboards, Befit, Fleet Travel, etc.).",
+        "Tools: Anima (selected converter), Locofy Lightning, Builder.io Visual Copilot, Codia AI, Figma Make (evaluated).",
+        "Platforms: Enterprise OS, Fitness App (Befit), Property Platform, LeadEngine (target outputs of the Build Factory).",
+        "Files: `BUILD_FACTORY_PIPELINE.md` (master process), `kit_roles.md` (kit mapping), `MEMORY.md` (session memory), `batch_progress.json` (export tracker)."
+      ]
+    },
+    "15_glossary": {
+      "title": "Glossary",
+      "items": [
+        "P0: Priority level - pages/components needed on every platform (11 pages, ~23 components).",
+        "P1: Priority level - pages/components needed on most platforms (10 pages, ~13 components).",
+        "P2: Priority level - pages/components that can wait (56 pages, ~15+ specialist components).",
+        "Build Factory: The system comprising the reusable component library, token system, and assembly boilerplates.",
+        "UI Assembly Pipeline: The defined workflow for converting Figma designs to assembled React applications.",
+        "Tokens: Design tokens (colors, typography) that are swapped per platform for branding."
+      ]
+    },
+    "16_future": {
+      "title": "Future",
+      "items": [
+        "Tomorrow (2026-02-17) Morning: Check batch export completion, review PRD status, cross-reference with kits.",
+        "Tomorrow Main Work: Build localhost thumbnail browser for visual selection, start Anima conversions on Brainwave component pages, decompose/tokenize output, design database in PRD MK11.",
+        "Side Quest: Standardize session onboarding practices, reduce token cost of context loading, move things into a database, ingest scattered bucket folders as archives.",
+        "This Week's Goal: 12-14 hour days to get Build Factory operational, build fitness app, get enterprise platform screens working, reach rapid assembly capability."
+      ]
+    },
+    "17_pending": {
+      "title": "Pending",
+      "items": [
+        "Completion of `batch-export-all-kits.js` (30 kits remaining).",
+        "Finishing `AuthSplit.tsx` conversion (interrupted, to be done via Anima).",
+        "Conversion of any React components from actual Figma designs (not started).",
+        "Building the complete P0+P1 component library.",
+        "Creation of the database system for storing components and processes.",
+        "Reduction of context loading token cost."
+      ]
+    },
+    "18_questions": {
+      "title": "Open Questions",
+      "items": [
+        "Are the granular PRDs ready for cross-referencing?",
+        "What are the exact 5-10 key pages to convert for each priority kit?",
+        "How will the database design (PRD MK11) precisely function for platform-wide features (saves, likes, auth)?",
+        "What is the optimal, low-token method for session onboarding and context loading?"
+      ]
+    },
+    "19_meta": {
+      "title": "Meta-Observations",
+      "items": [
+        "Pattern: Initial AI tendency to invent/generate can conflict with user requirement for exact replication from a source (Figma).",
+        "Insight: The value shifts from building individual platforms to building the capability to build *any* platform (the factory).",
+        "Insight: Manual, repetitive tasks (frame-by-frame conversion) are a major bottleneck even with AI assistance; tool limitations dictate workflow.",
+        "Insight: Unstructured, expanding documentation becomes a liability for AI context; a structured, database-backed system is needed for scalability."
+      ]
+    },
+    "20_assets": {
+      "title": "Reusable Assets",
+      "items": [
+        "`BUILD_FACTORY_PIPELINE.md` - Locked-in pipeline process document.",
+        "Figma Frame Links - Direct URLs to all 73 frames in the Brainwave 2.0 file for easy access.",
+        "Page & Component Catalogs - Lists of 77 page types and 96 component types with priority levels (P0/P1/P2).",
+        "Tool Evaluation Matrix - Comparison of Figma-to-React conversion tools (Fidelity, Free Tier, Price, Notes).",
+        "Design Tokens - Extracted Brainwave color palette (#FCFCFC to #121212, accents) and Inter typography scale.",
+        "Kit Mapping (`kit_roles.md`) - Corrected mapping of kit names to their roles (e.g., Fitness Pro -> Befit)."
+      ]
+    }
+  },
+  "summary": "Session 02 involved a critical course correction after the user rejected AI-generated boilerplate components, reinforcing the mandate to convert exact Figma designs. The session uncovered the manual bottleneck of Figma-to-React tools, selected Anima as the converter, and pivoted strategy to prioritize building a comprehensive, reusable component library ('Build Factory') over building any single platform. A batch export of 38 kits is in progress, and plans were made for intensive conversion work to enable rapid platform assembly.",
+  "api_used": "deepseek",
+  "tokens": {
+    "prompt": 4098,
+    "completion": 2963,
+    "total": 7061
+  }
+}

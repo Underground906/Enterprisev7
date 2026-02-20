@@ -1,0 +1,173 @@
+{
+  "source_file": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+  "extraction_date": "2026-02-20T15:07:06Z",
+  "extraction_mode": "thread",
+  "thread_title": "LeadEngine Platform Pivot and Complete Build Specification",
+  "sections": {
+    "1_narrative": {
+      "title": "Narrative & Context",
+      "items": [
+        "Session pivoted to prioritize building the LeadEngine Platform, an AI-powered conversion intelligence platform for estate agents and home goods stores.",
+        "Researched competitor RB2B, identified a gap in individual-level B2C identification, and conceived a full-funnel platform.",
+        "Built a complete 42-app-screen, 18-marketing-screen specification and saved it as a new project in the Build Factory."
+      ]
+    },
+    "2_objectives": {
+      "title": "Objectives",
+      "items": [
+        "Build the LeadEngine Platform as the new #1 priority.",
+        "Achieve a 1-week build timeline and first client within 2 weeks.",
+        "Launch via a webinar model with £5,000/month pricing and limited availability."
+      ]
+    },
+    "3_success_criteria": {
+      "title": "Success Criteria",
+      "items": [
+        "Platform built in 1 week.",
+        "First client onboarded within 2 weeks.",
+        "Webinar launch executed."
+      ]
+    },
+    "4_decisions": {
+      "title": "Decisions & Rules",
+      "items": [
+        "NOT using RB2B API to avoid being cut out.",
+        "Building independently using IPinfo.io for company ID and Apollo for enrichment.",
+        "Pricing set at £5,000/month with limited spots and a webinar launch model.",
+        "Platform will be Docker-containerised for per-client deployment.",
+        "Using Chroma design system for marketing site and Brainwave for app dashboard."
+      ]
+    },
+    "5_sops": {
+      "title": "SOPs / Workflows",
+      "items": [
+        "7-day build sprint defined: Day 1-2 Foundation+AI, Day 3-4 Visitor+Capture, Day 5 Routing+Analytics, Day 6 Automation+Packaging, Day 7 Marketing+Launch.",
+        "Knowledge base ingestion via 5 methods: website scrape, file upload, Google Sheets sync, CRM API, webhook.",
+        "Update delivery via Watchtower for nightly Docker pulls and numbered idempotent migrations.",
+        "Multi-branch support via branch parameter in pixel and per-branch knowledge base in the same container.",
+        "Video production workflow using Remotion + Claude."
+      ]
+    },
+    "6_scripts": {
+      "title": "Scripts / Commands",
+      "items": [
+        "Deploy script mentioned in DEPLOYMENT_SPEC.md."
+      ]
+    },
+    "7_inputs_outputs": {
+      "title": "Inputs & Outputs",
+      "items": [
+        "Inputs: RB2B product/pricing/API teardown, competitor analysis of Chatwoot, Intercom, Drift, ImageKit.io analysis.",
+        "Outputs: COMPLETE_BUILD_SPEC.md, DESIGN_WORKBENCH_SPEC.md, VIDEO_PRODUCTION_SPEC.md, DEPLOYMENT_SPEC.md, session archive file.",
+        "Output includes kit-to-screen mapping for 42 app screens and 18 marketing screens."
+      ]
+    },
+    "8_missteps": {
+      "title": "Missteps / Errors / Risks",
+      "items": [
+        "Identified risk: Using RB2B API could lead to them seeing the product and cutting out access.",
+        "Identified gap: Company-level ID (like RB2B) is insufficient for B2C contexts like estate agents who need individual inquiry identification."
+      ]
+    },
+    "9_blockers": {
+      "title": "Blockers",
+      "items": []
+    },
+    "10_status": {
+      "title": "Status",
+      "items": [
+        "Planning and specification complete. Build scheduled to start Monday."
+      ]
+    },
+    "11_progress": {
+      "title": "Progress Markers",
+      "items": [
+        "Complete product spec built and saved.",
+        "Competitor research and gap analysis completed.",
+        "Technology stack and build plan finalized.",
+        "Design workbench tasks scheduled for Sunday."
+      ]
+    },
+    "12_refinements": {
+      "title": "Refinements",
+      "items": [
+        "Pivoted from using RB2B to building an independent, more comprehensive platform.",
+        "Decided to build own DAM instead of using ImageKit.io.",
+        "Refined AI model strategy to use Claude under the hood, branded as 'LeadEngine AI', with estimated £70-230/mo LLM cost per client."
+      ]
+    },
+    "13_dependencies": {
+      "title": "Dependencies",
+      "items": [
+        "Dependencies: IPinfo.io API, Apollo API, Claude LLM, Fabric.js, Figma API, PostgreSQL, Docker, Watchtower.",
+        "Future work (Design Workbench, video production) depends on this specification.",
+        "Book concept material depends on this project's narrative."
+      ]
+    },
+    "14_entities": {
+      "title": "Entity Maps",
+      "items": [
+        "LeadEngine Platform (AI conversion intelligence platform) -> Targets: Estate agents, Home goods stores.",
+        "Competitors: RB2B (visitor ID), Chatwoot, Intercom, Drift (live chat/conversational marketing).",
+        "Tech Stack: IPinfo.io (company ID), Apollo (enrichment), Claude (LLM), Chroma (marketing design), Brainwave (app design), Docker (containerization), Watchtower (updates), Remotion (video).",
+        "Build Factory: PRJ_LeadEngine_Platform project folder.",
+        "Knowledge Library: Session archive location."
+      ]
+    },
+    "15_glossary": {
+      "title": "Glossary",
+      "items": [
+        "RB2B: A website visitor identification tool.",
+        "DAM: Digital Asset Management system.",
+        "RAG: Retrieval-Augmented Generation (AI technique).",
+        "LLM: Large Language Model.",
+        "Idempotent migrations: Database migrations that can be run multiple times safely."
+      ]
+    },
+    "16_future": {
+      "title": "Future",
+      "items": [
+        "Sunday: Design Workbench development (Fabric.js canvas, component browser, simple DAM, AI copy, start rendering LeadEngine mockups).",
+        "Monday: Start of 7-day build sprint for LeadEngine Platform.",
+        "Future: Turn book concept (AI in property/proptech, 16-year founder story) into email sequences, LinkedIn content, webinar material."
+      ]
+    },
+    "17_pending": {
+      "title": "Pending",
+      "items": [
+        "Design Workbench implementation.",
+        "LeadEngine Platform build (foundation, AI concierge, visitor intelligence, lead capture, routing, analytics, automation, Docker packaging, marketing site).",
+        "Video production for 10 videos using defined lexicon and template."
+      ]
+    },
+    "18_questions": {
+      "title": "Open Questions",
+      "items": []
+    },
+    "19_meta": {
+      "title": "Meta-Observations",
+      "items": [
+        "Session demonstrates rapid pivot from research to full specification based on identified market gap.",
+        "Process includes comprehensive competitor teardown, independent build strategy, and detailed sprint planning.",
+        "Outputs are systematically organized into the Build Factory and Knowledge Library structures."
+      ]
+    },
+    "20_assets": {
+      "title": "Reusable Assets",
+      "items": [
+        "COMPLETE_BUILD_SPEC.md: Full specification for LeadEngine Platform.",
+        "DESIGN_WORKBENCH_SPEC.md: Spec for Fabric.js canvas + Figma API renderer + DAM.",
+        "VIDEO_PRODUCTION_SPEC.md: Spec including 171-term motion lexicon and storyboard template.",
+        "DEPLOYMENT_SPEC.md: Spec for hosted vs container deployment, Docker Compose, pricing tiers.",
+        "Book concept framework for content generation."
+      ]
+    }
+  },
+  "summary": "The session pivoted to prioritize the LeadEngine Platform, a comprehensive AI conversion intelligence platform for estate agents, resulting in a complete build specification, competitor analysis, and a detailed 7-day build plan. Key decisions included building independently of competitors like RB2B and using a Docker-based, per-client deployment model. Outputs were systematically documented for immediate execution starting with the Design Workbench.",
+  "api_used": "deepseek",
+  "tokens": {
+    "prompt": 1757,
+    "completion": 1668,
+    "total": 3425
+  }
+}

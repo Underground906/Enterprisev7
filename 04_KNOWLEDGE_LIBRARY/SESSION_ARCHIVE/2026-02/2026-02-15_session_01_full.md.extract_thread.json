@@ -1,0 +1,226 @@
+{
+  "source_file": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+  "extraction_date": "2026-02-20T15:05:59Z",
+  "extraction_mode": "thread",
+  "thread_title": "LeadEngine Platform Conception & Full Build Specification",
+  "sections": {
+    "1_narrative": {
+      "title": "Narrative & Context",
+      "items": [
+        "User saw RB2B (website visitor identification tool) promoted on YouTube and asked to research it.",
+        "From that research, user conceived a far more comprehensive product called LeadEngine, rejecting a pure RB2B clone as insufficient for B2C needs.",
+        "The session pivoted to fully defining the LeadEngine platform, including 6 core modules, a 7-day build sprint, deployment architecture, and supporting systems like a Design Workbench and video production workflow.",
+        "The session concluded with a book and content strategy concept to support marketing."
+      ]
+    },
+    "2_objectives": {
+      "title": "Objectives",
+      "items": [
+        "Research RB2B tool and its capabilities.",
+        "Define a comprehensive product (LeadEngine) that solves the identified gaps, particularly for B2C businesses like estate agents.",
+        "Create a complete build specification for LeadEngine, including all modules, screens, tech stack, and deployment.",
+        "Design supporting systems: a Design Workbench for efficient screen mockup creation and a video production workflow.",
+        "Plan deployment architecture and pricing.",
+        "Outline a book and content strategy to market the platform."
+      ]
+    },
+    "3_success_criteria": {
+      "title": "Success Criteria",
+      "items": [
+        "A complete product concept with 6 defined core modules.",
+        "A detailed build spec with 94 deliverables (42 app screens, 18 marketing screens, etc.).",
+        "A defined 7-day build sprint plan.",
+        "Clear deployment models (Hosted and Dedicated Container) and pricing tiers.",
+        "Supporting systems (Design Workbench, video workflow) defined and ready for implementation.",
+        "Revenue target of £5,000/month per client."
+      ]
+    },
+    "4_decisions": {
+      "title": "Decisions & Rules",
+      "items": [
+        "Rejected building a pure RB2B clone; company-level identification alone is insufficient for B2C.",
+        "Committed 100% to building LeadEngine as a comprehensive platform.",
+        "Pricing set at £5,000/month per client for hosted version.",
+        "Dedicated container deployment priced at +£2,500/month premium.",
+        "Build will use Next.js + React frontend, FastAPI or Next.js API routes, PostgreSQL, Redis, ChromaDB, Claude API, IPinfo.io, Apollo.io, Resend, Twilio.",
+        "Video production will use Remotion + Claude, not After Effects/DaVinci templates or AI decomposition of YouTube videos.",
+        "Will build a simple DAM instead of using ImageKit initially.",
+        "AI model default is Claude, hidden from client; enterprise option allows bringing own API key.",
+        "Update delivery: Hosted updates instantly, Container updates via Watchtower auto-pull nightly.",
+        "JS snippet loads tracking pixel + concierge widget in Shadow DOM to avoid CSS conflicts.",
+        "Multi-branch support via branch parameter in pixel initialization."
+      ]
+    },
+    "5_sops": {
+      "title": "SOPs / Workflows",
+      "items": [
+        "7-Day Build Sprint: Day 1-2: Foundation + AI concierge engine; Day 3-4: Visitor intelligence + lead capture + scoring; Day 5: Routing + analytics; Day 6: Automation + Docker packaging; Day 7: Marketing site + launch prep.",
+        "Remotion Video Workflow: 1. User provides brand assets + UI screenshots. 2. User writes storyboard using motion lexicon terms. 3. Claude writes Remotion React code. 4. `npx remotion render` → MP4 output.",
+        "Knowledge Base Ingestion: 1. Website scrape (daily auto-refresh). 2. File upload (CSV/PDF/Word). 3. Google Sheets sync (hourly refresh). 4. CRM integration (Reapit, Alto, Jupix, Expert Agent APIs). 5. API webhook (real-time updates).",
+        "Design Workbench: Use Fabric.js canvas + Figma API renderer + component browser from PostgreSQL to mock up screens from 38 UI kits.",
+        "Deployment: Dedicated container model uses one Docker Compose per client, deployed via a script taking ~30 minutes."
+      ]
+    },
+    "6_scripts": {
+      "title": "Scripts / Commands",
+      "items": [
+        "JS Snippet: `le('init', 'CLIENT_ID', { branch: 'brixton' })`",
+        "Remotion render command: `npx remotion render`"
+      ]
+    },
+    "7_inputs_outputs": {
+      "title": "Inputs & Outputs",
+      "items": [
+        "Inputs: RB2B research data, user's vision and quotes, 38 existing UI kits in PostgreSQL, brand assets (logo, colours, fonts, UI screenshots) for video, knowledge base sources (URLs, files, sheets, CRM APIs).",
+        "Outputs: COMPLETE_BUILD_SPEC.md, DESIGN_WORKBENCH_SPEC.md, VIDEO_PRODUCTION_SPEC.md, DEPLOYMENT_SPEC.md, BOILERPLATE_SELECTIONS.md (updated), Session summary, Full session log, MEMORY.md (updated), kit_roles.md (created), Motion Lexicon (171 terms across 11 categories), 94 defined deliverables (screens, posts, videos, sequences, graphics)."
+      ]
+    },
+    "8_missteps": {
+      "title": "Missteps / Errors / Risks",
+      "items": [
+        "Initial plan to download and decompose After Effects/DaVinci templates for video was abandoned as inefficient.",
+        "Considered using YouTube URLs → Google AI Studio → effect library → Remotion, but also abandoned.",
+        "Risk: Building a simple DAM instead of using ImageKit may require later migration if scaling needs arise.",
+        "Risk: LLM cost estimated at ~£70-230/mo per client, baked into price."
+      ]
+    },
+    "9_blockers": {
+      "title": "Blockers",
+      "items": [
+        "Browsing 12,000+ UI component thumbnails manually for design mockups was identified as too slow, prompting the Design Workbench solution.",
+        "Screen Studio ($89) is gold standard for screen recording but Mac only; user is on Windows, so FocuSee or Rapidemo are alternatives."
+      ]
+    },
+    "10_status": {
+      "title": "Status",
+      "items": [
+        "Planning and specification phase complete. Build sprint is defined but not yet started. Tomorrow's focus is on Design Workbench MVP and starting mockups."
+      ]
+    },
+    "11_progress": {
+      "title": "Progress Markers",
+      "items": [
+        "RB2B research completed and analyzed.",
+        "LeadEngine product concept fully defined with 6 core modules.",
+        "Complete build specification created (94 deliverables).",
+        "Tech stack selected.",
+        "7-day build sprint planned.",
+        "Deployment architecture and pricing tiers defined.",
+        "Design Workbench concept and spec created.",
+        "Video production workflow and motion lexicon defined.",
+        "Knowledge base ingestion methods defined.",
+        "Book and content strategy outlined.",
+        "Multiple specification files created and saved."
+      ]
+    },
+    "12_refinements": {
+      "title": "Refinements",
+      "items": [
+        "Product evolved from a simple RB2B clone to the comprehensive LeadEngine platform.",
+        "Video production approach refined from using templates to a Remotion + Claude code generation workflow.",
+        "Deployment refined to include two models (Hosted and Dedicated Container) with multi-branch support.",
+        "Pricing tiers refined and expanded.",
+        "Motion lexicon created to standardize video storyboard terms."
+      ]
+    },
+    "13_dependencies": {
+      "title": "Dependencies",
+      "items": [
+        "Existing UI kits (38) stored in PostgreSQL for the Design Workbench.",
+        "External APIs: Claude API, IPinfo.io ($99/mo), Apollo.io, Resend, Twilio.",
+        "Figma API for component rendering.",
+        "CRM APIs (Reapit, Alto, Jupix, Expert Agent) for knowledge base integration.",
+        "Docker for container deployment.",
+        "Watchtower for container updates."
+      ]
+    },
+    "14_entities": {
+      "title": "Entity Maps",
+      "items": [
+        "LeadEngine: The main platform product.",
+        "Core Modules: AI Concierge, Visitor Intelligence, Lead Capture & Scoring, Lead Routing, Funnel Analytics & Leak Detection, Automation & Sequences.",
+        "RB2B: Competitor/Inspiration tool for visitor identification.",
+        "Design Workbench: Tool for creating screen mockups using Fabric.js, Figma API, and a DAM.",
+        "Remotion: Framework for programmatic video generation.",
+        "Motion Lexicon: 171-term library for describing animations.",
+        "Knowledge Base: Vector store (ChromaDB) for AI Concierge context.",
+        "Deployment Models: Hosted SaaS (app.leadengine.io) and Dedicated Container (Docker Compose per client).",
+        "Branches: Sub-divisions within a client account (e.g., geographic offices)."
+      ]
+    },
+    "15_glossary": {
+      "title": "Glossary",
+      "items": [
+        "RAG: Retrieval-Augmented Generation.",
+        "DAM: Digital Asset Management.",
+        "SLA: Service Level Agreement.",
+        "ARPU: Average Revenue Per User.",
+        "LLM: Large Language Model.",
+        "Shadow DOM: Web standard for encapsulating widget CSS/HTML.",
+        "Watchtower: Tool for auto-updating Docker containers.",
+        "Idempotent: Database migrations that can be run multiple times safely."
+      ]
+    },
+    "16_future": {
+      "title": "Future",
+      "items": [
+        "Tomorrow (2026-02-16) focus: 1. Design Workbench MVP (Fabric.js canvas + Figma API + DAM). 2. Start rendering LeadEngine screen mockups. 3. Content strategy and marketing plan. 4. Book outline / chapter structure. 5. PRD refinement with end-in-mind approach.",
+        "Execute the 7-day build sprint.",
+        "Create webinar and do a limited time launch.",
+        "Write book on AI in property/proptech transformation.",
+        "Develop full content strategy (book → chapters → LinkedIn posts → emails → webinar)."
+      ]
+    },
+    "17_pending": {
+      "title": "Pending",
+      "items": [
+        "Design Workbench MVP implementation.",
+        "Rendering of the 94 screen mockups.",
+        "Actual coding of the LeadEngine platform.",
+        "Creation of marketing site and launch assets.",
+        "Writing the book outline and chapters.",
+        "Setting up the Docker Compose deployment scripts.",
+        "Integrating all external APIs (IPinfo, Apollo, Claude, etc.)."
+      ]
+    },
+    "18_questions": {
+      "title": "Open Questions",
+      "items": [
+        "Working title for the book is TBD.",
+        "Final structure of the book chapters.",
+        "Specifics of the webinar launch plan.",
+        "Exact prioritization of features for the 7-day build sprint if time runs short."
+      ]
+    },
+    "19_meta": {
+      "title": "Meta-Observations",
+      "items": [
+        "Session demonstrates a rapid pivot from research to comprehensive product conception and specification.",
+        "User emphasizes action over endless tinkering ('Fuck tinkering endlessly in the build stage').",
+        "Process involves creating detailed specs and reusable systems (Design Workbench, motion lexicon) to accelerate future work.",
+        "Content strategy is designed to be derivative, repurposing core material (book) into multiple formats (posts, emails, webinars)."
+      ]
+    },
+    "20_assets": {
+      "title": "Reusable Assets",
+      "items": [
+        "Motion Lexicon (171 terms across 11 categories, with essential 30).",
+        "COMPLETE_BUILD_SPEC.md detailing 94 deliverables and 7-day sprint.",
+        "DESIGN_WORKBENCH_SPEC.md for the mockup creation system.",
+        "VIDEO_PRODUCTION_SPEC.md for the Remotion + Claude workflow.",
+        "DEPLOYMENT_SPEC.md for hosted/container models and pricing.",
+        "JS snippet structure for client integration.",
+        "Knowledge base ingestion methodology (5 methods).",
+        "Multi-branch support architecture.",
+        "Screen recording tool analysis (FocuSee, Rapidemo, Screen Studio)."
+      ]
+    }
+  },
+  "summary": "The session began with research into the RB2B visitor identification tool, which led to the conception of a much more comprehensive platform called LeadEngine, designed for B2C businesses like estate agents. A complete build specification was created, including 6 core modules, a 7-day sprint plan, deployment architecture, and supporting systems for design and video production. The session concluded with plans for a marketing book and content strategy.",
+  "api_used": "deepseek",
+  "tokens": {
+    "prompt": 3798,
+    "completion": 2632,
+    "total": 6430
+  }
+}

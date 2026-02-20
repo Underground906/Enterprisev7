@@ -90,3 +90,4 @@
 | 2026-02-17 | session_02 | Full infrastructure: PostgreSQL, ChromaDB, registry, search API |
 | 2026-02-19 | session_01 | SYSTEM_MANIFEST, PROJECT_STATE template, goals, daily checklist |
 | 2026-02-19 | session_01 | Block 1: System discipline lock-in. Created SYSTEM_MANIFEST.md (master routing doc), 4 PROJECT_STATE.md files, GOALS_90D |
+| 2026-02-20 | session_03 | Continued Owner's Manual buildout. Fixed all outstanding items: created 7 input staging folders in RAW_INTAKE (threads,  |

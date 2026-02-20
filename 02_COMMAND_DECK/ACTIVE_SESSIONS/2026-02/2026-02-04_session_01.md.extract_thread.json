@@ -1,0 +1,133 @@
+{
+  "source_file": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-04_session_01.md",
+  "extraction_date": "2026-02-20T15:04:25Z",
+  "extraction_mode": "thread",
+  "thread_title": "Testing the Session Logger",
+  "sections": {
+    "1_narrative": {
+      "title": "Narrative & Context",
+      "items": [
+        "A session log was created to test the session logger functionality.",
+        "The session started at 2026-02-04 23:06 with the intent 'Testing the session logger'.",
+        "One test log entry was made at 23:07.",
+        "The session ended at 2026-02-04 23:08 and was marked as complete."
+      ]
+    },
+    "2_objectives": {
+      "title": "Objectives",
+      "items": [
+        "Test the session logger."
+      ]
+    },
+    "3_success_criteria": {
+      "title": "Success Criteria",
+      "items": [
+        "Session log created with start/end times, intent, and entries.",
+        "Session marked as complete."
+      ]
+    },
+    "4_decisions": {
+      "title": "Decisions & Rules",
+      "items": [
+        "Use a structured log format with timestamps.",
+        "Include a 'Work Log' section for entries.",
+        "Include a 'Session Summary' section with metadata."
+      ]
+    },
+    "5_sops": {
+      "title": "SOPs / Workflows",
+      "items": [
+        "Session logging procedure: Start session with timestamp and intent, add timestamped entries to Work Log, end session with timestamp, generate Session Summary."
+      ]
+    },
+    "6_scripts": {
+      "title": "Scripts / Commands",
+      "items": []
+    },
+    "7_inputs_outputs": {
+      "title": "Inputs & Outputs",
+      "items": [
+        "Input: Intent 'Testing the session logger'.",
+        "Output: A completed session log file with 1 log entry and a summary."
+      ]
+    },
+    "8_missteps": {
+      "title": "Missteps / Errors / Risks",
+      "items": []
+    },
+    "9_blockers": {
+      "title": "Blockers",
+      "items": []
+    },
+    "10_status": {
+      "title": "Status",
+      "items": [
+        "Complete."
+      ]
+    },
+    "11_progress": {
+      "title": "Progress Markers",
+      "items": [
+        "Session started (23:06).",
+        "Test entry logged (23:07).",
+        "Session ended (23:08).",
+        "Session summary generated."
+      ]
+    },
+    "12_refinements": {
+      "title": "Refinements",
+      "items": []
+    },
+    "13_dependencies": {
+      "title": "Dependencies",
+      "items": []
+    },
+    "14_entities": {
+      "title": "Entity Maps",
+      "items": [
+        "Session Logger: The system being tested.",
+        "Session Log: The output document.",
+        "Work Log: Section containing timestamped entries.",
+        "Session Summary: Section containing metadata (Start, End, Intent, Log entries count, Status)."
+      ]
+    },
+    "15_glossary": {
+      "title": "Glossary",
+      "items": [
+        "Intent: The purpose of the session.",
+        "Log entries: The count of individual timestamped items in the Work Log."
+      ]
+    },
+    "16_future": {
+      "title": "Future",
+      "items": []
+    },
+    "17_pending": {
+      "title": "Pending",
+      "items": []
+    },
+    "18_questions": {
+      "title": "Open Questions",
+      "items": []
+    },
+    "19_meta": {
+      "title": "Meta-Observations",
+      "items": [
+        "The log format is minimal and effective for basic session tracking."
+      ]
+    },
+    "20_assets": {
+      "title": "Reusable Assets",
+      "items": [
+        "Session log template with sections: SESSION LOG header, Start/Intent/Status, Work Log with timestamped entries, Session Summary with metadata."
+      ]
+    }
+  },
+  "summary": "A session logger was tested by creating a structured log file with a start time, intent, one test entry, an end time, and a summary, confirming the basic logging workflow functions.",
+  "api_used": "deepseek",
+  "tokens": {
+    "prompt": 1112,
+    "completion": 834,
+    "total": 1946
+  }
+}
