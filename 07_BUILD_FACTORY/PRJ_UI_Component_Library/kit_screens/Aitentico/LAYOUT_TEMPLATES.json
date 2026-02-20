@@ -1,0 +1,5700 @@
+{
+  "kit": "Aitentico",
+  "file_key": "XK3d5YHdoyV60avw3cpQCo",
+  "analyzed_at": "2026-02-19T17:27:12.765558",
+  "unique_layouts": 39,
+  "total_screens": 288,
+  "dedup_ratio": "288 screens -> 39 templates (14%)",
+  "layouts": [
+    {
+      "layout_id": "AI_L1",
+      "name": "Thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "bottom:footer:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Thumbnail"
+      ],
+      "screen_ids": [
+        "14018:57791"
+      ],
+      "count": 1,
+      "representative_screen": "14018:57791",
+      "representative_name": "Thumbnail",
+      "dimensions": {
+        "width": 1600,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x446), Center main_content (1344x110), Center main_content (483x100), Center main_content (631x238), Center main_content (1064x866), Center main_content (426x87), Bottom footer (1600x40)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "content",
+            "width_approx": 1344,
+            "height_approx": 446,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "DONE",
+              "Dashboard",
+              "6 April 2024",
+              "StoreWise - Dashboard Store Management",
+              "StoreWise has everything you need to streamline your business. \nLet’s get started",
+              "Website Design"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "topbar",
+            "width_approx": 1344,
+            "height_approx": 110,
+            "role": "main_content",
+            "components": [
+              "logo fundwise"
+            ],
+            "text_labels": [
+              "FundWise"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group 135",
+            "width_approx": 483,
+            "height_approx": 100,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "dpopstudio"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1249186435",
+            "width_approx": 631,
+            "height_approx": 238,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "v1.0",
+              "AItentico - \nDraft File UI Kit DPOP"
+            ]
+          },
+          {
+            "position": "bottom",
+            "name": "Rectangle 1",
+            "width_approx": 1600,
+            "height_approx": 40,
+            "role": "footer",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Screenshot 2024-11-06 at 20.03.52 1",
+            "width_approx": 1064,
+            "height_approx": 866,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1171275559",
+            "width_approx": 426,
+            "height_approx": 87,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "hey@dpopstudio.co"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "logo fundwise"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L2",
+      "name": "Colors",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Colors",
+        "Typography",
+        "Logos",
+        "Logos"
+      ],
+      "screen_ids": [
+        "18:9940",
+        "18:9983",
+        "18405:3811",
+        "17:8114"
+      ],
+      "count": 4,
+      "representative_screen": "18:9940",
+      "representative_name": "Colors",
+      "dimensions": {
+        "width": 3794,
+        "height": 4596
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (3794x282), Center main_content (3794x3849), Center main_content (3794x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 3794,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "Colors",
+              "Typography Style"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Primitive Color",
+            "width_approx": 3794,
+            "height_approx": 3849,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Neutral Color",
+              "Neutral colors offer a flexible spectrum for text, subtle accents, and backgrounds in light and dark mode interfaces. Select the right shade to maintain contrast and enhance the information hierarchy.",
+              "Primary Color",
+              "This colors represent the brand's identity and serve as the main color throughout the design. Use them consistently to reinforce brand recognition and visual cohesion.",
+              "Status Color",
+              "Status colors convey immediate context: red for warnings, yellow for pending actions, green for success, and blue for informational messages. Choose the appropriate color to clearly communicate the current state."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 3794,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "annotation"
+      ],
+      "capabilities": [
+        "analytics",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L3",
+      "name": "Annotation",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Annotation"
+      ],
+      "screen_ids": [
+        "16:1456"
+      ],
+      "count": 1,
+      "representative_screen": "16:1456",
+      "representative_name": "Annotation",
+      "dimensions": {
+        "width": 2560,
+        "height": 1021
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2528x282), Center main_content (2528x282), Center main_content (2528x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation=Header",
+            "width_approx": 2528,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Header",
+              "Typography Style"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation=Header 2",
+            "width_approx": 2528,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Header",
+              "Typography Style"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation=Footer",
+            "width_approx": 2528,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L4",
+      "name": "Form Input",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Form Input"
+      ],
+      "screen_ids": [
+        "18:13306"
+      ],
+      "count": 1,
+      "representative_screen": "18:13306",
+      "representative_name": "Form Input",
+      "dimensions": {
+        "width": 2528,
+        "height": 2674
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2528x282), Center main_content (1456x1927), Center main_content (2528x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "Form Input",
+              "Typography Style"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1456,
+            "height_approx": 1927,
+            "role": "main_content",
+            "components": [
+              "check",
+              "Badge",
+              "minus",
+              "Outline ",
+              "US - United States"
+            ],
+            "text_labels": [
+              "Text Input",
+              "Label",
+              "Placeholder",
+              "This is a hint text to help user",
+              "Label",
+              "Placeholder",
+              "This is a hint text to help user",
+              "Label",
+              "Placeholder",
+              "This is a hint text to help user",
+              "Label",
+              "Placeholder",
+              "This is a hint text to help user",
+              "Label",
+              "Placeholder"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "annotation",
+        "badge",
+        "check",
+        "minus",
+        "outline",
+        "us - united states"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "form",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L5",
+      "name": "Native",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Native"
+      ],
+      "screen_ids": [
+        "18:15577"
+      ],
+      "count": 1,
+      "representative_screen": "18:15577",
+      "representative_name": "Native",
+      "dimensions": {
+        "width": 2528,
+        "height": 1803
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2528x282), Center main_content (2325x1000), Center main_content (2528x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "Native",
+              "Native"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "content",
+            "width_approx": 2325,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "alert-circle",
+              "alert-triangle",
+              "check-circle"
+            ],
+            "text_labels": [
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "alert-circle",
+        "alert-triangle",
+        "annotation",
+        "button",
+        "check-circle"
+      ],
+      "capabilities": [
+        "analytics",
+        "form",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L6",
+      "name": "Spacing, Borders, Shadows",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Spacing, Borders, Shadows"
+      ],
+      "screen_ids": [
+        "18:10484"
+      ],
+      "count": 1,
+      "representative_screen": "18:10484",
+      "representative_name": "Spacing, Borders, Shadows",
+      "dimensions": {
+        "width": 2313,
+        "height": 2928
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2313x282), Center main_content (1200x1141), Center main_content (1928x492), Center main_content (1704x448), Center main_content (2313x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2313,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "Spacing, Borders, Shadows",
+              "Typography Style"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Guide",
+            "width_approx": 1200,
+            "height_approx": 1141,
+            "role": "main_content",
+            "components": [
+              "_Spacing"
+            ],
+            "text_labels": [
+              "Spacing",
+              "Name",
+              "Size (16px base)",
+              "Pixels",
+              "1",
+              "0.25rem",
+              "4px",
+              "2",
+              "0.5rem",
+              "8px",
+              "3",
+              "0.75rem",
+              "12px",
+              "4",
+              "1rem"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Borders",
+            "width_approx": 1928,
+            "height_approx": 492,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Border",
+              "Radius - xs",
+              "4px",
+              "Radius - sm",
+              "8px",
+              "Radius - md",
+              "10px",
+              "Radius - lg",
+              "12px",
+              "Radius - xl",
+              "16px",
+              "Radius - 2xl",
+              "20px",
+              "Radius - 3xl",
+              "24px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Shadows",
+            "width_approx": 1704,
+            "height_approx": 448,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Shadows",
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "2xl",
+              "3xl"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2313,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "_spacing",
+        "annotation"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L7",
+      "name": "Avatar",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Avatar"
+      ],
+      "screen_ids": [
+        "18:15158"
+      ],
+      "count": 1,
+      "representative_screen": "18:15158",
+      "representative_name": "Avatar",
+      "dimensions": {
+        "width": 2528,
+        "height": 2245
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2528x282), Center main_content (1408x264), Center main_content (712x1184), Center main_content (2528x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "Avatar",
+              "Typography Style"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Avatars Base",
+            "width_approx": 1408,
+            "height_approx": 264,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Avatars",
+            "width_approx": 712,
+            "height_approx": 1184,
+            "role": "main_content",
+            "components": [
+              "user-01",
+              "Avatars People"
+            ],
+            "text_labels": [
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG",
+              "UG"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "annotation",
+        "avatars people",
+        "user-01"
+      ],
+      "capabilities": [
+        "analytics",
+        "form",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L8",
+      "name": "Button",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Button"
+      ],
+      "screen_ids": [
+        "18:17623"
+      ],
+      "count": 1,
+      "representative_screen": "18:17623",
+      "representative_name": "Button",
+      "dimensions": {
+        "width": 2528,
+        "height": 2250
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2528x282), Center main_content (1440x45), Center main_content (715x1408), Center main_content (2528x365)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "Button",
+              "Button"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "title",
+            "width_approx": 1440,
+            "height_approx": 45,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Button"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 715,
+            "height_approx": 1408,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label",
+              "Label"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Annotation",
+            "width_approx": 2528,
+            "height_approx": 365,
+            "role": "main_content",
+            "components": [
+              "Annotation"
+            ],
+            "text_labels": [
+              "© 2024 Jidi.studio. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "annotation",
+        "linear"
+      ],
+      "capabilities": [
+        "data_table",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L9",
+      "name": "topbar",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "topbar"
+      ],
+      "screen_ids": [
+        "12064:52647"
+      ],
+      "count": 1,
+      "representative_screen": "12064:52647",
+      "representative_name": "topbar",
+      "dimensions": {
+        "width": 1440,
+        "height": 1058
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1400x60), Center main_content (430x70), Center main_content (430x406), Center main_content (1400x60)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Variant=Default",
+            "width_approx": 1400,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "Avatars",
+              "navbar",
+              "remix-icons",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Dashboard",
+              "Order",
+              "Transaction",
+              "Report",
+              "Inventory",
+              "7",
+              "7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Mobile",
+            "width_approx": 430,
+            "height_approx": 70,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Avatars",
+              "remix-icons",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Dashboard",
+              "Order",
+              "Transaction",
+              "Report",
+              "Inventory",
+              "7",
+              "7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Mobile Expanded",
+            "width_approx": 430,
+            "height_approx": 406,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Avatars",
+              "remix-icons",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Dashboard",
+              "Order",
+              "Transaction",
+              "Report",
+              "Inventory"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Dropdown",
+            "width_approx": 1400,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "navbar",
+              "Avatars",
+              "remix-icons",
+              "logo",
+              "Toggle"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Dashboard",
+              "Order",
+              "Transaction",
+              "Report",
+              "Inventory",
+              "7",
+              "7",
+              "Profile",
+              "Settings",
+              "End Shift"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "button",
+        "logo",
+        "navbar",
+        "remix-icons",
+        "toggle"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L10",
+      "name": "card - template",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "card - template"
+      ],
+      "screen_ids": [
+        "18465:11969"
+      ],
+      "count": 1,
+      "representative_screen": "18465:11969",
+      "representative_name": "card - template",
+      "dimensions": {
+        "width": 3052,
+        "height": 3314
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (680x872), Center main_content (312x437), Center main_content (312x437), Center main_content (680x872), Center main_content (312x437), Center main_content (680x872), Center main_content (312x437), Center main_content (680x872), Center main_content (314x437), Center main_content (680x866), Center main_content (314x437), Center main_content (680x866), Center main_content (314x437), Center main_content (680x866), Center main_content (314x437), Center main_content (680x866), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145), Center main_content (126x145)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=1",
+            "width_approx": 680,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Freelance Design\nContract",
+              "[Client Name]",
+              "[Date]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=1",
+            "width_approx": 312,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "AItentico",
+              "Freelance Design\nContract",
+              "[Client Name]",
+              "[Date]",
+              "Freelance Design Contract Template",
+              "1.2K",
+              "290"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=2",
+            "width_approx": 312,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "AItentico",
+              "Non-Disclosure\nAgreement (NDA)\nTemplate",
+              "Non-Disclosure Agreement (NDA) Template",
+              "1.3K",
+              "295"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=2",
+            "width_approx": 680,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Non-Disclosure\nAgreement (NDA)\nTemplate",
+              "Prepared for",
+              "Created by"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=3",
+            "width_approx": 312,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "AItentico",
+              "Employee\nOnboarding Form",
+              "[Description here]",
+              "Prepared for",
+              "Created by",
+              "Employee Onboarding Form Template",
+              "1.4K",
+              "300"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=3",
+            "width_approx": 680,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Employee\nOnboarding Form",
+              "[Description here]",
+              "Prepared for",
+              "[Client Name]",
+              "[Client Company]",
+              "Created by",
+              "[Sender Name]",
+              "[Sender Company]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=4",
+            "width_approx": 312,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "AItentico",
+              "Ship to:",
+              "Bill to:",
+              "Additional Notes",
+              "Invoice Template",
+              "1.5K",
+              "285"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=4",
+            "width_approx": 680,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Invoice No.",
+              "#000",
+              "Ship to:",
+              "Name surname",
+              "Street name",
+              "City",
+              "Bill to:",
+              "Name surname",
+              "Street name",
+              "City",
+              "Description",
+              "Qty",
+              "Price",
+              "Amount"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=5",
+            "width_approx": 314,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "AItentico",
+              "Freelance Service\nContract",
+              "Freelance Service Contract Template",
+              "1.6K",
+              "275"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=5",
+            "width_approx": 680,
+            "height_approx": 866,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Freelance Service\nContract",
+              "Prepared for",
+              "Created by"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=6",
+            "width_approx": 314,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "AItentico",
+              "Partnership Deal Template",
+              "[Client Name]",
+              "[Date]",
+              "Partnership Deal Template",
+              "1.7K",
+              "310"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=6",
+            "width_approx": 680,
+            "height_approx": 866,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Partnership Deal Template",
+              "[Client Name]",
+              "[Date]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=7",
+            "width_approx": 314,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "image"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Event Sponsorship\nDeal for [Client\nCompany]",
+              "Event Sponsorship Deal Template",
+              "1.8K",
+              "280"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=7",
+            "width_approx": 680,
+            "height_approx": 866,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Prepared for",
+              "Created by",
+              "Event Sponsorship\nDeal for [Client\nCompany]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Normal, Variant=8",
+            "width_approx": 314,
+            "height_approx": 437,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "Product\nLaunch\nSlides",
+              "[Description here]",
+              "Product Launch Slides Template",
+              "1.9K",
+              "265"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Big, Variant=8",
+            "width_approx": 680,
+            "height_approx": 866,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Product\nLaunch\nSlides",
+              "[Description here]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=5",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Freelance Service\nContract",
+              "Prepared for",
+              "Created by"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=6",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Partnership Deal Template",
+              "[Client Name]",
+              "[Date]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=7",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Prepared for",
+              "Created by",
+              "Event Sponsorship\nDeal for [Client\nCompany]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=8",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Product\nLaunch\nSlides",
+              "[Description here]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=1",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Freelance Design\nContract",
+              "[Client Name]",
+              "[Date]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=2",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Non-Disclosure\nAgreement (NDA)\nTemplate",
+              "Prepared for",
+              "Created by"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=3",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "AItentico",
+              "Employee\nOnboarding Form",
+              "[Description here]",
+              "Prepared for",
+              "[Client Name]",
+              "[Client Company]",
+              "Created by",
+              "[Sender Name]",
+              "[Sender Company]"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=4",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Invoice No.",
+              "#000",
+              "Ship to:",
+              "Name surname",
+              "Street name",
+              "City",
+              "Bill to:",
+              "Name surname",
+              "Street name",
+              "City",
+              "Description",
+              "Qty",
+              "Price",
+              "Amount"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Variant=Empty",
+            "width_approx": 126,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "image",
+        "linear",
+        "logo",
+        "outline"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L11",
+      "name": "Settings -> Payment -> Payment Success",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Settings -> Payment -> Payment Success",
+        "Settings -> Payment -> Payment Success",
+        "Settings -> Payment -> Payment Success",
+        "Settings -> Payment -> Payment Success"
+      ],
+      "screen_ids": [
+        "18472:94720",
+        "18442:4994",
+        "18500:79252",
+        "18500:83417"
+      ],
+      "count": 4,
+      "representative_screen": "18472:94720",
+      "representative_name": "Settings -> Payment -> Payment Success",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (257x44), Center main_content (600x281)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 257,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 600,
+            "height_approx": 281,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Outline "
+            ],
+            "text_labels": [
+              "Payment successful!",
+              "Your transaction was completed successfully.",
+              "Go to Dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "logo",
+        "outline"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L12",
+      "name": "Settings -> Payment -> Filled",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Settings -> Payment -> Filled",
+        "Settings -> Payment -> Empty State",
+        "Settings -> Payment -> Filled",
+        "Settings -> Payment -> Empty State",
+        "Settings -> Payment -> Filled",
+        "Settings -> Payment -> Empty State",
+        "Settings -> Payment -> Filled",
+        "Settings -> Payment -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:94730",
+        "18472:94789",
+        "18442:4552",
+        "18430:59390",
+        "18500:79262",
+        "18500:79321",
+        "18500:83427",
+        "18500:83486"
+      ],
+      "count": 8,
+      "representative_screen": "18472:94730",
+      "representative_name": "Settings -> Payment -> Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (662x928), Center main_content (662x934)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "hero_image",
+            "width_approx": 662,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Text Input"
+            ],
+            "text_labels": [
+              "Payment summary",
+              "Professional plan",
+              "$12 x 1 month",
+              "$12",
+              "Total",
+              "Your subscription will renew on Jun 14, 2025",
+              "$12"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "content_form",
+            "width_approx": 662,
+            "height_approx": 934,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Checkbox",
+              "Text Input",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Payment details",
+              "Select how you'd like to make your payment",
+              "Continue",
+              "By proceeding with the payment, you agree to our Terms and acknowledge our Privacy Policy regarding transaction and data handling."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "checkbox",
+        "logo",
+        "logos",
+        "text input"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L13",
+      "name": "Forgot Password -> Error",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Forgot Password -> Error",
+        "Sign In (With 2FA) -> Filled",
+        "Sign In (With 2FA) -> Empty State",
+        "Sign In (Without 2FA) -> Filled",
+        "Sign In (Without 2FA) -> Empty State",
+        "Sign Up -> Filled",
+        "Sign Up -> Empty State",
+        "Forgot Password -> Error",
+        "Sign In (With 2FA) -> Filled",
+        "Sign In (With 2FA) -> Empty State",
+        "Sign In (Without 2FA) -> Filled",
+        "Sign In (Without 2FA) -> Empty State",
+        "Sign Up -> Filled",
+        "Sign Up -> Empty State",
+        "Forgot Password -> Error",
+        "Sign In (With 2FA) -> Filled",
+        "Sign In (With 2FA) -> Empty State",
+        "Sign In (Without 2FA) -> Filled",
+        "Sign In (Without 2FA) -> Empty State",
+        "Sign Up -> Filled",
+        "Sign Up -> Empty State",
+        "Forgot Password -> Error",
+        "Sign In (With 2FA) -> Filled",
+        "Sign In (With 2FA) -> Empty State",
+        "Sign In (Without 2FA) -> Filled",
+        "Sign In (Without 2FA) -> Empty State",
+        "Sign Up -> Filled",
+        "Sign Up -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:53080",
+        "18472:53279",
+        "18472:53327",
+        "18472:53376",
+        "18472:53424",
+        "18472:52042",
+        "18472:52091",
+        "18054:1239",
+        "18043:647",
+        "18043:586",
+        "18017:60206",
+        "18017:60011",
+        "18017:59827",
+        "18017:59419",
+        "18500:82881",
+        "18500:83080",
+        "18500:83128",
+        "18500:83177",
+        "18500:83225",
+        "18500:83274",
+        "18500:83323",
+        "18500:87366",
+        "18500:87565",
+        "18500:87613",
+        "18500:87662",
+        "18500:87710",
+        "18500:87759",
+        "18500:87808"
+      ],
+      "count": 28,
+      "representative_screen": "18472:53080",
+      "representative_name": "Forgot Password -> Error",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (662x928), Center main_content (662x928)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "hero_image",
+            "width_approx": 662,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "left_sidebar",
+              "table",
+              "card - chart",
+              "card - status",
+              "dashboard_onboarding",
+              "top_bar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "content_form",
+            "width_approx": 662,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Social icon",
+              "Text Input",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "We missed you! Time to\ndive back in.",
+              "Continue",
+              "Or Sign up with",
+              "Sign in with Google",
+              "Sign in with Apple",
+              "Already have an account?",
+              "Sign In"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card - chart",
+        "card - status",
+        "dashboard_onboarding",
+        "left_sidebar",
+        "logo",
+        "social icon",
+        "table",
+        "text input",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L14",
+      "name": "Forgot Password -> Success Confirmation",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Forgot Password -> Success Confirmation",
+        "Forgot Password -> Email Confirmation -> Filled",
+        "Forgot Password -> Email Confirmation -> Empty State",
+        "Forgot Password -> Success Confirmation",
+        "Forgot Password -> Email Confirmation -> Filled",
+        "Forgot Password -> Email Confirmation -> Empty State",
+        "Forgot Password -> Success Confirmation",
+        "Forgot Password -> Email Confirmation -> Filled",
+        "Forgot Password -> Email Confirmation -> Empty State",
+        "Forgot Password -> Success Confirmation",
+        "Forgot Password -> Email Confirmation -> Filled",
+        "Forgot Password -> Email Confirmation -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:52960",
+        "18472:53002",
+        "18472:53027",
+        "18059:1825",
+        "18059:1686",
+        "18057:1642",
+        "18500:82761",
+        "18500:82803",
+        "18500:82828",
+        "18500:87246",
+        "18500:87288",
+        "18500:87313"
+      ],
+      "count": 12,
+      "representative_screen": "18472:52960",
+      "representative_name": "Forgot Password -> Success Confirmation",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1352x928)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "content_form",
+            "width_approx": 1352,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Bold ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Password reset",
+              "Your password has been reset successfully.",
+              "Go to dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "button",
+        "logo"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L15",
+      "name": "Forgot Password -> Create New Password  -> Filled",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Forgot Password -> Create New Password  -> Filled",
+        "Forgot Password -> Create New Password  -> Empty State",
+        "Forgot Password -> Enter Email -> Filled",
+        "Forgot Password -> Enter Email -> Empty State",
+        "Forgot Password -> Create New Password  -> Filled",
+        "Forgot Password -> Create New Password  -> Empty State",
+        "Forgot Password -> Enter Email -> Filled",
+        "Forgot Password -> Enter Email -> Empty State",
+        "Forgot Password -> Create New Password  -> Filled",
+        "Forgot Password -> Create New Password  -> Empty State",
+        "Forgot Password -> Enter Email -> Filled",
+        "Forgot Password -> Enter Email -> Empty State",
+        "Forgot Password -> Create New Password  -> Filled",
+        "Forgot Password -> Create New Password  -> Empty State",
+        "Forgot Password -> Enter Email -> Filled",
+        "Forgot Password -> Enter Email -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:52974",
+        "18472:52988",
+        "18472:53052",
+        "18472:53066",
+        "18059:1770",
+        "18059:1720",
+        "18057:1599",
+        "18054:1427",
+        "18500:82775",
+        "18500:82789",
+        "18500:82853",
+        "18500:82867",
+        "18500:87260",
+        "18500:87274",
+        "18500:87338",
+        "18500:87352"
+      ],
+      "count": 16,
+      "representative_screen": "18472:52974",
+      "representative_name": "Forgot Password -> Create New Password  -> Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1352x928)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "content_form",
+            "width_approx": 1352,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Text Input",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Forgot your password?",
+              "Don’t worry, we’ll send you a reset link to get back in.",
+              "Reset Password"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "logo",
+        "text input"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "map"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L16",
+      "name": "Sign In (With 2FA) -> OTP Code -> Filled",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Sign In (With 2FA) -> OTP Code -> Filled",
+        "Sign In (With 2FA) -> OTP Code -> Empty State",
+        "Sign In (With 2FA) -> OTP Code -> Filled",
+        "Sign In (With 2FA) -> OTP Code -> Empty State",
+        "Sign In (With 2FA) -> OTP Code -> Filled",
+        "Sign In (With 2FA) -> OTP Code -> Empty State",
+        "Sign In (With 2FA) -> OTP Code -> Filled",
+        "Sign In (With 2FA) -> OTP Code -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:53129",
+        "18472:53204",
+        "18054:1104",
+        "18043:716",
+        "18500:82930",
+        "18500:83005",
+        "18500:87415",
+        "18500:87490"
+      ],
+      "count": 8,
+      "representative_screen": "18472:53129",
+      "representative_name": "Sign In (With 2FA) -> OTP Code -> Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (662x928), Center main_content (662x928), Center main_content (1440x1024), Center main_content (500x465)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "hero_image",
+            "width_approx": 662,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "left_sidebar",
+              "table",
+              "card - chart",
+              "card - status",
+              "dashboard_onboarding",
+              "top_bar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "content_form",
+            "width_approx": 662,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Social icon",
+              "Text Input",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "We missed you! Time to\ndive back in.",
+              "Continue",
+              "Or Sign up with",
+              "Sign in with Google",
+              "Sign in with Apple",
+              "Already have an account?",
+              "Sign In"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "popup_otp",
+            "width_approx": 500,
+            "height_approx": 465,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Bold "
+            ],
+            "text_labels": [
+              "Two-Factor Authentication",
+              "Before you continue, enter the code\nsent to h****r@gmail.com",
+              "8",
+              "2",
+              "4",
+              "3",
+              "2",
+              "1",
+              "Didn’t receive the code?",
+              "Resend OTP",
+              "Verify"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "button",
+        "card - chart",
+        "card - status",
+        "dashboard_onboarding",
+        "left_sidebar",
+        "logo",
+        "social icon",
+        "table",
+        "text input",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L17",
+      "name": "Splash Screen",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium",
+      "screens_using": [
+        "Splash Screen",
+        "Splash Screen",
+        "Splash Screen",
+        "Splash Screen"
+      ],
+      "screen_ids": [
+        "18472:47539",
+        "18017:59413",
+        "18500:83373",
+        "18500:87859"
+      ],
+      "count": 4,
+      "representative_screen": "18472:47539",
+      "representative_name": "Splash Screen",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (391x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 391,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "logo"
+      ],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L18",
+      "name": "left_sidebar",
+      "type": "other",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "left_sidebar"
+      ],
+      "screen_ids": [
+        "18460:35886"
+      ],
+      "count": 1,
+      "representative_screen": "18460:35886",
+      "representative_name": "left_sidebar",
+      "dimensions": {
+        "width": 3796,
+        "height": 1056
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (80x1024), Center main_content (80x1024), Center main_content (80x1024), Center main_content (80x1024), Center main_content (80x1024), Center main_content (80x1024), Center main_content (80x1024), Center main_content (272x1024), Center main_content (272x1024), Center main_content (272x1024), Center main_content (272x1024), Center main_content (272x1024), Center main_content (272x1024), Right navigation_sidebar (272x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Dashboard",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Inbox",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Documents",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Templates",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Contacts",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Integrations",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Collapsed, Variant=Settings",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Expanded, Variant=Dashboard",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Expanded, Variant=Inbox",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Expanded, Variant=Documents",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Expanded, Variant=Templates",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Expanded, Variant=Contacts",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Expanded, Variant=Integrations",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "State=Expanded, Variant=Settings",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "linear",
+        "logo",
+        "outline"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "messaging",
+        "navigation",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L19",
+      "name": "left_inner_sidebar - settings",
+      "type": "other",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "left_inner_sidebar - settings"
+      ],
+      "screen_ids": [
+        "18472:41354"
+      ],
+      "count": 1,
+      "representative_screen": "18472:41354",
+      "representative_name": "left_inner_sidebar - settings",
+      "dimensions": {
+        "width": 3424,
+        "height": 931
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Right right_panel (272x899)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Variant=My Account",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Security",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Notifications",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Language & Region",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Theme & Appearance",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Signature Settings",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Document Templates",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Auto-Reminder",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Connected Apps",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Subscription Plan",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Variant=Invoices & Receipts",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "right_panel",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "ACCOUNT",
+              "PREFERENCES",
+              "DOCUMENTS",
+              "INTEGRATIONS",
+              "BILLING"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "linear",
+        "outline"
+      ],
+      "capabilities": [
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "notifications",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L20",
+      "name": "left_inner_sidebar - document",
+      "type": "other",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "left_inner_sidebar - document"
+      ],
+      "screen_ids": [
+        "18472:40672"
+      ],
+      "count": 1,
+      "representative_screen": "18472:40672",
+      "representative_name": "left_inner_sidebar - document",
+      "dimensions": {
+        "width": 1864,
+        "height": 931
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Center main_content (272x899), Right navigation_sidebar (272x899)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Variant=All",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "SMART VIEWS",
+              "FOLDERS"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Shared with me",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "SMART VIEWS",
+              "FOLDERS"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Trash",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "SMART VIEWS",
+              "FOLDERS"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Created by me",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "SMART VIEWS",
+              "FOLDERS"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Variant=Upcoming renewals",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "SMART VIEWS",
+              "FOLDERS"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Variant=Expiring soon",
+            "width_approx": 272,
+            "height_approx": 899,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "SMART VIEWS",
+              "FOLDERS"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "linear",
+        "outline"
+      ],
+      "capabilities": [
+        "content_creation",
+        "file_management",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L21",
+      "name": "Logout",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Logout",
+        "Logout",
+        "Logout",
+        "Logout"
+      ],
+      "screen_ids": [
+        "18472:96280",
+        "18430:58948",
+        "18500:79212",
+        "18500:83377"
+      ],
+      "count": 4,
+      "representative_screen": "18472:96280",
+      "representative_name": "Logout",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899), Center main_content (1440x1024), Center main_content (500x357)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Settings",
+              "Manage your account, preferences, and connected tools"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Text Input",
+              "Avatars",
+              "left_inner_sidebar - settings"
+            ],
+            "text_labels": [
+              "My Account",
+              "Signature",
+              "Change Signature"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "popup_otp",
+            "width_approx": 500,
+            "height_approx": 357,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Outline "
+            ],
+            "text_labels": [
+              "Are you sure you\nwant to log out?",
+              "You’ll need to sign in again to access\nyour dashboard",
+              "Cancel",
+              "Yes, log me out"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "button",
+        "left_inner_sidebar - settings",
+        "left_sidebar",
+        "outline",
+        "text input",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L22",
+      "name": "Integrations -> Connect",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Integrations -> Connect",
+        "Integrations -> Connect",
+        "Integrations -> Connect",
+        "Integrations -> Connect"
+      ],
+      "screen_ids": [
+        "18472:93491",
+        "18420:55934",
+        "18500:79470",
+        "18500:83635"
+      ],
+      "count": 4,
+      "representative_screen": "18472:93491",
+      "representative_name": "Integrations -> Connect",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899), Center main_content (1440x1024), Center main_content (500x423)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Integrations",
+              "Connected apps and services appear here"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline ",
+              "card - integration"
+            ],
+            "text_labels": [
+              "All apps",
+              "Connected",
+              "Disconnected",
+              "Cloud Storage",
+              "Import and export documents seamlessly from your favorite storage services",
+              "Productivity Tools",
+              "Boost your workflow by connecting tools you already use",
+              "Accounting & Finance",
+              "Streamline billing, invoicing, and contract-related finances."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "popup",
+            "width_approx": 500,
+            "height_approx": 423,
+            "role": "main_content",
+            "components": [
+              "Logos",
+              "Checkbox",
+              "Outline ",
+              "logo",
+              "Button"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Connect Google Drive\nto Your Workspace",
+              "Access and manage your documents\ndirectly from Google Drive.",
+              "By connecting your account, you agree to our Terms and acknowledge our Privacy Policy regarding data usage.",
+              "Cancel",
+              "Connect"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card - integration",
+        "checkbox",
+        "left_sidebar",
+        "linear",
+        "logo",
+        "logos",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L23",
+      "name": "Inbox -> Filter",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Inbox -> Filter",
+        "Inbox -> Filter",
+        "Inbox -> Filter",
+        "Inbox -> Filter"
+      ],
+      "screen_ids": [
+        "18472:83265",
+        "18394:3563",
+        "18500:82164",
+        "18500:86649"
+      ],
+      "count": 4,
+      "representative_screen": "18472:83265",
+      "representative_name": "Inbox -> Filter",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899), Center main_content (1440x1024), Center main_content (416x960)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Inbox",
+              "Documents shared with you or waiting for your signature"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Checkbox",
+              "Linear ",
+              "Outline ",
+              "Avatars"
+            ],
+            "text_labels": [
+              "All statuses",
+              "Last 30 days",
+              "Filter",
+              "Document name",
+              "Status",
+              "Recipients",
+              "Last action",
+              "Yesterday",
+              "Proposal – Website Redesign for Atlas Co.",
+              "Last viewed by Mark on May 5",
+              "NDA – Agency Collaboration Deal",
+              "Last viewed by Mark on May 5",
+              "Freelance Agreement – May 2025 Onboarding",
+              "Last viewed by Mark on May 5",
+              "Last week"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "drawer",
+            "width_approx": 416,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "Checkbox",
+              "Text Input"
+            ],
+            "text_labels": [
+              "Filter",
+              "Status",
+              "All Status",
+              "This is a hint text to help user",
+              "Time period",
+              "30 days",
+              "This is a hint text to help user",
+              "Tabs"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "checkbox",
+        "left_sidebar",
+        "linear",
+        "outline",
+        "text input",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "form",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L24",
+      "name": "Settings -> Subscription Plan",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Settings -> Subscription Plan",
+        "Settings -> Subscription Plan",
+        "Settings -> Subscription Plan",
+        "Settings -> Subscription Plan"
+      ],
+      "screen_ids": [
+        "18472:95577",
+        "18428:57429",
+        "18500:79380",
+        "18500:83545"
+      ],
+      "count": 4,
+      "representative_screen": "18472:95577",
+      "representative_name": "Settings -> Subscription Plan",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Settings",
+              "Manage your account, preferences, and connected tools"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "card - pricing",
+              "left_inner_sidebar - settings"
+            ],
+            "text_labels": [
+              "Subscription Plan"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card - pricing",
+        "left_inner_sidebar - settings",
+        "left_sidebar",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L25",
+      "name": "Settings -> My Account",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Settings -> My Account",
+        "Settings -> My Account",
+        "Settings -> My Account",
+        "Settings -> My Account"
+      ],
+      "screen_ids": [
+        "18472:94866",
+        "18420:57012",
+        "18500:79398",
+        "18500:83563"
+      ],
+      "count": 4,
+      "representative_screen": "18472:94866",
+      "representative_name": "Settings -> My Account",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Settings",
+              "Manage your account, preferences, and connected tools"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Text Input",
+              "Avatars",
+              "left_inner_sidebar - settings"
+            ],
+            "text_labels": [
+              "My Account",
+              "Signature",
+              "Change Signature"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "button",
+        "left_inner_sidebar - settings",
+        "left_sidebar",
+        "text input",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L26",
+      "name": "Template Gallery",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Integrations -> Successfully Connected",
+        "Integrations",
+        "Template Gallery -> Ghost State",
+        "Template Gallery",
+        "Inbox -> Empty State",
+        "Integrations -> Successfully Connected",
+        "Integrations",
+        "Contacts -> Empty State",
+        "Contacts -> Empty State",
+        "Template Gallery -> Ghost State",
+        "Template Gallery",
+        "Inbox -> Empty State",
+        "Integrations -> Successfully Connected",
+        "Integrations",
+        "Template Gallery -> Ghost State",
+        "Template Gallery",
+        "Inbox -> Empty State",
+        "Integrations -> Successfully Connected",
+        "Integrations",
+        "Contacts -> Empty State",
+        "Contacts -> Empty State",
+        "Template Gallery -> Ghost State",
+        "Template Gallery",
+        "Inbox -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:93833",
+        "18472:93188",
+        "18472:85137",
+        "18472:85265",
+        "18472:82410",
+        "18420:56674",
+        "18412:54975",
+        "18403:3608",
+        "18472:91468",
+        "18269:41751",
+        "18182:1510",
+        "18389:2780",
+        "18500:79426",
+        "18500:79535",
+        "18500:81513",
+        "18500:81641",
+        "18500:82399",
+        "18500:83591",
+        "18500:83700",
+        "18500:84017",
+        "18500:84040",
+        "18500:85998",
+        "18500:86126",
+        "18500:86884"
+      ],
+      "count": 24,
+      "representative_screen": "18472:85265",
+      "representative_name": "Template Gallery",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Template Gallery",
+              "Browse templates made by creators around the world"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "card - template",
+              "Outline "
+            ],
+            "text_labels": [
+              "All templates",
+              "Marketing",
+              "Product",
+              "Social media",
+              "Email",
+              "Presentation",
+              "Report",
+              "Invoice"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card - integration",
+        "card - template",
+        "left_sidebar",
+        "linear",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L27",
+      "name": "Template Gallery -> Hover",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Template Gallery -> Hover",
+        "Template Gallery -> Hover",
+        "Template Gallery -> Hover",
+        "Template Gallery -> Hover"
+      ],
+      "screen_ids": [
+        "18472:85057",
+        "18269:40122",
+        "18500:81433",
+        "18500:85918"
+      ],
+      "count": 4,
+      "representative_screen": "18472:85057",
+      "representative_name": "Template Gallery -> Hover",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Template Gallery",
+              "Browse templates made by creators around the world"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "card - template",
+              "Outline "
+            ],
+            "text_labels": [
+              "All templates",
+              "Marketing",
+              "Product",
+              "Social media",
+              "Email",
+              "Presentation",
+              "Report",
+              "Invoice"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card - template",
+        "left_sidebar",
+        "linear",
+        "logo",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L28",
+      "name": "Inbox -> Downloading File",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Documents -> Filled",
+        "Inbox -> Downloading File",
+        "Inbox -> Dropdown",
+        "Inbox -> Item Checked",
+        "Inbox -> Filled",
+        "Contacts -> Contact Added Successfully",
+        "Contacts -> Contact Added Successfully",
+        "Documents -> Filled",
+        "Inbox -> Downloading File",
+        "Inbox -> Dropdown",
+        "Inbox -> Item Checked",
+        "Inbox -> Filled",
+        "Documents -> Filled",
+        "Inbox -> Downloading File",
+        "Inbox -> Dropdown",
+        "Inbox -> Item Checked",
+        "Inbox -> Filled",
+        "Contacts -> Contact Added Successfully",
+        "Contacts -> Contact Added Successfully",
+        "Documents -> Filled",
+        "Inbox -> Downloading File",
+        "Inbox -> Dropdown",
+        "Inbox -> Item Checked",
+        "Inbox -> Filled"
+      ],
+      "screen_ids": [
+        "18472:84503",
+        "18472:83905",
+        "18472:83686",
+        "18472:83498",
+        "18472:82971",
+        "18411:54712",
+        "18472:91332",
+        "18397:35485",
+        "18397:8709",
+        "18397:6155",
+        "18394:3843",
+        "18392:3304",
+        "18500:81690",
+        "18500:81818",
+        "18500:81939",
+        "18500:82059",
+        "18500:82295",
+        "18500:83745",
+        "18500:83791",
+        "18500:86175",
+        "18500:86303",
+        "18500:86424",
+        "18500:86544",
+        "18500:86780"
+      ],
+      "count": 24,
+      "representative_screen": "18472:83905",
+      "representative_name": "Inbox -> Downloading File",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Inbox",
+              "Documents shared with you or waiting for your signature"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Avatars",
+              "Bold ",
+              "Checkbox",
+              "Linear ",
+              "Outline ",
+              "Toast"
+            ],
+            "text_labels": [
+              "All statuses",
+              "Last 30 days",
+              "Filter",
+              "2 items selected",
+              "Status",
+              "Recipients",
+              "Yesterday",
+              "Proposal – Website Redesign for Atlas Co.",
+              "Last viewed by Mark on May 5",
+              "NDA – Agency Collaboration Deal",
+              "Last viewed by Mark on May 5",
+              "Freelance Agreement – May 2025 Onboarding",
+              "Last viewed by Mark on May 5",
+              "Last week",
+              "Software Sales Proposal – E-sign Flow"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "bold",
+        "button",
+        "checkbox",
+        "left_inner_sidebar - document",
+        "left_sidebar",
+        "linear",
+        "outline",
+        "toast",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L29",
+      "name": "Documents -> Empty State",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Documents -> Empty State",
+        "Documents -> Empty State",
+        "Documents -> Empty State",
+        "Documents -> Empty State"
+      ],
+      "screen_ids": [
+        "18472:84241",
+        "18397:36042",
+        "18500:81798",
+        "18500:86283"
+      ],
+      "count": 4,
+      "representative_screen": "18472:84241",
+      "representative_name": "Documents -> Empty State",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Documents",
+              "Documents you’ve created or sent appear here"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "left_inner_sidebar - document"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "left_inner_sidebar - document",
+        "left_sidebar",
+        "linear",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L30",
+      "name": "Document Editor -> Editing",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Document Editor -> Placing a Signature",
+        "Document Editor -> Adding a Signature",
+        "Document Editor -> Editing",
+        "Document Editor -> Empty States",
+        "Template Gallery -> Workspace",
+        "Workspace",
+        "Document Editor -> Placing a Signature",
+        "Document Editor -> Adding a Signature",
+        "Document Editor -> Editing",
+        "Document Editor -> Empty States",
+        "Template Gallery -> Workspace",
+        "Workspace",
+        "Document Editor -> Placing a Signature",
+        "Document Editor -> Adding a Signature",
+        "Document Editor -> Editing",
+        "Document Editor -> Empty States",
+        "Template Gallery -> Workspace",
+        "Workspace",
+        "Document Editor -> Placing a Signature",
+        "Document Editor -> Adding a Signature",
+        "Document Editor -> Editing",
+        "Document Editor -> Empty States",
+        "Template Gallery -> Workspace",
+        "Workspace"
+      ],
+      "screen_ids": [
+        "18472:89244",
+        "18472:89740",
+        "18472:88962",
+        "18472:88580",
+        "18472:84834",
+        "18472:81356",
+        "18370:5486",
+        "18351:2374",
+        "18345:2759",
+        "18290:53934",
+        "18282:51432",
+        "18381:6654",
+        "18500:79580",
+        "18500:80076",
+        "18500:80205",
+        "18500:80345",
+        "18500:81210",
+        "18500:82417",
+        "18500:84065",
+        "18500:84561",
+        "18500:84690",
+        "18500:84830",
+        "18500:85695",
+        "18500:86902"
+      ],
+      "count": 24,
+      "representative_screen": "18472:88962",
+      "representative_name": "Document Editor -> Editing",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x96), Left navigation_sidebar (180x859), Center main_content (464x928), Center main_content (796x859), Center main_content (976x69)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "right_sidebar",
+            "width_approx": 464,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "Create New",
+              "Content"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 796,
+            "height_approx": 859,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "Freelance Design Contract"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "left_sidebar - editor",
+            "width_approx": 180,
+            "height_approx": 859,
+            "role": "navigation_sidebar",
+            "components": [
+              "left_sidebar - editor",
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 976,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "1",
+              "Add New",
+              "Updated 1 sec ago",
+              "Editing"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Avatars",
+              "Bold ",
+              "Linear ",
+              "Outline ",
+              "Button",
+              "top_bar"
+            ],
+            "text_labels": [
+              "7",
+              "Untitled",
+              "Invite",
+              "Send",
+              "Se",
+              "7",
+              "7",
+              "HP"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "card - template",
+        "left_sidebar - editor",
+        "linear",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L31",
+      "name": "Document Editor -> Drawing a Signature -> Filled",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Document Editor -> Drawing a Signature -> Filled",
+        "Document Editor -> Drawing a Signature -> Empty State",
+        "Quick Tour -> Welcome Message",
+        "Document Editor -> Drawing a Signature -> Filled",
+        "Document Editor -> Drawing a Signature -> Empty State",
+        "Quick Tour -> Welcome Message",
+        "Document Editor -> Drawing a Signature -> Filled",
+        "Document Editor -> Drawing a Signature -> Empty State",
+        "Quick Tour -> Welcome Message",
+        "Document Editor -> Drawing a Signature -> Filled",
+        "Document Editor -> Drawing a Signature -> Empty State",
+        "Quick Tour -> Welcome Message"
+      ],
+      "screen_ids": [
+        "18472:89372",
+        "18472:89557",
+        "18472:87660",
+        "18366:4943",
+        "18354:3410",
+        "18290:54210",
+        "18500:79708",
+        "18500:79893",
+        "18500:81081",
+        "18500:84193",
+        "18500:84378",
+        "18500:85566"
+      ],
+      "count": 12,
+      "representative_screen": "18472:89372",
+      "representative_name": "Document Editor -> Drawing a Signature -> Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x96), Left navigation_sidebar (180x859), Center main_content (464x928), Center main_content (796x859), Center main_content (976x69), Center main_content (1440x1024), Center main_content (500x450)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "right_sidebar",
+            "width_approx": 464,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "Create New",
+              "Content"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 796,
+            "height_approx": 859,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "Agreement & Acceptance",
+              "By signing below, both parties agree to the terms outlined in this contract. This agreement becomes effective as of the last date signed and will remain in effect until the project is completed or terminated in accordance with the terms stated.",
+              "Dummy Company",
+              "Signature",
+              "MM / DD / YY",
+              "Harry Peter",
+              "Harry Peter"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "left_sidebar - editor",
+            "width_approx": 180,
+            "height_approx": 859,
+            "role": "navigation_sidebar",
+            "components": [
+              "left_sidebar - editor",
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 976,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "1",
+              "Add New",
+              "Updated 1 sec ago",
+              "Editing"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Avatars",
+              "Bold ",
+              "Linear ",
+              "Outline ",
+              "Button",
+              "top_bar"
+            ],
+            "text_labels": [
+              "7",
+              "Untitled",
+              "Invite",
+              "Send",
+              "Se",
+              "7",
+              "7",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "popup_otp",
+            "width_approx": 500,
+            "height_approx": 450,
+            "role": "main_content",
+            "components": [
+              "Checkbox",
+              "Button"
+            ],
+            "text_labels": [
+              "Signature",
+              "Draw",
+              "Type",
+              "Upload",
+              "Clear",
+              "By signing, you confirm that you’ve read and agree to the terms of this contract.",
+              "Cancel",
+              "Accept & Sign"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "button",
+        "checkbox",
+        "left_sidebar - editor",
+        "linear",
+        "logo",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L32",
+      "name": "Quick Tour -> Step 4",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Quick Tour -> Step 4",
+        "Quick Tour -> Step 3",
+        "Quick Tour -> Step 2",
+        "Quick Tour -> Step 4",
+        "Quick Tour -> Step 3",
+        "Quick Tour -> Step 2",
+        "Quick Tour -> Step 4",
+        "Quick Tour -> Step 3",
+        "Quick Tour -> Step 2",
+        "Quick Tour -> Step 4",
+        "Quick Tour -> Step 3",
+        "Quick Tour -> Step 2"
+      ],
+      "screen_ids": [
+        "18472:87057",
+        "18472:87207",
+        "18472:87366",
+        "18343:5817",
+        "18343:5449",
+        "18343:5105",
+        "18500:80462",
+        "18500:80612",
+        "18500:80771",
+        "18500:84947",
+        "18500:85097",
+        "18500:85256"
+      ],
+      "count": 12,
+      "representative_screen": "18472:87057",
+      "representative_name": "Quick Tour -> Step 4",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x96), Left navigation_sidebar (180x859), Center main_content (464x928), Center main_content (796x859), Center main_content (976x69), Center main_content (1440x1024), Center main_content (413x373), Center main_content (492x80)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "right_sidebar",
+            "width_approx": 464,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "Create New",
+              "Content"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 796,
+            "height_approx": 859,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Type something..."
+            ]
+          },
+          {
+            "position": "left",
+            "name": "left_sidebar - editor",
+            "width_approx": 180,
+            "height_approx": 859,
+            "role": "navigation_sidebar",
+            "components": [
+              "left_sidebar - editor",
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 976,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "1",
+              "Add New",
+              "Updated 1 sec ago",
+              "Editing"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Avatars",
+              "Bold ",
+              "Linear ",
+              "Outline ",
+              "Button",
+              "top_bar"
+            ],
+            "text_labels": [
+              "7",
+              "Untitled",
+              "Invite",
+              "Send",
+              "Se",
+              "7",
+              "7",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "tooltip",
+            "width_approx": 413,
+            "height_approx": 373,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Linear "
+            ],
+            "text_labels": [
+              "Send & Share",
+              "Once you're done editing, hit the “Send” button at the top-right to share the document or collect signatures with ease.",
+              "Step 4 of 4"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "content_groups",
+            "width_approx": 492,
+            "height_approx": 80,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Bold ",
+              "Outline ",
+              "Avatars"
+            ],
+            "text_labels": [
+              "Invite",
+              "Send",
+              "Se",
+              "7",
+              "7",
+              "HP"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "bold",
+        "button",
+        "left_sidebar - editor",
+        "linear",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L33",
+      "name": "Quick Tour -> Step 1",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Quick Tour -> Step 1",
+        "Quick Tour -> Step 1"
+      ],
+      "screen_ids": [
+        "18472:87525",
+        "18500:80930"
+      ],
+      "count": 2,
+      "representative_screen": "18472:87525",
+      "representative_name": "Quick Tour -> Step 1",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x96), Left navigation_sidebar (180x859), Center main_content (464x928), Center main_content (796x859), Center main_content (976x69), Center main_content (1440x1024), Center main_content (132x349), Center main_content (412x361)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "right_sidebar",
+            "width_approx": 464,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "Create New",
+              "Content"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 796,
+            "height_approx": 859,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Type something..."
+            ]
+          },
+          {
+            "position": "left",
+            "name": "left_sidebar - editor",
+            "width_approx": 180,
+            "height_approx": 859,
+            "role": "navigation_sidebar",
+            "components": [
+              "left_sidebar - editor",
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 976,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "1",
+              "Add New",
+              "Updated 1 sec ago",
+              "Editing"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Avatars",
+              "Bold ",
+              "Linear ",
+              "Outline ",
+              "Button",
+              "top_bar"
+            ],
+            "text_labels": [
+              "7",
+              "Untitled",
+              "Invite",
+              "Send",
+              "Se",
+              "7",
+              "7",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "content_groups",
+            "width_approx": 132,
+            "height_approx": 349,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "tooltip",
+            "width_approx": 412,
+            "height_approx": 361,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Add & Edit Pages",
+              "Quickly build multi-page documents using the left panel. Click “New Page” to start fresh or manage existing pages for longer files.",
+              "Step 1 of 4"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "button",
+        "left_sidebar - editor",
+        "linear",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L34",
+      "name": "Template Gallery -> Preview",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Template Gallery -> Preview",
+        "Template Gallery -> Preview",
+        "Template Gallery -> Preview",
+        "Template Gallery -> Preview"
+      ],
+      "screen_ids": [
+        "18472:84948",
+        "18269:43302",
+        "18500:81324",
+        "18500:85809"
+      ],
+      "count": 4,
+      "representative_screen": "18472:84948",
+      "representative_name": "Template Gallery -> Preview",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899), Center main_content (1440x1024), Center main_content (1376x80), Center main_content (680x872)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Template Gallery",
+              "Browse templates made by creators around the world"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "card - template",
+              "Outline "
+            ],
+            "text_labels": [
+              "All templates",
+              "Marketing",
+              "Product",
+              "Social media",
+              "Email",
+              "Presentation",
+              "Report",
+              "Invoice"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "navbar",
+            "width_approx": 1376,
+            "height_approx": 80,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Linear "
+            ],
+            "text_labels": [
+              "7",
+              "Save to Collection",
+              "Use Template",
+              "Freelance Design Contract Template"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 680,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Freelance Design\nContract",
+              "[Client Name]",
+              "[Date]"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card - template",
+        "left_sidebar",
+        "linear",
+        "logo",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L35",
+      "name": "Home -> Build with AI -> Success",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Home -> Build with AI -> Success",
+        "Home -> Build with AI -> Creating",
+        "Home -> Build with AI -> Filled",
+        "Home -> Build with AI -> Default",
+        "Home -> Create New Document",
+        "Home -> Upload -> Success",
+        "Home -> Upload -> Loading",
+        "Home -> Upload -> Default",
+        "Home -> Create New Document",
+        "Home -> Build with AI -> Success",
+        "Home -> Build with AI -> Creating",
+        "Home -> Build with AI -> Filled",
+        "Home -> Build with AI -> Default",
+        "Home -> Create New Document",
+        "Home -> Upload -> Success",
+        "Home -> Upload -> Loading",
+        "Home -> Upload -> Default",
+        "Home -> Create New Document",
+        "Home -> Build with AI -> Success",
+        "Home -> Build with AI -> Creating",
+        "Home -> Build with AI -> Filled",
+        "Home -> Build with AI -> Default",
+        "Home -> Create New Document",
+        "Home -> Upload -> Success",
+        "Home -> Upload -> Loading",
+        "Home -> Upload -> Default",
+        "Home -> Create New Document",
+        "Home -> Build with AI -> Success",
+        "Home -> Build with AI -> Creating",
+        "Home -> Build with AI -> Filled",
+        "Home -> Build with AI -> Default",
+        "Home -> Create New Document",
+        "Home -> Upload -> Success",
+        "Home -> Upload -> Loading",
+        "Home -> Upload -> Default",
+        "Home -> Create New Document"
+      ],
+      "screen_ids": [
+        "18472:73844",
+        "18472:73862",
+        "18472:73880",
+        "18472:73898",
+        "18472:73916",
+        "18472:73951",
+        "18472:73969",
+        "18472:73987",
+        "18472:74005",
+        "18379:6248",
+        "18374:5820",
+        "18112:5361",
+        "18108:2174",
+        "18108:1863",
+        "18108:1250",
+        "18104:849",
+        "18100:29201",
+        "18092:28676",
+        "18500:82531",
+        "18500:82549",
+        "18500:82567",
+        "18500:82585",
+        "18500:82603",
+        "18500:82638",
+        "18500:82656",
+        "18500:82674",
+        "18500:82692",
+        "18500:87016",
+        "18500:87034",
+        "18500:87052",
+        "18500:87070",
+        "18500:87088",
+        "18500:87123",
+        "18500:87141",
+        "18500:87159",
+        "18500:87177"
+      ],
+      "count": 36,
+      "representative_screen": "18472:73844",
+      "representative_name": "Home -> Build with AI -> Success",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1360x96), Left navigation_sidebar (80x1024), Center main_content (1360x928), Center main_content (1440x1024), Center main_content (600x284)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Button",
+              "Outline ",
+              "Avatars",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Welcome back, Harry!",
+              "Description",
+              "Upgrade to Pro",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "card - status",
+              "dashboard_onboarding",
+              "table",
+              "card - chart"
+            ],
+            "text_labels": [
+              "Recent Activity",
+              "Get Started",
+              "Explore AItentico in 6 simple steps"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "popup - build_with_ai",
+            "width_approx": 600,
+            "height_approx": 284,
+            "role": "main_content",
+            "components": [
+              "Bold ",
+              "Outline ",
+              "popup - build_with_ai"
+            ],
+            "text_labels": [
+              "Document successfully created!",
+              "Now’s a good time to fine-tune the details"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card - chart",
+        "card - status",
+        "dashboard_onboarding",
+        "left_sidebar",
+        "popup - build_with_ai",
+        "popup - getting_started",
+        "popup - upload_document",
+        "table",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L36",
+      "name": "Home",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Home",
+        "Home",
+        "Home -> First Landing -> Sidebar Closed",
+        "Home",
+        "Home",
+        "Home -> First Landing -> Sidebar Closed",
+        "Home",
+        "Home",
+        "Home -> First Landing -> Sidebar Closed",
+        "Home",
+        "Home",
+        "Home -> First Landing -> Sidebar Closed"
+      ],
+      "screen_ids": [
+        "18472:80963",
+        "18472:78847",
+        "18472:72594",
+        "18108:1592",
+        "18092:28405",
+        "18059:1870",
+        "18500:82621",
+        "18500:82710",
+        "18500:82744",
+        "18500:87106",
+        "18500:87195",
+        "18500:87229"
+      ],
+      "count": 12,
+      "representative_screen": "18472:80963",
+      "representative_name": "Home",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1360x96), Left navigation_sidebar (80x1024), Center main_content (1360x928)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Button",
+              "Outline ",
+              "Avatars",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Welcome back, Harry!",
+              "Description",
+              "Upgrade to Pro",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "card - status",
+              "dashboard_onboarding",
+              "table",
+              "card - chart"
+            ],
+            "text_labels": [
+              "Recent Activity",
+              "Get Started",
+              "Explore AItentico in 6 simple steps"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card - chart",
+        "card - status",
+        "dashboard_onboarding",
+        "left_sidebar",
+        "table",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L37",
+      "name": "Home -> First Landing -> Sidebar Opened",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Home -> First Landing -> Sidebar Opened",
+        "Home -> First Landing -> Sidebar Opened",
+        "Home -> First Landing -> Sidebar Opened",
+        "Home -> First Landing -> Sidebar Opened"
+      ],
+      "screen_ids": [
+        "18472:72577",
+        "18085:655",
+        "18500:82727",
+        "18500:87212"
+      ],
+      "count": 4,
+      "representative_screen": "18472:72577",
+      "representative_name": "Home -> First Landing -> Sidebar Opened",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1360x96), Left navigation_sidebar (272x1024), Center main_content (1360x928), Center main_content (1440x1024)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Button",
+              "Outline ",
+              "Avatars",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Welcome back, Harry!",
+              "Description",
+              "Upgrade to Pro",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "card - status",
+              "dashboard_onboarding",
+              "table",
+              "card - chart"
+            ],
+            "text_labels": [
+              "Recent Activity",
+              "Get Started",
+              "Explore AItentico in 6 simple steps"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card - chart",
+        "card - status",
+        "dashboard_onboarding",
+        "left_sidebar",
+        "table",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L38",
+      "name": "Contacts -> Adding Contacts -> Filled",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Contacts -> Adding Contacts -> Filled",
+        "Contacts -> Adding Contacts -> Filled",
+        "Contacts -> Adding Contacts -> Empty State",
+        "Contacts -> Adding Contacts -> Empty State",
+        "Contacts -> Adding Contacts -> Filled",
+        "Contacts -> Adding Contacts -> Filled",
+        "Contacts -> Adding Contacts -> Empty State",
+        "Contacts -> Adding Contacts -> Empty State"
+      ],
+      "screen_ids": [
+        "18411:3684",
+        "18472:91378",
+        "18405:4541",
+        "18472:91423",
+        "18500:83837",
+        "18500:83882",
+        "18500:83927",
+        "18500:83972"
+      ],
+      "count": 8,
+      "representative_screen": "18411:3684",
+      "representative_name": "Contacts -> Adding Contacts -> Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (80x1024), Center main_content (1360x125), Center main_content (1360x899), Center main_content (1440x1024), Center main_content (700x492)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "left_sidebar",
+            "width_approx": 80,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Linear ",
+              "left_sidebar",
+              "Outline ",
+              "logo"
+            ],
+            "text_labels": [
+              "AItentico",
+              "Create New",
+              "Dashboard",
+              "Inbox",
+              "Documents",
+              "Templates",
+              "Contacts",
+              "Integrations",
+              "Settings",
+              "Logout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 1360,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [
+              "Outline ",
+              "Text Input",
+              "top_bar"
+            ],
+            "text_labels": [
+              "Contacts",
+              "Documents you’ve created or sent appear here"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 1360,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Linear "
+            ],
+            "text_labels": [
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "popup_otp",
+            "width_approx": 700,
+            "height_approx": 492,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Outline ",
+              "Text Input"
+            ],
+            "text_labels": [
+              "New Contact",
+              "Basic Information",
+              "Name",
+              "Gloria Immanuel",
+              "This is a hint text to help user",
+              "Address",
+              "Cancel",
+              "Add Contact"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "left_sidebar",
+        "linear",
+        "outline",
+        "text input",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L39",
+      "name": "Quick Tour -> Step 1",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:narrow|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Quick Tour -> Step 1",
+        "Quick Tour -> Step 1"
+      ],
+      "screen_ids": [
+        "18343:4813",
+        "18500:85415"
+      ],
+      "count": 2,
+      "representative_screen": "18343:4813",
+      "representative_name": "Quick Tour -> Step 1",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x96), Left navigation_sidebar (180x859), Center main_content (464x928), Center main_content (796x859), Center main_content (976x69), Center main_content (1440x1024), Center main_content (412x361), Center main_content (132x349)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "right_sidebar",
+            "width_approx": 464,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Linear ",
+              "Outline "
+            ],
+            "text_labels": [
+              "Create New",
+              "Content"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "body",
+            "width_approx": 796,
+            "height_approx": 859,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Type something..."
+            ]
+          },
+          {
+            "position": "left",
+            "name": "left_sidebar - editor",
+            "width_approx": 180,
+            "height_approx": 859,
+            "role": "navigation_sidebar",
+            "components": [
+              "left_sidebar - editor",
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "top_bar",
+            "width_approx": 976,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "1",
+              "Add New",
+              "Updated 1 sec ago",
+              "Editing"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "top_bar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Avatars",
+              "Bold ",
+              "Linear ",
+              "Outline ",
+              "Button",
+              "top_bar"
+            ],
+            "text_labels": [
+              "7",
+              "Untitled",
+              "Invite",
+              "Send",
+              "Se",
+              "7",
+              "7",
+              "HP"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "tooltip",
+            "width_approx": 412,
+            "height_approx": 361,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Add & Edit Pages",
+              "Quickly build multi-page documents using the left panel. Click “New Page” to start fresh or manage existing pages for longer files.",
+              "Step 1 of 4"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "content_groups",
+            "width_approx": 132,
+            "height_approx": 349,
+            "role": "main_content",
+            "components": [
+              "Linear "
+            ],
+            "text_labels": [
+              "Untitled",
+              "1 page",
+              "PAGE 1",
+              "New Page"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "button",
+        "left_sidebar - editor",
+        "linear",
+        "outline",
+        "top_bar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

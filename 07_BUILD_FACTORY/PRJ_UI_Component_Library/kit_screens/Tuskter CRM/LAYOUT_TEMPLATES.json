@@ -1,0 +1,464 @@
+{
+  "kit_name": "Tuskter CRM",
+  "file_key": "t5IRTNkDbSGsiLrtawggae",
+  "total_screens": 87,
+  "unique_layouts": 20,
+  "reduction_percent": 77,
+  "layouts": [
+    {
+      "name": "Project/New Project",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 7,
+      "representative_screen": "8203:18334",
+      "representative_name": "Project/New Project",
+      "screens_using": 27,
+      "screen_ids": [
+        "8203:18334",
+        "8205:19887",
+        "8207:19285",
+        "8208:18148",
+        "8265:36942",
+        "8264:35760",
+        "8267:27345",
+        "8267:30638",
+        "8271:28494",
+        "8271:29567",
+        "8271:33346",
+        "8272:34493",
+        "8294:40209",
+        "8286:35244",
+        "8286:36434",
+        "8286:37536",
+        "8256:26833",
+        "8256:28097",
+        "8377:51175",
+        "8384:54167",
+        "8386:52805",
+        "8384:53439",
+        "8406:55302",
+        "8478:75165",
+        "8374:49577",
+        "8330:44847",
+        "8330:47637"
+      ],
+      "screen_names": [
+        "Project/New Project",
+        "Project/modal",
+        "Project/modal/dropdown",
+        "Project/modal/dropdown",
+        "Create Contract",
+        "Create Contract/dropdown",
+        "Create Contract/dropdown",
+        "Create Contract/dropdown",
+        "Create Contract/dropdown",
+        "Create Contract/dropdown",
+        "Create Contract/dropdown",
+        "Create Contract/dropdown",
+        "Time Tracking/modal",
+        "Proposal",
+        "Proposal/dropdown",
+        "Proposal/dropdown",
+        "Client/Modal",
+        "Clients overview",
+        "Settings/My Account/Profile",
+        "Settings/My Account/notifications",
+        "Settings/My Account/two factor authentications",
+        "Settings/Company",
+        "Settings/Import/Export Data/Modal",
+        "Add Expenses ",
+        "Payment",
+        "Add new income",
+        "Edit income"
+      ]
+    },
+    {
+      "name": "Sign in",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 2,
+      "representative_screen": "8420:50935",
+      "representative_name": "Sign in",
+      "screens_using": 13,
+      "screen_ids": [
+        "8420:50935",
+        "8433:58203",
+        "8433:51598",
+        "8433:58358",
+        "8433:66704",
+        "8433:73148",
+        "8441:49096",
+        "8446:49303",
+        "8446:49388",
+        "8446:49508",
+        "8447:49721",
+        "8447:49871",
+        "8447:50022"
+      ],
+      "screen_names": [
+        "Sign in",
+        "Sign up",
+        "Reset Password",
+        "Enter your code",
+        "Change password",
+        "Change password",
+        "Step - 1 - onboarding",
+        "Step - 1 - onboarding",
+        "Step - 1 - onboarding",
+        "Step - 2 - onboarding",
+        "Step - 3 - onboarding",
+        "Step - 4 - onboarding",
+        "Step - 5 - onboarding"
+      ]
+    },
+    {
+      "name": "Project Details",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 8,
+      "representative_screen": "8215:18815",
+      "representative_name": "Project Details",
+      "screens_using": 12,
+      "screen_ids": [
+        "8215:18815",
+        "8293:36556",
+        "8279:32446",
+        "8279:34748",
+        "8244:20898",
+        "8244:22426",
+        "8357:60565",
+        "8365:48656",
+        "8294:41550",
+        "8301:45331",
+        "8312:40422",
+        "8328:41130"
+      ],
+      "screen_names": [
+        "Project Details",
+        "Sign proposal",
+        "Contract sign ",
+        "Contract send",
+        "Project Billing",
+        "Project Billing",
+        "All Task/Dropdown",
+        "Reports",
+        "Client Portal/ Access",
+        "Client Portal/ Preferences",
+        "Invoices",
+        "Send Invoices "
+      ]
+    },
+    {
+      "name": "Project",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 6,
+      "representative_screen": "8189:14965",
+      "representative_name": "Project",
+      "screens_using": 9,
+      "screen_ids": [
+        "8189:14965",
+        "8256:23876",
+        "8264:34315",
+        "8283:34145",
+        "8293:38620",
+        "8406:54577",
+        "8328:43595",
+        "8331:48578",
+        "8370:51411"
+      ],
+      "screen_names": [
+        "Project",
+        "Client",
+        "Contract",
+        "Proposal",
+        "Time Tracking",
+        "Settings/Import/Export Data",
+        "Income",
+        "Expenses",
+        "Payment"
+      ]
+    },
+    {
+      "name": "Home 1",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 9,
+      "representative_screen": "8240:24664",
+      "representative_name": "Home 1",
+      "screens_using": 3,
+      "screen_ids": [
+        "8240:24664",
+        "8244:21980",
+        "8323:40112"
+      ],
+      "screen_names": [
+        "Home 1",
+        "Project /billing/ create invoice",
+        "Create Invoices"
+      ]
+    },
+    {
+      "name": "Task/dropdown",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1032.0,
+      "child_count": 8,
+      "representative_screen": "8357:54524",
+      "representative_name": "Task/dropdown",
+      "screens_using": 3,
+      "screen_ids": [
+        "8357:54524",
+        "8357:56942",
+        "8357:59244"
+      ],
+      "screen_names": [
+        "Task/dropdown",
+        "Task/dropdown",
+        "Task/dropdown"
+      ]
+    },
+    {
+      "name": "Home/Profile",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 10,
+      "representative_screen": "8452:39912",
+      "representative_name": "Home/Profile",
+      "screens_using": 2,
+      "screen_ids": [
+        "8452:39912",
+        "8246:24594"
+      ],
+      "screen_names": [
+        "Home/Profile",
+        "Project/ Insights"
+      ]
+    },
+    {
+      "name": "Task",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1032.0,
+      "child_count": 7,
+      "representative_screen": "8140:7850",
+      "representative_name": "Task",
+      "screens_using": 2,
+      "screen_ids": [
+        "8140:7850",
+        "8357:58093"
+      ],
+      "screen_names": [
+        "Task",
+        "Tasks"
+      ]
+    },
+    {
+      "name": "Sign proposal",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1566.0,
+      "child_count": 7,
+      "representative_screen": "8286:38618",
+      "representative_name": "Sign proposal",
+      "screens_using": 2,
+      "screen_ids": [
+        "8286:38618",
+        "8327:39965"
+      ],
+      "screen_names": [
+        "Sign proposal",
+        "Invoices Details"
+      ]
+    },
+    {
+      "name": "Clients /Projects",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1052.0,
+      "child_count": 8,
+      "representative_screen": "8257:28852",
+      "representative_name": "Clients /Projects",
+      "screens_using": 2,
+      "screen_ids": [
+        "8257:28852",
+        "8258:30604"
+      ],
+      "screen_names": [
+        "Clients /Projects",
+        "Clients Contracts"
+      ]
+    },
+    {
+      "name": "Task/Template",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1044.0,
+      "child_count": 7,
+      "representative_screen": "8187:19692",
+      "representative_name": "Task/Template",
+      "screens_using": 2,
+      "screen_ids": [
+        "8187:19692",
+        "8187:21259"
+      ],
+      "screen_names": [
+        "Task/Template",
+        "Task/Template"
+      ]
+    },
+    {
+      "name": "Settings/Company/Branding",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1030.0,
+      "child_count": 7,
+      "representative_screen": "8401:52159",
+      "representative_name": "Settings/Company/Branding",
+      "screens_using": 2,
+      "screen_ids": [
+        "8401:52159",
+        "8402:53188"
+      ],
+      "screen_names": [
+        "Settings/Company/Branding",
+        "Settings/Company/Tag"
+      ]
+    },
+    {
+      "name": "Task/dropdown",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1032.0,
+      "child_count": 9,
+      "representative_screen": "8357:55676",
+      "representative_name": "Task/dropdown",
+      "screens_using": 1,
+      "screen_ids": [
+        "8357:55676"
+      ],
+      "screen_names": [
+        "Task/dropdown"
+      ]
+    },
+    {
+      "name": "Contract sign ",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2133.0,
+      "child_count": 7,
+      "representative_screen": "8277:37967",
+      "representative_name": "Contract sign ",
+      "screens_using": 1,
+      "screen_ids": [
+        "8277:37967"
+      ],
+      "screen_names": [
+        "Contract sign "
+      ]
+    },
+    {
+      "name": "Contract sign ",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2168.0,
+      "child_count": 7,
+      "representative_screen": "8279:33618",
+      "representative_name": "Contract sign ",
+      "screens_using": 1,
+      "screen_ids": [
+        "8279:33618"
+      ],
+      "screen_names": [
+        "Contract sign "
+      ]
+    },
+    {
+      "name": "Project/Time/modal",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1042.0,
+      "child_count": 10,
+      "representative_screen": "8230:19418",
+      "representative_name": "Project/Time/modal",
+      "screens_using": 1,
+      "screen_ids": [
+        "8230:19418"
+      ],
+      "screen_names": [
+        "Project/Time/modal"
+      ]
+    },
+    {
+      "name": "Project/Time",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1042.0,
+      "child_count": 9,
+      "representative_screen": "8245:22741",
+      "representative_name": "Project/Time",
+      "screens_using": 1,
+      "screen_ids": [
+        "8245:22741"
+      ],
+      "screen_names": [
+        "Project/Time"
+      ]
+    },
+    {
+      "name": "All Task/Dropdown",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1092.0,
+      "child_count": 7,
+      "representative_screen": "8185:17270",
+      "representative_name": "All Task/Dropdown",
+      "screens_using": 1,
+      "screen_ids": [
+        "8185:17270"
+      ],
+      "screen_names": [
+        "All Task/Dropdown"
+      ]
+    },
+    {
+      "name": "Settings/Company/Subscriptions",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1322.0,
+      "child_count": 6,
+      "representative_screen": "8402:54248",
+      "representative_name": "Settings/Company/Subscriptions",
+      "screens_using": 1,
+      "screen_ids": [
+        "8402:54248"
+      ],
+      "screen_names": [
+        "Settings/Company/Subscriptions"
+      ]
+    },
+    {
+      "name": "Settings/Company/Integrations",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1030.0,
+      "child_count": 6,
+      "representative_screen": "8404:62428",
+      "representative_name": "Settings/Company/Integrations",
+      "screens_using": 1,
+      "screen_ids": [
+        "8404:62428"
+      ],
+      "screen_names": [
+        "Settings/Company/Integrations"
+      ]
+    }
+  ],
+  "generated_at": "2026-02-20T01:45:54.400326"
+}

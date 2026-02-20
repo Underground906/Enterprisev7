@@ -1,0 +1,3425 @@
+{
+  "kit": "TrackApparel",
+  "file_key": "Vjl4wOACqV9Pquz6CoNb60",
+  "analyzed_at": "2026-02-19T19:51:51.544272",
+  "unique_layouts": 35,
+  "total_screens": 45,
+  "dedup_ratio": "45 screens -> 35 templates (78%)",
+  "layouts": [
+    {
+      "layout_id": "TR_L1",
+      "name": "Mockup-1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Mockup-1",
+        "Theme colour",
+        "Footer"
+      ],
+      "screen_ids": [
+        "3151:628",
+        "2020:19431",
+        "2061:397"
+      ],
+      "count": 3,
+      "representative_screen": "3151:628",
+      "representative_name": "Mockup-1",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1994x1200), Center main_content (911x1266)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1994,
+            "height_approx": 1200,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Home 4",
+            "width_approx": 911,
+            "height_approx": 1266,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "e_commerce",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L2",
+      "name": "Hero-Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Hero-Section"
+      ],
+      "screen_ids": [
+        "2192:5364"
+      ],
+      "count": 1,
+      "representative_screen": "2192:5364",
+      "representative_name": "Hero-Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 896
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x649), Center main_content (1344x119)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main Banner",
+            "width_approx": 1344,
+            "height_approx": 649,
+            "role": "main_content",
+            "components": [
+              "Main Banner",
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The perfects"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Wrapper",
+            "width_approx": 1344,
+            "height_approx": 119,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Reveal A World Of Timeless Pieces Designs for Your Sporty Fashion.",
+              "Discover our wide ranging and timeless of lifestyle products. Pick your favourite stuff that matches your personal taste.",
+              "Shop Now"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "main banner"
+      ],
+      "capabilities": [
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L3",
+      "name": "Features-Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Features-Section"
+      ],
+      "screen_ids": [
+        "2211:6977"
+      ],
+      "count": 1,
+      "representative_screen": "2211:6977",
+      "representative_name": "Features-Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 1320
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x568), Center main_content (1344x600)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Links",
+            "width_approx": 1344,
+            "height_approx": 568,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Collection",
+              "Explore The Various Collection of TrackApparel",
+              "Explore More",
+              "Men’s Collections",
+              "Women’s Collections"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1344,
+            "height_approx": 600,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "100% Premium Cotton",
+              "We use ethically sourced cotton only."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L4",
+      "name": "Articles-Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Articles-Section"
+      ],
+      "screen_ids": [
+        "2192:5652"
+      ],
+      "count": 1,
+      "representative_screen": "2192:5652",
+      "representative_name": "Articles-Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 691
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x86), Center main_content (1344x413)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Titles",
+            "width_approx": 1344,
+            "height_approx": 86,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Our Articles",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff",
+              "View All"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Articles-List",
+            "width_approx": 1344,
+            "height_approx": 413,
+            "role": "main_content",
+            "components": [
+              "Articles-Cards"
+            ],
+            "text_labels": [
+              "Fashion",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration",
+              "Fashion",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration",
+              "Fashion",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "articles-cards",
+        "button"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L5",
+      "name": "Mockup-3",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Mockup-3"
+      ],
+      "screen_ids": [
+        "3151:4644"
+      ],
+      "count": 1,
+      "representative_screen": "3151:4644",
+      "representative_name": "Mockup-3",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1994x1200), Center main_content (375x812), Center main_content (375x812), Center main_content (375x812), Center main_content (375x853), Center main_content (375x812), Center main_content (375x863), Center main_content (375x812)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1994,
+            "height_approx": 1200,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Home",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "Header",
+              "Main Banner"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "The Precision"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main-Section",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Catalogue-Banner"
+            ],
+            "text_labels": [
+              "Discover Timeless Pieces for Your Unique Style.",
+              "Shop Now"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Cart",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "Icons-Outline",
+              "Cart",
+              "Huge-icon",
+              "Header",
+              "Footer",
+              "Button",
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Home",
+              "Product details",
+              "Rating & Reviews",
+              "Overall rating based on 198 reviews",
+              "Flexible payment choice",
+              "More you all need.",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff.",
+              "View All Products",
+              "Get 50% Off All Outfits. Join Now Immediately.",
+              "TrackApparel.",
+              "CART",
+              "Checkout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Product Details",
+            "width_approx": 375,
+            "height_approx": 853,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Header",
+              "Icons-Outline"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Home",
+              "Product details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Collections",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Header",
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Browse All You Need",
+              "Load More Products"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Collections",
+            "width_approx": 375,
+            "height_approx": 863,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Header",
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Browse All You Need",
+              "Load More Products"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main-Section",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Catalogue-Banner"
+            ],
+            "text_labels": [
+              "Discover Timeless Pieces for Your Unique Style.",
+              "Shop Now"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "catalogue-banner",
+        "header",
+        "huge-icon",
+        "icons-bold",
+        "icons-outline",
+        "main banner",
+        "product-cards",
+        "star",
+        "vuesax"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L6",
+      "name": "Mockup-2",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Mockup-2",
+        "Size & spacing"
+      ],
+      "screen_ids": [
+        "3151:844",
+        "2023:20928"
+      ],
+      "count": 2,
+      "representative_screen": "3151:844",
+      "representative_name": "Mockup-2",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2726x1272), Center main_content (950x1060), Center main_content (950x923)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "pexels-cottonbro-10679198 1 1",
+            "width_approx": 2726,
+            "height_approx": 1272,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Collections 1",
+            "width_approx": 950,
+            "height_approx": 1060,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Product Details 2",
+            "width_approx": 950,
+            "height_approx": 923,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L7",
+      "name": "PopularProduct-Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "PopularProduct-Section"
+      ],
+      "screen_ids": [
+        "2205:6208"
+      ],
+      "count": 1,
+      "representative_screen": "2205:6208",
+      "representative_name": "PopularProduct-Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 817
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x86), Center main_content (1344x482), Center main_content (1344x57)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Titles",
+            "width_approx": 1344,
+            "height_approx": 86,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Popular For You",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Product-List",
+            "width_approx": 1344,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "SALE",
+              "Chase Cropped Hoodie 'Pink White'",
+              "SALE",
+              "Yellow Hoodie Crop Top",
+              "SALE",
+              "Cropped zip-through hoodie",
+              "SALE",
+              "Cropped Sweatshirt",
+              "SALE",
+              "Sea Mist Saltwater Quarter-Zip Pullover",
+              "SALE",
+              "Yellow Track Pants",
+              "SALE",
+              "Thermal sweater kalenji",
+              "SALE"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Action",
+            "width_approx": 1344,
+            "height_approx": 57,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "View All Products"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "product-cards"
+      ],
+      "capabilities": [
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L8",
+      "name": "Desktop - 404",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop - 404"
+      ],
+      "screen_ids": [
+        "2870:8415"
+      ],
+      "count": 1,
+      "representative_screen": "2870:8415",
+      "representative_name": "Desktop - 404",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x108), Center main_content (1440x589), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1440,
+            "height_approx": 589,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "404 – Page not found",
+              "The page you're looking for isn't available.Try to search again or use the go back button below.",
+              "Go back home"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "header"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L9",
+      "name": "Mockup-4",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Mockup-4"
+      ],
+      "screen_ids": [
+        "3151:4625"
+      ],
+      "count": 1,
+      "representative_screen": "3151:4625",
+      "representative_name": "Mockup-4",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2726x1272), Center main_content (764x441), Center main_content (784x453), Center main_content (808x466), Center main_content (958x553), Center main_content (1313x758), Center main_content (1395x805), Center main_content (1039x600)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "pexels-cottonbro-10679198 1 1",
+            "width_approx": 2726,
+            "height_approx": 1272,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 764,
+            "height_approx": 441,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 784,
+            "height_approx": 453,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 808,
+            "height_approx": 466,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 958,
+            "height_approx": 553,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1313,
+            "height_approx": 758,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1395,
+            "height_approx": 805,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1039,
+            "height_approx": 600,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L10",
+      "name": "Mockup-8",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Mockup-8",
+        "Mockup-7"
+      ],
+      "screen_ids": [
+        "3223:11497",
+        "3226:12626"
+      ],
+      "count": 2,
+      "representative_screen": "3223:11497",
+      "representative_name": "Mockup-8",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (3040x1235), Center main_content (1269x903), Center main_content (353x764)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "pexels-cottonbro-10679198 1",
+            "width_approx": 3040,
+            "height_approx": 1235,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Cart 2",
+            "width_approx": 1269,
+            "height_approx": 903,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Cart 1",
+            "width_approx": 353,
+            "height_approx": 764,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L11",
+      "name": "Mockup-6",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Mockup-6"
+      ],
+      "screen_ids": [
+        "3226:14322"
+      ],
+      "count": 1,
+      "representative_screen": "3226:14322",
+      "representative_name": "Mockup-6",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (624x1301), Center main_content (924x1194), Center main_content (283x1634)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 624,
+            "height_approx": 1301,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Product Details 3",
+            "width_approx": 924,
+            "height_approx": 1194,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Product Details 1",
+            "width_approx": 283,
+            "height_approx": 1634,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L12",
+      "name": "Thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "Thumbnail"
+      ],
+      "screen_ids": [
+        "3439:12897"
+      ],
+      "count": 1,
+      "representative_screen": "3439:12897",
+      "representative_name": "Thumbnail",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2263x1360), Center main_content (1101x1530), Center main_content (308x1016), Center main_content (437x87), Center main_content (462x110), Center main_content (291x135)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 2263,
+            "height_approx": 1360,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Home 4",
+            "width_approx": 1101,
+            "height_approx": 1530,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Mobile - Collections 1",
+            "width_approx": 308,
+            "height_approx": 1016,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Brand",
+            "width_approx": 437,
+            "height_approx": 87,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Brand",
+            "width_approx": 462,
+            "height_approx": 110,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "E-Commerce Framer Website Template"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1321315579",
+            "width_approx": 291,
+            "height_approx": 135,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L13",
+      "name": "Brand - Colour",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Brand - Colour"
+      ],
+      "screen_ids": [
+        "2020:19261"
+      ],
+      "count": 1,
+      "representative_screen": "2020:19261",
+      "representative_name": "Brand - Colour",
+      "dimensions": {
+        "width": 1280,
+        "height": 1567
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1040x56), Center main_content (189x40), Center main_content (1040x355), Center main_content (1040x684)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1040,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Brand Colour"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Title",
+            "width_approx": 189,
+            "height_approx": 40,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Brand tokens"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Intro",
+            "width_approx": 1040,
+            "height_approx": 355,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "[Company] brand",
+              "Core brand colours"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Styles",
+            "width_approx": 1040,
+            "height_approx": 684,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Main",
+              "Vibrant"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L14",
+      "name": "Typography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Typography"
+      ],
+      "screen_ids": [
+        "2020:19778"
+      ],
+      "count": 1,
+      "representative_screen": "2020:19778",
+      "representative_name": "Typography",
+      "dimensions": {
+        "width": 1280,
+        "height": 2912
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1040x56), Center main_content (1040x392), Center main_content (89x40), Center main_content (1040x1992)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1040,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Typography"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Intro",
+            "width_approx": 1040,
+            "height_approx": 392,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Font family",
+              "Aa",
+              "Manrope"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Title",
+            "width_approx": 89,
+            "height_approx": 40,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Styles",
+            "width_approx": 1040,
+            "height_approx": 1992,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "(sizes in pixels)"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L15",
+      "name": "Header",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Header"
+      ],
+      "screen_ids": [
+        "2060:192"
+      ],
+      "count": 1,
+      "representative_screen": "2060:192",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1600,
+        "height": 2947
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x145), Center main_content (1480x925), Center main_content (565x928), Center main_content (840x917), Center main_content (402x290)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Design system header",
+            "width_approx": 1600,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trend Trove",
+              "Header",
+              "This UI Kit uses Plus jakarta sansnt, Plus jakarta sans is Google Fonts and you can get it from https://fonts.google.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1480,
+            "height_approx": 925,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel.",
+              "TrackApparel.",
+              "TrackApparel.",
+              "Collections",
+              "Blogs",
+              "Collections",
+              "Blogs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1321315572",
+            "width_approx": 565,
+            "height_approx": 928,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "CART",
+              "Checkout"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Order summary",
+            "width_approx": 840,
+            "height_approx": 917,
+            "role": "main_content",
+            "components": [
+              "chevronUp",
+              "Tag",
+              "TextField",
+              "Divider",
+              "Order summary",
+              "Button",
+              "Block ",
+              "chevronDown"
+            ],
+            "text_labels": [
+              "Order summary (2)",
+              "Show",
+              "Order summary (2)",
+              "Hide",
+              "Show order summary",
+              "Show order summary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Shipping Status",
+            "width_approx": 402,
+            "height_approx": 290,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        ".availability",
+        "block",
+        "button",
+        "chevrondown",
+        "chevronup",
+        "discount",
+        "divider",
+        "gift",
+        "order summary",
+        "productthumbnail",
+        "question",
+        "tag",
+        "textfield"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L16",
+      "name": "Cards",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "Cards"
+      ],
+      "screen_ids": [
+        "2063:946"
+      ],
+      "count": 1,
+      "representative_screen": "2063:946",
+      "representative_name": "Cards",
+      "dimensions": {
+        "width": 1600,
+        "height": 2437
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x145), Center main_content (858x511), Center main_content (447x413), Center main_content (932x422)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Design system header",
+            "width_approx": 1600,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trend Trove",
+              "Cards",
+              "This UI Kit uses Plus jakarta sansnt, Plus jakarta sans is Google Fonts and you can get it from https://fonts.google.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Product-Cards",
+            "width_approx": 858,
+            "height_approx": 511,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Restocked",
+              "Green denim jacket",
+              "Restocked",
+              "Green denim jacket",
+              "Restocked",
+              "Green denim jacket"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Articles-Cards",
+            "width_approx": 447,
+            "height_approx": 413,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Fashion",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Product-Overlay-Cards",
+            "width_approx": 932,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Cropped zip-through hoodie",
+              "Yellow hoodie crop top"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L17",
+      "name": "Main Banner",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Main Banner"
+      ],
+      "screen_ids": [
+        "2792:4039"
+      ],
+      "count": 1,
+      "representative_screen": "2792:4039",
+      "representative_name": "Main Banner",
+      "dimensions": {
+        "width": 3120,
+        "height": 3437
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1312x779), Center main_content (1312x779), Center main_content (1312x779), Center main_content (1312x779), Center main_content (960x779), Center main_content (960x779), Center main_content (960x779), Center main_content (960x779), Center main_content (343x596), Center main_content (343x596), Center main_content (343x596), Center main_content (343x596)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "size=Large, slide=1",
+            "width_approx": 1312,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The perfects"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Large, slide=2",
+            "width_approx": 1312,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The excellent"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Large, slide=3",
+            "width_approx": 1312,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The precision"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Large, slide=4",
+            "width_approx": 1312,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The Passion"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Medium, slide=1",
+            "width_approx": 960,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The perfects"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Medium, slide=2",
+            "width_approx": 960,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The excellent"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Medium, slide=3",
+            "width_approx": 960,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The precision"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Medium, slide=4",
+            "width_approx": 960,
+            "height_approx": 779,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The Passion"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Small, slide=1",
+            "width_approx": 343,
+            "height_approx": 596,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The perfect"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Small, slide=2",
+            "width_approx": 343,
+            "height_approx": 596,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The excellent"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Small, slide=3",
+            "width_approx": 343,
+            "height_approx": 596,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The Precision"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "size=Small, slide=4",
+            "width_approx": 343,
+            "height_approx": 596,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "The Passion"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "product-overlay-cards"
+      ],
+      "capabilities": [
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L18",
+      "name": "Catalogue-Banner",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Catalogue-Banner"
+      ],
+      "screen_ids": [
+        "2804:8582"
+      ],
+      "count": 1,
+      "representative_screen": "2804:8582",
+      "representative_name": "Catalogue-Banner",
+      "dimensions": {
+        "width": 2137,
+        "height": 3904
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (906x701), Center main_content (637x701), Center main_content (906x701), Center main_content (637x701), Center main_content (906x701), Center main_content (637x701), Center main_content (906x701), Center main_content (637x701), Center main_content (906x701), Center main_content (637x701), Center main_content (343x552), Center main_content (343x552), Center main_content (343x552), Center main_content (343x552), Center main_content (343x552)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Size=Large, Slide=1",
+            "width_approx": 906,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Macpac Women's Limitless T-Shirt",
+              "Ignition Base Layer Long Sleeve Top 2XU"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Medium, Slide=1",
+            "width_approx": 637,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Macpac Women's Limitless T-Shirt",
+              "Ignition Base Layer Long Sleeve Top 2XU"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Large, Slide=2",
+            "width_approx": 906,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Cropped zip-through hoodie",
+              "Addidas Legging Pants"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Medium, Slide=2",
+            "width_approx": 637,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Cropped zip-through hoodie",
+              "Addidas Legging Pants"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Large, Slide=3",
+            "width_approx": 906,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Sea Mist Saltwater Quarter-Zip Pullover",
+              "Thermal sweater kalenji"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Medium, Slide=3",
+            "width_approx": 637,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Sea Mist Saltwater Quarter-Zip Pullover",
+              "Thermal sweater kalenji"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Large, Slide=4",
+            "width_approx": 906,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Washed Zip Through Hoodie",
+              "Cropped zip-through hoodie"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Medium, Slide=4",
+            "width_approx": 637,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Washed Zip Through Hoodie",
+              "Cropped zip-through hoodie"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Large, Slide=5",
+            "width_approx": 906,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Crop Sweatshirt",
+              "Nike Sportswear Tech Fleece Windrunner"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Medium, Slide=5",
+            "width_approx": 637,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": [
+              "Crop Sweatshirt",
+              "Nike Sportswear Tech Fleece Windrunner"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Slide=1",
+            "width_approx": 343,
+            "height_approx": 552,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Slide=2",
+            "width_approx": 343,
+            "height_approx": 552,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Slide=3",
+            "width_approx": 343,
+            "height_approx": 552,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Slide=4",
+            "width_approx": 343,
+            "height_approx": 552,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Size=Small, Slide=5",
+            "width_approx": 343,
+            "height_approx": 552,
+            "role": "main_content",
+            "components": [
+              "Product-Overlay-Cards"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "product-overlay-cards"
+      ],
+      "capabilities": [
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L19",
+      "name": "Size=Large, Slide=1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Size=Large, Slide=1",
+        "Size=Large, Slide=2",
+        "Size=Large, Slide=3",
+        "Size=Large, Slide=4",
+        "Size=Large, Slide=5"
+      ],
+      "screen_ids": [
+        "2805:11033",
+        "2805:11032",
+        "2805:11029",
+        "2805:11031",
+        "2805:11030"
+      ],
+      "count": 5,
+      "representative_screen": "2805:11033",
+      "representative_name": "Size=Large, Slide=1",
+      "dimensions": {
+        "width": 1440,
+        "height": 829
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1408x701)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1408,
+            "height_approx": 701,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Catalogue-Banner",
+              "Item-Scroll"
+            ],
+            "text_labels": [
+              "Discover Timeless Pieces for Your Unique Style.",
+              "Shop Now"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "catalogue-banner",
+        "item-scroll"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L20",
+      "name": "Catalogue-Banner-Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Catalogue-Banner-Section"
+      ],
+      "screen_ids": [
+        "2805:12296"
+      ],
+      "count": 1,
+      "representative_screen": "2805:12296",
+      "representative_name": "Catalogue-Banner-Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 957
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x829)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Catalogue-Banner-Section",
+            "width_approx": 1440,
+            "height_approx": 829,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Catalogue-Banner",
+              "Item-Scroll",
+              "Catalogue-Banner-Section"
+            ],
+            "text_labels": [
+              "Discover Timeless Pieces for Your Unique Style."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "catalogue-banner-section"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L21",
+      "name": "Subscribe",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Subscribe"
+      ],
+      "screen_ids": [
+        "2192:5664"
+      ],
+      "count": 1,
+      "representative_screen": "2192:5664",
+      "representative_name": "Subscribe",
+      "dimensions": {
+        "width": 1440,
+        "height": 744
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x616)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Subscribe Section",
+            "width_approx": 1344,
+            "height_approx": 616,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get 50% Off All Outfits. Join Now Immediately.",
+              "Enter your email here..."
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "media"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L22",
+      "name": "Desktop - Cart",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Desktop - Cart"
+      ],
+      "screen_ids": [
+        "2808:10203"
+      ],
+      "count": 1,
+      "representative_screen": "2808:10203",
+      "representative_name": "Desktop - Cart",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x108), Center main_content (1440x1779), Center main_content (1440x620), Center main_content (1440x184), Center main_content (1440x836), Center main_content (1440x744), Center main_content (1440x327), Center main_content (1440x1028), Center main_content (416x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "ProductDetails-Section",
+            "width_approx": 1440,
+            "height_approx": 1779,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Icons-Outline"
+            ],
+            "text_labels": [
+              "Home",
+              "Product details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Ratings & Reviews",
+            "width_approx": 1440,
+            "height_approx": 620,
+            "role": "main_content",
+            "components": [
+              "star"
+            ],
+            "text_labels": [
+              "Rating & Reviews",
+              "Overall rating based on 198 reviews",
+              "4.7",
+              "398 products have been sold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Benefits-Section",
+            "width_approx": 1440,
+            "height_approx": 184,
+            "role": "main_content",
+            "components": [
+              "Huge-icon"
+            ],
+            "text_labels": [
+              "Premium stain resistant fabrics",
+              "Free Express Shipping",
+              "Free returns within 30 days",
+              "Customers rate  us 4.8 / 5.0",
+              "Flexible payment choice"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "RelatedProduct-Section",
+            "width_approx": 1440,
+            "height_approx": 836,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "More you all need.",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff.",
+              "View All Products"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe-Section",
+            "width_approx": 1440,
+            "height_approx": 744,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 48",
+            "width_approx": 1440,
+            "height_approx": 1028,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Cart",
+            "width_approx": 416,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Cart"
+            ],
+            "text_labels": [
+              "CART",
+              "$800.00",
+              "Checkout"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "header",
+        "huge-icon",
+        "icons-bold",
+        "icons-outline",
+        "product-cards",
+        "star",
+        "vuesax"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L23",
+      "name": "Desktop - Checkout ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop - Checkout "
+      ],
+      "screen_ids": [
+        "2809:10826"
+      ],
+      "count": 1,
+      "representative_screen": "2809:10826",
+      "representative_name": "Desktop - Checkout ",
+      "dimensions": {
+        "width": 1440,
+        "height": 1747
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x84), Center main_content (1440x1663)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 84,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1440,
+            "height_approx": 1663,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "TextField",
+              "Delivery"
+            ],
+            "text_labels": [
+              "OR"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        ".availability",
+        ".replace me",
+        "block",
+        "button",
+        "checkbox",
+        "chevron-down",
+        "delivery",
+        "discount",
+        "gift",
+        "optionlist-contenttypes",
+        "payment logo",
+        "productthumbnail",
+        "question",
+        "radio",
+        "textfield"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L24",
+      "name": "Desktop - Checkout  - Success",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop - Checkout  - Success"
+      ],
+      "screen_ids": [
+        "2810:7211"
+      ],
+      "count": 1,
+      "representative_screen": "2810:7211",
+      "representative_name": "Desktop - Checkout  - Success",
+      "dimensions": {
+        "width": 1440,
+        "height": 970
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x84), Center main_content (1440x886)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 84,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1440,
+            "height_approx": 886,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        ".availability",
+        "button",
+        "discount",
+        "divider",
+        "gift",
+        "local",
+        "payment icon",
+        "productthumbnail",
+        "question"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L25",
+      "name": "Desktop - ShipmentStatus - Waiting",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop - ShipmentStatus - Waiting",
+        "Desktop - ShipmentStatus - OnDeliver",
+        "Desktop - ShipmentStatus - Arrived"
+      ],
+      "screen_ids": [
+        "2816:9279",
+        "2817:10396",
+        "2817:10688"
+      ],
+      "count": 3,
+      "representative_screen": "2816:9279",
+      "representative_name": "Desktop - ShipmentStatus - Waiting",
+      "dimensions": {
+        "width": 1440,
+        "height": 1143
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x84), Center main_content (1440x1059)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 84,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1440,
+            "height_approx": 1059,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Shipping Status"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        ".availability",
+        "button",
+        "discount",
+        "gift",
+        "productthumbnail",
+        "question",
+        "shipping status",
+        "vuesax"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L26",
+      "name": "Mockup-5",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Mockup-5"
+      ],
+      "screen_ids": [
+        "3225:11516"
+      ],
+      "count": 1,
+      "representative_screen": "3225:11516",
+      "representative_name": "Mockup-5",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (713x1244), Center main_content (1055x911), Right navigation_sidebar (293x777)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 713,
+            "height_approx": 1244,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Desktop - Home 5",
+            "width_approx": 1055,
+            "height_approx": 911,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Mobile - Home 1",
+            "width_approx": 293,
+            "height_approx": 777,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L27",
+      "name": "Inputs",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|right:right_panel:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "Inputs"
+      ],
+      "screen_ids": [
+        "2810:7773"
+      ],
+      "count": 1,
+      "representative_screen": "2810:7773",
+      "representative_name": "Inputs",
+      "dimensions": {
+        "width": 1943,
+        "height": 2816
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1943x145), Center main_content (1350x346), Center main_content (1285x1500), Center main_content (91x40), Center main_content (218x40), Right right_panel (141x58), Right right_panel (114x58), Right right_panel (114x58)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Design system header",
+            "width_approx": 1943,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trend Trove",
+              "Inputs",
+              "This UI Kit uses Plus jakarta sansnt, Plus jakarta sans is Google Fonts and you can get it from https://fonts.google.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "TextField",
+            "width_approx": 1350,
+            "height_approx": 346,
+            "role": "main_content",
+            "components": [
+              "InputIcons"
+            ],
+            "text_labels": [
+              "Last name",
+              "Chen",
+              "Last name",
+              "Chen",
+              "Last name",
+              "Chen",
+              "Last name",
+              "Chen",
+              "Last name",
+              "Chen",
+              "Last name",
+              "Chen",
+              "Last name",
+              "Chen",
+              "Last name"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "InputIcons",
+            "width_approx": 141,
+            "height_approx": 58,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "checkbox",
+            "width_approx": 114,
+            "height_approx": 58,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "radio",
+            "width_approx": 114,
+            "height_approx": 58,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Delivery",
+            "width_approx": 1285,
+            "height_approx": 1500,
+            "role": "main_content",
+            "components": [
+              "TextField"
+            ],
+            "text_labels": [
+              "Delivery",
+              "Shipping method",
+              "Delivery",
+              "Shipping method",
+              "Delivery",
+              "Shipping method",
+              "Delivery",
+              "Shipping method"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Inputs",
+            "width_approx": 91,
+            "height_approx": 40,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Inputs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Inputs-Delivery",
+            "width_approx": 218,
+            "height_approx": 40,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Inputs-Delivery"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "inputicons",
+        "optionlist-contenttypes",
+        "radio",
+        "textblock",
+        "textfield"
+      ],
+      "capabilities": [
+        "form",
+        "map",
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L28",
+      "name": "Mapped colour",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Mapped colour"
+      ],
+      "screen_ids": [
+        "2020:19567"
+      ],
+      "count": 1,
+      "representative_screen": "2020:19567",
+      "representative_name": "Mapped colour",
+      "dimensions": {
+        "width": 1280,
+        "height": 1960
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1040x56), Center main_content (1040x352), Center main_content (1040x424), Center main_content (1040x352), Center main_content (1040x280)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1040,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Mapped colour"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General",
+            "width_approx": 1040,
+            "height_approx": 352,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Text - Map"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General",
+            "width_approx": 1040,
+            "height_approx": 424,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Surface"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General",
+            "width_approx": 1040,
+            "height_approx": 352,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Borders"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General",
+            "width_approx": 1040,
+            "height_approx": 280,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icon"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "e_commerce",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L29",
+      "name": "Desktop - Collections",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop - Collections"
+      ],
+      "screen_ids": [
+        "2252:8180"
+      ],
+      "count": 1,
+      "representative_screen": "2252:8180",
+      "representative_name": "Desktop - Collections",
+      "dimensions": {
+        "width": 1440,
+        "height": 2734
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x108), Center main_content (1440x250), Center main_content (1440x1305), Center main_content (1440x744), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Banner-Section",
+            "width_approx": 1440,
+            "height_approx": 250,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Collection",
+              "Explore The Various Collection of VogueVibe Collection"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "ProductList-Section",
+            "width_approx": 1440,
+            "height_approx": 1305,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Chips",
+              "Product-Cards",
+              "Icons-Outline"
+            ],
+            "text_labels": [
+              "Browse All You Need",
+              "Short by: Most Popular",
+              "Load More Products"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe-Section",
+            "width_approx": 1440,
+            "height_approx": 744,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "chips",
+        "footer",
+        "header",
+        "icons-outline",
+        "product-cards"
+      ],
+      "capabilities": [
+        "data_table",
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L30",
+      "name": "Desktop",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop"
+      ],
+      "screen_ids": [
+        "2535:21938"
+      ],
+      "count": 1,
+      "representative_screen": "2535:21938",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 3011
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x108), Center main_content (1440x578), Center main_content (1440x1254), Center main_content (1440x744), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Articles-Section",
+            "width_approx": 1440,
+            "height_approx": 578,
+            "role": "main_content",
+            "components": [
+              "White button",
+              "Outline-arrow-button"
+            ],
+            "text_labels": [
+              "08 Feb, 2024",
+              "5 Tips to Start a Healthy Daily Lifestyle",
+              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, to",
+              "Read more"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Articles-Section",
+            "width_approx": 1440,
+            "height_approx": 1254,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Chips",
+              "Articles-Cards"
+            ],
+            "text_labels": [
+              "All",
+              "Lifestyle",
+              "Gym",
+              "Healthy",
+              "Loungewear",
+              "Sneakers",
+              "08 Feb, 2024",
+              "14 running tips for beginners",
+              "08 Feb, 2024",
+              "An essential guide to post-run stretching",
+              "08 Feb, 2024",
+              "The Benefits of Walking 5.000 steps a day",
+              "08 Feb, 2024",
+              "Discover the 12 Different Tracksuit Fabrics Everyone Must Know",
+              "08 Feb, 2024"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe",
+            "width_approx": 1440,
+            "height_approx": 744,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get 50% Off All Outfits. Join Now Immediately."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "articles-cards",
+        "button",
+        "chips",
+        "footer",
+        "header",
+        "outline-arrow-button",
+        "white button"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L31",
+      "name": "Border and shadow",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Border and shadow"
+      ],
+      "screen_ids": [
+        "2025:21721"
+      ],
+      "count": 1,
+      "representative_screen": "2025:21721",
+      "representative_name": "Border and shadow",
+      "dimensions": {
+        "width": 1280,
+        "height": 2728
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1040x56), Center main_content (1040x752), Center main_content (1040x576), Center main_content (1040x912)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1040,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Border and shadow"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General",
+            "width_approx": 1040,
+            "height_approx": 752,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Border radius"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General",
+            "width_approx": 1040,
+            "height_approx": 576,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Border width"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Intro",
+            "width_approx": 1040,
+            "height_approx": 912,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Shadows",
+              "Primary"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L32",
+      "name": "Desktop - Product Details",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop - Product Details"
+      ],
+      "screen_ids": [
+        "2237:5729"
+      ],
+      "count": 1,
+      "representative_screen": "2237:5729",
+      "representative_name": "Desktop - Product Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 4598
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x108), Center main_content (1440x1779), Center main_content (1440x620), Center main_content (1440x184), Center main_content (1440x836), Center main_content (1440x744), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "ProductDetails-Section",
+            "width_approx": 1440,
+            "height_approx": 1779,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Icons-Outline"
+            ],
+            "text_labels": [
+              "Home",
+              "Product details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Ratings & Reviews",
+            "width_approx": 1440,
+            "height_approx": 620,
+            "role": "main_content",
+            "components": [
+              "star"
+            ],
+            "text_labels": [
+              "Rating & Reviews",
+              "Overall rating based on 198 reviews",
+              "4.7",
+              "398 products have been sold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Benefits-Section",
+            "width_approx": 1440,
+            "height_approx": 184,
+            "role": "main_content",
+            "components": [
+              "Huge-icon"
+            ],
+            "text_labels": [
+              "Premium stain resistant fabrics",
+              "Free Express Shipping",
+              "Free returns within 30 days",
+              "Customers rate  us 4.8 / 5.0",
+              "Flexible payment choice"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "RelatedProduct-Section",
+            "width_approx": 1440,
+            "height_approx": 836,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "More you all need.",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff.",
+              "View All Products"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe-Section",
+            "width_approx": 1440,
+            "height_approx": 744,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "header",
+        "huge-icon",
+        "icons-bold",
+        "icons-outline",
+        "product-cards",
+        "star",
+        "vuesax"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L33",
+      "name": "Desktop - About",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop - About"
+      ],
+      "screen_ids": [
+        "2820:10711"
+      ],
+      "count": 1,
+      "representative_screen": "2820:10711",
+      "representative_name": "Desktop - About",
+      "dimensions": {
+        "width": 1440,
+        "height": 3361
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x108), Center main_content (1440x680), Center main_content (1440x270), Center main_content (1440x628), Center main_content (1440x755), Center main_content (1440x593), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe",
+            "width_approx": 1440,
+            "height_approx": 680,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our goal is to offer you the exclusive hand-picked products that will make your soul shine."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonial Block Desktop",
+            "width_approx": 1440,
+            "height_approx": 270,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Border Radius"
+            ],
+            "text_labels": [
+              "“Very well designed and the quality is superb even after washing it’s like new. Very pleased with the purchase.”"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature Section",
+            "width_approx": 1440,
+            "height_approx": 628,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature Section",
+            "width_approx": 1440,
+            "height_approx": 755,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contact/Form",
+            "width_approx": 1440,
+            "height_approx": 593,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Breadcrumbs",
+              "TextField"
+            ],
+            "text_labels": [
+              "Get in touch",
+              "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis voluptatum deleniti.",
+              "Send message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "border radius",
+        "breadcrumbs",
+        "button",
+        "footer",
+        "header",
+        "icon",
+        "star icon",
+        "textfield"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "form",
+        "messaging",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L34",
+      "name": "Desktop",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop"
+      ],
+      "screen_ids": [
+        "2535:23331"
+      ],
+      "count": 1,
+      "representative_screen": "2535:23331",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 4820
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x108), Center main_content (1440x2095), Center main_content (1440x836), Center main_content (1440x710), Center main_content (1440x744), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Articles-Section",
+            "width_approx": 1440,
+            "height_approx": 2095,
+            "role": "main_content",
+            "components": [
+              "Icons-Outline"
+            ],
+            "text_labels": [
+              "Home",
+              "Articles",
+              "From Runway to Real Life Styling Inspiration",
+              "5 Tips to Start a Healthy Daily Lifestyle",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "Discover Modern Trends Tailored Just for You",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "PopularProduct-Section",
+            "width_approx": 1440,
+            "height_approx": 836,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Product-Cards"
+            ],
+            "text_labels": [
+              "Popular For You",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff.",
+              "View All Products"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Articles-Section",
+            "width_approx": 1440,
+            "height_approx": 710,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Articles-Cards"
+            ],
+            "text_labels": [
+              "More Articles",
+              "Surfing into a wave of outfits. Seriously you will pleased with cool stuff",
+              "View All",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration",
+              "08 Feb, 2024",
+              "From Runway to Real Life Styling Inspiration"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe",
+            "width_approx": 1440,
+            "height_approx": 744,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get 50% Off All Outfits. Join Now Immediately."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "articles-cards",
+        "button",
+        "footer",
+        "header",
+        "icons-outline",
+        "product-cards"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L35",
+      "name": "Desktop - FAQs",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop - FAQs"
+      ],
+      "screen_ids": [
+        "2830:12027"
+      ],
+      "count": 1,
+      "representative_screen": "2830:12027",
+      "representative_name": "Desktop - FAQs",
+      "dimensions": {
+        "width": 1440,
+        "height": 2619
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x108), Center main_content (1440x432), Center main_content (1440x543), Center main_content (1440x465), Center main_content (1440x744), Center main_content (1440x327)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Header"
+            ],
+            "text_labels": [
+              "Collections",
+              "Blogs",
+              "TrackApparel."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe",
+            "width_approx": 1440,
+            "height_approx": 432,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "FAQ",
+              "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis voluptatum deleniti."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1440,
+            "height_approx": 543,
+            "role": "main_content",
+            "components": [
+              "Elements"
+            ],
+            "text_labels": [
+              "Shopping",
+              "How does TrackApparel work?",
+              "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum fuga.",
+              "Which payment methods are accepted?",
+              "Is there any cash on delivery system?",
+              "Can I get a refund?",
+              "Where is my order?",
+              "I have a problem"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1440,
+            "height_approx": 465,
+            "role": "main_content",
+            "components": [
+              "Elements"
+            ],
+            "text_labels": [
+              "Payment",
+              "How does payment work?",
+              "Which payment methods are accepted?",
+              "Is there any cash on delivery system?",
+              "Can I get a refund?",
+              "Where is my order?",
+              "I have a problem"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subscribe",
+            "width_approx": 1440,
+            "height_approx": 744,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Get 50% Off All Outfits. Join Now Immediately."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "TrackApparel.",
+              "Shop",
+              "Customer",
+              "Security"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "elements",
+        "footer",
+        "header"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    }
+  ]
+}

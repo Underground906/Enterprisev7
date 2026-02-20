@@ -1,0 +1,4681 @@
+{
+  "kit": "Adify (Job Finding)",
+  "file_key": "xkTk1662YKoVNNSZt1FyRQ",
+  "analyzed_at": "2026-02-19T20:49:41.297169",
+  "unique_layouts": 52,
+  "total_screens": 197,
+  "dedup_ratio": "197 screens -> 52 templates (26%)",
+  "layouts": [
+    {
+      "layout_id": "AD_L1",
+      "name": "Cover",
+      "type": "other",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|right:right_panel:medium",
+      "screens_using": [
+        "Cover"
+      ],
+      "screen_ids": [
+        "14003:1700"
+      ],
+      "count": 1,
+      "representative_screen": "14003:1700",
+      "representative_name": "Cover",
+      "dimensions": {
+        "width": 1600,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (487x487), Center main_content (557x557), Center main_content (665x665), Center main_content (222x164), Center main_content (1761x1130), Center main_content (1360x39), Center main_content (1360x73), Center main_content (1328x228), Center main_content (946x58), Right right_panel (332x332)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Ellipse 2999",
+            "width_approx": 487,
+            "height_approx": 487,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Ellipse 2998",
+            "width_approx": 557,
+            "height_approx": 557,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Ellipse 3000",
+            "width_approx": 665,
+            "height_approx": 665,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 2085663942",
+            "width_approx": 222,
+            "height_approx": 164,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Ellipse 2878",
+            "width_approx": 332,
+            "height_approx": 332,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Capa 1",
+            "width_approx": 1761,
+            "height_approx": 1130,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 2085665448",
+            "width_approx": 1360,
+            "height_approx": 39,
+            "role": "main_content",
+            "components": [
+              "Whatsapp"
+            ],
+            "text_labels": [
+              "hidelowar776@gmail.com",
+              "+8801778561222"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 2085665447",
+            "width_approx": 1360,
+            "height_approx": 73,
+            "role": "main_content",
+            "components": [
+              "Component 2"
+            ],
+            "text_labels": [
+              "Adify",
+              "delowaruix"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Job Finder Web Template UI Kit Design",
+            "width_approx": 1328,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Job Finder Web Template \nUI Kit Design"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 2085665416",
+            "width_approx": 946,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Web Template",
+              "UI Kit",
+              "SaaS UI Kit",
+              "Tokens & Variables"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "component 2",
+        "whatsapp"
+      ],
+      "capabilities": [
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L2",
+      "name": "Header",
+      "type": "other",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|right:right_panel:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "Header",
+        "Header",
+        "Style=1280",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12096:4450",
+        "12111:10595",
+        "12111:10581",
+        "12096:4436"
+      ],
+      "count": 4,
+      "representative_screen": "12096:4450",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1440,
+        "height": 1482
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (543x542), Center main_content (543x542), Center main_content (1208x72), Center main_content (60x60), Center main_content (60x60), Center main_content (60x60), Center main_content (1146x702), Center main_content (809x382), Center main_content (1440x98), Right right_panel (60x60), Right right_panel (60x60), Right right_panel (60x60)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Group 2085663096",
+            "width_approx": 543,
+            "height_approx": 542,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 2085663097",
+            "width_approx": 543,
+            "height_approx": 542,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1208,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "right_panel",
+            "components": [
+              "Tech Logos"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "atlassian"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "right_panel",
+            "components": [
+              "Tech Logos"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "Tech Logos"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "right_panel",
+            "components": [
+              "zapier"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "jira_service_desk"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Dashboard",
+            "width_approx": 1146,
+            "height_approx": 702,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 809,
+            "height_approx": 382,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Frame 2085666834"
+            ],
+            "text_labels": [
+              "Quality-Precision-Simplicity",
+              "Discover the Best Platform to Ignite Your Career",
+              "A dynamic hub where driven professionals and top-tier companies unite to build impactful connections and drive shared success.",
+              "Get in touch",
+              "How it work"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company logo",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "main_content",
+            "components": [
+              "Fictional company logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "atlassian",
+        "button",
+        "fictional company logo",
+        "frame 2085666834",
+        "header",
+        "jira_service_desk",
+        "navigation",
+        "tech logos",
+        "zapier"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L3",
+      "name": "Header",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|right:right_panel:narrow",
+      "screens_using": [
+        "Header",
+        "Style=1920"
+      ],
+      "screen_ids": [
+        "12199:60846",
+        "12103:8522"
+      ],
+      "count": 2,
+      "representative_screen": "12199:60846",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1920,
+        "height": 1551
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1920x98), Center main_content (543x542), Center main_content (543x542), Center main_content (60x60), Center main_content (60x60), Center main_content (60x60), Center main_content (60x60), Center main_content (60x60), Center main_content (1230x753), Center main_content (1039x382), Center main_content (1392x72), Right right_panel (60x60)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Company logo",
+            "width_approx": 1920,
+            "height_approx": 98,
+            "role": "main_content",
+            "components": [
+              "Fictional company logo"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 2085663096",
+            "width_approx": 543,
+            "height_approx": 542,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 2085663097",
+            "width_approx": 543,
+            "height_approx": 542,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "Tech Logos"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "atlassian"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "right_panel",
+            "components": [
+              "Tech Logos"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "Tech Logos"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "zapier"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 60,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [
+              "jira_service_desk"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Dashboard",
+            "width_approx": 1230,
+            "height_approx": 753,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1039,
+            "height_approx": 382,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Frame 2085666834"
+            ],
+            "text_labels": [
+              "Quality-Precision-Simplicity",
+              "Discover the Best Platform to Ignite Your Career",
+              "A dynamic hub where driven professionals and top-tier companies unite to build impactful connections and drive shared success.",
+              "Get in touch",
+              "How it work"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1392,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "atlassian",
+        "button",
+        "fictional company logo",
+        "frame 2085666834",
+        "header",
+        "jira_service_desk",
+        "navigation",
+        "tech logos",
+        "zapier"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "navigation",
+        "search"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AD_L4",
+      "name": "About us",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "About us",
+        "About us",
+        "About us",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12129:11183",
+        "12142:14984",
+        "12140:14913",
+        "12142:14961",
+        "12140:14890",
+        "12129:11160"
+      ],
+      "count": 6,
+      "representative_screen": "12129:11183",
+      "representative_name": "About us",
+      "dimensions": {
+        "width": 1440,
+        "height": 889
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1360x739), Center main_content (1208x72)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1360,
+            "height_approx": 739,
+            "role": "main_content",
+            "components": [
+              "Input",
+              "Component 3",
+              "Frame 2085666834",
+              "airbnb",
+              "tripadvisor",
+              "bookmark-02",
+              "Button",
+              "Avatar [1.0]"
+            ],
+            "text_labels": [
+              "Customer Success",
+              "Top Job Categories",
+              "Sr. UI/UX Designer",
+              "Product Design Lead",
+              "About Us",
+              "Empowering Your Career Journey: Our Mission & Story",
+              "Our mission is to support your career journey with the tools and connections you need to succeed.",
+              "Full Name"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1208,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "about us",
+        "airbnb",
+        "avatar [1.0]",
+        "bookmark-02",
+        "button",
+        "component 3",
+        "frame 2085666834",
+        "input",
+        "navigation",
+        "right up",
+        "tripadvisor"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "form",
+        "navigation",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L5",
+      "name": "Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Section",
+        "Section",
+        "Section"
+      ],
+      "screen_ids": [
+        "12140:11528",
+        "12142:15549",
+        "12142:13148"
+      ],
+      "count": 3,
+      "representative_screen": "12140:11528",
+      "representative_name": "Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 664
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (629x184), Center main_content (1194x260)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 629,
+            "height_approx": 184,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "World best Platform For Job Seekers.",
+              "The leading platform for job seekers, connecting you with top opportunities worldwide."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1194,
+            "height_approx": 260,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Career Booster",
+              "Accelerate your career growth with tools and connections that open doors to new opportunities.",
+              "Profile Highlighters",
+              "Shine in the job market with Profile Highlighters—make your profile irresistible to top employers.",
+              "Interactive Assessment",
+              "Engage in hands-on assessments that showcase your skills and match you with the right roles."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "section"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L6",
+      "name": "Find a job Header",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Find a job Header",
+        "Find a job Header",
+        "Find a job Header",
+        "style=1280",
+        "style=1440",
+        "style=1920",
+        "Style=1920",
+        "Style=1280",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12149:25544",
+        "12152:27653",
+        "12152:23589",
+        "12152:27606",
+        "12149:25497",
+        "12152:22158",
+        "12152:44176",
+        "12152:45854",
+        "12152:40475"
+      ],
+      "count": 9,
+      "representative_screen": "12149:25544",
+      "representative_name": "Find a job Header",
+      "dimensions": {
+        "width": 1440,
+        "height": 638
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1360x510), Center main_content (1208x72)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1360,
+            "height_approx": 510,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Avatar [1.0]",
+              "Frame 2085666834"
+            ],
+            "text_labels": [
+              "Find a job",
+              "Discover Your Next Opportunity",
+              "Explore roles tailored to your skills and passions, and take the next step in your career journey.",
+              "Hire a Talent"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1208,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar [1.0]",
+        "button",
+        "find a job header",
+        "frame 2085666834",
+        "navigation"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L7",
+      "name": "1440",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "1440",
+        "1920",
+        "1280"
+      ],
+      "screen_ids": [
+        "11805:4156",
+        "12170:100912",
+        "12171:60510"
+      ],
+      "count": 3,
+      "representative_screen": "11805:4156",
+      "representative_name": "1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 1186
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x574), Center main_content (1440x612)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Coming soon",
+            "width_approx": 1440,
+            "height_approx": 574,
+            "role": "main_content",
+            "components": [
+              "Coming soon",
+              "Input",
+              "Frame 2085666834",
+              "Navigation",
+              "Button"
+            ],
+            "text_labels": [
+              "Coming soon",
+              "We are coming soon",
+              "Get the latest articles and business updates that you need to know, you’ll even get special recommendations weekly.",
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 612,
+            "role": "main_content",
+            "components": [
+              "Component 3",
+              "Component 4",
+              "Component 7",
+              "Component 5",
+              "Footer",
+              "Component 2",
+              "Component 6"
+            ],
+            "text_labels": [
+              "4725 thornibirge, Connectiut 4926"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "coming soon",
+        "footer"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L8",
+      "name": "1440",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "1440",
+        "1280",
+        "1920"
+      ],
+      "screen_ids": [
+        "11814:4176",
+        "12164:40410",
+        "12164:39928"
+      ],
+      "count": 3,
+      "representative_screen": "11814:4176",
+      "representative_name": "1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 3628
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x3016), Center main_content (1440x612)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Terms of service",
+            "width_approx": 1440,
+            "height_approx": 3016,
+            "role": "main_content",
+            "components": [
+              "Terms of service",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Terms and Conditions",
+              "Updated Nov 18, 2024",
+              "Introduction",
+              "My Adify Matcher Inc., operating as Job.com (“Job.com,” “we,” “us,” or “our”), connects job seekers with employers. These Terms and Conditions (“Terms”) govern your access and use of www.job.com, along with any associated websites, applications, features, technologies, or services provided by Job.com or its affiliates (collectively referred to as the “Platform”), unless explicitly stated otherwise through separate terms",
+              "Please read these Terms carefully as they contain important information regarding your legal rights, remedies and obligations with respect to your use of the Platform, including but not limited to various limitations, exclusions, and indemnities. Unless otherwise indicated herein, capitalized terms have the meanings assigned to them in the Definitions section below.",
+              "The Platform is available only to individuals and entities that can form legally binding contracts under applicable law. Without limiting the foregoing, the Platform and the services offered by the Platform are not available to minors.",
+              "Your use of the Platform is subject to our Privacy Policy, which describes our policies and practices regarding the collection, use, and disclosure of personal information.",
+              "Please note that the domain Adify.com is a brand used on the Platform, which the owners of the domain reserve the right to use for other purposes at their sole discretion.",
+              "JURISDICTION"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 612,
+            "role": "main_content",
+            "components": [
+              "Component 3",
+              "Component 4",
+              "Component 7",
+              "Component 5",
+              "Footer",
+              "Component 2",
+              "Component 6"
+            ],
+            "text_labels": [
+              "4725 thornibirge, Connectiut 4926"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "footer",
+        "terms of service"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "media",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L9",
+      "name": "Job category",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Job category",
+        "Job category",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12096:6354",
+        "12103:9297",
+        "12103:9287",
+        "12096:6344"
+      ],
+      "count": 4,
+      "representative_screen": "12096:6354",
+      "representative_name": "Job category",
+      "dimensions": {
+        "width": 1440,
+        "height": 872
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1054x132), Center main_content (1208x520)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 1054,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Popular job categories",
+              "Equipping you with smart tools to streamline your job search and seamlessly connect you to top opportunities.",
+              "How it’s work"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 520,
+            "role": "main_content",
+            "components": [
+              "Component 3"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "behance",
+        "book-04",
+        "box",
+        "button",
+        "component 3",
+        "idea-01",
+        "job category",
+        "shared-wifi"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L10",
+      "name": "Input & Toggle",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Input & Toggle"
+      ],
+      "screen_ids": [
+        "402:24512"
+      ],
+      "count": 1,
+      "representative_screen": "402:24512",
+      "representative_name": "Input & Toggle",
+      "dimensions": {
+        "width": 1600,
+        "height": 1228
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x872), Center main_content (1600x356)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 1600,
+            "height_approx": 872,
+            "role": "main_content",
+            "components": [
+              "Arrow - Down 2 2",
+              "Facebook",
+              "google",
+              "apple",
+              "linkedin",
+              "Filed"
+            ],
+            "text_labels": [
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Google",
+              "Sign in with Apple",
+              "Sign in with Facebook"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style guide header & footer",
+            "width_approx": 1600,
+            "height_approx": 356,
+            "role": "main_content",
+            "components": [
+              "Style guide header & footer",
+              "Component 3"
+            ],
+            "text_labels": [
+              "SaaS Job Finder Website Design",
+              "Pixem Studio",
+              "© 2024 Pixemstudio"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "apple",
+        "arrow - down 2 2",
+        "facebook",
+        "filed",
+        "google",
+        "linkedin",
+        "style guide header & footer"
+      ],
+      "capabilities": [
+        "authentication",
+        "map",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L11",
+      "name": "Color Palette",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Color Palette"
+      ],
+      "screen_ids": [
+        "9820:56790"
+      ],
+      "count": 1,
+      "representative_screen": "9820:56790",
+      "representative_name": "Color Palette",
+      "dimensions": {
+        "width": 1600,
+        "height": 2299
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x331), Center main_content (1600x1968)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 2085665451",
+            "width_approx": 1600,
+            "height_approx": 331,
+            "role": "main_content",
+            "components": [
+              "Component 3"
+            ],
+            "text_labels": [
+              "Adify",
+              "delowaruix",
+              "Colors",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Color style",
+            "width_approx": 1600,
+            "height_approx": 1968,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Primary",
+              "Secondary",
+              "Primary",
+              "Primary",
+              "Neutral",
+              "#C7EFE2",
+              "#FEEFF3",
+              "#FEFBF2",
+              "#F9F9FA",
+              "#ACE7D3",
+              "#FEE8ED",
+              "#FDF3D6",
+              "#E6E6E9",
+              "#86DCBF",
+              "#FDCFD9"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "component 3"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L12",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12142:15548",
+        "12142:13147",
+        "12140:11527"
+      ],
+      "count": 3,
+      "representative_screen": "12142:15548",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 664
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (629x184), Center main_content (1120x260)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 629,
+            "height_approx": 184,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "World best Platform For Job Seekers.",
+              "The leading platform for job seekers, connecting you with top opportunities worldwide."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1120,
+            "height_approx": 260,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Career Booster",
+              "Accelerate your career growth with tools and connections that open doors to new opportunities.",
+              "Profile Highlighters",
+              "Shine in the job market with Profile Highlighters—make your profile irresistible to top employers.",
+              "Interactive Assessment",
+              "Engage in hands-on assessments that showcase your skills and match you with the right roles."
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L13",
+      "name": "Style=1920",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1920",
+        "Style=1280",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12146:25554",
+        "12148:18372",
+        "12142:20531"
+      ],
+      "count": 3,
+      "representative_screen": "12146:25554",
+      "representative_name": "Style=1920",
+      "dimensions": {
+        "width": 1920,
+        "height": 940
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1824x780), Center main_content (1392x72)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1824,
+            "height_approx": 780,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Right",
+              "Frame 2085666834",
+              "gmail"
+            ],
+            "text_labels": [
+              "Complete your profile now and let us help you navigate",
+              "Next",
+              "Unleashing Powerful Tools for Your Success",
+              "Access cutting-edge tools crafted to streamline your job search and accelerate your path to success.",
+              "Join Featured for free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1392,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check",
+        "frame 2085666834",
+        "gmail",
+        "navigation",
+        "right"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "navigation",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L14",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12163:36916",
+        "12163:35335",
+        "12152:50039"
+      ],
+      "count": 3,
+      "representative_screen": "12163:36916",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 638
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1216x494), Center main_content (1120x72)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1216,
+            "height_approx": 494,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Input",
+              "Frame 2085666834"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1120,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "frame 2085666834",
+        "input",
+        "navigation"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L15",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12163:37414",
+        "12163:35833",
+        "12163:33078"
+      ],
+      "count": 3,
+      "representative_screen": "12163:37414",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 1328
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x58), Center main_content (1120x1090)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 1120,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our Latest Blog"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1120,
+            "height_approx": 1090,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "clock-01"
+      ],
+      "capabilities": [
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L16",
+      "name": "Why chose us",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Why chose us",
+        "Why chose us",
+        "Why chose us",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12140:11428",
+        "12142:15385",
+        "12142:12985",
+        "12142:15384",
+        "12142:12984",
+        "12140:11427"
+      ],
+      "count": 6,
+      "representative_screen": "12140:11428",
+      "representative_name": "Why chose us",
+      "dimensions": {
+        "width": 1440,
+        "height": 847
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (828x687)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 828,
+            "height_approx": 687,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Why chose Adify",
+              "Choose us for a smarter, streamlined job search that puts you on the path to success with personalized matches and dedicated support every step of the way."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-security-01",
+        "filed",
+        "why chose us"
+      ],
+      "capabilities": [
+        "calendar",
+        "form",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L17",
+      "name": "Feauture Job ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Feauture Job ",
+        "Feauture Job ",
+        "Feauture Job ",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12151:19873",
+        "12152:28583",
+        "12152:24494",
+        "12152:28582",
+        "12152:24493",
+        "12151:19872"
+      ],
+      "count": 6,
+      "representative_screen": "12151:19873",
+      "representative_name": "Feauture Job ",
+      "dimensions": {
+        "width": 1440,
+        "height": 820
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x660)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 660,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trending startup jobs"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "app_store",
+        "bookmark-02",
+        "component 4",
+        "envato",
+        "feauture job",
+        "location-add-01",
+        "logo",
+        "tech_crunch"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L18",
+      "name": "Feature Job for engineer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Feature Job for engineer",
+        "Feature Job for engineer",
+        "Feature Job for engineer",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12152:20187",
+        "12152:29297",
+        "12152:25127",
+        "12152:29296",
+        "12152:25126",
+        "12152:20186"
+      ],
+      "count": 6,
+      "representative_screen": "12152:20187",
+      "representative_name": "Feature Job for engineer",
+      "dimensions": {
+        "width": 1440,
+        "height": 820
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x660)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 660,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Engineering jobs"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bookmark-02",
+        "component 4",
+        "envato",
+        "feature job for engineer",
+        "location-add-01",
+        "logo",
+        "tech logos"
+      ],
+      "capabilities": [
+        "content_creation",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L19",
+      "name": "Features job for designer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Features job for designer",
+        "Features job for designer",
+        "Features job for designer",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12152:20506",
+        "12152:29907",
+        "12152:25737",
+        "12152:29906",
+        "12152:25736",
+        "12152:20505"
+      ],
+      "count": 6,
+      "representative_screen": "12152:20506",
+      "representative_name": "Features job for designer",
+      "dimensions": {
+        "width": 1440,
+        "height": 820
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x660)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 660,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Design jobs"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bookmark-02",
+        "component 4",
+        "features job for designer",
+        "location-add-01",
+        "tech logos"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L20",
+      "name": "FAQ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "FAQ",
+        "FAQ",
+        "FAQ",
+        "FAQ",
+        "FAQ",
+        "FAQ",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12152:20796",
+        "12152:26034",
+        "12152:22211",
+        "12100:7341",
+        "12111:12925",
+        "12109:7168",
+        "12111:12924",
+        "12109:7167",
+        "12099:7340"
+      ],
+      "count": 9,
+      "representative_screen": "12152:20796",
+      "representative_name": "FAQ",
+      "dimensions": {
+        "width": 1440,
+        "height": 912
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x752)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1208,
+            "height_approx": 752,
+            "role": "main_content",
+            "components": [
+              "subtract-line",
+              "add-01"
+            ],
+            "text_labels": [
+              "Frequently asked questions",
+              "Do I need a detailed resume to get started?",
+              "Is the platform free to use for job seekers?",
+              "Can I apply for jobs directly through the platform?",
+              "How does the job alert system work?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "add-01",
+        "faq",
+        "subtract-line"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "map",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L21",
+      "name": "1926",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "1920",
+        "Sign in",
+        "1280",
+        "1926",
+        "Sign up",
+        "1927",
+        "Style=1440",
+        "Style=1920",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440",
+        "Style=1280"
+      ],
+      "screen_ids": [
+        "12165:43455",
+        "12165:38254",
+        "12165:48656",
+        "12166:65176",
+        "12166:59743",
+        "12167:70609",
+        "12165:38230",
+        "12165:43431",
+        "12165:48632",
+        "12166:65151",
+        "12166:59718",
+        "12167:70584"
+      ],
+      "count": 12,
+      "representative_screen": "12166:65176",
+      "representative_name": "1926",
+      "dimensions": {
+        "width": 1920,
+        "height": 1021
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1824x941)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1824,
+            "height_approx": 941,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Social Button",
+              "Input",
+              "Component 2"
+            ],
+            "text_labels": [
+              "Back",
+              "Don’t have a account?",
+              "Sign up"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "1280",
+        "1920",
+        "1926",
+        "1927",
+        "button",
+        "component 2",
+        "input",
+        "sign in",
+        "sign up",
+        "social button",
+        "square"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L22",
+      "name": "1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "1280"
+      ],
+      "screen_ids": [
+        "12167:90003"
+      ],
+      "count": 1,
+      "representative_screen": "12167:90003",
+      "representative_name": "1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 886
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1216x806)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1216,
+            "height_approx": 806,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Page not found",
+              "The page your searching for isn’t available"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "1280",
+        "button"
+      ],
+      "capabilities": [
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L23",
+      "name": "1440",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "1440"
+      ],
+      "screen_ids": [
+        "12167:79967"
+      ],
+      "count": 1,
+      "representative_screen": "12167:79967",
+      "representative_name": "1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 886
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1360x806)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1360,
+            "height_approx": 806,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Page not found",
+              "The page your searching for isn’t available"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "1440",
+        "button"
+      ],
+      "capabilities": [
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L24",
+      "name": "1920",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "1920"
+      ],
+      "screen_ids": [
+        "12167:84985"
+      ],
+      "count": 1,
+      "representative_screen": "12167:84985",
+      "representative_name": "1920",
+      "dimensions": {
+        "width": 1920,
+        "height": 886
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1824x806)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1824,
+            "height_approx": 806,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Page not found",
+              "The page your searching for isn’t available"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "1920",
+        "button"
+      ],
+      "capabilities": [
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L25",
+      "name": "Blog Details",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Blog Details",
+        "Blog Details",
+        "Blog Details",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12164:35774",
+        "12164:37820",
+        "12164:36979",
+        "12164:37805",
+        "12164:36666",
+        "12164:35759"
+      ],
+      "count": 6,
+      "representative_screen": "12164:35774",
+      "representative_name": "Blog Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1165
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x1065)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 1065,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Frame 2085666834",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Blog Details",
+              "How to Spot Recruitment Fraud.",
+              "Learn to recognize the warning signs of recruitment fraud and protect yourself from scams. Discover practical tips and guidelines to identify fake job postings, suspicious."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "blog details",
+        "button",
+        "clock-01",
+        "frame 2085666834",
+        "navigation"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L26",
+      "name": "Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Section",
+        "Section",
+        "Section"
+      ],
+      "screen_ids": [
+        "12164:35826",
+        "12164:37921",
+        "12164:37080"
+      ],
+      "count": 3,
+      "representative_screen": "12164:35826",
+      "representative_name": "Section",
+      "dimensions": {
+        "width": 1440,
+        "height": 4328
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (792x4171)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main contents",
+            "width_approx": 792,
+            "height_approx": 4171,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Recruitment fraud is becoming a growing concern for job seekers in the digital age. Scammers use fake job postings or impersonate legitimate companies to deceive unsuspecting candidates. Falling victim to such schemes can result in financial loss, identity theft, or wasted time. Here's how to recognize and avoid recruitment fraud to protect yourself while searching for your dream job.",
+              "But here's the thing: you never stop learning. At Pixen, our product designers, UX/UI designers, and animators are always striving to be better. We believe in constant growth and improvement!",
+              "To truly comprehend the skills a product designer should possess, it's vital to understand their role and responsibilities. Only then can you fully grasp the significance of acquiring and honing these skills. At the end of the day, it's about staying ahead of the curve and delivering exceptional design experiences. So, let's explore together and discover the amazing possibilities that await us in the design realm!",
+              "Be Wary of Unrealistic Job Offers",
+              "Verify the Employer’s Credentials",
+              "Ensure the legitimacy of potential employers by researching their official website, verifying job postings, and checking for professional contact details. Protect yourself by avoiding unverified companies or recruiters using generic email addresses.",
+              "Avoid Jobs Requiring Upfront Payments",
+              "A product designer will typically incorporate user experience (UX) design principles into their work. That goes beyond simply making the product easy to use. UX researchers and product designers should be familiar with A/B testing, email surveys, and other forms of user experience analysis, as well as with the creation of wireframes, prototypes, and user path maps.",
+              "Collaborating with Other Departments",
+              "As someone who considers the big picture when designing a product, a product designer will frequently work alongside other designers, researchers, and business professionals. This ensures the final product is in line with the company's aims and incorporates all the steps needed to make it simple to use and attractive to the eye.",
+              "What skills can make you an excellent product designer?",
+              "Problem-solving",
+              "Problem-solving abilities aid product designers in identifying solutions to consumer issues or requirements. These solutions can provide product designers with inspiration for creative consumer products. Problem-solving skills can assist designers in discovering and eliminating flaws in product design.",
+              "Conducting Market Research",
+              "Good product designers need to know how to research the market for their creations. Market research is crucial when developing a new product to determine if there is a market and how to serve that market best. This can involve conducting user interviews and surveys or working with a user research team to assess customer needs and obtain feedback."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "section"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L27",
+      "name": "Why us for companies",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Why us for companies",
+        "Why us for companies",
+        "Why us for companies",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12096:4647",
+        "12111:10905",
+        "12103:8976",
+        "12111:10898",
+        "12103:8969",
+        "12096:4640"
+      ],
+      "count": 6,
+      "representative_screen": "12096:4647",
+      "representative_name": "Why us for companies",
+      "dimensions": {
+        "width": 1440,
+        "height": 652
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1599x637)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1599,
+            "height_approx": 637,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Arrow - Right 3"
+            ],
+            "text_labels": [
+              "Why are we better for companies?",
+              "Explore our comprehensive list of features and discover why we’re the  your professional journey.",
+              "Deep & Detailed Candidate Vetting",
+              "Tailored Candidate Selection",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow - right 3",
+        "button",
+        "why us for companies"
+      ],
+      "capabilities": [
+        "calendar"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L28",
+      "name": "Feature Job ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Feature Job ",
+        "Feature Job ",
+        "Feature Job ",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12096:6493",
+        "12111:11586",
+        "12103:10104",
+        "12111:11576",
+        "12103:10094",
+        "12096:6483"
+      ],
+      "count": 6,
+      "representative_screen": "12096:6493",
+      "representative_name": "Feature Job ",
+      "dimensions": {
+        "width": 1440,
+        "height": 894
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x734)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 734,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Featured Job Circular",
+              "Unlock the door to endless career opportunities. With our intuitive  your goals has never been easier.",
+              "How it’s work"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bookmark-02",
+        "button",
+        "component 4",
+        "feature job",
+        "location-add-01",
+        "logo"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L29",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Pricing",
+        "Pricing",
+        "Pricing"
+      ],
+      "screen_ids": [
+        "12096:6841",
+        "12111:12021",
+        "12107:5922"
+      ],
+      "count": 3,
+      "representative_screen": "12096:6841",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 892
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1214x732)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1214,
+            "height_approx": 732,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Chose your right plan!",
+              "Chose from a range of flexible pricing plans tailored to meet the unique needs."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "pricing"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L30",
+      "name": "Blog",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Blog",
+        "Blog",
+        "Blog",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12102:7420",
+        "12111:13079",
+        "12110:7439",
+        "12111:13078",
+        "12110:7438",
+        "12102:7419"
+      ],
+      "count": 6,
+      "representative_screen": "12102:7420",
+      "representative_name": "Blog",
+      "dimensions": {
+        "width": 1440,
+        "height": 922
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1208x762)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 762,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Your Gateway to Career Opportunities",
+              "Embark on a journey to discover countless career opportunities with a platform designed with your ambitions.",
+              "Trending",
+              "Explore the Hottest Career Opportunities: Trending Roles You Don’t Want to Miss"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "blog",
+        "bookmark-02",
+        "component 4"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L31",
+      "name": "Job category",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Job category",
+        "Style=1280"
+      ],
+      "screen_ids": [
+        "12111:11098",
+        "12111:11088"
+      ],
+      "count": 2,
+      "representative_screen": "12111:11098",
+      "representative_name": "Job category",
+      "dimensions": {
+        "width": 1280,
+        "height": 832
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x712)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1120,
+            "height_approx": 712,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Component 3"
+            ],
+            "text_labels": [
+              "Popular job categories",
+              "Equipping you with smart tools to streamline your job search and seamlessly connect you to top opportunities.",
+              "How it’s work"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "behance",
+        "book-04",
+        "box",
+        "button",
+        "component 3",
+        "idea-01",
+        "job category",
+        "shared-wifi"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L32",
+      "name": "Why us for Professionals",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Why us for Professionals",
+        "Style=1920"
+      ],
+      "screen_ids": [
+        "12103:8795",
+        "12103:8788"
+      ],
+      "count": 2,
+      "representative_screen": "12103:8795",
+      "representative_name": "Why us for Professionals",
+      "dimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1390x600)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Group 2085663112",
+            "width_approx": 1390,
+            "height_approx": 600,
+            "role": "main_content",
+            "components": [
+              "envato",
+              "airbnb",
+              "tripadvisor",
+              "Button",
+              "Arrow - Right 3"
+            ],
+            "text_labels": [
+              "Why are we better for professionals?",
+              "We stand out as the ultimate platform for professionals by offering tailored solutions drive success.",
+              "Easy  Job posting & Perfect Candidates",
+              "Find best freelancers easily",
+              "Get in touch"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "airbnb",
+        "arrow - right 3",
+        "button",
+        "envato",
+        "tripadvisor",
+        "why us for professionals"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "form",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L33",
+      "name": "Button",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Button"
+      ],
+      "screen_ids": [
+        "402:24511"
+      ],
+      "count": 1,
+      "representative_screen": "402:24511",
+      "representative_name": "Button",
+      "dimensions": {
+        "width": 1600,
+        "height": 1276
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x1276)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 1600,
+            "height_approx": 1276,
+            "role": "main_content",
+            "components": [
+              "mail-open-02",
+              "tail-icon",
+              "lead-icon",
+              "Right",
+              "Arrow - Right 3"
+            ],
+            "text_labels": [
+              "Primary",
+              "Secondary",
+              "Tertiary",
+              "Small",
+              "Medium",
+              "Large",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo",
+              "Get a demo"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow - right 3",
+        "lead-icon",
+        "mail-open-02",
+        "right",
+        "tail-icon"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L34",
+      "name": "Icons",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Icons",
+        "Company logo",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "402:25823",
+        "426:6145",
+        "12164:37920",
+        "12164:37079",
+        "12164:35825"
+      ],
+      "count": 5,
+      "representative_screen": "402:25823",
+      "representative_name": "Icons",
+      "dimensions": {
+        "width": 1600,
+        "height": 1471
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x1471)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 1600,
+            "height_approx": 1471,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L35",
+      "name": "Logo Integration",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Logo Integration"
+      ],
+      "screen_ids": [
+        "426:6338"
+      ],
+      "count": 1,
+      "representative_screen": "426:6338",
+      "representative_name": "Logo Integration",
+      "dimensions": {
+        "width": 1600,
+        "height": 1292
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x1292)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Logo",
+            "width_approx": 1600,
+            "height_approx": 1292,
+            "role": "main_content",
+            "components": [
+              "snapchat",
+              "js",
+              "adobe_photoshop",
+              "patreon",
+              "amd",
+              "google_hangouts",
+              "tor",
+              "quora",
+              "edge",
+              "yii 1",
+              "product_hunt",
+              "jb_dotpeek",
+              "elementary",
+              "basecamp",
+              "adobe_illustrator",
+              "jb_datagrip",
+              "vs_code",
+              "sberbank",
+              "amazon",
+              "yandex_music"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "askfm",
+        "autodesk",
+        "badoo",
+        "behance",
+        "chrome",
+        "discord",
+        "dribbble",
+        "edge",
+        "facebook",
+        "facetime",
+        "fb_messenger",
+        "firefox",
+        "foursquare",
+        "google meet",
+        "google_hangouts",
+        "ie",
+        "instagram",
+        "invision",
+        "kakao_talk",
+        "line",
+        "linkedin",
+        "messages",
+        "ms_skype",
+        "ok",
+        "opera",
+        "patreon",
+        "pinterest",
+        "procreate",
+        "quora",
+        "qzone"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "map",
+        "media",
+        "messaging",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L36",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440",
+        "Style=1440",
+        "Style=1280",
+        "Style=1920"
+      ],
+      "screen_ids": [
+        "12111:12004",
+        "12107:5770",
+        "12096:6824",
+        "12152:46728",
+        "12152:44873",
+        "12152:40755",
+        "12167:79961",
+        "12167:89997",
+        "12167:84979"
+      ],
+      "count": 9,
+      "representative_screen": "12111:12004",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 852
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x732)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1120,
+            "height_approx": 732,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Chose your right plan!",
+              "Chose from a range of flexible pricing plans tailored to meet the unique needs."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L37",
+      "name": "Client review",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Client review",
+        "Client review",
+        "Client review",
+        "Client review",
+        "Client review",
+        "Client review"
+      ],
+      "screen_ids": [
+        "12140:11591",
+        "12142:13217",
+        "12140:12971",
+        "12099:7037",
+        "12111:12581",
+        "12109:6785"
+      ],
+      "count": 6,
+      "representative_screen": "12140:11591",
+      "representative_name": "Client review",
+      "dimensions": {
+        "width": 1440,
+        "height": 1390
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x360), Center main_content (1693x810), Center main_content (1216x1230)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Graphics",
+            "width_approx": 1440,
+            "height_approx": 360,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Graphics",
+            "width_approx": 1693,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1216,
+            "height_approx": 1230,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "See What Our Customers Are Saying",
+              "Here's what some of our customers say about our platform."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar [1.0]",
+        "client review"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "form",
+        "map",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L38",
+      "name": "Typography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Typography"
+      ],
+      "screen_ids": [
+        "12153:102"
+      ],
+      "count": 1,
+      "representative_screen": "12153:102",
+      "representative_name": "Typography",
+      "dimensions": {
+        "width": 1600,
+        "height": 2853
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x331), Center main_content (1600x309), Center main_content (1600x2213)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 2085665451",
+            "width_approx": 1600,
+            "height_approx": 331,
+            "role": "main_content",
+            "components": [
+              "Component 3"
+            ],
+            "text_labels": [
+              "Adify",
+              "delowaruix",
+              "Typography",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1600,
+            "height_approx": 309,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Font Used",
+              "Aa",
+              "Manrope",
+              "Bold",
+              "Aa",
+              "Manrope",
+              "Medium",
+              "Aa",
+              "Manrope",
+              "Semi bold",
+              "Aa",
+              "Manrope",
+              "Regular"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1600,
+            "height_approx": 2213,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Aa",
+              "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+              "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+              "0123456789",
+              "Heading",
+              "Weight",
+              "Size",
+              "Line Height",
+              "Letter spacing",
+              "Hero Text",
+              "Extrabold",
+              "58",
+              "78",
+              "0%",
+              "Heading 2"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "component 3"
+      ],
+      "capabilities": [
+        "analytics"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L39",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12111:12520",
+        "12109:6724",
+        "12099:6976"
+      ],
+      "count": 3,
+      "representative_screen": "12111:12520",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 1370
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x360), Center main_content (1693x810), Center main_content (1120x1230)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Graphics",
+            "width_approx": 1440,
+            "height_approx": 360,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Graphics",
+            "width_approx": 1693,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1120,
+            "height_approx": 1230,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "See What Our Customers Are Saying",
+              "Here's what some of our customers say about our platform."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar [1.0]"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "form",
+        "map",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L40",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12148:19311",
+        "12147:17115",
+        "12142:20910"
+      ],
+      "count": 3,
+      "representative_screen": "12148:19311",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 1993
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x499), Center main_content (1120x467), Center main_content (1120x747)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1120,
+            "height_approx": 499,
+            "role": "main_content",
+            "components": [
+              "Avatar [1.0]",
+              "Check square"
+            ],
+            "text_labels": [
+              "Complete a fast, simple application.",
+              "Experience a streamlined application process designed to save you time and effort dream job.",
+              "Apply Quickly and Effortlessly.",
+              "Streamline Your Job Search with Ease.",
+              "No Hassle, Just a Few Clicks Away.",
+              "Apply Now with Minimal Effort.",
+              "Fast, Smooth, and Straightforward ."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1120,
+            "height_approx": 467,
+            "role": "main_content",
+            "components": [
+              "Check square"
+            ],
+            "text_labels": [
+              "Your skills, showcased privately.",
+              "Showcase your skills to the right employers without compromising your privacy.",
+              "Highlight your talents discreetly and securely.",
+              "Showcase your abilities with complete privacy.",
+              "Your skills, visible only where it matters.",
+              "Your talents, shared discreetly and effectively.",
+              "A secure space to shine without compromise."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1120,
+            "height_approx": 747,
+            "role": "main_content",
+            "components": [
+              "Login",
+              "linkedin",
+              "Check square",
+              "Button",
+              "Avatar [1.0]"
+            ],
+            "text_labels": [
+              "LinkedIn Chrome Extension",
+              "Boost your job search and professional networking with our LinkedIn Chrome Extension. Effortlessly connect.",
+              "Access personalized job recommendations while browsing LinkedIn profiles.",
+              "Apply to jobs directly with a single click, saving you time and effort.",
+              "Discover mutual connections and relevant professionals to grow your network effectively.",
+              "Analyze company profiles and job trends without leaving LinkedIn.",
+              "Get notified about new opportunities and employer activity as you browse.",
+              "Discover industries and companies aligned with your new career goals.",
+              "Get notified about new opportunities and employer activity as you browse.",
+              "You are ready to go",
+              "Revealing contact information for any LinkedIn profile or Sales Navigator search.",
+              "Need to learn more? Click here"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow - down 2 2",
+        "avatar",
+        "avatar [1.0]",
+        "button",
+        "check square",
+        "filed",
+        "lead-icon",
+        "linkedin",
+        "login",
+        "mail-02",
+        "search 3",
+        "square"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "navigation",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L41",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12164:40705",
+        "12164:40331",
+        "12164:39619"
+      ],
+      "count": 3,
+      "representative_screen": "12164:40705",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 3041
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x72), Center main_content (692x123), Center main_content (1120x2686)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1120,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Component 2",
+              "Button",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog",
+              "Log in",
+              "Get in touch"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "contents",
+            "width_approx": 692,
+            "height_approx": 123,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Terms and Conditions",
+              "Updated Nov 18, 2024"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "contents",
+            "width_approx": 1120,
+            "height_approx": 2686,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Introduction",
+              "My Adify Matcher Inc., operating as Job.com (“Job.com,” “we,” “us,” or “our”), connects job seekers with employers. These Terms and Conditions (“Terms”) govern your access and use of www.job.com, along with any associated websites, applications, features, technologies, or services provided by Job.com or its affiliates (collectively referred to as the “Platform”), unless explicitly stated otherwise through separate terms",
+              "Please read these Terms carefully as they contain important information regarding your legal rights, remedies and obligations with respect to your use of the Platform, including but not limited to various limitations, exclusions, and indemnities. Unless otherwise indicated herein, capitalized terms have the meanings assigned to them in the Definitions section below.",
+              "The Platform is available only to individuals and entities that can form legally binding contracts under applicable law. Without limiting the foregoing, the Platform and the services offered by the Platform are not available to minors.",
+              "Your use of the Platform is subject to our Privacy Policy, which describes our policies and practices regarding the collection, use, and disclosure of personal information.",
+              "Please note that the domain Adify.com is a brand used on the Platform, which the owners of the domain reserve the right to use for other purposes at their sole discretion.",
+              "JURISDICTION",
+              "MODIFICATION OF THESE TERMS",
+              "We reserve the right in our sole discretion to change, modify, add, or remove the terms, conditions, and notices under which the Platform is offered. It is your responsibility to check periodically for any changes we may make to these Terms. Your continued use of this Platform following the effective date of changes to these Terms or other policies means you accept and consent to the changes.",
+              "REGISTERING AN ACCOUNT",
+              "To use the Platform you will need to register an account. In order to register you must:",
+              "Candidates / Jobseekers",
+              "When registering, you will be asked to provide:",
+              "Full name",
+              "Email address"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "navigation"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "e_commerce",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L42",
+      "name": "Footer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Style=1280",
+        "Style=1920",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12140:11593",
+        "12142:13219",
+        "12140:12973",
+        "12152:20798",
+        "12152:26036",
+        "12152:22213",
+        "12164:35875",
+        "12164:37133",
+        "12164:36260",
+        "12102:7659",
+        "12111:13558",
+        "12111:8657",
+        "12111:13549",
+        "12111:8648",
+        "12102:7650"
+      ],
+      "count": 15,
+      "representative_screen": "12140:11593",
+      "representative_name": "Footer",
+      "dimensions": {
+        "width": 1440,
+        "height": 612
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x746), Center main_content (1251x452), Center main_content (1440x746), Center main_content (1440x795), Center main_content (1208x453)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gradient",
+            "width_approx": 1440,
+            "height_approx": 746,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Adify",
+            "width_approx": 1251,
+            "height_approx": 452,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Gradient",
+            "width_approx": 1440,
+            "height_approx": 746,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "image",
+            "width_approx": 1440,
+            "height_approx": 795,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 1208,
+            "height_approx": 453,
+            "role": "main_content",
+            "components": [
+              "Input",
+              "Component 3",
+              "Component 4",
+              "Component 7",
+              "Component 5",
+              "Component 2",
+              "Component 6"
+            ],
+            "text_labels": [
+              "Explores",
+              "Company",
+              "Resources",
+              "Support",
+              "Legal",
+              "Copyright©2024 Adify. All rights reserved.",
+              "Subscribe to news & resources",
+              "4725 thornibirge, Connectiut 4926",
+              "hipixem@gmail.com",
+              "03 5833 59 4432"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "component 2",
+        "component 3",
+        "component 4",
+        "component 5",
+        "component 6",
+        "component 7",
+        "footer",
+        "input",
+        "lead-icon",
+        "mail-open-02",
+        "tail-icon"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "form",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L43",
+      "name": "Who we are",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Who we are"
+      ],
+      "screen_ids": [
+        "12142:15252"
+      ],
+      "count": 1,
+      "representative_screen": "12142:15252",
+      "representative_name": "Who we are",
+      "dimensions": {
+        "width": 1280,
+        "height": 662
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (253x278), Center main_content (260x72), Center main_content (514x476), Center main_content (447x207), Center main_content (447x207), Center main_content (247x72), Center main_content (185x82)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 253,
+            "height_approx": 278,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 260,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100k+ Jobs Available"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 514,
+            "height_approx": 476,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 447,
+            "height_approx": 207,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Who we are",
+              "We're a team dedicated to transforming the job search experience. Driven by a commitment to innovation, connection, and support, we bring job seekers and employers together to create opportunities that matter. Our goal is simple."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 447,
+            "height_approx": 207,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "What we do",
+              "We connect talented individuals with meaningful opportunities. Through innovative tools and personalized job matching, we simplify the job search process, helping you find roles that align with your skills and goals. Whether you're a job seeker."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 247,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100% Remote Jobs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 185,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "80%",
+              "More Efficient"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filed",
+        "who we are"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L44",
+      "name": "Style=1280",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Style=1280"
+      ],
+      "screen_ids": [
+        "12142:15251"
+      ],
+      "count": 1,
+      "representative_screen": "12142:15251",
+      "representative_name": "Style=1280",
+      "dimensions": {
+        "width": 1280,
+        "height": 662
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (253x278), Center main_content (260x72), Center main_content (514x476), Center main_content (447x207), Center main_content (447x207), Center main_content (247x72), Center main_content (185x82)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 253,
+            "height_approx": 278,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 260,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100k+ Jobs Available"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 514,
+            "height_approx": 476,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 447,
+            "height_approx": 207,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Who we are",
+              "We're a team dedicated to transforming the job search experience. Driven by a commitment to innovation, connection, and support, we bring job seekers and employers together to create opportunities that matter. Our goal is simple."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 447,
+            "height_approx": 207,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "What we do",
+              "We connect talented individuals with meaningful opportunities. Through innovative tools and personalized job matching, we simplify the job search process, helping you find roles that align with your skills and goals. Whether you're a job seeker."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 247,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100% Remote Jobs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 185,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "80%",
+              "More Efficient"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filed"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L45",
+      "name": "Who we are",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:medium",
+      "screens_using": [
+        "Who we are"
+      ],
+      "screen_ids": [
+        "12140:15187"
+      ],
+      "count": 1,
+      "representative_screen": "12140:15187",
+      "representative_name": "Who we are",
+      "dimensions": {
+        "width": 1920,
+        "height": 696
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (253x278), Center main_content (260x72), Center main_content (514x476), Center main_content (247x72), Center main_content (185x82), Center main_content (586x536)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 253,
+            "height_approx": 278,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 260,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100k+ Jobs Available"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 514,
+            "height_approx": 476,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 247,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100% Remote Jobs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 185,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "80%",
+              "More Efficient"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 586,
+            "height_approx": 536,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Who we are",
+              "We're a team dedicated to transforming the job search experience. Driven by a commitment to innovation, connection, and support, we bring job seekers and employers together to create opportunities that matter. Our goal is simple: to make finding the perfect career or candidate as seamless and rewarding as possible.",
+              "What we do",
+              "We connect talented individuals with meaningful opportunities. Through innovative tools and personalized job matching, we simplify the job search process, helping you find roles that align with your skills and goals. Whether you're a job seeker or an employer, we’re here to support your journey toward success."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filed",
+        "who we are"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L46",
+      "name": "Style=1920",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:medium",
+      "screens_using": [
+        "Style=1920"
+      ],
+      "screen_ids": [
+        "12140:15186"
+      ],
+      "count": 1,
+      "representative_screen": "12140:15186",
+      "representative_name": "Style=1920",
+      "dimensions": {
+        "width": 1920,
+        "height": 696
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (253x278), Center main_content (260x72), Center main_content (514x476), Center main_content (247x72), Center main_content (185x82), Center main_content (586x536)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 253,
+            "height_approx": 278,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 260,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100k+ Jobs Available"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 514,
+            "height_approx": 476,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 247,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100% Remote Jobs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 185,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "80%",
+              "More Efficient"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 586,
+            "height_approx": 536,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Who we are",
+              "We're a team dedicated to transforming the job search experience. Driven by a commitment to innovation, connection, and support, we bring job seekers and employers together to create opportunities that matter. Our goal is simple: to make finding the perfect career or candidate as seamless and rewarding as possible.",
+              "What we do",
+              "We connect talented individuals with meaningful opportunities. Through innovative tools and personalized job matching, we simplify the job search process, helping you find roles that align with your skills and goals. Whether you're a job seeker or an employer, we’re here to support your journey toward success."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filed"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L47",
+      "name": "Why us for Professionals",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Why us for Professionals",
+        "Why us for Professionals",
+        "Style=1280",
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12096:4581",
+        "12111:10798",
+        "12111:10791",
+        "12096:4574"
+      ],
+      "count": 4,
+      "representative_screen": "12096:4581",
+      "representative_name": "Why us for Professionals",
+      "dimensions": {
+        "width": 1440,
+        "height": 652
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (614x492), Center main_content (487x487), Center main_content (255x79), Center main_content (267x79), Center main_content (257x79)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Contents",
+            "width_approx": 614,
+            "height_approx": 492,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Arrow - Right 3"
+            ],
+            "text_labels": [
+              "Why are we better for professionals?",
+              "We stand out as the ultimate platform for professionals by offering tailored solutions drive success.",
+              "Easy  Job posting & Perfect Candidates",
+              "Find best freelancers easily",
+              "Get in touch"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 487,
+            "height_approx": 487,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 255,
+            "height_approx": 79,
+            "role": "main_content",
+            "components": [
+              "airbnb"
+            ],
+            "text_labels": [
+              "Sr. UI/UX Designer",
+              "arnbnb",
+              "$1200.00"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 267,
+            "height_approx": 79,
+            "role": "main_content",
+            "components": [
+              "tripadvisor"
+            ],
+            "text_labels": [
+              "Product Designer",
+              "tripadvisor",
+              "$1200.00"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 257,
+            "height_approx": 79,
+            "role": "main_content",
+            "components": [
+              "envato"
+            ],
+            "text_labels": [
+              "Software Engineer",
+              "envato",
+              "$1500.00"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "airbnb",
+        "arrow - right 3",
+        "button",
+        "envato",
+        "tripadvisor",
+        "why us for professionals"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "form",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L48",
+      "name": "Who we are",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|left:left_sidebar:narrow",
+      "screens_using": [
+        "Who we are"
+      ],
+      "screen_ids": [
+        "12138:11388"
+      ],
+      "count": 1,
+      "representative_screen": "12138:11388",
+      "representative_name": "Who we are",
+      "dimensions": {
+        "width": 1440,
+        "height": 662
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left left_sidebar (253x278), Center main_content (260x72), Center main_content (514x476), Center main_content (521x232), Center main_content (521x232), Center main_content (247x72), Center main_content (185x82)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Vector",
+            "width_approx": 253,
+            "height_approx": 278,
+            "role": "left_sidebar",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 260,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100k+ Jobs Available"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 514,
+            "height_approx": 476,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 521,
+            "height_approx": 232,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Who we are",
+              "We're a team dedicated to transforming the job search experience. Driven by a commitment to innovation, connection, and support, we bring job seekers and employers together to create opportunities that matter. Our goal is simple: to make finding the perfect career or candidate as seamless and rewarding as possible."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 521,
+            "height_approx": 232,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "What we do",
+              "We connect talented individuals with meaningful opportunities. Through innovative tools and personalized job matching, we simplify the job search process, helping you find roles that align with your skills and goals. Whether you're a job seeker or an employer, we’re here to support your journey toward success."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 247,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100% Remote Jobs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 185,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "80%",
+              "More Efficient"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filed",
+        "who we are"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L49",
+      "name": "Style=1440",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|left:left_sidebar:narrow",
+      "screens_using": [
+        "Style=1440"
+      ],
+      "screen_ids": [
+        "12138:11387"
+      ],
+      "count": 1,
+      "representative_screen": "12138:11387",
+      "representative_name": "Style=1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 662
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left left_sidebar (253x278), Center main_content (260x72), Center main_content (514x476), Center main_content (521x232), Center main_content (521x232), Center main_content (247x72), Center main_content (185x82)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Vector",
+            "width_approx": 253,
+            "height_approx": 278,
+            "role": "left_sidebar",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 260,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100k+ Jobs Available"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 514,
+            "height_approx": 476,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "text",
+            "width_approx": 521,
+            "height_approx": 232,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Who we are",
+              "We're a team dedicated to transforming the job search experience. Driven by a commitment to innovation, connection, and support, we bring job seekers and employers together to create opportunities that matter. Our goal is simple: to make finding the perfect career or candidate as seamless and rewarding as possible."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 521,
+            "height_approx": 232,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "What we do",
+              "We connect talented individuals with meaningful opportunities. Through innovative tools and personalized job matching, we simplify the job search process, helping you find roles that align with your skills and goals. Whether you're a job seeker or an employer, we’re here to support your journey toward success."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "card",
+            "width_approx": 247,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "100% Remote Jobs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 185,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Filed"
+            ],
+            "text_labels": [
+              "80%",
+              "More Efficient"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "filed"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "form",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L50",
+      "name": "1440",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "1440",
+        "1280",
+        "1920"
+      ],
+      "screen_ids": [
+        "11606:5181",
+        "12148:17461",
+        "12142:21694"
+      ],
+      "count": 3,
+      "representative_screen": "11606:5181",
+      "representative_name": "1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 4050
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x899), Center main_content (1440x1993), Center main_content (1440x546), Center main_content (1440x612)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Features header",
+            "width_approx": 1440,
+            "height_approx": 899,
+            "role": "main_content",
+            "components": [
+              "Frame 2085666834",
+              "gmail",
+              "Navigation",
+              "Button",
+              "Features header",
+              "Right"
+            ],
+            "text_labels": [
+              "Complete your profile now and let us help you navigate",
+              "Next",
+              "Unleashing Powerful Tools for Your Success",
+              "Access cutting-edge tools crafted to streamline your job search and accelerate your path to success.",
+              "Join Featured for free",
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Features",
+            "width_approx": 1440,
+            "height_approx": 1993,
+            "role": "main_content",
+            "components": [
+              "Login",
+              "Check square",
+              "Button",
+              "Avatar [1.0]",
+              "Features"
+            ],
+            "text_labels": [
+              "Complete a fast, simple application.",
+              "Experience a streamlined application process designed to save you time and effort dream job.",
+              "Your skills, showcased privately.",
+              "Showcase your skills to the right employers without compromising your privacy.",
+              "LinkedIn Chrome Extension",
+              "Boost your job search and professional networking with our LinkedIn Chrome Extension. Effortlessly connect.",
+              "You are ready to go",
+              "Revealing contact information for any LinkedIn profile or Sales Navigator search.",
+              "Need to learn more? Click here"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "mail-open-02",
+              "Input",
+              "tail-icon",
+              "lead-icon",
+              "bookmark-02"
+            ],
+            "text_labels": [
+              "Revolutionizing your job search experience.",
+              "Discover a new way to find jobs, with tools and support designed to make your search faster, smarter, and more personalized."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 612,
+            "role": "main_content",
+            "components": [
+              "Component 3",
+              "Component 4",
+              "Component 7",
+              "Component 5",
+              "Footer",
+              "Component 2",
+              "Component 6"
+            ],
+            "text_labels": [
+              "4725 thornibirge, Connectiut 4926"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "cta",
+        "features",
+        "features header",
+        "footer"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "navigation",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L51",
+      "name": "1440",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "1440",
+        "1280",
+        "1920"
+      ],
+      "screen_ids": [
+        "11657:6728",
+        "12163:36015",
+        "12163:33719"
+      ],
+      "count": 3,
+      "representative_screen": "11657:6728",
+      "representative_name": "1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 4176
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x772), Center main_content (1440x1334), Center main_content (1440x912), Center main_content (1440x546), Center main_content (1440x612)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "blog",
+            "width_approx": 1440,
+            "height_approx": 772,
+            "role": "main_content",
+            "components": [
+              "Input",
+              "Frame 2085666834",
+              "Navigation",
+              "Button",
+              "blog"
+            ],
+            "text_labels": [
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Recent blog",
+            "width_approx": 1440,
+            "height_approx": 1334,
+            "role": "main_content",
+            "components": [
+              "Recent blog",
+              "Button"
+            ],
+            "text_labels": [
+              "Our Latest Blog"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1440,
+            "height_approx": 912,
+            "role": "main_content",
+            "components": [
+              "FAQ",
+              "add-01",
+              "subtract-line"
+            ],
+            "text_labels": [
+              "Frequently asked questions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "mail-open-02",
+              "Input",
+              "tail-icon",
+              "lead-icon",
+              "bookmark-02"
+            ],
+            "text_labels": [
+              "Revolutionizing your job search experience.",
+              "Discover a new way to find jobs, with tools and support designed to make your search faster, smarter, and more personalized."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 612,
+            "role": "main_content",
+            "components": [
+              "Component 3",
+              "Component 4",
+              "Component 7",
+              "Component 5",
+              "Footer",
+              "Component 2",
+              "Component 6"
+            ],
+            "text_labels": [
+              "4725 thornibirge, Connectiut 4926"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "blog",
+        "cta",
+        "faq",
+        "footer",
+        "recent blog"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AD_L52",
+      "name": "1440",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "1440",
+        "1280",
+        "1920"
+      ],
+      "screen_ids": [
+        "11649:5985",
+        "12152:44979",
+        "12152:41380"
+      ],
+      "count": 3,
+      "representative_screen": "11649:5985",
+      "representative_name": "1440",
+      "dimensions": {
+        "width": 1440,
+        "height": 4272
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x1108), Center main_content (1440x96), Center main_content (1440x998), Center main_content (1440x912), Center main_content (1440x546), Center main_content (1440x612)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Pricing",
+            "width_approx": 1440,
+            "height_approx": 1108,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "Navigation",
+              "Frame 2085666834"
+            ],
+            "text_labels": [
+              "Chose your right plan!",
+              "Chose from a range of flexible pricing plans tailored to meet the unique needs.",
+              "Adify",
+              "Home",
+              "Features",
+              "Find a job",
+              "Pricing",
+              "Blog"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company logo",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [
+              "Fictional company logo",
+              "Company logo"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Compare",
+            "width_approx": 1440,
+            "height_approx": 998,
+            "role": "main_content",
+            "components": [
+              "Compare"
+            ],
+            "text_labels": [
+              "Compare Plans"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1440,
+            "height_approx": 912,
+            "role": "main_content",
+            "components": [
+              "FAQ",
+              "add-01",
+              "subtract-line"
+            ],
+            "text_labels": [
+              "Frequently asked questions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "mail-open-02",
+              "Input",
+              "tail-icon",
+              "lead-icon",
+              "bookmark-02"
+            ],
+            "text_labels": [
+              "Revolutionizing your job search experience.",
+              "Discover a new way to find jobs, with tools and support designed to make your search faster, smarter, and more personalized."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 612,
+            "role": "main_content",
+            "components": [
+              "Component 3",
+              "Component 4",
+              "Component 7",
+              "Component 5",
+              "Footer",
+              "Component 2",
+              "Component 6"
+            ],
+            "text_labels": [
+              "4725 thornibirge, Connectiut 4926"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "company logo",
+        "compare",
+        "cta",
+        "faq",
+        "footer",
+        "pricing"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    }
+  ]
+}

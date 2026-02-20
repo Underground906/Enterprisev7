@@ -1,11 +1,11 @@
 # SYSTEM HEALTH REPORT
 
-**Generated:** 2026-02-17 14:43 UTC
+**Generated:** 2026-02-20 02:24 UTC
 
 | Metric | Value |
 |--------|-------|
-| Total files | 5663 |
-| Total size | 4887.5 MB |
+| Total files | 7751 |
+| Total size | 10192.2 MB |
 | Stale files (30+ days) | 0 |
 | Empty pillars | 8 / 23 |
 
@@ -13,34 +13,34 @@
 
 | Component | Count |
 |-----------|-------|
-| BUILD_FACTORY | 5553 |
+| BUILD_FACTORY | 7555 |
+| CORE_ENGINE | 84 |
 | DOMAIN_PILLARS | 34 |
-| CORE_ENGINE | 31 |
-| SYSTEM_ROOT | 14 |
-| NAVIGATION | 9 |
-| COMMAND_DECK | 9 |
-| TEMPLATE_HUB | 7 |
-| KNOWLEDGE_LIBRARY | 5 |
+| KNOWLEDGE_LIBRARY | 29 |
+| SYSTEM_ROOT | 15 |
+| COMMAND_DECK | 13 |
+| NAVIGATION | 12 |
+| TEMPLATE_HUB | 8 |
 | UNKNOWN | 1 |
 
 ## Files by Type
 
 | Type | Count |
 |------|-------|
-| other | 4724 |
-| template | 627 |
-| document | 80 |
-| data | 60 |
-| index | 49 |
+| other | 6541 |
+| template | 676 |
+| data | 224 |
+| document | 111 |
+| index | 53 |
 | code | 39 |
+| script | 36 |
+| prd | 27 |
 | context_doc | 25 |
-| prd | 25 |
-| script | 20 |
-| canon_doc | 8 |
+| canon_doc | 12 |
 | analysis_doc | 3 |
-| web | 1 |
-| schema | 1 |
+| web | 2 |
 | style | 1 |
+| schema | 1 |
 
 ## Pillar Status
 

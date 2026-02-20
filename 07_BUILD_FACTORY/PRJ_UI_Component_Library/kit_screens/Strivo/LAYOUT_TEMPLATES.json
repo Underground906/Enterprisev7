@@ -1,0 +1,220 @@
+{
+  "kit_name": "Strivo",
+  "file_key": "gX3vYcBHFTbMdSkgJOcTaV",
+  "total_screens": 49,
+  "unique_layouts": 8,
+  "reduction_percent": 84,
+  "layouts": [
+    {
+      "name": "Messages",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 900.0,
+      "child_count": 3,
+      "representative_screen": "108:18411",
+      "representative_name": "Messages",
+      "screens_using": 16,
+      "screen_ids": [
+        "108:18411",
+        "2276:72891",
+        "2276:73335",
+        "101:5700",
+        "89:5308",
+        "1652:56997",
+        "81:17103",
+        "1754:62633",
+        "411:21105",
+        "1597:66702",
+        "1641:53033",
+        "81:18678",
+        "1645:59108",
+        "1350:33736",
+        "1693:60945",
+        "1350:32399"
+      ],
+      "screen_names": [
+        "Messages",
+        "Messages (Typing)",
+        "Messages (New Message)",
+        "Tasks - Table",
+        "Tasks - Kanban",
+        "Tasks - Calendar",
+        "Events - Schedule",
+        "Events - Calendar",
+        "Projects (Tile View)",
+        "Project Details - Overview",
+        "Project Details - Discussions",
+        "Project Details - Team Members",
+        "Project Details - Team Members - Pending Invites",
+        "Project Details - Files",
+        "Settings - Upgrade Plan",
+        "Integrations"
+      ]
+    },
+    {
+      "name": "Project Details - Tasks",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 900.0,
+      "child_count": 4,
+      "representative_screen": "1635:60886",
+      "representative_name": "Project Details - Tasks",
+      "screens_using": 9,
+      "screen_ids": [
+        "1635:60886",
+        "1637:50850",
+        "1639:53642",
+        "90:15162",
+        "1673:58019",
+        "1679:57020",
+        "1696:60080",
+        "1675:55882",
+        "1703:57878"
+      ],
+      "screen_names": [
+        "Project Details - Tasks",
+        "Project Details - Tasks - Messages",
+        "Project Details - Tasks - Messages",
+        "Settings - Profile Information",
+        "Settings - Profile Information",
+        "Settings - Profile Information",
+        "Settings - Payment",
+        "Settings - Email Preferences",
+        "Settings - Account Information"
+      ]
+    },
+    {
+      "name": "Dashboard - Notifications Overlay",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 900.0,
+      "child_count": 5,
+      "representative_screen": "2267:69029",
+      "representative_name": "Dashboard - Notifications Overlay",
+      "screens_using": 8,
+      "screen_ids": [
+        "2267:69029",
+        "2762:82853",
+        "2274:57817",
+        "2274:59038",
+        "2274:60312",
+        "2278:51845",
+        "2278:52538",
+        "2761:81975"
+      ],
+      "screen_names": [
+        "Dashboard - Notifications Overlay",
+        "Messages (Member Details)",
+        "Tasks - Kanban (Add Task)",
+        "Tasks - Kanban (Add Task)",
+        "Tasks - Kanban (Task Details)",
+        "Events - Add Event",
+        "Events - Add Event (Filled)",
+        "Project Details - Team Members - Invite Teammates"
+      ]
+    },
+    {
+      "name": "Add New Project",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 900.0,
+      "child_count": 1,
+      "representative_screen": "33:4994",
+      "representative_name": "Add New Project",
+      "screens_using": 7,
+      "screen_ids": [
+        "33:4994",
+        "411:20603",
+        "1483:34311",
+        "1536:48286",
+        "1578:47681",
+        "1578:56323",
+        "1535:46825"
+      ],
+      "screen_names": [
+        "Add New Project",
+        "Add New Project (Filled)",
+        "Create Account",
+        "Confirm Email",
+        "Recover Password",
+        "Check Inbox",
+        "Sign in"
+      ]
+    },
+    {
+      "name": "Onboarding (Step 1)",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 900.0,
+      "child_count": 2,
+      "representative_screen": "1537:51142",
+      "representative_name": "Onboarding (Step 1)",
+      "screens_using": 5,
+      "screen_ids": [
+        "1537:51142",
+        "1578:53327",
+        "1578:49033",
+        "1578:54750",
+        "1578:51968"
+      ],
+      "screen_names": [
+        "Onboarding (Step 1)",
+        "Onboarding (Step 2)",
+        "Onboarding (Step 3)",
+        "Onboarding (Step 3)",
+        "Onboarding (Step 4)"
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1652.0,
+      "child_count": 4,
+      "representative_screen": "270:16607",
+      "representative_name": "Dashboard",
+      "screens_using": 2,
+      "screen_ids": [
+        "270:16607",
+        "2267:67918"
+      ],
+      "screen_names": [
+        "Dashboard",
+        "Dashboard (Side-menu collapsed)"
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1320.0,
+      "child_count": 6,
+      "representative_screen": "78:15290",
+      "representative_name": "Dashboard",
+      "screens_using": 1,
+      "screen_ids": [
+        "78:15290"
+      ],
+      "screen_names": [
+        "Dashboard"
+      ]
+    },
+    {
+      "name": "Projects (Grid View)",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 996.0,
+      "child_count": 3,
+      "representative_screen": "28:6163",
+      "representative_name": "Projects (Grid View)",
+      "screens_using": 1,
+      "screen_ids": [
+        "28:6163"
+      ],
+      "screen_names": [
+        "Projects (Grid View)"
+      ]
+    }
+  ],
+  "generated_at": "2026-02-20T00:12:44.382904"
+}

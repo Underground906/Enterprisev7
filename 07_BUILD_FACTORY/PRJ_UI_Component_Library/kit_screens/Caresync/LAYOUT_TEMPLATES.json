@@ -1,0 +1,2641 @@
+{
+  "kit": "Caresync",
+  "file_key": "rpAaabZ8WnW6yT4vHXhpIA",
+  "analyzed_at": "2026-02-19T18:59:19.046284",
+  "unique_layouts": 19,
+  "total_screens": 47,
+  "dedup_ratio": "47 screens -> 19 templates (40%)",
+  "layouts": [
+    {
+      "layout_id": "CA_L1",
+      "name": "Cover",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Cover"
+      ],
+      "screen_ids": [
+        "2683:2"
+      ],
+      "count": 1,
+      "representative_screen": "2683:2",
+      "representative_name": "Cover",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2840x4260), Center main_content (812x655), Center main_content (914x156)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "mockup (3)",
+            "width_approx": 2840,
+            "height_approx": 4260,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000001077",
+            "width_approx": 812,
+            "height_approx": 655,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "SaaS App UI KIT",
+              "Company Management Dashboard",
+              "CareSync"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000001076",
+            "width_approx": 914,
+            "height_approx": 156,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "70+ Pre-built Page Templates",
+              "Responsive Ready",
+              "100+ Ready Icons"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L2",
+      "name": "7 0 3 Profile - Dropdown - Expand - Log out",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "7 0 3 Profile - Dropdown - Expand - Log out",
+        "1 0 6 - Home Page - Filled - Expand - Search"
+      ],
+      "screen_ids": [
+        "281:24409",
+        "65:1736"
+      ],
+      "count": 2,
+      "representative_screen": "281:24409",
+      "representative_name": "7 0 3 Profile - Dropdown - Expand - Log out",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1110x984), Center main_content (1084x1274), Center main_content (1440x1024), Center main_content (374x281)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "image",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Popup",
+            "width_approx": 374,
+            "height_approx": 281,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Are you sure you want to log out?",
+              "You'll be logged out from your account. You can log back in anytime.",
+              "Cancel",
+              "Log Out"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L3",
+      "name": "4 0 2 Appointments - Filled - Expand - Popup step 1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "4 0 2 Appointments - Filled - Expand - Popup step 1",
+        "4 0 3 Appointments - Filled - Expand - Popup step 2",
+        "4 0 4 Appointments - Filled - Expand - Popup step 3",
+        "3 0 3 - Patients - Popup - Collapse",
+        "2 0 5 - Schedule - Filled - Collapse",
+        "2 0 3 - Schedule - Filled - Collapse - Add new schedule"
+      ],
+      "screen_ids": [
+        "3:7386",
+        "3:7487",
+        "3:7609",
+        "3:5389",
+        "81:283",
+        "3:5332"
+      ],
+      "count": 6,
+      "representative_screen": "3:7386",
+      "representative_name": "4 0 2 Appointments - Filled - Expand - Popup step 1",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1110x984), Center main_content (1084x1274), Center main_content (1440x1024), Center main_content (1440x1024), Center main_content (393x634)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "image",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Popup",
+            "width_approx": 393,
+            "height_approx": 634,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "STEP 1",
+              "Patients",
+              "STEP 2",
+              "Doctor",
+              "STEP 3",
+              "Details",
+              "Add appointments",
+              "A",
+              "B",
+              "Search patient name",
+              "Next"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "map",
+        "media",
+        "notifications",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L4",
+      "name": "0 2 0 - Sign up - Empty",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "0 2 0 - Sign up - Empty",
+        "0 2 1 - Sign up -Typing",
+        "0 2 2 - Sign up - Filled",
+        "0 1 0 - Login - Empty",
+        "0 1 1 - Login - Error",
+        "0 1 2 - Login - Filled"
+      ],
+      "screen_ids": [
+        "15:106",
+        "16:258",
+        "16:355",
+        "6:19968",
+        "13:21634",
+        "13:21785"
+      ],
+      "count": 6,
+      "representative_screen": "15:106",
+      "representative_name": "0 2 0 - Sign up - Empty",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1110x984), Center main_content (1084x1274), Center main_content (780x984), Center main_content (208x46), Center main_content (360x614), Center main_content (708x359)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 780,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Logo",
+            "width_approx": 208,
+            "height_approx": 46,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "CareSync"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 360,
+            "height_approx": 614,
+            "role": "main_content",
+            "components": [
+              "Single"
+            ],
+            "text_labels": [
+              "Let’s get started.",
+              "insightful overview of patient recovery and ongoing care",
+              "Name",
+              "Email",
+              "Password",
+              "Create account",
+              "Don’t have an account? Log in"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 708,
+            "height_approx": 359,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Effortless Care",
+              "Streamlining hospital operations to enhance efficiency, improve workflows, and ensure exceptional care for every patient. Empower healthcare teams with tools designed to simplify tasks and focus on delivering quality outcomes."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "single"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L5",
+      "name": "0 0 0 - Splash Screen",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "0 0 0 - Splash Screen"
+      ],
+      "screen_ids": [
+        "15:54"
+      ],
+      "count": 1,
+      "representative_screen": "15:54",
+      "representative_name": "0 0 0 - Splash Screen",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1110x984), Center main_content (1084x1274), Center main_content (398x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Logo",
+            "width_approx": 398,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "CareSync"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L6",
+      "name": "Desktop - Regular",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Desktop - Regular",
+        "Desktop - Medium",
+        "Desktop - Bold"
+      ],
+      "screen_ids": [
+        "207:2839",
+        "207:6068",
+        "207:6412"
+      ],
+      "count": 3,
+      "representative_screen": "207:2839",
+      "representative_name": "Desktop - Regular",
+      "dimensions": {
+        "width": 2280,
+        "height": 1625
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (287x56), Center main_content (2088x1329)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Title",
+            "width_approx": 287,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Typography / Regular"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 2088,
+            "height_approx": 1329,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "CLASS NAME",
+              "FONT FAMILY",
+              "FONT WEIGHT",
+              "FONT SIZE",
+              "LETTER SPACING",
+              "LINE HEIGHT",
+              "EXAMPLE",
+              "Heading 1",
+              "Inter",
+              "Regular",
+              "43px",
+              "0%",
+              "Auto",
+              "Good, cheap flights still exist. Here’s how you can find them.",
+              "Heading 2"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L7",
+      "name": "Desktop - Semibold",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "Desktop - Semibold",
+        "Colors"
+      ],
+      "screen_ids": [
+        "207:6240",
+        "214:16804"
+      ],
+      "count": 2,
+      "representative_screen": "207:6240",
+      "representative_name": "Desktop - Semibold",
+      "dimensions": {
+        "width": 2280,
+        "height": 1650
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (308x56), Center main_content (2088x1354)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Title",
+            "width_approx": 308,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Typography / Semibold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 2088,
+            "height_approx": 1354,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "CLASS NAME",
+              "FONT FAMILY",
+              "FONT WEIGHT",
+              "FONT SIZE",
+              "LETTER SPACING",
+              "LINE HEIGHT",
+              "EXAMPLE",
+              "Heading 1",
+              "Inter",
+              "Semibold",
+              "43px",
+              "0%",
+              "Auto",
+              "Good, cheap flights still exist. Here’s how you can find them.",
+              "Heading 2"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L8",
+      "name": "General Icon",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "General Icon"
+      ],
+      "screen_ids": [
+        "214:15014"
+      ],
+      "count": 1,
+      "representative_screen": "214:15014",
+      "representative_name": "General Icon",
+      "dimensions": {
+        "width": 2720,
+        "height": 2892
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2284x225), Center main_content (2284x345), Center main_content (2424x245), Center main_content (2148x245), Center main_content (2424x245), Center main_content (2424x245), Center main_content (2424x445), Center main_content (1200x145)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 2284,
+            "height_approx": 225,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Navigation"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Action",
+            "width_approx": 2284,
+            "height_approx": 345,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Action"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Device",
+            "width_approx": 2424,
+            "height_approx": 245,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Media"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Communication",
+            "width_approx": 2148,
+            "height_approx": 245,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Communication"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Maps",
+            "width_approx": 2424,
+            "height_approx": 245,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Maps"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Maps",
+            "width_approx": 2424,
+            "height_approx": 245,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Devices"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "System",
+            "width_approx": 2424,
+            "height_approx": 445,
+            "role": "main_content",
+            "components": [
+              "icon"
+            ],
+            "text_labels": [
+              "Icons / System"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Others",
+            "width_approx": 1200,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Icons / Transportation"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icon"
+      ],
+      "capabilities": [
+        "map",
+        "media",
+        "navigation",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L9",
+      "name": "7 0 1 Profile - Dropdown - Expand - Detail",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "7 0 1 Profile - Dropdown - Expand - Detail",
+        "5 0 2 Employee - Details - Filled - Expand",
+        "3 0 4 - Patients - Details - Expand"
+      ],
+      "screen_ids": [
+        "25:3600",
+        "3:7058",
+        "3:8406"
+      ],
+      "count": 3,
+      "representative_screen": "25:3600",
+      "representative_name": "7 0 1 Profile - Dropdown - Expand - Detail",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (1164x334), Center main_content (378x242), Center main_content (435x113), Center main_content (378x226), Center main_content (435x355), Center main_content (319x484), Center main_content (127x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 1164,
+            "height_approx": 334,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Call",
+              "Chat",
+              "Active",
+              "Full-time",
+              "Guy Hawkins",
+              "Admin",
+              "About",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+              "Edit profile"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 378,
+            "height_approx": 242,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Employment",
+              "15",
+              "Years of experiences since 2010",
+              "Salary",
+              "10k",
+              "Dollar’s paid per years",
+              "Educations",
+              "Harvard University",
+              "Massachusetts Hall, Cambridge, United States"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 435,
+            "height_approx": 113,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Working duration",
+              "08h 10m 06s",
+              "Clock out"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 378,
+            "height_approx": 226,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Satisfaction",
+              "90%",
+              "10%",
+              "Impression",
+              "Good",
+              "6.000",
+              "People are happy with its performance"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 435,
+            "height_approx": 355,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Attendance report",
+              "Tracks attendance and punctuality efficiently.",
+              "08.00 AM",
+              "01.00 PM",
+              "06.00 PM",
+              "08.00 PM",
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thu",
+              "Fri",
+              "This month"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 319,
+            "height_approx": 484,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Today task",
+              "11.00",
+              "Staff Scheduling Workshop",
+              "Learn to create efficient staff schedules for 24/7 hospital operations.",
+              "February 16, 2025",
+              "Inventory Management Training",
+              "A quick session on tracking and managing hospital supplies.",
+              "February 16, 2025",
+              "Emergency Response Drill",
+              "Practice protocols for handling hospital emergencies effectively.",
+              "February 16, 2025"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Profile",
+            "width_approx": 127,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Profile"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "editing",
+        "form",
+        "map",
+        "messaging",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L10",
+      "name": "7 0 2 Profile - Dropdown - Expand - Settings",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "7 0 2 Profile - Dropdown - Expand - Settings",
+        "6 0 0 Help center - Expand",
+        "5 0 1 Employee - Filled - Expand",
+        "4 0 1 Appointments - Filled - Expand"
+      ],
+      "screen_ids": [
+        "58:1202",
+        "3:6931",
+        "3:6717",
+        "3:6166"
+      ],
+      "count": 4,
+      "representative_screen": "58:1202",
+      "representative_name": "7 0 2 Profile - Dropdown - Expand - Settings",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (165x48), Center main_content (1164x44), Center main_content (1164x884)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Settings",
+            "width_approx": 165,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Settings"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Filter",
+            "width_approx": 1164,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "General",
+              "Security & Access",
+              "Data Management",
+              "API & Integrations"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1164,
+            "height_approx": 884,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "General notifications",
+              "Delivery methods",
+              "Language & region"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "form",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L11",
+      "name": "6 0 1 Help center - Filled - Expand",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "6 0 1 Help center - Filled - Expand"
+      ],
+      "screen_ids": [
+        "73:115"
+      ],
+      "count": 1,
+      "representative_screen": "73:115",
+      "representative_name": "6 0 1 Help center - Filled - Expand",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (1164x209), Center main_content (937x855), Center main_content (185x212), Center main_content (212x17)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1164,
+            "height_approx": 209,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Getting Started",
+              "Learn how to log in, set up your account, and navigate the main features."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 937,
+            "height_approx": 855,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Logging In",
+              "To access the dashboard, follow these steps:",
+              "Open the login page.\nEnter your employee ID and password.\nClick \"Sign In\".\nIf it's your first time logging in, you may be prompted to reset your password.\nIf you forget your password, click \"Forgot Password?\" to reset it.",
+              "Dashboard Overview",
+              "After logging in, you’ll see the main dashboard, which includes:",
+              "✅ Quick Stats – View patient count, appointments, and system alerts. ✅ Navigation Menu – Access different sections like Patients, Appointments, Billing, and Reports. ✅ Recent Activities – Track updates and changes in real time. ✅ Search Bar – Quickly find patient records, invoices, or staff schedules.",
+              "Updating Profile",
+              "To access the dashboard, follow these steps:",
+              "Open the login page.\nEnter your employee ID and password.\nClick \"Sign In\".\nIf it's your first time logging in, you may be prompted to reset your password.\nIf you forget your password, click \"Forgot Password?\" to reset it."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 185,
+            "height_approx": 212,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Logging in",
+              "Dashboard Overview",
+              "Updating Profile",
+              "Managing Patients",
+              "Managing Appointments",
+              "Billing & Payments"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Breadcrumb",
+            "width_approx": 212,
+            "height_approx": 17,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Help Center",
+              "Getting Started"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "e_commerce",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L12",
+      "name": "5 0 0 Employee - Filled - Expand",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "5 0 0 Employee - Filled - Expand"
+      ],
+      "screen_ids": [
+        "24:3386"
+      ],
+      "count": 1,
+      "representative_screen": "24:3386",
+      "representative_name": "5 0 0 Employee - Filled - Expand",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (192x48), Center main_content (1164x43), Center main_content (266x132)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Employee",
+            "width_approx": 192,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Employee"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Filter",
+            "width_approx": 1164,
+            "height_approx": 43,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "All",
+              "Doctor",
+              "Driver",
+              "Nurse",
+              "Office staff",
+              "Search"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000001146",
+            "width_approx": 266,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "No Appointments",
+              "You don't have any appointments yet",
+              "+add new"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L13",
+      "name": "4 0 0 Appointments - Filled - Expand",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "4 0 0 Appointments - Filled - Expand"
+      ],
+      "screen_ids": [
+        "23:2835"
+      ],
+      "count": 1,
+      "representative_screen": "23:2835",
+      "representative_name": "4 0 0 Appointments - Filled - Expand",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (280x48), Center main_content (1164x43), Center main_content (1164x173), Center main_content (266x132)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Appointments",
+            "width_approx": 280,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Filter",
+            "width_approx": 1164,
+            "height_approx": 43,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "All",
+              "Accepted",
+              "In Queue",
+              "Urgent",
+              "Archive",
+              "Search"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 1164,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total patients",
+              "No Data",
+              "Appointments",
+              "No Data",
+              "Available room",
+              "No Data"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "No data",
+            "width_approx": 266,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "No Appointments",
+              "You don't have any appointments yet",
+              "+add new"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L14",
+      "name": "3 0 1 - Patients - Filled - Expand",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "3 0 1 - Patients - Filled - Expand",
+        "3 0 0 - Patients - Filled - Expand",
+        "3 0 2 - Patients - Filled - Collapse"
+      ],
+      "screen_ids": [
+        "3:5440",
+        "23:2109",
+        "3:7679"
+      ],
+      "count": 3,
+      "representative_screen": "3:5440",
+      "representative_name": "3 0 1 - Patients - Filled - Expand",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (162x48), Center main_content (1164x817), Center main_content (316x173), Center main_content (316x173), Center main_content (832x362)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Patients",
+            "width_approx": 162,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 1164,
+            "height_approx": 817,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Search",
+              "Day",
+              "Week",
+              "Month",
+              "123 Main Street, New York",
+              "Male",
+              "Outpatient",
+              "789 Pine Street, Chicago",
+              "Male",
+              "Inpatient",
+              "234 Cedar Road, Miami",
+              "Female",
+              "Emergency",
+              "567 Oak Street, Houston",
+              "Male"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total patients",
+              "221",
+              "Patient count has dropped 25%",
+              "25%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "160",
+              "Appointments have increased by 20%",
+              "20%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 832,
+            "height_approx": 362,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patient locations",
+              "400",
+              "Total patients",
+              "300",
+              "Local Patients",
+              "100",
+              "Foreigner country",
+              "No patients",
+              "1-20 patients",
+              "21-50 patients",
+              "51-100 patients",
+              "100+ patients"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "map",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L15",
+      "name": "2 0 1 - Schedule - Filled - Expand",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "2 0 1 - Schedule - Filled - Expand",
+        "2 0 0 - Schedule - Filled - Expand",
+        "2 0 2 - Schedule - Filled - Collapse"
+      ],
+      "screen_ids": [
+        "3:4572",
+        "23:1891",
+        "3:4790"
+      ],
+      "count": 3,
+      "representative_screen": "3:4572",
+      "representative_name": "2 0 1 - Schedule - Filled - Expand",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (1164x884), Center main_content (1164x52)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.0, Copyright Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1164,
+            "height_approx": 884,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Search",
+              "01:00 PM",
+              "02:00 PM",
+              "02:00 AM",
+              "03:00 PM",
+              "04:00 PM",
+              "Family Medicine Checkups",
+              "Brain Tumor Removal",
+              "01:30 PM - 02:45 PM",
+              "Dr. Robert Taylor",
+              "Critical Care Monitoring",
+              "01:30 PM - 02:45 PM",
+              "Nurse Anna Lee",
+              "Coronary Artery Bypass",
+              "01:30 PM - 02:45 PM"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Filter",
+            "width_approx": 1164,
+            "height_approx": 52,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Schedule",
+              "Tue, Sep 17",
+              "Day",
+              "Week",
+              "Month"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "calendar",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L16",
+      "name": "2 0 4 - Schedule - Filled - Collapse - Calendar",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "2 0 4 - Schedule - Filled - Collapse - Calendar"
+      ],
+      "screen_ids": [
+        "3:5006"
+      ],
+      "count": 1,
+      "representative_screen": "3:5006",
+      "representative_name": "2 0 4 - Schedule - Filled - Collapse - Calendar",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (103x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (1281x884), Center main_content (1281x52), Center main_content (352x353)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1281,
+            "height_approx": 884,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Search",
+              "01:00 PM",
+              "02:00 PM",
+              "02:00 AM",
+              "03:00 PM",
+              "04:00 PM",
+              "Family Medicine Checkups",
+              "01:30 PM - 02:45 PM",
+              "Dr. John Smith",
+              "Brain Tumor Removal",
+              "01:30 PM - 02:45 PM",
+              "Dr. Robert Taylor",
+              "Critical Care Monitoring",
+              "01:30 PM - 02:45 PM",
+              "Nurse Anna Lee"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Filter",
+            "width_approx": 1281,
+            "height_approx": 52,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Schedule",
+              "Wed, Sep 17",
+              "Day",
+              "Week",
+              "Month"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 103,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Schedule",
+              "Home",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "Menu",
+              "v1.0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Calendar",
+            "width_approx": 352,
+            "height_approx": 353,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "September 2024",
+              "Save"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "typography"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L17",
+      "name": "1 0 1 - Home Page - Filled - Expand",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "1 0 1 - Home Page - Filled - Expand",
+        "1 0 0 - Home Page - Empty - Expand",
+        "1 0 2 - Home Page - Filled - Collapse",
+        "1 0 4 - Home Page - Filled - Appointment dropdown",
+        "1 0 5 - Home Page - Filled - Patients dropdown"
+      ],
+      "screen_ids": [
+        "3:40",
+        "23:446",
+        "3:1485",
+        "280:2148",
+        "280:3714"
+      ],
+      "count": 5,
+      "representative_screen": "3:40",
+      "representative_name": "1 0 1 - Home Page - Filled - Expand",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (306x972), Center main_content (510x274), Center main_content (510x451), Center main_content (414x315), Center main_content (414x315), Center main_content (316x173), Center main_content (316x173), Center main_content (316x173), Center main_content (316x173)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.6.5 © Copyright 2024 Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 306,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "Today",
+              "Jenny Wilson",
+              "Headache Disease",
+              "Guy Hawkins",
+              "Abdominal Pain",
+              "Robert Fox",
+              "Swelling",
+              "Kristin Watson",
+              "Weight Loss",
+              "Cody Fisher",
+              "Difficulty Swallowing",
+              "Robert Fox",
+              "Headache Disease",
+              "Call"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 510,
+            "height_approx": 274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients",
+              "insightful overview of patient recovery and ongoing care",
+              "125",
+              "Under treatment",
+              "96",
+              "Recovered",
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "100",
+              "90"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 510,
+            "height_approx": 451,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Polyclinics",
+              "Key statistics on the most frequently visited polyclinics",
+              "Monthly",
+              "200 Visitors",
+              "320 Visitors",
+              "100 Visitors",
+              "80 Visitors",
+              "Obstetrics and Gynecology",
+              "200 Visitors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 414,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients Gender",
+              "Offering insights into male and female representation",
+              "25%",
+              "75%",
+              "Male",
+              "100",
+              "Female",
+              "90",
+              "Total",
+              "100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 414,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Doctor & Nurses",
+              "Overview of the distribution between doctors and nurses",
+              "Lorem ipsum dolor sit amet.",
+              "Lorem ipsum dolor sit amet."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total patients",
+              "221",
+              "Patient count has dropped 25%",
+              "25%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "160",
+              "Appointments have increased by 20%",
+              "20%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Available room",
+              "75%",
+              "25%",
+              "200",
+              "75% available and 25% unavailable"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total ambulance",
+              "100",
+              "Ambulances increased by 25%",
+              "25%"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "messaging",
+        "navigation",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L18",
+      "name": "1 0 7 - Home Page - Filled - Notifications",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "1 0 7 - Home Page - Filled - Notifications"
+      ],
+      "screen_ids": [
+        "65:4832"
+      ],
+      "count": 1,
+      "representative_screen": "65:4832",
+      "representative_name": "1 0 7 - Home Page - Filled - Notifications",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1440x98), Left navigation_sidebar (103x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (369x972), Center main_content (550x274), Center main_content (550x451), Center main_content (432x315), Center main_content (434x315), Center main_content (316x173), Center main_content (316x173), Center main_content (316x173), Center main_content (316x173), Center main_content (352x367)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 103,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "Menu",
+              "v1.0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 369,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "Today",
+              "Jenny Wilson",
+              "Headache Disease",
+              "Guy Hawkins",
+              "Abdominal Pain",
+              "Robert Fox",
+              "Swelling",
+              "Kristin Watson",
+              "Weight Loss",
+              "Cody Fisher",
+              "Difficulty Swallowing",
+              "Robert Fox",
+              "Headache Disease",
+              "Call"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 550,
+            "height_approx": 274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients",
+              "insightful overview of patient recovery and ongoing care",
+              "125",
+              "Under treatment",
+              "96",
+              "Recovered",
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 550,
+            "height_approx": 451,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Polyclinics",
+              "Key statistics on the most frequently visited polyclinics",
+              "Monthly",
+              "200 Visitors",
+              "320 Visitors",
+              "100 Visitors",
+              "80 Visitors",
+              "Obstetrics and Gynecology",
+              "200 Visitors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 432,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients Gender",
+              "Offering insights into male and female representation",
+              "25%",
+              "75%",
+              "Male",
+              "100",
+              "Female",
+              "90",
+              "Total",
+              "100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 434,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Doctor & Nurses",
+              "Overview of the distribution between doctors and nurses",
+              "Lorem ipsum dolor sit amet.",
+              "Lorem ipsum dolor sit amet."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total patients",
+              "221",
+              "Patient count has dropped 25%",
+              "25%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "160",
+              "Appointments have increased by 20%",
+              "20%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Available room",
+              "75%",
+              "25%",
+              "200",
+              "75% available and 25% unavailable"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total ambulance",
+              "100",
+              "Ambulances increased by 25%",
+              "25%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Dropdown",
+            "width_approx": 352,
+            "height_approx": 367,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Notifications",
+              "Newest",
+              "Yesterday"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CA_L19",
+      "name": "7 0 0 Profile - Dropdown",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|right:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "7 0 0 Profile - Dropdown",
+        "1 0 3 - Home Page - Filled - Profile Dropdown"
+      ],
+      "screen_ids": [
+        "2690:2205",
+        "3:3022"
+      ],
+      "count": 2,
+      "representative_screen": "2690:2205",
+      "representative_name": "7 0 0 Profile - Dropdown",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Top header (1440x98), Left navigation_sidebar (229x926), Center main_content (1110x984), Center main_content (1084x1274), Center main_content (306x972), Center main_content (510x274), Center main_content (510x451), Center main_content (414x315), Center main_content (414x315), Center main_content (316x173), Center main_content (316x173), Center main_content (316x173), Center main_content (316x173), Right navigation_sidebar (169x130)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1110,
+            "height_approx": 984,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bg",
+            "width_approx": 1084,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 98,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "CareSync",
+              "Guy Hawkins",
+              "Search"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Control",
+            "width_approx": 229,
+            "height_approx": 926,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Schedule",
+              "Patients",
+              "Appointment",
+              "Employee",
+              "Help Center",
+              "Log Out",
+              "v1.6.5 © Copyright 2024 Agensip"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 306,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "Today",
+              "Jenny Wilson",
+              "Headache Disease",
+              "Guy Hawkins",
+              "Abdominal Pain",
+              "Robert Fox",
+              "Swelling",
+              "Kristin Watson",
+              "Weight Loss",
+              "Cody Fisher",
+              "Difficulty Swallowing",
+              "Robert Fox",
+              "Headache Disease",
+              "Call"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 510,
+            "height_approx": 274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients",
+              "insightful overview of patient recovery and ongoing care",
+              "125",
+              "Under treatment",
+              "96",
+              "Recovered",
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "100",
+              "90"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 510,
+            "height_approx": 451,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Polyclinics",
+              "Key statistics on the most frequently visited polyclinics",
+              "Monthly",
+              "200 Visitors",
+              "320 Visitors",
+              "100 Visitors",
+              "80 Visitors",
+              "Obstetrics and Gynecology",
+              "200 Visitors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 414,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Patients Gender",
+              "Offering insights into male and female representation",
+              "25%",
+              "75%",
+              "Male",
+              "100",
+              "Female",
+              "90",
+              "Total",
+              "100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 414,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Doctor & Nurses",
+              "Overview of the distribution between doctors and nurses",
+              "Lorem ipsum dolor sit amet.",
+              "Lorem ipsum dolor sit amet."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total patients",
+              "221",
+              "Patient count has dropped 25%",
+              "25%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Appointments",
+              "160",
+              "Appointments have increased by 20%",
+              "20%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Available room",
+              "75%",
+              "25%",
+              "200",
+              "75% available and 25% unavailable"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card",
+            "width_approx": 316,
+            "height_approx": 173,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Total ambulance",
+              "100",
+              "Ambulances increased by 25%",
+              "25%"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Popup",
+            "width_approx": 169,
+            "height_approx": 130,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Profile",
+              "Settings",
+              "Log out"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    }
+  ]
+}

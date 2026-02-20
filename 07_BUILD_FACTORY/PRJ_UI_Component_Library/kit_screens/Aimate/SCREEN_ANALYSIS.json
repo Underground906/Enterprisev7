@@ -1,0 +1,5194 @@
+{
+  "kit_name": "Aimate",
+  "file_key": "EXhqJe4YbbyS0Hegl8OEDk",
+  "analyzed_at": "2026-02-19T20:07:36.644068",
+  "summary": {
+    "total_screens_found": 31,
+    "light_desktop_screens": 31,
+    "variant_screens_skipped": 0,
+    "layout_types": {
+      "full_canvas": 28,
+      "cards_grid": 3
+    }
+  },
+  "screens": [
+    {
+      "screen_id": "5:8",
+      "screen_name": "thumbnail",
+      "page": "🏞️ Cover",
+      "path": "🏞️ Cover/thumbnail",
+      "node_type": "FRAME",
+      "depth_found": 1,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1298,
+        "height": 779
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (768x146)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 768,
+            "height_approx": 146,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "aimate"
+            ]
+          }
+        ]
+      },
+      "capabilities": [],
+      "all_text_content": [
+        "aimate"
+      ],
+      "component_count": 0,
+      "total_descendants": 3,
+      "nested_components": []
+    },
+    {
+      "screen_id": "246:1983",
+      "screen_name": "faqs",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/faqs",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 850
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x626)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 626,
+            "role": "main_content",
+            "components": [
+              "FAQs"
+            ],
+            "text_labels": [
+              "FAQs",
+              "We're here to answer all your questions."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "messaging"
+      ],
+      "all_text_content": [
+        "FAQs",
+        "We're here to answer all your questions.",
+        "What are AI-driven chatbots?",
+        "AI-driven chatbots are virtual assistants powered by artificial intelligence technology, capable of understanding and responding to user queries autonomously.",
+        "How can AI chatbots benefit my business?",
+        "AI chatbots can enhance customer support by providing instant responses, improving efficiency, and offering personalized interactions, ultimately enhancing customer satisfaction and loyalty.",
+        "What industries can benefit from AI chatbots?",
+        "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences.",
+        "How are AI chatbots trained?",
+        "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences.",
+        "How are AI chatbots trained?",
+        "AI chatbots are trained using machine learning algorithms on large datasets of conversational data. They learn to understand user intents and respond accordingly through iterative training processes."
+      ],
+      "component_count": 5,
+      "total_descendants": 45,
+      "nested_components": [
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 124.0,
+          "text": [
+            "What are AI-driven chatbots?",
+            "AI-driven chatbots are virtual assistants powered by artificial intelligence technology, capable of understanding and responding to user queries autonomously."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How can AI chatbots benefit my business?",
+            "AI chatbots can enhance customer support by providing instant responses, improving efficiency, and offering personalized interactions, ultimately enhancing customer satisfaction and loyalty."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "What industries can benefit from AI chatbots?",
+            "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How are AI chatbots trained?",
+            "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How are AI chatbots trained?",
+            "AI chatbots are trained using machine learning algorithms on large datasets of conversational data. They learn to understand user intents and respond accordingly through iterative training processes."
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "181:1069",
+      "screen_name": "blogs",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/blogs",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 935
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x711)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 711,
+            "role": "main_content",
+            "components": [
+              "blog-card",
+              "button-outlined"
+            ],
+            "text_labels": [
+              "News and articles",
+              "Stay informed with our curated collection of news and articles, offering insights, and  information in the industry.",
+              "See more"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "content_creation",
+        "form"
+      ],
+      "all_text_content": [
+        "News and articles",
+        "Stay informed with our curated collection of news and articles, offering insights, and  information in the industry.",
+        "Business",
+        "Jan 11, 2024",
+        "5 min read",
+        "Aimate transforms customer support experiences with AI",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "5 min read",
+        "Shaping future of seamless customer interactions with AI",
+        "Read more",
+        "See more"
+      ],
+      "component_count": 3,
+      "total_descendants": 41,
+      "nested_components": [
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 400.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "5 min read",
+            "Aimate transforms customer support experiences with AI"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 400.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "5 min read",
+            "Shaping future of seamless customer interactions with AI"
+          ]
+        },
+        {
+          "name": "button-outlined",
+          "type": "INSTANCE",
+          "component_id": "129:1040",
+          "width": 118.0,
+          "height": 48.0,
+          "text": [
+            "See more"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "170:1137",
+      "screen_name": "testimonials-section",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/testimonials-section",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 858
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (928x690)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "testimonials",
+            "width_approx": 928,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Star",
+              "Quote Icon",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Endorsed by industry leaders",
+              "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "profile"
+      ],
+      "all_text_content": [
+        "Endorsed by industry leaders",
+        "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+        "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+        "John Doe",
+        "Managing Director, Spherule",
+        "“",
+        "87%",
+        "Increase in customer satisfaction",
+        "38%",
+        "Increase in operational efficiency"
+      ],
+      "component_count": 11,
+      "total_descendants": 75,
+      "nested_components": [
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:85",
+          "width": 110.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:121",
+          "width": 110.66667175292969,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:205",
+          "width": 100.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:181",
+          "width": 118.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:131",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        },
+        {
+          "name": "Quote Icon",
+          "type": "INSTANCE",
+          "component_id": "170:1016",
+          "width": 48.0,
+          "height": 48.0,
+          "text": [
+            "“"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "143:1136",
+      "screen_name": "pricing",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/pricing",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1035
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (702x58), Center main_content (1120x753)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Plans for every stage of company",
+            "width_approx": 702,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Plans for every stage of company"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "pricing",
+            "width_approx": 1120,
+            "height_approx": 753,
+            "role": "main_content",
+            "components": [
+              "button-outlined",
+              "features-icon",
+              "integration-icons",
+              "list",
+              "pricing"
+            ],
+            "text_labels": [
+              "Monthly",
+              "Yearly",
+              "Save 20% on yearly plan",
+              "Free",
+              "$18/m",
+              "$30/m"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "user_management"
+      ],
+      "all_text_content": [
+        "Plans for every stage of company",
+        "Monthly",
+        "Yearly",
+        "Save 20% on yearly plan",
+        "Starter plan",
+        "Ideal for startups and beginners, our Starter Plan is free for starters.",
+        "Free",
+        "Get started for free",
+        "500 interactions monthly",
+        "Basic knowledge base",
+        "Email support included",
+        "Community forum access",
+        "Single user license",
+        "Regular updates provided",
+        "Individual plan",
+        "Perfect for individual users looking for advanced features and flexibility.",
+        "$18/m",
+        "Get started",
+        "5,000 interactions monthly",
+        "Full knowledge base",
+        "Priority email support",
+        "Premium forum access",
+        "Multi-user capabilities",
+        "Weekly feature updates",
+        "Business plan",
+        "Tailored for businesses seeking comprehensive AI solutions.",
+        "$30/m",
+        "Get started",
+        "Unlimited interactions",
+        "Enhanced knowledge base",
+        "24/7 priority support",
+        "Exclusive webinar access",
+        "Team collaboration features",
+        "Daily advanced updates"
+      ],
+      "component_count": 1,
+      "total_descendants": 127,
+      "nested_components": [
+        {
+          "name": "pricing",
+          "type": "INSTANCE",
+          "component_id": "129:2050",
+          "width": 1120.0,
+          "height": 753.0,
+          "text": [
+            "Monthly",
+            "Yearly",
+            "Save 20% on yearly plan",
+            "Free",
+            "$18/m"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "143:1109",
+      "screen_name": "integration",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/integration",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 876
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x652)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "main-container",
+            "width_approx": 1120,
+            "height_approx": 652,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "integration"
+            ],
+            "text_labels": [
+              "INTEGRATION",
+              "Unifying your business tools",
+              "Connect Aimate effortlessly with your systems for streamlined operations and enhanced performance.",
+              "Get started for free"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "form"
+      ],
+      "all_text_content": [
+        "INTEGRATION",
+        "Unifying your business tools",
+        "Connect Aimate effortlessly with your systems for streamlined operations and enhanced performance.",
+        "Get started for free"
+      ],
+      "component_count": 9,
+      "total_descendants": 84,
+      "nested_components": [
+        {
+          "name": "button-cta",
+          "type": "INSTANCE",
+          "component_id": "69:17",
+          "width": 190.0,
+          "height": 48.0,
+          "text": [
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:464",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:438",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:503",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:896",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:875",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:920",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:904",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:912",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "143:1066",
+      "screen_name": "additional-feature",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/additional-feature",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1526
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (416x58), Center main_content (1120x700), Center main_content (1120x488)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Wait! There's more!",
+            "width_approx": 416,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Wait! There's more!"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "image",
+            "width_approx": 1120,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "features",
+            "width_approx": 1120,
+            "height_approx": 488,
+            "role": "main_content",
+            "components": [
+              "features"
+            ],
+            "text_labels": [
+              "Conversational Analytics",
+              "Gain insights into user interactions, improving chatbot performance and user satisfaction.",
+              "Multi-language support",
+              "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach.",
+              "Automated workflows",
+              "Streamline internal processes with automated workflows triggered by user interactions.",
+              "Integration with CRM",
+              "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history.",
+              "Analytics dashboard",
+              "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making.",
+              "Smart routing system",
+              "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "analytics",
+        "form",
+        "messaging"
+      ],
+      "all_text_content": [
+        "Wait! There's more!",
+        "Conversational Analytics",
+        "Gain insights into user interactions, improving chatbot performance and user satisfaction.",
+        "Multi-language support",
+        "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach.",
+        "Automated workflows",
+        "Streamline internal processes with automated workflows triggered by user interactions.",
+        "Integration with CRM",
+        "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history.",
+        "Analytics dashboard",
+        "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making.",
+        "Smart routing system",
+        "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+      ],
+      "component_count": 6,
+      "total_descendants": 58,
+      "nested_components": [
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Conversational Analytics",
+            "Gain insights into user interactions, improving chatbot performance and user satisfaction."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Multi-language support",
+            "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Automated workflows",
+            "Streamline internal processes with automated workflows triggered by user interactions."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Integration with CRM",
+            "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Analytics dashboard",
+            "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Smart routing system",
+            "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "143:1039",
+      "screen_name": "main-feature",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/main-feature",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1238
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (736x122), Center main_content (928x948)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "title-text",
+            "width_approx": 736,
+            "height_approx": 122,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Redefine customer support",
+              "Discover our AI's capabilities that revolutionize your startup's customer service landscape."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "features",
+            "width_approx": 928,
+            "height_approx": 948,
+            "role": "main_content",
+            "components": [
+              "UserCirclePlus",
+              "ChatsCircle",
+              "Files",
+              "UserPlus"
+            ],
+            "text_labels": [
+              "Train your chatbot using your specific data, allowing it to understand and respond to inquiries with context-awareness and personalized information.",
+              "Leverage the power of a trained chatbot to automate responses, handling routine queries effortlessly and providing instant, data-driven interactions.",
+              "Enhance support efficiency with our intelligent ticketing system, automating query management and prioritizing customer needs effectively and accurately.",
+              "Utilize insights from your data to personalize interactions, providing customers with responses and suggestions that align with their unique preferences and history."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "content_creation",
+        "file_management",
+        "form",
+        "messaging",
+        "search",
+        "settings"
+      ],
+      "all_text_content": [
+        "Redefine customer support",
+        "Discover our AI's capabilities that revolutionize your startup's customer service landscape.",
+        "Chat with our AI",
+        "Ask any questions and our AI will reply you",
+        "New conversation",
+        "Search and find information",
+        "Ask any questions and our AI will reply you",
+        "New conversation",
+        "Train a chatbot on your data",
+        "Train your chatbot using your specific data, allowing it to understand and respond to inquiries with context-awareness and personalized information.",
+        "Aimate",
+        "Online",
+        "Interactive virtual assistant",
+        "Leverage the power of a trained chatbot to automate responses, handling routine queries effortlessly and providing instant, data-driven interactions.",
+        "Create an issue ticket",
+        "Please let us know if something isn't working as expected.",
+        "Intelligent ticketing system",
+        "Enhance support efficiency with our intelligent ticketing system, automating query management and prioritizing customer needs effectively and accurately.",
+        "Aimate",
+        "Online",
+        "Aimate",
+        "Online",
+        "Personalized interactions",
+        "Utilize insights from your data to personalize interactions, providing customers with responses and suggestions that align with their unique preferences and history."
+      ],
+      "component_count": 10,
+      "total_descendants": 268,
+      "nested_components": [
+        {
+          "name": "ChatsCircle",
+          "type": "INSTANCE",
+          "component_id": "256:1243",
+          "width": 28.0,
+          "height": 28.0,
+          "text": []
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 15.633554458618164,
+          "height": 15.633554458618164,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 13.027962684631348,
+          "height": 13.027962684631348,
+          "text": []
+        },
+        {
+          "name": "UserPlus",
+          "type": "INSTANCE",
+          "component_id": "256:1279",
+          "width": 28.0,
+          "height": 28.0,
+          "text": []
+        },
+        {
+          "name": "Files",
+          "type": "INSTANCE",
+          "component_id": "256:1391",
+          "width": 28.0,
+          "height": 28.0,
+          "text": []
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 10.291773796081543,
+          "height": 10.291773796081543,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 8.576478004455566,
+          "height": 8.576478004455566,
+          "text": []
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 10.291773796081543,
+          "height": 10.291773796081543,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 8.576478004455566,
+          "height": 8.576478004455566,
+          "text": []
+        },
+        {
+          "name": "UserCirclePlus",
+          "type": "INSTANCE",
+          "component_id": "256:1298",
+          "width": 28.0,
+          "height": 28.0,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "143:972",
+      "screen_name": "hero-section",
+      "page": "Final Design",
+      "path": "Final Design/Aimate Home/hero-section",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1113
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x797), Center main_content (928x452)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1440,
+            "height_approx": 797,
+            "role": "main_content",
+            "components": [
+              "Avatars",
+              "ArrowRight",
+              "Sparkle",
+              "button-outlined-dark",
+              "Star",
+              "button-cta"
+            ],
+            "text_labels": [
+              "New",
+              "AI Feature is added",
+              "Revolutionize your customer support with AI excellence",
+              "Elevate startup support with cutting-edge AI enhancing user satisfaction effortlessly.",
+              "Get started for free",
+              "See pricing",
+              "from happy customer"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "image-container",
+            "width_approx": 928,
+            "height_approx": 452,
+            "role": "main_content",
+            "components": [
+              "Star"
+            ],
+            "text_labels": [
+              "Automated Resolution Rate",
+              "78%",
+              "Automatically Resolved"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "profile",
+        "user_management"
+      ],
+      "all_text_content": [
+        "New",
+        "AI Feature is added",
+        "Revolutionize your customer support with AI excellence",
+        "Elevate startup support with cutting-edge AI enhancing user satisfaction effortlessly.",
+        "Get started for free",
+        "See pricing",
+        "1.2k+",
+        "from happy customer",
+        "\"Reviewing transcript #56789, we identified a minor response delay. Our sincere apologies for any inconvenience caused. \n\nYour valuable feedback drives us to enhance response times for an even more seamless interaction experience. \n\nWe appreciate your insights and encourage you to share any further feedback. \n\nYour satisfaction is our utmost priority in delivering exceptional service.\"",
+        "Reviewing Transcript",
+        "Hello, I need assistance with my recent order. Could you help me?",
+        "Hello! I'm here to help. Could you please provide your order number?",
+        "Sure, it's #12345.",
+        "Thank you. I see your order. How may I assist you today?",
+        "Thank you. I see your order. How may I assist you today?",
+        "Aimate",
+        "Online",
+        "Ma’am your issue has been solved. Our delivery team will be on their way soon.",
+        "Automated Resolution Rate",
+        "78%",
+        "Automatically Resolved"
+      ],
+      "component_count": 15,
+      "total_descendants": 144,
+      "nested_components": [
+        {
+          "name": "Sparkle",
+          "type": "INSTANCE",
+          "component_id": "78:51",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "ArrowRight",
+          "type": "INSTANCE",
+          "component_id": "78:74",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "button-cta",
+          "type": "INSTANCE",
+          "component_id": "69:17",
+          "width": 190.0,
+          "height": 48.0,
+          "text": [
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "button-outlined-dark",
+          "type": "INSTANCE",
+          "component_id": "69:56",
+          "width": 131.0,
+          "height": 48.0,
+          "text": [
+            "See pricing"
+          ]
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:131",
+          "width": 40.0,
+          "height": 40.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:128",
+          "width": 40.0,
+          "height": 40.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:125",
+          "width": 40.0,
+          "height": 40.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 16.0,
+          "height": 16.0,
+          "text": []
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 15.633554458618164,
+          "height": 15.633554458618164,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 13.027962684631348,
+          "height": 13.027962684631348,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 12.0,
+          "height": 12.0,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "286:2654",
+      "screen_name": "integration",
+      "page": "Final Design",
+      "path": "Final Design/Aimate features/integration",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 876
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x652)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "main-container",
+            "width_approx": 1120,
+            "height_approx": 652,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "integration"
+            ],
+            "text_labels": [
+              "INTEGRATION",
+              "Unifying your business tools",
+              "Connect Aimate effortlessly with your systems for streamlined operations and enhanced performance.",
+              "Get started for free"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "form"
+      ],
+      "all_text_content": [
+        "INTEGRATION",
+        "Unifying your business tools",
+        "Connect Aimate effortlessly with your systems for streamlined operations and enhanced performance.",
+        "Get started for free"
+      ],
+      "component_count": 9,
+      "total_descendants": 84,
+      "nested_components": [
+        {
+          "name": "button-cta",
+          "type": "INSTANCE",
+          "component_id": "69:17",
+          "width": 190.0,
+          "height": 48.0,
+          "text": [
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:464",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:438",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:503",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:896",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:875",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:920",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:904",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        },
+        {
+          "name": "integration",
+          "type": "INSTANCE",
+          "component_id": "117:912",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "273:1419",
+      "screen_name": "features",
+      "page": "Final Design",
+      "path": "Final Design/Aimate features/features",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 712
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x228), Center main_content (1120x228)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "column 1",
+            "width_approx": 1120,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [
+              "features"
+            ],
+            "text_labels": [
+              "Conversational Analytics",
+              "Gain insights into user interactions, improving chatbot performance and user satisfaction.",
+              "Multi-language support",
+              "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach.",
+              "Automated workflows",
+              "Streamline internal processes with automated workflows triggered by user interactions."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "column 2",
+            "width_approx": 1120,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [
+              "features"
+            ],
+            "text_labels": [
+              "Integration with CRM",
+              "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history.",
+              "Analytics dashboard",
+              "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making.",
+              "Smart routing system",
+              "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "analytics",
+        "form",
+        "messaging"
+      ],
+      "all_text_content": [
+        "Conversational Analytics",
+        "Gain insights into user interactions, improving chatbot performance and user satisfaction.",
+        "Multi-language support",
+        "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach.",
+        "Automated workflows",
+        "Streamline internal processes with automated workflows triggered by user interactions.",
+        "Integration with CRM",
+        "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history.",
+        "Analytics dashboard",
+        "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making.",
+        "Smart routing system",
+        "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+      ],
+      "component_count": 6,
+      "total_descendants": 50,
+      "nested_components": [
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Conversational Analytics",
+            "Gain insights into user interactions, improving chatbot performance and user satisfaction."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Multi-language support",
+            "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Automated workflows",
+            "Streamline internal processes with automated workflows triggered by user interactions."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Integration with CRM",
+            "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Analytics dashboard",
+            "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making."
+          ]
+        },
+        {
+          "name": "features",
+          "type": "INSTANCE",
+          "component_id": "111:301",
+          "width": 352.0,
+          "height": 228.0,
+          "text": [
+            "Smart routing system",
+            "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "286:2482",
+      "screen_name": "features",
+      "page": "Final Design",
+      "path": "Final Design/Aimate features/features",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1510
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x1286)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "features-main-container",
+            "width_approx": 1120,
+            "height_approx": 1286,
+            "role": "main_content",
+            "components": [
+              "list"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "capabilities": [
+        "content_creation",
+        "form",
+        "messaging",
+        "search",
+        "settings"
+      ],
+      "all_text_content": [
+        "Chat with our AI",
+        "Ask any questions and our AI will reply you",
+        "New conversation",
+        "Search and find information",
+        "Ask any questions and our AI will reply you",
+        "New conversation",
+        "Train a chatbot on your data",
+        "Train your chatbot using your specific data, allowing it to understand and respond to inquiries with context-awareness and personalized information.",
+        "Tailored training for precise responses.",
+        "Understanding queries within dataset context.",
+        "Intelligent ticketing system",
+        "Enhance support efficiency with our intelligent ticketing system, automating query management and prioritizing customer needs effectively and accurately.",
+        "Efficient query management",
+        "Priority-based customer needs",
+        "Create an issue ticket",
+        "Please let us know if something isn't working as expected.",
+        "Personalized interactions",
+        "Utilize insights from your data to personalize interactions, providing customers with responses and suggestions that align with their unique preferences and history.",
+        "Data-driven personalization",
+        "Unique suggestions offered",
+        "Aimate",
+        "Online",
+        "Aimate",
+        "Online",
+        "Interactive virtual assistant",
+        "Leverage the power of a trained chatbot to automate responses, handling routine queries effortlessly and providing instant, data-driven interactions.",
+        "Chatbot handles routine queries seamlessly.",
+        "Responses tailored based on available data.",
+        "Aimate",
+        "Online"
+      ],
+      "component_count": 14,
+      "total_descendants": 298,
+      "nested_components": [
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 364.0,
+          "height": 22.0,
+          "text": [
+            "Tailored training for precise responses."
+          ]
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 364.0,
+          "height": 22.0,
+          "text": [
+            "Understanding queries within dataset context."
+          ]
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 340.0,
+          "height": 22.0,
+          "text": [
+            "Efficient query management"
+          ]
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 340.0,
+          "height": 22.0,
+          "text": [
+            "Priority-based customer needs"
+          ]
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 340.0,
+          "height": 22.0,
+          "text": [
+            "Data-driven personalization"
+          ]
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 340.0,
+          "height": 22.0,
+          "text": [
+            "Unique suggestions offered"
+          ]
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 10.291773796081543,
+          "height": 10.291773796081543,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 8.576478004455566,
+          "height": 8.576478004455566,
+          "text": []
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 10.291773796081543,
+          "height": 10.291773796081543,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 8.576478004455566,
+          "height": 8.576478004455566,
+          "text": []
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 364.0,
+          "height": 22.0,
+          "text": [
+            "Chatbot handles routine queries seamlessly."
+          ]
+        },
+        {
+          "name": "list",
+          "type": "INSTANCE",
+          "component_id": "286:1934",
+          "width": 364.0,
+          "height": 22.0,
+          "text": [
+            "Responses tailored based on available data."
+          ]
+        },
+        {
+          "name": "arrow-left",
+          "type": "INSTANCE",
+          "component_id": "191:4380",
+          "width": 15.633554458618164,
+          "height": 15.633554458618164,
+          "text": []
+        },
+        {
+          "name": "DotsThreeVertical",
+          "type": "INSTANCE",
+          "component_id": "193:1292",
+          "width": 13.027962684631348,
+          "height": 13.027962684631348,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "273:1542",
+      "screen_name": "hero",
+      "page": "Final Design",
+      "path": "Final Design/Aimate features/hero",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1632
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x507), Center main_content (634x274), Center main_content (1120x700), Center main_content (1120x242)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "element",
+            "width_approx": 1440,
+            "height_approx": 507,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "hero",
+            "width_approx": 634,
+            "height_approx": 274,
+            "role": "main_content",
+            "components": [
+              "button-cta"
+            ],
+            "text_labels": [
+              "Redefine efficiency with our AI features",
+              "Transform workflows with AI features, maximizing efficiency and productivity for unparalleled performance.",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "video-section",
+            "width_approx": 1120,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [
+              "video-section",
+              "Play"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 242,
+            "role": "main_content",
+            "components": [
+              "Avatars",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+              "John Doe",
+              "Founder, Nietzsche"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "media",
+        "profile"
+      ],
+      "all_text_content": [
+        "Redefine efficiency with our AI features",
+        "Transform workflows with AI features, maximizing efficiency and productivity for unparalleled performance.",
+        "Get started for free",
+        "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+        "John Doe",
+        "Founder, Nietzsche"
+      ],
+      "component_count": 4,
+      "total_descendants": 31,
+      "nested_components": [
+        {
+          "name": "button-cta",
+          "type": "INSTANCE",
+          "component_id": "69:17",
+          "width": 190.0,
+          "height": 48.0,
+          "text": [
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "video-section",
+          "type": "INSTANCE",
+          "component_id": "273:1532",
+          "width": 1120.0,
+          "height": 700.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:157",
+          "width": 121.33333587646484,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:131",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "286:2739",
+      "screen_name": "Aimate pricing",
+      "page": "Final Design",
+      "path": "Final Design/Aimate pricing",
+      "node_type": "FRAME",
+      "depth_found": 1,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 4339
+      },
+      "is_light": true,
+      "layout": {
+        "type": "cards_grid",
+        "description": "Top header (1440x80), Center main_content (1440x495), Center main_content (1440x380), Center main_content (1440x850), Center main_content (1440x1380), Center main_content (1440x1156)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "footer-section",
+            "width_approx": 1440,
+            "height_approx": 495,
+            "role": "main_content",
+            "components": [
+              "logo",
+              "footer-section"
+            ],
+            "text_labels": [
+              "Product",
+              "Company",
+              "Contact Info",
+              "© 2024 aimate. Created with love by @duiverse",
+              "Terms & Conditions",
+              "Privacy Policy"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cta",
+            "width_approx": 1440,
+            "height_approx": 380,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "Avatars",
+              "cta"
+            ],
+            "text_labels": [
+              "Stop spending unnecessary time on customer support!",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "faqs",
+            "width_approx": 1440,
+            "height_approx": 850,
+            "role": "main_content",
+            "components": [
+              "FAQs"
+            ],
+            "text_labels": [
+              "FAQs",
+              "We're here to answer all your questions."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "pricing-comparison",
+            "width_approx": 1440,
+            "height_approx": 1380,
+            "role": "main_content",
+            "components": [
+              "Lightbulb",
+              "Sparkle",
+              "Ticket",
+              "ChatCircleDots"
+            ],
+            "text_labels": [
+              "Plans comparison",
+              "Get a full overview of all the plans and features we're offering.",
+              "Starter",
+              "Individual",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "pricing",
+            "width_approx": 1440,
+            "height_approx": 1156,
+            "role": "main_content",
+            "components": [
+              "pricing"
+            ],
+            "text_labels": [
+              "Plans for every stage",
+              "Tailored plans to support your company's growth journey, offering scalable solutions for every stage.",
+              "Save 20% on yearly plan"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "navbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "button-cta-black",
+              "button-outlined-dark",
+              "navbar",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "Features",
+              "Pricing",
+              "About",
+              "Blog",
+              "Contact",
+              "Login",
+              "Get started"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "all_text_content": [
+        "aimate",
+        "Subscribe to newsletter",
+        "Your email address",
+        "Get started",
+        "Product",
+        "Chatbot",
+        "Pricing",
+        "Sign in",
+        "Sign Up",
+        "Support",
+        "Company",
+        "About",
+        "Contact",
+        "Blog",
+        "Contact Info",
+        "+92 28 27 09 89",
+        "contact@aimate.com",
+        "© 2024 aimate. Created with love by @duiverse",
+        "Terms & Conditions",
+        "Privacy Policy",
+        "Yup you are right. Let’s rock it with  “AIMATE”",
+        "Now you are ready to give it a try right?",
+        "Stop spending unnecessary time on customer support!",
+        "Get started for free",
+        "FAQs",
+        "We're here to answer all your questions.",
+        "When and where is the next tech event taking place?",
+        "AI-driven chatbots are virtual assistants powered by artificial intelligence technology, capable of understanding and responding to user queries autonomously.",
+        "How can AI chatbots benefit my business?",
+        "AI chatbots can enhance customer support by providing instant responses, improving efficiency, and offering personalized interactions, ultimately enhancing customer satisfaction and loyalty.",
+        "What industries can benefit from AI chatbots?",
+        "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences.",
+        "How are AI chatbots trained?",
+        "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences.",
+        "How are AI chatbots trained?",
+        "AI chatbots are trained using machine learning algorithms on large datasets of conversational data. They learn to understand user intents and respond accordingly through iterative training processes.",
+        "Plans comparison",
+        "Get a full overview of all the plans and features we're offering.",
+        "Starter",
+        "Individual",
+        "Business",
+        "AI usages",
+        "Chat messages",
+        "Smart suggestions",
+        "Trainings characters",
+        "50 /m",
+        "20 /m",
+        "500k /m",
+        "2.5k /m",
+        "500 /m",
+        "200k /m",
+        "130k /m",
+        "2.5k /m",
+        "10m /m",
+        "Chatbot",
+        "Chatbot number",
+        "FAQ mode",
+        "2",
+        "20/m",
+        "5",
+        "500/m",
+        "50",
+        "2.5k/m",
+        "Ticket forms",
+        "Ticket no.",
+        "All field types",
+        "1",
+        "20/m",
+        "5",
+        "500/m",
+        "50",
+        "2.5k/m",
+        "Knowledge",
+        "Access chat knowledge",
+        "Exclude chat knowledge",
+        "1",
+        "20/m",
+        "5",
+        "500/m",
+        "50",
+        "2.5k/m",
+        "Plans for every stage",
+        "Tailored plans to support your company's growth journey, offering scalable solutions for every stage.",
+        "Monthly",
+        "Yearly",
+        "Save 20% on yearly plan",
+        "Starter plan",
+        "Ideal for startups and beginners, our Starter Plan is free for starters.",
+        "Free",
+        "Get started for free",
+        "500 interactions monthly",
+        "Basic knowledge base",
+        "Email support included",
+        "Community forum access",
+        "Single user license",
+        "Regular updates provided",
+        "Individual plan",
+        "Perfect for individual users looking for advanced features and flexibility.",
+        "$18/m",
+        "Get started"
+      ],
+      "component_count": 49,
+      "total_descendants": 564,
+      "nested_components": [
+        {
+          "name": "footer-section",
+          "type": "INSTANCE",
+          "component_id": "269:1592",
+          "width": 1440.0,
+          "height": 495.00054931640625,
+          "text": [
+            "Product",
+            "Company",
+            "Contact Info",
+            "© 2024 aimate. Created with love by @duiverse",
+            "Terms & Conditions"
+          ]
+        },
+        {
+          "name": "cta",
+          "type": "INSTANCE",
+          "component_id": "269:1591",
+          "width": 1440.0,
+          "height": 380.0,
+          "text": [
+            "Stop spending unnecessary time on customer support!",
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 124.0,
+          "text": [
+            "When and where is the next tech event taking place?",
+            "AI-driven chatbots are virtual assistants powered by artificial intelligence technology, capable of understanding and responding to user queries autonomously."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How can AI chatbots benefit my business?",
+            "AI chatbots can enhance customer support by providing instant responses, improving efficiency, and offering personalized interactions, ultimately enhancing customer satisfaction and loyalty."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "What industries can benefit from AI chatbots?",
+            "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How are AI chatbots trained?",
+            "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How are AI chatbots trained?",
+            "AI chatbots are trained using machine learning algorithms on large datasets of conversational data. They learn to understand user intents and respond accordingly through iterative training processes."
+          ]
+        },
+        {
+          "name": "Sparkle",
+          "type": "INSTANCE",
+          "component_id": "78:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Chat messages"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Smart suggestions"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Trainings characters"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "50 /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "20 /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "500k /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "2.5k /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "500 /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "200k /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "130k /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "2.5k /m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "10m /m"
+          ]
+        },
+        {
+          "name": "ChatCircleDots",
+          "type": "INSTANCE",
+          "component_id": "292:1457",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Chatbot number"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "FAQ mode"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "2"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "20/m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "5"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "500/m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "50"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "2.5k/m"
+          ]
+        },
+        {
+          "name": "Ticket",
+          "type": "INSTANCE",
+          "component_id": "292:1621",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Ticket no."
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "All field types"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "1"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "20/m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "5"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "500/m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "50"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "2.5k/m"
+          ]
+        },
+        {
+          "name": "Lightbulb",
+          "type": "INSTANCE",
+          "component_id": "292:1698",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Access chat knowledge"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "290:1250",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "Exclude chat knowledge"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "1"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "20/m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "5"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "500/m"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "50"
+          ]
+        },
+        {
+          "name": "box",
+          "type": "INSTANCE",
+          "component_id": "292:1346",
+          "width": 280.0,
+          "height": 56.0,
+          "text": [
+            "2.5k/m"
+          ]
+        },
+        {
+          "name": "pricing",
+          "type": "INSTANCE",
+          "component_id": "129:2050",
+          "width": 1120.0,
+          "height": 753.0,
+          "text": [
+            "Monthly",
+            "Yearly",
+            "Save 20% on yearly plan",
+            "Free",
+            "$18/m"
+          ]
+        },
+        {
+          "name": "navbar",
+          "type": "INSTANCE",
+          "component_id": "269:1800",
+          "width": 1440.0,
+          "height": 80.0,
+          "text": [
+            "aimate",
+            "Features",
+            "Pricing",
+            "About",
+            "Blog"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "302:1783",
+      "screen_name": "hero",
+      "page": "Final Design",
+      "path": "Final Design/Aimate about/hero",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 672
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x560)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "contents",
+            "width_approx": 1120,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "We are aimate,\ntransforming your customer service",
+              "Your partner in customer service transformation, leveraging cutting-edge AI technology to redefine support & exceed expectations."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "form"
+      ],
+      "all_text_content": [
+        "We are aimate,\ntransforming your customer service",
+        "Your partner in customer service transformation, leveraging cutting-edge AI technology to redefine support & exceed expectations."
+      ],
+      "component_count": 0,
+      "total_descendants": 5,
+      "nested_components": []
+    },
+    {
+      "screen_id": "303:1889",
+      "screen_name": "team",
+      "page": "Final Design",
+      "path": "Final Design/Aimate about/team",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 770
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (448x94), Center main_content (1120x396)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "mission",
+            "width_approx": 448,
+            "height_approx": 94,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "We started at 4..",
+              "Aimate began with just four passionate team members."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 396,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Jessica Nguyen",
+              "Co-founder & COO",
+              "Alex Rodriguez",
+              "Founder & CEO",
+              "Daniel Martinez",
+              "Founder & CTO",
+              "Ryan Thompson",
+              "Co-founder & CMO"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "user_management"
+      ],
+      "all_text_content": [
+        "We started at 4..",
+        "Aimate began with just four passionate team members.",
+        "Jessica Nguyen",
+        "Co-founder & COO",
+        "Alex Rodriguez",
+        "Founder & CEO",
+        "Daniel Martinez",
+        "Founder & CTO",
+        "Ryan Thompson",
+        "Co-founder & CMO"
+      ],
+      "component_count": 0,
+      "total_descendants": 72,
+      "nested_components": []
+    },
+    {
+      "screen_id": "303:1939",
+      "screen_name": "team",
+      "page": "Final Design",
+      "path": "Final Design/Aimate about/team",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1243
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (448x94), Center main_content (1120x523), Center main_content (1120x290)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "head",
+            "width_approx": 448,
+            "height_approx": 94,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "..and we are growing",
+              "Our team is expanding, fueling Aimate's growth and innovation."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 523,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "career",
+            "width_approx": 1120,
+            "height_approx": 290,
+            "role": "main_content",
+            "components": [
+              "button-cta-black"
+            ],
+            "text_labels": [
+              "Join our team",
+              "Looking to be part of our dynamic team?",
+              "Explore exciting career opportunities at Aimate.",
+              "Contact us"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "user_management"
+      ],
+      "all_text_content": [
+        "..and we are growing",
+        "Our team is expanding, fueling Aimate's growth and innovation.",
+        "Join our team",
+        "Looking to be part of our dynamic team?",
+        "Explore exciting career opportunities at Aimate.",
+        "Contact us"
+      ],
+      "component_count": 1,
+      "total_descendants": 19,
+      "nested_components": [
+        {
+          "name": "button-cta-black",
+          "type": "INSTANCE",
+          "component_id": "158:2086",
+          "width": 131.0,
+          "height": 48.0,
+          "text": [
+            "Contact us"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "313:3037",
+      "screen_name": "blogs",
+      "page": "Final Design",
+      "path": "Final Design/Aimate about/blogs",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 935
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x711)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 711,
+            "role": "main_content",
+            "components": [
+              "blog-card",
+              "button-outlined"
+            ],
+            "text_labels": [
+              "News and articles",
+              "Stay informed with our curated collection of news and articles, offering insights, and  information in the industry.",
+              "Read more"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "content_creation",
+        "form"
+      ],
+      "all_text_content": [
+        "News and articles",
+        "Stay informed with our curated collection of news and articles, offering insights, and  information in the industry.",
+        "Business",
+        "Jan 11, 2024",
+        "5 min read",
+        "Aimate transforms customer support experiences with AI",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "5 min read",
+        "Shaping future of seamless customer interactions with AI",
+        "Read more",
+        "Read more"
+      ],
+      "component_count": 3,
+      "total_descendants": 41,
+      "nested_components": [
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 400.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "5 min read",
+            "Aimate transforms customer support experiences with AI"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 400.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "5 min read",
+            "Shaping future of seamless customer interactions with AI"
+          ]
+        },
+        {
+          "name": "button-outlined",
+          "type": "INSTANCE",
+          "component_id": "129:1040",
+          "width": 127.0,
+          "height": 48.0,
+          "text": [
+            "Read more"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "317:1917",
+      "screen_name": "Aimate contact",
+      "page": "Final Design",
+      "path": "Final Design/Aimate contact",
+      "node_type": "FRAME",
+      "depth_found": 1,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 3132
+      },
+      "is_light": true,
+      "layout": {
+        "type": "cards_grid",
+        "description": "Top header (1440x80), Center main_content (1440x495), Center main_content (1440x380), Center main_content (1440x291), Center main_content (1440x778), Center main_content (1440x272), Center main_content (1440x794)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "footer-section",
+            "width_approx": 1440,
+            "height_approx": 495,
+            "role": "main_content",
+            "components": [
+              "logo",
+              "footer-section"
+            ],
+            "text_labels": [
+              "Product",
+              "Company",
+              "Contact Info",
+              "© 2024 aimate. Created with love by @duiverse",
+              "Terms & Conditions",
+              "Privacy Policy"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cta",
+            "width_approx": 1440,
+            "height_approx": 380,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "Avatars",
+              "cta"
+            ],
+            "text_labels": [
+              "Stop spending unnecessary time on customer support!",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "navbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "button-cta-black",
+              "button-outlined-dark",
+              "navbar",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "Features",
+              "Pricing",
+              "About",
+              "Blog",
+              "Contact",
+              "Login",
+              "Get started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 176",
+            "width_approx": 1440,
+            "height_approx": 291,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Let’s get in touch",
+              "Questions about products, features, or pricing? Need a demo? Our sales experts are ready to help."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 175",
+            "width_approx": 1440,
+            "height_approx": 778,
+            "role": "main_content",
+            "components": [
+              "button-outlined-dark",
+              "Fictional company logo",
+              "Avatars"
+            ],
+            "text_labels": [
+              "Contact us",
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+              "Trusted by:"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "infos",
+            "width_approx": 1440,
+            "height_approx": 272,
+            "role": "main_content",
+            "components": [
+              "EnvelopeSimple",
+              "PhoneCall"
+            ],
+            "text_labels": [
+              "Call us on",
+              "+(22) 342 567 8910",
+              "Email",
+              "hello@aimate.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "faqs",
+            "width_approx": 1440,
+            "height_approx": 794,
+            "role": "main_content",
+            "components": [
+              "FAQs"
+            ],
+            "text_labels": [
+              "FAQs",
+              "We're here to answer all your questions."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "all_text_content": [
+        "aimate",
+        "Subscribe to newsletter",
+        "Your email address",
+        "Get started",
+        "Product",
+        "Chatbot",
+        "Pricing",
+        "Sign in",
+        "Sign Up",
+        "Support",
+        "Company",
+        "About",
+        "Contact",
+        "Blog",
+        "Contact Info",
+        "+92 28 27 09 89",
+        "contact@aimate.com",
+        "© 2024 aimate. Created with love by @duiverse",
+        "Terms & Conditions",
+        "Privacy Policy",
+        "Yup you are right. Let’s rock it with  “AIMATE”",
+        "Now you are ready to give it a try right?",
+        "Stop spending unnecessary time on customer support!",
+        "Get started for free",
+        "aimate",
+        "Features",
+        "Pricing",
+        "About",
+        "Blog",
+        "Contact",
+        "Login",
+        "Get started",
+        "Let’s get in touch",
+        "Questions about products, features, or pricing? Need a demo? Our sales experts are ready to help.",
+        "Contact us",
+        "Your full name",
+        "Your email",
+        "Write a short message",
+        "Send message",
+        "Talk with our team to:",
+        "Explore product suitability",
+        "Uncover capabilities, Q&A",
+        "Request customized quotes",
+        "Explore integration options",
+        "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+        "John Doe",
+        "Founder, Cloudwatch",
+        "Trusted by:",
+        "Call us on",
+        "+(22) 342 567 8910",
+        "Email",
+        "hello@aimate.com",
+        "FAQs",
+        "We're here to answer all your questions.",
+        "When and where is the next tech event taking place?",
+        "AI-driven chatbots are virtual assistants powered by artificial intelligence technology, capable of understanding and responding to user queries autonomously.",
+        "How can AI chatbots benefit my business?",
+        "AI chatbots can enhance customer support by providing instant responses, improving efficiency, and offering personalized interactions, ultimately enhancing customer satisfaction and loyalty.",
+        "What industries can benefit from AI chatbots?",
+        "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences.",
+        "How are AI chatbots trained?",
+        "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences.",
+        "How are AI chatbots trained?",
+        "AI chatbots are trained using machine learning algorithms on large datasets of conversational data. They learn to understand user intents and respond accordingly through iterative training processes."
+      ],
+      "component_count": 19,
+      "total_descendants": 249,
+      "nested_components": [
+        {
+          "name": "footer-section",
+          "type": "INSTANCE",
+          "component_id": "269:1592",
+          "width": 1440.0,
+          "height": 495.00054931640625,
+          "text": [
+            "Product",
+            "Company",
+            "Contact Info",
+            "© 2024 aimate. Created with love by @duiverse",
+            "Terms & Conditions"
+          ]
+        },
+        {
+          "name": "cta",
+          "type": "INSTANCE",
+          "component_id": "269:1591",
+          "width": 1440.0,
+          "height": 380.0,
+          "text": [
+            "Stop spending unnecessary time on customer support!",
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "navbar",
+          "type": "INSTANCE",
+          "component_id": "269:1800",
+          "width": 1440.0,
+          "height": 80.0,
+          "text": [
+            "aimate",
+            "Features",
+            "Pricing",
+            "About",
+            "Blog"
+          ]
+        },
+        {
+          "name": "button-outlined-dark",
+          "type": "INSTANCE",
+          "component_id": "312:2450",
+          "width": 432.0,
+          "height": 48.0,
+          "text": [
+            "Send message"
+          ]
+        },
+        {
+          "name": "Check",
+          "type": "INSTANCE",
+          "component_id": "129:1047",
+          "width": 20.0,
+          "height": 20.0,
+          "text": []
+        },
+        {
+          "name": "Check",
+          "type": "INSTANCE",
+          "component_id": "129:1047",
+          "width": 20.0,
+          "height": 20.0,
+          "text": []
+        },
+        {
+          "name": "Check",
+          "type": "INSTANCE",
+          "component_id": "129:1047",
+          "width": 20.0,
+          "height": 20.0,
+          "text": []
+        },
+        {
+          "name": "Check",
+          "type": "INSTANCE",
+          "component_id": "129:1047",
+          "width": 20.0,
+          "height": 20.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:131",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:85",
+          "width": 110.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:121",
+          "width": 110.66667175292969,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:133",
+          "width": 132.6666717529297,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "PhoneCall",
+          "type": "INSTANCE",
+          "component_id": "191:1300",
+          "width": 32.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "EnvelopeSimple",
+          "type": "INSTANCE",
+          "component_id": "191:1319",
+          "width": 32.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 124.0,
+          "text": [
+            "When and where is the next tech event taking place?",
+            "AI-driven chatbots are virtual assistants powered by artificial intelligence technology, capable of understanding and responding to user queries autonomously."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How can AI chatbots benefit my business?",
+            "AI chatbots can enhance customer support by providing instant responses, improving efficiency, and offering personalized interactions, ultimately enhancing customer satisfaction and loyalty."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "What industries can benefit from AI chatbots?",
+            "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How are AI chatbots trained?",
+            "AI chatbots can benefit various industries, including e-commerce, healthcare, finance, travel, and more, by automating processes, reducing costs, and improving customer experiences."
+          ]
+        },
+        {
+          "name": "FAQs",
+          "type": "INSTANCE",
+          "component_id": "183:1120",
+          "width": 736.0,
+          "height": 72.0,
+          "text": [
+            "How are AI chatbots trained?",
+            "AI chatbots are trained using machine learning algorithms on large datasets of conversational data. They learn to understand user intents and respond accordingly through iterative training processes."
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "318:3055",
+      "screen_name": "Aimate login",
+      "page": "Final Design",
+      "path": "Final Design/Aimate login",
+      "node_type": "FRAME",
+      "depth_found": 1,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1107
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (528x718), Center main_content (121x42)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 528,
+            "height_approx": 718,
+            "role": "main_content",
+            "components": [
+              "Social Icon",
+              "button-cta",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "OR",
+              "Don’t have account yet?  Sign Up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "navbar/back",
+            "width_approx": 121,
+            "height_approx": 42,
+            "role": "main_content",
+            "components": [
+              "ArrowLeft",
+              "navbar"
+            ],
+            "text_labels": [
+              "Go back"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "authentication",
+        "map",
+        "navigation",
+        "settings"
+      ],
+      "all_text_content": [
+        "aimate",
+        "Welcome Back!!",
+        "Access your account now",
+        "Your email address",
+        "Enter your password",
+        "Forgot password?",
+        "Login",
+        "OR",
+        "Continue with Google",
+        "Don’t have account yet?  Sign Up",
+        "Go back"
+      ],
+      "component_count": 4,
+      "total_descendants": 33,
+      "nested_components": [
+        {
+          "name": "logo",
+          "type": "INSTANCE",
+          "component_id": "66:4",
+          "width": 126.0,
+          "height": 24.0,
+          "text": [
+            "aimate"
+          ]
+        },
+        {
+          "name": "button-cta",
+          "type": "INSTANCE",
+          "component_id": "69:17",
+          "width": 432.0,
+          "height": 48.0,
+          "text": [
+            "Login"
+          ]
+        },
+        {
+          "name": "Social Icon",
+          "type": "INSTANCE",
+          "component_id": "330:2160",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "navbar/back",
+          "type": "INSTANCE",
+          "component_id": "330:3047",
+          "width": 121.0,
+          "height": 42.0,
+          "text": [
+            "Go back"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "330:2486",
+      "screen_name": "Aimate get started",
+      "page": "Final Design",
+      "path": "Final Design/Aimate get started",
+      "node_type": "FRAME",
+      "depth_found": 1,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 1107
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (528x616), Center main_content (121x42)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 528,
+            "height_approx": 616,
+            "role": "main_content",
+            "components": [
+              "Social Icon",
+              "button-cta",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "OR",
+              "Already have an account?  Login"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "navbar/back",
+            "width_approx": 121,
+            "height_approx": 42,
+            "role": "main_content",
+            "components": [
+              "ArrowLeft",
+              "navbar"
+            ],
+            "text_labels": [
+              "Go back"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "map",
+        "navigation",
+        "settings"
+      ],
+      "all_text_content": [
+        "aimate",
+        "Create an account",
+        "Use the email address you use at work.",
+        "Your work email address",
+        "Create an account",
+        "OR",
+        "Continue with Google",
+        "Already have an account?  Login",
+        "Go back"
+      ],
+      "component_count": 4,
+      "total_descendants": 29,
+      "nested_components": [
+        {
+          "name": "logo",
+          "type": "INSTANCE",
+          "component_id": "66:4",
+          "width": 126.0,
+          "height": 24.0,
+          "text": [
+            "aimate"
+          ]
+        },
+        {
+          "name": "button-cta",
+          "type": "INSTANCE",
+          "component_id": "69:17",
+          "width": 432.0,
+          "height": 48.0,
+          "text": [
+            "Create an account"
+          ]
+        },
+        {
+          "name": "Social Icon",
+          "type": "INSTANCE",
+          "component_id": "330:2160",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "navbar/back",
+          "type": "INSTANCE",
+          "component_id": "330:3047",
+          "width": 121.0,
+          "height": 42.0,
+          "text": [
+            "Go back"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "308:1506",
+      "screen_name": "Blog",
+      "page": "Final Design",
+      "path": "Final Design/Blog",
+      "node_type": "FRAME",
+      "depth_found": 1,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 3312
+      },
+      "is_light": true,
+      "layout": {
+        "type": "cards_grid",
+        "description": "Top header (1440x80), Center main_content (1440x495), Center main_content (1440x380), Center main_content (1440x291), Center main_content (1440x532), Center main_content (1456x1547)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "footer-section",
+            "width_approx": 1440,
+            "height_approx": 495,
+            "role": "main_content",
+            "components": [
+              "logo",
+              "footer-section"
+            ],
+            "text_labels": [
+              "Product",
+              "Company",
+              "Contact Info",
+              "© 2024 aimate. Created with love by @duiverse",
+              "Terms & Conditions",
+              "Privacy Policy"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cta",
+            "width_approx": 1440,
+            "height_approx": 380,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "Avatars",
+              "cta"
+            ],
+            "text_labels": [
+              "Stop spending unnecessary time on customer support!",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "navbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "button-cta-black",
+              "button-outlined-dark",
+              "navbar",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "Features",
+              "Pricing",
+              "About",
+              "Blog",
+              "Contact",
+              "Login",
+              "Get started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1440,
+            "height_approx": 291,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Blogs",
+              "We are passionate about sharing valuable insights, industry trends, and expert perspectives to keep you informed and inspired."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Subscribe to our blog",
+              "Enter your email to get the latest tips and stories to help boost your business.",
+              "Your email address"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1456,
+            "height_approx": 1547,
+            "role": "main_content",
+            "components": [
+              "blog-card"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "profile"
+      ],
+      "all_text_content": [
+        "aimate",
+        "Subscribe to newsletter",
+        "Your email address",
+        "Get started",
+        "Product",
+        "Chatbot",
+        "Pricing",
+        "Sign in",
+        "Sign Up",
+        "Support",
+        "Company",
+        "About",
+        "Contact",
+        "Blog",
+        "Contact Info",
+        "+92 28 27 09 89",
+        "contact@aimate.com",
+        "© 2024 aimate. Created with love by @duiverse",
+        "Terms & Conditions",
+        "Privacy Policy",
+        "Yup you are right. Let’s rock it with  “AIMATE”",
+        "Now you are ready to give it a try right?",
+        "Stop spending unnecessary time on customer support!",
+        "Get started for free",
+        "aimate",
+        "Features",
+        "Pricing",
+        "About",
+        "Blog",
+        "Contact",
+        "Login",
+        "Get started",
+        "Blogs",
+        "We are passionate about sharing valuable insights, industry trends, and expert perspectives to keep you informed and inspired.",
+        "Subscribe to our blog",
+        "Enter your email to get the latest tips and stories to help boost your business.",
+        "Your email address",
+        "Get started",
+        "Customer",
+        "Jan 11, 2024",
+        "5 min read",
+        "Aimate transforms customer support experiences with AI",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "10 min read",
+        "Shaping future of seamless customer interactions with AI",
+        "Read more",
+        "Experience",
+        "Jan 11, 2024",
+        "5 min read",
+        "How Aimate is revolutionizing overall customer experience",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "6 min read",
+        "Understanding the impact of Aimate on business for conversion",
+        "Read more",
+        "Experience",
+        "Jan 11, 2024",
+        "8 min read",
+        "The growing demand for AI-powered customer support solutions",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "5 min read",
+        "How AI chatbots are reshaping the customer service landscape",
+        "Read more",
+        "Growth",
+        "Jan 11, 2024",
+        "5 min read",
+        "Navigating compliance challenges in the AI customer support sector",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "8 min read",
+        "Exploring the latest innovations in AI customer service niche",
+        "Read more",
+        "Market",
+        "Jan 11, 2024",
+        "5 min read",
+        "Shift towards AI-powered customer service experiences",
+        "Read more"
+      ],
+      "component_count": 12,
+      "total_descendants": 287,
+      "nested_components": [
+        {
+          "name": "footer-section",
+          "type": "INSTANCE",
+          "component_id": "269:1592",
+          "width": 1440.0,
+          "height": 495.00054931640625,
+          "text": [
+            "Product",
+            "Company",
+            "Contact Info",
+            "© 2024 aimate. Created with love by @duiverse",
+            "Terms & Conditions"
+          ]
+        },
+        {
+          "name": "cta",
+          "type": "INSTANCE",
+          "component_id": "269:1591",
+          "width": 1440.0,
+          "height": 380.0,
+          "text": [
+            "Stop spending unnecessary time on customer support!",
+            "Get started for free"
+          ]
+        },
+        {
+          "name": "navbar",
+          "type": "INSTANCE",
+          "component_id": "269:1800",
+          "width": 1440.0,
+          "height": 80.0,
+          "text": [
+            "aimate",
+            "Features",
+            "Pricing",
+            "About",
+            "Blog"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Customer",
+            "Jan 11, 2024",
+            "5 min read",
+            "Aimate transforms customer support experiences with AI"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "10 min read",
+            "Shaping future of seamless customer interactions with AI"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Experience",
+            "Jan 11, 2024",
+            "5 min read",
+            "How Aimate is revolutionizing overall customer experience"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "6 min read",
+            "Understanding the impact of Aimate on business for conversion"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Experience",
+            "Jan 11, 2024",
+            "8 min read",
+            "The growing demand for AI-powered customer support solutions"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "5 min read",
+            "How AI chatbots are reshaping the customer service landscape"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Growth",
+            "Jan 11, 2024",
+            "5 min read",
+            "Navigating compliance challenges in the AI customer support sector"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "8 min read",
+            "Exploring the latest innovations in AI customer service niche"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Market",
+            "Jan 11, 2024",
+            "5 min read",
+            "Shift towards AI-powered customer service experiences"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "313:2866",
+      "screen_name": "Head",
+      "page": "Final Design",
+      "path": "Final Design/Blog singlepage/Head",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 890
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1119x206), Center main_content (1120x544)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1119,
+            "height_approx": 206,
+            "role": "main_content",
+            "components": [
+              "Avatars"
+            ],
+            "text_labels": [
+              "Aimate transforms customer support experiences with AI",
+              "John Doe",
+              "Managing Director, Aimate",
+              "Share this post"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "img",
+            "width_approx": 1120,
+            "height_approx": 544,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "capabilities": [
+        "form",
+        "profile"
+      ],
+      "all_text_content": [
+        "Customer",
+        "Jan 11, 2024",
+        "5 min read",
+        "Aimate transforms customer support experiences with AI",
+        "John Doe",
+        "Managing Director, Aimate",
+        "Share this post"
+      ],
+      "component_count": 1,
+      "total_descendants": 36,
+      "nested_components": [
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:131",
+          "width": 48.0,
+          "height": 48.0,
+          "text": []
+        }
+      ]
+    },
+    {
+      "screen_id": "313:3035",
+      "screen_name": "body",
+      "page": "Final Design",
+      "path": "Final Design/Blog singlepage/body",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1553,
+        "height": 2577
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1233x2521)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1233,
+            "height_approx": 2521,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "The evolution of customer support",
+              "Enhancing efficiency and satisfaction",
+              "At the heart of Aimate's mission is a commitment to transforming customer support experiences through the power of AI. By harnessing the capabilities of artificial intelligence, Aimate aims to empower businesses to deliver efficient, personalized, and proactive support at scale. Whether it's through chatbots, virtual assistants, or data analytics, Aimate's innovative solutions are designed to meet the evolving needs of modern businesses and their customers.",
+              "The role of AI in customer support",
+              "Aimate's AI-powered solutions",
+              "Aimate offers a comprehensive suite of AI-driven solutions tailored to meet the diverse needs of businesses across industries. From intelligent chatbots that handle routine queries to advanced analytics tools that provide actionable insights, Aimate's platform enables organizations to optimize their support operations and deliver exceptional customer experiences.",
+              "1. AI-Powered chatbots",
+              "2. Virtual assistants",
+              "Note: Prioritizing employee satisfaction is key to fostering a positive work environment. By investing in your team, you cultivate a workforce dedicated to delivering exceptional experiences to clients.",
+              "Conclusion : Looking ahead",
+              "As technology continues to advance and customer expectations evolve, the role of AI in customer support will only continue to grow. Aimate remains committed to driving innovation in this space, empowering businesses to deliver exceptional support experiences that drive loyalty, advocacy, and growth. With a relentless focus on efficiency, personalization, and satisfaction, Aimate is poised to lead the way in shaping the future of customer support."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "analytics",
+        "form",
+        "messaging",
+        "user_management"
+      ],
+      "all_text_content": [
+        "The evolution of customer support",
+        "Enhancing efficiency and satisfaction",
+        "At the heart of Aimate's mission is a commitment to transforming customer support experiences through the power of AI. By harnessing the capabilities of artificial intelligence, Aimate aims to empower businesses to deliver efficient, personalized, and proactive support at scale. Whether it's through chatbots, virtual assistants, or data analytics, Aimate's innovative solutions are designed to meet the evolving needs of modern businesses and their customers.",
+        "The role of AI in customer support",
+        "Aimate's AI-powered solutions",
+        "Aimate offers a comprehensive suite of AI-driven solutions tailored to meet the diverse needs of businesses across industries. From intelligent chatbots that handle routine queries to advanced analytics tools that provide actionable insights, Aimate's platform enables organizations to optimize their support operations and deliver exceptional customer experiences.",
+        "1. AI-Powered chatbots",
+        "2. Virtual assistants",
+        "Note: Prioritizing employee satisfaction is key to fostering a positive work environment. By investing in your team, you cultivate a workforce dedicated to delivering exceptional experiences to clients.",
+        "Conclusion : Looking ahead",
+        "As technology continues to advance and customer expectations evolve, the role of AI in customer support will only continue to grow. Aimate remains committed to driving innovation in this space, empowering businesses to deliver exceptional support experiences that drive loyalty, advocacy, and growth. With a relentless focus on efficiency, personalization, and satisfaction, Aimate is poised to lead the way in shaping the future of customer support."
+      ],
+      "component_count": 0,
+      "total_descendants": 29,
+      "nested_components": []
+    },
+    {
+      "screen_id": "313:2969",
+      "screen_name": "related post",
+      "page": "Final Design",
+      "path": "Final Design/Blog singlepage/related post",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 705
+      },
+      "is_light": false,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (227x48), Center main_content (1120x433)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Related post",
+            "width_approx": 227,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Related post"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "3",
+            "width_approx": 1120,
+            "height_approx": 433,
+            "role": "main_content",
+            "components": [
+              "blog-card"
+            ],
+            "text_labels": [
+              "Understanding the impact of Aimate on business for conversion",
+              "The growing demand for AI-powered customer support solutions",
+              "How AI chatbots are reshaping the customer service landscape"
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "messaging"
+      ],
+      "all_text_content": [
+        "Related post",
+        "Business",
+        "Jan 11, 2024",
+        "6 min read",
+        "Understanding the impact of Aimate on business for conversion",
+        "Read more",
+        "Experience",
+        "Jan 11, 2024",
+        "8 min read",
+        "The growing demand for AI-powered customer support solutions",
+        "Read more",
+        "Business",
+        "Jan 11, 2024",
+        "5 min read",
+        "How AI chatbots are reshaping the customer service landscape",
+        "Read more"
+      ],
+      "component_count": 3,
+      "total_descendants": 53,
+      "nested_components": [
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "6 min read",
+            "Understanding the impact of Aimate on business for conversion"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Experience",
+            "Jan 11, 2024",
+            "8 min read",
+            "The growing demand for AI-powered customer support solutions"
+          ]
+        },
+        {
+          "name": "blog-card",
+          "type": "INSTANCE",
+          "component_id": "309:1846",
+          "width": 352.0,
+          "height": 433.0,
+          "text": [
+            "Business",
+            "Jan 11, 2024",
+            "5 min read",
+            "How AI chatbots are reshaping the customer service landscape"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "350:3221",
+      "screen_name": "testimonials-section",
+      "page": "Final Design",
+      "path": "Final Design/testimonials/testimonials-section",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 858
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (928x690)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "testimonials",
+            "width_approx": 928,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Star",
+              "Quote Icon",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Endorsed by industry leaders",
+              "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "profile"
+      ],
+      "all_text_content": [
+        "Endorsed by industry leaders",
+        "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+        "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+        "Savannah Nguyen",
+        "Managing Director, Capsule",
+        "“",
+        "87%",
+        "Increase in customer satisfaction",
+        "38%",
+        "Increase in operational efficiency"
+      ],
+      "component_count": 11,
+      "total_descendants": 75,
+      "nested_components": [
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:84",
+          "width": 110.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:121",
+          "width": 110.66667175292969,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:205",
+          "width": 100.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:181",
+          "width": 118.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:122",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        },
+        {
+          "name": "Quote Icon",
+          "type": "INSTANCE",
+          "component_id": "170:1016",
+          "width": 48.0,
+          "height": 48.0,
+          "text": [
+            "“"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "352:3353",
+      "screen_name": "testimonials-section",
+      "page": "Final Design",
+      "path": "Final Design/testimonials/testimonials-section",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 858
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (928x690)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "testimonials",
+            "width_approx": 928,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Star",
+              "Quote Icon",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Endorsed by industry leaders",
+              "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+              "Implementing Aimate transformed our customer service overnight. The AI-driven support seamlessly handles queries, freeing up our team to focus on strategic initiatives. Highly recommended."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "form",
+        "profile",
+        "user_management"
+      ],
+      "all_text_content": [
+        "Endorsed by industry leaders",
+        "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+        "Implementing Aimate transformed our customer service overnight. The AI-driven support seamlessly handles queries, freeing up our team to focus on strategic initiatives. Highly recommended.",
+        "Albert Flores",
+        "Founder, Spherule",
+        "“",
+        "87%",
+        "Increase in customer satisfaction",
+        "38%",
+        "Increase in operational efficiency"
+      ],
+      "component_count": 11,
+      "total_descendants": 75,
+      "nested_components": [
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:84",
+          "width": 110.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:121",
+          "width": 110.66667175292969,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:205",
+          "width": 100.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:181",
+          "width": 118.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:131",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        },
+        {
+          "name": "Quote Icon",
+          "type": "INSTANCE",
+          "component_id": "170:1016",
+          "width": 48.0,
+          "height": 48.0,
+          "text": [
+            "“"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "352:3429",
+      "screen_name": "testimonials-section",
+      "page": "Final Design",
+      "path": "Final Design/testimonials/testimonials-section",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 858
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (928x690)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "testimonials",
+            "width_approx": 928,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Star",
+              "Quote Icon",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Endorsed by industry leaders",
+              "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+              "Aimate has been a game-changer for our company. The AI-powered solutions have streamlined our support operations, leading to significant cost savings & improved customer satisfaction."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "e_commerce",
+        "profile"
+      ],
+      "all_text_content": [
+        "Endorsed by industry leaders",
+        "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+        "Aimate has been a game-changer for our company. The AI-powered solutions have streamlined our support operations, leading to significant cost savings & improved customer satisfaction.",
+        "Annette Black",
+        "Product manager, Galileo",
+        "“",
+        "87%",
+        "Increase in customer satisfaction",
+        "38%",
+        "Increase in operational efficiency"
+      ],
+      "component_count": 11,
+      "total_descendants": 75,
+      "nested_components": [
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:84",
+          "width": 110.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:121",
+          "width": 110.66667175292969,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:205",
+          "width": 100.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:181",
+          "width": 118.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:125",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        },
+        {
+          "name": "Quote Icon",
+          "type": "INSTANCE",
+          "component_id": "170:1016",
+          "width": 48.0,
+          "height": 48.0,
+          "text": [
+            "“"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "352:3505",
+      "screen_name": "testimonials-section",
+      "page": "Final Design",
+      "path": "Final Design/testimonials/testimonials-section",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1440,
+        "height": 858
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (928x690)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "testimonials",
+            "width_approx": 928,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Star",
+              "Quote Icon",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Endorsed by industry leaders",
+              "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+              "We can't imagine running our business without Aimate. The AI-driven support has revolutionized the way we engage with our customers, delivering personalized experiences."
+            ]
+          }
+        ]
+      },
+      "capabilities": [
+        "profile"
+      ],
+      "all_text_content": [
+        "Endorsed by industry leaders",
+        "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+        "We can't imagine running our business without Aimate. The AI-driven support has revolutionized the way we engage with our customers, delivering personalized experiences.",
+        "Esther Howard",
+        "CEO, Segment",
+        "“",
+        "87%",
+        "Increase in customer satisfaction",
+        "38%",
+        "Increase in operational efficiency"
+      ],
+      "component_count": 11,
+      "total_descendants": 75,
+      "nested_components": [
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:84",
+          "width": 110.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:121",
+          "width": 110.66667175292969,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:205",
+          "width": 100.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Fictional company logo",
+          "type": "INSTANCE",
+          "component_id": "88:181",
+          "width": 118.0,
+          "height": 32.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Star",
+          "type": "INSTANCE",
+          "component_id": "80:51",
+          "width": 24.0,
+          "height": 24.0,
+          "text": []
+        },
+        {
+          "name": "Avatars",
+          "type": "INSTANCE",
+          "component_id": "78:128",
+          "width": 56.000003814697266,
+          "height": 56.000003814697266,
+          "text": []
+        },
+        {
+          "name": "Quote Icon",
+          "type": "INSTANCE",
+          "component_id": "170:1016",
+          "width": 48.0,
+          "height": 48.0,
+          "text": [
+            "“"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "439:4502",
+      "screen_name": "Typography",
+      "page": "→ Styles",
+      "path": "→ Styles/container/Typography",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1397,
+        "height": 1361
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (1301x1265)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Uncategorized",
+            "width_approx": 1301,
+            "height_approx": 1265,
+            "role": "main_content",
+            "components": [
+              "Text component"
+            ],
+            "text_labels": [
+              "H1",
+              "H2",
+              "H3",
+              "H4",
+              "H5",
+              "H6",
+              "Body",
+              "Footnote",
+              "Link"
+            ]
+          }
+        ]
+      },
+      "capabilities": [],
+      "all_text_content": [
+        "H1",
+        "Manrope",
+        "ExtraBold",
+        "56px",
+        "/",
+        "120%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "H2",
+        "Manrope",
+        "Bold",
+        "48px",
+        "/",
+        "120%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "H3",
+        "Manrope",
+        "SemiBold",
+        "40px",
+        "/",
+        "116%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "H4",
+        "Manrope",
+        "SemiBold",
+        "32px",
+        "/",
+        "120%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "H5",
+        "Manrope",
+        "Medium",
+        "24px",
+        "/",
+        "125%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "H6",
+        "Manrope",
+        "Medium",
+        "20px",
+        "/",
+        "130%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "Body",
+        "Manrope",
+        "Regular",
+        "16px",
+        "/",
+        "152%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "Footnote",
+        "Manrope",
+        "Regular",
+        "14px",
+        "/",
+        "154%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description",
+        "Link",
+        "Manrope",
+        "Regular",
+        "14px",
+        "/",
+        "154%",
+        "The quick brown fox jumps over the lazy dog.",
+        "Description"
+      ],
+      "component_count": 9,
+      "total_descendants": 128,
+      "nested_components": [
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 119.0,
+          "text": [
+            "H1",
+            "Manrope",
+            "ExtraBold",
+            "56px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 110.0,
+          "text": [
+            "H2",
+            "Manrope",
+            "Bold",
+            "48px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 100.0,
+          "text": [
+            "H3",
+            "Manrope",
+            "SemiBold",
+            "40px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 92.0,
+          "text": [
+            "H4",
+            "Manrope",
+            "SemiBold",
+            "32px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 92.0,
+          "text": [
+            "H5",
+            "Manrope",
+            "Medium",
+            "24px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 92.0,
+          "text": [
+            "H6",
+            "Manrope",
+            "Medium",
+            "20px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 92.0,
+          "text": [
+            "Body",
+            "Manrope",
+            "Regular",
+            "16px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 92.0,
+          "text": [
+            "Footnote",
+            "Manrope",
+            "Regular",
+            "14px",
+            "/"
+          ]
+        },
+        {
+          "name": "Text component",
+          "type": "INSTANCE",
+          "component_id": "346:4091",
+          "width": 1301.0,
+          "height": 92.0,
+          "text": [
+            "Link",
+            "Manrope",
+            "Regular",
+            "14px",
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "screen_id": "439:4631",
+      "screen_name": "Colors",
+      "page": "→ Styles",
+      "path": "→ Styles/container/Colors",
+      "node_type": "FRAME",
+      "depth_found": 2,
+      "is_variant": false,
+      "dimensions": {
+        "width": 1256,
+        "height": 948
+      },
+      "is_light": true,
+      "layout": {
+        "type": "full_canvas",
+        "description": "Center main_content (572x252), Center main_content (1160x252), Center main_content (376x252)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Green",
+            "width_approx": 572,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "Chip component"
+            ],
+            "text_labels": [
+              "Green",
+              "70",
+              "#04201A",
+              "rgb(4, 32, 26)",
+              "hsl(167, 78, 7)",
+              "Description",
+              "40",
+              "#0A5042",
+              "rgb(10, 80, 66)",
+              "hsl(168, 78, 18)",
+              "Description",
+              "30",
+              "#18B188",
+              "rgb(24, 177, 136)",
+              "hsl(164, 76, 39)"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Shades",
+            "width_approx": 1160,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "Chip component"
+            ],
+            "text_labels": [
+              "Shades",
+              "60",
+              "#2A3735",
+              "rgb(42, 55, 53)",
+              "hsl(171, 13, 19)",
+              "Description",
+              "50",
+              "#485151",
+              "rgb(72, 81, 81)",
+              "hsl(180, 6, 30)",
+              "Description",
+              "40",
+              "#5F6766",
+              "rgb(95, 103, 102)",
+              "hsl(173, 4, 39)"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Purple",
+            "width_approx": 376,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "Chip component"
+            ],
+            "text_labels": [
+              "Purple",
+              "20",
+              "#603AB0",
+              "rgb(96, 58, 176)",
+              "hsl(259, 50, 46)",
+              "Description",
+              "10",
+              "#C7BFF3",
+              "rgb(199, 191, 243)",
+              "hsl(249, 68, 85)",
+              "Description"
+            ]
+          }
+        ]
+      },
+      "capabilities": [],
+      "all_text_content": [
+        "Green",
+        "70",
+        "#04201A",
+        "rgb(4, 32, 26)",
+        "hsl(167, 78, 7)",
+        "Description",
+        "40",
+        "#0A5042",
+        "rgb(10, 80, 66)",
+        "hsl(168, 78, 18)",
+        "Description",
+        "30",
+        "#18B188",
+        "rgb(24, 177, 136)",
+        "hsl(164, 76, 39)",
+        "Description",
+        "Shades",
+        "60",
+        "#2A3735",
+        "rgb(42, 55, 53)",
+        "hsl(171, 13, 19)",
+        "Description",
+        "50",
+        "#485151",
+        "rgb(72, 81, 81)",
+        "hsl(180, 6, 30)",
+        "Description",
+        "40",
+        "#5F6766",
+        "rgb(95, 103, 102)",
+        "hsl(173, 4, 39)",
+        "Description",
+        "30",
+        "#C5C9C8",
+        "rgb(197, 201, 200)",
+        "hsl(165, 4, 78)",
+        "Description",
+        "20",
+        "#EFF0F0",
+        "rgb(239, 240, 240)",
+        "hsl(180, 3, 94)",
+        "Description",
+        "10",
+        "#F4F6F6",
+        "rgb(244, 246, 246)",
+        "hsl(180, 10, 96)",
+        "Description",
+        "Purple",
+        "20",
+        "#603AB0",
+        "rgb(96, 58, 176)",
+        "hsl(259, 50, 46)",
+        "Description",
+        "10",
+        "#C7BFF3",
+        "rgb(199, 191, 243)",
+        "hsl(249, 68, 85)",
+        "Description"
+      ],
+      "component_count": 11,
+      "total_descendants": 108,
+      "nested_components": [
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "70",
+            "#04201A",
+            "rgb(4, 32, 26)",
+            "hsl(167, 78, 7)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "40",
+            "#0A5042",
+            "rgb(10, 80, 66)",
+            "hsl(168, 78, 18)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "30",
+            "#18B188",
+            "rgb(24, 177, 136)",
+            "hsl(164, 76, 39)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "60",
+            "#2A3735",
+            "rgb(42, 55, 53)",
+            "hsl(171, 13, 19)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "50",
+            "#485151",
+            "rgb(72, 81, 81)",
+            "hsl(180, 6, 30)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "40",
+            "#5F6766",
+            "rgb(95, 103, 102)",
+            "hsl(173, 4, 39)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "30",
+            "#C5C9C8",
+            "rgb(197, 201, 200)",
+            "hsl(165, 4, 78)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "20",
+            "#EFF0F0",
+            "rgb(239, 240, 240)",
+            "hsl(180, 3, 94)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "10",
+            "#F4F6F6",
+            "rgb(244, 246, 246)",
+            "hsl(180, 10, 96)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "20",
+            "#603AB0",
+            "rgb(96, 58, 176)",
+            "hsl(259, 50, 46)",
+            "Description"
+          ]
+        },
+        {
+          "name": "Chip component",
+          "type": "INSTANCE",
+          "component_id": "346:4235",
+          "width": 180.0,
+          "height": 198.0,
+          "text": [
+            "10",
+            "#C7BFF3",
+            "rgb(199, 191, 243)",
+            "hsl(249, 68, 85)",
+            "Description"
+          ]
+        }
+      ]
+    }
+  ]
+}

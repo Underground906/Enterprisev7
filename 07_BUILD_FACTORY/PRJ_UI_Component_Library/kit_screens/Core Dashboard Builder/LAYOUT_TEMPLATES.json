@@ -1,0 +1,756 @@
+{
+  "kit_name": "Core Dashboard Builder",
+  "file_key": "CiyOckN4TAM0u6mfSsl4QI",
+  "total_screens": 65,
+  "unique_layouts": 44,
+  "reduction_percent": 32,
+  "layouts": [
+    {
+      "name": "Message center/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 2,
+      "representative_screen": "804:69640",
+      "representative_name": "Message center/Desktop/Light",
+      "screens_using": 8,
+      "screen_ids": [
+        "804:69640",
+        "920:68296",
+        "920:68290",
+        "920:68298",
+        "920:68295",
+        "920:68304",
+        "920:68291",
+        "920:68300"
+      ],
+      "screen_names": [
+        "Message center/Desktop/Light",
+        "Sign up/Desktop/Light",
+        "Sign up (Error)/Desktop/Light",
+        "Sign up (Ready)/Desktop/Light",
+        "Sign up (Code)/Desktop/Light",
+        "Sign up (Enter number)/Desktop/Light",
+        "Sign up (Number error)/Desktop/Light",
+        "Sign up (Continue - auto)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Home (User dropdown)/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1872.0,
+      "child_count": 1,
+      "representative_screen": "920:67560",
+      "representative_name": "Home (User dropdown)/Desktop/Light",
+      "screens_using": 5,
+      "screen_ids": [
+        "920:67560",
+        "920:67559",
+        "920:67562",
+        "920:72929",
+        "920:74582"
+      ],
+      "screen_names": [
+        "Home (User dropdown)/Desktop/Light",
+        "Home (Search dropdown)/Desktop/Light",
+        "Home (Income tab)/Desktop/Light",
+        "Notification dropdown/Desktop/Light",
+        "Message dropdown/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Drafts (Grid)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1200.0,
+      "child_count": 2,
+      "representative_screen": "920:69537",
+      "representative_name": "Product - Drafts (Grid)/Desktop/Light",
+      "screens_using": 3,
+      "screen_ids": [
+        "920:69537",
+        "920:69542",
+        "920:69541"
+      ],
+      "screen_names": [
+        "Product - Drafts (Grid)/Desktop/Light",
+        "Product - Released (Bulk select)/Desktop/Light",
+        "Product - Released (Product deleted)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Reschedule/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1151.0,
+      "child_count": 3,
+      "representative_screen": "920:70717",
+      "representative_name": "Product - Reschedule/Desktop/Light",
+      "screens_using": 3,
+      "screen_ids": [
+        "920:70717",
+        "920:70716",
+        "920:70714"
+      ],
+      "screen_names": [
+        "Product - Reschedule/Desktop/Light",
+        "Product - Reschedule (Date)/Desktop/Light",
+        "Product - Reschedule (Time)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Dashboard (Traffic sources)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2124.0,
+      "child_count": 2,
+      "representative_screen": "920:68311",
+      "representative_name": "Product - Dashboard (Traffic sources)/Desktop/Light",
+      "screens_using": 2,
+      "screen_ids": [
+        "920:68311",
+        "920:68309"
+      ],
+      "screen_names": [
+        "Product - Dashboard (Traffic sources)/Desktop/Light",
+        "Product - Dashboard (Viewers tab)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Promote - New post/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1573.0,
+      "child_count": 3,
+      "representative_screen": "920:72934",
+      "representative_name": "Promote - New post/Desktop/Light",
+      "screens_using": 2,
+      "screen_ids": [
+        "920:72934",
+        "920:72926"
+      ],
+      "screen_names": [
+        "Promote - New post/Desktop/Light",
+        "Promote - New post (video added)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Notifications/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1364.0,
+      "child_count": 2,
+      "representative_screen": "920:72928",
+      "representative_name": "Notifications/Desktop/Light",
+      "screens_using": 2,
+      "screen_ids": [
+        "920:72928",
+        "920:72923"
+      ],
+      "screen_names": [
+        "Notifications/Desktop/Light",
+        "Notification (More dropdown)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Message center (dropdown)/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 2,
+      "representative_screen": "920:74583",
+      "representative_name": "Message center (dropdown)/Desktop/Light",
+      "screens_using": 2,
+      "screen_ids": [
+        "920:74583",
+        "920:75384"
+      ],
+      "screen_names": [
+        "Message center (dropdown)/Desktop/Light",
+        "Video modal/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Sign in/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 1,
+      "representative_screen": "920:68308",
+      "representative_name": "Sign in/Desktop/Light",
+      "screens_using": 2,
+      "screen_ids": [
+        "920:68308",
+        "920:68307"
+      ],
+      "screen_names": [
+        "Sign in/Desktop/Light",
+        "Sign in (Entering)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop - Follow tab/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1674.0,
+      "child_count": 2,
+      "representative_screen": "920:71905",
+      "representative_name": "Shop - Follow tab/Desktop/Light",
+      "screens_using": 2,
+      "screen_ids": [
+        "920:71905",
+        "920:71903"
+      ],
+      "screen_names": [
+        "Shop - Follow tab/Desktop/Light",
+        "Shop - Following tab/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Home (Customer tab)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1872.0,
+      "child_count": 2,
+      "representative_screen": "72:3849",
+      "representative_name": "Home (Customer tab)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "72:3849"
+      ],
+      "screen_names": [
+        "Home (Customer tab)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Dashboard/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2322.0,
+      "child_count": 2,
+      "representative_screen": "436:41133",
+      "representative_name": "Product - Dashboard/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "436:41133"
+      ],
+      "screen_names": [
+        "Product - Dashboard/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Dashboard (More dropdown)/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 2322.0,
+      "child_count": 2,
+      "representative_screen": "920:68292",
+      "representative_name": "Product - Dashboard (More dropdown)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:68292"
+      ],
+      "screen_names": [
+        "Product - Dashboard (More dropdown)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Dashboard (Sticky bar - scrolling)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2204.0,
+      "child_count": 2,
+      "representative_screen": "920:68303",
+      "representative_name": "Product - Dashboard (Sticky bar - scrolling)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:68303"
+      ],
+      "screen_names": [
+        "Product - Dashboard (Sticky bar - scrolling)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "New Product/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 3385.0,
+      "child_count": 2,
+      "representative_screen": "920:69546",
+      "representative_name": "New Product/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:69546"
+      ],
+      "screen_names": [
+        "New Product/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Drafts (List)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1160.0,
+      "child_count": 2,
+      "representative_screen": "920:69544",
+      "representative_name": "Product - Drafts (List)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:69544"
+      ],
+      "screen_names": [
+        "Product - Drafts (List)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Released/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1097.0,
+      "child_count": 2,
+      "representative_screen": "920:69547",
+      "representative_name": "Product - Released/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:69547"
+      ],
+      "screen_names": [
+        "Product - Released/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Released/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1024.0,
+      "height": 1081.0,
+      "child_count": 2,
+      "representative_screen": "1082:142697",
+      "representative_name": "Product - Released/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "1082:142697"
+      ],
+      "screen_names": [
+        "Product - Released/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Scheduled/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1151.0,
+      "child_count": 2,
+      "representative_screen": "392:23916",
+      "representative_name": "Product - Scheduled/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "392:23916"
+      ],
+      "screen_names": [
+        "Product - Scheduled/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Comment/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1229.0,
+      "child_count": 2,
+      "representative_screen": "920:70724",
+      "representative_name": "Product - Comment/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:70724"
+      ],
+      "screen_names": [
+        "Product - Comment/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Comment (reaction)/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1229.0,
+      "child_count": 3,
+      "representative_screen": "1259:183891",
+      "representative_name": "Product - Comment (reaction)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "1259:183891"
+      ],
+      "screen_names": [
+        "Product - Comment (reaction)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Comment (Reply)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1297.0,
+      "child_count": 2,
+      "representative_screen": "920:70725",
+      "representative_name": "Product - Comment (Reply)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:70725"
+      ],
+      "screen_names": [
+        "Product - Comment (Reply)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Product - Comment (Reply - Text)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1321.0,
+      "child_count": 2,
+      "representative_screen": "920:70719",
+      "representative_name": "Product - Comment (Reply - Text)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:70719"
+      ],
+      "screen_names": [
+        "Product - Comment (Reply - Text)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Promote/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1573.0,
+      "child_count": 2,
+      "representative_screen": "603:53920",
+      "representative_name": "Promote/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "603:53920"
+      ],
+      "screen_names": [
+        "Promote/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Profile settings/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2332.0,
+      "child_count": 2,
+      "representative_screen": "920:72932",
+      "representative_name": "Profile settings/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:72932"
+      ],
+      "screen_names": [
+        "Profile settings/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Upgrade to Pro/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1707.0,
+      "child_count": 2,
+      "representative_screen": "920:72930",
+      "representative_name": "Upgrade to Pro/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:72930"
+      ],
+      "screen_names": [
+        "Upgrade to Pro/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Explore creator/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2072.810546875,
+      "child_count": 2,
+      "representative_screen": "920:74585",
+      "representative_name": "Explore creator/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:74585"
+      ],
+      "screen_names": [
+        "Explore creator/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Affiliate center/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1812.0,
+      "child_count": 2,
+      "representative_screen": "920:74586",
+      "representative_name": "Affiliate center/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:74586"
+      ],
+      "screen_names": [
+        "Affiliate center/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Slide video bar/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1200.0,
+      "child_count": 3,
+      "representative_screen": "895:65835",
+      "representative_name": "Slide video bar/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "895:65835"
+      ],
+      "screen_names": [
+        "Slide video bar/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1793.0,
+      "child_count": 2,
+      "representative_screen": "458:43180",
+      "representative_name": "Shop/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "458:43180"
+      ],
+      "screen_names": [
+        "Shop/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop - Product page - Product tab/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 2041.0,
+      "child_count": 1,
+      "representative_screen": "441:48750",
+      "representative_name": "Shop - Product page - Product tab/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "441:48750"
+      ],
+      "screen_names": [
+        "Shop - Product page - Product tab/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop - Product page - Product share/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 2041.0,
+      "child_count": 3,
+      "representative_screen": "1419:348391",
+      "representative_name": "Shop - Product page - Product share/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "1419:348391"
+      ],
+      "screen_names": [
+        "Shop - Product page - Product share/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop - Product page - Comment tab/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1937.0,
+      "child_count": 2,
+      "representative_screen": "920:71904",
+      "representative_name": "Shop - Product page - Comment tab/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:71904"
+      ],
+      "screen_names": [
+        "Shop - Product page - Comment tab/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop - Product page - Slide images/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1024.0,
+      "child_count": 5,
+      "representative_screen": "920:71902",
+      "representative_name": "Shop - Product page - Slide images/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:71902"
+      ],
+      "screen_names": [
+        "Shop - Product page - Slide images/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Shop - Product filter/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1793.0,
+      "child_count": 3,
+      "representative_screen": "920:71906",
+      "representative_name": "Shop - Product filter/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:71906"
+      ],
+      "screen_names": [
+        "Shop - Product filter/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Income - Earning/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1330.0,
+      "child_count": 2,
+      "representative_screen": "920:72607",
+      "representative_name": "Income - Earning/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:72607"
+      ],
+      "screen_names": [
+        "Income - Earning/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Income - Refunds/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1093.0,
+      "child_count": 2,
+      "representative_screen": "545:49146",
+      "representative_name": "Income - Refunds/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "545:49146"
+      ],
+      "screen_names": [
+        "Income - Refunds/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Income - Refunds modal/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1093.0,
+      "child_count": 3,
+      "representative_screen": "920:72693",
+      "representative_name": "Income - Refunds modal/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:72693"
+      ],
+      "screen_names": [
+        "Income - Refunds modal/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Income - Payouts/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1180.0,
+      "child_count": 2,
+      "representative_screen": "920:72695",
+      "representative_name": "Income - Payouts/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:72695"
+      ],
+      "screen_names": [
+        "Income - Payouts/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Income - Payouts (Withdraw)/Desktop/Light",
+      "layout_type": "full_canvas",
+      "width": 1440.0,
+      "height": 1180.0,
+      "child_count": 3,
+      "representative_screen": "1260:185795",
+      "representative_name": "Income - Payouts (Withdraw)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "1260:185795"
+      ],
+      "screen_names": [
+        "Income - Payouts (Withdraw)/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Income - Statements/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1564.0,
+      "child_count": 2,
+      "representative_screen": "920:72692",
+      "representative_name": "Income - Statements/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:72692"
+      ],
+      "screen_names": [
+        "Income - Statements/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Customer - Customer overview/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 2482.0,
+      "child_count": 2,
+      "representative_screen": "920:70728",
+      "representative_name": "Customer - Customer overview/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:70728"
+      ],
+      "screen_names": [
+        "Customer - Customer overview/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Customer - Customer List/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1470.0,
+      "child_count": 2,
+      "representative_screen": "920:70730",
+      "representative_name": "Customer - Customer List/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:70730"
+      ],
+      "screen_names": [
+        "Customer - Customer List/Desktop/Light"
+      ]
+    },
+    {
+      "name": "Customer - Customer list (detail)/Desktop/Light",
+      "layout_type": "sidebar_content",
+      "width": 1440.0,
+      "height": 1603.0,
+      "child_count": 2,
+      "representative_screen": "920:70726",
+      "representative_name": "Customer - Customer list (detail)/Desktop/Light",
+      "screens_using": 1,
+      "screen_ids": [
+        "920:70726"
+      ],
+      "screen_names": [
+        "Customer - Customer list (detail)/Desktop/Light"
+      ]
+    }
+  ],
+  "generated_at": "2026-02-20T01:24:02.179436"
+}

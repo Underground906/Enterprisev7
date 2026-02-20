@@ -1,0 +1,1714 @@
+{
+  "kit": "Aimate",
+  "file_key": "EXhqJe4YbbyS0Hegl8OEDk",
+  "analyzed_at": "2026-02-19T20:07:36.705056",
+  "unique_layouts": 22,
+  "total_screens": 31,
+  "dedup_ratio": "31 screens -> 22 templates (71%)",
+  "layouts": [
+    {
+      "layout_id": "AI_L1",
+      "name": "thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "thumbnail",
+        "hero",
+        "body"
+      ],
+      "screen_ids": [
+        "5:8",
+        "302:1783",
+        "313:3035"
+      ],
+      "count": 3,
+      "representative_screen": "5:8",
+      "representative_name": "thumbnail",
+      "dimensions": {
+        "width": 1298,
+        "height": 779
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (768x146)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "logo",
+            "width_approx": 768,
+            "height_approx": 146,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "aimate"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "form",
+        "messaging",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L2",
+      "name": "faqs",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "faqs"
+      ],
+      "screen_ids": [
+        "246:1983"
+      ],
+      "count": 1,
+      "representative_screen": "246:1983",
+      "representative_name": "faqs",
+      "dimensions": {
+        "width": 1440,
+        "height": 850
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x626)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 626,
+            "role": "main_content",
+            "components": [
+              "FAQs"
+            ],
+            "text_labels": [
+              "FAQs",
+              "We're here to answer all your questions."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "faqs"
+      ],
+      "capabilities": [
+        "messaging"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L3",
+      "name": "blogs",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "blogs",
+        "blogs"
+      ],
+      "screen_ids": [
+        "181:1069",
+        "313:3037"
+      ],
+      "count": 2,
+      "representative_screen": "181:1069",
+      "representative_name": "blogs",
+      "dimensions": {
+        "width": 1440,
+        "height": 935
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x711)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 711,
+            "role": "main_content",
+            "components": [
+              "blog-card",
+              "button-outlined"
+            ],
+            "text_labels": [
+              "News and articles",
+              "Stay informed with our curated collection of news and articles, offering insights, and  information in the industry.",
+              "See more"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "blog-card",
+        "button-outlined"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L4",
+      "name": "testimonials-section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "testimonials-section",
+        "testimonials-section",
+        "testimonials-section",
+        "testimonials-section",
+        "testimonials-section"
+      ],
+      "screen_ids": [
+        "170:1137",
+        "350:3221",
+        "352:3353",
+        "352:3429",
+        "352:3505"
+      ],
+      "count": 5,
+      "representative_screen": "170:1137",
+      "representative_name": "testimonials-section",
+      "dimensions": {
+        "width": 1440,
+        "height": 858
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (928x690)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "testimonials",
+            "width_approx": 928,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Star",
+              "Quote Icon",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Endorsed by industry leaders",
+              "Industry leaders trusts our commitment to excellence, validating our innovative solutions and fostering partnerships.",
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "fictional company logo",
+        "quote icon",
+        "star"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "profile",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L5",
+      "name": "integration",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "integration",
+        "integration"
+      ],
+      "screen_ids": [
+        "143:1109",
+        "286:2654"
+      ],
+      "count": 2,
+      "representative_screen": "143:1109",
+      "representative_name": "integration",
+      "dimensions": {
+        "width": 1440,
+        "height": 876
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x652)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "main-container",
+            "width_approx": 1120,
+            "height_approx": 652,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "integration"
+            ],
+            "text_labels": [
+              "INTEGRATION",
+              "Unifying your business tools",
+              "Connect Aimate effortlessly with your systems for streamlined operations and enhanced performance.",
+              "Get started for free"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button-cta",
+        "integration"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L6",
+      "name": "features",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "features"
+      ],
+      "screen_ids": [
+        "286:2482"
+      ],
+      "count": 1,
+      "representative_screen": "286:2482",
+      "representative_name": "features",
+      "dimensions": {
+        "width": 1440,
+        "height": 1510
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x1286)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "features-main-container",
+            "width_approx": 1120,
+            "height_approx": 1286,
+            "role": "main_content",
+            "components": [
+              "list"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "dotsthreevertical",
+        "list"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "messaging",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L7",
+      "name": "Typography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Typography"
+      ],
+      "screen_ids": [
+        "439:4502"
+      ],
+      "count": 1,
+      "representative_screen": "439:4502",
+      "representative_name": "Typography",
+      "dimensions": {
+        "width": 1397,
+        "height": 1361
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1301x1265)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Uncategorized",
+            "width_approx": 1301,
+            "height_approx": 1265,
+            "role": "main_content",
+            "components": [
+              "Text component"
+            ],
+            "text_labels": [
+              "H1",
+              "H2",
+              "H3",
+              "H4",
+              "H5",
+              "H6",
+              "Body",
+              "Footnote",
+              "Link"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "text component"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L8",
+      "name": "pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "pricing"
+      ],
+      "screen_ids": [
+        "143:1136"
+      ],
+      "count": 1,
+      "representative_screen": "143:1136",
+      "representative_name": "pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 1035
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (702x58), Center main_content (1120x753)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Plans for every stage of company",
+            "width_approx": 702,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Plans for every stage of company"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "pricing",
+            "width_approx": 1120,
+            "height_approx": 753,
+            "role": "main_content",
+            "components": [
+              "button-outlined",
+              "features-icon",
+              "integration-icons",
+              "list",
+              "pricing"
+            ],
+            "text_labels": [
+              "Monthly",
+              "Yearly",
+              "Save 20% on yearly plan",
+              "Free",
+              "$18/m",
+              "$30/m"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "pricing"
+      ],
+      "capabilities": [
+        "calendar",
+        "e_commerce",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L9",
+      "name": "main-feature",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "main-feature"
+      ],
+      "screen_ids": [
+        "143:1039"
+      ],
+      "count": 1,
+      "representative_screen": "143:1039",
+      "representative_name": "main-feature",
+      "dimensions": {
+        "width": 1440,
+        "height": 1238
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (736x122), Center main_content (928x948)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "title-text",
+            "width_approx": 736,
+            "height_approx": 122,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Redefine customer support",
+              "Discover our AI's capabilities that revolutionize your startup's customer service landscape."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "features",
+            "width_approx": 928,
+            "height_approx": 948,
+            "role": "main_content",
+            "components": [
+              "UserCirclePlus",
+              "ChatsCircle",
+              "Files",
+              "UserPlus"
+            ],
+            "text_labels": [
+              "Train your chatbot using your specific data, allowing it to understand and respond to inquiries with context-awareness and personalized information.",
+              "Leverage the power of a trained chatbot to automate responses, handling routine queries effortlessly and providing instant, data-driven interactions.",
+              "Enhance support efficiency with our intelligent ticketing system, automating query management and prioritizing customer needs effectively and accurately.",
+              "Utilize insights from your data to personalize interactions, providing customers with responses and suggestions that align with their unique preferences and history."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "chatscircle",
+        "dotsthreevertical",
+        "files",
+        "usercircleplus",
+        "userplus"
+      ],
+      "capabilities": [
+        "content_creation",
+        "file_management",
+        "form",
+        "messaging",
+        "search",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L10",
+      "name": "hero-section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "hero-section"
+      ],
+      "screen_ids": [
+        "143:972"
+      ],
+      "count": 1,
+      "representative_screen": "143:972",
+      "representative_name": "hero-section",
+      "dimensions": {
+        "width": 1440,
+        "height": 1113
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x797), Center main_content (928x452)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1440,
+            "height_approx": 797,
+            "role": "main_content",
+            "components": [
+              "Avatars",
+              "ArrowRight",
+              "Sparkle",
+              "button-outlined-dark",
+              "Star",
+              "button-cta"
+            ],
+            "text_labels": [
+              "New",
+              "AI Feature is added",
+              "Revolutionize your customer support with AI excellence",
+              "Elevate startup support with cutting-edge AI enhancing user satisfaction effortlessly.",
+              "Get started for free",
+              "See pricing",
+              "from happy customer"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "image-container",
+            "width_approx": 928,
+            "height_approx": 452,
+            "role": "main_content",
+            "components": [
+              "Star"
+            ],
+            "text_labels": [
+              "Automated Resolution Rate",
+              "78%",
+              "Automatically Resolved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "arrowright",
+        "avatars",
+        "button-cta",
+        "button-outlined-dark",
+        "dotsthreevertical",
+        "sparkle",
+        "star"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "profile",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L11",
+      "name": "features",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "features"
+      ],
+      "screen_ids": [
+        "273:1419"
+      ],
+      "count": 1,
+      "representative_screen": "273:1419",
+      "representative_name": "features",
+      "dimensions": {
+        "width": 1440,
+        "height": 712
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1120x228), Center main_content (1120x228)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "column 1",
+            "width_approx": 1120,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [
+              "features"
+            ],
+            "text_labels": [
+              "Conversational Analytics",
+              "Gain insights into user interactions, improving chatbot performance and user satisfaction.",
+              "Multi-language support",
+              "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach.",
+              "Automated workflows",
+              "Streamline internal processes with automated workflows triggered by user interactions."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "column 2",
+            "width_approx": 1120,
+            "height_approx": 228,
+            "role": "main_content",
+            "components": [
+              "features"
+            ],
+            "text_labels": [
+              "Integration with CRM",
+              "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history.",
+              "Analytics dashboard",
+              "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making.",
+              "Smart routing system",
+              "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "features"
+      ],
+      "capabilities": [
+        "analytics",
+        "form",
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L12",
+      "name": "Head",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Head"
+      ],
+      "screen_ids": [
+        "313:2866"
+      ],
+      "count": 1,
+      "representative_screen": "313:2866",
+      "representative_name": "Head",
+      "dimensions": {
+        "width": 1440,
+        "height": 890
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1119x206), Center main_content (1120x544)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1119,
+            "height_approx": 206,
+            "role": "main_content",
+            "components": [
+              "Avatars"
+            ],
+            "text_labels": [
+              "Aimate transforms customer support experiences with AI",
+              "John Doe",
+              "Managing Director, Aimate",
+              "Share this post"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "img",
+            "width_approx": 1120,
+            "height_approx": 544,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatars"
+      ],
+      "capabilities": [
+        "form",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L13",
+      "name": "additional-feature",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "additional-feature"
+      ],
+      "screen_ids": [
+        "143:1066"
+      ],
+      "count": 1,
+      "representative_screen": "143:1066",
+      "representative_name": "additional-feature",
+      "dimensions": {
+        "width": 1440,
+        "height": 1526
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (416x58), Center main_content (1120x700), Center main_content (1120x488)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Wait! There's more!",
+            "width_approx": 416,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Wait! There's more!"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "image",
+            "width_approx": 1120,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "features",
+            "width_approx": 1120,
+            "height_approx": 488,
+            "role": "main_content",
+            "components": [
+              "features"
+            ],
+            "text_labels": [
+              "Conversational Analytics",
+              "Gain insights into user interactions, improving chatbot performance and user satisfaction.",
+              "Multi-language support",
+              "Enable the chatbot to communicate seamlessly in multiple languages for broader user reach.",
+              "Automated workflows",
+              "Streamline internal processes with automated workflows triggered by user interactions.",
+              "Integration with CRM",
+              "Seamlessly connect with CRM systems for a comprehensive view of user interactions and their history.",
+              "Analytics dashboard",
+              "Provide an intuitive dashboard for real-time performance analytics, aiding in strategic decision-making.",
+              "Smart routing system",
+              "Automatically direct user queries to the most relevant support channel or agent, improving response times."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "features"
+      ],
+      "capabilities": [
+        "analytics",
+        "form",
+        "messaging"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L14",
+      "name": "team",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "team"
+      ],
+      "screen_ids": [
+        "303:1939"
+      ],
+      "count": 1,
+      "representative_screen": "303:1939",
+      "representative_name": "team",
+      "dimensions": {
+        "width": 1440,
+        "height": 1243
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (448x94), Center main_content (1120x523), Center main_content (1120x290)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "head",
+            "width_approx": 448,
+            "height_approx": 94,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "..and we are growing",
+              "Our team is expanding, fueling Aimate's growth and innovation."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 523,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "career",
+            "width_approx": 1120,
+            "height_approx": 290,
+            "role": "main_content",
+            "components": [
+              "button-cta-black"
+            ],
+            "text_labels": [
+              "Join our team",
+              "Looking to be part of our dynamic team?",
+              "Explore exciting career opportunities at Aimate.",
+              "Contact us"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button-cta-black"
+      ],
+      "capabilities": [
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L15",
+      "name": "hero",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "hero"
+      ],
+      "screen_ids": [
+        "273:1542"
+      ],
+      "count": 1,
+      "representative_screen": "273:1542",
+      "representative_name": "hero",
+      "dimensions": {
+        "width": 1440,
+        "height": 1632
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x507), Center main_content (634x274), Center main_content (1120x700), Center main_content (1120x242)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "element",
+            "width_approx": 1440,
+            "height_approx": 507,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "hero",
+            "width_approx": 634,
+            "height_approx": 274,
+            "role": "main_content",
+            "components": [
+              "button-cta"
+            ],
+            "text_labels": [
+              "Redefine efficiency with our AI features",
+              "Transform workflows with AI features, maximizing efficiency and productivity for unparalleled performance.",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "video-section",
+            "width_approx": 1120,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [
+              "video-section",
+              "Play"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 242,
+            "role": "main_content",
+            "components": [
+              "Avatars",
+              "Fictional company logo"
+            ],
+            "text_labels": [
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+              "John Doe",
+              "Founder, Nietzsche"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "button-cta",
+        "fictional company logo",
+        "video-section"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L16",
+      "name": "team",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "team"
+      ],
+      "screen_ids": [
+        "303:1889"
+      ],
+      "count": 1,
+      "representative_screen": "303:1889",
+      "representative_name": "team",
+      "dimensions": {
+        "width": 1440,
+        "height": 770
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (448x94), Center main_content (1120x396)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "mission",
+            "width_approx": 448,
+            "height_approx": 94,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "We started at 4..",
+              "Aimate began with just four passionate team members."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1120,
+            "height_approx": 396,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Jessica Nguyen",
+              "Co-founder & COO",
+              "Alex Rodriguez",
+              "Founder & CEO",
+              "Daniel Martinez",
+              "Founder & CTO",
+              "Ryan Thompson",
+              "Co-founder & CMO"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L17",
+      "name": "Aimate login",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "Aimate login",
+        "Aimate get started"
+      ],
+      "screen_ids": [
+        "318:3055",
+        "330:2486"
+      ],
+      "count": 2,
+      "representative_screen": "318:3055",
+      "representative_name": "Aimate login",
+      "dimensions": {
+        "width": 1440,
+        "height": 1107
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (528x718), Center main_content (121x42)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 528,
+            "height_approx": 718,
+            "role": "main_content",
+            "components": [
+              "Social Icon",
+              "button-cta",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "OR",
+              "Don’t have account yet?  Sign Up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "navbar/back",
+            "width_approx": 121,
+            "height_approx": 42,
+            "role": "main_content",
+            "components": [
+              "ArrowLeft",
+              "navbar"
+            ],
+            "text_labels": [
+              "Go back"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button-cta",
+        "logo",
+        "navbar",
+        "social icon"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "map",
+        "navigation",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L18",
+      "name": "related post",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "related post"
+      ],
+      "screen_ids": [
+        "313:2969"
+      ],
+      "count": 1,
+      "representative_screen": "313:2969",
+      "representative_name": "related post",
+      "dimensions": {
+        "width": 1440,
+        "height": 705
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (227x48), Center main_content (1120x433)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Related post",
+            "width_approx": 227,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Related post"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "3",
+            "width_approx": 1120,
+            "height_approx": 433,
+            "role": "main_content",
+            "components": [
+              "blog-card"
+            ],
+            "text_labels": [
+              "Understanding the impact of Aimate on business for conversion",
+              "The growing demand for AI-powered customer support solutions",
+              "How AI chatbots are reshaping the customer service landscape"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "blog-card"
+      ],
+      "capabilities": [
+        "messaging"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AI_L19",
+      "name": "Colors",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Colors"
+      ],
+      "screen_ids": [
+        "439:4631"
+      ],
+      "count": 1,
+      "representative_screen": "439:4631",
+      "representative_name": "Colors",
+      "dimensions": {
+        "width": 1256,
+        "height": 948
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (572x252), Center main_content (1160x252), Center main_content (376x252)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Green",
+            "width_approx": 572,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "Chip component"
+            ],
+            "text_labels": [
+              "Green",
+              "70",
+              "#04201A",
+              "rgb(4, 32, 26)",
+              "hsl(167, 78, 7)",
+              "Description",
+              "40",
+              "#0A5042",
+              "rgb(10, 80, 66)",
+              "hsl(168, 78, 18)",
+              "Description",
+              "30",
+              "#18B188",
+              "rgb(24, 177, 136)",
+              "hsl(164, 76, 39)"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Shades",
+            "width_approx": 1160,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "Chip component"
+            ],
+            "text_labels": [
+              "Shades",
+              "60",
+              "#2A3735",
+              "rgb(42, 55, 53)",
+              "hsl(171, 13, 19)",
+              "Description",
+              "50",
+              "#485151",
+              "rgb(72, 81, 81)",
+              "hsl(180, 6, 30)",
+              "Description",
+              "40",
+              "#5F6766",
+              "rgb(95, 103, 102)",
+              "hsl(173, 4, 39)"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Purple",
+            "width_approx": 376,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "Chip component"
+            ],
+            "text_labels": [
+              "Purple",
+              "20",
+              "#603AB0",
+              "rgb(96, 58, 176)",
+              "hsl(259, 50, 46)",
+              "Description",
+              "10",
+              "#C7BFF3",
+              "rgb(199, 191, 243)",
+              "hsl(249, 68, 85)",
+              "Description"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "chip component"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L20",
+      "name": "Aimate pricing",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Aimate pricing"
+      ],
+      "screen_ids": [
+        "286:2739"
+      ],
+      "count": 1,
+      "representative_screen": "286:2739",
+      "representative_name": "Aimate pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 4339
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x80), Center main_content (1440x495), Center main_content (1440x380), Center main_content (1440x850), Center main_content (1440x1380), Center main_content (1440x1156)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "footer-section",
+            "width_approx": 1440,
+            "height_approx": 495,
+            "role": "main_content",
+            "components": [
+              "logo",
+              "footer-section"
+            ],
+            "text_labels": [
+              "Product",
+              "Company",
+              "Contact Info",
+              "© 2024 aimate. Created with love by @duiverse",
+              "Terms & Conditions",
+              "Privacy Policy"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cta",
+            "width_approx": 1440,
+            "height_approx": 380,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "Avatars",
+              "cta"
+            ],
+            "text_labels": [
+              "Stop spending unnecessary time on customer support!",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "faqs",
+            "width_approx": 1440,
+            "height_approx": 850,
+            "role": "main_content",
+            "components": [
+              "FAQs"
+            ],
+            "text_labels": [
+              "FAQs",
+              "We're here to answer all your questions."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "pricing-comparison",
+            "width_approx": 1440,
+            "height_approx": 1380,
+            "role": "main_content",
+            "components": [
+              "Lightbulb",
+              "Sparkle",
+              "Ticket",
+              "ChatCircleDots"
+            ],
+            "text_labels": [
+              "Plans comparison",
+              "Get a full overview of all the plans and features we're offering.",
+              "Starter",
+              "Individual",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "pricing",
+            "width_approx": 1440,
+            "height_approx": 1156,
+            "role": "main_content",
+            "components": [
+              "pricing"
+            ],
+            "text_labels": [
+              "Plans for every stage",
+              "Tailored plans to support your company's growth journey, offering scalable solutions for every stage.",
+              "Save 20% on yearly plan"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "navbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "button-cta-black",
+              "button-outlined-dark",
+              "navbar",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "Features",
+              "Pricing",
+              "About",
+              "Blog",
+              "Contact",
+              "Login",
+              "Get started"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "box",
+        "chatcircledots",
+        "cta",
+        "faqs",
+        "footer-section",
+        "lightbulb",
+        "navbar",
+        "pricing",
+        "sparkle",
+        "ticket"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L21",
+      "name": "Blog",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Blog"
+      ],
+      "screen_ids": [
+        "308:1506"
+      ],
+      "count": 1,
+      "representative_screen": "308:1506",
+      "representative_name": "Blog",
+      "dimensions": {
+        "width": 1440,
+        "height": 3312
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x80), Center main_content (1440x495), Center main_content (1440x380), Center main_content (1440x291), Center main_content (1440x532), Center main_content (1456x1547)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "footer-section",
+            "width_approx": 1440,
+            "height_approx": 495,
+            "role": "main_content",
+            "components": [
+              "logo",
+              "footer-section"
+            ],
+            "text_labels": [
+              "Product",
+              "Company",
+              "Contact Info",
+              "© 2024 aimate. Created with love by @duiverse",
+              "Terms & Conditions",
+              "Privacy Policy"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cta",
+            "width_approx": 1440,
+            "height_approx": 380,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "Avatars",
+              "cta"
+            ],
+            "text_labels": [
+              "Stop spending unnecessary time on customer support!",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "navbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "button-cta-black",
+              "button-outlined-dark",
+              "navbar",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "Features",
+              "Pricing",
+              "About",
+              "Blog",
+              "Contact",
+              "Login",
+              "Get started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1440,
+            "height_approx": 291,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Blogs",
+              "We are passionate about sharing valuable insights, industry trends, and expert perspectives to keep you informed and inspired."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Subscribe to our blog",
+              "Enter your email to get the latest tips and stories to help boost your business.",
+              "Your email address"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "container",
+            "width_approx": 1456,
+            "height_approx": 1547,
+            "role": "main_content",
+            "components": [
+              "blog-card"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "blog-card",
+        "cta",
+        "footer-section",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AI_L22",
+      "name": "Aimate contact",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Aimate contact"
+      ],
+      "screen_ids": [
+        "317:1917"
+      ],
+      "count": 1,
+      "representative_screen": "317:1917",
+      "representative_name": "Aimate contact",
+      "dimensions": {
+        "width": 1440,
+        "height": 3132
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x80), Center main_content (1440x495), Center main_content (1440x380), Center main_content (1440x291), Center main_content (1440x778), Center main_content (1440x272), Center main_content (1440x794)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "footer-section",
+            "width_approx": 1440,
+            "height_approx": 495,
+            "role": "main_content",
+            "components": [
+              "logo",
+              "footer-section"
+            ],
+            "text_labels": [
+              "Product",
+              "Company",
+              "Contact Info",
+              "© 2024 aimate. Created with love by @duiverse",
+              "Terms & Conditions",
+              "Privacy Policy"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cta",
+            "width_approx": 1440,
+            "height_approx": 380,
+            "role": "main_content",
+            "components": [
+              "button-cta",
+              "Avatars",
+              "cta"
+            ],
+            "text_labels": [
+              "Stop spending unnecessary time on customer support!",
+              "Get started for free"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "navbar",
+            "width_approx": 1440,
+            "height_approx": 80,
+            "role": "header",
+            "components": [
+              "button-cta-black",
+              "button-outlined-dark",
+              "navbar",
+              "logo"
+            ],
+            "text_labels": [
+              "aimate",
+              "Features",
+              "Pricing",
+              "About",
+              "Blog",
+              "Contact",
+              "Login",
+              "Get started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 176",
+            "width_approx": 1440,
+            "height_approx": 291,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Let’s get in touch",
+              "Questions about products, features, or pricing? Need a demo? Our sales experts are ready to help."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 175",
+            "width_approx": 1440,
+            "height_approx": 778,
+            "role": "main_content",
+            "components": [
+              "button-outlined-dark",
+              "Fictional company logo",
+              "Avatars"
+            ],
+            "text_labels": [
+              "Contact us",
+              "Aimate has revolutionized our operations. The AI-driven support exceeds expectations, enhancing efficiency and satisfaction. A true game-changer, highly recommended for businesses.",
+              "Trusted by:"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "infos",
+            "width_approx": 1440,
+            "height_approx": 272,
+            "role": "main_content",
+            "components": [
+              "EnvelopeSimple",
+              "PhoneCall"
+            ],
+            "text_labels": [
+              "Call us on",
+              "+(22) 342 567 8910",
+              "Email",
+              "hello@aimate.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "faqs",
+            "width_approx": 1440,
+            "height_approx": 794,
+            "role": "main_content",
+            "components": [
+              "FAQs"
+            ],
+            "text_labels": [
+              "FAQs",
+              "We're here to answer all your questions."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatars",
+        "button-outlined-dark",
+        "check",
+        "cta",
+        "envelopesimple",
+        "faqs",
+        "fictional company logo",
+        "footer-section",
+        "navbar",
+        "phonecall"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

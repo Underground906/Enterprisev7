@@ -1,0 +1,4181 @@
+{
+  "kit": "Triply AI",
+  "file_key": "24h3Ty1OtmTV6m0ROHb7DB",
+  "analyzed_at": "2026-02-19T18:36:46.131469",
+  "unique_layouts": 30,
+  "total_screens": 148,
+  "dedup_ratio": "148 screens -> 30 templates (20%)",
+  "layouts": [
+    {
+      "layout_id": "TR_L1",
+      "name": "Thumb",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Thumb"
+      ],
+      "screen_ids": [
+        "8001:35302"
+      ],
+      "count": 1,
+      "representative_screen": "8001:35302",
+      "representative_name": "Thumb",
+      "dimensions": {
+        "width": 1600,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x960)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "image 1",
+            "width_approx": 1600,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L2",
+      "name": "1. Sign up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "1. Sign In",
+        "1. Sign up",
+        "Verify Email",
+        "1. Sign In",
+        "1. Sign up",
+        "Verify Email"
+      ],
+      "screen_ids": [
+        "6317:29519",
+        "6319:30376",
+        "6319:33494",
+        "6341:41292",
+        "6341:42858",
+        "6341:44428"
+      ],
+      "count": 6,
+      "representative_screen": "6319:30376",
+      "representative_name": "1. Sign up",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (720x1024), Center main_content (720x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 720,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Input",
+              "global",
+              "Logo",
+              "Left",
+              "Buttons",
+              "_Background mask",
+              "chevron-down"
+            ],
+            "text_labels": [
+              "Triply",
+              "Go Back",
+              "© 2025 Triply"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 720,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Alvar Hostin",
+              "Founder, Mindtrip",
+              "Triply completely transformed the way I planned my trip! The intuitive itinerary builder allowed me to organize every detail effortlessly, from accommodations to activities, while the real-time updates ensured I stayed informed throughout my journey."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "_background mask",
+        "apple",
+        "buttons",
+        "chevron-down",
+        "global",
+        "google",
+        "input",
+        "left",
+        "logo",
+        "mail-02",
+        "square",
+        "text input",
+        "user"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L3",
+      "name": "Verify Email",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Verify Email",
+        "Verify Email"
+      ],
+      "screen_ids": [
+        "6319:34383",
+        "6341:45960"
+      ],
+      "count": 2,
+      "representative_screen": "6319:34383",
+      "representative_name": "Verify Email",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (720x1024), Center main_content (720x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 720,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "global",
+              "Logo",
+              "Left",
+              "Buttons",
+              "_Background mask",
+              "chevron-down"
+            ],
+            "text_labels": [
+              "Triply",
+              "Go Back",
+              "© 2025 Triply"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 720,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Alvar Hostin",
+              "Founder, Mindtrip",
+              "Triply completely transformed the way I planned my trip! The intuitive itinerary builder allowed me to organize every detail effortlessly, from accommodations to activities, while the real-time updates ensured I stayed informed throughout my journey."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "_background mask",
+        "buttons",
+        "chevron-down",
+        "global",
+        "left",
+        "logo",
+        "mail-02"
+      ],
+      "capabilities": [
+        "calendar",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L4",
+      "name": "change password",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "change password",
+        "Password changed successfully",
+        "change password",
+        "Password changed successfully"
+      ],
+      "screen_ids": [
+        "6319:35225",
+        "6322:33923",
+        "6341:47524",
+        "6341:47736"
+      ],
+      "count": 4,
+      "representative_screen": "6319:35225",
+      "representative_name": "change password",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (720x1024), Center main_content (720x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 720,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "global",
+              "Logo",
+              "Left",
+              "Background pattern",
+              "Buttons",
+              "chevron-down"
+            ],
+            "text_labels": [
+              "Triply",
+              "Go Back",
+              "© 2025 Triply"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 720,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Alvar Hostin",
+              "Founder, Mindtrip",
+              "Triply completely transformed the way I planned my trip! The intuitive itinerary builder allowed me to organize every detail effortlessly, from accommodations to activities, while the real-time updates ensured I stayed informed throughout my journey."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "background pattern",
+        "buttons",
+        "chevron-down",
+        "filed",
+        "global",
+        "left",
+        "logo",
+        "rocket-01",
+        "text input"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L5",
+      "name": "Iconography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Iconography",
+        "Colors",
+        "How to edit colors"
+      ],
+      "screen_ids": [
+        "6129:6259",
+        "6333:49394",
+        "6333:50163"
+      ],
+      "count": 3,
+      "representative_screen": "6129:6259",
+      "representative_name": "Iconography",
+      "dimensions": {
+        "width": 1440,
+        "height": 826
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x335), Center main_content (1440x491)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Style guide header & footer",
+            "width_approx": 1440,
+            "height_approx": 335,
+            "role": "main_content",
+            "components": [
+              "Logo"
+            ],
+            "text_labels": [
+              "Iconography",
+              "The style guide provides to change stylistic for your design site.",
+              "Ecomic",
+              "Pixem Studio"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar & Navigation",
+            "width_approx": 1440,
+            "height_approx": 491,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "logo"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "editing",
+        "form",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L6",
+      "name": "Iconography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Iconography"
+      ],
+      "screen_ids": [
+        "6395:57152"
+      ],
+      "count": 1,
+      "representative_screen": "6395:57152",
+      "representative_name": "Iconography",
+      "dimensions": {
+        "width": 1440,
+        "height": 2228
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x335), Center main_content (1440x1893)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Style guide header & footer",
+            "width_approx": 1440,
+            "height_approx": 335,
+            "role": "main_content",
+            "components": [
+              "Logo"
+            ],
+            "text_labels": [
+              "Component & Input",
+              "The style guide provides to change stylistic for your design site.",
+              "Ecomic",
+              "Pixem Studio"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Component & Input",
+            "width_approx": 1440,
+            "height_approx": 1893,
+            "role": "main_content",
+            "components": [
+              "Lock",
+              "nav item",
+              "Home Indicator Item",
+              "Checkmark",
+              "Tab Menu",
+              "Down - 4",
+              "Check",
+              "Badge",
+              "Hint Text",
+              "Command",
+              "ai-chat-02",
+              "information-circle",
+              "Command - 2",
+              "Toggle",
+              "United States",
+              "Label",
+              "search-02",
+              "Down - 5",
+              "Search",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Ronald Richards",
+              "ronaldrichard@gmail.com",
+              "Triply",
+              "Triply",
+              "Search",
+              "AI Chat",
+              "Search",
+              "New Chat",
+              "9:41",
+              "Home",
+              "Explore",
+              "Create a Trip",
+              "Saved",
+              "Jubed",
+              "Home"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "book-open-01",
+        "calendar-01",
+        "check",
+        "checkmark",
+        "command",
+        "earth",
+        "favourite",
+        "filter",
+        "home indicator item",
+        "logo",
+        "maps",
+        "minus 5",
+        "nav item",
+        "right",
+        "search",
+        "search-02",
+        "sent",
+        "sidebar footer",
+        "sidebar header",
+        "tab menu",
+        "united states"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L7",
+      "name": "Iconography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Iconography"
+      ],
+      "screen_ids": [
+        "6395:58783"
+      ],
+      "count": 1,
+      "representative_screen": "6395:58783",
+      "representative_name": "Iconography",
+      "dimensions": {
+        "width": 1440,
+        "height": 3084
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x335), Center main_content (1440x2749)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Style guide header & footer",
+            "width_approx": 1440,
+            "height_approx": 335,
+            "role": "main_content",
+            "components": [
+              "Logo"
+            ],
+            "text_labels": [
+              "Button",
+              "The style guide provides to change stylistic for your design site.",
+              "Ecomic",
+              "Pixem Studio"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Buttons",
+            "width_approx": 1440,
+            "height_approx": 2749,
+            "role": "main_content",
+            "components": [
+              "Left",
+              "Command - 2",
+              "Right"
+            ],
+            "text_labels": [
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "left",
+        "logo",
+        "right"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L8",
+      "name": "Primary",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Primary"
+      ],
+      "screen_ids": [
+        "6333:50091"
+      ],
+      "count": 1,
+      "representative_screen": "6333:50091",
+      "representative_name": "Primary",
+      "dimensions": {
+        "width": 1440,
+        "height": 1898
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (791x1345), Center main_content (1440x335)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Group 1000005435",
+            "width_approx": 791,
+            "height_approx": 1345,
+            "role": "main_content",
+            "components": [
+              "Spacing"
+            ],
+            "text_labels": [
+              "Name",
+              "Token",
+              "Size",
+              "Pixels",
+              "1",
+              "Padding-xx-sm",
+              "0px",
+              "0px",
+              "2",
+              "spacing-xx-sm",
+              "0.25rem",
+              "4px",
+              "3",
+              "spacing-x-sm",
+              "0.5rem"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style guide header & footer",
+            "width_approx": 1440,
+            "height_approx": 335,
+            "role": "main_content",
+            "components": [
+              "Logo"
+            ],
+            "text_labels": [
+              "Spacing",
+              "The style guide provides to change stylistic for your design site.",
+              "Ecomic",
+              "Pixem Studio"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "logo",
+        "spacing"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L9",
+      "name": "Account settings/ Travel Preferences",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Account settings/ Your account",
+        "Account settings/Edit profile",
+        "Account settings/ Your account",
+        "Account settings/ Your account",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Cookie Preferences",
+        "Account settings/Edit profile",
+        "Account settings/ Your account",
+        "Account settings/ Your account",
+        "Account settings/ Your account",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Travel Preferences",
+        "Account settings/ Cookie Preferences"
+      ],
+      "screen_ids": [
+        "6278:28993",
+        "6274:23512",
+        "6274:39805",
+        "6278:26819",
+        "6278:27091",
+        "6278:27588",
+        "6278:27884",
+        "6278:28324",
+        "6278:28703",
+        "6278:29314",
+        "6341:40149",
+        "6341:40211",
+        "6341:40278",
+        "6341:40351",
+        "6341:40418",
+        "6341:40486",
+        "6341:40556",
+        "6341:40667",
+        "6341:40737",
+        "6341:40805"
+      ],
+      "count": 20,
+      "representative_screen": "6278:27884",
+      "representative_name": "Account settings/ Travel Preferences",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (264x280), Center main_content (830x733)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "Account Settings",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Discover places to visit",
+            "width_approx": 264,
+            "height_approx": 280,
+            "role": "main_content",
+            "components": [
+              "notification-01",
+              "Winking chat",
+              "Speaker megaphone",
+              "Profile",
+              "edit-user-02"
+            ],
+            "text_labels": [
+              "Edit Profile",
+              "Your Account",
+              "Travel Preferences",
+              "Notifications",
+              "Cookie Preferences"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tab Menu",
+            "width_approx": 830,
+            "height_approx": 733,
+            "role": "main_content",
+            "components": [
+              "Text Input",
+              "Buttons"
+            ],
+            "text_labels": [
+              "Your Account",
+              "Manage name, role, email, password, and SSO settings.",
+              "Airport",
+              "Seat preference",
+              "Choose your seat preference",
+              "Special assistance",
+              "Select special assistance needed",
+              "Flight preferences",
+              "Enter your flight preferences",
+              "Accommodation preferences",
+              "Enter your accommodation preferences",
+              "Passport",
+              "Enter your passport information",
+              "Birthday",
+              "Enter your birthday"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "airplane-02",
+        "avatar",
+        "button group",
+        "buttons",
+        "down - 3",
+        "edit-user-02",
+        "location-add-01",
+        "notification-01",
+        "page header",
+        "profile",
+        "sidebar",
+        "speaker megaphone",
+        "text input",
+        "toggle",
+        "up - 1",
+        "winking chat"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L10",
+      "name": "World Feed",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "World Feed",
+        "World Feed",
+        "World Feed/ Recently added",
+        "World Feed/Top Favorite"
+      ],
+      "screen_ids": [
+        "6257:20915",
+        "6398:36446",
+        "6341:29048",
+        "6405:47051"
+      ],
+      "count": 4,
+      "representative_screen": "6257:20915",
+      "representative_name": "World Feed",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (1118x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 1118,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Tab Menu",
+              "Down - 7"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "World Feed",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "down - 7",
+        "heart",
+        "plus-sign",
+        "right",
+        "star",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L11",
+      "name": "Share Your feedback!",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Share Your feedback!",
+        "Share Your feedback!"
+      ],
+      "screen_ids": [
+        "6262:17400",
+        "6344:37160"
+      ],
+      "count": 2,
+      "representative_screen": "6262:17400",
+      "representative_name": "Share Your feedback!",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (1118x828), Center main_content (1440x900), Center main_content (520x278)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 1118,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Tab Menu",
+              "Down - 7"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "World Feed",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 520,
+            "height_approx": 278,
+            "role": "main_content",
+            "components": [
+              "Buttons"
+            ],
+            "text_labels": [
+              "Share your feedback",
+              "What do you want us to know?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "down - 7",
+        "heart",
+        "plus-sign",
+        "right",
+        "star",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L12",
+      "name": "AI Chat",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:narrow|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat",
+        "AI Chat"
+      ],
+      "screen_ids": [
+        "6402:37390",
+        "6405:47996"
+      ],
+      "count": 2,
+      "representative_screen": "6402:37390",
+      "representative_name": "AI Chat",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1096x68), Left navigation_sidebar (80x900), Center main_content (264x900), Center main_content (504x828), Center main_content (536x832), Center main_content (270x532)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Sidebar [Navigation] [1.0]",
+            "width_approx": 264,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Command - 2",
+              "Tab Menu",
+              "Badge",
+              "Right"
+            ],
+            "text_labels": [
+              "Chats",
+              "Search...",
+              "⌘1",
+              "All",
+              "Trips",
+              "No Chat History",
+              "New Chat"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 504,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Refresh-2",
+              "Plus 4",
+              "sent"
+            ],
+            "text_labels": [
+              "Hey there, Jubed",
+              "Whare would you like to go?",
+              "I’m here to assist you in planning your experience. Ask me anything travel related.",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1096,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 536,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trending Destinations",
+              "Explore",
+              "Vancouver, BC, Canada",
+              "Venezia, Italy",
+              "Get inspiration for your next trip",
+              "Explore"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 80,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "Logo",
+              "book-open-01",
+              "ai-chat-02",
+              "calendar-01",
+              "maps",
+              "search-02",
+              "Filter",
+              "sent",
+              "earth",
+              "favourite"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Discover places to visit",
+            "width_approx": 270,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Logout - 1",
+              "blockchain-05",
+              "Setting - 6",
+              "Sidebar Footer",
+              "Intersect",
+              "internet-antenna-02",
+              "Receipt bill - 2",
+              "settings-02",
+              "sent"
+            ],
+            "text_labels": [
+              "Ronald Richards",
+              "ronaldrichard@gmail.com",
+              "Take our travel quiz",
+              "Account settings",
+              "Up next",
+              "Receipts",
+              "Give Feedback",
+              "Privacy policy",
+              "Terms of service",
+              "Sign out"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "airplane-02",
+        "badge",
+        "blockchain-05",
+        "command - 2",
+        "hotel-01",
+        "internet-antenna-02",
+        "intersect",
+        "logout - 1",
+        "maps-global-01",
+        "page header",
+        "plus 4",
+        "receipt bill - 2",
+        "refresh-2",
+        "right",
+        "sent",
+        "setting - 6",
+        "settings-02",
+        "sidebar",
+        "sidebar footer",
+        "tab menu"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L13",
+      "name": "AI Chat",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat",
+        "Dashboard",
+        "AI Chat",
+        "AI Chat"
+      ],
+      "screen_ids": [
+        "6057:3694",
+        "6340:28718",
+        "6341:34576",
+        "6341:34768"
+      ],
+      "count": 4,
+      "representative_screen": "6057:3694",
+      "representative_name": "AI Chat",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1096x68), Left navigation_sidebar (80x900), Center main_content (264x900), Center main_content (504x828), Center main_content (536x832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Sidebar [Navigation] [1.0]",
+            "width_approx": 264,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Command - 2",
+              "Tab Menu",
+              "Badge",
+              "Right"
+            ],
+            "text_labels": [
+              "Chats",
+              "Search...",
+              "⌘1",
+              "All",
+              "Trips",
+              "No Chat History",
+              "New Chat"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 504,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Refresh-2",
+              "Plus 4",
+              "sent"
+            ],
+            "text_labels": [
+              "Hey there, Ronald",
+              "Whare would you like to go?",
+              "I’m here to assist you in planning your experience. Ask me anything travel related.",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1096,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 536,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trending Destinations",
+              "Explore",
+              "Vancouver, BC, Canada",
+              "Venezia, Italy",
+              "Get inspiration for your next trip",
+              "Explore"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 80,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "Logo",
+              "book-open-01",
+              "ai-chat-02",
+              "calendar-01",
+              "maps",
+              "search-02",
+              "Filter",
+              "sent",
+              "earth",
+              "favourite"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "airplane-02",
+        "badge",
+        "command - 2",
+        "hotel-01",
+        "maps-global-01",
+        "page header",
+        "plus 4",
+        "refresh-2",
+        "right",
+        "sent",
+        "sidebar",
+        "tab menu"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L14",
+      "name": "Dashboard/Modal",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Dashboard/Modal",
+        "Dashboard/Modal",
+        "Dashboard/Modal",
+        "Dashboard/Modal",
+        "Dashboard/Modal",
+        "AI Chat/ Modal",
+        "AI Chat/ Modal",
+        "AI Chat/ Modal",
+        "AI Chat/ Modal",
+        "AI Chat/ Modal"
+      ],
+      "screen_ids": [
+        "6340:26228",
+        "6340:26604",
+        "6340:27118",
+        "6340:27690",
+        "6340:28231",
+        "6342:64601",
+        "6342:64977",
+        "6342:65491",
+        "6342:66099",
+        "6342:66779"
+      ],
+      "count": 10,
+      "representative_screen": "6340:27690",
+      "representative_name": "Dashboard/Modal",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1096x68), Left navigation_sidebar (80x900), Center main_content (264x900), Center main_content (504x828), Center main_content (536x832), Center main_content (1440x900), Center main_content (520x472)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Sidebar [Navigation] [1.0]",
+            "width_approx": 264,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Command - 2",
+              "Tab Menu",
+              "Badge",
+              "Right"
+            ],
+            "text_labels": [
+              "Chats",
+              "Search...",
+              "⌘1",
+              "All",
+              "Trips",
+              "No Chat History",
+              "New Chat"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 504,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Refresh-2",
+              "Plus 4",
+              "sent"
+            ],
+            "text_labels": [
+              "Hey there, Jubed",
+              "Whare would you like to go?",
+              "I’m here to assist you in planning your experience. Ask me anything travel related.",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1096,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 536,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trending Destinations",
+              "Explore",
+              "Vancouver, BC, Canada",
+              "Venezia, Italy",
+              "Get inspiration for your next trip",
+              "Explore"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 80,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "Logo",
+              "book-open-01",
+              "ai-chat-02",
+              "calendar-01",
+              "maps",
+              "search-02",
+              "Filter",
+              "sent",
+              "earth",
+              "favourite"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 520,
+            "height_approx": 472,
+            "role": "main_content",
+            "components": [
+              "Buttons"
+            ],
+            "text_labels": [
+              "Who",
+              "Adults",
+              "Ages 13 or above",
+              "Children",
+              "Ages 2-12",
+              "Infants",
+              "Under 2",
+              "Pets",
+              "Bringing a service animal?",
+              "7 Travelers"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "airplane-02",
+        "badge",
+        "buttons",
+        "calendar-01",
+        "checkbox",
+        "command - 2",
+        "hotel-01",
+        "input",
+        "maps-global-01",
+        "page header",
+        "plus 4",
+        "refresh-2",
+        "right",
+        "sent",
+        "sidebar",
+        "switch toggle",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L15",
+      "name": "AI Chat",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat",
+        "AI Chat"
+      ],
+      "screen_ids": [
+        "6135:5018",
+        "6341:29765"
+      ],
+      "count": 2,
+      "representative_screen": "6135:5018",
+      "representative_name": "AI Chat",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (594x832), Center main_content (520x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "Snow tree",
+              "location-add-01",
+              "Filter",
+              "Minus 5",
+              "plus-sign",
+              "Sleigh",
+              "Double bed",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan",
+              "Central Park",
+              "Pod Times Squire",
+              "The Edge"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "sent",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved",
+              "Type '/' for commands"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "avatar",
+        "check",
+        "double bed",
+        "favourite",
+        "filter",
+        "knife and fork - 1",
+        "left square line",
+        "location-add-01",
+        "minus 5",
+        "page header",
+        "plus-sign",
+        "right",
+        "search",
+        "sidebar",
+        "sleigh",
+        "snow tree"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L16",
+      "name": "Search/ stays",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Search/ stays",
+        "Search/ restaurants",
+        "Saved/ restaurants",
+        "Search/ Attractions",
+        "Search/ Attractions",
+        "Saved/ Attractions",
+        "Search/ Activities",
+        "Search/ Activities",
+        "Savedd/ Activities",
+        "Search/ stays",
+        "Search/ restaurants",
+        "Saved/ restaurants",
+        "Search/ Attractions",
+        "Saved/ Attractions",
+        "Search/ Activities",
+        "Saved/ Activities",
+        "Search/ stays"
+      ],
+      "screen_ids": [
+        "6160:7166",
+        "6164:11607",
+        "6398:26079",
+        "6165:12482",
+        "6398:30544",
+        "6398:26422",
+        "6165:13286",
+        "6398:30883",
+        "6398:26761",
+        "6341:29957",
+        "6341:30321",
+        "6403:55627",
+        "6341:31341",
+        "6403:55970",
+        "6341:31680",
+        "6403:56309",
+        "6405:18166"
+      ],
+      "count": 17,
+      "representative_screen": "6160:7166",
+      "representative_name": "Search/ stays",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (520x828), Center main_content (594x832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "ai-chat-02",
+              "Down - 6",
+              "Filter",
+              "Tab Menu",
+              "Search",
+              "Close",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "Snow tree",
+              "location-add-01",
+              "Filter",
+              "Minus 5",
+              "plus-sign",
+              "Sleigh",
+              "Double bed",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan",
+              "Central Park",
+              "Pod Times Squire",
+              "The Edge"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "building office - 12",
+        "calendar",
+        "check",
+        "close",
+        "down - 6",
+        "down - 7",
+        "favourite",
+        "filter",
+        "glasses",
+        "heart",
+        "icon=user",
+        "knife and fork - 1",
+        "location-add-01",
+        "plus-sign",
+        "right",
+        "search",
+        "star",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L17",
+      "name": "Search/ Attractions",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Saved/ Activities",
+        "Search/ restaurants",
+        "Saved/ Attractions",
+        "Savedd/ Activities",
+        "Saved/All",
+        "Search/ Attractions",
+        "Search/ Activities",
+        "Saved/ Attractions",
+        "Saved/ Activities",
+        "Saved/All"
+      ],
+      "screen_ids": [
+        "6176:12268",
+        "8011:49702",
+        "6398:34615",
+        "6398:34954",
+        "6341:32019",
+        "6405:18530",
+        "6405:18869",
+        "6405:23617",
+        "6405:23956",
+        "6405:24295"
+      ],
+      "count": 10,
+      "representative_screen": "6405:18530",
+      "representative_name": "Search/ Attractions",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (520x828), Center main_content (594x832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Down - 6",
+              "Tab Menu"
+            ],
+            "text_labels": [
+              "New York"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "Snow tree",
+              "location-add-01",
+              "Filter",
+              "Minus 5",
+              "plus-sign",
+              "Sleigh",
+              "Double bed",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan",
+              "Central Park",
+              "Pod Times Squire",
+              "The Edge"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "Search",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "building office - 12",
+        "check",
+        "down - 6",
+        "down - 7",
+        "favourite",
+        "filter",
+        "glasses",
+        "heart",
+        "left square line",
+        "location-add-01",
+        "plus-sign",
+        "right",
+        "search",
+        "snow tree",
+        "star",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L18",
+      "name": "Search/ Flight",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight"
+      ],
+      "screen_ids": [
+        "6165:14028",
+        "6398:32008",
+        "6210:12205",
+        "6398:32095",
+        "6211:12676",
+        "6398:32216",
+        "6166:18026",
+        "6398:32659",
+        "6341:32330",
+        "6341:32417",
+        "6341:32538",
+        "6341:32981",
+        "6405:19208",
+        "6405:19295",
+        "6405:19416"
+      ],
+      "count": 15,
+      "representative_screen": "6210:12205",
+      "representative_name": "Search/ Flight",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (520x828), Center main_content (594x832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "Tab Menu",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "location-add-01",
+              "Minus 5",
+              "plus-sign",
+              "Right"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "airplane-02",
+        "badge",
+        "buttons",
+        "check",
+        "down - 3",
+        "down - 6",
+        "down - 7",
+        "favourite",
+        "filed",
+        "left square line",
+        "location-add-01",
+        "minus 5",
+        "page header",
+        "plus-sign",
+        "right",
+        "search",
+        "sidebar",
+        "tab menu",
+        "up - 1"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L19",
+      "name": "AI Chat",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat",
+        "AI Chat"
+      ],
+      "screen_ids": [
+        "6135:5516",
+        "6341:33150"
+      ],
+      "count": 2,
+      "representative_screen": "6341:33150",
+      "representative_name": "AI Chat",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (520x828), Center main_content (594x832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "sent",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "Heart",
+              "Snow tree",
+              "location-add-01",
+              "Filter",
+              "Minus 5",
+              "plus-sign",
+              "Sleigh",
+              "glasses",
+              "Double bed",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan",
+              "Central Park",
+              "Pod Times Squire",
+              "The Edge",
+              "Edge NYC is the highest outdoor sky deck in the western hemisphere, standing at 1,131 feet above the gro"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "avatar",
+        "check",
+        "double bed",
+        "favourite",
+        "image 2",
+        "knife and fork - 1",
+        "location-add-01",
+        "logo",
+        "right",
+        "search",
+        "sent",
+        "sleigh",
+        "snow tree"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L20",
+      "name": "AI Chat",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat",
+        "AI Chat"
+      ],
+      "screen_ids": [
+        "6138:5581",
+        "6341:33370"
+      ],
+      "count": 2,
+      "representative_screen": "6341:33370",
+      "representative_name": "AI Chat",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (594x832), Center main_content (520x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Tab Menu",
+              "Buttons"
+            ],
+            "text_labels": [
+              "Address Details"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "sent",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "avatar",
+        "buttons",
+        "calendar",
+        "call",
+        "check",
+        "double bed",
+        "down - 6",
+        "favourite",
+        "glasses",
+        "image 2",
+        "knife and fork - 1",
+        "location-add-01",
+        "logo",
+        "page header",
+        "right",
+        "right up box",
+        "search",
+        "sent",
+        "sidebar",
+        "snow tree",
+        "star",
+        "tab menu",
+        "time circle"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L21",
+      "name": "AI Chat/activities",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat/activities",
+        "AI Chat/activities",
+        "AI Chat/activities",
+        "AI Chat/activities"
+      ],
+      "screen_ids": [
+        "6143:10686",
+        "6153:7941",
+        "6341:33569",
+        "6341:33957"
+      ],
+      "count": 4,
+      "representative_screen": "6341:33569",
+      "representative_name": "AI Chat/activities",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (594x832), Center main_content (520x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Tab Menu"
+            ],
+            "text_labels": [
+              "Activities"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "sent",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "avatar",
+        "check",
+        "double bed",
+        "favourite",
+        "heart",
+        "location-add-01",
+        "logo",
+        "page header",
+        "plus-sign",
+        "right",
+        "search",
+        "sidebar",
+        "star",
+        "tab menu",
+        "ticket-03"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L22",
+      "name": "AI Chat/activities",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "AI Chat/activities",
+        "AI Chat/activities"
+      ],
+      "screen_ids": [
+        "6153:8697",
+        "6341:34345"
+      ],
+      "count": 2,
+      "representative_screen": "6341:34345",
+      "representative_name": "AI Chat/activities",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (594x832), Center main_content (520x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "location-add-01",
+              "Filter",
+              "Tab Menu",
+              "Minus 5",
+              "plus-sign",
+              "Sleigh",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "Location",
+              "30 Hudson Yards, New York, NY 10001, USA",
+              "New York",
+              "The Edge"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "sent",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved",
+              "Type '/' for commands"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check",
+        "filter",
+        "knife and fork - 1",
+        "left square line",
+        "location-add-01",
+        "minus 5",
+        "page header",
+        "plus-sign",
+        "right",
+        "sidebar",
+        "sleigh",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L23",
+      "name": "Create a trip",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip",
+        "Create a trip"
+      ],
+      "screen_ids": [
+        "6181:13456",
+        "6233:16910",
+        "6235:19628",
+        "6235:20335",
+        "6235:20987",
+        "6235:21625",
+        "6341:36207",
+        "6341:36425",
+        "6341:36677",
+        "6341:36924",
+        "6341:37148",
+        "6341:37376"
+      ],
+      "count": 12,
+      "representative_screen": "6341:37376",
+      "representative_name": "Create a trip",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (594x836), Center main_content (520x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 836,
+            "role": "main_content",
+            "components": [
+              "Up - 2",
+              "Left Square line",
+              "Down - 2",
+              "Tea pot",
+              "Left - 3",
+              "location-add-01",
+              "maps",
+              "chart-bar-line",
+              "Buttons",
+              "Double bed",
+              "Tab Menu",
+              "Text Input",
+              "Right - 1",
+              "airplane-02",
+              "Sleigh",
+              "Close",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "Travel Expert Recommends: Adventure Awaits!",
+              "New York",
+              "Feb 27- Mar 5",
+              "7 Travelers",
+              "On a Budget"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "sent",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved",
+              "Type '/' for commands"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "airplane-02",
+        "avatar",
+        "buttons",
+        "chart-bar-line",
+        "check",
+        "close",
+        "double bed",
+        "down - 2",
+        "favourite",
+        "image 2",
+        "knife and fork - 1",
+        "left - 3",
+        "left square line",
+        "location-add-01",
+        "logo",
+        "maps",
+        "page header",
+        "right",
+        "right - 1",
+        "search",
+        "sent",
+        "sidebar",
+        "sleigh",
+        "snow tree",
+        "tab menu",
+        "tea pot",
+        "text input",
+        "time circle",
+        "up - 2"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L24",
+      "name": "Saved/ restaurants",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Search/ restaurants",
+        "Saved/ restaurants",
+        "Saved/ All",
+        "Search/ restaurants",
+        "Search/ restaurants"
+      ],
+      "screen_ids": [
+        "6238:22587",
+        "6398:34272",
+        "6241:31436",
+        "6341:37633",
+        "6341:39110"
+      ],
+      "count": 5,
+      "representative_screen": "6398:34272",
+      "representative_name": "Saved/ restaurants",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (520x828), Center main_content (594x832)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Down - 6",
+              "Tab Menu",
+              "Close"
+            ],
+            "text_labels": [
+              "Saved",
+              "9 saved",
+              "0 Guide"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "Snow tree",
+              "location-add-01",
+              "Filter",
+              "Minus 5",
+              "plus-sign",
+              "Sleigh",
+              "Double bed",
+              "Right",
+              "Knife and fork - 1"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan",
+              "Central Park",
+              "Pod Times Squire",
+              "The Edge"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "Saved",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "building office - 12",
+        "check",
+        "close",
+        "down - 6",
+        "down - 7",
+        "glasses",
+        "heart",
+        "knife and fork - 1",
+        "left square line",
+        "location-add-01",
+        "plus-sign",
+        "right",
+        "snow tree",
+        "star",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L25",
+      "name": "My Map",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "My Map",
+        "My Map"
+      ],
+      "screen_ids": [
+        "6257:17578",
+        "6341:41238"
+      ],
+      "count": 2,
+      "representative_screen": "6257:17578",
+      "representative_name": "My Map",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (578x832), Center main_content (516x828)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "My Map",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 578,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "plus-sign",
+              "Minus 5",
+              "Right"
+            ],
+            "text_labels": [
+              "Create Itinerary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 516,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Text Input"
+            ],
+            "text_labels": [
+              "📍 Share your map link to friends and family to receive their top travel recommendations! 🌍"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "checkbox",
+        "down - 7",
+        "minus 5",
+        "page header",
+        "plus-sign",
+        "right",
+        "sidebar",
+        "text input"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L26",
+      "name": "Search/ Flight",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Search/ Flight"
+      ],
+      "screen_ids": [
+        "6405:19859"
+      ],
+      "count": 1,
+      "representative_screen": "6405:19859",
+      "representative_name": "Search/ Flight",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (594x832), Center main_content (520x828)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 594,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "location-add-01",
+              "Minus 5",
+              "plus-sign",
+              "Right"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "Search",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Down - 6",
+              "Filed",
+              "Tab Menu",
+              "Down - 3"
+            ],
+            "text_labels": [
+              "New York",
+              "2 seats remaining",
+              "See details",
+              "Free cancellation within 45 hours of booking",
+              "2 seats remaining",
+              "See details",
+              "Free cancellation within 45 hours of booking"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "badge",
+        "check",
+        "down - 3",
+        "down - 6",
+        "down - 7",
+        "filed",
+        "left square line",
+        "location-add-01",
+        "minus 5",
+        "page header",
+        "plus-sign",
+        "right",
+        "sidebar",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L27",
+      "name": "Search/ Flight",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight",
+        "Search/ Flight"
+      ],
+      "screen_ids": [
+        "6398:32337",
+        "6212:13122",
+        "6212:13621",
+        "6398:32531",
+        "6341:32659",
+        "6341:32853",
+        "6405:19537",
+        "6405:19731"
+      ],
+      "count": 8,
+      "representative_screen": "6212:13621",
+      "representative_name": "Search/ Flight",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (520x828), Center main_content (598x832), Center main_content (1440x900), Center main_content (520x496)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 520,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Search",
+              "ai-chat-02",
+              "Tab Menu",
+              "favourite"
+            ],
+            "text_labels": [
+              "Chat",
+              "Search",
+              "Saved"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 598,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Left Square line",
+              "check",
+              "location-add-01",
+              "Minus 5",
+              "plus-sign",
+              "Right"
+            ],
+            "text_labels": [
+              "New York",
+              "Manhattan"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "New Chat",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 520,
+            "height_approx": 496,
+            "role": "main_content",
+            "components": [
+              "Buttons"
+            ],
+            "text_labels": [
+              "Who",
+              "Adults",
+              "Ages 13 or above",
+              "Children",
+              "Ages 2-12",
+              "Infants",
+              "Under 2",
+              "Pets",
+              "Bringing a service animal?",
+              "7 Travelers"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai-chat-02",
+        "buttons",
+        "check",
+        "down - 7",
+        "favourite",
+        "left square line",
+        "location-add-01",
+        "minus 5",
+        "page header",
+        "plus-sign",
+        "right",
+        "search",
+        "sidebar",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L28",
+      "name": "Blog",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Blog",
+        "Blog"
+      ],
+      "screen_ids": [
+        "6268:17014",
+        "6341:39483"
+      ],
+      "count": 2,
+      "representative_screen": "6268:17014",
+      "representative_name": "Blog",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (652x828), Center main_content (462x894)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 652,
+            "height_approx": 828,
+            "role": "main_content",
+            "components": [
+              "Tab Menu",
+              "Buttons"
+            ],
+            "text_labels": [
+              "Our Blog",
+              "Discover more about the places you love!"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "Blog",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 462,
+            "height_approx": 894,
+            "role": "main_content",
+            "components": [
+              "Filter",
+              "Right - 7",
+              "Avatar",
+              "Heart"
+            ],
+            "text_labels": [
+              "Weekly Trending"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "buttons",
+        "down - 7",
+        "filter",
+        "heart",
+        "info menu",
+        "page header",
+        "right - 7",
+        "share-08",
+        "sidebar",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L29",
+      "name": "Calendar",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Calendar",
+        "Search/ restaurants"
+      ],
+      "screen_ids": [
+        "6249:50317",
+        "6341:40858"
+      ],
+      "count": 2,
+      "representative_screen": "6249:50317",
+      "representative_name": "Calendar",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1170x68), Left navigation_sidebar (270x900), Center main_content (1118x44), Center main_content (1118x856)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 270,
+            "height_approx": 900,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar",
+              "nav item",
+              "Sidebar Footer",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Triply",
+              "Ronald Richards",
+              "ronaldrichard@gmail.com"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Page Header",
+            "width_approx": 1170,
+            "height_approx": 68,
+            "role": "header",
+            "components": [
+              "United States",
+              "Page Header"
+            ],
+            "text_labels": [
+              "Calendar",
+              "Create a Trip",
+              "Invite",
+              "English"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Top",
+            "width_approx": 1118,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [
+              "Left - 3",
+              "maps",
+              "Tab Menu",
+              "Right - 1"
+            ],
+            "text_labels": [
+              "Itinerary",
+              "Calendar",
+              "Bookings",
+              "Activities",
+              "Flights",
+              "Map"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Calendar content",
+            "width_approx": 1118,
+            "height_approx": 856,
+            "role": "main_content",
+            "components": [
+              "Left",
+              "Right"
+            ],
+            "text_labels": [
+              "March",
+              "Mar 1",
+              "05:00:19",
+              "Mar 2",
+              "06:00:19",
+              "Mar 3",
+              "06:00:19",
+              "Mar 4",
+              "07:00:19",
+              "Mar 5",
+              "07:30:19",
+              "Mar 5",
+              "07:30:19",
+              "Mar 6",
+              "08:00:19"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "building-02",
+        "glasses",
+        "knife and fork - 1",
+        "left",
+        "left - 3",
+        "maps",
+        "page header",
+        "right",
+        "right - 1",
+        "sidebar",
+        "snow tree",
+        "tab menu"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "map",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L30",
+      "name": "Headings",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Headings"
+      ],
+      "screen_ids": [
+        "6333:49766"
+      ],
+      "count": 1,
+      "representative_screen": "6333:49766",
+      "representative_name": "Headings",
+      "dimensions": {
+        "width": 1320,
+        "height": 4470
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1120x56), Center main_content (1120x180), Center main_content (1120x172), Center main_content (1120x164), Center main_content (1120x156), Center main_content (1120x148), Center main_content (1120x144), Center main_content (1120x56), Center main_content (1120x148), Center main_content (1120x140), Center main_content (1120x140), Center main_content (1120x136), Center main_content (1120x132), Center main_content (1120x56), Center main_content (1120x148), Center main_content (1120x140), Center main_content (1120x140), Center main_content (1120x136), Center main_content (1120x132), Center main_content (1120x56), Center main_content (1120x140), Center main_content (1120x136), Center main_content (1120x132), Center main_content (1120x132)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Title",
+            "width_approx": 1120,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Title"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 180,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H1 Title",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "56 px",
+              "Height",
+              "64 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 172,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H2 Title",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "48 px",
+              "Height",
+              "56 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 164,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H3 Title",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "40 px",
+              "Height",
+              "48 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 156,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H4 Title",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "32 px",
+              "Height",
+              "40 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H5 Title",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "24 px",
+              "Height",
+              "32 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 144,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "H6 Title",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "20 px",
+              "Height",
+              "24 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Label",
+            "width_approx": 1120,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Label"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "X-Large",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "24 px",
+              "Height",
+              "32 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Large",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "18 px",
+              "Height",
+              "24 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Medium",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "16 px",
+              "Height",
+              "24 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "14 px",
+              "Height",
+              "20 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "X-Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "12 px",
+              "Height",
+              "16 px",
+              "Spacıng",
+              "0%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Paragraphs",
+            "width_approx": 1120,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Paragraphs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "X-Large",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "24 px",
+              "Height",
+              "32 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Large",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "18 px",
+              "Height",
+              "24 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Medium",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "16 px",
+              "Height",
+              "24 px",
+              "Spacıng",
+              "-1.1%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "14 px",
+              "Height",
+              "20 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "X-Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "12 px",
+              "Height",
+              "16 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Subheading",
+            "width_approx": 1120,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Subheading"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Medium",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Medium",
+              "Size",
+              "16 px",
+              "Height",
+              "24 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "14 px",
+              "Height",
+              "20 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "X-Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "12 px",
+              "Height",
+              "16 px",
+              "Spacıng",
+              "0"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typography",
+            "width_approx": 1120,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "2X-Small",
+              "Quick zephyrs blow, vexing daft Jim",
+              "Weight",
+              "Regular",
+              "Size",
+              "11 px",
+              "Height",
+              "12 px",
+              "Spacıng",
+              "0"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics"
+      ],
+      "is_light": true
+    }
+  ]
+}

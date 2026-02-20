@@ -1,0 +1,991 @@
+{
+  "kit_name": "Strivo",
+  "file_key": "gX3vYcBHFTbMdSkgJOcTaV",
+  "total_screens": 49,
+  "filtered_screens": 49,
+  "screens": [
+    {
+      "id": "78:15290",
+      "name": "Dashboard",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1320.0,
+      "layout_type": "sidebar_content",
+      "child_count": 6
+    },
+    {
+      "id": "270:16607",
+      "name": "Dashboard",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1652.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "2267:67918",
+      "name": "Dashboard (Side-menu collapsed)",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1652.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "2267:69029",
+      "name": "Dashboard - Notifications Overlay",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "108:18411",
+      "name": "Messages",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2276:72891",
+      "name": "Messages (Typing)",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2276:73335",
+      "name": "Messages (New Message)",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2762:82853",
+      "name": "Messages (Member Details)",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "101:5700",
+      "name": "Tasks - Table",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "89:5308",
+      "name": "Tasks - Kanban",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2274:57817",
+      "name": "Tasks - Kanban (Add Task)",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "2274:59038",
+      "name": "Tasks - Kanban (Add Task)",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "2274:60312",
+      "name": "Tasks - Kanban (Task Details)",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "1652:56997",
+      "name": "Tasks - Calendar",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "81:17103",
+      "name": "Events - Schedule",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2278:51845",
+      "name": "Events - Add Event",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "2278:52538",
+      "name": "Events - Add Event (Filled)",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "1754:62633",
+      "name": "Events - Calendar",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "28:6163",
+      "name": "Projects (Grid View)",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 996.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "411:21105",
+      "name": "Projects (Tile View)",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "33:4994",
+      "name": "Add New Project",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "411:20603",
+      "name": "Add New Project (Filled)",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1597:66702",
+      "name": "Project Details - Overview",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "1635:60886",
+      "name": "Project Details - Tasks",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1637:50850",
+      "name": "Project Details - Tasks - Messages",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1639:53642",
+      "name": "Project Details - Tasks - Messages",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1641:53033",
+      "name": "Project Details - Discussions",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "81:18678",
+      "name": "Project Details - Team Members",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "1645:59108",
+      "name": "Project Details - Team Members - Pending Invites",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2761:81975",
+      "name": "Project Details - Team Members - Invite Teammates",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "1350:33736",
+      "name": "Project Details - Files",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "90:15162",
+      "name": "Settings - Profile Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1673:58019",
+      "name": "Settings - Profile Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1679:57020",
+      "name": "Settings - Profile Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1693:60945",
+      "name": "Settings - Upgrade Plan",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "1696:60080",
+      "name": "Settings - Payment",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1675:55882",
+      "name": "Settings - Email Preferences",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1703:57878",
+      "name": "Settings - Account Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1483:34311",
+      "name": "Create Account",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1536:48286",
+      "name": "Confirm Email",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1578:47681",
+      "name": "Recover Password",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1578:56323",
+      "name": "Check Inbox",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1535:46825",
+      "name": "Sign in",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1537:51142",
+      "name": "Onboarding (Step 1)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:53327",
+      "name": "Onboarding (Step 2)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:49033",
+      "name": "Onboarding (Step 3)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:54750",
+      "name": "Onboarding (Step 3)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:51968",
+      "name": "Onboarding (Step 4)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1350:32399",
+      "name": "Integrations",
+      "page": "Strivo / Integrations",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    }
+  ],
+  "all_screens": [
+    {
+      "id": "78:15290",
+      "name": "Dashboard",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1320.0,
+      "layout_type": "sidebar_content",
+      "child_count": 6
+    },
+    {
+      "id": "270:16607",
+      "name": "Dashboard",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1652.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "2267:67918",
+      "name": "Dashboard (Side-menu collapsed)",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1652.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "2267:69029",
+      "name": "Dashboard - Notifications Overlay",
+      "page": "Strivo / Dashboard",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "108:18411",
+      "name": "Messages",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2276:72891",
+      "name": "Messages (Typing)",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2276:73335",
+      "name": "Messages (New Message)",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2762:82853",
+      "name": "Messages (Member Details)",
+      "page": "Strivo / Messages",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "101:5700",
+      "name": "Tasks - Table",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "89:5308",
+      "name": "Tasks - Kanban",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2274:57817",
+      "name": "Tasks - Kanban (Add Task)",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "2274:59038",
+      "name": "Tasks - Kanban (Add Task)",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "2274:60312",
+      "name": "Tasks - Kanban (Task Details)",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "1652:56997",
+      "name": "Tasks - Calendar",
+      "page": "Strivo / Tasks",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "81:17103",
+      "name": "Events - Schedule",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2278:51845",
+      "name": "Events - Add Event",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "2278:52538",
+      "name": "Events - Add Event (Filled)",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "1754:62633",
+      "name": "Events - Calendar",
+      "page": "Strivo / Events",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "28:6163",
+      "name": "Projects (Grid View)",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 996.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "411:21105",
+      "name": "Projects (Tile View)",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "33:4994",
+      "name": "Add New Project",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "411:20603",
+      "name": "Add New Project (Filled)",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1597:66702",
+      "name": "Project Details - Overview",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "1635:60886",
+      "name": "Project Details - Tasks",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1637:50850",
+      "name": "Project Details - Tasks - Messages",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1639:53642",
+      "name": "Project Details - Tasks - Messages",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1641:53033",
+      "name": "Project Details - Discussions",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "81:18678",
+      "name": "Project Details - Team Members",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "1645:59108",
+      "name": "Project Details - Team Members - Pending Invites",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "2761:81975",
+      "name": "Project Details - Team Members - Invite Teammates",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 5
+    },
+    {
+      "id": "1350:33736",
+      "name": "Project Details - Files",
+      "page": "Strivo / Projects",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "90:15162",
+      "name": "Settings - Profile Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1673:58019",
+      "name": "Settings - Profile Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1679:57020",
+      "name": "Settings - Profile Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1693:60945",
+      "name": "Settings - Upgrade Plan",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    },
+    {
+      "id": "1696:60080",
+      "name": "Settings - Payment",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1675:55882",
+      "name": "Settings - Email Preferences",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1703:57878",
+      "name": "Settings - Account Information",
+      "page": "Strivo / Settings",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 4
+    },
+    {
+      "id": "1483:34311",
+      "name": "Create Account",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1536:48286",
+      "name": "Confirm Email",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1578:47681",
+      "name": "Recover Password",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1578:56323",
+      "name": "Check Inbox",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1535:46825",
+      "name": "Sign in",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 1
+    },
+    {
+      "id": "1537:51142",
+      "name": "Onboarding (Step 1)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:53327",
+      "name": "Onboarding (Step 2)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:49033",
+      "name": "Onboarding (Step 3)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:54750",
+      "name": "Onboarding (Step 3)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1578:51968",
+      "name": "Onboarding (Step 4)",
+      "page": "Strivo / Sign up & Onboarding",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "full_canvas",
+      "child_count": 2
+    },
+    {
+      "id": "1350:32399",
+      "name": "Integrations",
+      "page": "Strivo / Integrations",
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 900.0,
+      "layout_type": "sidebar_content",
+      "child_count": 3
+    }
+  ],
+  "analyzed_at": "2026-02-20T00:12:44.287466"
+}

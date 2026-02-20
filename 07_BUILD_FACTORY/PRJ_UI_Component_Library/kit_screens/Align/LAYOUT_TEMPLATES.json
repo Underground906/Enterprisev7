@@ -1,0 +1,4070 @@
+{
+  "kit": "Align",
+  "file_key": "w8CnqCqnEHoPup4g4hmCMF",
+  "analyzed_at": "2026-02-19T19:11:46.635884",
+  "unique_layouts": 37,
+  "total_screens": 53,
+  "dedup_ratio": "53 screens -> 37 templates (70%)",
+  "layouts": [
+    {
+      "layout_id": "AL_L1",
+      "name": "Thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Thumbnail",
+        "Thumbnail"
+      ],
+      "screen_ids": [
+        "2001:81199",
+        "191:17684"
+      ],
+      "count": 2,
+      "representative_screen": "2001:81199",
+      "representative_name": "Thumbnail",
+      "dimensions": {
+        "width": 1208,
+        "height": 840
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1402x1052), Center main_content (473x680)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "MacBook #13",
+            "width_approx": 1402,
+            "height_approx": 1052,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000006982",
+            "width_approx": 473,
+            "height_approx": 680,
+            "role": "main_content",
+            "components": [
+              "check"
+            ],
+            "text_labels": [
+              "Align",
+              "SaaS Website Design"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check"
+      ],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L2",
+      "name": "Feature Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Feature Container",
+        "Feature Container"
+      ],
+      "screen_ids": [
+        "2001:39482",
+        "2001:26686"
+      ],
+      "count": 2,
+      "representative_screen": "2001:39482",
+      "representative_name": "Feature Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 1135
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1320x96), Center main_content (1320x983)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Heading Title",
+            "width_approx": 1320,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "Awesome Features",
+              "A Template Built to Convert",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature Card Group",
+            "width_approx": 1320,
+            "height_approx": 983,
+            "role": "main_content",
+            "components": [
+              "Feature"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "feature",
+        "tag"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "editing",
+        "form",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L3",
+      "name": "Content",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Content"
+      ],
+      "screen_ids": [
+        "2001:39423"
+      ],
+      "count": 1,
+      "representative_screen": "2001:39423",
+      "representative_name": "Content",
+      "dimensions": {
+        "width": 1320,
+        "height": 631
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x156), Center main_content (1320x419)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "heading title",
+            "width_approx": 1320,
+            "height_approx": 156,
+            "role": "main_content",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "Services",
+              "Solution to organize\nyour sales in one place",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Service card Group",
+            "width_approx": 1320,
+            "height_approx": 419,
+            "role": "main_content",
+            "components": [
+              "Service"
+            ],
+            "text_labels": [
+              "Consultation",
+              "Navigating compliance regulations can be a complex and time-consuming process",
+              "Integration",
+              "Navigating compliance regulations can be a complex and time-consuming process",
+              "Implementation",
+              "Navigating compliance regulations can be a complex and time-consuming process"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "service",
+        "tag"
+      ],
+      "capabilities": [
+        "navigation",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L4",
+      "name": "Feature Post Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Feature Post Container",
+        "Feature Post Container"
+      ],
+      "screen_ids": [
+        "2001:39703",
+        "2001:26701"
+      ],
+      "count": 2,
+      "representative_screen": "2001:39703",
+      "representative_name": "Feature Post Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 1376
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x618), Center main_content (1320x618)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Feature Post Container 1",
+            "width_approx": 1320,
+            "height_approx": 618,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Key Features Image"
+            ],
+            "text_labels": [
+              "Optimize your sales without any hassle",
+              "Duis gravida augue velit eu dignissim felis pos quis. Inte ante urna gravida nec molestie mattis ultr. Pellentesque convallis elit.",
+              "Use this data to understand your customers preferences",
+              "Automate repetitive tasks such as lead nurturing, follow-ups and order to the processing with using salesphere."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature Post Container 2",
+            "width_approx": 1320,
+            "height_approx": 618,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Key Features Image"
+            ],
+            "text_labels": [
+              "Use sales insights to drive your strategy",
+              "Sales forecasting, & analytics that enable users to streamline their sales workflows, identify areas for improvement and also make data-driven.",
+              "Creating account to our website and\nuse it for your required time. We\nalways ready to give you support",
+              "Creating account to our website and use it for your required time. We always ready to give you support"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "key features image",
+        "tag"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "media",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L5",
+      "name": "Careers Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Careers Container"
+      ],
+      "screen_ids": [
+        "2001:25898"
+      ],
+      "count": 1,
+      "representative_screen": "2001:25898",
+      "representative_name": "Careers Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 823
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (959x284), Center main_content (1320x480)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Careers Heading",
+            "width_approx": 959,
+            "height_approx": 284,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Frame 48096292"
+            ],
+            "text_labels": [
+              "Careers",
+              "Build the future of venture capital",
+              "Find out more about the values, culture, and people behind have on tempus\nthis is what it looks like. Bring on those challenges!",
+              "Check Openings"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Image group",
+            "width_approx": 1320,
+            "height_approx": 480,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "frame 48096292",
+        "tag"
+      ],
+      "capabilities": [
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L6",
+      "name": "Our Integration Mastery Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Our Integration Mastery Container",
+        "Office Gallery",
+        "Our Story Container",
+        "Key Features Image"
+      ],
+      "screen_ids": [
+        "2001:25998",
+        "2001:26033",
+        "2001:26407",
+        "156:9689"
+      ],
+      "count": 4,
+      "representative_screen": "2001:25998",
+      "representative_name": "Our Integration Mastery Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 872
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (863x136), Center main_content (1320x680)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Heading",
+            "width_approx": 863,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our Integration Mastery",
+              "At Product Tour, we're dedicated to revolutionizing the way you integrate and interact with your\nessential tools and platforms. Experience seamless connections with Product Tour."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1320,
+            "height_approx": 680,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Optimize your sales\nwithout any hassle",
+              "Duis gravida augue velit eu dignissim felis pos quis. Inte ante urna gravida nec molestie mattis ultr. Pellentesque convallis elit.",
+              "Use this data to understand your customers preferences behaviors and pain the points,tailor your sales pitches.",
+              "Automate repetitive tasks such as lead nurturing, follow-ups and order to the processing with using salesphere.",
+              "Utilize salesphere to gather data and insights about your target audience. Their needs preferences & pain points."
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "profile",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L7",
+      "name": "About Hero Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "About Hero Container"
+      ],
+      "screen_ids": [
+        "2001:26367"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26367",
+      "representative_name": "About Hero Container",
+      "dimensions": {
+        "width": 1919,
+        "height": 952
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1319x684), Center main_content (1319x188)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Hero Section",
+            "width_approx": 1319,
+            "height_approx": 684,
+            "role": "main_content",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "About Us",
+              "A team full of passion for marketing",
+              "Find out more about the values, culture, and people behind have on tempus\nthis is what it looks like. Bring on those challenges!"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Funfact",
+            "width_approx": 1319,
+            "height_approx": 188,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Automated Data\nWorkflows",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "20K",
+              "Active users",
+              "15M",
+              "Seed Funded",
+              "90%",
+              "Conversion Rate"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "tag"
+      ],
+      "capabilities": [
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L8",
+      "name": "Hero Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Hero Section"
+      ],
+      "screen_ids": [
+        "2001:26550"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26550",
+      "representative_name": "Hero Section",
+      "dimensions": {
+        "width": 1920,
+        "height": 984
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1520x502), Center main_content (1520x102)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1520,
+            "height_approx": 502,
+            "role": "main_content",
+            "components": [
+              "Frame 48096292"
+            ],
+            "text_labels": [
+              "Changing The Way\nYou Think About\nThe Software!",
+              "Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing",
+              "Start Free Trial",
+              "Business Growth",
+              "Income & Expenses",
+              "Followers Stats",
+              "40",
+              "20",
+              "0",
+              "-20",
+              "18/10",
+              "19/10",
+              "21/10",
+              "23/10"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company logo",
+            "width_approx": 1520,
+            "height_approx": 102,
+            "role": "main_content",
+            "components": [
+              "Company logo"
+            ],
+            "text_labels": [
+              "Trusted by 4,000+ companies"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "company logo",
+        "frame 48096292",
+        "icon"
+      ],
+      "capabilities": [
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L9",
+      "name": "Pricing Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Pricing Section"
+      ],
+      "screen_ids": [
+        "2001:26775"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26775",
+      "representative_name": "Pricing Section",
+      "dimensions": {
+        "width": 1920,
+        "height": 884
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x218), Center main_content (1320x610)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Heading Content",
+            "width_approx": 1320,
+            "height_approx": 218,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Frame 48096293"
+            ],
+            "text_labels": [
+              "Pricing Plan",
+              "Choose your simple pricing plan",
+              "Choose the option to fit your sales volume and growth goals.",
+              "Monthly",
+              "Yearly"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Card Group",
+            "width_approx": 1320,
+            "height_approx": 610,
+            "role": "main_content",
+            "components": [
+              "Pricing"
+            ],
+            "text_labels": [
+              "features",
+              "features",
+              "features"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "frame 48096293",
+        "pricing",
+        "tag"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L10",
+      "name": "testimonial",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "testimonial",
+        "testimonial",
+        "testimonial"
+      ],
+      "screen_ids": [
+        "2001:39923",
+        "2001:39333",
+        "124:15366"
+      ],
+      "count": 3,
+      "representative_screen": "2001:39923",
+      "representative_name": "testimonial",
+      "dimensions": {
+        "width": 1920,
+        "height": 808
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x528)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 1000006554",
+            "width_approx": 1320,
+            "height_approx": 528,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "testimonial Card"
+            ],
+            "text_labels": [
+              "Testimonial",
+              "Discover What Our\nClients Have to Say!",
+              "\"Their attention to detail and creative design approach transformed our website into a visually stunning and highly functional platform. We’ve seen a 30% increase in traffic since the relaunch.",
+              "\"Their attention to detail and creative design approach transformed our website into a visually stunning and highly functional platform. We’ve seen a 30% increase in traffic since the relaunch.",
+              "\"Their attention to detail and creative design approach transformed our website into a visually stunning and highly functional platform. We’ve seen a 30% increase in traffic since the relaunch."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "tag",
+        "testimonial",
+        "testimonial card"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L11",
+      "name": "FAQ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "FAQ",
+        "FAQ",
+        "FAQ"
+      ],
+      "screen_ids": [
+        "2001:25052",
+        "2001:26945",
+        "120:3613"
+      ],
+      "count": 3,
+      "representative_screen": "2001:25052",
+      "representative_name": "FAQ",
+      "dimensions": {
+        "width": 1920,
+        "height": 603
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1218x463)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Faq Content",
+            "width_approx": 1218,
+            "height_approx": 463,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "FAQ"
+            ],
+            "text_labels": [
+              "FAQ",
+              "Frequently Asked \nQuestions",
+              "Nobis minus voluptatibus pariatur dignissimos  libero\nquaerat iure expedita Asperiores nemo poss imus\nnesciunt dicta veniam voluptat explicabo .",
+              "Can I use Unwrapped for client projects?",
+              "When referring to Lorem ipsum, different expressions are used\nnamely fill text , fictitious text , blind text or placeholder text\nin short, its meaning can also be zero, but its usefulness.",
+              "Where is Unwrapped made?",
+              "Can I use Unwrapped for open source projects?",
+              "What does \"free updates\" include?",
+              "Can I sell themes that I made with Unwrapped?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "faq",
+        "tag"
+      ],
+      "capabilities": [
+        "calendar",
+        "editing"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L12",
+      "name": "Job Position Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Job Position Container"
+      ],
+      "screen_ids": [
+        "2001:26044"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26044",
+      "representative_name": "Job Position Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 1489
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x1349)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Job Position Content",
+            "width_approx": 1320,
+            "height_approx": 1349,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Categories ",
+              "Job Position"
+            ],
+            "text_labels": [
+              "Job Position",
+              "Available positions at Financer",
+              "Begin your career journey with us by exploring the available positions and discovering how you can contribute to our success.",
+              "All",
+              "design",
+              "development",
+              "content writer",
+              "Marketing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "categories",
+        "job position",
+        "tag"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L13",
+      "name": "Who we are Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Who we are Container"
+      ],
+      "screen_ids": [
+        "2001:26354"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26354",
+      "representative_name": "Who we are Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 688
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x548)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Who we are Content",
+            "width_approx": 1320,
+            "height_approx": 548,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Who we are"
+            ],
+            "text_labels": [
+              "Who We Are",
+              "Strong values is bring great\nteam together & work.",
+              "We’ll calculate limits to recommend you based on your spending predictions, or simply tell us how much you want to spend"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "tag",
+        "who we are"
+      ],
+      "capabilities": [
+        "analytics",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L14",
+      "name": "Services",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Services"
+      ],
+      "screen_ids": [
+        "2001:26674"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26674",
+      "representative_name": "Services",
+      "dimensions": {
+        "width": 1920,
+        "height": 771
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x631)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1320,
+            "height_approx": 631,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Service"
+            ],
+            "text_labels": [
+              "Services",
+              "Solution to organize\nyour sales in one place",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "service",
+        "tag"
+      ],
+      "capabilities": [
+        "navigation",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L15",
+      "name": "why us Section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "why us Section"
+      ],
+      "screen_ids": [
+        "2001:26758"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26758",
+      "representative_name": "why us Section",
+      "dimensions": {
+        "width": 1920,
+        "height": 704
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1320x564)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1320,
+            "height_approx": 564,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Tag",
+              "Why us card"
+            ],
+            "text_labels": [
+              "Why Us",
+              "why will you choose our\nbest application",
+              "Duis gravida augue velit eu dignissim felis pos quis.\nInte ante urna gravida nec molestie mattis ultr.",
+              "Get Started"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "tag",
+        "why us card"
+      ],
+      "capabilities": [
+        "authentication"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L16",
+      "name": "Cover Images",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Cover Images"
+      ],
+      "screen_ids": [
+        "159:22334"
+      ],
+      "count": 1,
+      "representative_screen": "159:22334",
+      "representative_name": "Cover Images",
+      "dimensions": {
+        "width": 1400,
+        "height": 600
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1400x1050)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "MacBook #13",
+            "width_approx": 1400,
+            "height_approx": 1050,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L17",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "2001:25053"
+      ],
+      "count": 1,
+      "representative_screen": "2001:25053",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1920,
+        "height": 4287
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1920x96), Center main_content (1920x663), Center main_content (1920x832), Center main_content (1920x416), Center main_content (1920x532), Center main_content (1920x603), Center main_content (1320x102), Center main_content (1920x926)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Container",
+            "width_approx": 1920,
+            "height_approx": 832,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "Frame 48096293"
+            ],
+            "text_labels": [
+              "Choose your simple\npricing plan",
+              "Choose the option to fit your sales volume and growth goals."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cta Container",
+            "width_approx": 1920,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1920,
+            "height_approx": 603,
+            "role": "main_content",
+            "components": [
+              "FAQ",
+              "Tag"
+            ],
+            "text_labels": [
+              "FAQ",
+              "Frequently Asked \nQuestions",
+              "Nobis minus voluptatibus pariatur dignissimos  libero\nquaerat iure expedita Asperiores nemo poss imus\nnesciunt dicta veniam voluptat explicabo .",
+              "When referring to Lorem ipsum, different expressions are used\nnamely fill text , fictitious text , blind text or placeholder text\nin short, its meaning can also be zero, but its usefulness."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Company logo",
+            "width_approx": 1320,
+            "height_approx": 102,
+            "role": "main_content",
+            "components": [
+              "Company logo"
+            ],
+            "text_labels": [
+              "Trusted by 4,000+ companies"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Compare Container",
+            "width_approx": 1920,
+            "height_approx": 926,
+            "role": "main_content",
+            "components": [
+              "Frame 48096295",
+              "Frame 48096294",
+              "Frame 48096296"
+            ],
+            "text_labels": [
+              "Compare plan &\nfeatures",
+              "Are you looking to compare plans and features for a particular product or service This will help me give you a more accurate and relevant comparison.",
+              "Features",
+              "Starter",
+              "Business",
+              "Enterprise",
+              "Unlimited User",
+              "Send Text Messeges Instant",
+              "Plagiarism Checking",
+              "Create Smart Segment Using Field Policy",
+              "24×7 Online Outstanding Support",
+              "Unlimited words",
+              "Custom Solutions",
+              "Select plan",
+              "Select plan"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "company logo",
+        "faq",
+        "footer",
+        "frame 48096293",
+        "frame 48096294",
+        "frame 48096295",
+        "frame 48096296",
+        "navbar",
+        "pricing"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L18",
+      "name": "Blog Details",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Blog Details",
+        "Terms & Condition"
+      ],
+      "screen_ids": [
+        "2001:25233",
+        "2001:25525"
+      ],
+      "count": 2,
+      "representative_screen": "2001:25233",
+      "representative_name": "Blog Details",
+      "dimensions": {
+        "width": 1920,
+        "height": 4801
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1920x96), Center main_content (1920x663), Center main_content (1920x416), Center main_content (1920x532), Center main_content (1320x3337)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cta Container",
+            "width_approx": 1920,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Blog details Container",
+            "width_approx": 1320,
+            "height_approx": 3337,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Powerful Termand Lineesy\nTools For Modern Web",
+              "Applications are like the lifeblood of mobile phones and tablets today. The true potential of your mobile phone is harnessed by applications that can provide utility. Apps come under various segments.",
+              "Designing Technology For Today’s Mobile Generation",
+              "Use internal mobility as an opportunity to use internal resources",
+              "Comments",
+              "Hic dolor cumque quod quas pariatur modi rerum qui consequatur, iusto inventore necessitatibus.\nFacilis quisquam magni, autem deleniti"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "navbar"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L19",
+      "name": "integrations",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Contact Us",
+        "integrations"
+      ],
+      "screen_ids": [
+        "2001:25315",
+        "2001:25612"
+      ],
+      "count": 2,
+      "representative_screen": "2001:25612",
+      "representative_name": "integrations",
+      "dimensions": {
+        "width": 1920,
+        "height": 3279
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1920x96), Center main_content (1920x544), Center main_content (1920x416), Center main_content (1920x532), Center main_content (817x168), Center main_content (1920x624), Center main_content (1920x603)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 544,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cta Container",
+            "width_approx": 1920,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "integrations Heading Container",
+            "width_approx": 817,
+            "height_approx": 168,
+            "role": "main_content",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "Integrations",
+              "Smart integrations at your fingertips",
+              "Securing Your Digital World: Your Trusted Partner in Data Protection with\nCutting-Edge Solutions for Comprehensive Data Security."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "integrations Container",
+            "width_approx": 1920,
+            "height_approx": 624,
+            "role": "main_content",
+            "components": [
+              "integrations Card"
+            ],
+            "text_labels": [
+              "Explore integrations",
+              "Securing Your Digital World: Your Trusted Partner in Data Protection with\nCutting-Edge Solutions for Comprehensive Data Security."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1920,
+            "height_approx": 603,
+            "role": "main_content",
+            "components": [
+              "FAQ",
+              "Tag"
+            ],
+            "text_labels": [
+              "FAQ",
+              "Frequently Asked \nQuestions",
+              "Nobis minus voluptatibus pariatur dignissimos  libero\nquaerat iure expedita Asperiores nemo poss imus\nnesciunt dicta veniam voluptat explicabo .",
+              "When referring to Lorem ipsum, different expressions are used\nnamely fill text , fictitious text , blind text or placeholder text\nin short, its meaning can also be zero, but its usefulness."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "faq",
+        "footer",
+        "integrations card",
+        "navbar",
+        "tag"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "editing",
+        "form",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L20",
+      "name": "404 Error",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Changelog",
+        "404 Error"
+      ],
+      "screen_ids": [
+        "2001:25417",
+        "2001:25774"
+      ],
+      "count": 2,
+      "representative_screen": "2001:25774",
+      "representative_name": "404 Error",
+      "dimensions": {
+        "width": 1920,
+        "height": 1340
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1920x96), Center main_content (1920x808), Center main_content (1920x532), Center main_content (803x432)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 808,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "404 Container",
+            "width_approx": 803,
+            "height_approx": 432,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Page Not Found!",
+              "Go Back Home"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L21",
+      "name": "Sign Up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Sign in",
+        "Sign Up"
+      ],
+      "screen_ids": [
+        "2001:25656",
+        "2001:25708"
+      ],
+      "count": 2,
+      "representative_screen": "2001:25708",
+      "representative_name": "Sign Up",
+      "dimensions": {
+        "width": 1920,
+        "height": 1846
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1920x96), Center main_content (1920x1314), Center main_content (1920x532), Center main_content (819x938)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 1314,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sign up Input Field",
+            "width_approx": 819,
+            "height_approx": 938,
+            "role": "main_content",
+            "components": [
+              "Frame 48096292"
+            ],
+            "text_labels": [
+              "Or continue with",
+              "Remember me",
+              "Sign up"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "frame 48096292",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "navigation",
+        "profile",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L22",
+      "name": "FAQ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Careers Details",
+        "FAQ"
+      ],
+      "screen_ids": [
+        "2001:26074",
+        "2001:26273"
+      ],
+      "count": 2,
+      "representative_screen": "2001:26273",
+      "representative_name": "FAQ",
+      "dimensions": {
+        "width": 1920,
+        "height": 2596
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1920x96), Center main_content (1920x564), Center main_content (1920x416), Center main_content (1920x532), Center main_content (817x188), Center main_content (1920x664)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 564,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cta Container",
+            "width_approx": 1920,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Faq Heading Content",
+            "width_approx": 817,
+            "height_approx": 188,
+            "role": "main_content",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "FAQ",
+              "Frequently Asked  Questions",
+              "Nobis minus voluptatibus pariatur dignissimos  libero quaerat iure expedita Asperiores\nnemo poss imus nesciunt dicta veniam voluptat explicabo ."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000006979",
+            "width_approx": 1920,
+            "height_approx": 664,
+            "role": "main_content",
+            "components": [
+              "FAQ"
+            ],
+            "text_labels": [
+              "When referring to Lorem ipsum, different expressions are used\nnamely fill text , fictitious text , blind text or placeholder text\nin short, its meaning can also be zero, but its usefulness.",
+              "Is Autopilot the right fit for me?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "faq",
+        "footer",
+        "navbar",
+        "tag"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L23",
+      "name": "Team Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Team Container",
+        "Team Container"
+      ],
+      "screen_ids": [
+        "2001:39374",
+        "2001:26913"
+      ],
+      "count": 2,
+      "representative_screen": "2001:39374",
+      "representative_name": "Team Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 749
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (639x138), Center main_content (1320x451), Center main_content (121x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 639,
+            "height_approx": 138,
+            "role": "main_content",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "Team",
+              "Get to know amazing people",
+              "Discover how video testimonial has transformed businesses"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Team",
+            "width_approx": 1320,
+            "height_approx": 451,
+            "role": "main_content",
+            "components": [
+              "Team"
+            ],
+            "text_labels": [
+              "Jalen kyle",
+              "Founder of Mediahouse",
+              "Alexander",
+              "Content Writer",
+              "Emily Grace",
+              "Marketing Head",
+              "Daniel Ethan",
+              "Product Designer"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 121,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "See All"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "tag",
+        "team"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "media",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L24",
+      "name": "integrations Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "integrations Container"
+      ],
+      "screen_ids": [
+        "2001:26791"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26791",
+      "representative_name": "integrations Container",
+      "dimensions": {
+        "width": 1920,
+        "height": 600
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (423x336), Center main_content (588x600)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Heading Content",
+            "width_approx": 423,
+            "height_approx": 336,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Tag"
+            ],
+            "text_labels": [
+              "Integrations",
+              "Smart integrations\nat your fingertips",
+              "Securing Your Digital World: Your Trusted Partner in\nData Protection with Cutting-Edge Solutions for\nComprehensive Data Security.",
+              "View All integrations"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "integrations",
+            "width_approx": 588,
+            "height_approx": 600,
+            "role": "main_content",
+            "components": [
+              "tiktok"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "tag",
+        "tiktok"
+      ],
+      "capabilities": [
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L25",
+      "name": "Detail Image 4",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 4"
+      ],
+      "screen_ids": [
+        "197:16211"
+      ],
+      "count": 1,
+      "representative_screen": "197:16211",
+      "representative_name": "Detail Image 4",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1207x972), Center main_content (1207x972), Center main_content (1207x972), Center main_content (824x460), Center main_content (824x460), Center main_content (824x460), Center main_content (824x477), Center main_content (824x460), Center main_content (824x460), Center main_content (824x460), Center main_content (824x477)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1207,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1207,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1207,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Home 5",
+            "width_approx": 824,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Navbar",
+              "Service",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Trusted by 4,000+ companies"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "About us",
+            "width_approx": 824,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "Who we are",
+              "Footer",
+              "Button",
+              "Navbar",
+              "Team",
+              "How It’s Work"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "© 2025 Design and Developed by Themefisher",
+              "About Us",
+              "A team full of passion for marketing",
+              "Find out more about the values, culture, and people behind have on tempus\nthis is what it looks like. Bring on those challenges!",
+              "Automated Data\nWorkflows",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "20K",
+              "Active users",
+              "15M",
+              "Seed Funded",
+              "90%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature",
+            "width_approx": 824,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "Feature",
+              "Key Features Image",
+              "testimonial Container",
+              "Service",
+              "FAQ",
+              "Footer",
+              "Navbar",
+              "Frame 48096292"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Features",
+              "Stronger Relationship with Customer",
+              "Find out more about the values, culture, and people behind have\non tempus this is what it looks like. Bring on those challenges!",
+              "Contact Us",
+              "© 2025 Design and Developed by Themefisher",
+              "Awesome Features",
+              "A Template Built to Convert",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "Services",
+              "Solution to organize\nyour sales in one place",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 2087325746",
+            "width_approx": 824,
+            "height_approx": 477,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Pricing",
+            "width_approx": 824,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "CTA",
+              "Frame 48096296",
+              "Frame 48096293",
+              "Frame 48096294",
+              "FAQ",
+              "Frame 48096295",
+              "Footer",
+              "Navbar",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Choose your simple\npricing plan",
+              "Choose the option to fit your sales volume and growth goals.",
+              "© 2025 Design and Developed by Themefisher",
+              "Trusted by 4,000+ companies",
+              "Compare plan &\nfeatures",
+              "Are you looking to compare plans and features for a particular product or service This will help me give you a more accurate and relevant comparison.",
+              "Features",
+              "Starter",
+              "Business",
+              "Enterprise",
+              "Unlimited User"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Team",
+            "width_approx": 824,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "Navbar",
+              "Team",
+              "Footer"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial",
+              "© 2025 Design and Developed by Themefisher",
+              "Team",
+              "Get to know amazing people",
+              "We craft interactive products with 25,000+ teams over the past 5 years. Our mission is to make digital product creation seamless. On the way know whether you're reaching.",
+              "Jalen kyle",
+              "Founder of Mediahouse",
+              "Alexander",
+              "Content Writer"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Blog",
+            "width_approx": 824,
+            "height_approx": 460,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "Card",
+              "Footer",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial",
+              "© 2025 Design and Developed by Themefisher",
+              "Insights and\nUpdates",
+              "Explore in-depth articles, expert tips, and the latest industry trends to help you make the most of our SaaS solutions and stay ahead in your field.",
+              "Our latest articles\nand blogs",
+              "Explore in-depth articles, expert tips, and the latest industry trends to help you make the most of our SaaS solutions and stay ahead in your field."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 2087325747",
+            "width_approx": 824,
+            "height_approx": 477,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "company logo",
+        "cta",
+        "faq",
+        "feature",
+        "footer",
+        "frame 48096292",
+        "frame 48096293",
+        "how it’s work",
+        "icon",
+        "key features image",
+        "navbar",
+        "pricing",
+        "service",
+        "team",
+        "testimonial container",
+        "who we are"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "form",
+        "media",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L26",
+      "name": "Detail Image 3",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 3"
+      ],
+      "screen_ids": [
+        "196:5852"
+      ],
+      "count": 1,
+      "representative_screen": "196:5852",
+      "representative_name": "Detail Image 3",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (959x959), Center main_content (1207x972), Center main_content (953x5374), Center main_content (653x3682)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gradient",
+            "width_approx": 959,
+            "height_approx": 959,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1207,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Home 6",
+            "width_approx": 953,
+            "height_approx": 5374,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "CTA",
+              "Feature",
+              "Key Features Image",
+              "Frame 48096293",
+              "testimonial Container",
+              "Service",
+              "Why us card",
+              "FAQ",
+              "Team",
+              "Footer",
+              "Button",
+              "Navbar",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Trusted by 4,000+ companies",
+              "Awesome Features",
+              "A Template Built to Convert",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "Choose the option to fit your sales volume and growth goals.",
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial",
+              "© 2025 Design and Developed by Themefisher",
+              "Get to know amazing people",
+              "Discover how video testimonial has transformed businesses"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Home 8",
+            "width_approx": 653,
+            "height_approx": 3682,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "CTA",
+              "Feature",
+              "Key Features Image",
+              "Frame 48096293",
+              "testimonial Container",
+              "Service",
+              "FAQ",
+              "Team",
+              "Footer",
+              "Button",
+              "Navbar",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Trusted by 4,000+ companies",
+              "Awesome Features",
+              "A Template Built to Convert",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "Choose the option to fit your sales volume and growth goals.",
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial",
+              "© 2025 Design and Developed by Themefisher",
+              "Get to know amazing people",
+              "Discover how video testimonial has transformed businesses"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "company logo",
+        "cta",
+        "faq",
+        "feature",
+        "footer",
+        "frame 48096293",
+        "icon",
+        "key features image",
+        "navbar",
+        "pricing",
+        "service",
+        "team",
+        "testimonial container",
+        "tiktok",
+        "why us card"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L27",
+      "name": "Detail Image 2",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Detail Image 2"
+      ],
+      "screen_ids": [
+        "201:18194"
+      ],
+      "count": 1,
+      "representative_screen": "201:18194",
+      "representative_name": "Detail Image 2",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1207x972), Center main_content (1171x1208), Center main_content (1171x1208), Center main_content (552x327), Center main_content (484x1489), Center main_content (718x2494), Center main_content (636x3586), Center main_content (422x941)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1207,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1171,
+            "height_approx": 1208,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1171,
+            "height_approx": 1208,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 2087325765",
+            "width_approx": 552,
+            "height_approx": 327,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Align",
+              "SaaS Website Design",
+              "17 Pages"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "About us",
+            "width_approx": 484,
+            "height_approx": 1489,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "Who we are",
+              "Footer",
+              "Button",
+              "Navbar",
+              "Team",
+              "How It’s Work"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "© 2025 Design and Developed by Themefisher",
+              "About Us",
+              "A team full of passion for marketing",
+              "Find out more about the values, culture, and people behind have on tempus\nthis is what it looks like. Bring on those challenges!",
+              "Automated Data\nWorkflows",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "20K",
+              "Active users",
+              "15M",
+              "Seed Funded",
+              "90%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Careers",
+            "width_approx": 718,
+            "height_approx": 2494,
+            "role": "main_content",
+            "components": [
+              "CTA",
+              "Job Position Card 5",
+              "Job Position Card 1",
+              "Job Position Card 4",
+              "Job Position Card 2",
+              "Navbar",
+              "Job Position Card 3",
+              "Footer",
+              "Button",
+              "Categories "
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Check Openings",
+              "Benefit of  interface",
+              "Why join us ?",
+              "Our Integration Mastery",
+              "At Product Tour, we're dedicated to revolutionizing the way you integrate and interact with your\nessential tools and platforms. Experience seamless connections with Product Tour.",
+              "Work Should Be Fun!",
+              "It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Home 6",
+            "width_approx": 636,
+            "height_approx": 3586,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "CTA",
+              "Feature",
+              "Key Features Image",
+              "Frame 48096293",
+              "testimonial Container",
+              "Service",
+              "Why us card",
+              "FAQ",
+              "Team",
+              "Footer",
+              "Button",
+              "Navbar",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Trusted by 4,000+ companies",
+              "Awesome Features",
+              "A Template Built to Convert",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork",
+              "Choose the option to fit your sales volume and growth goals.",
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial",
+              "© 2025 Design and Developed by Themefisher",
+              "Get to know amazing people",
+              "Discover how video testimonial has transformed businesses"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing",
+            "width_approx": 422,
+            "height_approx": 941,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "CTA",
+              "Frame 48096296",
+              "Frame 48096293",
+              "Frame 48096294",
+              "FAQ",
+              "Frame 48096295",
+              "Footer",
+              "Navbar",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Align",
+              "About us",
+              "Blog",
+              "Contact us",
+              "Choose your simple\npricing plan",
+              "Choose the option to fit your sales volume and growth goals.",
+              "© 2025 Design and Developed by Themefisher",
+              "Trusted by 4,000+ companies",
+              "Compare plan &\nfeatures",
+              "Are you looking to compare plans and features for a particular product or service This will help me give you a more accurate and relevant comparison.",
+              "Features",
+              "Starter",
+              "Business",
+              "Enterprise",
+              "Unlimited User"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "categories",
+        "company logo",
+        "cta",
+        "feature",
+        "footer",
+        "how it’s work",
+        "icon",
+        "job position card 1",
+        "job position card 2",
+        "job position card 3",
+        "job position card 4",
+        "job position card 5",
+        "navbar",
+        "service",
+        "team",
+        "who we are",
+        "why us card"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L28",
+      "name": "Detail Image 5",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 5"
+      ],
+      "screen_ids": [
+        "201:17680"
+      ],
+      "count": 1,
+      "representative_screen": "201:17680",
+      "representative_name": "Detail Image 5",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (879x906), Center main_content (1171x1208), Center main_content (1583x1096)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 879,
+            "height_approx": 906,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1171,
+            "height_approx": 1208,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 2087325767",
+            "width_approx": 1583,
+            "height_approx": 1096,
+            "role": "main_content",
+            "components": [
+              "vuesax"
+            ],
+            "text_labels": [
+              "What You Will Get"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "vuesax"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L29",
+      "name": "Detail Image 6",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 6"
+      ],
+      "screen_ids": [
+        "197:55689"
+      ],
+      "count": 1,
+      "representative_screen": "197:55689",
+      "representative_name": "Detail Image 6",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1171x1208), Center main_content (1410x1456), Center main_content (3332x2380)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1171,
+            "height_approx": 1208,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1410,
+            "height_approx": 1456,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 2087325614",
+            "width_approx": 3332,
+            "height_approx": 2380,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "integrations Card",
+              "Service",
+              "Who we are",
+              "Button",
+              "Navbar",
+              "Feature",
+              "FAQ",
+              "Footer",
+              "testimonial",
+              "Frame 48096292",
+              "Tag",
+              "Job Position",
+              "Team",
+              "Frame 48096296",
+              "Key Features Image",
+              "Frame 48096295",
+              "Frame 48096294",
+              "Company logo"
+            ],
+            "text_labels": [
+              "Discover how video testimonial has transformed businesses",
+              "See All",
+              "© 2025 Design and Developed by Themefisher",
+              "Discover how video testimonial has transformed businesses",
+              "See All",
+              "© 2025 Design and Developed by Themefisher",
+              "Integrations",
+              "Explore integrations",
+              "Securing Your Digital World: Your Trusted Partner in Data Protection with\nCutting-Edge Solutions for Comprehensive Data Security.",
+              "Work Should Be Fun!",
+              "It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals.",
+              "© 2025 Design and Developed by Themefisher",
+              "Page Not Found!",
+              "Discover how video testimonial has transformed businesses",
+              "See All"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "company logo",
+        "faq",
+        "feature",
+        "footer",
+        "frame 48096292",
+        "frame 48096293",
+        "icon",
+        "key features image",
+        "navbar",
+        "pricing",
+        "service",
+        "tag",
+        "team",
+        "testimonial",
+        "tiktok",
+        "why us card"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L30",
+      "name": "Detail Image 1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 1"
+      ],
+      "screen_ids": [
+        "197:5925"
+      ],
+      "count": 1,
+      "representative_screen": "197:5925",
+      "representative_name": "Detail Image 1",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (959x959), Center main_content (1171x1208), Center main_content (552x921), Center main_content (1519x1064)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gradient",
+            "width_approx": 959,
+            "height_approx": 959,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1171,
+            "height_approx": 1208,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 2087325750",
+            "width_approx": 552,
+            "height_approx": 921,
+            "role": "main_content",
+            "components": [
+              "check"
+            ],
+            "text_labels": [
+              "Align",
+              "SaaS Website Design"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group 1000002752",
+            "width_approx": 1519,
+            "height_approx": 1064,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Navbar",
+              "Service",
+              "Company logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check",
+        "company logo",
+        "icon",
+        "navbar",
+        "service"
+      ],
+      "capabilities": [
+        "authentication",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L31",
+      "name": "Full preview",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Full preview"
+      ],
+      "screen_ids": [
+        "197:36284"
+      ],
+      "count": 1,
+      "representative_screen": "197:36284",
+      "representative_name": "Full preview",
+      "dimensions": {
+        "width": 2112,
+        "height": 5000
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (973x972), Center main_content (973x972), Center main_content (973x972), Center main_content (973x972), Center main_content (973x972), Center main_content (973x972), Center main_content (973x972), Center main_content (2112x1401), Center main_content (856x357), Center main_content (856x739), Center main_content (856x487), Center main_content (856x499), Center main_content (856x595), Center main_content (856x540), Center main_content (856x545), Center main_content (856x566), Center main_content (857x384), Center main_content (856x389), Center main_content (857x367), Center main_content (2112x549), Center main_content (970x125), Center main_content (856x343)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 973,
+            "height_approx": 972,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Thumbnail 2 uihut",
+            "width_approx": 2112,
+            "height_approx": 1401,
+            "role": "main_content",
+            "components": [
+              "FAQ",
+              "Navbar",
+              "Company logo"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Who we are Content",
+            "width_approx": 856,
+            "height_approx": 357,
+            "role": "main_content",
+            "components": [
+              "Who we are"
+            ],
+            "text_labels": [
+              "Who we are",
+              "Strong values is bring great\nteam together & work.",
+              "We’ll calculate limits to recommend you based on your spending predictions, or simply tell us how much you want to spend"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature Container",
+            "width_approx": 856,
+            "height_approx": 739,
+            "role": "main_content",
+            "components": [
+              "Feature"
+            ],
+            "text_labels": [
+              "Awesome Features",
+              "A Template Built to Convert",
+              "Ditch the back-and-forth emails and version control headaches.\nOur intuitive interface fosters seamless teamwork"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Team Container",
+            "width_approx": 856,
+            "height_approx": 487,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Tag",
+              "Team"
+            ],
+            "text_labels": [
+              "Team",
+              "Get to know amazing people",
+              "Discover how video testimonial has transformed businesses",
+              "Jalen kyle",
+              "Founder of Mediahouse",
+              "Alexander",
+              "Content Writer",
+              "Emily Grace",
+              "Marketing Head",
+              "Daniel Ethan",
+              "Product Designer",
+              "See All"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Blog Container",
+            "width_approx": 856,
+            "height_approx": 499,
+            "role": "main_content",
+            "components": [
+              "Card"
+            ],
+            "text_labels": [
+              "Our latest articles\nand blogs",
+              "Explore in-depth articles, expert tips, and the latest industry trends to help you make the most of our SaaS solutions and stay ahead in your field."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Job Position Content",
+            "width_approx": 856,
+            "height_approx": 595,
+            "role": "main_content",
+            "components": [
+              "Categories ",
+              "Job Position Card 3",
+              "Job Position Card 2",
+              "Job Position Card 1"
+            ],
+            "text_labels": [
+              "Job Position",
+              "Available positions at Financer",
+              "Begin your career journey with us by exploring the available positions and discovering how you can contribute to our success.",
+              "All",
+              "design",
+              "development",
+              "content writer",
+              "Marketing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Container",
+            "width_approx": 856,
+            "height_approx": 540,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "Frame 48096293"
+            ],
+            "text_labels": [
+              "Choose your simple\npricing plan",
+              "Choose the option to fit your sales volume and growth goals."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Office Gallery",
+            "width_approx": 856,
+            "height_approx": 545,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Work Should Be Fun!",
+              "It is a sequence of Latin words that, as they are positioned, do not form sentences with a complete sense but give life to a test text useful to fill spaces that will subsequently be occupied from ad hoc texts composed by communication professionals."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Our Integration Mastery Container",
+            "width_approx": 856,
+            "height_approx": 566,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our Integration Mastery",
+              "At Product Tour, we're dedicated to revolutionizing the way you integrate and interact with your\nessential tools and platforms. Experience seamless connections with Product Tour.",
+              "Optimize your sales\nwithout any hassle",
+              "Duis gravida augue velit eu dignissim felis pos quis. Inte ante urna gravida nec molestie mattis ultr. Pellentesque convallis elit."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Benefit Container",
+            "width_approx": 857,
+            "height_approx": 384,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Benefit of  interface",
+              "Why join us ?"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "integrations Container",
+            "width_approx": 856,
+            "height_approx": 389,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "integrations",
+              "Smart integrations\nat your fingertips",
+              "Securing Your Digital World: Your Trusted Partner in\nData Protection with Cutting-Edge Solutions for\nComprehensive Data Security.",
+              "View All integrations"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 857,
+            "height_approx": 367,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Why us card"
+            ],
+            "text_labels": [
+              "why us",
+              "why will you choose our\nbest application",
+              "Duis gravida augue velit eu dignissim felis pos quis.\nInte ante urna gravida nec molestie mattis ultr.",
+              "Get Started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 34624851",
+            "width_approx": 2112,
+            "height_approx": 549,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Thanks for Watching",
+            "width_approx": 970,
+            "height_approx": 125,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Thanks for Watching"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000006554",
+            "width_approx": 856,
+            "height_approx": 343,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "testimonial Card"
+            ],
+            "text_labels": [
+              "Testimonial",
+              "Discover What Our\nClients Have to Say!",
+              "\"Their attention to detail and creative design approach transformed our website into a visually stunning and highly functional platform. We’ve seen a 30% increase in traffic since the relaunch.",
+              "\"Their attention to detail and creative design approach transformed our website into a visually stunning and highly functional platform. We’ve seen a 30% increase in traffic since the relaunch.",
+              "\"Their attention to detail and creative design approach transformed our website into a visually stunning and highly functional platform. We’ve seen a 30% increase in traffic since the relaunch."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "categories",
+        "check",
+        "company logo",
+        "frame 48096292",
+        "frame 48096293",
+        "frame 48096294",
+        "frame 48096295",
+        "frame 48096296",
+        "icon",
+        "job position",
+        "navbar",
+        "pricing",
+        "service",
+        "tag",
+        "team"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L32",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "214:63215"
+      ],
+      "count": 1,
+      "representative_screen": "214:63215",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1352,
+        "height": 650
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (424x610), Center main_content (424x610), Center main_content (424x610)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Property 1=Default",
+            "width_approx": 424,
+            "height_approx": 610,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "features",
+              "Customer support",
+              "Analytics & reporting",
+              "Unlimited users",
+              "Integrations",
+              "Personal manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Property 1=Variant2",
+            "width_approx": 424,
+            "height_approx": 610,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "features",
+              "Customer support",
+              "Analytics & reporting",
+              "Unlimited users",
+              "Integrations",
+              "Personal manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Property 1=Variant3",
+            "width_approx": 424,
+            "height_approx": 610,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "features",
+              "Customer support",
+              "Analytics & reporting",
+              "Unlimited users",
+              "Integrations",
+              "Personal manager"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button"
+      ],
+      "capabilities": [
+        "analytics",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L33",
+      "name": "Blog",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Blog"
+      ],
+      "screen_ids": [
+        "2001:25179"
+      ],
+      "count": 1,
+      "representative_screen": "2001:25179",
+      "representative_name": "Blog",
+      "dimensions": {
+        "width": 1920,
+        "height": 3698
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1920x96), Center main_content (1920x663), Center main_content (1920x416), Center main_content (1920x532), Center main_content (1920x714), Center main_content (1920x1390)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cta Container",
+            "width_approx": 1920,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Feature Blog Post",
+            "width_approx": 1920,
+            "height_approx": 714,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Insights and\nUpdates",
+              "Explore in-depth articles, expert tips, and the latest industry trends to help you make the most of our SaaS solutions and stay ahead in your field."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Blog Card Container",
+            "width_approx": 1920,
+            "height_approx": 1390,
+            "role": "main_content",
+            "components": [
+              "Card"
+            ],
+            "text_labels": [
+              "Our latest articles\nand blogs",
+              "Explore in-depth articles, expert tips, and the latest industry trends to help you make the most of our SaaS solutions and stay ahead in your field."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card",
+        "footer",
+        "navbar",
+        "tag"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "form",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L34",
+      "name": "Team",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Team"
+      ],
+      "screen_ids": [
+        "2001:26234"
+      ],
+      "count": 1,
+      "representative_screen": "2001:26234",
+      "representative_name": "Team",
+      "dimensions": {
+        "width": 1920,
+        "height": 2558
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1920x96), Center main_content (1920x663), Center main_content (1920x416), Center main_content (1920x532), Center main_content (1920x1094)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "OBJECTS",
+            "width_approx": 1920,
+            "height_approx": 663,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1920,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Link Button",
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Align",
+              "Home",
+              "About us",
+              "Features",
+              "Blog",
+              "Pages",
+              "Contact us",
+              "Login",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cta Container",
+            "width_approx": 1920,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Ready to Scale Your Startup?",
+              "Experience the power of Sonata with a 14-day free trial. No credit card required. Unlock\nthe full potential of your business with advanced SaaS solutions.",
+              "Start Free Trial"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1920,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Frame 48096293",
+              "Footer"
+            ],
+            "text_labels": [
+              "We growing up your business",
+              "Company",
+              "Legal",
+              "CONTACT",
+              "© 2025 Design and Developed by Themefisher"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Team Container",
+            "width_approx": 1920,
+            "height_approx": 1094,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Team"
+            ],
+            "text_labels": [
+              "Team",
+              "Get to know amazing people",
+              "We craft interactive products with 25,000+ teams over the past 5 years. Our mission is to make digital product creation seamless. On the way know whether you're reaching."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "navbar",
+        "tag",
+        "team"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "media",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "AL_L35",
+      "name": "Frame 48098441",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Frame 48098441"
+      ],
+      "screen_ids": [
+        "3:1094"
+      ],
+      "count": 1,
+      "representative_screen": "3:1094",
+      "representative_name": "Frame 48098441",
+      "dimensions": {
+        "width": 1920,
+        "height": 898
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1920x98), Center main_content (1920x92), Center main_content (1920x90), Center main_content (1920x88), Center main_content (1920x82)",
+        "panels": [
+          {
+            "position": "top",
+            "name": " Paragraph Extra Large Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 98,
+            "role": "header",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Paragraph Extra Large",
+              "Font size: 24px or 1.5 rem | Line height - 36px 2.25 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": " Paragraph Large Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 92,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Paragraph Large",
+              "Font size: 20px or 1.25 rem | Line height - 30px 1.87 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": " Paragraph Medium Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 90,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Paragraph Medium",
+              "Font size: 18px or 1.125 rem | Line height - 28px 1.75 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": " Paragraph Small Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Paragraph Small",
+              "Font size: 16px or 1 rem | Line height - 26px 1.625 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": " Paragraph or tag Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 82,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Paragraph Small/Tag",
+              "Font size: 14px or 0.875 rem | Line height - 20px 1.25 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "heading",
+        "line 10",
+        "line 7",
+        "line 8",
+        "line 9",
+        "medium",
+        "regular",
+        "semibold"
+      ],
+      "capabilities": [
+        "analytics"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L36",
+      "name": "Frame 48098443",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Frame 48098443"
+      ],
+      "screen_ids": [
+        "3:1014"
+      ],
+      "count": 1,
+      "representative_screen": "3:1014",
+      "representative_name": "Frame 48098443",
+      "dimensions": {
+        "width": 1920,
+        "height": 1199
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1920x138), Center main_content (1920x122), Center main_content (1920x102), Center main_content (1920x97), Center main_content (1920x92), Center main_content (1920x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Heading 1 Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 138,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Heading 1",
+              "Font size: 61px or 3.81 rem | Line height - 76px 4.75 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Heading 2 Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 122,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Heading 2",
+              "Font size: 48px or 3 rem | Line height - 60px 3.75 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Heading 3 Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 102,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Heading  3",
+              "Font size: 31px or 1.93 rem | Line height - 40px 2.5 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Heading 4 Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 97,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Heading 4",
+              "Font size: 25px or 1.56 rem | Line height - 35px 2.18 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Heading 5 Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 92,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Heading 5",
+              "Font size: 20px or 1.25 rem | Line height - 30px 1.87 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Heading 6 Text Sample Group",
+            "width_approx": 1920,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Heading 6",
+              "Font size: 16px or 1 rem | Line height - 26px 1.62 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "heading",
+        "line 10",
+        "line 11",
+        "line 7",
+        "line 8",
+        "line 9",
+        "medium",
+        "regular",
+        "semibold"
+      ],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "AL_L37",
+      "name": "Frame 48098442",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Frame 48098442"
+      ],
+      "screen_ids": [
+        "3:1062"
+      ],
+      "count": 1,
+      "representative_screen": "3:1062",
+      "representative_name": "Frame 48098442",
+      "dimensions": {
+        "width": 1920,
+        "height": 971
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1920x187), Center main_content (1920x172), Center main_content (1920x144), Center main_content (1920x132)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 48098435",
+            "width_approx": 1920,
+            "height_approx": 187,
+            "role": "main_content",
+            "components": [
+              "Display Extra Large Regular",
+              "Display Extra Large Medium",
+              "Display Extra Large Bold",
+              "Heading",
+              "Display Extra Large Semibold"
+            ],
+            "text_labels": [
+              "Display Extra Large",
+              "Font size: 100px or 6.25 rem | Line height - 125px 7.81 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 48098431",
+            "width_approx": 1920,
+            "height_approx": 172,
+            "role": "main_content",
+            "components": [
+              "Display Large Bold",
+              "Display Large Regular",
+              "Heading",
+              "Display Large Semibold",
+              "Display Large Medium"
+            ],
+            "text_labels": [
+              "Display Large",
+              "Font size: 80px or 5 rem | Line height - 110px 6.87 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 48098433",
+            "width_approx": 1920,
+            "height_approx": 144,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Display Medium",
+              "Font size: 66px or 4.12 rem | Line height - 82px 5.12 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 48098437",
+            "width_approx": 1920,
+            "height_approx": 132,
+            "role": "main_content",
+            "components": [
+              "Semibold",
+              "Bold",
+              "Heading",
+              "Medium",
+              "Regular"
+            ],
+            "text_labels": [
+              "Display Small",
+              "Font size: 56px or 3.5 rem | Line height - 70px 4.37 rem",
+              "Regular",
+              "Medium",
+              "Semibold",
+              "Bold"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bold",
+        "display extra large bold",
+        "display extra large medium",
+        "display extra large regular",
+        "display extra large semibold",
+        "display large bold",
+        "display large medium",
+        "display large regular",
+        "display large semibold",
+        "heading",
+        "line 7",
+        "line 8",
+        "line 9",
+        "medium",
+        "regular",
+        "semibold"
+      ],
+      "capabilities": [],
+      "is_light": false
+    }
+  ]
+}

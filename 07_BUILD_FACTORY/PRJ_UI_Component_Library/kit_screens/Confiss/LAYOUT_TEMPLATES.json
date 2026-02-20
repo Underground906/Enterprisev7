@@ -1,0 +1,3874 @@
+{
+  "kit": "Confiss",
+  "file_key": "AYzFX61wgcyaxHCpg55NoD",
+  "analyzed_at": "2026-02-19T19:05:38.886480",
+  "unique_layouts": 27,
+  "total_screens": 29,
+  "dedup_ratio": "29 screens -> 27 templates (93%)",
+  "layouts": [
+    {
+      "layout_id": "CO_L1",
+      "name": "HOME",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:medium",
+      "screens_using": [
+        "HOME"
+      ],
+      "screen_ids": [
+        "1:49"
+      ],
+      "count": 1,
+      "representative_screen": "1:49",
+      "representative_name": "HOME",
+      "dimensions": {
+        "width": 1440,
+        "height": 3914
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x5099), Center main_content (999x999), Center main_content (1440x494), Center main_content (1440x900), Center main_content (999x999), Center main_content (1388x1388), Center main_content (1225x616), Center main_content (1225x860), Center main_content (1225x690), Center main_content (475x324), Center main_content (1054x649), Center main_content (239x24), Center main_content (138x37), Center main_content (273x44), Center main_content (552x72)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 5099,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1440,
+            "height_approx": 494,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Confiss is a digital event platform designed to present all types of events from webinars to networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1225,
+            "height_approx": 616,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Features",
+              "Video Conferencing Platforms\r\nHelping You Connect",
+              "Learn more"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1225,
+            "height_approx": 860,
+            "role": "main_content",
+            "components": [
+              "HourglassMedium",
+              "ArrowRight",
+              "User"
+            ],
+            "text_labels": [
+              "Event",
+              "Follow Interesting Events\r\nIncrease Skills and Knowledge",
+              "See all",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "View Details",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "View Details",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "View Details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1225,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Testimonials",
+              "What are they saying?",
+              "Register Now"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 475,
+            "height_approx": 324,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Connect everyone, from anywhere.",
+              "Confiss can provide an all in one solution to create a high impact event from start to finish",
+              "Start Free",
+              "See Pricing Plan"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 1054,
+            "height_approx": 649,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 239,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Features",
+              "Pricing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 273,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Login",
+              "Register"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 227",
+            "width_approx": 552,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our trusted partner"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrowright",
+        "check",
+        "hourglassmedium",
+        "newspaperclipping",
+        "style=round",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L2",
+      "name": "Auto Layout Vertical",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Auto Layout Vertical"
+      ],
+      "screen_ids": [
+        "1:595"
+      ],
+      "count": 1,
+      "representative_screen": "1:595",
+      "representative_name": "Auto Layout Vertical",
+      "dimensions": {
+        "width": 1225,
+        "height": 4633
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1225x1271), Center main_content (1225x1681), Center main_content (1225x1279)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1225,
+            "height_approx": 1271,
+            "role": "main_content",
+            "components": [
+              "Check"
+            ],
+            "text_labels": [
+              "Event Management",
+              "Manage your Event Meeting type",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus mollis laoreet egestas purus magna.",
+              "Invite your Participant",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, ipsum penatibus facilisi quam maecenas.",
+              "Event Registration Page",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ligula ac pharetra sit sem faucibus mi purus massa.",
+              "Monitor Incoming Participant",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel facilisi quam maecenas aliquet quis faucibus turpis."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1225,
+            "height_approx": 1681,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Conference",
+              "Record Meeting",
+              "Never miss a meeting again. Record, download, and share any call",
+              "Screen Sharing",
+              "Host presentations, collaborate with your team, and more with our intuitive screen share feature.",
+              "White Board",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae urna elementum quisque placerat sagittis, volutpat ut.",
+              "Breakout room",
+              "The easiest way to team up, break out, and collaborate.",
+              "Raie Hand",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo egestas sit aliquam augue et turpis vulputate.",
+              "Share Files",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum venenatis bibendum malesuada ut a."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1225,
+            "height_approx": 1279,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event Analytics",
+              "Meeting Statistics",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum pulvinar ut sit nec.",
+              "Feedback",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nisi, risus est aliquam.",
+              "Meeting Recording",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat purus leo lacus amet lobortis nullam cursus leo nunc."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "file_management",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L3",
+      "name": "Detail Image 8",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 8"
+      ],
+      "screen_ids": [
+        "19:105350"
+      ],
+      "count": 1,
+      "representative_screen": "19:105350",
+      "representative_name": "Detail Image 8",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1599x967), Center main_content (666x115), Center main_content (642x112)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "image 33",
+            "width_approx": 1599,
+            "height_approx": 967,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 203",
+            "width_approx": 642,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "layers"
+            ],
+            "text_labels": [
+              "Well Organized Layer & Group"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "layers"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L4",
+      "name": "Detail Image 2",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 4",
+        "Detail Image 2"
+      ],
+      "screen_ids": [
+        "19:107512",
+        "19:111661"
+      ],
+      "count": 2,
+      "representative_screen": "19:111661",
+      "representative_name": "Detail Image 2",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (3448x3188), Center main_content (666x115), Center main_content (1024x720)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Group 78",
+            "width_approx": 3448,
+            "height_approx": 3188,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Camera Off",
+              "Arrow",
+              "square checkbox solid",
+              "Property 1=Share Screen On",
+              "Micropone Off",
+              "Pedestrian",
+              "Property 1=Opsi",
+              "Users",
+              "NumberSquareFive",
+              "SignOut",
+              "ArrowRight",
+              "Property 1=Raise Hand On",
+              "CalendarBlank",
+              "Property 1=Invite",
+              "ClipboardText",
+              "Property 1=Camera On",
+              "ChartLine"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Confiss is a digital event platform designed to present all types of events from webinars to networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 372",
+            "width_approx": 1024,
+            "height_approx": 720,
+            "role": "main_content",
+            "components": [
+              "arrow_drop_up",
+              "shopping_cart",
+              "format_shapes",
+              "search",
+              "web",
+              "font_download",
+              "layers",
+              "style",
+              "arrow_drop_down",
+              "phonelink",
+              "favorite_border"
+            ],
+            "text_labels": [
+              "Hello Anarda",
+              "CART",
+              "Global  Style Guide",
+              "45 Premium  Web Pages",
+              "Free Font Used",
+              "Mobile Responsive",
+              "Easy Costumize",
+              "Organized Layer"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow",
+        "arrowright",
+        "check",
+        "hourglassmedium",
+        "micropone off",
+        "newspaperclipping",
+        "property 1=camera off",
+        "property 1=camera on",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=raise hand on",
+        "property 1=record",
+        "property 1=record on",
+        "property 1=share screen",
+        "property 1=share screen on",
+        "style=round",
+        "type=01. default, state=on",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L5",
+      "name": "PRICING PLAN",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "PRICING PLAN"
+      ],
+      "screen_ids": [
+        "1:923"
+      ],
+      "count": 1,
+      "representative_screen": "1:923",
+      "representative_name": "PRICING PLAN",
+      "dimensions": {
+        "width": 1440,
+        "height": 1675
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x6442), Center main_content (999x999), Center main_content (1440x900), Center main_content (999x999), Center main_content (1388x1388), Center main_content (1440x494), Center main_content (1388x1388), Center main_content (1225x566), Center main_content (272x60), Center main_content (485x78), Center main_content (241x24), Center main_content (138x37), Center main_content (273x44)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 6442,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1440,
+            "height_approx": 494,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Confiss is a digital event platform designed to present all types of events from webinars to networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 1225,
+            "height_approx": 566,
+            "role": "main_content",
+            "components": [
+              "ArrowRight"
+            ],
+            "text_labels": [
+              "$ 0/year",
+              "Free",
+              "All the basic for businesses that are getting started",
+              "Unlimited number of meeting",
+              "Duration Max 90 Mins",
+              "Participant Max 75 person",
+              "Get Started",
+              "$ 50/year",
+              "Premium",
+              "All the basic for businesses that are getting started",
+              "Unlimited number of meeting",
+              "Duration Max 6 Hours",
+              "Participant Max 200 person",
+              "Get Started",
+              "$ 129/year"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 272,
+            "height_approx": 60,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Bill monthly",
+              "Bill annually Save 25%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 485,
+            "height_approx": 78,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Pricing Plan",
+              "Choose the one that suits you"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 241,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Features",
+              "Pricing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 273,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Login",
+              "Register"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrowright",
+        "style=round"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "e_commerce",
+        "form",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L6",
+      "name": "Desktop - 8",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "Desktop - 8"
+      ],
+      "screen_ids": [
+        "1:1349"
+      ],
+      "count": 1,
+      "representative_screen": "1:1349",
+      "representative_name": "Desktop - 8",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x810), Center main_content (1326x64), Center main_content (236x185), Center main_content (322x86), Center main_content (24x24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 1326,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Invite",
+              "Property 1=Chat with notification",
+              "Property 1=Camera Off",
+              "Property 1=Record",
+              "Property 1=Share Screen On",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 236,
+            "height_approx": 185,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Chander"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 322,
+            "height_approx": 86,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Devon Hawkins",
+              "I can't hear it well"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record",
+        "property 1=share screen on"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L7",
+      "name": "Desktop - 9",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Desktop - 9"
+      ],
+      "screen_ids": [
+        "1:1392"
+      ],
+      "count": 1,
+      "representative_screen": "1:1392",
+      "representative_name": "Desktop - 9",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x810), Center main_content (1441x810), Center main_content (1326x64), Center main_content (24x24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1441,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "M",
+              "J"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 1326,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Camera On",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Raise Hand On",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera on",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand on",
+        "property 1=record",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L8",
+      "name": "Desktop - 7",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Desktop - 7"
+      ],
+      "screen_ids": [
+        "1:1532"
+      ],
+      "count": 1,
+      "representative_screen": "1:1532",
+      "representative_name": "Desktop - 7",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x810), Center main_content (1326x64), Center main_content (24x24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 1326,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Invite",
+              "Property 1=Chat with notification",
+              "Property 1=Camera Off",
+              "Property 1=Record",
+              "Property 1=Share Screen On",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record",
+        "property 1=share screen on"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L9",
+      "name": "Desktop - 5",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Desktop - 5",
+        "Desktop - 2"
+      ],
+      "screen_ids": [
+        "1:1696",
+        "1:2155"
+      ],
+      "count": 2,
+      "representative_screen": "1:1696",
+      "representative_name": "Desktop - 5",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x810), Center main_content (1441x810), Center main_content (1326x64), Center main_content (74x24), Center main_content (24x24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Vector",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 1441,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "J",
+              "M",
+              "J"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 1326,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Camera Off",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 74,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Recording"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record",
+        "property 1=record on",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L10",
+      "name": "Desktop - 1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Desktop - 1"
+      ],
+      "screen_ids": [
+        "1:2251"
+      ],
+      "count": 1,
+      "representative_screen": "1:2251",
+      "representative_name": "Desktop - 1",
+      "dimensions": {
+        "width": 1440,
+        "height": 920
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1082), Center main_content (1326x64), Center main_content (236x185), Center main_content (322x86), Center main_content (74x24), Center main_content (24x24)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 1082,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 1326,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Record On",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Camera Off",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 236,
+            "height_approx": 185,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Chander"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 322,
+            "height_approx": 86,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Devon Hawkins",
+              "I can't hear it well"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 74,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Recording"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record on",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L11",
+      "name": "EVENT LIST",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "EVENT LIST"
+      ],
+      "screen_ids": [
+        "1:4858"
+      ],
+      "count": 1,
+      "representative_screen": "1:4858",
+      "representative_name": "EVENT LIST",
+      "dimensions": {
+        "width": 1440,
+        "height": 4058
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x5317), Center main_content (1440x900), Center main_content (999x999), Center main_content (999x999), Center main_content (1388x1388), Center main_content (1388x1388), Center main_content (238x24), Center main_content (599x108), Center main_content (1225x48), Center main_content (1440x494), Center main_content (271x44), Center main_content (1225x2980), Center main_content (590x36), Center main_content (138x37)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle 3",
+            "width_approx": 1440,
+            "height_approx": 5317,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 2",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 10",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 10",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1",
+            "width_approx": 238,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Features",
+              "Pricing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 8",
+            "width_approx": 599,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event List",
+              "Cari Event yang Sesuai Denganmu di Sini"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 105",
+            "width_approx": 1225,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Cari berdasarkan judul",
+              "Type",
+              "Status",
+              "12"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group 66",
+            "width_approx": 1440,
+            "height_approx": 494,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Concall adalah platform event digital yang di desain untuk menghadirkan segala tipe event mulai dari webinar sampai networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business",
+              "Term & Conditions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 7",
+            "width_approx": 271,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Login",
+              "Register"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 182",
+            "width_approx": 1225,
+            "height_approx": 2980,
+            "role": "main_content",
+            "components": [
+              "HourglassMedium",
+              "ArrowRight",
+              "User"
+            ],
+            "text_labels": [
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "View Details",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "View Details",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "View Details",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja",
+              "54 orang menghadiri event ini",
+              "View Details",
+              "Untitled",
+              "Event description lorem ipsum dolor ajsasa ajsja"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 175",
+            "width_approx": 590,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Paling dicari:",
+              "Design",
+              "Trading",
+              "Investing",
+              "Game",
+              "Music"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrowright",
+        "hourglassmedium",
+        "newspaperclipping",
+        "style=round",
+        "user"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L12",
+      "name": "EVENT DETAILS",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "EVENT DETAILS"
+      ],
+      "screen_ids": [
+        "1:5305"
+      ],
+      "count": 1,
+      "representative_screen": "1:5305",
+      "representative_name": "EVENT DETAILS",
+      "dimensions": {
+        "width": 1440,
+        "height": 1627
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x5317), Center main_content (1440x900), Center main_content (999x999), Center main_content (999x999), Center main_content (1388x1388), Center main_content (1388x1388), Center main_content (238x24), Center main_content (1220x164), Center main_content (36x36), Center main_content (1440x494), Center main_content (347x510), Center main_content (129x44), Center main_content (665x48), Center main_content (806x438), Center main_content (271x44), Center main_content (138x37)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle 3",
+            "width_approx": 1440,
+            "height_approx": 5317,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 2",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 10",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 10",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1",
+            "width_approx": 238,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Features",
+              "Pricing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 8",
+            "width_approx": 1220,
+            "height_approx": 164,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa neque porttitor scelerisque volutpat tempor.",
+              "Upcoming",
+              "Webinar",
+              "54 orang menghadiri event ini"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group 49",
+            "width_approx": 36,
+            "height_approx": 36,
+            "role": "main_content",
+            "components": [
+              "GearSix",
+              "PencilSimple"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 66",
+            "width_approx": 1440,
+            "height_approx": 494,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Concall adalah platform event digital yang di desain untuk menghadirkan segala tipe event mulai dari webinar sampai networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business",
+              "Term & Conditions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 111",
+            "width_approx": 347,
+            "height_approx": 510,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 2",
+            "width_approx": 129,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Register"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 109",
+            "width_approx": 665,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "NewspaperClipping",
+              "HourglassMedium",
+              "User"
+            ],
+            "text_labels": [
+              "Hosted by John Doe",
+              "Dimulai pada 21 Mei 2021 20:00 WIB\n3 hari 05:23:15",
+              "Rp 50,000"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 122",
+            "width_approx": 806,
+            "height_approx": 438,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "About",
+              "Alur Event",
+              "Rating (2817)",
+              "Komentar",
+              "Event type",
+              "s"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 7",
+            "width_approx": 271,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Login",
+              "Register"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "gearsix",
+        "hourglassmedium",
+        "newspaperclipping",
+        "pencilsimple",
+        "style=round",
+        "user"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L13",
+      "name": "Cover",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Cover"
+      ],
+      "screen_ids": [
+        "19:99349"
+      ],
+      "count": 1,
+      "representative_screen": "19:99349",
+      "representative_name": "Cover",
+      "dimensions": {
+        "width": 1400,
+        "height": 600
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1599x967)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "image 33",
+            "width_approx": 1599,
+            "height_approx": 967,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L14",
+      "name": "Detail Image 1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Detail Image 1"
+      ],
+      "screen_ids": [
+        "19:103220"
+      ],
+      "count": 1,
+      "representative_screen": "19:103220",
+      "representative_name": "Detail Image 1",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2500x1875), Center main_content (666x115), Center main_content (733x288), Center main_content (761x416), Center main_content (463x112), Center main_content (409x112), Center main_content (120x112), Center main_content (206x56)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "MacBook Air (2022)",
+            "width_approx": 2500,
+            "height_approx": 1875,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Virtual Event & Video Conference Website UI Kit",
+            "width_approx": 733,
+            "height_approx": 288,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Virtual Event & Video Conference Website UI Kit"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 227",
+            "width_approx": 761,
+            "height_approx": 416,
+            "role": "main_content",
+            "components": [
+              "check_circle"
+            ],
+            "text_labels": [
+              "Easy Customizable",
+              "Neadby & Organized Layer",
+              "Auto Layout",
+              "Free Font",
+              "Bonus Dashboard & Video Conference Pages"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 203",
+            "width_approx": 463,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "UI8.net/purepearl"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 228",
+            "width_approx": 409,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "20 Premium Screens"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 213",
+            "width_approx": 120,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 206,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check_circle",
+        "style=round"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "media"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L15",
+      "name": "Thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Thumbnail"
+      ],
+      "screen_ids": [
+        "22:14710"
+      ],
+      "count": 1,
+      "representative_screen": "22:14710",
+      "representative_name": "Thumbnail",
+      "dimensions": {
+        "width": 1208,
+        "height": 840
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1544x1158), Center main_content (412x71), Center main_content (453x177), Center main_content (470x257), Center main_content (286x69), Center main_content (252x69), Center main_content (74x69), Center main_content (128x34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "MacBook Air (2022)",
+            "width_approx": 1544,
+            "height_approx": 1158,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 412,
+            "height_approx": 71,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Virtual Event & Video Conference Website UI Kit",
+            "width_approx": 453,
+            "height_approx": 177,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Virtual Event & Video Conference Website UI Kit"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 227",
+            "width_approx": 470,
+            "height_approx": 257,
+            "role": "main_content",
+            "components": [
+              "check_circle"
+            ],
+            "text_labels": [
+              "Easy Customizable",
+              "Neadby & Organized Layer",
+              "Auto Layout",
+              "Free Font",
+              "Bonus Dashboard & Video Conference Pages"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 203",
+            "width_approx": 286,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "UI8.net/purepearl"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 228",
+            "width_approx": 252,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "20 Premium Screens"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 213",
+            "width_approx": 74,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 128,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check_circle",
+        "style=round"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "media"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L16",
+      "name": "Detail Image 3",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 3"
+      ],
+      "screen_ids": [
+        "19:103302"
+      ],
+      "count": 1,
+      "representative_screen": "19:103302",
+      "representative_name": "Detail Image 3",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (666x115), Center main_content (2004x1360)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group 78",
+            "width_approx": 2004,
+            "height_approx": 1360,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L17",
+      "name": "Detail Image 5",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 5"
+      ],
+      "screen_ids": [
+        "19:103325"
+      ],
+      "count": 1,
+      "representative_screen": "19:103325",
+      "representative_name": "Detail Image 5",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (655x2929), Center main_content (655x1780), Center main_content (666x115), Center main_content (655x466), Center main_content (655x368), Center main_content (655x409), Center main_content (655x740), Center main_content (881x560), Center main_content (1440x252)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "FEATURES",
+            "width_approx": 655,
+            "height_approx": 2929,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "Arrow"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Confiss is a digital event platform designed to present all types of events from webinars to networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "HOME",
+            "width_approx": 655,
+            "height_approx": 1780,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "ArrowRight"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Confiss is a digital event platform designed to present all types of events from webinars to networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "LOGIN REGISTER",
+            "width_approx": 655,
+            "height_approx": 466,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "square checkbox solid"
+            ],
+            "text_labels": [
+              "Your fullname *",
+              "Email address *",
+              "Create password *",
+              "I agree to terms & conditions",
+              "Register Account",
+              "Or",
+              "Register",
+              "Belum punya akun? Daftar sekarang",
+              "Ayo Mulai",
+              "Confiss"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Desktop - 9",
+            "width_approx": 655,
+            "height_approx": 368,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Camera On",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Raise Hand On",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "DASHBOARD",
+            "width_approx": 655,
+            "height_approx": 409,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "NumberSquareSeven",
+              "Users",
+              "SignOut",
+              "GearSix",
+              "Record",
+              "Pedestrian",
+              "CalendarBlank",
+              "ChartLine",
+              "Calculator",
+              "DeviceMobile",
+              "ClipboardText"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Setting",
+              "Log Out",
+              "Overview",
+              "Event Created",
+              "Participant",
+              "Joined Participant Today",
+              "Average Rating",
+              "Upcoming Event",
+              "Devices User by Platform",
+              "Sales",
+              "Event Recording",
+              "Upcoming  Event",
+              "More",
+              "MON"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "EVENT DETAILS",
+            "width_approx": 655,
+            "height_approx": 740,
+            "role": "main_content",
+            "components": [
+              "NewspaperClipping",
+              "Style=Round",
+              "PencilSimple",
+              "HourglassMedium",
+              "GearSix",
+              "User"
+            ],
+            "text_labels": [
+              "Home",
+              "Features",
+              "Pricing",
+              "Event",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa neque porttitor scelerisque volutpat tempor.",
+              "Upcoming",
+              "Webinar",
+              "54 orang menghadiri event ini",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Concall adalah platform event digital yang di desain untuk menghadirkan segala tipe event mulai dari webinar sampai networking (1:1).",
+              "About",
+              "Contact"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 881,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 373",
+            "width_approx": 1440,
+            "height_approx": 252,
+            "role": "main_content",
+            "components": [
+              "arrow_drop_up",
+              "shopping_cart",
+              "search",
+              "arrow_drop_down",
+              "favorite_border"
+            ],
+            "text_labels": [
+              "Hello Anarda",
+              "CART",
+              "Home",
+              "|",
+              "Feature",
+              "|",
+              "Pricing",
+              "|",
+              "Event details",
+              "|",
+              "Event list",
+              "|",
+              "Register",
+              "|",
+              "Login"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow",
+        "arrowright",
+        "calculator",
+        "calendarblank",
+        "chartline",
+        "check",
+        "clipboardtext",
+        "devicemobile",
+        "gearsix",
+        "hourglassmedium",
+        "micropone off",
+        "newspaperclipping",
+        "numbersquarefive",
+        "numbersquareseven",
+        "pedestrian",
+        "pencilsimple",
+        "property 1=camera on",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand on",
+        "property 1=record",
+        "property 1=share screen",
+        "record",
+        "signout",
+        "square checkbox solid",
+        "style=round",
+        "user",
+        "users"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L18",
+      "name": "Detail Image 9",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "Detail Image 9"
+      ],
+      "screen_ids": [
+        "22:14087"
+      ],
+      "count": 1,
+      "representative_screen": "22:14087",
+      "representative_name": "Detail Image 9",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (666x115), Center main_content (461x112), Center main_content (1440x810)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 203",
+            "width_approx": 461,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "layers"
+            ],
+            "text_labels": [
+              "Video COnference"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Desktop - 9",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Camera On",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Raise Hand On",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "layers",
+        "micropone off",
+        "property 1=camera on",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand on",
+        "property 1=record",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "media",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L19",
+      "name": "Detail Image 10",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium",
+      "screens_using": [
+        "Detail Image 10"
+      ],
+      "screen_ids": [
+        "22:14094"
+      ],
+      "count": 1,
+      "representative_screen": "22:14094",
+      "representative_name": "Detail Image 10",
+      "dimensions": {
+        "width": 1800,
+        "height": 1360
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (666x115), Center main_content (1440x900), Center main_content (347x112)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "80+ Icons in 3 Styles",
+            "width_approx": 666,
+            "height_approx": 115,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "80+ Icons in 3 Styles"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "DASHBOARD",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "NumberSquareSeven",
+              "Users",
+              "SignOut",
+              "GearSix",
+              "Record",
+              "Pedestrian",
+              "CalendarBlank",
+              "ChartLine",
+              "Calculator",
+              "DeviceMobile",
+              "ClipboardText"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Setting",
+              "Log Out",
+              "Overview",
+              "Event Created",
+              "Participant",
+              "Joined Participant Today",
+              "Average Rating",
+              "Upcoming Event",
+              "Devices User by Platform",
+              "Sales",
+              "Event Recording",
+              "Upcoming  Event",
+              "More",
+              "MON"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 203",
+            "width_approx": 347,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "layers"
+            ],
+            "text_labels": [
+              "Dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "calculator",
+        "calendarblank",
+        "chartline",
+        "clipboardtext",
+        "devicemobile",
+        "gearsix",
+        "layers",
+        "numbersquarefive",
+        "numbersquareseven",
+        "pedestrian",
+        "record",
+        "signout",
+        "style=round",
+        "users"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "form",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L20",
+      "name": "Full Preview",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Full Preview"
+      ],
+      "screen_ids": [
+        "19:115565"
+      ],
+      "count": 1,
+      "representative_screen": "19:115565",
+      "representative_name": "Full Preview",
+      "dimensions": {
+        "width": 2112,
+        "height": 5000
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (3449x3188), Center main_content (463x112), Center main_content (1864x1398), Center main_content (1606x1204), Center main_content (1718x1289), Center main_content (1448x748)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Group 78",
+            "width_approx": 3449,
+            "height_approx": 3188,
+            "role": "main_content",
+            "components": [
+              "Style=Round",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Camera Off",
+              "Arrow",
+              "square checkbox solid",
+              "Property 1=Share Screen On",
+              "Micropone Off",
+              "Pedestrian",
+              "Property 1=Opsi",
+              "Users",
+              "NumberSquareFive",
+              "SignOut",
+              "ArrowRight",
+              "Property 1=Raise Hand On",
+              "CalendarBlank",
+              "Property 1=Invite",
+              "ClipboardText",
+              "Property 1=Camera On",
+              "ChartLine"
+            ],
+            "text_labels": [
+              "Confiss",
+              "Company",
+              "Features",
+              "Office",
+              "Pricing",
+              "Confiss is a digital event platform designed to present all types of events from webinars to networking (1:1).",
+              "About",
+              "Contact",
+              "Careers",
+              "Linked in",
+              "Instagram",
+              "Facebook",
+              "Free",
+              "Premium",
+              "Business"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 203",
+            "width_approx": 463,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "UI8.net/purepearl"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "MacBook Air (2022)",
+            "width_approx": 1864,
+            "height_approx": 1398,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "MacBook Air (15 inch)",
+            "width_approx": 1606,
+            "height_approx": 1204,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "MacBook Air (15 inch)",
+            "width_approx": 1718,
+            "height_approx": 1289,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 384",
+            "width_approx": 1448,
+            "height_approx": 748,
+            "role": "main_content",
+            "components": [
+              "arrow_drop_up",
+              "shopping_cart",
+              "search",
+              "web",
+              "arrow_drop_down",
+              "favorite_border"
+            ],
+            "text_labels": [
+              "Hello Anarda",
+              "20 Premium Screen Pages",
+              "Website",
+              "|",
+              "Dashboard",
+              "|",
+              "Video Conference Screen",
+              "Hello Anarda",
+              "Home",
+              "|",
+              "Feature",
+              "|",
+              "Pricing",
+              "|",
+              "Event details"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow",
+        "arrowright",
+        "check",
+        "hourglassmedium",
+        "micropone off",
+        "newspaperclipping",
+        "property 1=camera off",
+        "property 1=camera on",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=raise hand on",
+        "property 1=record",
+        "property 1=record on",
+        "property 1=share screen",
+        "property 1=share screen on",
+        "style=round",
+        "type=01. default, state=on",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L21",
+      "name": "Desktop - 10",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|right:right_panel:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Desktop - 10"
+      ],
+      "screen_ids": [
+        "1:1249"
+      ],
+      "count": 1,
+      "representative_screen": "1:1249",
+      "representative_name": "Desktop - 10",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x810), Center main_content (999x64), Center main_content (236x185), Center main_content (24x24), Right right_panel (347x810), Right right_panel (68x18)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 999,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Raise Hand",
+              "Property 1=Camera On",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 236,
+            "height_approx": 185,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Chander"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 347,
+            "height_approx": 810,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Message...",
+              "Marina Maliutina",
+              "14:32:34",
+              "Jeans",
+              "14:32:34",
+              "Devon Hawkins",
+              "14:32:34",
+              "Chat",
+              "12"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Whom: All",
+            "width_approx": 68,
+            "height_approx": 18,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Whom:    All"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera on",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L22",
+      "name": "Desktop - 6",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:right_panel:medium",
+      "screens_using": [
+        "Desktop - 6"
+      ],
+      "screen_ids": [
+        "1:1551"
+      ],
+      "count": 1,
+      "representative_screen": "1:1551",
+      "representative_name": "Desktop - 6",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x810), Center main_content (999x64), Center main_content (236x185), Center main_content (74x24), Center main_content (24x24), Right right_panel (347x810)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 999,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Camera Off",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 236,
+            "height_approx": 185,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Chander"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 74,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Recording"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 347,
+            "height_approx": 810,
+            "role": "right_panel",
+            "components": [
+              "Property 1=Group 5",
+              "Property 1=Default",
+              "Property 1=Group 7",
+              "Property 1=Group 6"
+            ],
+            "text_labels": [
+              "Message...",
+              "Chat",
+              "Participant 12",
+              "Marina Maliutina (Host)",
+              "Jeans (Me)",
+              "Emil",
+              "Chender",
+              "Hans",
+              "Robert",
+              "Joe",
+              "John Doe",
+              "Adams",
+              "Joseph",
+              "Chris",
+              "Michael Jooana"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat with notification",
+        "property 1=default",
+        "property 1=group 5",
+        "property 1=group 6",
+        "property 1=group 7",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L23",
+      "name": "Dekstop - 4",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|right:right_panel:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Dekstop - 4"
+      ],
+      "screen_ids": [
+        "1:1842"
+      ],
+      "count": 1,
+      "representative_screen": "1:1842",
+      "representative_name": "Dekstop - 4",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x810), Center main_content (1440x810), Center main_content (999x64), Right right_panel (347x810), Right right_panel (68x18)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Recording"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 347,
+            "height_approx": 810,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Message...",
+              "Marina Maliutina (Host)",
+              "14:32:34",
+              "Jeans",
+              "14:32:34",
+              "Devon Hawkins",
+              "14:32:34",
+              "Chat",
+              "12"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Whom: All",
+            "width_approx": 68,
+            "height_approx": 18,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Whom:    All"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 999,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Record On",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat",
+              "Property 1=Camera Off",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record on",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L24",
+      "name": "Desktop - 3",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|right:right_panel:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Desktop - 3"
+      ],
+      "screen_ids": [
+        "1:2051"
+      ],
+      "count": 1,
+      "representative_screen": "1:2051",
+      "representative_name": "Desktop - 3",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x810), Center main_content (999x64), Center main_content (236x185), Center main_content (74x24), Center main_content (24x24), Right right_panel (347x810), Right right_panel (68x18)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 999,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "Property 1=Opsi",
+              "Property 1=Share Screen",
+              "Property 1=Raise Hand",
+              "Property 1=Leave Meeting",
+              "Property 1=Chat with notification",
+              "Property 1=Camera Off",
+              "Property 1=Record",
+              "Property 1=Invite",
+              "Micropone Off"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 236,
+            "height_approx": 185,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Chander"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 74,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Recording"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame",
+            "width_approx": 24,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 347,
+            "height_approx": 810,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Message...",
+              "Marina Maliutina (Host)",
+              "14:32:34",
+              "Jeans",
+              "14:32:34",
+              "Devon Hawkins",
+              "14:32:34",
+              "Chat",
+              "12"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Whom: All",
+            "width_approx": 68,
+            "height_approx": 18,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Whom:    All"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "micropone off",
+        "property 1=camera off",
+        "property 1=chat with notification",
+        "property 1=invite",
+        "property 1=leave meeting",
+        "property 1=opsi",
+        "property 1=raise hand",
+        "property 1=record",
+        "property 1=share screen"
+      ],
+      "capabilities": [
+        "map",
+        "messaging",
+        "notifications",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L25",
+      "name": "DASHBOARD-Rating",
+      "type": "other",
+      "panel_signature": "center:main_content:medium|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "DASHBOARD-Rating"
+      ],
+      "screen_ids": [
+        "1:4104"
+      ],
+      "count": 1,
+      "representative_screen": "1:4104",
+      "representative_name": "DASHBOARD-Rating",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (355x1084), Center main_content (138x37), Center main_content (355x50), Center main_content (200x472), Center main_content (36x484), Center main_content (75x33), Center main_content (1388x1388), Center main_content (907x212), Center main_content (907x212), Center main_content (210x144), Center main_content (667x198), Right right_panel (75x24), Right right_panel (46x46)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 355,
+            "height_approx": 1084,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 355,
+            "height_approx": 50,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 200,
+            "height_approx": 472,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Overview",
+              "Event Created",
+              "Participant",
+              "Joined Participant Today",
+              "Average Rating",
+              "Upcoming Event",
+              "Devices User by Platform",
+              "Sales",
+              "Event Recording"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 36,
+            "height_approx": 484,
+            "role": "main_content",
+            "components": [
+              "NumberSquareFive",
+              "Users",
+              "ClipboardText",
+              "Record",
+              "CalendarBlank",
+              "ChartLine",
+              "Calculator",
+              "DeviceMobile",
+              "Pedestrian"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rating",
+            "width_approx": 75,
+            "height_approx": 33,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Rating"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 907,
+            "height_approx": 212,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Stephanie",
+              "on Lorem Ipsum dolor",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida tortor rhoncus viverra magnis"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 907,
+            "height_approx": 212,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Stephanie",
+              "on Lorem Ipsum dolor",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida tortor rhoncus viverra magnis"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 210,
+            "height_approx": 144,
+            "role": "main_content",
+            "components": [
+              "NumberSquareFive"
+            ],
+            "text_labels": [
+              "3.98 /5",
+              "Average Rating",
+              "3.4 %"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 667,
+            "height_approx": 198,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "5",
+              "289",
+              "4",
+              "320",
+              "3",
+              "27",
+              "2",
+              "9",
+              "1",
+              "3"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "John Doe",
+            "width_approx": 75,
+            "height_approx": 24,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "John Doe"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 46,
+            "height_approx": 46,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "calculator",
+        "calendarblank",
+        "chartline",
+        "clipboardtext",
+        "devicemobile",
+        "numbersquarefive",
+        "pedestrian",
+        "record",
+        "style=round",
+        "users"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "form",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L26",
+      "name": "DASHBOARD-Event created",
+      "type": "other",
+      "panel_signature": "center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:narrow|right:right_panel:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "DASHBOARD-Event created"
+      ],
+      "screen_ids": [
+        "1:4243"
+      ],
+      "count": 1,
+      "representative_screen": "1:4243",
+      "representative_name": "DASHBOARD-Event created",
+      "dimensions": {
+        "width": 1440,
+        "height": 1034
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (355x1084), Center main_content (138x37), Center main_content (62x80), Center main_content (36x92), Center main_content (355x50), Center main_content (200x472), Center main_content (36x484), Center main_content (139x31), Center main_content (1388x1388), Center main_content (954x758), Center main_content (184x33), Right right_panel (194x24), Right right_panel (75x24), Right right_panel (46x46)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 355,
+            "height_approx": 1084,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 62,
+            "height_approx": 80,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Setting",
+              "Log Out"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 36,
+            "height_approx": 92,
+            "role": "main_content",
+            "components": [
+              "SignOut",
+              "GearSix"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 355,
+            "height_approx": 50,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 200,
+            "height_approx": 472,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Overview",
+              "Event Created",
+              "Participant",
+              "Joined Participant Today",
+              "Average Rating",
+              "Upcoming Event",
+              "Devices User by Platform",
+              "Sales",
+              "Event Recording"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 36,
+            "height_approx": 484,
+            "role": "main_content",
+            "components": [
+              "Users",
+              "ClipboardText",
+              "CalendarBlank",
+              "ChartLine",
+              "Calculator",
+              "DeviceMobile",
+              "Pedestrian"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 139,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Vertical",
+            "width_approx": 954,
+            "height_approx": 758,
+            "role": "main_content",
+            "components": [
+              "HourglassMedium"
+            ],
+            "text_labels": [
+              "Webinar",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa neque porttitor scelerisque volutpat tempor.",
+              "Berakhir pada 21 Mei 2021 20:00 WIB"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 194,
+            "height_approx": 24,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Showing Data",
+              "March 2021"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Event Recording",
+            "width_approx": 184,
+            "height_approx": 33,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event Recording"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "John Doe",
+            "width_approx": 75,
+            "height_approx": 24,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "John Doe"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Group",
+            "width_approx": 46,
+            "height_approx": 46,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "calculator",
+        "calendarblank",
+        "chartline",
+        "clipboardtext",
+        "devicemobile",
+        "gearsix",
+        "hourglassmedium",
+        "pedestrian",
+        "signout",
+        "style=round",
+        "users"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "form",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "CO_L27",
+      "name": "CREATE EVENT",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "CREATE EVENT"
+      ],
+      "screen_ids": [
+        "2:1384"
+      ],
+      "count": 1,
+      "representative_screen": "2:1384",
+      "representative_name": "CREATE EVENT",
+      "dimensions": {
+        "width": 1440,
+        "height": 1859
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x5317), Center main_content (1440x900), Center main_content (999x999), Center main_content (999x999), Center main_content (1388x1388), Center main_content (1388x1388), Center main_content (238x24), Center main_content (166x44), Center main_content (806x1516), Center main_content (315x202), Center main_content (315x286), Center main_content (138x37), Right right_panel (132x46)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle 3",
+            "width_approx": 1440,
+            "height_approx": 5317,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 2",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 10",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 10",
+            "width_approx": 999,
+            "height_approx": 999,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 9",
+            "width_approx": 1388,
+            "height_approx": 1388,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1",
+            "width_approx": 238,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Home",
+              "Features",
+              "Pricing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 4",
+            "width_approx": 166,
+            "height_approx": 44,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Create Event"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 134",
+            "width_approx": 806,
+            "height_approx": 1516,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event Image *",
+              "Event Name *",
+              "Lorem ipsum",
+              "Description",
+              "Enter description",
+              "Event Type *",
+              "Webinar",
+              "Conference",
+              "Networking",
+              "Live Class",
+              "Podcast",
+              "Host Name",
+              "Enter host name",
+              "Speaker",
+              "Enter speaker"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 70",
+            "width_approx": 315,
+            "height_approx": 202,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event Information",
+              "Give your event a name and description. Add a photo for your event to atrract attention. Determine the timing of the event starting from the date until the time starts s until it ends."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 70",
+            "width_approx": 315,
+            "height_approx": 286,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Event Type",
+              "Choose the type of ticket four your event, if it’s paid, don’t forget to give the ticket price\nYou can set whether this event is open to the public or only memeberss within the tribe"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Group 77",
+            "width_approx": 132,
+            "height_approx": 46,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "John Doe"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Auto Layout Horizontal",
+            "width_approx": 138,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [
+              "Style=Round"
+            ],
+            "text_labels": [
+              "Confiss"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "style=round"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

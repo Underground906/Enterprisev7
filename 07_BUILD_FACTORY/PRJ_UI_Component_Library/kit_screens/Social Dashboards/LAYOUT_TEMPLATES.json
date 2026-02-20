@@ -1,0 +1,2137 @@
+{
+  "kit": "Social Dashboards",
+  "file_key": "hclnmuRp2VS1UPFmuYfjka",
+  "analyzed_at": "2026-02-19T16:38:08.501052",
+  "unique_layouts": 17,
+  "total_screens": 26,
+  "dedup_ratio": "26 screens -> 17 templates (65%)",
+  "layouts": [
+    {
+      "layout_id": "SO_L1",
+      "name": "Colors",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|left:left_sidebar:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "Colors"
+      ],
+      "screen_ids": [
+        "1:326"
+      ],
+      "count": 1,
+      "representative_screen": "1:326",
+      "representative_name": "Colors",
+      "dimensions": {
+        "width": 2412,
+        "height": 681
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left left_sidebar (58x394), Center main_content (168x560), Center main_content (168x560), Center main_content (168x560), Center main_content (168x560), Center main_content (168x560), Center main_content (168x560), Center main_content (168x560), Right right_panel (168x560)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "1",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Primary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "2",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Secondary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "3",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Dark"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "4",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "White"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "5",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Grey"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "6",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Light Grey"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "7",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Success"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "8",
+            "width_approx": 168,
+            "height_approx": 560,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Error"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "%",
+            "width_approx": 58,
+            "height_approx": 394,
+            "role": "left_sidebar",
+            "components": [],
+            "text_labels": [
+              "100%",
+              "80%",
+              "60%",
+              "40%",
+              "20%"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L2",
+      "name": "06-Stories",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "06-Stories"
+      ],
+      "screen_ids": [
+        "282:3461"
+      ],
+      "count": 1,
+      "representative_screen": "282:3461",
+      "representative_name": "06-Stories",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (1275x1104), Right right_panel (116x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1275,
+            "height_approx": 1104,
+            "role": "main_content",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Modal",
+              "Card"
+            ],
+            "text_labels": [
+              "Edward Ford",
+              "Edward Ford",
+              "Edward Ford",
+              "Edward Ford",
+              "Edward Ford",
+              "Edward Ford",
+              "Edward Ford",
+              "Edward Ford",
+              "Continue Watching",
+              "Live",
+              "Featured",
+              "Popular",
+              "Following",
+              "For You",
+              "Stories"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "Top Icons",
+            "width_approx": 116,
+            "height_approx": 48,
+            "role": "right_panel",
+            "components": [
+              "Profile 3",
+              "Notifications"
+            ],
+            "text_labels": [
+              "1"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3"
+      ],
+      "capabilities": [
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L3",
+      "name": "25-Settings",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:narrow|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "25-Settings"
+      ],
+      "screen_ids": [
+        "389:10312"
+      ],
+      "count": 1,
+      "representative_screen": "389:10312",
+      "representative_name": "25-Settings",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (515x1024), Center main_content (180x58), Center main_content (630x505), Center main_content (538x128), Center main_content (217x30)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Right",
+            "width_approx": 515,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Profile 3",
+              "Button",
+              "Modal",
+              "Notifications"
+            ],
+            "text_labels": [
+              "My Account",
+              "Notifications",
+              "Activity History",
+              "Billing and Payment",
+              "Security & Privacy",
+              "Help",
+              "Settings",
+              "1",
+              "1"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button/Full-Widith",
+            "width_approx": 180,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Save Changes"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 630,
+            "height_approx": 505,
+            "role": "main_content",
+            "components": [
+              "Components"
+            ],
+            "text_labels": [
+              "California",
+              "state",
+              "United States",
+              "Country",
+              "San Francisco",
+              "City",
+              "Basic Information",
+              "annecarry",
+              "username",
+              "January 25, 1991",
+              "birthday",
+              "anne.carry@mail.com",
+              "Email",
+              "Anne Carry",
+              "name"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Profile Picture",
+            "width_approx": 538,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [
+              "Profile 3",
+              "Button"
+            ],
+            "text_labels": [
+              "Profile Picture",
+              "Replace",
+              "Delete"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Account Informations",
+            "width_approx": 217,
+            "height_approx": 30,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Account Informations"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "components",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "form",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L4",
+      "name": "24-My-Profile",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "24-My-Profile",
+        "22-Gallery"
+      ],
+      "screen_ids": [
+        "384:3483",
+        "384:2386"
+      ],
+      "count": 2,
+      "representative_screen": "384:3483",
+      "representative_name": "24-My-Profile",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (760x1172), Center main_content (382x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 760,
+            "height_approx": 1172,
+            "role": "main_content",
+            "components": [
+              "See More Button",
+              "Icon",
+              "Card",
+              "Video-Player"
+            ],
+            "text_labels": [
+              "Photos",
+              "Videos",
+              "Share",
+              "148",
+              "326",
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "Share",
+              "148",
+              "326",
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "Filters"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Right",
+            "width_approx": 382,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Profile 4",
+              "Modal",
+              "Profile 15",
+              "Profile 5",
+              "Profile 10",
+              "Profile 7",
+              "Profile 6",
+              "Profile 12",
+              "Profile 13",
+              "Profile 9",
+              "Profile 16",
+              "Button",
+              "Notifications",
+              "Profile 8",
+              "Profile 11",
+              "Profile 3",
+              "Profile 17",
+              "Profile 14"
+            ],
+            "text_labels": [
+              "1",
+              "Friends",
+              "Travel, Adventure & Lifestyle\nPhotographer & Digital Influencer\nNikon Ambassador\nLet's Work:\ned.ford@mail.com",
+              "About",
+              "Edit Profile",
+              "518",
+              "Posts",
+              "22k",
+              "Friends",
+              "Edward Ford",
+              "@edwardford"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 10",
+        "profile 11",
+        "profile 12",
+        "profile 13",
+        "profile 14",
+        "profile 15",
+        "profile 16",
+        "profile 17",
+        "profile 3",
+        "profile 4",
+        "profile 5",
+        "profile 6",
+        "profile 7",
+        "profile 8",
+        "profile 9",
+        "see more button",
+        "video-player"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L5",
+      "name": "18-Video-Chat",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "18-Video-Chat"
+      ],
+      "screen_ids": [
+        "355:9376"
+      ],
+      "count": 1,
+      "representative_screen": "355:9376",
+      "representative_name": "18-Video-Chat",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (915x1024), Center main_content (450x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 915,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Audio",
+              "Phone",
+              "Camera",
+              "Modal"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 450,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Message",
+              "Icon",
+              "Button",
+              "Notifications",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "Start typing…",
+              "0:06",
+              "4min",
+              "Anne Carry",
+              "0:06",
+              "4min",
+              "Anne Carry",
+              "Yes, I saw his post yesterday",
+              "4min",
+              "Marriet Miles",
+              "Yes, I saw his post yesterday",
+              "4min",
+              "Marriet Miles",
+              "Yes, I saw his post yesterday",
+              "4min"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "audio",
+        "button",
+        "camera",
+        "icon",
+        "message",
+        "modal",
+        "navigation",
+        "notifications",
+        "phone",
+        "profile 3"
+      ],
+      "capabilities": [
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L6",
+      "name": "12-Single-Event",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "12-Single-Event"
+      ],
+      "screen_ids": [
+        "324:5566"
+      ],
+      "count": 1,
+      "representative_screen": "324:5566",
+      "representative_name": "12-Single-Event",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (1275x1024), Center main_content (450x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1275,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Chip-Small",
+              "Currency",
+              "Chip-Icon",
+              "Icon",
+              "Day",
+              "Button",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "Car",
+              "Los Angeles",
+              "Exhibition",
+              "Auto",
+              "DUB",
+              "Show",
+              "For evidence of the double standard, we need look no farther than Arlington, Oregon, where Mayor Carmen Kontur-Gronquist was recalled in a 142-139 vote after the town’s denizens discovered that the mayor’s MySpace page featured photos of her in lingerie. Although Kontur-Gronquist is alleging election fraud and challenging the returns, and even though the mayoral position was unpaid, no one is arguing that her MySpace page did her in.",
+              "Event Description",
+              "From 9:00am to 6:00pm",
+              "12 December, 2019",
+              "+30% Taxes",
+              "$60 - $90",
+              "2019 DUB Show at Los Angeles Auto Show",
+              "Share",
+              "Interested"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 450,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "User",
+              "Modal",
+              "Directions",
+              "Day",
+              "Notifications",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "Friends Interested",
+              "189 The Grove Dr",
+              "Los Angeles, CA",
+              "Address",
+              "Directions",
+              "1"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "chip-icon",
+        "chip-small",
+        "currency",
+        "day",
+        "directions",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3",
+        "user"
+      ],
+      "capabilities": [
+        "calendar",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L7",
+      "name": "09-Single-Video",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "09-Single-Video",
+        "08-Single-Post"
+      ],
+      "screen_ids": [
+        "316:5830",
+        "316:4339"
+      ],
+      "count": 2,
+      "representative_screen": "316:5830",
+      "representative_name": "09-Single-Video",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (1275x1024), Center main_content (450x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1275,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Chip-Small",
+              "Icon",
+              "Video-Player",
+              "Button",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "Related Videos",
+              "Travel",
+              "Mexico",
+              "Vlog",
+              "Tips",
+              "Vacation",
+              "Cancun",
+              "Cancun is back, better than ever! Over a hundred Mexico resorts have reopened and the state tourism minister predicts Cancun will draw as many visitors in 2006 as it did two years ago. And the travel deals are great! If you haven’t been, now may be the best time to take a vacation to Cancun.",
+              "Tropical Fresh Tourism Is Back In Full Swing\nIn Cancun Mexico",
+              "Share",
+              "148",
+              "326",
+              "Katherine Cole",
+              "5min ago",
+              "05:46"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 450,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Notifications",
+              "Profile 3",
+              "Comment Box",
+              "Comment"
+            ],
+            "text_labels": [
+              "Write a comment…",
+              "Awesome Edward, remeber that five tips for low cost holidays I sent you?",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost holidays I sent you?",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost holidays I sent you?",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost",
+              "20min ago"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "chip-small",
+        "comment",
+        "comment box",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3",
+        "video-player"
+      ],
+      "capabilities": [
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L8",
+      "name": "07-Single-Storie",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "07-Single-Storie"
+      ],
+      "screen_ids": [
+        "282:3877"
+      ],
+      "count": 1,
+      "representative_screen": "282:3877",
+      "representative_name": "07-Single-Storie",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (1275x1024), Center main_content (420x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1275,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Avatar",
+              "Modal",
+              "Icon",
+              "Back Button",
+              "Comment Box"
+            ],
+            "text_labels": [
+              "Write a comment…",
+              "Sara Scholz",
+              "Back"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 420,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Profile 3",
+              "User",
+              "Modal",
+              "Notifications"
+            ],
+            "text_labels": [
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "Next Stories",
+              "1"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "back button",
+        "comment box",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3",
+        "user"
+      ],
+      "capabilities": [
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L9",
+      "name": "23-Single-Photo",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "23-Single-Photo"
+      ],
+      "screen_ids": [
+        "384:2869"
+      ],
+      "count": 1,
+      "representative_screen": "384:2869",
+      "representative_name": "23-Single-Photo",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (1280x1024), Center main_content (665x742), Center main_content (450x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Modal/Desktop/Dark",
+            "width_approx": 1280,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 665,
+            "height_approx": 742,
+            "role": "main_content",
+            "components": [
+              "Profile 3",
+              "Button"
+            ],
+            "text_labels": [
+              "Edward Ford",
+              "Back"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 450,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Notifications",
+              "Profile 3",
+              "Comment Box",
+              "Comment"
+            ],
+            "text_labels": [
+              "Write a comment…",
+              "Awesome Edward, remeber that five tips for low cost holidays I sent you?",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost holidays I sent you?",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost holidays I sent you?",
+              "20min ago",
+              "Billy Green",
+              "Awesome Edward, remeber that five tips for low cost",
+              "20min ago"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "comment",
+        "comment box",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3"
+      ],
+      "capabilities": [
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L10",
+      "name": "21-User-Profile",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "21-User-Profile"
+      ],
+      "screen_ids": [
+        "384:0"
+      ],
+      "count": 1,
+      "representative_screen": "384:0",
+      "representative_name": "21-User-Profile",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (345x944), Center main_content (800x1274)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 345,
+            "height_approx": 944,
+            "role": "main_content",
+            "components": [
+              "Profile 4",
+              "Profile 5",
+              "Profile 10",
+              "Profile 7",
+              "Profile 6",
+              "Profile 12",
+              "Profile 13",
+              "Profile 9",
+              "Profile 16",
+              "Button",
+              "Profile 11",
+              "Profile 8",
+              "Profile 15",
+              "Profile 3",
+              "Profile 17",
+              "Profile 14"
+            ],
+            "text_labels": [
+              "Friends",
+              "Travel, Adventure & Lifestyle\nPhotographer & Digital Influencer\nNikon Ambassador\nLet's Work:\ned.ford@mail.com",
+              "About",
+              "Freinds",
+              "518",
+              "Posts",
+              "22k",
+              "Friends",
+              "Edward Ford",
+              "@edwardford",
+              "Back"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Right",
+            "width_approx": 800,
+            "height_approx": 1274,
+            "role": "main_content",
+            "components": [
+              "Navigation",
+              "Modal",
+              "Card",
+              "Notifications",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.\nwarm and sunny California.warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.\nwarm and sunny California.warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "1",
+              "Continue Watching",
+              "Live"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 10",
+        "profile 11",
+        "profile 12",
+        "profile 13",
+        "profile 14",
+        "profile 15",
+        "profile 16",
+        "profile 17",
+        "profile 3",
+        "profile 4",
+        "profile 5",
+        "profile 6",
+        "profile 7",
+        "profile 8",
+        "profile 9"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L11",
+      "name": "20-My-Friends",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "20-My-Friends",
+        "11-Events",
+        "05-Home-v02"
+      ],
+      "screen_ids": [
+        "377:8351",
+        "316:7534",
+        "266:2721"
+      ],
+      "count": 3,
+      "representative_screen": "377:8351",
+      "representative_name": "20-My-Friends",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (420x1024), Center main_content (760x944)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 420,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Profile 3",
+              "User",
+              "Modal",
+              "Notifications"
+            ],
+            "text_labels": [
+              "Who to Follow",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 760,
+            "height_approx": 944,
+            "role": "main_content",
+            "components": [
+              "User",
+              "Icon"
+            ],
+            "text_labels": [
+              "@BillyGreen",
+              "Billy Green",
+              "Freinds",
+              "@BillyGreen",
+              "Billy Green",
+              "Freinds",
+              "@BillyGreen",
+              "Billy Green",
+              "Freinds",
+              "@BillyGreen",
+              "Billy Green",
+              "Freinds",
+              "@BillyGreen",
+              "Billy Green",
+              "Freinds"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "card",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 1",
+        "profile 3",
+        "share",
+        "user"
+      ],
+      "capabilities": [
+        "calendar",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L12",
+      "name": "14-Drop-Down",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "15-Notifications",
+        "14-Drop-Down",
+        "04-Home-v01"
+      ],
+      "screen_ids": [
+        "335:6858",
+        "324:8072",
+        "253:2068"
+      ],
+      "count": 3,
+      "representative_screen": "324:8072",
+      "representative_name": "14-Drop-Down",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (420x1024), Center main_content (760x1140)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 420,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "User",
+              "Modal",
+              "See More Button",
+              "Icon",
+              "Notifications",
+              "Switcher",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "See more",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Who to Follow",
+              "Friends",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "Go Premium!",
+              "See more",
+              "Try premium membership and enjoy\na full experience of our community."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 760,
+            "height_approx": 1140,
+            "role": "main_content",
+            "components": [
+              "Avatar",
+              "Card",
+              "See More Button",
+              "Icon",
+              "Button",
+              "Profile 3",
+              "Profile 1"
+            ],
+            "text_labels": [
+              "Share",
+              "148",
+              "326",
+              "Whether its a driving tour, a cruise or a bus, leaf viewing is a great way to spend a fall vacation 😂",
+              "Share",
+              "What are you thinking?",
+              "Featured Stories",
+              "See more",
+              "Filters",
+              "Search in social…"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "button",
+        "card",
+        "icon",
+        "modal",
+        "navigation",
+        "notification",
+        "notifications",
+        "profile 1",
+        "profile 3",
+        "see more button",
+        "switcher",
+        "user"
+      ],
+      "capabilities": [
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L13",
+      "name": "17-Direct-Message",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "19-Group-Message",
+        "17-Direct-Message",
+        "16-Messages"
+      ],
+      "screen_ids": [
+        "361:8039",
+        "352:7465",
+        "350:7261"
+      ],
+      "count": 3,
+      "representative_screen": "352:7465",
+      "representative_name": "17-Direct-Message",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (390x664), Center main_content (358x106), Center main_content (358x58), Center main_content (800x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Messages",
+            "width_approx": 390,
+            "height_approx": 664,
+            "role": "main_content",
+            "components": [
+              "Message"
+            ],
+            "text_labels": [
+              "1",
+              "3:03pm",
+              "Thank you for sharing",
+              "Billy Green",
+              "1",
+              "3:03pm",
+              "Thank you for sharing",
+              "Billy Green",
+              "1",
+              "3:03pm",
+              "Thank you for sharing",
+              "Billy Green",
+              "1",
+              "Yesterday",
+              "Thank you for sharing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Title",
+            "width_approx": 358,
+            "height_approx": 106,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Inbox",
+              "Archived",
+              "Group Chat",
+              "Direct Messages"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 358,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Button"
+            ],
+            "text_labels": [
+              "Search in social…"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Chat",
+            "width_approx": 800,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Message",
+              "Icon",
+              "Button",
+              "Notifications",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "Start typing…",
+              "0:06",
+              "4min",
+              "Anne Carry",
+              "0:06",
+              "4min",
+              "Anne Carry",
+              "Yes, I saw his post yesterday",
+              "4min",
+              "Marriet Miles",
+              "Yes, I saw his post yesterday",
+              "4min",
+              "Marriet Miles",
+              "Yes, I saw his post yesterday",
+              "4min"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icon",
+        "message",
+        "modal",
+        "more",
+        "navigation",
+        "notifications",
+        "profile 3"
+      ],
+      "capabilities": [
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L14",
+      "name": "13-Search-Results",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "13-Search-Results"
+      ],
+      "screen_ids": [
+        "324:6439"
+      ],
+      "count": 1,
+      "representative_screen": "324:6439",
+      "representative_name": "13-Search-Results",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (420x1024), Center main_content (365x522), Center main_content (365x398), Center main_content (57x30), Center main_content (69x30), Center main_content (365x108), Center main_content (365x108), Center main_content (365x108), Center main_content (365x108), Center main_content (97x30), Center main_content (760x58)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Side",
+            "width_approx": 420,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "User",
+              "Modal",
+              "See More Button",
+              "Icon",
+              "Notifications",
+              "Profile 3"
+            ],
+            "text_labels": [
+              "See more",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Los Angeles, CA",
+              "Cammy Hedling",
+              "Who to Follow",
+              "Friends",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "MadeInAmerica",
+              "Go Premium!",
+              "See more",
+              "Try premium membership and enjoy\na full experience of our community."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card/Dekstop 7",
+            "width_approx": 365,
+            "height_approx": 522,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Card"
+            ],
+            "text_labels": [
+              "Share",
+              "148",
+              "326",
+              "Read More",
+              "If you are looking for a break from the cold, take a cue from Lizzo: This week, the singer headed to Disneyland in warm and sunny California.",
+              "The Best Fashion Instagrams of the Week: Céline Dion, Lizzo, and More",
+              "5min ago",
+              "Katherine Cole"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Card/Dekstop 3",
+            "width_approx": 365,
+            "height_approx": 398,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Card"
+            ],
+            "text_labels": [
+              "Share",
+              "148",
+              "326",
+              "17",
+              "Whether its a driving tour 😂",
+              "5min ago",
+              "Dustin Houston"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Posts",
+            "width_approx": 57,
+            "height_approx": 30,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Posts"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "People",
+            "width_approx": 69,
+            "height_approx": 30,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "People"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "User/04",
+            "width_approx": 365,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Chip-Icon",
+              "Profile 3",
+              "User"
+            ],
+            "text_labels": [
+              "Add",
+              "Logan Nasser",
+              "@louisaingram"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "User/04",
+            "width_approx": 365,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Chip-Icon",
+              "Profile 3",
+              "User"
+            ],
+            "text_labels": [
+              "Add",
+              "Logan Nasser",
+              "@louisaingram"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "User/04",
+            "width_approx": 365,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Chip-Icon",
+              "Profile 3",
+              "User"
+            ],
+            "text_labels": [
+              "Add",
+              "Logan Nasser",
+              "@louisaingram"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "User/04",
+            "width_approx": 365,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [
+              "Chip-Icon",
+              "Profile 3",
+              "User"
+            ],
+            "text_labels": [
+              "Add",
+              "Logan Nasser",
+              "@louisaingram"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "See More Button",
+            "width_approx": 97,
+            "height_approx": 30,
+            "role": "main_content",
+            "components": [
+              "See More Button",
+              "Icon"
+            ],
+            "text_labels": [
+              "See more"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Search",
+            "width_approx": 760,
+            "height_approx": 58,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Notifications"
+            ],
+            "text_labels": [
+              "Filters",
+              "1",
+              "Nass"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "card",
+        "icon",
+        "modal",
+        "navigation",
+        "notifications",
+        "profile 3",
+        "see more button",
+        "user"
+      ],
+      "capabilities": [
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L15",
+      "name": "10-Video-Full-Screen",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "10-Video-Full-Screen"
+      ],
+      "screen_ids": [
+        "316:7135"
+      ],
+      "count": 1,
+      "representative_screen": "316:7135",
+      "representative_name": "10-Video-Full-Screen",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (165x1024), Center main_content (1270x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1270,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Modal",
+              "Likes",
+              "Icon",
+              "Share",
+              "Profile 3",
+              "Comment"
+            ],
+            "text_labels": [
+              "05:46",
+              "01:23",
+              "Tropical Fresh Tourism Is Back In Full Swing\nIn Cancun Mexico",
+              "Edward Ford",
+              "5min ago"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Navigation/Web/Sidebar",
+            "width_approx": 165,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation",
+              "Icon",
+              "Logo"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "comment",
+        "icon",
+        "likes",
+        "modal",
+        "navigation",
+        "profile 3",
+        "share"
+      ],
+      "capabilities": [
+        "navigation",
+        "profile",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "SO_L16",
+      "name": "02-Signup",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "03-Password-Recovery",
+        "02-Signup"
+      ],
+      "screen_ids": [
+        "251:2047",
+        "248:0"
+      ],
+      "count": 2,
+      "representative_screen": "248:0",
+      "representative_name": "02-Signup",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (830x1024), Center main_content (655x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Left",
+            "width_approx": 830,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Hello!",
+              "Already have an account?",
+              "Login"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar",
+            "width_approx": 655,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Logo",
+              "Modal",
+              "Components",
+              "Icon",
+              "Button",
+              "Apple"
+            ],
+            "text_labels": [
+              "Connect with Google+",
+              "Connect with Apple",
+              "Or connect with socials",
+              "Create an account",
+              "● ● ● ● ● ●",
+              "Password",
+              "anne.carry@mail.com",
+              "email",
+              "Anne Carry",
+              "name",
+              "Create an account",
+              "Sign up to continue"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "apple",
+        "button",
+        "components",
+        "icon",
+        "logo",
+        "modal"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "SO_L17",
+      "name": "01-Login",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "01-Login"
+      ],
+      "screen_ids": [
+        "214:59"
+      ],
+      "count": 1,
+      "representative_screen": "214:59",
+      "representative_name": "01-Login",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (830x1024), Center main_content (655x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Left",
+            "width_approx": 830,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Hello!",
+              "Don’t have an account yer?",
+              "Create an account"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar",
+            "width_approx": 655,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Logo",
+              "Modal",
+              "Components",
+              "Icon",
+              "Field 2",
+              "Button",
+              "Apple"
+            ],
+            "text_labels": [
+              "Connect with Google+",
+              "Connect with Apple",
+              "Connect with Facebook",
+              "Or connect with socials",
+              "Login",
+              "Forgot Password?",
+              "Welcome Back!",
+              "Sign in to continue",
+              "● ● ● ● ● ●",
+              "Password",
+              "anne.carry@mail.com",
+              "Email"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "apple",
+        "button",
+        "components",
+        "field 2",
+        "icon",
+        "logo",
+        "modal"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    }
+  ]
+}

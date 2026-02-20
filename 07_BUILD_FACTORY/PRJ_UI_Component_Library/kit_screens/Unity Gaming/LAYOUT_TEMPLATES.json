@@ -1,0 +1,4089 @@
+{
+  "kit": "Unity Gaming",
+  "file_key": "sSCteJZwatQ7GmKv3reBHu",
+  "analyzed_at": "2026-02-19T18:50:19.408210",
+  "unique_layouts": 22,
+  "total_screens": 23,
+  "dedup_ratio": "23 screens -> 22 templates (96%)",
+  "layouts": [
+    {
+      "layout_id": "UN_L1",
+      "name": "Unity Gaming",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "Unity Gaming"
+      ],
+      "screen_ids": [
+        "50:1817"
+      ],
+      "count": 1,
+      "representative_screen": "50:1817",
+      "representative_name": "Unity Gaming",
+      "dimensions": {
+        "width": 1208,
+        "height": 840
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (456x1674), Center main_content (1208x840)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "External Symbols",
+            "width_approx": 456,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "thumbnail",
+            "width_approx": 1208,
+            "height_approx": 840,
+            "role": "main_content",
+            "components": [
+              "ui icon 16px",
+              "🍎Icon",
+              "menu-item-1 copy 3",
+              "nav",
+              "Avatar",
+              "menu-item-1 copy 2",
+              "Channel Profile + Info",
+              "tool-tip button",
+              "menu-item-1 copy",
+              "search box",
+              "32 copy",
+              "Video More Info Box",
+              "logo",
+              "menu-item-1",
+              "toogle - purchase",
+              "Tag Video List",
+              "32 copy 2",
+              "32",
+              "Gaming-Large-Comps",
+              "circle button"
+            ],
+            "text_labels": [
+              "Season II",
+              "Live Streaming Platform for Gamers UI Kit",
+              "From Channels You Follow",
+              "Live channels",
+              "Recommended Videos",
+              "Popular Categories"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "32 copy 3",
+        "64",
+        "64 copy",
+        "avatar",
+        "burger icon 2",
+        "channel profile + info",
+        "circle button",
+        "gaming-large-comps",
+        "live chat room",
+        "live-icon",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "search box",
+        "tag video list",
+        "toogle - purchase",
+        "tool-tip button",
+        "ui icon",
+        "ui icon 16px",
+        "video more info box",
+        "🍎icon"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L2",
+      "name": "🎮 8 - Settings - Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "🎮 8 - Settings - Desktop"
+      ],
+      "screen_ids": [
+        "0:1587"
+      ],
+      "count": 1,
+      "representative_screen": "0:1587",
+      "representative_name": "🎮 8 - Settings - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1521
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1521), Center main_content (628x1020)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 1521,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "🍱Medium-Comp/Setting/Profile",
+            "width_approx": 628,
+            "height_approx": 1020,
+            "role": "main_content",
+            "components": [
+              "title",
+              "🍱Medium-Comp",
+              "circle button",
+              "Avatar",
+              "button"
+            ],
+            "text_labels": [
+              "Account Settings",
+              "Your Profile",
+              "Password",
+              "Channels",
+              "Apps",
+              "Data Export",
+              "Your Avatar",
+              "Your Full Name",
+              "Tran Mau Tri Tam",
+              "Location",
+              "Sai Gon City, Vietnam",
+              "Role",
+              "Sai Gon City, Vietnam",
+              "Role",
+              "Lead Visual Designer"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "🍱medium-comp"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "map",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L3",
+      "name": "13-1 - Sign In - Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "13-1 - Sign In - Desktop"
+      ],
+      "screen_ids": [
+        "0:2679"
+      ],
+      "count": 1,
+      "representative_screen": "0:2679",
+      "representative_name": "13-1 - Sign In - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1024), Center main_content (464x680), Center main_content (282x578)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "full bg",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Sign In/Login Form",
+            "width_approx": 464,
+            "height_approx": 680,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "Sign In"
+            ],
+            "text_labels": [
+              "Sign in",
+              "New user?",
+              "Create an account"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Login Left Content with toggle",
+            "width_approx": 282,
+            "height_approx": 578,
+            "role": "main_content",
+            "components": [
+              "Login Left Content",
+              "Iconly",
+              "Login Left Content with toggle",
+              "Toggle - Dark"
+            ],
+            "text_labels": [
+              "A Video Gaming Platfrom UI Kit",
+              "Discover more"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "login left content with toggle",
+        "sign in"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "media",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L4",
+      "name": "13-2 - Sign Up - Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "13-2 - Sign Up - Desktop"
+      ],
+      "screen_ids": [
+        "0:2686"
+      ],
+      "count": 1,
+      "representative_screen": "0:2686",
+      "representative_name": "13-2 - Sign Up - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1024), Center main_content (464x800), Center main_content (282x578)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "full bg",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Sign up",
+            "width_approx": 464,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [
+              "Sign In",
+              "Sign up",
+              "🍱Medium-Comp",
+              "circle button",
+              "button"
+            ],
+            "text_labels": [
+              "Sign up",
+              "First name",
+              "Last name",
+              "Password",
+              "Email Address",
+              "Continue",
+              "Already a user",
+              "Login now"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Login Left Content with toggle",
+            "width_approx": 282,
+            "height_approx": 578,
+            "role": "main_content",
+            "components": [
+              "Login Left Content",
+              "Iconly",
+              "Login Left Content with toggle",
+              "Toggle - Dark"
+            ],
+            "text_labels": [
+              "A Video Gaming Platfrom UI Kit",
+              "Discover more"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "login left content with toggle",
+        "sign up"
+      ],
+      "capabilities": [
+        "authentication",
+        "map",
+        "media",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L5",
+      "name": "Color Palette 1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Color Palette 1"
+      ],
+      "screen_ids": [
+        "0:3812"
+      ],
+      "count": 1,
+      "representative_screen": "0:3812",
+      "representative_name": "Color Palette 1",
+      "dimensions": {
+        "width": 1440,
+        "height": 1498
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (218x308), Center main_content (218x528), Center main_content (218x506), Center main_content (218x176), Center main_content (218x308), Center main_content (95x32), Center main_content (131x32), Center main_content (115x32), Center main_content (121x32)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Stacked Group",
+            "width_approx": 218,
+            "height_approx": 308,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Opacity",
+              "Shades",
+              "Main"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 218,
+            "height_approx": 528,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Opacity",
+              "Shades",
+              "Main",
+              "Dark - Grey"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Stacked Group Copy 3",
+            "width_approx": 218,
+            "height_approx": 506,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Opacity",
+              "Shades",
+              "Main"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Stacked Group Copy",
+            "width_approx": 218,
+            "height_approx": 176,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Opacity",
+              "Shades",
+              "Main"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Stacked Group Copy 2",
+            "width_approx": 218,
+            "height_approx": 308,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Opacity",
+              "Shades",
+              "Main"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Primary",
+            "width_approx": 95,
+            "height_approx": 32,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Primary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Secondary",
+            "width_approx": 131,
+            "height_approx": 32,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Secondary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Accent 01",
+            "width_approx": 115,
+            "height_approx": 32,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Accent 01"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Accent 02",
+            "width_approx": 121,
+            "height_approx": 32,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Accent 02"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L6",
+      "name": "Grid System - Desktop - 1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Grid System - Desktop - 1"
+      ],
+      "screen_ids": [
+        "0:4585"
+      ],
+      "count": 1,
+      "representative_screen": "0:4585",
+      "representative_name": "Grid System - Desktop - 1",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1441x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "40",
+              "64",
+              "32"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "40",
+        "64"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L7",
+      "name": "Grid System - Desktop - 2",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Grid System - Desktop - 2"
+      ],
+      "screen_ids": [
+        "0:4594"
+      ],
+      "count": 1,
+      "representative_screen": "0:4594",
+      "representative_name": "Grid System - Desktop - 2",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "64 copy",
+              "64",
+              "32"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "32",
+              "64",
+              "64",
+              "96"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "64",
+        "64 copy"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L8",
+      "name": "🎮 9-Channel Profile-Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "1-New Feed-Desktop",
+        "🎮 9-Channel Profile-Desktop"
+      ],
+      "screen_ids": [
+        "0:3",
+        "0:1666"
+      ],
+      "count": 2,
+      "representative_screen": "0:1666",
+      "representative_name": "🎮 9-Channel Profile-Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 3167
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (256x3167), Center main_content (1184x112), Center main_content (1058x1030), Center main_content (1120x690), Center main_content (1056x501), Center main_content (1184x602), Center main_content (1441x2876)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Tag Video List",
+            "width_approx": 1058,
+            "height_approx": 1030,
+            "role": "main_content",
+            "components": [
+              "Tag Video List",
+              "Gaming-Medium-Comps",
+              "cursor-pointer",
+              "dropdown",
+              "Gaming-Small-Comps",
+              "tag title",
+              "button"
+            ],
+            "text_labels": [
+              "Videos",
+              "About",
+              "Stories",
+              "Schedules",
+              "Load More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Featured Video",
+            "width_approx": 1120,
+            "height_approx": 690,
+            "role": "main_content",
+            "components": [
+              "Featured Video",
+              "Gaming-Large-Comps"
+            ],
+            "text_labels": [
+              "Featured Videos"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Channels Copy",
+            "width_approx": 1056,
+            "height_approx": 501,
+            "role": "main_content",
+            "components": [
+              "live-card-1",
+              "live-card-3",
+              "Gaming-Large-Comps",
+              "live-card-2",
+              "live-card-4"
+            ],
+            "text_labels": [
+              "Related Videos",
+              "Most Recent"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Channel Profile Header",
+            "width_approx": 1184,
+            "height_approx": 602,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "Channel Profile Header",
+              "circle button",
+              "thumbs",
+              "button",
+              "Channel Profile"
+            ],
+            "text_labels": [
+              "Message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 3167,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "channel profile header",
+        "featured video",
+        "gaming-large-comps",
+        "horizontal nav 1",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "tag video list",
+        "toogle - purchase"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L9",
+      "name": "10-Browse",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "10-Browse"
+      ],
+      "screen_ids": [
+        "0:1832"
+      ],
+      "count": 1,
+      "representative_screen": "0:1832",
+      "representative_name": "10-Browse",
+      "dimensions": {
+        "width": 1440,
+        "height": 2826
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (256x2826), Center main_content (1055x300), Center main_content (1184x112), Center main_content (1056x501), Center main_content (1057x748), Center main_content (1056x96), Center main_content (1056x584), Center main_content (174x72), Center main_content (1055x80), Center main_content (1441x2876), Center main_content (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Stories",
+            "width_approx": 1055,
+            "height_approx": 300,
+            "role": "main_content",
+            "components": [
+              "Channel Story",
+              "Gaming-Large-Comps"
+            ],
+            "text_labels": [
+              "From Channels You Follow"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Channels Copy",
+            "width_approx": 1056,
+            "height_approx": 501,
+            "role": "main_content",
+            "components": [
+              "live-card-1",
+              "live-card-3",
+              "Gaming-Large-Comps",
+              "live-card-2",
+              "live-card-4"
+            ],
+            "text_labels": [
+              "Recommended Videos",
+              "Most Recent"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Category",
+            "width_approx": 1057,
+            "height_approx": 748,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "Gaming-Medium-Comps",
+              "Gaming-Small-Comps"
+            ],
+            "text_labels": [
+              "Your search results",
+              "Fortnite",
+              "Shooter",
+              "Follow",
+              "Call of Duty",
+              "Shooter",
+              "Follow",
+              "Call of Duty",
+              "Shooter",
+              "Follow",
+              "Follow",
+              "League of Legends®"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Group",
+            "width_approx": 1056,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [
+              "Tag"
+            ],
+            "text_labels": [
+              "2.8K viewers",
+              "2.8K viewers",
+              "2.8K viewers",
+              "2.8K viewers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Recommended for you",
+            "width_approx": 1056,
+            "height_approx": 584,
+            "role": "main_content",
+            "components": [
+              "category-card copy 3",
+              "category-card copy",
+              "Gaming-Large-Comps",
+              "category-card copy 2",
+              "category-card"
+            ],
+            "text_labels": [
+              "Fortnite",
+              "Follow",
+              "Shooter",
+              "Recommended for you",
+              "Popular",
+              "Fortnite",
+              "Follow",
+              "Shooter",
+              "Fortnite",
+              "Discover Now",
+              "Shooter",
+              "Fortnite",
+              "Follow",
+              "Shooter"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Browse",
+            "width_approx": 174,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Browse"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "full search box",
+            "width_approx": 1055,
+            "height_approx": 80,
+            "role": "main_content",
+            "components": [
+              "button",
+              "Iconly",
+              "full search box"
+            ],
+            "text_labels": [
+              "Search"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "main_content",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 2826,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "category-card",
+        "category-card copy",
+        "category-card copy 2",
+        "category-card copy 3",
+        "cursor-pointer",
+        "full search box",
+        "gaming-large-comps",
+        "horizontal nav 1",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "tag",
+        "toogle - purchase"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L10",
+      "name": "🎮 11 - Video - Single - Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "🎮 11 - Video - Single - Desktop"
+      ],
+      "screen_ids": [
+        "0:2451"
+      ],
+      "count": 1,
+      "representative_screen": "0:2451",
+      "representative_name": "🎮 11 - Video - Single - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2925
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (96x2925), Center main_content (809x860), Center main_content (1344x112), Center main_content (810x341), Center main_content (810x1418), Center main_content (62x20), Center main_content (1345x2876), Center main_content (375x344), Center main_content (375x520), Center main_content (375x827), Center main_content (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Matches/Left Video Detail",
+            "width_approx": 809,
+            "height_approx": 860,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "Action Buttons",
+              "Video"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 2",
+            "width_approx": 1344,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 2"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Channel Profile + Info",
+            "width_approx": 810,
+            "height_approx": 341,
+            "role": "main_content",
+            "components": [
+              "Channel Profile + Info",
+              "Tag",
+              "Channel Profile"
+            ],
+            "text_labels": [
+              "Message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Recent Comments",
+            "width_approx": 810,
+            "height_approx": 1418,
+            "role": "main_content",
+            "components": [
+              "Recent Comments",
+              "Gaming-Large-Comps",
+              "button ",
+              "comment"
+            ],
+            "text_labels": [
+              "Comments",
+              "Now",
+              "Load More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Season II",
+            "width_approx": 62,
+            "height_approx": 20,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Season II"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1345,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "32 copy 3",
+              "64",
+              "32 copy 4"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "32",
+              "32",
+              "64",
+              "64"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video More Info Box",
+            "width_approx": 375,
+            "height_approx": 344,
+            "role": "main_content",
+            "components": [
+              "li 5",
+              "li 2",
+              "Video More Info Box",
+              "li 3",
+              "li 1",
+              "li 4"
+            ],
+            "text_labels": [
+              "If Looks Could Kill",
+              "Song",
+              "Alan Walker",
+              "Artist",
+              "League of Legends® Music",
+              "Album",
+              "Unity Gaming",
+              "Licensed to",
+              "🇺🇸 English",
+              "Language",
+              "More Detail",
+              "Explore More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Small-Comps/Streamers-Widget",
+            "width_approx": 375,
+            "height_approx": 520,
+            "role": "main_content",
+            "components": [
+              "Gaming-Small-Comps",
+              "button"
+            ],
+            "text_labels": [
+              "Trending Streamers",
+              "Discover More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Up Next Video",
+            "width_approx": 375,
+            "height_approx": 827,
+            "role": "main_content",
+            "components": [
+              "Small Video Card Copy 4",
+              "Up Next Video",
+              "Small Video Card Copy 2",
+              "Small Video Card Copy 3",
+              "Small Video Card Copy",
+              "Small Video Card"
+            ],
+            "text_labels": [
+              "The Results Are Now – Call of Duty",
+              "Up Next Videos",
+              "The Results Are Now – Call of Duty",
+              "The Results Are Now – Call of Duty",
+              "The Results Are Now – Call of Duty",
+              "The Results Are Now – Call of Duty"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "main_content",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 96,
+            "height_approx": 2925,
+            "role": "navigation_sidebar",
+            "components": [
+              "live-icon",
+              "burger icon 2",
+              "ui icon",
+              "🍎Icon"
+            ],
+            "text_labels": [
+              "Feeds",
+              "Following",
+              "Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "32 copy 3",
+        "32 copy 4",
+        "64",
+        "burger icon 2",
+        "channel profile + info",
+        "cursor-pointer",
+        "gaming-large-comps",
+        "gaming-small-comps",
+        "horizontal nav 2",
+        "live-icon",
+        "recent comments",
+        "ui icon",
+        "up next video",
+        "video more info box",
+        "🍎icon"
+      ],
+      "capabilities": [
+        "data_table",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L11",
+      "name": "🎮 15 - Channel Analytics",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "🎮 15 - Channel Analytics"
+      ],
+      "screen_ids": [
+        "0:2800"
+      ],
+      "count": 1,
+      "representative_screen": "0:2800",
+      "representative_name": "🎮 15 - Channel Analytics",
+      "dimensions": {
+        "width": 1440,
+        "height": 2228
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (256x2228), Center main_content (331x778), Center main_content (331x572), Center main_content (1184x112), Center main_content (430x72), Center main_content (1055x80), Center main_content (694x580), Center main_content (695x1165), Center main_content (1441x2876)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Latest Video",
+            "width_approx": 331,
+            "height_approx": 778,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "Latest Video Content",
+              "Latest Video"
+            ],
+            "text_labels": [
+              "Latest Video"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Earning this month",
+            "width_approx": 331,
+            "height_approx": 572,
+            "role": "main_content",
+            "components": [
+              "Earning this month",
+              "🍱Small-Component"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Channel Analytics",
+            "width_approx": 430,
+            "height_approx": 72,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Channel Analytics"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "full search box",
+            "width_approx": 1055,
+            "height_approx": 80,
+            "role": "main_content",
+            "components": [
+              "button",
+              "Iconly",
+              "full search box"
+            ],
+            "text_labels": [
+              "Search"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "🍱Medium-Comp/1-active user chart and info",
+            "width_approx": 694,
+            "height_approx": 580,
+            "role": "main_content",
+            "components": [
+              "title",
+              "report",
+              "circle button bg",
+              "dot",
+              "🍱Medium-Comp",
+              "arrow",
+              "ui icon",
+              "tool-tip"
+            ],
+            "text_labels": [
+              "Real-time Users Active 💡",
+              "687",
+              "Views per minute",
+              "6%",
+              "Update your payout method in Settings",
+              "600",
+              "400",
+              "200",
+              "0",
+              "478",
+              "1.5m",
+              "Views",
+              "1m",
+              "Watch Time",
+              "529k"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Top Video",
+            "width_approx": 695,
+            "height_approx": 1165,
+            "role": "main_content",
+            "components": [
+              "Top Video",
+              "button",
+              "Video Analytics",
+              "dropdown"
+            ],
+            "text_labels": [
+              "Your top videos in this period",
+              "Date uploaded",
+              "Views",
+              "Video",
+              "Average view duration",
+              "More Results"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy",
+              "64",
+              "32",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 2228,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "menu-item-1 copy 6",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming",
+              "Analytics"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "40",
+        "64",
+        "burger icon 2",
+        "earning this month",
+        "full search box",
+        "horizontal nav 1",
+        "latest video",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "menu-item-1 copy 6",
+        "nav",
+        "toogle - purchase",
+        "top video",
+        "🍱medium-comp"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L12",
+      "name": "Nav Demo",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:narrow|center:main_content:wide|left:left_sidebar:narrow",
+      "screens_using": [
+        "Nav Demo"
+      ],
+      "screen_ids": [
+        "0:3703"
+      ],
+      "count": 1,
+      "representative_screen": "0:3703",
+      "representative_name": "Nav Demo",
+      "dimensions": {
+        "width": 1536,
+        "height": 1657
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left left_sidebar (96x1657), Center main_content (256x1657), Center main_content (1184x112)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "nav sidebar",
+            "width_approx": 256,
+            "height_approx": 1657,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon"
+            ],
+            "text_labels": [
+              "2",
+              "Search Everything"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "Tablet Copy",
+            "width_approx": 96,
+            "height_approx": 1657,
+            "role": "left_sidebar",
+            "components": [
+              "live-icon",
+              "burger icon 2",
+              "ui icon",
+              "🍎Icon"
+            ],
+            "text_labels": [
+              "Feeds",
+              "Following",
+              "Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "burger icon 2",
+        "circle button",
+        "live-icon",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "search box",
+        "toogle - purchase",
+        "ui icon",
+        "🍎icon"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L13",
+      "name": "2-Trending-Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow|right:properties_panel:narrow",
+      "screens_using": [
+        "2-Trending-Desktop"
+      ],
+      "screen_ids": [
+        "0:157"
+      ],
+      "count": 1,
+      "representative_screen": "0:157",
+      "representative_name": "2-Trending-Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2736
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x2736), Center main_content (1120x618), Center main_content (1184x112), Center main_content (162x24), Center main_content (786x56), Center main_content (786x99), Center main_content (785x220), Center main_content (785x220), Center main_content (14x16), Center main_content (14x16), Center main_content (785x220), Center main_content (785x220), Center main_content (785x220), Center main_content (158x56), Center main_content (785x220), Center main_content (1441x2876), Right right_panel (239x520), Right properties_panel (239x616)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Trending-Slides",
+            "width_approx": 1120,
+            "height_approx": 618,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps"
+            ],
+            "text_labels": [
+              "Showing 2 / 8",
+              "02"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Top Trending Now",
+            "width_approx": 162,
+            "height_approx": 24,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Top Trending Now"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Gaming-Small-Comps/Streamers-Widget",
+            "width_approx": 239,
+            "height_approx": 520,
+            "role": "right_panel",
+            "components": [
+              "Gaming-Small-Comps",
+              "button"
+            ],
+            "text_labels": [
+              "Trending Streamers",
+              "Discover More"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Gaming-Small-Comps/Streamers-Widget Copy",
+            "width_approx": 239,
+            "height_approx": 616,
+            "role": "properties_panel",
+            "components": [
+              "Gaming-Small-Comps",
+              "button"
+            ],
+            "text_labels": [
+              "Trending Games",
+              "Call of Duty®",
+              "The massive free-to-play experience from the world of Modern Warfare.",
+              "Counter-Strike®",
+              "Counter-Strike is a series of multiplayer first-person shooter video games",
+              "Fortnite®",
+              "Live tournaments, match highlights, and your favorite\npro players all in one place",
+              "League of Legends®",
+              "League of Legends is a team-based game with over 140 champions.",
+              "Discover More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Filter-Tab",
+            "width_approx": 786,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps",
+              "dropdown"
+            ],
+            "text_labels": [
+              "Now"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Page Title/01",
+            "width_approx": 786,
+            "height_approx": 99,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "Page Title"
+            ],
+            "text_labels": [
+              "Unity Gaming",
+              "Trending"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Trending-Card/Normal",
+            "width_approx": 785,
+            "height_approx": 220,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps"
+            ],
+            "text_labels": [
+              "Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs PoE"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Trending-Card/Normal Copy",
+            "width_approx": 785,
+            "height_approx": 220,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps"
+            ],
+            "text_labels": [
+              "Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs PoE",
+              "2"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "main_content",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "cursor-pointer copy",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "main_content",
+            "components": [
+              "cursor-pointer copy"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Trending-Card/Normal Copy 2",
+            "width_approx": 785,
+            "height_approx": 220,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps"
+            ],
+            "text_labels": [
+              "Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs PoE",
+              "4"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Trending-Card/Normal Copy 3",
+            "width_approx": 785,
+            "height_approx": 220,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps"
+            ],
+            "text_labels": [
+              "New Sub Emotes And Badges! Lets Goooo",
+              "5"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Trending-Card/Normal Copy 4",
+            "width_approx": 785,
+            "height_approx": 220,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps"
+            ],
+            "text_labels": [
+              "Spectating the Pros - Fly Santorin, PowerofEvil - New Caps vs PoE",
+              "6"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "button/deactive",
+            "width_approx": 158,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "button"
+            ],
+            "text_labels": [
+              "Load More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Medium-Comps/Trending-Card/Hover",
+            "width_approx": 785,
+            "height_approx": 220,
+            "role": "main_content",
+            "components": [
+              "Gaming-Medium-Comps"
+            ],
+            "text_labels": [
+              "New Sub Emotes And Badges! Lets Goooo",
+              "3"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 2736,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "button",
+        "cursor-pointer",
+        "cursor-pointer copy",
+        "gaming-large-comps",
+        "gaming-medium-comps",
+        "gaming-small-comps",
+        "horizontal nav 1",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "page title",
+        "toogle - purchase"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L14",
+      "name": "3-Following-Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "3-Following-Desktop"
+      ],
+      "screen_ids": [
+        "0:340"
+      ],
+      "count": 1,
+      "representative_screen": "0:340",
+      "representative_name": "3-Following-Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2854
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x2854), Center main_content (240x96), Center main_content (240x96), Center main_content (240x96), Center main_content (1057x753), Center main_content (1055x300), Center main_content (1056x501), Center main_content (1057x748), Center main_content (156x32), Center main_content (1441x2876), Center main_content (1184x112), Right right_panel (240x96), Right right_panel (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Tag/Game Category",
+            "width_approx": 240,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "live-video-card",
+              "watching numbers"
+            ],
+            "text_labels": [
+              "Shooting",
+              "2.8K viewers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tag/Game Category Copy",
+            "width_approx": 240,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "live-video-card",
+              "watching numbers"
+            ],
+            "text_labels": [
+              "eSport",
+              "2.8K viewers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tag/Game Category Copy 2",
+            "width_approx": 240,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "live-video-card",
+              "watching numbers"
+            ],
+            "text_labels": [
+              "Online Game",
+              "2.8K viewers"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Tag/Game Category Copy 3",
+            "width_approx": 240,
+            "height_approx": 96,
+            "role": "right_panel",
+            "components": [
+              "Tag",
+              "live-video-card",
+              "watching numbers"
+            ],
+            "text_labels": [
+              "Shooting",
+              "2.8K viewers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Matches",
+            "width_approx": 1057,
+            "height_approx": 753,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "tag",
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Stories",
+            "width_approx": 1055,
+            "height_approx": 300,
+            "role": "main_content",
+            "components": [
+              "Channel Story",
+              "Gaming-Large-Comps"
+            ],
+            "text_labels": [
+              "From Channels You Follow"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Channels",
+            "width_approx": 1056,
+            "height_approx": 501,
+            "role": "main_content",
+            "components": [
+              "live-card-1",
+              "live-card-3",
+              "Gaming-Large-Comps",
+              "live-card-2",
+              "live-card-4"
+            ],
+            "text_labels": [
+              "Today Videos",
+              "Sort by: Trending"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Category",
+            "width_approx": 1057,
+            "height_approx": 748,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "Gaming-Medium-Comps",
+              "Gaming-Small-Comps"
+            ],
+            "text_labels": [
+              "🔥 Popular Categories",
+              "Fortnite",
+              "Shooter",
+              "Follow",
+              "Call of Duty",
+              "Shooter",
+              "Follow",
+              "Call of Duty",
+              "Shooter",
+              "Follow",
+              "Follow",
+              "League of Legends®"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Live Matches",
+            "width_approx": 156,
+            "height_approx": 32,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Live Matches"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 2854,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "cursor-pointer",
+        "gaming-large-comps",
+        "horizontal nav 1",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "tag",
+        "toogle - purchase"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L15",
+      "name": "4-Your-Videos-Grid-Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "4-Your-Videos-Grid-Desktop"
+      ],
+      "screen_ids": [
+        "0:527"
+      ],
+      "count": 1,
+      "representative_screen": "0:527",
+      "representative_name": "4-Your-Videos-Grid-Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2237
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x2237), Center main_content (1184x112), Center main_content (616x56), Center main_content (1057x112), Center main_content (628x99), Center main_content (1441x2876), Center main_content (1057x211), Center main_content (1058x1267), Center main_content (158x56), Right right_panel (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "view-bar",
+            "width_approx": 616,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "view-bar",
+              "tags"
+            ],
+            "text_labels": [
+              "All",
+              "Stream Videos",
+              "Videos"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Title - Filter",
+            "width_approx": 1057,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "Actions"
+            ],
+            "text_labels": [
+              "You uploaded 16 videos",
+              "Date uploaded"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Page Title/01",
+            "width_approx": 628,
+            "height_approx": 99,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "Page Title"
+            ],
+            "text_labels": [
+              "Hi Dash, Welcome back",
+              "Your Videos"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Upload/Upload Video",
+            "width_approx": 1057,
+            "height_approx": 211,
+            "role": "main_content",
+            "components": [
+              "Video Upload"
+            ],
+            "text_labels": [
+              "Drag files here to upload",
+              "Other ways to upload",
+              "Upgrade for up to 7TB with no weekly limits.",
+              "30%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Videos",
+            "width_approx": 1058,
+            "height_approx": 1267,
+            "role": "main_content",
+            "components": [
+              "Gaming-Small-Comps"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "button/deactive",
+            "width_approx": 158,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "button"
+            ],
+            "text_labels": [
+              "Load More"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 2237,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "actions",
+        "burger icon 2",
+        "button",
+        "cursor-pointer",
+        "gaming-small-comps",
+        "horizontal nav 1",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "page title",
+        "toogle - purchase",
+        "video upload",
+        "view-bar"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L16",
+      "name": "4-Your-Videos-ListView-Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "4-Your-Videos-ListView-Desktop"
+      ],
+      "screen_ids": [
+        "0:886"
+      ],
+      "count": 1,
+      "representative_screen": "0:886",
+      "representative_name": "4-Your-Videos-ListView-Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2428
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x2428), Center main_content (616x56), Center main_content (785x1678), Center main_content (628x99), Center main_content (1057x211), Center main_content (1441x2876), Center main_content (358x620), Center main_content (1184x112), Right right_panel (240x675), Right right_panel (240x744), Right right_panel (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "view-bar",
+            "width_approx": 616,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "view-bar",
+              "tags"
+            ],
+            "text_labels": [
+              "All",
+              "Stream Videos",
+              "Videos"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Large-Comps/Video Uploaded",
+            "width_approx": 785,
+            "height_approx": 1678,
+            "role": "main_content",
+            "components": [
+              "button",
+              "Gaming-Small-Comps",
+              "Tablet-Comps",
+              "Large-Comps"
+            ],
+            "text_labels": [
+              "You uploaded 16 videos",
+              "Load More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Page Title/01",
+            "width_approx": 628,
+            "height_approx": 99,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "Page Title"
+            ],
+            "text_labels": [
+              "Hi Dash, Welcome back",
+              "Your Videos"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Upload/Upload Video",
+            "width_approx": 1057,
+            "height_approx": 211,
+            "role": "main_content",
+            "components": [
+              "Video Upload"
+            ],
+            "text_labels": [
+              "Drag files here to upload",
+              "Other ways to upload",
+              "Upgrade for up to 7TB with no weekly limits.",
+              "30%"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Widget/Your Playlist",
+            "width_approx": 240,
+            "height_approx": 675,
+            "role": "right_panel",
+            "components": [
+              "Tag",
+              "Widget",
+              "button",
+              "Widget Title"
+            ],
+            "text_labels": [
+              "Your Playlist",
+              "Manage Your Playlist"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Widget/View this month",
+            "width_approx": 240,
+            "height_approx": 744,
+            "role": "right_panel",
+            "components": [
+              "white  8",
+              "white  4",
+              "white",
+              "Widget Title",
+              "report",
+              "circle button bg",
+              "white  3",
+              "dot",
+              "white ",
+              "ui icon",
+              "white  7",
+              "Widget",
+              "tool-tip"
+            ],
+            "text_labels": [
+              "Views this month",
+              "483",
+              "Page views per minute"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "🍱Medium-Comp/notification-dropdown",
+            "width_approx": 358,
+            "height_approx": 620,
+            "role": "main_content",
+            "components": [
+              "🍱Medium-Comp",
+              "notification-dropdown",
+              "title"
+            ],
+            "text_labels": [
+              "12h",
+              "16h",
+              "21h",
+              "22h",
+              "22h",
+              "8h",
+              "Recent Notification"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 2428,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "cursor-pointer",
+        "horizontal nav 1",
+        "large-comps",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "page title",
+        "toogle - purchase",
+        "video upload",
+        "view-bar",
+        "widget",
+        "🍱medium-comp"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L17",
+      "name": "🎮 5 - Upload Videos - Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "🎮 5 - Upload Videos - Desktop"
+      ],
+      "screen_ids": [
+        "0:945"
+      ],
+      "count": 1,
+      "representative_screen": "0:945",
+      "representative_name": "🎮 5 - Upload Videos - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1311
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x1311), Center main_content (1184x112), Center main_content (628x99), Center main_content (1441x2876), Center main_content (784x450), Center main_content (784x450), Center main_content (216x129), Right right_panel (239x211), Right right_panel (240x563)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Horizontal Nav 4",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 4"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Page Title/01",
+            "width_approx": 628,
+            "height_approx": 99,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "Page Title"
+            ],
+            "text_labels": [
+              "What’s hot 🔥",
+              "Upload videos"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Upload/start-stream",
+            "width_approx": 784,
+            "height_approx": 450,
+            "role": "main_content",
+            "components": [
+              "Video Upload"
+            ],
+            "text_labels": [
+              "Setup a stream to start a new live video now",
+              "Start a Live Video"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video Upload/video-upload",
+            "width_approx": 784,
+            "height_approx": 450,
+            "role": "main_content",
+            "components": [
+              "Video Upload"
+            ],
+            "text_labels": [
+              "Setup a stream to start a new live video now",
+              "Drag and drop video files"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Video Upload/Drag-drop box/elements/Other ways to upload",
+            "width_approx": 239,
+            "height_approx": 211,
+            "role": "right_panel",
+            "components": [
+              "Video Upload",
+              "circle button",
+              "button",
+              "tool-tip"
+            ],
+            "text_labels": [
+              "Other ways to upload",
+              "Upgrade for up to 7TB with no weekly limits.",
+              "Dropbox",
+              "30%"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Widget/Your Playlist",
+            "width_approx": 240,
+            "height_approx": 563,
+            "role": "right_panel",
+            "components": [
+              "Tag",
+              "Widget Title",
+              "cursor-pointer",
+              "Widget",
+              "button"
+            ],
+            "text_labels": [
+              "Add to Playlist",
+              "Manage Your Playlist"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "dropdown/video",
+            "width_approx": 216,
+            "height_approx": 129,
+            "role": "main_content",
+            "components": [
+              "menu-item-1 copy 6",
+              "menu-item-1 copy 5",
+              "dropdown"
+            ],
+            "text_labels": [
+              "New Videos",
+              "Go Live"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 1311,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "dropdown",
+        "horizontal nav 4",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "page title",
+        "toogle - purchase",
+        "video upload",
+        "widget"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L18",
+      "name": "🎮 6 - Playlist - Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "🎮 6 - Playlist - Desktop"
+      ],
+      "screen_ids": [
+        "0:1139"
+      ],
+      "count": 1,
+      "representative_screen": "0:1139",
+      "representative_name": "🎮 6 - Playlist - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1521
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x1521), Center main_content (1057x753), Center main_content (1184x112), Center main_content (1057x317), Center main_content (1060x131), Center main_content (1441x2876), Right right_panel (14x16), Right right_panel (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Matches",
+            "width_approx": 1057,
+            "height_approx": 753,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "tag",
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon"
+            ],
+            "text_labels": [
+              "2",
+              "Search Everything"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Add to Playlist Comp",
+            "width_approx": 1057,
+            "height_approx": 317,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Gaming-Large-Comps"
+            ],
+            "text_labels": [
+              "All Your Playlist",
+              "Sort by: Added Time"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Playlist Title",
+            "width_approx": 1060,
+            "height_approx": 131,
+            "role": "main_content",
+            "components": [
+              "burger icon 2",
+              "Action Button Copy 2",
+              "Playlist Title",
+              "Action Button Copy"
+            ],
+            "text_labels": [
+              "Live tournaments, match highlights, and your favorite pro players all in one place"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 1521,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "avatar",
+        "burger icon 2",
+        "circle button",
+        "cursor-pointer",
+        "gaming-large-comps",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "playlist title",
+        "search box",
+        "toogle - purchase",
+        "ui icon"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L19",
+      "name": "🎮 6 - Playlist - Dropdown",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:narrow|left:navigation_sidebar:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "🎮 6 - Playlist - Dropdown"
+      ],
+      "screen_ids": [
+        "0:1315"
+      ],
+      "count": 1,
+      "representative_screen": "0:1315",
+      "representative_name": "🎮 6 - Playlist - Dropdown",
+      "dimensions": {
+        "width": 1440,
+        "height": 1521
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x1521), Center main_content (1057x753), Center main_content (1184x112), Center main_content (1057x317), Center main_content (1060x131), Center main_content (424x493), Center main_content (1441x2876), Center main_content (14x16), Right right_panel (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Matches",
+            "width_approx": 1057,
+            "height_approx": 753,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "tag",
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 1",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 1"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Add to Playlist Comp",
+            "width_approx": 1057,
+            "height_approx": 317,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Gaming-Large-Comps"
+            ],
+            "text_labels": [
+              "All Your Playlist",
+              "Sort by: Added Time"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Playlist Title Copy",
+            "width_approx": 1060,
+            "height_approx": 131,
+            "role": "main_content",
+            "components": [
+              "Playlist Title Copy",
+              "Action Button Copy",
+              "Action Button Copy 2",
+              "burger icon 2",
+              "Playlist Title"
+            ],
+            "text_labels": [
+              "Live tournaments, match highlights, and your favorite pro players all in one place"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Playlist Dropdown",
+            "width_approx": 424,
+            "height_approx": 493,
+            "role": "main_content",
+            "components": [
+              "Playlist Dropdown"
+            ],
+            "text_labels": [
+              "Your Playlist",
+              "🎮",
+              "League of Legends®",
+              "Call of Duty®",
+              "Fortnite®"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "64",
+              "40"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "main_content",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 1521,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "40",
+        "64",
+        "burger icon 2",
+        "cursor-pointer",
+        "gaming-large-comps",
+        "horizontal nav 1",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "nav",
+        "playlist dropdown",
+        "playlist title copy",
+        "toogle - purchase"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L20",
+      "name": "🎮 7 - Chat - Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "🎮 7 - Chat - Desktop"
+      ],
+      "screen_ids": [
+        "0:1371"
+      ],
+      "count": 1,
+      "representative_screen": "0:1371",
+      "representative_name": "🎮 7 - Chat - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1917
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (256x1917), Center main_content (375x1805), Center main_content (1184x112), Center main_content (809x1709), Center main_content (1441x2876), Right right_panel (48x56), Right right_panel (128x40), Right right_panel (14x16)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Friends - Group",
+            "width_approx": 375,
+            "height_approx": 1805,
+            "role": "main_content",
+            "components": [
+              "button",
+              "Chat"
+            ],
+            "text_labels": [
+              "Direct Message",
+              "Create New Group Chat"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 3",
+            "width_approx": 1184,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "Horizontal Nav 3",
+              "circle button",
+              "Avatar",
+              "Iconly",
+              "ui icon"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Messages",
+            "width_approx": 809,
+            "height_approx": 1709,
+            "role": "main_content",
+            "components": [
+              "Tag",
+              "Video",
+              "Gaming-Large-Comps",
+              "tag",
+              "avatar",
+              "conversation",
+              "Iconly",
+              "Messages"
+            ],
+            "text_labels": [
+              "Gavin Henry",
+              "Renegades vs Chiefs - ESL Pro League Season 16 - Playoffs"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "circle button/shadow copy",
+            "width_approx": 48,
+            "height_approx": 56,
+            "role": "right_panel",
+            "components": [
+              "circle button",
+              "ui icon",
+              "circle button bg"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1441,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32",
+              "32 copy",
+              "40 copy 2",
+              "64",
+              "40",
+              "40 copy"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "40",
+              "40",
+              "40",
+              "64",
+              "40",
+              "64"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "action icons",
+            "width_approx": 128,
+            "height_approx": 40,
+            "role": "right_panel",
+            "components": [
+              "action icons"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "cursor-pointer",
+            "width_approx": 14,
+            "height_approx": 16,
+            "role": "right_panel",
+            "components": [
+              "cursor-pointer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 256,
+            "height_approx": 1917,
+            "role": "navigation_sidebar",
+            "components": [
+              "menu-item-1",
+              "menu item",
+              "toogle - purchase",
+              "menu-item-1 copy",
+              "menu-item-1 copy 3",
+              "nav",
+              "menu-item-1 copy 5",
+              "logo",
+              "burger icon 2",
+              "menu-item-1 copy 4",
+              "menu-item-1 copy 2"
+            ],
+            "text_labels": [
+              "New Feeds",
+              "Following",
+              "Dylan Hodges",
+              "Vincent Parks",
+              "Richard Bowers",
+              "Isaac Lambert",
+              "Lillie Nash",
+              "Edith Cain",
+              "Jerry Sherman",
+              "Load more",
+              "Unity Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "40",
+        "40 copy",
+        "40 copy 2",
+        "64",
+        "action icons",
+        "burger icon 2",
+        "button",
+        "chat",
+        "circle button",
+        "cursor-pointer",
+        "horizontal nav 3",
+        "logo",
+        "menu item",
+        "menu-item-1",
+        "menu-item-1 copy",
+        "menu-item-1 copy 2",
+        "menu-item-1 copy 3",
+        "menu-item-1 copy 4",
+        "menu-item-1 copy 5",
+        "messages",
+        "nav",
+        "toogle - purchase"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L21",
+      "name": "🎮 11 - Video - Live - Desktop",
+      "type": "three_panel",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "🎮 11 - Video - Live - Desktop"
+      ],
+      "screen_ids": [
+        "0:2104"
+      ],
+      "count": 1,
+      "representative_screen": "0:2104",
+      "representative_name": "🎮 11 - Video - Live - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2069
+      },
+      "layout_detail": {
+        "type": "three_panel",
+        "description": "Left navigation_sidebar (96x2069), Center main_content (809x860), Center main_content (1344x112), Center main_content (375x822), Center main_content (810x341), Center main_content (62x20), Center main_content (1216x543), Center main_content (375x344), Center main_content (1440x2876), Right right_panel (96x69)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Gaming-Large-Comps/Live Matches/Left Video Detail",
+            "width_approx": 809,
+            "height_approx": 860,
+            "role": "main_content",
+            "components": [
+              "Gaming-Large-Comps",
+              "Action Buttons",
+              "Video"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Horizontal Nav 2",
+            "width_approx": 1344,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [
+              "menu-item-1",
+              "search box",
+              "circle button",
+              "Avatar",
+              "ui icon",
+              "Horizontal Nav 2"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Live Chat Room",
+            "width_approx": 375,
+            "height_approx": 822,
+            "role": "main_content",
+            "components": [
+              "Live Chat Room",
+              "input - comment",
+              "Widget Title",
+              "live chat"
+            ],
+            "text_labels": [
+              "Live chat room",
+              "Send a message…",
+              "Send"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "more - report",
+            "width_approx": 96,
+            "height_approx": 69,
+            "role": "right_panel",
+            "components": [
+              "ui icon 16px",
+              "tool-tip button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Channel Profile + Info",
+            "width_approx": 810,
+            "height_approx": 341,
+            "role": "main_content",
+            "components": [
+              "Channel Profile + Info",
+              "Tag",
+              "Channel Profile"
+            ],
+            "text_labels": [
+              "Message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Season II",
+            "width_approx": 62,
+            "height_approx": 20,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Season II"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Tag Video List",
+            "width_approx": 1216,
+            "height_approx": 543,
+            "role": "main_content",
+            "components": [
+              "Tag Video List",
+              "cursor-pointer",
+              "Gaming-Small-Comps",
+              "tag title",
+              "button"
+            ],
+            "text_labels": [
+              "Videos",
+              "About",
+              "Stories",
+              "Schedules",
+              "Load More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Video More Info Box",
+            "width_approx": 375,
+            "height_approx": 344,
+            "role": "main_content",
+            "components": [
+              "li 5",
+              "li 2",
+              "Video More Info Box",
+              "li 3",
+              "li 1",
+              "li 4"
+            ],
+            "text_labels": [
+              "If Looks Could Kill",
+              "Song",
+              "Alan Walker",
+              "Artist",
+              "League of Legends® Music",
+              "Album",
+              "Unity Gaming",
+              "Licensed to",
+              "🇺🇸 English",
+              "Language",
+              "More Detail",
+              "Explore More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "gird system",
+            "width_approx": 1440,
+            "height_approx": 2876,
+            "role": "main_content",
+            "components": [
+              "32 copy 2",
+              "32",
+              "32 copy",
+              "32 copy 3",
+              "64",
+              "64 copy"
+            ],
+            "text_labels": [
+              "32",
+              "32",
+              "32",
+              "32",
+              "64",
+              "64",
+              "96"
+            ]
+          },
+          {
+            "position": "left",
+            "name": "nav",
+            "width_approx": 96,
+            "height_approx": 2069,
+            "role": "navigation_sidebar",
+            "components": [
+              "live-icon",
+              "burger icon 2",
+              "ui icon",
+              "🍎Icon"
+            ],
+            "text_labels": [
+              "Feeds",
+              "Following",
+              "Gaming"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "32",
+        "32 copy",
+        "32 copy 2",
+        "32 copy 3",
+        "64",
+        "64 copy",
+        "burger icon 2",
+        "channel profile + info",
+        "gaming-large-comps",
+        "horizontal nav 2",
+        "live chat room",
+        "live-icon",
+        "tag video list",
+        "tool-tip button",
+        "ui icon",
+        "ui icon 16px",
+        "video more info box",
+        "🍎icon"
+      ],
+      "capabilities": [
+        "calendar",
+        "data_table",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L22",
+      "name": "🎮 14 - Stories - Desktop",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|right:right_panel:narrow|right:right_panel:narrow",
+      "screens_using": [
+        "🎮 14 - Stories - Desktop"
+      ],
+      "screen_ids": [
+        "0:2701"
+      ],
+      "count": 1,
+      "representative_screen": "0:2701",
+      "representative_name": "🎮 14 - Stories - Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x1024), Center main_content (375x812), Center main_content (375x812), Center main_content (375x700), Center main_content (375x700), Center main_content (48x56), Right right_panel (48x56), Right right_panel (48x56)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "overlay",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "circle button/shadow",
+            "width_approx": 48,
+            "height_approx": 56,
+            "role": "right_panel",
+            "components": [
+              "circle button",
+              "ui icon",
+              "circle button bg"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Story - Single",
+            "width_approx": 375,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "Gaming-Small-Comps",
+              "input - comment",
+              "Story - Single"
+            ],
+            "text_labels": [
+              "Send a message…",
+              "Send"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Story - Single Copy",
+            "width_approx": 375,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [
+              "Story - Single Copy",
+              "Gaming-Small-Comps",
+              "input - comment"
+            ],
+            "text_labels": [
+              "Send a message…",
+              "Send"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Story - Single Copy 2",
+            "width_approx": 375,
+            "height_approx": 700,
+            "role": "main_content",
+            "components": [
+              "Gaming-Small-Comps",
+              "Story - Single Copy 2",
+              "input - comment"
+            ],
+            "text_labels": [
+              "Send a message…",
+              "Send"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "circle button/shadow copy 3",
+            "width_approx": 48,
+            "height_approx": 56,
+            "role": "right_panel",
+            "components": [
+              "circle button",
+              "ui icon",
+              "circle button bg"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "circle button/shadow copy 5",
+            "width_approx": 48,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [
+              "circle button",
+              "ui icon",
+              "circle button bg"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "circle button",
+        "story - single",
+        "story - single copy",
+        "story - single copy 2"
+      ],
+      "capabilities": [
+        "messaging"
+      ],
+      "is_light": true
+    }
+  ]
+}

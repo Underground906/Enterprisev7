@@ -1,0 +1,1441 @@
+{
+  "kit": "Trakr",
+  "file_key": "4DjXTYs8judIaV978izwUU",
+  "analyzed_at": "2026-02-19T19:21:13.994662",
+  "unique_layouts": 13,
+  "total_screens": 30,
+  "dedup_ratio": "30 screens -> 13 templates (43%)",
+  "layouts": [
+    {
+      "layout_id": "TR_L1",
+      "name": "Thumb",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Thumb"
+      ],
+      "screen_ids": [
+        "507:14700"
+      ],
+      "count": 1,
+      "representative_screen": "507:14700",
+      "representative_name": "Thumb",
+      "dimensions": {
+        "width": 1600,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1600x960)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Thumb",
+            "width_approx": 1600,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "TR_L2",
+      "name": "Sign up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sign in",
+        "Sign up",
+        "Forgot password",
+        "Enter new password",
+        "Forgot password",
+        "Sign in",
+        "Sign up",
+        "Forgot password",
+        "Enter new password",
+        "Forgot password"
+      ],
+      "screen_ids": [
+        "553:22548",
+        "553:23089",
+        "553:23597",
+        "553:24614",
+        "553:24964",
+        "563:37668",
+        "563:37780",
+        "563:37895",
+        "563:37979",
+        "563:38064"
+      ],
+      "count": 10,
+      "representative_screen": "553:23089",
+      "representative_name": "Sign up",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (700x1004), Center main_content (710x1004)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "left content",
+            "width_approx": 700,
+            "height_approx": 1004,
+            "role": "main_content",
+            "components": [
+              "Logo",
+              "Left",
+              "Button"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Go Back",
+              "© 2024 Trakr"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 710,
+            "height_approx": 1004,
+            "role": "main_content",
+            "components": [
+              "Widgets Affiliates"
+            ],
+            "text_labels": [
+              "Get better with Trakr",
+              "Take your affiliate marketing to the next level with Trakr—optimize tracking, boost efficiency, and maximize your earnings effortlessly.",
+              "Your weekly Discount campaign limit is $2000."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "checkbox",
+        "input",
+        "left",
+        "lock",
+        "logo",
+        "widgets affiliates"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "map",
+        "notifications",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L3",
+      "name": "Email verification",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Email verification",
+        "Email verification"
+      ],
+      "screen_ids": [
+        "553:24165",
+        "563:38144"
+      ],
+      "count": 2,
+      "representative_screen": "553:24165",
+      "representative_name": "Email verification",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (700x1004), Center main_content (710x1004)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "left content",
+            "width_approx": 700,
+            "height_approx": 1004,
+            "role": "main_content",
+            "components": [
+              "Logo",
+              "Left",
+              "Button"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Go Back",
+              "© 2024 Trakr"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 710,
+            "height_approx": 1004,
+            "role": "main_content",
+            "components": [
+              "Widgets Affiliates"
+            ],
+            "text_labels": [
+              "Get better with Trakr",
+              "Take your affiliate marketing to the next level with Trakr—optimize tracking, boost efficiency, and maximize your earnings effortlessly.",
+              "Your weekly Discount campaign limit is $2000."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "email - 1",
+        "left",
+        "logo",
+        "widgets affiliates"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "map",
+        "notifications",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L4",
+      "name": "Typography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Typography",
+        "Colors"
+      ],
+      "screen_ids": [
+        "108:2059",
+        "505:11415"
+      ],
+      "count": 2,
+      "representative_screen": "108:2059",
+      "representative_name": "Typography",
+      "dimensions": {
+        "width": 1440,
+        "height": 2277
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x1852), Center main_content (1440x319)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1200,
+            "height_approx": 1852,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Inter Tight",
+              "Download Font: fonts.google.com/specimen/Inter+Tight",
+              "Heading",
+              "Body"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 319,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Typography",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "file_management",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L5",
+      "name": "Setup guide",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Setup guide"
+      ],
+      "screen_ids": [
+        "113:3884"
+      ],
+      "count": 1,
+      "representative_screen": "113:3884",
+      "representative_name": "Setup guide",
+      "dimensions": {
+        "width": 1520,
+        "height": 604
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (364x85), Center main_content (364x85), Center main_content (212x179), Center main_content (212x179), Center main_content (212x179), Center main_content (279x229), Center main_content (279x229), Center main_content (279x229)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Style=Tutorials, Type=Desktop",
+            "width_approx": 364,
+            "height_approx": 85,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Tutorials",
+              "Explore the power of Trakr to revolutionize your affiliate marketing."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=Invite affiliates, Type=Desktop",
+            "width_approx": 364,
+            "height_approx": 85,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Invite your affiliates",
+              "Fuel your affiliate program and start inviting your affiliate partners."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=Verify configuration, Type=Desktop",
+            "width_approx": 212,
+            "height_approx": 179,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Verify the configuration",
+              "Once you’ve configured the tracking, test the initial click."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=Create offer, Type=Desktop",
+            "width_approx": 212,
+            "height_approx": 179,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Create the 1st offer",
+              "Set up affiliate commissions and add your landing page in under 5 minutes."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=Customize account, Type=Desktop",
+            "width_approx": 212,
+            "height_approx": 179,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Customize your account",
+              "Supercharge your brand identity. Upload Your logo to your account."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=Customer your account, Type=Responsive",
+            "width_approx": 279,
+            "height_approx": 229,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Customize your account",
+              "Supercharge your brand identity. Upload Your logo to your account."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=create the 1st offer, Type=Responsive",
+            "width_approx": 279,
+            "height_approx": 229,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Create the 1st offer",
+              "Set up affiliate commissions and add your landing page in under 5 minutes."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Style=Verify the configuration, Type=Responsive",
+            "width_approx": 279,
+            "height_approx": 229,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Verify the configuration",
+              "Once you’ve configured the tracking, test the initial click."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "folder file - 5",
+        "icon"
+      ],
+      "capabilities": [
+        "content_creation",
+        "file_management",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L6",
+      "name": "Widgets Affiliates/card",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Widgets Affiliates/card"
+      ],
+      "screen_ids": [
+        "115:4328"
+      ],
+      "count": 1,
+      "representative_screen": "115:4328",
+      "representative_name": "Widgets Affiliates/card",
+      "dimensions": {
+        "width": 1804,
+        "height": 1032
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (386x375), Center main_content (696x375), Center main_content (258x148), Center main_content (258x148), Center main_content (258x148), Center main_content (258x148), Center main_content (521x326), Center main_content (327x291), Center main_content (327x351), Center main_content (258x221), Center main_content (327x221), Center main_content (327x336)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "State=Discount campaign, Type=card",
+            "width_approx": 386,
+            "height_approx": 375,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Discount campaign",
+              "$900.00",
+              "$600.00",
+              "$200.00",
+              "Performance Progress",
+              "$1,800.00",
+              "Your weekly Discount campaign limit is $2000."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Overview analysis, Type=Dasktop",
+            "width_approx": 696,
+            "height_approx": 375,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Badge [1.0]",
+              "circular bar chart - 1"
+            ],
+            "text_labels": [
+              "Performance Overview",
+              "Badge",
+              "Last Month",
+              "Total Revenue",
+              "Total clicks",
+              "total payouts",
+              "Jan",
+              "Fab",
+              "Mar",
+              "Apr",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=clicks, Type=card",
+            "width_approx": 258,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "circular bar chart - 1"
+            ],
+            "text_labels": [
+              "Clicks",
+              "73853",
+              "-2.5%",
+              "From last month"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Conversation, Type=card",
+            "width_approx": 258,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Conversation",
+              "47",
+              "+4.5%",
+              "From last month"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Payouts, Type=card",
+            "width_approx": 258,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Payouts",
+              "$62,302",
+              "+5%",
+              "From last month"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Revenue, Type=card",
+            "width_approx": 258,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Revenue",
+              "$83,302",
+              "+27.5%",
+              "From last month"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Profile card, Type=Dasktop",
+            "width_approx": 521,
+            "height_approx": 326,
+            "role": "main_content",
+            "components": [
+              "Avatar [1.0]",
+              "Badge",
+              "Icon"
+            ],
+            "text_labels": [
+              "Total paid",
+              "$270.00",
+              "Total Unpaid",
+              "$670.00",
+              "Gross Revenue",
+              "$160.00",
+              "Net Revenue",
+              "$280.00",
+              "Commission Rate: 45%",
+              "https://admin.shopify.com/unt1xq-hq?ref=pixenstudio69",
+              "Delete affiliates",
+              "Joined on : 16-12-2024"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Overview responsive, Type=Responsive",
+            "width_approx": 327,
+            "height_approx": 291,
+            "role": "main_content",
+            "components": [
+              "Icon",
+              "Badge [1.0]",
+              "circular bar chart - 1"
+            ],
+            "text_labels": [
+              "Performance Overview",
+              "Badge",
+              "Last Month",
+              "Total Revenue",
+              "Total clicks",
+              "20k",
+              "15k",
+              "10k",
+              "0",
+              "Jan",
+              "Fab",
+              "Mar",
+              "Apr",
+              "Jun",
+              "Jul"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=discount campaign, Type=Responsive",
+            "width_approx": 327,
+            "height_approx": 351,
+            "role": "main_content",
+            "components": [
+              "Icon"
+            ],
+            "text_labels": [
+              "Discount campaign",
+              "$900.00",
+              "$600.00",
+              "Performance Progress",
+              "$1,800.00",
+              "Your weekly Discount campaign limit is $2000."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=integration, Type=Dasktop",
+            "width_approx": 258,
+            "height_approx": 221,
+            "role": "main_content",
+            "components": [
+              "Badge",
+              "Toggle [1.0]",
+              "Icon",
+              "logo",
+              "Button"
+            ],
+            "text_labels": [
+              "Webflow",
+              "Website owners have the opportunity to generate revenue from their web traffic through Asana",
+              "Pending",
+              "Disabled",
+              "Active",
+              "Connect"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Integration, Type=Responsive",
+            "width_approx": 327,
+            "height_approx": 221,
+            "role": "main_content",
+            "components": [
+              "Badge",
+              "Toggle [1.0]",
+              "Icon",
+              "logo",
+              "Button"
+            ],
+            "text_labels": [
+              "Asana",
+              "Asana is a powerful work management platform that helps teams streamline effortlessly.",
+              "Pending",
+              "Disabled",
+              "Active",
+              "Connect"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "State=Profile card, Type=Responsive",
+            "width_approx": 327,
+            "height_approx": 336,
+            "role": "main_content",
+            "components": [
+              "Avatar [1.0]",
+              "Badge",
+              "Icon"
+            ],
+            "text_labels": [
+              "Total paid",
+              "$270.00",
+              "Total Unpaid",
+              "$670.00",
+              "Net Revenue",
+              "$280.00",
+              "Commission Rate: 45%",
+              "https://admin.shopify.com/unt1xq-hq?ref=pixenstudio69",
+              "Delete affiliates",
+              "Joined on : 16-12-2024"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar [1.0]",
+        "badge",
+        "badge [1.0]",
+        "button",
+        "circular bar chart - 1",
+        "icon",
+        "logo",
+        "toggle [1.0]"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "form",
+        "map",
+        "messaging",
+        "notifications",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L7",
+      "name": "Dashboard",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Dashboard",
+        "Integration"
+      ],
+      "screen_ids": [
+        "67:1882",
+        "266:11885"
+      ],
+      "count": 2,
+      "representative_screen": "67:1882",
+      "representative_name": "Dashboard",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1024), Center main_content (1170x1024)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Widgets Affiliates",
+              "Page",
+              "section header",
+              "Setup guide",
+              "Frame 2085667660"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Performance Overview",
+              "Last Month",
+              "20k",
+              "15k",
+              "10k",
+              "0",
+              "Sep 2024",
+              "Performance Progress",
+              "$1,800.00",
+              "Your weekly Discount campaign limit is $2000.",
+              "Quick setup guide",
+              "list your affiliate program to start getting more affiliates"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "frame 2085667660",
+        "navigation bar",
+        "page",
+        "section header",
+        "setup guide",
+        "widgets affiliates"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L8",
+      "name": "Marketplace",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Marketplace",
+        "Marketplace"
+      ],
+      "screen_ids": [
+        "120:4468",
+        "479:33182"
+      ],
+      "count": 2,
+      "representative_screen": "120:4468",
+      "representative_name": "Marketplace",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1024), Center main_content (1170x1024)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "section header",
+              "Widgets Affiliates",
+              " Horizontal Filter",
+              "Page"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Affiliates Marketplace",
+              "list your affiliate program to start getting more affiliates",
+              "Search for programs",
+              "Filter by",
+              "Filter by",
+              "Filter by",
+              "Filter by",
+              "Affiliate program Details",
+              "Affiliate Portal",
+              "Others",
+              "All",
+              "Active"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "horizontal filter",
+        "navigation bar",
+        "page",
+        "section header",
+        "widgets affiliates"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L9",
+      "name": "Transactions",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Affiliates",
+        "Transactions",
+        "Referrals",
+        "Reports",
+        "payouts"
+      ],
+      "screen_ids": [
+        "128:3326",
+        "143:4042",
+        "148:5559",
+        "150:6534",
+        "181:4933"
+      ],
+      "count": 5,
+      "representative_screen": "143:4042",
+      "representative_name": "Transactions",
+      "dimensions": {
+        "width": 1440,
+        "height": 1040
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1040), Center main_content (1170x1041)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1040,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1041,
+            "role": "main_content",
+            "components": [
+              "Table Header Cell ",
+              "Table Row Cell ",
+              "Page",
+              "Pagination Group ",
+              "section header"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Transactions",
+              "View and manage all transactions",
+              "Add Affiliate",
+              "Short by",
+              "Filter by",
+              "Monthly",
+              "Filter by",
+              "Affiliate program Details",
+              "Affiliate Portal",
+              "Others",
+              "1 Page",
+              "of 10"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "horizontal filter",
+        "navigation bar",
+        "page",
+        "section header",
+        "table header cell",
+        "table row cell",
+        "widgets affiliates"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "form",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L10",
+      "name": "Affiliates/ Details",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Affiliates/ Details"
+      ],
+      "screen_ids": [
+        "136:3310"
+      ],
+      "count": 1,
+      "representative_screen": "136:3310",
+      "representative_name": "Affiliates/ Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1064
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1064), Center main_content (1170x1064)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1064,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1064,
+            "role": "main_content",
+            "components": [
+              "Widgets Affiliates",
+              "Table Header Cell ",
+              "Table Row Cell ",
+              "Page",
+              "Pagination Group ",
+              "section header",
+              "Section header"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Joined on : 16-12-2024",
+              "Affiliates",
+              "James Brown",
+              "Payouts",
+              "You made 24 sales this period",
+              "Add Affiliate",
+              "Short by",
+              "Filter by",
+              "Monthly",
+              "Filter by",
+              "Affiliate program Details",
+              "Affiliate Portal"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "navigation bar",
+        "page",
+        "pagination group",
+        "section header",
+        "table header cell",
+        "table row cell",
+        "widgets affiliates"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L11",
+      "name": "Capmpaign settings",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Capmpaign settings"
+      ],
+      "screen_ids": [
+        "201:5968"
+      ],
+      "count": 1,
+      "representative_screen": "201:5968",
+      "representative_name": "Capmpaign settings",
+      "dimensions": {
+        "width": 1440,
+        "height": 1040
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1040), Center main_content (1170x1041)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1040,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1041,
+            "role": "main_content",
+            "components": [
+              "Toggle [1.0]",
+              "Page",
+              "section header",
+              "Input ",
+              "Button"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Settings",
+              "Detailed insights and performance metrics at your fingertips.",
+              "Upgrade Your Plan",
+              "Filter by",
+              "Filter by",
+              "Filter by",
+              "Filter by",
+              "Affiliate program Details",
+              "Affiliate Portal",
+              "Others",
+              "Affiliate Program Details",
+              "Enter the details of your campaign here."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "input",
+        "label base",
+        "navigation bar",
+        "page",
+        "section header",
+        "switch toggle",
+        "toggle [1.0]"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L12",
+      "name": "Email settings",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Email settings"
+      ],
+      "screen_ids": [
+        "277:19527"
+      ],
+      "count": 1,
+      "representative_screen": "277:19527",
+      "representative_name": "Email settings",
+      "dimensions": {
+        "width": 1440,
+        "height": 1039
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1039), Center main_content (1170x1039)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1039,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1039,
+            "role": "main_content",
+            "components": [
+              "Page",
+              "section header",
+              "Input ",
+              "Button",
+              "Table Row"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Email Notification",
+              "Edit the email notifications that are sent to your affiliates and to your email address when certain events occur.",
+              "Add Affiliate",
+              "Notifications sent to affiliates",
+              "Notification sent to you",
+              "Save",
+              "Custom Sending Domain",
+              "Connect a domain name you can use to send emails from to your affiliates.",
+              "Add Affiliate",
+              "Save"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "input",
+        "navigation bar",
+        "page",
+        "section header",
+        "table row"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TR_L13",
+      "name": "Subscription",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Subscription"
+      ],
+      "screen_ids": [
+        "297:12720"
+      ],
+      "count": 1,
+      "representative_screen": "297:12720",
+      "representative_name": "Subscription",
+      "dimensions": {
+        "width": 1440,
+        "height": 1412
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (270x1412), Center main_content (1170x1412)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Navigation bar ",
+            "width_approx": 270,
+            "height_approx": 1412,
+            "role": "navigation_sidebar",
+            "components": [
+              "Navigation bar ",
+              "Sidebar Items [Sidebar] ",
+              "User",
+              "Sidebar Header"
+            ],
+            "text_labels": [
+              "Trakr",
+              "Dashboard",
+              "Preferences",
+              "Billing",
+              "Subscriptions",
+              "1,320 Credit left",
+              "Upgrade Plan",
+              "kathrynm@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1170,
+            "height_approx": 1412,
+            "role": "main_content",
+            "components": [
+              "Pricing",
+              "Badge",
+              "Table Header Cell ",
+              "Table Row Cell ",
+              "Page",
+              "Toggle button",
+              "section header"
+            ],
+            "text_labels": [
+              "/",
+              "Switch to Influencer Mode",
+              "Invite affiliate",
+              "Subscription Plan",
+              "You are currently on the Free Plan.",
+              "Need Help?",
+              "Filter by",
+              "Filter by",
+              "Filter by",
+              "Filter by",
+              "Affiliate program Details",
+              "Connect Payment Processor",
+              "Others",
+              "Subscription History",
+              "Track and manage your subscription history effortlessly."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "badge",
+        "navigation bar",
+        "page",
+        "pricing",
+        "section header",
+        "table header cell",
+        "table row cell",
+        "toggle button"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

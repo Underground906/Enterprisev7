@@ -1,0 +1,4331 @@
+{
+  "kit": "Tendly CRM",
+  "file_key": "ibUAqii0Lx1BiP6OvtME0l",
+  "analyzed_at": "2026-02-19T17:32:39.178217",
+  "unique_layouts": 38,
+  "total_screens": 48,
+  "dedup_ratio": "48 screens -> 38 templates (79%)",
+  "layouts": [
+    {
+      "layout_id": "TE_L1",
+      "name": "Cover",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:wide|center:main_content:medium|right:right_panel:narrow",
+      "screens_using": [
+        "Cover"
+      ],
+      "screen_ids": [
+        "758:13076"
+      ],
+      "count": 1,
+      "representative_screen": "758:13076",
+      "representative_name": "Cover",
+      "dimensions": {
+        "width": 1600,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1610x1015), Center main_content (419x39), Center main_content (517x39), Center main_content (1229x362), Center main_content (332x56), Right right_panel (241x92)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Background Pattern / Dark",
+            "width_approx": 1610,
+            "height_approx": 1015,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Email",
+            "width_approx": 419,
+            "height_approx": 39,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "unpixeldesign@gmail.com"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Description",
+            "width_approx": 517,
+            "height_approx": 39,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Cover - Content",
+            "width_approx": 1229,
+            "height_approx": 362,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "WEBSITE",
+              "MASTER FILE",
+              "Tendly - Web Template",
+              "CRM - Website Template UI Kit"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Library Type",
+            "width_approx": 332,
+            "height_approx": 56,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "UNPIXEL DESIGN"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Figma",
+            "width_approx": 241,
+            "height_approx": 92,
+            "role": "right_panel",
+            "components": [
+              "Figma logo"
+            ],
+            "text_labels": [
+              "Figma"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "figma logo"
+      ],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "TE_L2",
+      "name": "Set New Password",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Set New Password",
+        "Forgot Password"
+      ],
+      "screen_ids": [
+        "901:9527",
+        "999:4676"
+      ],
+      "count": 2,
+      "representative_screen": "901:9527",
+      "representative_name": "Set New Password",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x814), Center main_content (1440x86)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main Content",
+            "width_approx": 1440,
+            "height_approx": 814,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Text Input",
+              "lock"
+            ],
+            "text_labels": [
+              "Create New Password",
+              "Enter your details to sign up",
+              "Create New Password"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 86,
+            "role": "main_content",
+            "components": [
+              "file-text",
+              "help-circle",
+              "lock"
+            ],
+            "text_labels": [
+              "© 2024 Tendly",
+              "Privacy",
+              "Terms",
+              "Get help"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "file-text",
+        "help-circle",
+        "lock",
+        "text input"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L3",
+      "name": "Teams",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Teams"
+      ],
+      "screen_ids": [
+        "991:5054"
+      ],
+      "count": 1,
+      "representative_screen": "991:5054",
+      "representative_name": "Teams",
+      "dimensions": {
+        "width": 1440,
+        "height": 1601
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x178), Center main_content (1200x1167)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1200,
+            "height_approx": 178,
+            "role": "main_content",
+            "components": [
+              "user"
+            ],
+            "text_labels": [
+              "Our Teams",
+              "Meet The People Behind The Product"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container_Features",
+            "width_approx": 1200,
+            "height_approx": 1167,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Darlene Robertson",
+              "Co-Founder & CEO",
+              "Ralph Edwards",
+              "Co-Founder & CTO",
+              "Dianne Russell",
+              "Engineering",
+              "Albert Flores",
+              "Engineering",
+              "Theresa Webb",
+              "Human Resources",
+              "Robert Fox",
+              "Growth",
+              "Marvin McKinney",
+              "Engineering",
+              "Darlene Robertson"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "user"
+      ],
+      "capabilities": [
+        "e_commerce",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L4",
+      "name": "Solution",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Solution",
+        "Feature Section"
+      ],
+      "screen_ids": [
+        "1024:32295",
+        "966:3496"
+      ],
+      "count": 2,
+      "representative_screen": "1024:32295",
+      "representative_name": "Solution",
+      "dimensions": {
+        "width": 1440,
+        "height": 1124
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x250), Center main_content (1160x642)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1160,
+            "height_approx": 250,
+            "role": "main_content",
+            "components": [
+              "zap"
+            ],
+            "text_labels": [
+              "Solutions",
+              "The Best Solutions for Your Business",
+              "Strong relationships start with strong interactions. Our feature lets you personalize customer experiences, building loyalty and revenue."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 40894",
+            "width_approx": 1160,
+            "height_approx": 642,
+            "role": "main_content",
+            "components": [
+              "Table Cell",
+              "Revenue"
+            ],
+            "text_labels": [
+              "Provide an Exceptional Customer Experience",
+              "Remove the complexity and inconsistency of managing your growing customer data in spreadsheets, and switch to a customer relationship management solution that grows with you",
+              "Win More Sales",
+              "Quickly tailor your sales pipeline to match each step of your process, and adapt it as you grow",
+              "Complete Control",
+              "Feel in control of your sales as you tailor your pipeline to match your process and spot the deals in need of attention"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "button",
+        "checkbox",
+        "table cell",
+        "table header",
+        "zap"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "form",
+        "map",
+        "messaging",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L5",
+      "name": "Benefit",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Benefit"
+      ],
+      "screen_ids": [
+        "1024:32981"
+      ],
+      "count": 1,
+      "representative_screen": "1024:32981",
+      "representative_name": "Benefit",
+      "dimensions": {
+        "width": 1440,
+        "height": 702
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x250), Center main_content (1160x204)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1160,
+            "height_approx": 250,
+            "role": "main_content",
+            "components": [
+              "help-circle"
+            ],
+            "text_labels": [
+              "Why Tendly",
+              "Why Should Your CRM be Any Different?",
+              "Ullamcorper diam elit eu eu mauris. Ac eget magna nunc gravida. Fames morbi vitae pharetra pharetra ac ullamcorper ornares ed erat est sem luctus"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1160,
+            "height_approx": 204,
+            "role": "main_content",
+            "components": [
+              "codesandbox",
+              "git-pull-request",
+              "lock"
+            ],
+            "text_labels": [
+              "Advanced Permission Control",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "True Multiplayer Collaboration",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "Fully Secure, Fully Compliant",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "codesandbox",
+        "git-pull-request",
+        "help-circle",
+        "lock"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L6",
+      "name": "FAQ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "FAQ",
+        "FAQ"
+      ],
+      "screen_ids": [
+        "1024:33364",
+        "966:4387"
+      ],
+      "count": 2,
+      "representative_screen": "1024:33364",
+      "representative_name": "FAQ",
+      "dimensions": {
+        "width": 1440,
+        "height": 853
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x178), Center main_content (850x467)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1200,
+            "height_approx": 178,
+            "role": "main_content",
+            "components": [
+              "star"
+            ],
+            "text_labels": [
+              "FAQs",
+              "Frequently Asked Questions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 850,
+            "height_approx": 467,
+            "role": "main_content",
+            "components": [
+              "FAQ"
+            ],
+            "text_labels": [
+              "What is CRM software and how does it enhance the sales process?",
+              "What are the benefits of integrating marketing automation with CRM platforms?",
+              "Integrating marketing automation with CRM platforms allows for seamless workflow automation, efficient lead generation, and the ability to run targeted marketing campaigns, all within a unified system.",
+              "What makes Zoho CRM a popular choice among CRM platforms?",
+              "How does a sales CRM differ from other types of CRM systems?"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "faq",
+        "star"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L7",
+      "name": "Hero",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Hero"
+      ],
+      "screen_ids": [
+        "964:2810"
+      ],
+      "count": 1,
+      "representative_screen": "964:2810",
+      "representative_name": "Hero",
+      "dimensions": {
+        "width": 1440,
+        "height": 832
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x500), Center main_content (1200x120)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 500,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Table Header",
+              "List Contact",
+              "Avatar"
+            ],
+            "text_labels": [
+              "Finally, All of Your Contact In One Place",
+              "Giving you a bird's-eye view of everything you know about the people, companies and organizations that you do business with",
+              "Contacts",
+              "Kristin Watson",
+              "kristinwatson@mail.com",
+              "Call",
+              "Email",
+              "Message",
+              "More"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1200,
+            "height_approx": 120,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Minimize data entry with\nintegration syncing",
+              "See key contact information \nat a glance",
+              "Record every interaction \nwith your contacts"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "button",
+        "list contact",
+        "table header"
+      ],
+      "capabilities": [
+        "content_creation",
+        "data_table",
+        "form",
+        "map",
+        "messaging",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L8",
+      "name": "Hero",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Hero"
+      ],
+      "screen_ids": [
+        "942:1328"
+      ],
+      "count": 1,
+      "representative_screen": "942:1328",
+      "representative_name": "Hero",
+      "dimensions": {
+        "width": 1440,
+        "height": 1163
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1344x362), Center main_content (1344x633)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1344,
+            "height_approx": 362,
+            "role": "main_content",
+            "components": [
+              "arrow-right",
+              "codesandbox",
+              "Button"
+            ],
+            "text_labels": [
+              "Tendly Automation is now live",
+              "Unlock Growth Potential of Customer Experiences",
+              "Build stronger customer relationships, make more sales and save time. Tendly makes it easy to build the exact CRM your business needs",
+              "Start for Free",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illusttration",
+            "width_approx": 1344,
+            "height_approx": 633,
+            "role": "main_content",
+            "components": [
+              "Widget",
+              "search-02",
+              "Menu",
+              "Chart",
+              "Avatar",
+              "Contacts",
+              "chevron-right",
+              "Tasks",
+              "Button",
+              "chevron-down",
+              "Calendar"
+            ],
+            "text_labels": [
+              "Dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-right",
+        "avatar",
+        "button",
+        "calendar",
+        "chart",
+        "chevron-down",
+        "chevron-right",
+        "codesandbox",
+        "contacts",
+        "download-circle-02",
+        "menu",
+        "search-02",
+        "tasks",
+        "widget"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L9",
+      "name": "Features",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Features"
+      ],
+      "screen_ids": [
+        "952:1249"
+      ],
+      "count": 1,
+      "representative_screen": "952:1249",
+      "representative_name": "Features",
+      "dimensions": {
+        "width": 1440,
+        "height": 1281
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x315), Center main_content (1160x734)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1160,
+            "height_approx": 315,
+            "role": "main_content",
+            "components": [
+              "star"
+            ],
+            "text_labels": [
+              "Custom CRM",
+              "Customized CRM: Personalized to Perfection For You",
+              "Strong relationships start with strong interactions. Our feature lets you personalize customer experiences, building loyalty and revenue."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 40894",
+            "width_approx": 1160,
+            "height_approx": 734,
+            "role": "main_content",
+            "components": [
+              "Card Home 2"
+            ],
+            "text_labels": [
+              "Contact Management",
+              "Be more organized with your customer, easily track conversations, know the history and deliver more personal experiences",
+              "Task Management",
+              "Make sense of your to-do list with features that help you to prioritize your tasks, plan your time and meet deadlines",
+              "Sales Pipeline",
+              "Feel in control of your sales as you tailor your pipeline to match your process and spot the deals in need of attention",
+              "Sales Analytics",
+              "Make more informed business decisions as you easily spot the activities having the most impact on your sales"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card home 2",
+        "star"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "form",
+        "map",
+        "messaging",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L10",
+      "name": "Benefit",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Benefit",
+        "Benefit"
+      ],
+      "screen_ids": [
+        "1016:8114",
+        "924:5753"
+      ],
+      "count": 2,
+      "representative_screen": "1016:8114",
+      "representative_name": "Benefit",
+      "dimensions": {
+        "width": 1440,
+        "height": 930
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x250), Center main_content (1160x432)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1160,
+            "height_approx": 250,
+            "role": "main_content",
+            "components": [
+              "help-circle"
+            ],
+            "text_labels": [
+              "Why Tendly",
+              "Why Should Your CRM be Any Different?",
+              "Ullamcorper diam elit eu eu mauris. Ac eget magna nunc gravida. Fames morbi vitae pharetra pharetra ac ullamcorper ornares ed erat est sem luctus"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Grid",
+            "width_approx": 1160,
+            "height_approx": 432,
+            "role": "main_content",
+            "components": [
+              "filter",
+              "mouse-pointer",
+              "git-pull-request",
+              "chrome",
+              "Card Benefit"
+            ],
+            "text_labels": [
+              "Quick Actions",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "Automatic Enrichment",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "Chrome Extension",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "Contact Analysis",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "Filters",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida",
+              "Tiered Sorting",
+              "Netus aliquam integer sodales nisi porttitor fringilla ongue diam enim gravida"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bar-chart-2",
+        "card benefit",
+        "chrome",
+        "filter",
+        "git-pull-request",
+        "help-circle",
+        "mouse-pointer",
+        "shuffle"
+      ],
+      "capabilities": [
+        "analytics",
+        "data_table",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L11",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "1006:3779"
+      ],
+      "count": 1,
+      "representative_screen": "1006:3779",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 1070
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x294), Center main_content (1160x504)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main Content",
+            "width_approx": 1160,
+            "height_approx": 294,
+            "role": "main_content",
+            "components": [
+              "coin"
+            ],
+            "text_labels": [
+              "Pricing",
+              "Choose Your Perfect Plan",
+              "Designed for every stage of your journey. Start today, no credit card required.",
+              "Monthly",
+              "Annually"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing List",
+            "width_approx": 1160,
+            "height_approx": 504,
+            "role": "main_content",
+            "components": [
+              "Card"
+            ],
+            "text_labels": [
+              "Standard",
+              "$29 per month",
+              "Simple CRM for small teams",
+              "This Plan Includes:",
+              "Unlimited contacts",
+              "Bulk emailing",
+              "AI Integration",
+              "View & share up to 3 years",
+              "Collaboration & permissions",
+              "Start Free Trial",
+              "Pro",
+              "$39 per month",
+              "Advanced CRM for medium teams",
+              "Everything in Standard, plus:",
+              "Email sequences"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card",
+        "coin"
+      ],
+      "capabilities": [
+        "data_table",
+        "e_commerce",
+        "editing",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "TE_L12",
+      "name": "Header & Footer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Header & Footer"
+      ],
+      "screen_ids": [
+        "192:56614"
+      ],
+      "count": 1,
+      "representative_screen": "192:56614",
+      "representative_name": "Header & Footer",
+      "dimensions": {
+        "width": 1472,
+        "height": 665
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x418), Center main_content (1440x191)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Property 1=Header",
+            "width_approx": 1440,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Header",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Property 1=Footer",
+            "width_approx": 1440,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L13",
+      "name": "Sign Up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sign Up",
+        "Sign In"
+      ],
+      "screen_ids": [
+        "999:4701",
+        "999:12001"
+      ],
+      "count": 2,
+      "representative_screen": "999:4701",
+      "representative_name": "Sign Up",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x100), Center main_content (1440x714), Center main_content (1440x86)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 100,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Tendly"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main Content",
+            "width_approx": 1440,
+            "height_approx": 714,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Text Input",
+              "user-01"
+            ],
+            "text_labels": [
+              "Create a new account",
+              "Enter your details to sign up",
+              "Sign Up",
+              "By creating an account, you agreeing to our Terms and Conditions, and Privacy Policy",
+              "Already have an account? Sign In"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 86,
+            "role": "main_content",
+            "components": [
+              "file-text",
+              "help-circle",
+              "lock"
+            ],
+            "text_labels": [
+              "© 2024 Tendly",
+              "Privacy",
+              "Terms",
+              "Get help"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "checkbox",
+        "file-text",
+        "help-circle",
+        "lock",
+        "text input",
+        "user-01"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L14",
+      "name": "Main Content",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Main Content",
+        "Main Content",
+        "Main Content"
+      ],
+      "screen_ids": [
+        "1022:21807",
+        "1019:18265",
+        "1019:14150"
+      ],
+      "count": 3,
+      "representative_screen": "1022:21807",
+      "representative_name": "Main Content",
+      "dimensions": {
+        "width": 1200,
+        "height": 640
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1029x300), Center main_content (1380x300), Center main_content (1200x532)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1029,
+            "height_approx": 300,
+            "role": "main_content",
+            "components": [
+              "Customer"
+            ],
+            "text_labels": [
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Balla Daniella",
+              "Co-Founder, Heroes Digital",
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Hajdú Szilveszter",
+              "Co-Founder, Heroes Digital",
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Szekeres Dalma",
+              "Co-Founder, Heroes Digital"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List",
+            "width_approx": 1380,
+            "height_approx": 300,
+            "role": "main_content",
+            "components": [
+              "Customer"
+            ],
+            "text_labels": [
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Charolette Hanlin",
+              "Co-Founder, Heroes Digital",
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Szabó Jakab",
+              "Co-Founder, Heroes Digital",
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Katona Beatrix",
+              "Co-Founder, Heroes Digital",
+              "“Payments are the main interaction point between Accenture’s financial services clients and their customers, and are core to our relationships beyond that sector too.”",
+              "Charolette Hanlin",
+              "Co-Founder, Heroes Digital"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1200,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "customer"
+      ],
+      "capabilities": [
+        "e_commerce"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L15",
+      "name": "About",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "About"
+      ],
+      "screen_ids": [
+        "991:4698"
+      ],
+      "count": 1,
+      "representative_screen": "991:4698",
+      "representative_name": "About",
+      "dimensions": {
+        "width": 1440,
+        "height": 1270
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x130), Center main_content (1200x520), Center main_content (1200x316)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1200,
+            "height_approx": 130,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "We Make CRM Made Easy",
+              "Tendly was launched following the founders' frustration with existing CRM services that were either overly simplistic or far too complex for most businesses",
+              "We built Tendly to deliver on these values and today Tendly is used by thousands of businesses of all sizes all over the world"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 1200,
+            "height_approx": 520,
+            "role": "main_content",
+            "components": [
+              "play"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Stats",
+            "width_approx": 1200,
+            "height_approx": 316,
+            "role": "main_content",
+            "components": [
+              "home"
+            ],
+            "text_labels": [
+              "Headquarters",
+              "Liverpool, UK",
+              "2024",
+              "Established",
+              "20+",
+              "Team members",
+              "10,000+",
+              "Customers"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "home",
+        "play"
+      ],
+      "capabilities": [
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L16",
+      "name": "Icons",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Icons",
+        "Company Logo"
+      ],
+      "screen_ids": [
+        "171:57809",
+        "692:5882"
+      ],
+      "count": 2,
+      "representative_screen": "171:57809",
+      "representative_name": "Icons",
+      "dimensions": {
+        "width": 1440,
+        "height": 1643
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x191), Center main_content (1412x986), Center main_content (1440x418)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Icons",
+            "width_approx": 1412,
+            "height_approx": 986,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Icons",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "header & footer"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L17",
+      "name": "Values",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Values"
+      ],
+      "screen_ids": [
+        "991:4972"
+      ],
+      "count": 1,
+      "representative_screen": "991:4972",
+      "representative_name": "Values",
+      "dimensions": {
+        "width": 1440,
+        "height": 981
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x805)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 805,
+            "role": "main_content",
+            "components": [
+              "Card",
+              "zap"
+            ],
+            "text_labels": [
+              "Our Values",
+              "Our Values & Believe",
+              "hey shape us and guide our decisions on a daily basis"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card",
+        "zap"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L18",
+      "name": "Hero",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Hero"
+      ],
+      "screen_ids": [
+        "1022:24754"
+      ],
+      "count": 1,
+      "representative_screen": "1022:24754",
+      "representative_name": "Hero",
+      "dimensions": {
+        "width": 1440,
+        "height": 916
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x900)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Task",
+              "x",
+              "Badge",
+              "Revenue",
+              "zap",
+              "calendar-date",
+              "Avatar",
+              "Button",
+              "Widget",
+              "user-01",
+              "arrows-diagonal",
+              "Calendar"
+            ],
+            "text_labels": [
+              "CRM for Startups",
+              "Empowering Your Startup with Real-time CRM for Growth",
+              "Build stronger customer relationships, make more sales and save time. Tendly makes it easy to build the exact CRM your business needs",
+              "Start for Free",
+              "Talk to Sales",
+              "Dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrows-diagonal",
+        "avatar",
+        "badge",
+        "button",
+        "calendar",
+        "calendar-date",
+        "check-square",
+        "dots-horizontal",
+        "file-01",
+        "logos",
+        "message-dots-circle",
+        "message-text-square",
+        "revenue",
+        "task",
+        "user-01",
+        "widget",
+        "x",
+        "zap"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L19",
+      "name": "Integration",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Integration",
+        "Integration"
+      ],
+      "screen_ids": [
+        "1024:33042",
+        "966:3960"
+      ],
+      "count": 2,
+      "representative_screen": "1024:33042",
+      "representative_name": "Integration",
+      "dimensions": {
+        "width": 1440,
+        "height": 953
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x777)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 777,
+            "role": "main_content",
+            "components": [
+              "google_drive",
+              "steam",
+              "Button",
+              "linear",
+              "intercom",
+              "jira",
+              "tripadvisor",
+              "zeplin",
+              "coin",
+              "airbnb",
+              "sound_cloud",
+              "opsgenie",
+              "gnome",
+              "vk",
+              "invision",
+              "marvel",
+              "framer",
+              "wechat",
+              "shazam",
+              "adobe"
+            ],
+            "text_labels": [
+              "Integrations",
+              "Do Even More with Integrations",
+              "Get more done in a day by connecting Tendly to all your favorite software - giving you one complete view of your customer",
+              "View All Integrations"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "adobe",
+        "airbnb",
+        "button",
+        "coin",
+        "framer",
+        "gnome",
+        "google_drive",
+        "intercom",
+        "invision",
+        "jira",
+        "linear",
+        "marvel",
+        "opsgenie",
+        "shazam",
+        "sound_cloud",
+        "steam",
+        "tripadvisor",
+        "vk",
+        "wechat",
+        "zeplin"
+      ],
+      "capabilities": [
+        "editing",
+        "messaging",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L20",
+      "name": "Hero",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Hero"
+      ],
+      "screen_ids": [
+        "917:1237"
+      ],
+      "count": 1,
+      "representative_screen": "917:1237",
+      "representative_name": "Hero",
+      "dimensions": {
+        "width": 1440,
+        "height": 946
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x930)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 930,
+            "role": "main_content",
+            "components": [
+              "Widget",
+              "search-02",
+              "Menu",
+              "Chart",
+              "Button",
+              "Avatar",
+              "Contacts",
+              "chevron-right",
+              "Tasks",
+              "arrow-right",
+              "codesandbox",
+              "chevron-down",
+              "play",
+              "Calendar"
+            ],
+            "text_labels": [
+              "Tendly Automation is now live",
+              "Unlock Growth Potential of Customer Experiences",
+              "Build stronger customer relationships, make more sales and save time. Tendly makes it easy to build the exact CRM your business needs",
+              "Start for Free",
+              "Talk to Sales",
+              "Dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-right",
+        "avatar",
+        "button",
+        "calendar",
+        "chart",
+        "chevron-down",
+        "chevron-right",
+        "codesandbox",
+        "contacts",
+        "download-circle-02",
+        "menu",
+        "play",
+        "search-02",
+        "tasks",
+        "widget"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L21",
+      "name": "Features",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Features"
+      ],
+      "screen_ids": [
+        "924:5838"
+      ],
+      "count": 1,
+      "representative_screen": "924:5838",
+      "representative_name": "Features",
+      "dimensions": {
+        "width": 1440,
+        "height": 1398
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x1246)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 1246,
+            "role": "main_content",
+            "components": [
+              "Card Home 1",
+              "zap"
+            ],
+            "text_labels": [
+              "Power Features",
+              "Features That’s Up Close and Personal",
+              "Strong relationships start with strong interactions. Our feature lets you personalize customer experiences, building loyalty and revenue."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card home 1",
+        "zap"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L22",
+      "name": "Pricing",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "940:1283"
+      ],
+      "count": 1,
+      "representative_screen": "940:1283",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 1142
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x966)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1200,
+            "height_approx": 966,
+            "role": "main_content",
+            "components": [
+              "Card",
+              "coin"
+            ],
+            "text_labels": [
+              "Pricing",
+              "Choose Your Perfect Plan",
+              "Designed for every stage of your journey. Start today, no credit card required.",
+              "Monthly",
+              "Annually",
+              "Standard",
+              "This Plan Includes:",
+              "Start Free Trial",
+              "Pro",
+              "Everything in Standard, plus:",
+              "Start Free Trial",
+              "Beyond limits",
+              "Everything in Standard & Pro, plus:",
+              "Talk to Sales"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "card",
+        "coin"
+      ],
+      "capabilities": [
+        "data_table",
+        "e_commerce",
+        "editing",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L23",
+      "name": "Customers",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Customers",
+        "Customers"
+      ],
+      "screen_ids": [
+        "1006:3852",
+        "960:1196"
+      ],
+      "count": 2,
+      "representative_screen": "1006:3852",
+      "representative_name": "Customers",
+      "dimensions": {
+        "width": 1440,
+        "height": 1090
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x250), Center main_content (1200x532), Center main_content (212x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1200,
+            "height_approx": 250,
+            "role": "main_content",
+            "components": [
+              "user"
+            ],
+            "text_labels": [
+              "Our Customer",
+              "See What Our Customers Are Saying",
+              "Strong relationships start with strong interactions. Our feature lets you personalize customer experiences, building loyalty and revenue."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main Content",
+            "width_approx": 1200,
+            "height_approx": 532,
+            "role": "main_content",
+            "components": [
+              "Customer"
+            ],
+            "text_labels": [
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”",
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”",
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”",
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”",
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”",
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”",
+              "“We used to manage our contacts using Google Sheets, and it was a nightmare of duplicates. Before folk, life was hard. Now it’s very easy.”"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 212,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "See Customer Reviews"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "customer",
+        "user"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L24",
+      "name": "Colors",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Colors"
+      ],
+      "screen_ids": [
+        "164:235"
+      ],
+      "count": 1,
+      "representative_screen": "164:235",
+      "representative_name": "Colors",
+      "dimensions": {
+        "width": 1440,
+        "height": 2924
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x191), Center main_content (1200x392), Center main_content (1200x392), Center main_content (1200x392), Center main_content (1200x716), Center main_content (1440x418)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Primary",
+            "width_approx": 1200,
+            "height_approx": 392,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Primary",
+              "6 colors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "4",
+            "width_approx": 1200,
+            "height_approx": 392,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Accent/Aqua",
+              "6 colors",
+              "Secondary/Green",
+              "6 colors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "5",
+            "width_approx": 1200,
+            "height_approx": 392,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Secondary/Red",
+              "6 colors",
+              "Secondary/Yellow",
+              "6 colors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Neutral/Solid",
+            "width_approx": 1200,
+            "height_approx": 716,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Neutral/Solid",
+              "12 colors"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Colors",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "header & footer"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L25",
+      "name": "Typography",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Typography"
+      ],
+      "screen_ids": [
+        "164:93"
+      ],
+      "count": 1,
+      "representative_screen": "164:93",
+      "representative_name": "Typography",
+      "dimensions": {
+        "width": 1440,
+        "height": 3043
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x282), Center main_content (191x69), Center main_content (205x66), Center main_content (187x65), Center main_content (123x41), Center main_content (274x121), Center main_content (223x103), Center main_content (192x92), Center main_content (200x81), Center main_content (212x98), Center main_content (108x41), Center main_content (1186x135), Center main_content (1186x129), Center main_content (1186x117), Center main_content (1186x108), Center main_content (77x41), Center main_content (1200x140), Center main_content (1440x191), Center main_content (1440x418)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Title Font",
+            "width_approx": 1200,
+            "height_approx": 282,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Inter Display V",
+              "Download Font: https://rsms.me/"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 1",
+            "width_approx": 191,
+            "height_approx": 69,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Heading/Large",
+              "Heading Large / Medium / 24px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 6",
+            "width_approx": 205,
+            "height_approx": 66,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Heading/Medium",
+              "Heading Medium / Medium / 20px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 7",
+            "width_approx": 187,
+            "height_approx": 65,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Heading/Small",
+              "Heading Small / Medium / 18px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Heading",
+            "width_approx": 123,
+            "height_approx": 41,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Heading"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 1",
+            "width_approx": 274,
+            "height_approx": 121,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Display 1",
+              "Display Large / Medium / 68px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 2",
+            "width_approx": 223,
+            "height_approx": 103,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Display 2",
+              "Display Medium / Medium / 52px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 4",
+            "width_approx": 192,
+            "height_approx": 92,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Display 4",
+              "Display XSmall / Medium / 40px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 5",
+            "width_approx": 200,
+            "height_approx": 81,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Display 5",
+              "Display XXSmall / Medium / 32px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "heading 3",
+            "width_approx": 212,
+            "height_approx": 98,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Display 3",
+              "Display Small / Medium / 48px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Display",
+            "width_approx": 108,
+            "height_approx": 41,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Display"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 13894",
+            "width_approx": 1186,
+            "height_approx": 135,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Body Large",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Large / Semibold / 18px",
+              "Body Large",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Large / Medium / 18px",
+              "Body Large",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Large / Regular / 18px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 13895",
+            "width_approx": 1186,
+            "height_approx": 129,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Body Medium",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Medium / Semibold / 16px",
+              "Body Medium",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Medium / Medium / 16px",
+              "Body Medium",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Medium / Regular / 16px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 13896",
+            "width_approx": 1186,
+            "height_approx": 117,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Body Small",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Small / Semibold / 14px",
+              "Body Small",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Small / Medium / 14px",
+              "Body Small",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Small / Regular / 14px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 13897",
+            "width_approx": 1186,
+            "height_approx": 108,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Body XSmall",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Small / Semibold / 12px",
+              "Body XSmall",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Small / Medium / 12px",
+              "Body XSmall",
+              "The quick brown fox jumps over the lazy dog",
+              "Body Small / Regular / 12px"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 77,
+            "height_approx": 41,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Body"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Typeface",
+            "width_approx": 1200,
+            "height_approx": 140,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Aa",
+              "Inter Display V",
+              "Medium",
+              "Aa",
+              "Inter Display V",
+              "Regular"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Typography",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "header & footer"
+      ],
+      "capabilities": [
+        "analytics",
+        "file_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L26",
+      "name": "Logo Integration",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Logo Integration"
+      ],
+      "screen_ids": [
+        "162:54512"
+      ],
+      "count": 1,
+      "representative_screen": "162:54512",
+      "representative_name": "Logo Integration",
+      "dimensions": {
+        "width": 1440,
+        "height": 2012
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x191), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1264x112), Center main_content (1264x160), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1264x64), Center main_content (1440x418)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Other",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Finance",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Music",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Video",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / OS",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Design",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Productivity",
+            "width_approx": 1264,
+            "height_approx": 112,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Coding",
+            "width_approx": 1264,
+            "height_approx": 160,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Messengers",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [
+              "google meet"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Social networks",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Integration icons / Browsers",
+            "width_approx": 1264,
+            "height_approx": 64,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Logo",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "google meet",
+        "header & footer"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L27",
+      "name": "Native",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Native"
+      ],
+      "screen_ids": [
+        "171:56853"
+      ],
+      "count": 1,
+      "representative_screen": "171:56853",
+      "representative_name": "Native",
+      "dimensions": {
+        "width": 1697,
+        "height": 3608
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1697x191), Center main_content (49x31), Center main_content (75x31), Center main_content (1472x219), Center main_content (123x31), Center main_content (1697x418), Center main_content (1232x914), Center main_content (1472x1224)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1697,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 49,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "CTA"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 75,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Footer"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 1472,
+            "height_approx": 219,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "menu-01",
+              "chevron-down"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Navigation",
+            "width_approx": 123,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Navigation"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1697,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Native",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1232,
+            "height_approx": 914,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales",
+              "All-in-one \nCRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1472,
+            "height_approx": 1224,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Tendly",
+              "2024 Tendly. All right reserved",
+              "Tendly",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "chevron-down",
+        "header & footer",
+        "menu-01"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L28",
+      "name": "Forms",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Forms"
+      ],
+      "screen_ids": [
+        "662:18477"
+      ],
+      "count": 1,
+      "representative_screen": "662:18477",
+      "representative_name": "Forms",
+      "dimensions": {
+        "width": 1656,
+        "height": 2167
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1656x191), Center main_content (576x136), Center main_content (400x128), Center main_content (216x316), Center main_content (96x45), Center main_content (183x45), Center main_content (145x45), Center main_content (1456x692), Center main_content (232x45), Center main_content (1656x418)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1656,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Toggle",
+            "width_approx": 576,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Radio Button",
+            "width_approx": 400,
+            "height_approx": 128,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Checkbox",
+            "width_approx": 216,
+            "height_approx": 316,
+            "role": "main_content",
+            "components": [
+              "check",
+              "minus"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Label",
+            "width_approx": 96,
+            "height_approx": 45,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Toggle"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Label",
+            "width_approx": 183,
+            "height_approx": 45,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Radio Button"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Label",
+            "width_approx": 145,
+            "height_approx": 45,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Checkbox"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Text Input",
+            "width_approx": 1456,
+            "height_approx": 692,
+            "role": "main_content",
+            "components": [
+              "eye",
+              "US - United States",
+              "zap"
+            ],
+            "text_labels": [
+              "Label",
+              "+1",
+              "Phone number",
+              "This is a hint text to help user",
+              "Label",
+              "+1",
+              "Phone number",
+              "This is a hint text to help user",
+              "Label",
+              "Placeholder",
+              "This is a hint text to help user",
+              "Label",
+              "Placeholder",
+              "This is a hint text to help user",
+              "Label"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Label",
+            "width_approx": 232,
+            "height_approx": 45,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Basic Input Field"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1656,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Forms",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check",
+        "eye",
+        "header & footer",
+        "minus",
+        "us - united states",
+        "zap"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L29",
+      "name": "Button",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Button"
+      ],
+      "screen_ids": [
+        "167:3171"
+      ],
+      "count": 1,
+      "representative_screen": "167:3171",
+      "representative_name": "Button",
+      "dimensions": {
+        "width": 1440,
+        "height": 2326
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x191), Center main_content (76x27), Center main_content (70x27), Center main_content (71x27), Center main_content (63x27), Center main_content (65x31), Center main_content (76x27), Center main_content (70x27), Center main_content (71x27), Center main_content (63x27), Center main_content (95x31), Center main_content (76x27), Center main_content (70x27), Center main_content (71x27), Center main_content (63x27), Center main_content (820x1328), Center main_content (67x31), Center main_content (128x31), Center main_content (92x31), Center main_content (1440x418)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 191,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly - Styleguide System",
+              "© 2024 Unpixel. All rights reserved."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Disabled",
+            "width_approx": 76,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Disabled"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Loading",
+            "width_approx": 70,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Loading"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pressed",
+            "width_approx": 71,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Pressed"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Default",
+            "width_approx": 63,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Default"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Small",
+            "width_approx": 65,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Small"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Disabled",
+            "width_approx": 76,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Disabled"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Loading",
+            "width_approx": 70,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Loading"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pressed",
+            "width_approx": 71,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Pressed"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Default",
+            "width_approx": 63,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Default"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Medium",
+            "width_approx": 95,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Medium"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Disabled",
+            "width_approx": 76,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Disabled"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Loading",
+            "width_approx": 70,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Loading"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pressed",
+            "width_approx": 71,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Pressed"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Default",
+            "width_approx": 63,
+            "height_approx": 27,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Default"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 820,
+            "height_approx": 1328,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button",
+              "Button"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Large",
+            "width_approx": 67,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Large"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Secondary",
+            "width_approx": 128,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Secondary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Primary",
+            "width_approx": 92,
+            "height_approx": 31,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Primary"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header & Footer",
+            "width_approx": 1440,
+            "height_approx": 418,
+            "role": "main_content",
+            "components": [
+              "Header & Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "CRM - Website Template UI Kit",
+              "Button",
+              "The style guide provides to change stylistic for your design site."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "header & footer"
+      ],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L30",
+      "name": "Privacy Policy",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Privacy Policy"
+      ],
+      "screen_ids": [
+        "699:23118"
+      ],
+      "count": 1,
+      "representative_screen": "699:23118",
+      "representative_name": "Privacy Policy",
+      "dimensions": {
+        "width": 1440,
+        "height": 4144
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x355), Center main_content (1440x2797), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 355,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Privacy Policy",
+              "Last updated: March 20, 2024"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content Section",
+            "width_approx": 1440,
+            "height_approx": 2797,
+            "role": "main_content",
+            "components": [
+              "phone",
+              "map-pin",
+              "mail"
+            ],
+            "text_labels": [
+              "At Tendly, we take your privacy seriously. Please read this Privacy Policy to learn how we treat your personal data. By using or accessing our website, products, services and applications (the “Services”) in any manner, you acknowledge that you accept the practices and policies outlined below, and you hereby consent that we will collect, use and share your information as described in this Privacy Policy.",
+              "You may print a copy of this Privacy Policy by clicking here.",
+              "What this Privacy Policy Covers:",
+              "This Privacy Policy covers how we treat Personal Data that we gather when you access or use our Services. “Personal Data” means any information that identifies or relates to a particular individual and also includes information referred to as “personally identifiable information” or “personal information” under applicable data privacy laws, rules or regulations. This Privacy Policy does not cover the practices of companies we don’t own or control or people we don’t manage",
+              "Categories of Personal Data We Collect",
+              "The following list details the categories of Personal Data that we collect and have collected over the past 12 months:",
+              "In addition we also collect consumer demographic data such as age, date of birth, zip code, gender, race, ethnicity, professional employment data, job title, salary, geolocation, profiles reflecting user attributes and user behavior and identifying information in emails or letters you send us.",
+              "Categories of Sources of Personal Data",
+              "We collect Personal Data about you from the following categories of sources:",
+              "Our Commercial or Business Purposes for Collecting Personal Data",
+              "Providing, customizing and improving the services we provide. Processing orders or other transactions including billing. Providing you with the products, services or information you request. Meeting or fulfilling the reason you provided the information to us. Providing support and assistance for the Services.",
+              "Improving the Services, including testing, research, internal analytics and product development. Personalizing the Services, website content and communications based on your preferences. Doing fraud protection, security and debugging. Carrying out other business purposes stated when collecting your Personal Data or as otherwise set forth in applicable data privacy laws.",
+              "Marketing and selling the Services. Showing you advertisements, including interest-based or online behavioral advertising. Responding to correspondence that we receive from you, contacting you when necessary or requested, and sending you information about Mosaic or the Services. Sending emails and other communications according to your preferences or that display content that we think will interest you.",
+              "Meeting Legal Requirements and Enforcing Legal Terms such as Fulfilling our legal obligations under applicable law, regulation, court order or other legal process, such as preventing, detecting and investigating security incidents and potentially illegal or prohibited activities. Protecting the rights, property or safety of you, Mosaic or another party. Enforcing any agreements with you. Responding to claims that any posting or other content violates third-party rights. Resolving disputes.",
+              "We will not collect additional categories of Personal Data or use the Personal Data we collected for materially different, unrelated or incompatible purposes without providing you notice."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "cta",
+        "footer",
+        "mail",
+        "map-pin",
+        "navigation",
+        "phone"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L31",
+      "name": "Blog Detail",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Blog Detail"
+      ],
+      "screen_ids": [
+        "699:22404"
+      ],
+      "count": 1,
+      "representative_screen": "699:22404",
+      "representative_name": "Blog Detail",
+      "dimensions": {
+        "width": 1440,
+        "height": 3936
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x414), Center main_content (1440x2530), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 414,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Engineering",
+              "March 19, 2024",
+              "Introducing Tendly Automations: The Engine for your GTM team",
+              "Automations allows you to build automated processes and systems for virtually any go-to-market process. Run AI-driven actions, perform complex calculations, auto-assign tasks to teammates, and so much more"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1440,
+            "height_approx": 2530,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Text Input"
+            ],
+            "text_labels": [
+              "After seven months of non-stop building, we’re excited to announce Automations, our powerful new feature that allows you to build and automate any process right inside of Tendly.",
+              "Build systems that automatically route leads based on their potential, or auto identify customers based on their subscription and product usage data. Run AI-driven actions, perform complex calculations, auto-assign tasks to teammates and so much more.",
+              "Plus, we've integrated with popular tools like Outreach, Slack, Mailchimp, Typeform and more to make your workflows even more dynamic. We can't wait for you to use it.",
+              "Automate, iterate, accelerate",
+              "Your company is fast-growing and always changing. You need a CRM that helps you accelerate, not slow you down.",
+              "We’ve painstakingly-built Automations to be powerful enough to give you full control over your automation process to build incredible new systems. We’ve also made it’s intuitive enough to work right out of the box. Here’s how:",
+              "A beautiful, powerful visual canvas",
+              "With Automations, you can visualize and build out your GTM processes as fast as you can think. It’s your toolbox for crafting complex workflows with drag-and-drop simplicity. Map your ideas, trigger actions and see your GTM systems come to life.",
+              "You can even build workflows in real-time with teammates, collaborating just as you would in Miro or FigJam.",
+              "Out-of-the-box power with templates",
+              "Want a quick start with your automations? No problem. Easily implement pre-built workflows tailored for both sales-led and product-led strategies.",
+              "Dive into a library of over 20+ ready-to-use templates designed for your specific needs, from product-led growth to sales-led growth, RevOps, deal flow and beyond. Tweak them as you go to create your perfect automation setup.",
+              "Integrations with Slack, Outreach, Mailchimp and more",
+              "We know that automations and workflows can’t happen in a vacuum – so that’s why we’ve built five out-of-the-box integrations with some of the popular tools in today’s stack, including Outreach, Slack, Mailchimp, MixMax, and Typeform.",
+              "We also have a \"Send HTTP Request\" block that allows you to send data to and trigger events in any other tool in your stack."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "cta",
+        "footer",
+        "navigation",
+        "text input"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "map",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L32",
+      "name": "Blog",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Blog"
+      ],
+      "screen_ids": [
+        "693:14041"
+      ],
+      "count": 1,
+      "representative_screen": "693:14041",
+      "representative_name": "Blog",
+      "dimensions": {
+        "width": 1440,
+        "height": 2962
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x506), Center main_content (1440x1464), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 506,
+            "role": "main_content",
+            "components": [
+              "file-text"
+            ],
+            "text_labels": [
+              "Tendly Blog",
+              "Insights and updates from across the team",
+              "Learn more about Tendly, CRM, and GTM from members of our team and industry-leading experts"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Faq",
+            "width_approx": 1440,
+            "height_approx": 1464,
+            "role": "main_content",
+            "components": [
+              "Blog"
+            ],
+            "text_labels": [
+              "Categories",
+              "All Categories",
+              "Contract & Proposals",
+              "Customer Success",
+              "Dashboard & Analytics",
+              "Data Privacy",
+              "Help Desk",
+              "Integration Platform"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "blog",
+        "cta",
+        "file-text",
+        "footer",
+        "navigation"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "e_commerce",
+        "form",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L33",
+      "name": "FAQ",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "FAQ"
+      ],
+      "screen_ids": [
+        "680:4363"
+      ],
+      "count": 1,
+      "representative_screen": "680:4363",
+      "representative_name": "FAQ",
+      "dimensions": {
+        "width": 1440,
+        "height": 2596
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x567), Center main_content (1440x1037), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 567,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "chevron-down",
+              "search-02"
+            ],
+            "text_labels": [
+              "Frequently Asked Questions",
+              "Build stronger customer relationships, make more sales and save time. Tendly makes it easy to build the exact CRM your business needs",
+              "Search",
+              "Popular questions:",
+              "Importing",
+              "Billing",
+              "Integrations"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Faq",
+            "width_approx": 1440,
+            "height_approx": 1037,
+            "role": "main_content",
+            "components": [
+              "FAQ"
+            ],
+            "text_labels": [
+              "Categories",
+              "All Categories",
+              "Contract & Proposals",
+              "Customer Success",
+              "Dashboard & Analytics",
+              "Data Privacy",
+              "Help Desk",
+              "Integration Platform",
+              "Inventory Management",
+              "Invoicing & Accounting",
+              "Job & Time Tracking",
+              "Marketing",
+              "Project Management",
+              "Telephone & VoIP",
+              "How to create and send an invoice using Orbiz Billing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "chevron-down",
+        "cta",
+        "faq",
+        "footer",
+        "navigation",
+        "search-02"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L34",
+      "name": "Contact Us",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Contact Us"
+      ],
+      "screen_ids": [
+        "104:30777"
+      ],
+      "count": 1,
+      "representative_screen": "104:30777",
+      "representative_name": "Contact Us",
+      "dimensions": {
+        "width": 1440,
+        "height": 2265
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x1023), Center main_content (1440x250), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 1023,
+            "role": "main_content",
+            "components": [
+              "phone",
+              "Button",
+              "Text Input"
+            ],
+            "text_labels": [
+              "Contact",
+              "We're here to help",
+              "Need help, have questions or want to suggest a feature? Send us a message here. For more resources, please visit our Support Docs",
+              "Send Message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Brand",
+            "width_approx": 1440,
+            "height_approx": 250,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Powering CRM for today's startups and tomorrow's leaders"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "command",
+        "cta",
+        "eye",
+        "footer",
+        "hint",
+        "navigation",
+        "phone",
+        "text input"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "form",
+        "messaging",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L35",
+      "name": "Integrations",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Integrations"
+      ],
+      "screen_ids": [
+        "82:15669"
+      ],
+      "count": 1,
+      "representative_screen": "82:15669",
+      "representative_name": "Integrations",
+      "dimensions": {
+        "width": 1440,
+        "height": 2862
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x522), Center main_content (1440x1348), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 522,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "grid"
+            ],
+            "text_labels": [
+              "Connect Tendly to Your Favorite Tools",
+              "Build stronger customer relationships, make more sales and save time. Tendly makes it easy to build the exact CRM your business needs"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Integrations",
+            "width_approx": 1440,
+            "height_approx": 1348,
+            "role": "main_content",
+            "components": [
+              "Integration",
+              "eye",
+              "search",
+              "chevron-down"
+            ],
+            "text_labels": [
+              "Categories",
+              "All Categories",
+              "Contract & Proposals",
+              "Customer Success",
+              "Dashboard & Analytics",
+              "Data Privacy",
+              "Help Desk",
+              "Integration Platform",
+              "Inventory Management",
+              "Invoicing & Accounting",
+              "Job & Time Tracking",
+              "Marketing",
+              "Project Management",
+              "Telephone & VoIP",
+              "Search"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "chevron-down",
+        "cta",
+        "eye",
+        "footer",
+        "grid",
+        "integration",
+        "navigation",
+        "search"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "data_table",
+        "e_commerce",
+        "form",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L36",
+      "name": "Career",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Career"
+      ],
+      "screen_ids": [
+        "692:11662"
+      ],
+      "count": 1,
+      "representative_screen": "692:11662",
+      "representative_name": "Career",
+      "dimensions": {
+        "width": 1440,
+        "height": 3788
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x1062), Center main_content (1440x164), Center main_content (1440x813), Center main_content (1440x757), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 1062,
+            "role": "main_content",
+            "components": [
+              "file-text"
+            ],
+            "text_labels": [
+              "Careers",
+              "Reinventing an Entire Software Category Isn’t Easy",
+              "Dream Job Alert! Please scroll down to find your perfect match in our Open Positions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Proof",
+            "width_approx": 1440,
+            "height_approx": 164,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Trusted by thousand companies in the world"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Benefit",
+            "width_approx": 1440,
+            "height_approx": 813,
+            "role": "main_content",
+            "components": [
+              "home",
+              "globe",
+              "heart",
+              "star"
+            ],
+            "text_labels": [
+              "Benefits",
+              "Competitive Benefits",
+              "We know start-ups can be equally great and challenging, so we've put together benefits to look after you and help you bring your best to work."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Open Position Section",
+            "width_approx": 1440,
+            "height_approx": 757,
+            "role": "main_content",
+            "components": [
+              "arrow-up-right",
+              "briefcase"
+            ],
+            "text_labels": [
+              "Jobs",
+              "Jobs Opening",
+              "Hendrerit fames metus leo ut orci pretium. Sit vitae montes egestas montes mauris. Auctor vitae neque urna nam nunc pellentesque.",
+              "Product Designer",
+              "Backend Engineer",
+              "Data Analyst",
+              "Don’s see opportunity that suits you? Get notified when new roles added"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-up-right",
+        "briefcase",
+        "cta",
+        "file-text",
+        "footer",
+        "globe",
+        "heart",
+        "home",
+        "navigation",
+        "star"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L37",
+      "name": "Customer Stories",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Customer Stories"
+      ],
+      "screen_ids": [
+        "681:9387"
+      ],
+      "count": 1,
+      "representative_screen": "681:9387",
+      "representative_name": "Customer Stories",
+      "dimensions": {
+        "width": 1440,
+        "height": 3680
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x439), Center main_content (1440x164), Center main_content (1440x951), Center main_content (1440x1134), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Hero",
+            "width_approx": 1440,
+            "height_approx": 439,
+            "role": "main_content",
+            "components": [
+              "file-text"
+            ],
+            "text_labels": [
+              "Case Studies",
+              "Customers",
+              "Companies worldwide choose Tendly to transform their business, starting with their data"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 1440,
+            "height_approx": 164,
+            "role": "main_content",
+            "components": [
+              "Text Input"
+            ],
+            "text_labels": [
+              "Region",
+              "Any Region",
+              "This is a hint text to help user",
+              "Industry",
+              "Any Industry",
+              "This is a hint text to help user",
+              "Plan",
+              "Any Plan",
+              "This is a hint text to help user"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Customers",
+            "width_approx": 1440,
+            "height_approx": 951,
+            "role": "main_content",
+            "components": [
+              "Stories"
+            ],
+            "text_labels": [
+              "All Stories"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Customers",
+            "width_approx": 1440,
+            "height_approx": 1134,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Customer",
+              "user"
+            ],
+            "text_labels": [
+              "Our Customer",
+              "See What Our Customers Are Saying",
+              "Strong relationships start with strong interactions. Our feature lets you personalize customer experiences, building loyalty and revenue.",
+              "See Customer Reviews"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "cta",
+        "customer",
+        "file-text",
+        "footer",
+        "navigation",
+        "stories",
+        "text input",
+        "user"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "form",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "TE_L38",
+      "name": "Pricing",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Pricing"
+      ],
+      "screen_ids": [
+        "662:19687"
+      ],
+      "count": 1,
+      "representative_screen": "662:19687",
+      "representative_name": "Pricing",
+      "dimensions": {
+        "width": 1440,
+        "height": 4658
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x88), Center main_content (1440x982), Center main_content (1440x1466), Center main_content (1440x340), Center main_content (1440x878), Center main_content (1440x422), Center main_content (1440x482)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "chevron-down",
+              "Navigation"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Products",
+              "Solutions",
+              "Customers",
+              "Resources",
+              "Pricing",
+              "Login",
+              "Start for Free"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing",
+            "width_approx": 1440,
+            "height_approx": 982,
+            "role": "main_content",
+            "components": [
+              "Card",
+              "coin"
+            ],
+            "text_labels": [
+              "Choose Your Perfect Plan",
+              "Designed for every stage of your journey. Start today, no credit card required."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Comparison",
+            "width_approx": 1440,
+            "height_approx": 1466,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "chevron-down",
+              "chevron-up"
+            ],
+            "text_labels": [
+              "Comparison Plan",
+              "Ac fermentum orci accumsan ullamcorper magna. Cursus ullamcorper commodo nunc etiam praesent vel enim faucibus non. Euismod consequat malesuada amet mollis diam",
+              "Comparison",
+              "Payments",
+              "Checkout",
+              "Payment Links",
+              "Connect",
+              "Billing",
+              "Invoicing",
+              "Revenue Recognition"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Brand",
+            "width_approx": 1440,
+            "height_approx": 340,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Powering CRM for today's startups and tomorrow's leaders",
+              "See Customer Reviews"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "FAQ",
+            "width_approx": 1440,
+            "height_approx": 878,
+            "role": "main_content",
+            "components": [
+              "FAQ",
+              "star"
+            ],
+            "text_labels": [
+              "FAQs",
+              "Frequently Asked Questions",
+              "How to Send one-time or recurring invoices to customers",
+              "How to create and send an invoice using Orbiz Billing",
+              "Non ac commodo bibendum et ultrices turpis risus tempus viverra. Sit massa nunc donec eget quisque elit quam faucibus elementum. Amet libero malesuada aenean commodo amet enim. Mauris eget pulvinar vel aenean pellentesque amet elit. Amet egestas tempus venenatis nam. Pulvinar pretium morbi orci parturient nulla scelerisque et neque. Ultrices adipiscing sollicitudin ante fermentum ultricies.",
+              "How to Send one-time or recurring invoices to customers",
+              "How to Send one-time or recurring invoices to customers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "CTA",
+            "width_approx": 1440,
+            "height_approx": 422,
+            "role": "main_content",
+            "components": [
+              "CTA"
+            ],
+            "text_labels": [
+              "All-in-one CRM, One Tool for All Your Relationships",
+              "Build stronger customer relationships, make more sales and save time",
+              "Get Started",
+              "Talk to Sales"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 482,
+            "role": "main_content",
+            "components": [
+              "Footer"
+            ],
+            "text_labels": [
+              "Tendly",
+              "Features",
+              "Solutions",
+              "Resources",
+              "About",
+              "2024 Tendly. All right reserved"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "card",
+        "check",
+        "chevron-down",
+        "chevron-up",
+        "coin",
+        "cta",
+        "faq",
+        "footer",
+        "navigation",
+        "star",
+        "x"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "navigation",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

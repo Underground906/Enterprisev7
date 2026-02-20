@@ -1,0 +1,4517 @@
+{
+  "kit": "Huose Property",
+  "file_key": "BeqInrAMGdwwDnD4sAhpXi",
+  "analyzed_at": "2026-02-19T16:28:33.193429",
+  "unique_layouts": 44,
+  "total_screens": 141,
+  "dedup_ratio": "141 screens -> 44 templates (31%)",
+  "layouts": [
+    {
+      "layout_id": "HU_L1",
+      "name": "Thumbnail",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:narrow|center:main_content:narrow|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Thumbnail"
+      ],
+      "screen_ids": [
+        "268:56965"
+      ],
+      "count": 1,
+      "representative_screen": "268:56965",
+      "representative_name": "Thumbnail",
+      "dimensions": {
+        "width": 1600,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1149x1249), Center main_content (96x96), Center main_content (297x98), Center main_content (232x97), Center main_content (650x390), Center main_content (1235x1235), Center main_content (1205x1205), Center main_content (1250x985)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Ellipse 16",
+            "width_approx": 1149,
+            "height_approx": 1249,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 308",
+            "width_approx": 96,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 49303",
+            "width_approx": 297,
+            "height_approx": 98,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "100+ Screen"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 3",
+            "width_approx": 232,
+            "height_approx": 97,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Property Dashboard UI Kit",
+            "width_approx": 650,
+            "height_approx": 390,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Property Dashboard UI Kit"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 19",
+            "width_approx": 1235,
+            "height_approx": 1235,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 18",
+            "width_approx": 1205,
+            "height_approx": 1205,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Dashboard Huose 1",
+            "width_approx": 1250,
+            "height_approx": 985,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "map"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "HU_L2",
+      "name": "Sign Up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Sign Up",
+        "Sign In",
+        "Sign Up Filled"
+      ],
+      "screen_ids": [
+        "270:51931",
+        "270:51976",
+        "270:52020"
+      ],
+      "count": 3,
+      "representative_screen": "270:51931",
+      "representative_name": "Sign Up",
+      "dimensions": {
+        "width": 1440,
+        "height": 800
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (710x800), Center main_content (730x800), Center main_content (110x34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 710,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [
+              "With Label Text Field",
+              "Primary Button",
+              "Primary Link",
+              "Grey Button"
+            ],
+            "text_labels": [
+              "Sign Up",
+              "Already have an account?",
+              "Sign Up",
+              "or",
+              "Sign Up with Google"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Img",
+            "width_approx": 730,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Logo",
+            "width_approx": 110,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "grey button",
+        "primary button",
+        "primary link",
+        "with label text field"
+      ],
+      "capabilities": [
+        "authentication",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L3",
+      "name": "Sign In Filled",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Sign In Filled"
+      ],
+      "screen_ids": [
+        "283:66433"
+      ],
+      "count": 1,
+      "representative_screen": "283:66433",
+      "representative_name": "Sign In Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 800
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (710x800), Center main_content (110x34), Center main_content (730x800)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 710,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [
+              "With Label Text Field",
+              "Primary Button",
+              "Primary Link",
+              "Grey Button"
+            ],
+            "text_labels": [
+              "Sign In",
+              "Don’t have an account?",
+              "Sign In",
+              "or",
+              "Sign In with Google"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Logo",
+            "width_approx": 110,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Img",
+            "width_approx": 730,
+            "height_approx": 800,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "grey button",
+        "primary button",
+        "primary link",
+        "with label text field"
+      ],
+      "capabilities": [
+        "authentication",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L4",
+      "name": "Statistic Card",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Statistic Card"
+      ],
+      "screen_ids": [
+        "43:490"
+      ],
+      "count": 1,
+      "representative_screen": "43:490",
+      "representative_name": "Statistic Card",
+      "dimensions": {
+        "width": 1940,
+        "height": 1848
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1940x148), Center main_content (1940x1700)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1940,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Statistic Card"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1940,
+            "height_approx": 1700,
+            "role": "main_content",
+            "components": [
+              "Kebab Menu",
+              "Small Chart"
+            ],
+            "text_labels": [
+              "Chart",
+              "Large",
+              "Sales",
+              "Sales",
+              "Property",
+              "Leads",
+              "Leads",
+              "Small",
+              "Leads",
+              "Leads",
+              "Leads",
+              "Leads",
+              "Leads",
+              "Leads",
+              "Sales"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "kebab menu",
+        "label",
+        "primary icon button",
+        "small chart",
+        "trend-down",
+        "trend-up",
+        "white icon button"
+      ],
+      "capabilities": [
+        "analytics",
+        "map",
+        "navigation"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L5",
+      "name": "Calendar",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Calendar"
+      ],
+      "screen_ids": [
+        "283:6564"
+      ],
+      "count": 1,
+      "representative_screen": "283:6564",
+      "representative_name": "Calendar",
+      "dimensions": {
+        "width": 2336,
+        "height": 1897
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2336x157), Center main_content (2336x1740)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 2336,
+            "height_approx": 157,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Calendar"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 2336,
+            "height_approx": 1740,
+            "role": "main_content",
+            "components": [
+              "Regular Tabs",
+              "Grey Button",
+              "With Label Text Area",
+              "Primary Button",
+              "With Label Datepicker",
+              "Agenda Card",
+              "With Label Select",
+              "x"
+            ],
+            "text_labels": [
+              "Modal",
+              "Agenda",
+              "Agenda Title",
+              "Agenda Title",
+              "Agenda Title",
+              "Agenda Title",
+              "Agenda Title",
+              "Agenda Title",
+              "Date"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "agenda card",
+        "copy",
+        "file-text",
+        "grey button",
+        "pencil-simple",
+        "phone",
+        "primary button",
+        "regular tabs",
+        "trash",
+        "user-check",
+        "users",
+        "video-camera",
+        "with label datepicker",
+        "with label select",
+        "with label text area",
+        "with label text field",
+        "x"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L6",
+      "name": "Bar Chart",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Bar Chart",
+        "Line Chart",
+        "Progress Chart"
+      ],
+      "screen_ids": [
+        "58:2834",
+        "72:740",
+        "73:5482"
+      ],
+      "count": 3,
+      "representative_screen": "58:2834",
+      "representative_name": "Bar Chart",
+      "dimensions": {
+        "width": 3836,
+        "height": 4521
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (3836x148), Center main_content (3836x4373)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 3836,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Bar Chart"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 3836,
+            "height_approx": 4373,
+            "role": "main_content",
+            "components": [
+              "Kebab Menu",
+              "Regular Tabs",
+              "Select + Icon"
+            ],
+            "text_labels": [
+              "4 Col",
+              "6 Col",
+              "8 Col",
+              "Large"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "circle icon badge",
+        "kebab menu",
+        "label",
+        "regular tabs",
+        "select + icon",
+        "trend-up"
+      ],
+      "capabilities": [
+        "analytics",
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L7",
+      "name": "Wheel Chart",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Wheel Chart"
+      ],
+      "screen_ids": [
+        "101:12309"
+      ],
+      "count": 1,
+      "representative_screen": "101:12309",
+      "representative_name": "Wheel Chart",
+      "dimensions": {
+        "width": 1924,
+        "height": 1527
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1924x148), Center main_content (1924x1379)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1924,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Wheel Chart"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1924,
+            "height_approx": 1379,
+            "role": "main_content",
+            "components": [
+              "List with Badge",
+              "Kebab Menu"
+            ],
+            "text_labels": [
+              "4 Col"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "kebab menu",
+        "list with badge"
+      ],
+      "capabilities": [
+        "analytics",
+        "map",
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L8",
+      "name": "Text Field",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Text Field"
+      ],
+      "screen_ids": [
+        "14:8461"
+      ],
+      "count": 1,
+      "representative_screen": "14:8461",
+      "representative_name": "Text Field",
+      "dimensions": {
+        "width": 1732,
+        "height": 1718
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1732x148), Center main_content (1732x1570)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1732,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Text Field"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1732,
+            "height_approx": 1570,
+            "role": "main_content",
+            "components": [
+              "magnifying-glass",
+              "eye",
+              "minus-circle",
+              "Primary Link",
+              "Text Field + Icon",
+              "Text Field",
+              "plus-circle"
+            ],
+            "text_labels": [
+              "Text Field",
+              "Regular",
+              "ft",
+              "ft",
+              "ft",
+              "ft",
+              "ft",
+              "ft",
+              "Error message",
+              "Error message",
+              "+Icon",
+              "Error message",
+              "Error message",
+              "Error message",
+              "+Label"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "eye",
+        "magnifying-glass",
+        "minus-circle",
+        "plus-circle",
+        "primary link",
+        "text field",
+        "text field + icon"
+      ],
+      "capabilities": [
+        "form",
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L9",
+      "name": "Select",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Select"
+      ],
+      "screen_ids": [
+        "51:62"
+      ],
+      "count": 1,
+      "representative_screen": "51:62",
+      "representative_name": "Select",
+      "dimensions": {
+        "width": 1916,
+        "height": 2102
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1916x148), Center main_content (1916x1954)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1916,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Select"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1916,
+            "height_approx": 1954,
+            "role": "main_content",
+            "components": [
+              "caret-down",
+              "Select + Icon",
+              "Primary Link",
+              "calendar-blank",
+              "Select",
+              "check",
+              "Label",
+              "caret-up"
+            ],
+            "text_labels": [
+              "Option",
+              "Option",
+              "Option",
+              "Option",
+              "Option",
+              "Option",
+              "Option",
+              "Select",
+              "Regular",
+              "Error message",
+              "+Icon",
+              "Error message",
+              "+Label",
+              "+Label"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "calendar-blank",
+        "caret-down",
+        "caret-up",
+        "check",
+        "label",
+        "map-pin",
+        "option",
+        "phone"
+      ],
+      "capabilities": [
+        "calendar",
+        "map",
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L10",
+      "name": "Datepicker",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Datepicker"
+      ],
+      "screen_ids": [
+        "188:12087"
+      ],
+      "count": 1,
+      "representative_screen": "188:12087",
+      "representative_name": "Datepicker",
+      "dimensions": {
+        "width": 2660,
+        "height": 1990
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2660x148), Center main_content (2660x1842)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 2660,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Datepicker"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 2660,
+            "height_approx": 1842,
+            "role": "main_content",
+            "components": [
+              "Primary Link",
+              "calendar-blank",
+              "Datepicker"
+            ],
+            "text_labels": [
+              "Option Button",
+              "4",
+              "4",
+              "4",
+              "Text Here",
+              "Text Here",
+              "Text Here",
+              "Datepicker",
+              "+Icon",
+              "Error message",
+              "+Label",
+              "+Label"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "calendar-blank",
+        "caret-down",
+        "caret-up",
+        "grey icon button",
+        "option button"
+      ],
+      "capabilities": [
+        "calendar",
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L11",
+      "name": "Suggestion Field",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Suggestion Field"
+      ],
+      "screen_ids": [
+        "177:14724"
+      ],
+      "count": 1,
+      "representative_screen": "177:14724",
+      "representative_name": "Suggestion Field",
+      "dimensions": {
+        "width": 1756,
+        "height": 2297
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1756x148), Center main_content (1756x2149)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1756,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Suggestion Field"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1756,
+            "height_approx": 2149,
+            "role": "main_content",
+            "components": [
+              "Primary Link",
+              "calendar-blank",
+              "Suggestion with Icon + Icon",
+              "Suggestion with Icon + Image",
+              "Suggestion Field"
+            ],
+            "text_labels": [
+              "Select",
+              "Regular",
+              "Error message",
+              "+Icon",
+              "Error message",
+              "+Image",
+              "Error message",
+              "+Label",
+              "+Label"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "calendar-blank",
+        "option",
+        "option with image",
+        "primary link",
+        "suggestion field",
+        "suggestion with icon + icon",
+        "suggestion with icon + image"
+      ],
+      "capabilities": [
+        "calendar",
+        "form",
+        "media",
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L12",
+      "name": "Text Area",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Text Area"
+      ],
+      "screen_ids": [
+        "175:13260"
+      ],
+      "count": 1,
+      "representative_screen": "175:13260",
+      "representative_name": "Text Area",
+      "dimensions": {
+        "width": 1396,
+        "height": 933
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1396x148), Center main_content (1396x785)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1396,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Select"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1396,
+            "height_approx": 785,
+            "role": "main_content",
+            "components": [
+              "Primary Link",
+              "Text Area"
+            ],
+            "text_labels": [
+              "Regular",
+              "Error message",
+              "+Label"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "primary link",
+        "text area"
+      ],
+      "capabilities": [
+        "messaging"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L13",
+      "name": "Text Menu",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Text Menu"
+      ],
+      "screen_ids": [
+        "13:198"
+      ],
+      "count": 1,
+      "representative_screen": "13:198",
+      "representative_name": "Text Menu",
+      "dimensions": {
+        "width": 2110,
+        "height": 3124
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2110x148), Center main_content (2110x2976)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 2110,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Menu"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 2110,
+            "height_approx": 2976,
+            "role": "main_content",
+            "components": [
+              "Notification_Badge",
+              "caret-down",
+              "squares-four",
+              "Submenu",
+              "Tooltip_Bubble",
+              "caret-up"
+            ],
+            "text_labels": [
+              "Light",
+              "Single",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu",
+              "Text Menu"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caret-down",
+        "notification_badge",
+        "squares-four",
+        "tooltip_bubble"
+      ],
+      "capabilities": [
+        "messaging",
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L14",
+      "name": "Profile",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Profile"
+      ],
+      "screen_ids": [
+        "14:9114"
+      ],
+      "count": 1,
+      "representative_screen": "14:9114",
+      "representative_name": "Profile",
+      "dimensions": {
+        "width": 1384,
+        "height": 824
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1384x148), Center main_content (1384x676)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1384,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Profile"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1384,
+            "height_approx": 676,
+            "role": "main_content",
+            "components": [
+              "Single Menu",
+              "x",
+              "dots-three-vertical",
+              "Tooltip_Bubble"
+            ],
+            "text_labels": [
+              "Menu"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "dots-three-vertical",
+        "single menu",
+        "tooltip_bubble",
+        "x"
+      ],
+      "capabilities": [
+        "authentication",
+        "editing",
+        "map",
+        "navigation",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L15",
+      "name": "Kebab Menu",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Kebab Menu"
+      ],
+      "screen_ids": [
+        "42:1297"
+      ],
+      "count": 1,
+      "representative_screen": "42:1297",
+      "representative_name": "Kebab Menu",
+      "dimensions": {
+        "width": 1380,
+        "height": 1140
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1380x148), Center main_content (1380x992)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1380,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Kebab Menu"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1380,
+            "height_approx": 992,
+            "role": "main_content",
+            "components": [
+              "Single Menu",
+              "dots-three-vertical"
+            ],
+            "text_labels": [
+              "Menu"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "dots-three-vertical",
+        "single menu"
+      ],
+      "capabilities": [
+        "navigation"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L16",
+      "name": "Sidebar Menu",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sidebar Menu"
+      ],
+      "screen_ids": [
+        "23:3118"
+      ],
+      "count": 1,
+      "representative_screen": "23:3118",
+      "representative_name": "Sidebar Menu",
+      "dimensions": {
+        "width": 1280,
+        "height": 1370
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1280x148), Center main_content (1280x1222)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1280,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Sidebar Menu"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1280,
+            "height_approx": 1222,
+            "role": "main_content",
+            "components": [
+              "Menu_Profile_Light",
+              "Dropdown Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Menu"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "dropdown menu",
+        "menu_profile_light",
+        "single menu",
+        "text field + icon"
+      ],
+      "capabilities": [
+        "analytics",
+        "form",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L17",
+      "name": "Notification",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Notification"
+      ],
+      "screen_ids": [
+        "21:981"
+      ],
+      "count": 1,
+      "representative_screen": "21:981",
+      "representative_name": "Notification",
+      "dimensions": {
+        "width": 1596,
+        "height": 1479
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1596x148), Center main_content (1596x1331)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1596,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Notification"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1596,
+            "height_approx": 1331,
+            "role": "main_content",
+            "components": [
+              "Notification_Badge",
+              "Primary Link",
+              "bell"
+            ],
+            "text_labels": [
+              "Notif",
+              "Menu"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "bell",
+        "clock",
+        "info",
+        "notification",
+        "notification_badge",
+        "primary link",
+        "x"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "messaging",
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L18",
+      "name": "Message",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Message"
+      ],
+      "screen_ids": [
+        "21:3198"
+      ],
+      "count": 1,
+      "representative_screen": "21:3198",
+      "representative_name": "Message",
+      "dimensions": {
+        "width": 1596,
+        "height": 1397
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1596x148), Center main_content (1596x1249)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1596,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1596,
+            "height_approx": 1249,
+            "role": "main_content",
+            "components": [
+              "Notification_Badge",
+              "chat-teardrop-text"
+            ],
+            "text_labels": [
+              "Notif",
+              "Menu"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "chat-teardrop-text",
+        "clock",
+        "message",
+        "notification_badge",
+        "primary link",
+        "x"
+      ],
+      "capabilities": [
+        "messaging",
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L19",
+      "name": "Map",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Map"
+      ],
+      "screen_ids": [
+        "101:5203"
+      ],
+      "count": 1,
+      "representative_screen": "101:5203",
+      "representative_name": "Map",
+      "dimensions": {
+        "width": 1347,
+        "height": 1624
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1347x148), Center main_content (1347x1476)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1347,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Map"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1347,
+            "height_approx": 1476,
+            "role": "main_content",
+            "components": [
+              "Kebab Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Map"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "circle icon badge",
+        "grey icon button",
+        "kebab menu",
+        "text field + icon"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "map",
+        "navigation",
+        "notifications",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L20",
+      "name": "List",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "List"
+      ],
+      "screen_ids": [
+        "101:5637"
+      ],
+      "count": 1,
+      "representative_screen": "101:5637",
+      "representative_name": "List",
+      "dimensions": {
+        "width": 1908,
+        "height": 3340
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1908x148), Center main_content (1908x3192)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1908,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "List"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1908,
+            "height_approx": 3192,
+            "role": "main_content",
+            "components": [
+              "Circle Icon Badge",
+              "Label"
+            ],
+            "text_labels": [
+              "Img",
+              "Badge",
+              "History Img",
+              "History Badge"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-right",
+        "checkbox",
+        "circle icon badge",
+        "kebab menu",
+        "label",
+        "primary icon button"
+      ],
+      "capabilities": [
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L21",
+      "name": "Widget",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Widget"
+      ],
+      "screen_ids": [
+        "101:6467"
+      ],
+      "count": 1,
+      "representative_screen": "101:6467",
+      "representative_name": "Widget",
+      "dimensions": {
+        "width": 1572,
+        "height": 3432
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1572x148), Center main_content (1572x3284)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1572,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "List"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1572,
+            "height_approx": 3284,
+            "role": "main_content",
+            "components": [
+              "List with Image",
+              "Regular Tabs",
+              "Kebab Menu",
+              "History Image",
+              "List with Badge"
+            ],
+            "text_labels": [
+              "Img",
+              "Badge",
+              "History"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "kebab menu",
+        "list with image",
+        "regular tabs"
+      ],
+      "capabilities": [
+        "media",
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L22",
+      "name": "Cell",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Cell"
+      ],
+      "screen_ids": [
+        "84:1986"
+      ],
+      "count": 1,
+      "representative_screen": "84:1986",
+      "representative_name": "Cell",
+      "dimensions": {
+        "width": 1708,
+        "height": 1948
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1708x148), Center main_content (1708x1800)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1708,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Cell"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1708,
+            "height_approx": 1800,
+            "role": "main_content",
+            "components": [
+              "eye",
+              "caret-up-down",
+              "trash",
+              "envelope-simple",
+              "pencil-simple",
+              "Checkbox",
+              "Circle Icon Badge",
+              "dots-three-vertical",
+              "user",
+              "bookmark-simple",
+              "Kebab Menu",
+              "share",
+              "Label"
+            ],
+            "text_labels": [
+              "Light",
+              "Header",
+              "LEADS",
+              "LEADS",
+              "LEADS",
+              "LEADS",
+              "LEADS",
+              "LEADS",
+              "LEADS",
+              "LEADS",
+              "Cirlce Img",
+              "Text",
+              "Icon Badge",
+              "Label",
+              "Action"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "caret-up-down",
+        "checkbox",
+        "circle icon badge",
+        "dots-three-vertical",
+        "label",
+        "user"
+      ],
+      "capabilities": [
+        "navigation",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L23",
+      "name": "Table",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Table"
+      ],
+      "screen_ids": [
+        "283:75217"
+      ],
+      "count": 1,
+      "representative_screen": "283:75217",
+      "representative_name": "Table",
+      "dimensions": {
+        "width": 2668,
+        "height": 3885
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2668x148), Center main_content (2668x3737)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 2668,
+            "height_approx": 148,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Table"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 2668,
+            "height_approx": 3737,
+            "role": "main_content",
+            "components": [
+              "Primary Icon Button",
+              "Pagination",
+              "Select + Icon"
+            ],
+            "text_labels": [
+              "6 Col",
+              "8 Col",
+              "Full Width"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "action cell",
+        "circle img cell",
+        "header cell",
+        "icon badge cell",
+        "label cell",
+        "pagination",
+        "primary icon button",
+        "regular text cell",
+        "select + icon"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "map",
+        "notifications"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L24",
+      "name": "Dashboard",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Dashboard",
+        "Dashboard_Calendar Opened",
+        "Dashboard_Messages Opened",
+        "Dashboard_Notification Opened",
+        "Dashboard_Language Opened"
+      ],
+      "screen_ids": [
+        "203:39446",
+        "268:51506",
+        "268:52431",
+        "268:53356",
+        "268:50560"
+      ],
+      "count": 5,
+      "representative_screen": "203:39446",
+      "representative_name": "Dashboard",
+      "dimensions": {
+        "width": 1440,
+        "height": 2226
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x2226), Center main_content (1172x2226)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 2226,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 2226,
+            "role": "main_content",
+            "components": [
+              "8 Col Table",
+              "Select + Icon",
+              "4 Col History Widget",
+              "4 Col Progress Chart",
+              "4 Col Img List Widget",
+              "4 Col Wheel Chart",
+              "Large_Statistic Card",
+              "8 Col Line Chart",
+              "Map",
+              "Header"
+            ],
+            "text_labels": [
+              "Overview",
+              "Welcome back Jay manage leads, property, etc with ease."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "4 col history widget",
+        "4 col img list widget",
+        "4 col progress chart",
+        "4 col wheel chart",
+        "8 col line chart",
+        "8 col table",
+        "header",
+        "large_statistic card",
+        "map",
+        "select + icon",
+        "sidebar menu"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L25",
+      "name": "Property",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Leads",
+        "Property",
+        "Sales",
+        "Campaign"
+      ],
+      "screen_ids": [
+        "64:2041",
+        "203:40627",
+        "242:38139",
+        "264:6838"
+      ],
+      "count": 4,
+      "representative_screen": "203:40627",
+      "representative_name": "Property",
+      "dimensions": {
+        "width": 1440,
+        "height": 1650
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1650), Center main_content (1172x1650)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1650,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1650,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Property Card",
+              "Header"
+            ],
+            "text_labels": [
+              "Property",
+              "Add Property",
+              "Property",
+              "Sales",
+              "Property Area",
+              "Showing 1-5 from 100"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "breadcrumbs large",
+        "full width table",
+        "header",
+        "primary button",
+        "property card",
+        "select + icon",
+        "sidebar menu",
+        "small_statistic card",
+        "text field + icon"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L26",
+      "name": "Add Property Filled",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Add Leads",
+        "Add Leads Filled",
+        "Add Property",
+        "Add Property Filled",
+        "Add Sales",
+        "Add Sales",
+        "Add Campaign",
+        "Add Campaign Filled"
+      ],
+      "screen_ids": [
+        "175:12353",
+        "179:15187",
+        "218:2585",
+        "221:2871",
+        "245:42585",
+        "255:18894",
+        "264:10240",
+        "268:25537"
+      ],
+      "count": 8,
+      "representative_screen": "221:2871",
+      "representative_name": "Add Property Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1653
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1653), Center main_content (1172x1653)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1653,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1653,
+            "role": "main_content",
+            "components": [
+              "Img Uploader",
+              "Grey Button",
+              "Primary Button",
+              "With Label Select",
+              "Breadcrumbs Large",
+              "Header",
+              "Progress Bar"
+            ],
+            "text_labels": [
+              "Add Property",
+              "Cancel",
+              "Submit",
+              "Progress",
+              "100%",
+              "Cancel",
+              "Submit"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "breadcrumbs large",
+        "grey button",
+        "grey icon button",
+        "header",
+        "img uploader",
+        "label",
+        "primary button",
+        "profile img",
+        "progress bar",
+        "regular tabs",
+        "select",
+        "sidebar menu",
+        "suggestion field",
+        "with label datepicker",
+        "with label select",
+        "with label suggestion field",
+        "with label text area",
+        "with label text field"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L27",
+      "name": "Sales Details Full Screen",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Leads Details Full Screen",
+        "Leads Details Full Screen_Meet",
+        "Delete Meet Fullscreen",
+        "Add Fullscreen",
+        "Leads Details Full Screen_Call",
+        "Delete Call",
+        "Leads Details Full Screen_Task",
+        "Delete Task",
+        "Leads Details Full Screen_Notes",
+        "Delete Notes",
+        "Leads Details Alt 2",
+        "Leads Details Alt 2_Meet",
+        "Leads Details Alt 2_Call",
+        "Delete Call",
+        "Leads Details Alt 2_Task",
+        "Leads Details Alt 2_Notes",
+        "Delete Notes",
+        "Delete Task",
+        "Delete Meet",
+        "Add",
+        "Sales Details Full Screen",
+        "Sales Details Alt 2"
+      ],
+      "screen_ids": [
+        "158:5163",
+        "181:22729",
+        "199:35644",
+        "199:33396",
+        "181:23081",
+        "203:29521",
+        "181:24200",
+        "203:32168",
+        "203:32986",
+        "203:33435",
+        "160:12197",
+        "203:36436",
+        "205:43727",
+        "205:47954",
+        "205:49030",
+        "205:51691",
+        "205:52097",
+        "205:50548",
+        "205:43034",
+        "203:36956",
+        "245:40917",
+        "245:41462"
+      ],
+      "count": 22,
+      "representative_screen": "245:40917",
+      "representative_name": "Sales Details Full Screen",
+      "dimensions": {
+        "width": 1440,
+        "height": 1359
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1359), Center main_content (1172x1359)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1359,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1359,
+            "role": "main_content",
+            "components": [
+              "Primary Button",
+              "Kebab Menu",
+              "Breadcrumbs Large",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "caret-up",
+        "circle icon badge",
+        "copy-simple",
+        "envelope-simple",
+        "grey icon button",
+        "header",
+        "history badge",
+        "kebab menu",
+        "label",
+        "map-pin",
+        "money-wavy",
+        "notification",
+        "phone",
+        "primary button",
+        "primary link",
+        "regular tabs",
+        "sidebar menu",
+        "task",
+        "user",
+        "user-plus"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L28",
+      "name": "Property Details Full Screen",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Property Details Alt 2",
+        "Property Details Full Screen"
+      ],
+      "screen_ids": [
+        "203:40373",
+        "203:40499"
+      ],
+      "count": 2,
+      "representative_screen": "203:40499",
+      "representative_name": "Property Details Full Screen",
+      "dimensions": {
+        "width": 1440,
+        "height": 1542
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1542), Center main_content (1172x1542)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1542,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1542,
+            "role": "main_content",
+            "components": [
+              "Regular Tabs",
+              "Primary Button",
+              "Kebab Menu",
+              "Breadcrumbs Large",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "barcode",
+        "bed",
+        "brackets-square",
+        "breadcrumbs large",
+        "calendar-blank",
+        "calendar-check",
+        "car",
+        "cooking-pot",
+        "couch",
+        "fork-knife",
+        "grey icon button",
+        "header",
+        "house-line",
+        "kebab menu",
+        "label",
+        "map-pin-area",
+        "map-pin-fill",
+        "primary button",
+        "primary icon button",
+        "regular tabs",
+        "shower",
+        "sidebar menu",
+        "stairs",
+        "swimming-pool",
+        "tag",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "editing",
+        "map",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L29",
+      "name": "Sales Filled",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Sales Filled"
+      ],
+      "screen_ids": [
+        "255:2237"
+      ],
+      "count": 1,
+      "representative_screen": "255:2237",
+      "representative_name": "Sales Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1191
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1191), Center main_content (1172x1191)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1191,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1191,
+            "role": "main_content",
+            "components": [
+              "With Label Text Field",
+              "Regular Tabs",
+              "Grey Button",
+              "Primary Button",
+              "With Label Select",
+              "Breadcrumbs Large",
+              "Header",
+              "Progress Bar"
+            ],
+            "text_labels": [
+              "Add Sales",
+              "Cancel",
+              "Submit",
+              "Progress",
+              "10%",
+              "Cancel",
+              "Submit"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "breadcrumbs large",
+        "envelope-simple",
+        "grey button",
+        "header",
+        "label",
+        "map-pin",
+        "phone",
+        "primary button",
+        "primary link",
+        "progress bar",
+        "regular tabs",
+        "sidebar menu",
+        "with label select",
+        "with label suggestion field",
+        "with label text field"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "editing",
+        "form",
+        "map",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L30",
+      "name": "Campaign Summary",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Campaign Summary"
+      ],
+      "screen_ids": [
+        "255:44654"
+      ],
+      "count": 1,
+      "representative_screen": "255:44654",
+      "representative_name": "Campaign Summary",
+      "dimensions": {
+        "width": 1440,
+        "height": 1725
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1725), Center main_content (1172x1725)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1725,
+            "role": "navigation_sidebar",
+            "components": [
+              "Dropdown Menu",
+              "Menu_Profile_Light",
+              "Text Field + Icon",
+              "Single Menu",
+              "Sidebar Menu"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1725,
+            "role": "main_content",
+            "components": [
+              "6 Col Table",
+              "Primary Button",
+              "4 Col Progress Chart",
+              "4 Col Wheel Chart",
+              "Kebab Menu",
+              "Large_Statistic Card",
+              "Breadcrumbs Large",
+              "Map",
+              "Header"
+            ],
+            "text_labels": [
+              "Campaign Summary",
+              "Add Campaign"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "4 col progress chart",
+        "4 col wheel chart",
+        "6 col table",
+        "breadcrumbs large",
+        "header",
+        "kebab menu",
+        "large_statistic card",
+        "map",
+        "primary button",
+        "sidebar menu",
+        "trend-up"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "map",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L31",
+      "name": "Campaign Details",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Campaign Details",
+        "Campaign Details"
+      ],
+      "screen_ids": [
+        "268:22455",
+        "268:24352"
+      ],
+      "count": 2,
+      "representative_screen": "268:24352",
+      "representative_name": "Campaign Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1623
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1623), Center main_content (1172x1623)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1623,
+            "role": "navigation_sidebar",
+            "components": [
+              "Dropdown Menu",
+              "Menu_Profile_Light",
+              "Text Field + Icon",
+              "Single Menu",
+              "Sidebar Menu"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1623,
+            "role": "main_content",
+            "components": [
+              "Primary Button",
+              "Kebab Menu",
+              "Breadcrumbs Large",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": [
+              "Dashboard",
+              "/",
+              "...",
+              "/",
+              "Campaign List",
+              "/",
+              "Black Friday"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "8 col table",
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "calendar-check",
+        "circle icon badge",
+        "grey icon button",
+        "header",
+        "kebab menu",
+        "label",
+        "megaphone",
+        "primary button",
+        "progress bar",
+        "sidebar menu",
+        "timer",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "map",
+        "navigation",
+        "notifications",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L32",
+      "name": "Message",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Message"
+      ],
+      "screen_ids": [
+        "272:15266"
+      ],
+      "count": 1,
+      "representative_screen": "272:15266",
+      "representative_name": "Message",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1000), Center main_content (1172x1000)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1000,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [
+              "Contact",
+              "Primary Icon Button",
+              "Text Field + Icon",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "contact",
+        "grey icon button",
+        "header",
+        "media_bubble chat",
+        "primary icon button",
+        "sidebar menu",
+        "text field + icon",
+        "text_bubble chat",
+        "voice_bubble chat"
+      ],
+      "capabilities": [
+        "analytics",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L33",
+      "name": "Schedule Details",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Calendar",
+        "Schedule Details",
+        "Add Schedule"
+      ],
+      "screen_ids": [
+        "283:58006",
+        "283:59193",
+        "283:58695"
+      ],
+      "count": 3,
+      "representative_screen": "283:59193",
+      "representative_name": "Schedule Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1074
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1074), Center main_content (1172x1074)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1074,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1074,
+            "role": "main_content",
+            "components": [
+              "Agenda Modal",
+              "Grey Button",
+              "Primary Button",
+              "Select",
+              "Grey Icon Button",
+              "Header",
+              "Date"
+            ],
+            "text_labels": [
+              "September, 2023"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "agenda modal",
+        "date",
+        "grey button",
+        "grey icon button",
+        "header",
+        "primary button",
+        "select",
+        "sidebar menu"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L34",
+      "name": "Delete Property",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Delete Leads",
+        "Delete Property",
+        "Delete Sales",
+        "Delete Campaign"
+      ],
+      "screen_ids": [
+        "179:15426",
+        "213:56324",
+        "245:41961",
+        "264:11056"
+      ],
+      "count": 4,
+      "representative_screen": "213:56324",
+      "representative_name": "Delete Property",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1000), Center main_content (1172x1650), Center main_content (1440x1000), Center main_content (480x271)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1000,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1650,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Property Card",
+              "Header"
+            ],
+            "text_labels": [
+              "Property",
+              "Add Property",
+              "Property",
+              "Sales",
+              "Property Area",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 480,
+            "height_approx": 271,
+            "role": "main_content",
+            "components": [
+              "Red Button",
+              "Circle Icon Badge",
+              "Grey Button"
+            ],
+            "text_labels": [
+              "Delete Property?",
+              "Are you sure you want to delete this property? This action cannot be undone.",
+              "Cancel",
+              "Delete"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "breadcrumbs large",
+        "circle icon badge",
+        "full width table",
+        "grey button",
+        "header",
+        "primary button",
+        "property card",
+        "red button",
+        "select + icon",
+        "sidebar menu",
+        "small_statistic card",
+        "text field + icon"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "notifications",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L35",
+      "name": "Delete Notes",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Delete Meet",
+        "Delete Call",
+        "Delete Notes",
+        "Delete Task",
+        "Delete Notes",
+        "Delete Task",
+        "Delete Call",
+        "Delete Meet"
+      ],
+      "screen_ids": [
+        "199:36063",
+        "203:29980",
+        "203:33835",
+        "203:32622",
+        "205:52486",
+        "205:50993",
+        "205:48358",
+        "205:43371"
+      ],
+      "count": 8,
+      "representative_screen": "203:33835",
+      "representative_name": "Delete Notes",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1000), Center main_content (1172x1000), Center main_content (1440x1000), Center main_content (480x271)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1000,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [
+              "Regular Tabs",
+              "Primary Button",
+              "Kebab Menu",
+              "Breadcrumbs Large",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 480,
+            "height_approx": 271,
+            "role": "main_content",
+            "components": [
+              "Red Button",
+              "Circle Icon Badge",
+              "Grey Button"
+            ],
+            "text_labels": [
+              "Delete Notes?",
+              "Are you sure you want to delete this notes? This action cannot be undone.",
+              "Cancel",
+              "Delete"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "caret-up",
+        "circle icon badge",
+        "copy-simple",
+        "envelope-simple",
+        "grey button",
+        "grey icon button",
+        "header",
+        "history badge",
+        "kebab menu",
+        "label",
+        "notification",
+        "phone",
+        "primary button",
+        "primary link",
+        "red button",
+        "regular tabs",
+        "sidebar menu",
+        "task",
+        "user",
+        "user-plus"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "editing",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L36",
+      "name": "Message_Contact Details",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Message_Contact Details"
+      ],
+      "screen_ids": [
+        "276:12192"
+      ],
+      "count": 1,
+      "representative_screen": "276:12192",
+      "representative_name": "Message_Contact Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1000), Center main_content (1172x1000), Center main_content (1440x1000), Center main_content (432x968)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1000,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [
+              "Contact",
+              "Primary Icon Button",
+              "Text Field + Icon",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Details",
+            "width_approx": 432,
+            "height_approx": 968,
+            "role": "main_content",
+            "components": [
+              "phone",
+              "envelope-simple",
+              "map-pin",
+              "barcode",
+              "Label",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Patrick Johnson",
+              "Details"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "barcode",
+        "calendar-blank",
+        "contact",
+        "copy-simple",
+        "envelope-simple",
+        "grey icon button",
+        "header",
+        "label",
+        "map-pin",
+        "media_bubble chat",
+        "phone",
+        "primary icon button",
+        "primary link",
+        "sidebar menu",
+        "text field + icon",
+        "text_bubble chat",
+        "voice_bubble chat"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L37",
+      "name": "Sales Details Minimize",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Leads Details Minimize_Overview",
+        "Leads Details Minimize_Meet",
+        "Delete Meet",
+        "Add",
+        "Leads Details Minimize_Call",
+        "Delete Call",
+        "Leads Details Minimize_Task",
+        "Delete Task",
+        "Leads Details Minimize_Notes",
+        "Delete Notes",
+        "Add Meet Schedule",
+        "Add Meet Schedule Filled",
+        "Add Meet History",
+        "Add Call Schedule",
+        "Add Call Schedule Filled",
+        "Add Call History",
+        "Sales Details Minimize"
+      ],
+      "screen_ids": [
+        "160:9430",
+        "180:16280",
+        "193:13610",
+        "184:9002",
+        "180:17904",
+        "197:18279",
+        "180:21298",
+        "199:28682",
+        "199:27280",
+        "199:31658",
+        "199:33783",
+        "199:34200",
+        "199:34663",
+        "203:27472",
+        "203:27936",
+        "203:28446",
+        "243:42926"
+      ],
+      "count": 17,
+      "representative_screen": "243:42926",
+      "representative_name": "Sales Details Minimize",
+      "dimensions": {
+        "width": 1440,
+        "height": 1232
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1232), Center main_content (1172x1440), Center main_content (1440x1232), Center main_content (1028x1200)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1232,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1440,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Full Width Table",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Header"
+            ],
+            "text_labels": [
+              "Sales",
+              "Add Sales",
+              "Income",
+              "Sales",
+              "Customer",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1232,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Details",
+            "width_approx": 1028,
+            "height_approx": 1200,
+            "role": "main_content",
+            "components": [
+              "user",
+              "user-plus",
+              "Kebab Menu",
+              "barcode",
+              "Label",
+              "money-wavy",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "ID-10096521",
+              "Details"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "caret-up",
+        "circle icon badge",
+        "copy-simple",
+        "envelope-simple",
+        "full width table",
+        "grey button",
+        "grey icon button",
+        "header",
+        "history badge",
+        "kebab menu",
+        "label",
+        "map-pin",
+        "money-wavy",
+        "notification",
+        "phone",
+        "primary button",
+        "primary link",
+        "regular tabs",
+        "select + icon",
+        "sidebar menu",
+        "small_statistic card",
+        "task",
+        "text field + icon",
+        "user",
+        "user-plus",
+        "with label datepicker"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L38",
+      "name": "Add Task Filled",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Add Meet Schedule",
+        "Add Call Schedule",
+        "Add Call Schedule Filled",
+        "Add Meet Schedule Filled",
+        "Add Meet History",
+        "Add Call History",
+        "Add Meet History Filled",
+        "Add Call History Filled",
+        "Add Task",
+        "Add Task Filled"
+      ],
+      "screen_ids": [
+        "184:10758",
+        "193:17471",
+        "193:18124",
+        "193:12228",
+        "191:11411",
+        "197:15103",
+        "193:12918",
+        "197:16443",
+        "199:21763",
+        "199:25467"
+      ],
+      "count": 10,
+      "representative_screen": "199:25467",
+      "representative_name": "Add Task Filled",
+      "dimensions": {
+        "width": 1440,
+        "height": 1171
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1171), Center main_content (1172x1440), Center main_content (1440x1171), Center main_content (1028x1139)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1171,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1440,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Full Width Table",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Header"
+            ],
+            "text_labels": [
+              "Leads",
+              "Add Leads",
+              "Leads",
+              "Success",
+              "Lost",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1171,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Add Meet",
+            "width_approx": 1028,
+            "height_approx": 1139,
+            "role": "main_content",
+            "components": [
+              "With Label Text Field",
+              "arrow-left",
+              "Grey Button",
+              "With Label Text Area",
+              "Primary Button",
+              "With Label Datepicker",
+              "Checkbox",
+              "With Label Select",
+              "Circle Icon Badge",
+              "Primary Icon Button",
+              "Text Field",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Add Task",
+              "Overview",
+              "Checklist",
+              "Attachment",
+              "Cancel",
+              "Submit"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "breadcrumbs large",
+        "checkbox",
+        "circle icon badge",
+        "full width table",
+        "grey button",
+        "grey icon button",
+        "header",
+        "kebab menu",
+        "primary button",
+        "primary icon button",
+        "regular tabs",
+        "select + icon",
+        "sidebar menu",
+        "small_statistic card",
+        "text field",
+        "text field + icon",
+        "trash",
+        "with label datepicker",
+        "with label select",
+        "with label text area",
+        "with label text field"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L39",
+      "name": "Task Details",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Task Details"
+      ],
+      "screen_ids": [
+        "199:20194"
+      ],
+      "count": 1,
+      "representative_screen": "199:20194",
+      "representative_name": "Task Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1000), Center main_content (1172x1440), Center main_content (1440x1000), Center main_content (1028x968)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1000,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1440,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Full Width Table",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Header"
+            ],
+            "text_labels": [
+              "Leads",
+              "Add Leads",
+              "Leads",
+              "Success",
+              "Lost",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Add Meet",
+            "width_approx": 1028,
+            "height_approx": 968,
+            "role": "main_content",
+            "components": [
+              "arrow-left",
+              "clock",
+              "Primary Button",
+              "Checkbox",
+              "Primary Link",
+              "Circle Icon Badge",
+              "Primary Icon Button",
+              "Kebab Menu",
+              "Label",
+              "calendar-check",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Presentation Deck",
+              "Description",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices porttitor lorem at commodo. Nullam congue varius mauris id interdum. Etiam ornare id augue quis suscipit. Morbi tincidunt pharetra vulputate. Fusce nulla erat, pretium sed rutrum iaculis, pellentesque in velit.",
+              "Due Date",
+              "Assign",
+              "Created",
+              "Added",
+              "Checklist",
+              "Attachment"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "breadcrumbs large",
+        "calendar-check",
+        "checkbox",
+        "circle icon badge",
+        "clock",
+        "full width table",
+        "grey icon button",
+        "header",
+        "kebab menu",
+        "label",
+        "primary button",
+        "primary icon button",
+        "primary link",
+        "select + icon",
+        "sidebar menu",
+        "small_statistic card",
+        "text field + icon"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "notifications",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L40",
+      "name": "Add Task",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Add Meet History Filled",
+        "Add Call History Filled",
+        "Task Details",
+        "Add Task",
+        "Add Task",
+        "Add Call Schedule",
+        "Add Call Schedule Filled",
+        "Add Call History",
+        "Add Call History Filled",
+        "Task Details",
+        "Add Task",
+        "Add Task",
+        "Add Meet Schedule",
+        "Add Meet History",
+        "Add Meet History Filled",
+        "Add Meet Schedule Filled"
+      ],
+      "screen_ids": [
+        "199:35142",
+        "203:28972",
+        "203:30591",
+        "203:31091",
+        "203:31633",
+        "205:46338",
+        "205:46742",
+        "205:47146",
+        "205:47550",
+        "205:49549",
+        "205:49867",
+        "205:50185",
+        "203:37705",
+        "203:38524",
+        "203:38973",
+        "203:38091"
+      ],
+      "count": 16,
+      "representative_screen": "203:31633",
+      "representative_name": "Add Task",
+      "dimensions": {
+        "width": 1440,
+        "height": 1171
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1171), Center main_content (1172x1171), Center main_content (1440x1171), Center main_content (1028x1139)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1171,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1171,
+            "role": "main_content",
+            "components": [
+              "Regular Tabs",
+              "Primary Button",
+              "Kebab Menu",
+              "Breadcrumbs Large",
+              "Grey Icon Button",
+              "Header"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1171,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Add Meet",
+            "width_approx": 1028,
+            "height_approx": 1139,
+            "role": "main_content",
+            "components": [
+              "With Label Text Field",
+              "arrow-left",
+              "Grey Button",
+              "With Label Text Area",
+              "Primary Button",
+              "With Label Datepicker",
+              "Checkbox",
+              "With Label Select",
+              "Circle Icon Badge",
+              "Primary Icon Button",
+              "Text Field",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Add Task",
+              "Overview",
+              "Checklist",
+              "Attachment",
+              "Cancel",
+              "Submit"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left",
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "calendar-check",
+        "caret-up",
+        "checkbox",
+        "circle icon badge",
+        "clock",
+        "copy-simple",
+        "envelope-simple",
+        "grey button",
+        "grey icon button",
+        "header",
+        "history badge",
+        "kebab menu",
+        "label",
+        "notification",
+        "phone",
+        "primary button",
+        "primary icon button",
+        "primary link",
+        "regular tabs",
+        "sidebar menu",
+        "task",
+        "text field",
+        "trash",
+        "user",
+        "user-plus",
+        "with label datepicker"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L41",
+      "name": "Property Details Minimize",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Property Details Minimize"
+      ],
+      "screen_ids": [
+        "203:40677"
+      ],
+      "count": 1,
+      "representative_screen": "203:40677",
+      "representative_name": "Property Details Minimize",
+      "dimensions": {
+        "width": 1440,
+        "height": 1117
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1117), Center main_content (1172x1650), Center main_content (1440x1117), Center main_content (1000x1085)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1117,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1650,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Property Card",
+              "Header"
+            ],
+            "text_labels": [
+              "Property",
+              "Add Property",
+              "Property",
+              "Sales",
+              "Property Area",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1117,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Details",
+            "width_approx": 1000,
+            "height_approx": 1085,
+            "role": "main_content",
+            "components": [
+              "Regular Tabs",
+              "Primary Button",
+              "tag",
+              "user",
+              "Kebab Menu",
+              "brackets-square",
+              "barcode",
+              "Label",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Aurora Hills",
+              "Edit",
+              "Details"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "barcode",
+        "bed",
+        "brackets-square",
+        "breadcrumbs large",
+        "calendar-blank",
+        "calendar-check",
+        "car",
+        "cooking-pot",
+        "couch",
+        "fork-knife",
+        "grey icon button",
+        "header",
+        "house-line",
+        "kebab menu",
+        "label",
+        "primary button",
+        "property card",
+        "regular tabs",
+        "select + icon",
+        "shower",
+        "sidebar menu",
+        "small_statistic card",
+        "stairs",
+        "swimming-pool",
+        "tag",
+        "text field + icon",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "editing",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L42",
+      "name": "Add Sales_Add Property",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Add Sales_Add Property",
+        "Add Sales_Add Buyer"
+      ],
+      "screen_ids": [
+        "255:41508",
+        "255:42374"
+      ],
+      "count": 2,
+      "representative_screen": "255:41508",
+      "representative_name": "Add Sales_Add Property",
+      "dimensions": {
+        "width": 1440,
+        "height": 1021
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1021), Center main_content (1172x1021), Center main_content (1440x1021), Center main_content (640x968)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1021,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1021,
+            "role": "main_content",
+            "components": [
+              "With Label Text Field",
+              "Regular Tabs",
+              "Grey Button",
+              "Primary Button",
+              "With Label Select",
+              "Breadcrumbs Large",
+              "Header",
+              "Progress Bar"
+            ],
+            "text_labels": [
+              "Add Sales",
+              "Cancel",
+              "Submit",
+              "Progress",
+              "10%",
+              "Cancel",
+              "Submit"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1021,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Add Meet",
+            "width_approx": 640,
+            "height_approx": 968,
+            "role": "main_content",
+            "components": [
+              "Grey Button",
+              "Primary Button",
+              "Property Option",
+              "Text Field + Icon",
+              "x"
+            ],
+            "text_labels": [
+              "Add Property",
+              "Search. . .",
+              "Cancel",
+              "Submit"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "breadcrumbs large",
+        "grey button",
+        "header",
+        "label",
+        "primary button",
+        "progress bar",
+        "property option",
+        "regular tabs",
+        "sidebar menu",
+        "text field + icon",
+        "user option",
+        "with label select",
+        "with label suggestion field",
+        "with label text field",
+        "x"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "form",
+        "map",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L43",
+      "name": "Campaign Details",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Campaign Details"
+      ],
+      "screen_ids": [
+        "268:23175"
+      ],
+      "count": 1,
+      "representative_screen": "268:23175",
+      "representative_name": "Campaign Details",
+      "dimensions": {
+        "width": 1440,
+        "height": 1309
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1309), Center main_content (1172x1309), Center main_content (1440x1309), Center main_content (1028x1277)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1309,
+            "role": "navigation_sidebar",
+            "components": [
+              "Dropdown Menu",
+              "Menu_Profile_Light",
+              "Text Field + Icon",
+              "Single Menu",
+              "Sidebar Menu"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1309,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Full Width Table",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Header"
+            ],
+            "text_labels": [
+              "Campaign List",
+              "Add Campaign",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1309,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Details",
+            "width_approx": 1028,
+            "height_approx": 1277,
+            "role": "main_content",
+            "components": [
+              "8 Col Table",
+              "megaphone",
+              "user",
+              "timer",
+              "Kebab Menu",
+              "barcode",
+              "Label",
+              "calendar-check",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Black Friday",
+              "Details"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "8 col table",
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "calendar-check",
+        "circle icon badge",
+        "full width table",
+        "grey icon button",
+        "header",
+        "kebab menu",
+        "label",
+        "megaphone",
+        "primary button",
+        "progress bar",
+        "select + icon",
+        "sidebar menu",
+        "text field + icon",
+        "timer",
+        "user"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "form",
+        "map",
+        "navigation",
+        "notifications",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "HU_L44",
+      "name": "Delete Task",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Delete Meet",
+        "Delete Call",
+        "Delete Task",
+        "Delete Notes"
+      ],
+      "screen_ids": [
+        "193:16064",
+        "197:19211",
+        "199:29548",
+        "199:32557"
+      ],
+      "count": 4,
+      "representative_screen": "199:29548",
+      "representative_name": "Delete Task",
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (268x1000), Center main_content (1440x1000), Center main_content (1028x968), Center main_content (1172x1440), Center main_content (1440x1000), Center main_content (480x271)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar Menu",
+            "width_approx": 268,
+            "height_approx": 1000,
+            "role": "navigation_sidebar",
+            "components": [
+              "Single Menu",
+              "Menu_Profile_Light",
+              "Sidebar Menu",
+              "Text Field + Icon"
+            ],
+            "text_labels": [
+              "Search. . .",
+              "Dashboard",
+              "Leads",
+              "Property",
+              "Sales",
+              "Campaign",
+              "Customer",
+              "Help Center",
+              "Settings",
+              "Liam Santoso",
+              "Property Manager"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Details",
+            "width_approx": 1028,
+            "height_approx": 968,
+            "role": "main_content",
+            "components": [
+              "phone",
+              "Regular Tabs",
+              "envelope-simple",
+              "Primary Button",
+              "Task",
+              "user-plus",
+              "Kebab Menu",
+              "user",
+              "barcode",
+              "Label",
+              "Grey Icon Button"
+            ],
+            "text_labels": [
+              "Josh Walls",
+              "Edit",
+              "Leads Details"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Body",
+            "width_approx": 1172,
+            "height_approx": 1440,
+            "role": "main_content",
+            "components": [
+              "Select + Icon",
+              "Primary Button",
+              "Small_Statistic Card",
+              "Full Width Table",
+              "Text Field + Icon",
+              "Breadcrumbs Large",
+              "Header"
+            ],
+            "text_labels": [
+              "Leads",
+              "Add Leads",
+              "Leads",
+              "Success",
+              "Lost",
+              "Showing 1-5 from 100"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 1000,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 480,
+            "height_approx": 271,
+            "role": "main_content",
+            "components": [
+              "Red Button",
+              "Circle Icon Badge",
+              "Grey Button"
+            ],
+            "text_labels": [
+              "Delete Task?",
+              "Are you sure you want to delete this task? This action cannot be undone.",
+              "Cancel",
+              "Delete"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "barcode",
+        "breadcrumbs large",
+        "calendar-blank",
+        "caret-up",
+        "circle icon badge",
+        "copy-simple",
+        "envelope-simple",
+        "full width table",
+        "grey button",
+        "grey icon button",
+        "header",
+        "history badge",
+        "kebab menu",
+        "label",
+        "notification",
+        "phone",
+        "primary button",
+        "primary link",
+        "red button",
+        "regular tabs",
+        "select + icon",
+        "sidebar menu",
+        "small_statistic card",
+        "task",
+        "text field + icon",
+        "user",
+        "user-plus"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    }
+  ]
+}

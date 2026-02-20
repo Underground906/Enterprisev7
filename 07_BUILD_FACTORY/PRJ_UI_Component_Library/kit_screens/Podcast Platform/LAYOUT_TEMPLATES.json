@@ -1,0 +1,3714 @@
+{
+  "kit": "Podcast Platform",
+  "file_key": "Sgp1yeAlNiDG5XIjVpZj5c",
+  "analyzed_at": "2026-02-19T19:33:15.643332",
+  "unique_layouts": 40,
+  "total_screens": 120,
+  "dedup_ratio": "120 screens -> 40 templates (33%)",
+  "layouts": [
+    {
+      "layout_id": "PO_L1",
+      "name": "Figma -Thumbnail",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|right:right_panel:narrow",
+      "screens_using": [
+        "Figma -Thumbnail"
+      ],
+      "screen_ids": [
+        "1366:28391"
+      ],
+      "count": 1,
+      "representative_screen": "1366:28391",
+      "representative_name": "Figma -Thumbnail",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1920x540), Center main_content (1694x96), Center main_content (1366x367), Right right_panel (229x239)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Cover",
+            "width_approx": 1920,
+            "height_approx": 540,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Navbar",
+              "Footer"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1171274852",
+            "width_approx": 1694,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "35+ Premium UI Screen",
+              "Web & Mobile Version",
+              "Modern & Minimalist Design"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Platform Website UI Kit",
+            "width_approx": 1366,
+            "height_approx": 367,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Podcast Platform Website UI Kit"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "Frame 1171274856",
+            "width_approx": 229,
+            "height_approx": 239,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "icons"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L2",
+      "name": "Profil Podcaster",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|right:right_panel:narrow",
+      "screens_using": [
+        "Profil Podcaster",
+        "Profil Podcaster"
+      ],
+      "screen_ids": [
+        "1006:12684",
+        "1327:11618"
+      ],
+      "count": 2,
+      "representative_screen": "1006:12684",
+      "representative_name": "Profil Podcaster",
+      "dimensions": {
+        "width": 1440,
+        "height": 3201
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x386), Center main_content (1440x1226), Center main_content (1440x674), Center main_content (1440x915), Right right_panel (56x56)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 386,
+            "role": "main_content",
+            "components": [
+              "Navbar"
+            ],
+            "text_labels": [
+              "PopsCast",
+              "Home",
+              "About",
+              "Pricing",
+              "Contact us"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Information",
+            "width_approx": 1440,
+            "height_approx": 1226,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Everybody needs a little help being a human. From sleep to save money...",
+              "Popular Episode",
+              "All Episodes",
+              "See All"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "People",
+            "width_approx": 56,
+            "height_approx": 56,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Classic"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 674,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Let’s start Your \nPodcast today!",
+              "Have something to share? Whether it’s your thoughts, stories, interviews, or ideas\nPopsCast makes it easy to start.",
+              "Enter Your Email Address"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 915,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Footer"
+            ],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!",
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "icons",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "editing",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L3",
+      "name": "Search",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|right:right_panel:narrow|top:header:wide|top:header:wide",
+      "screens_using": [
+        "Search",
+        "Search"
+      ],
+      "screen_ids": [
+        "1006:14431",
+        "1327:12330"
+      ],
+      "count": 2,
+      "representative_screen": "1006:14431",
+      "representative_name": "Search",
+      "dimensions": {
+        "width": 1440,
+        "height": 1278
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Top header (1440x96), Top header (1440x96), Center main_content (1440x1182), Right right_panel (56x56)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Search",
+            "width_approx": 1440,
+            "height_approx": 1182,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "INPUT FIELD"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "right",
+            "name": "People",
+            "width_approx": 56,
+            "height_approx": 56,
+            "role": "right_panel",
+            "components": [],
+            "text_labels": [
+              "Classic"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "PopsCast",
+              "Home",
+              "About",
+              "Pricing",
+              "Contact us",
+              "Login",
+              "Subscribe"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icons",
+        "input field",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "form",
+        "navigation",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L4",
+      "name": "Product_1",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Product_1",
+        "Product_2",
+        "Product_3",
+        "Typography",
+        "TYPOGRAPHY RESPONSIVE",
+        "Colors",
+        "Gallery",
+        "Gallery"
+      ],
+      "screen_ids": [
+        "1355:9614",
+        "1355:9625",
+        "1355:9636",
+        "818:76",
+        "1202:10034",
+        "821:247",
+        "1039:10390",
+        "1327:12639"
+      ],
+      "count": 8,
+      "representative_screen": "1355:9614",
+      "representative_name": "Product_1",
+      "dimensions": {
+        "width": 3140,
+        "height": 2815
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (2740x2070), Center main_content (2740x145)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "image",
+            "width_approx": 2740,
+            "height_approx": 2070,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1171274859",
+            "width_approx": 2740,
+            "height_approx": 145,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Cinemax - Movie Apps UI Kits",
+              "Mobile UI Kit",
+              "See more"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "file_management",
+        "notifications"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L5",
+      "name": "Button",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Button"
+      ],
+      "screen_ids": [
+        "818:284"
+      ],
+      "count": 1,
+      "representative_screen": "818:284",
+      "representative_name": "Button",
+      "dimensions": {
+        "width": 1584,
+        "height": 2037
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1584x189), Center main_content (1584x1848)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Label",
+            "width_approx": 1584,
+            "height_approx": 189,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Button"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button",
+            "width_approx": 1584,
+            "height_approx": 1848,
+            "role": "main_content",
+            "components": [
+              "SmileyBlank"
+            ],
+            "text_labels": [
+              "Primary Button",
+              "Used for the most important action (e.g., “Sign Up”).",
+              "Secondary Button",
+              "Supports secondary actions (e.g., “Learn More”).",
+              "Tertiary Button",
+              "A subtle, less prominent button used for alternative actions.",
+              "Link Button",
+              "Styled as a hyperlink, often used for navigation or less critical actions",
+              "Text Here",
+              "Text Here",
+              "Text Here",
+              "Text Here",
+              "Text Here",
+              "Text Here",
+              "Text Here"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "smileyblank"
+      ],
+      "capabilities": [
+        "authentication",
+        "navigation"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L6",
+      "name": "Pricing Information",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Pricing Information",
+        "Pricing Information"
+      ],
+      "screen_ids": [
+        "994:6971",
+        "1327:11252"
+      ],
+      "count": 2,
+      "representative_screen": "994:6971",
+      "representative_name": "Pricing Information",
+      "dimensions": {
+        "width": 1440,
+        "height": 1117
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (898x284), Center main_content (1160x601)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 898,
+            "height_approx": 284,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Simple & Transparent Pricing for Every Business",
+              "Flexible pricing with powerful features—upgrade anytime as your needs evolve.",
+              "Monthly",
+              "Yearly"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing card",
+            "width_approx": 1160,
+            "height_approx": 601,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button"
+            ],
+            "text_labels": [
+              "Starter Plan",
+              "Essential tools for solo podcasters to get started.",
+              "$9",
+              "Per month",
+              "Features",
+              "Up to 5 Episodes per Month",
+              "Basic Audio Hosting (2GB/Month)",
+              "Episode Scheduling",
+              "Basic Analytics & Community Support",
+              "Get started",
+              "Start 14-Day Free Trial",
+              "Pro Plan",
+              "Advanced tools for growing podcast teams.",
+              "$19",
+              "Per month"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L7",
+      "name": "Comparison",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Comparison",
+        "Team",
+        "Comparison",
+        "Team"
+      ],
+      "screen_ids": [
+        "985:6405",
+        "1004:12983",
+        "1327:11340",
+        "1327:12533"
+      ],
+      "count": 4,
+      "representative_screen": "985:6405",
+      "representative_name": "Comparison",
+      "dimensions": {
+        "width": 1440,
+        "height": 1200
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x126), Center main_content (1160x820)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Text",
+            "width_approx": 1160,
+            "height_approx": 126,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Comparison Plan",
+              "Choose the plan that fits your podcasting goals. Whether you're just starting out or managing a full studio, we've got the right tools to help you grow and succeed."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1160,
+            "height_approx": 820,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Comparison",
+              "Starter Plan",
+              "Essential tools for solo podcasters to get started.",
+              "Pro Plan",
+              "Advanced tools for growing podcast teams.",
+              "Studio Plan",
+              "All-in features for production houses & podcast networks.",
+              "Features",
+              "Connect & Integrations",
+              "Billing & Invoicing",
+              "Security & Compliance"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icons"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "media",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L8",
+      "name": "Career",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Career",
+        "Career"
+      ],
+      "screen_ids": [
+        "1039:10295",
+        "1327:12588"
+      ],
+      "count": 2,
+      "representative_screen": "1039:10295",
+      "representative_name": "Career",
+      "dimensions": {
+        "width": 1440,
+        "height": 878
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x134), Center main_content (1160x488)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1160,
+            "height_approx": 134,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "So many Opportunities await you"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Careers",
+            "width_approx": 1160,
+            "height_approx": 488,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Product Designer",
+              "Compensation & Benefit",
+              "Departement",
+              "Product Development",
+              "Location",
+              "New York City",
+              "Apply",
+              "Middel - Digital Marting",
+              "Compensation & Benefit",
+              "Departement",
+              "Product Marketing",
+              "Location",
+              "New York City",
+              "Apply",
+              "Social Media Specialist"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "map",
+        "media"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L9",
+      "name": "Sign Up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sign Up",
+        "Sign Up"
+      ],
+      "screen_ids": [
+        "924:1836",
+        "1327:18240"
+      ],
+      "count": 2,
+      "representative_screen": "924:1836",
+      "representative_name": "Sign Up",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (760x1024), Center main_content (680x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 760,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "\"This podcast is incredibly enjoyable and packed with impressive content to listen to.\""
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 680,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button",
+              "check",
+              "INPUT FIELD"
+            ],
+            "text_labels": [
+              "OR",
+              "Already have an account? Sign In",
+              "© 2025 PopCast"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check",
+        "icons",
+        "input field"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "profile",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L10",
+      "name": "Sign Up",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Sign Up",
+        "Sign Up"
+      ],
+      "screen_ids": [
+        "924:1934",
+        "1327:18333"
+      ],
+      "count": 2,
+      "representative_screen": "924:1934",
+      "representative_name": "Sign Up",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (760x1024), Center main_content (680x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 760,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "“The podcast is so much fun and so much impressive content to listen to.”"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 680,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button",
+              "INPUT FIELD"
+            ],
+            "text_labels": [
+              "OR",
+              "Don’t have an account? Sign Up",
+              "© 2025 PopCast"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-left-s-line",
+        "arrow-right-s-line",
+        "badge [1.0]",
+        "button",
+        "check",
+        "icons",
+        "input field"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form",
+        "notifications",
+        "profile",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L11",
+      "name": "Footer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Footer"
+      ],
+      "screen_ids": [
+        "1132:5909"
+      ],
+      "count": 1,
+      "representative_screen": "1132:5909",
+      "representative_name": "Footer",
+      "dimensions": {
+        "width": 1440,
+        "height": 915
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x226), Center main_content (1160x236), Center main_content (1160x37)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1160,
+            "height_approx": 226,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer Links",
+            "width_approx": 1160,
+            "height_approx": 236,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions",
+              "Subscribe to PopsCast"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer Container",
+            "width_approx": 1160,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "PopsCast",
+              "© 2025 PopsCast, Inc."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button"
+      ],
+      "capabilities": [
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L12",
+      "name": "What they say about Popcast",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "What they say about Popcast",
+        "What they say about Popcast"
+      ],
+      "screen_ids": [
+        "1059:9263",
+        "1327:11481"
+      ],
+      "count": 2,
+      "representative_screen": "1059:9263",
+      "representative_name": "What they say about Popcast",
+      "dimensions": {
+        "width": 1440,
+        "height": 1096
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x116), Center main_content (1160x342), Center main_content (1160x342)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "What they say about Popcast",
+            "width_approx": 1160,
+            "height_approx": 116,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "What they say about Popcast",
+              "Discover the unique experiences and feedback of every user engaging with Popcast. By understanding their insights and perspectives, we can enhance the overall user experience, ensuring that it is not only comparable but even more enjoyable than before."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonial Container",
+            "width_approx": 1160,
+            "height_approx": 342,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Agata Antoni",
+              "Business man",
+              "Nia Kurnia",
+              "Web Developer",
+              "Nia Kurnia",
+              "Web Developer",
+              "A really great product, I really enjoy it, especially as there is a lot of content from various great people that I can listen to",
+              "Alex Ngawi",
+              "Start-up investor"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Testimonial Container",
+            "width_approx": 1160,
+            "height_approx": 342,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Maya Thompson",
+              "Entrepreneur",
+              "Rina Setiawan",
+              "Software Engineer",
+              "Jordan Lee",
+              "Venture Capitalist",
+              "Jordan Lee",
+              "Venture Capitalist"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [
+        "e_commerce",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L13",
+      "name": "Footer",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer",
+        "Footer"
+      ],
+      "screen_ids": [
+        "1132:6091",
+        "1132:6209",
+        "1132:6092",
+        "1327:11617",
+        "1327:12739",
+        "1327:13363"
+      ],
+      "count": 6,
+      "representative_screen": "1132:6091",
+      "representative_name": "Footer",
+      "dimensions": {
+        "width": 1440,
+        "height": 915
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x226), Center main_content (1160x236), Center main_content (1160x37)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 1160,
+            "height_approx": 226,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer Links",
+            "width_approx": 1160,
+            "height_approx": 236,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions",
+              "Subscribe to PopsCast"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer Container",
+            "width_approx": 1160,
+            "height_approx": 37,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "PopsCast",
+              "© 2025 PopsCast, Inc."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer"
+      ],
+      "capabilities": [
+        "media",
+        "profile"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L14",
+      "name": "About",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "About",
+        "About"
+      ],
+      "screen_ids": [
+        "1004:13084",
+        "1327:12464"
+      ],
+      "count": 2,
+      "representative_screen": "1004:13084",
+      "representative_name": "About",
+      "dimensions": {
+        "width": 1440,
+        "height": 1112
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1200x172), Center main_content (1200x520), Center main_content (1200x116)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Headline",
+            "width_approx": 1200,
+            "height_approx": 172,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Our Story",
+              "PopsCast was born from our love for meaningful stories and conversations. Starting from a small space and a big idea, we aim to create an audio space that is honest, touching, and inspiring.",
+              "Each episode is the result of research, curiosity, and the desire to present different perspectives—whether through personal monologues, panel discussions, or casual chats with special guests."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 1200,
+            "height_approx": 520,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Achievement",
+            "width_approx": 1200,
+            "height_approx": 116,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "150K+",
+              "Total Plays Across \nAll Platforms",
+              "25+",
+              "Our Listener \nCountries",
+              "60+",
+              "Guest Speakers from Various Backgrounds",
+              "1,200+",
+              "Messages & Stories Received from Listeners"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icons"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "messaging",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L15",
+      "name": "Component",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Component"
+      ],
+      "screen_ids": [
+        "1190:14082"
+      ],
+      "count": 1,
+      "representative_screen": "1190:14082",
+      "representative_name": "Component",
+      "dimensions": {
+        "width": 1397,
+        "height": 1083
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (375x1083), Center main_content (407x456), Center main_content (415x214)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Top & Footer/Footer",
+            "width_approx": 375,
+            "height_approx": 1083,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!",
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "bottom navigasi",
+            "width_approx": 407,
+            "height_approx": 456,
+            "role": "main_content",
+            "components": [
+              "message",
+              "profile",
+              "Home Indicator",
+              "home-2",
+              "search-normal"
+            ],
+            "text_labels": [
+              "Home",
+              "Favorites",
+              "Genres",
+              "Profile",
+              "Home",
+              "Favorites",
+              "Genres",
+              "Profile",
+              "Home",
+              "Favorites",
+              "Genres",
+              "Profile",
+              "Home",
+              "Favorites",
+              "Genres"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Top",
+            "width_approx": 415,
+            "height_approx": 214,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Welcome Back, Siti Tirta!"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "home indicator",
+        "home-2",
+        "icons",
+        "message",
+        "profile",
+        "search-normal"
+      ],
+      "capabilities": [
+        "media",
+        "messaging",
+        "profile",
+        "search"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L16",
+      "name": "Section FAQ",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Section FAQ",
+        "Values",
+        "Section FAQ",
+        "Values"
+      ],
+      "screen_ids": [
+        "985:6354",
+        "1004:13174",
+        "1327:11444",
+        "1327:12489"
+      ],
+      "count": 4,
+      "representative_screen": "985:6354",
+      "representative_name": "Section FAQ",
+      "dimensions": {
+        "width": 1440,
+        "height": 706
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1160x506)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "FAQ Content",
+            "width_approx": 1160,
+            "height_approx": 506,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Find Answers to Your Questions",
+              "Got questions about your next adventure? We’ve got answers! Here are some of the most common inquiries we receive. If you don’t find what you’re looking for, feel free to contact us!"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icons"
+      ],
+      "capabilities": [
+        "content_creation",
+        "form",
+        "media",
+        "messaging",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L17",
+      "name": "Header",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Header",
+        "Header"
+      ],
+      "screen_ids": [
+        "1006:9739",
+        "1327:12440"
+      ],
+      "count": 2,
+      "representative_screen": "1006:9739",
+      "representative_name": "Header",
+      "dimensions": {
+        "width": 1451,
+        "height": 864
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1451x864)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1451,
+            "height_approx": 864,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "Discover the Voices Behind the Mic",
+              "We don't just create podcasts—we build connections, tell stories, and spark meaningful conversations. Get to know who we are and why we love what we do.",
+              "Meet Our Team",
+              "PopsCast",
+              "Home",
+              "About",
+              "Pricing",
+              "Contact Us"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "e_commerce",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L18",
+      "name": "Label",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Label"
+      ],
+      "screen_ids": [
+        "1251:9872"
+      ],
+      "count": 1,
+      "representative_screen": "1251:9872",
+      "representative_name": "Label",
+      "dimensions": {
+        "width": 2000,
+        "height": 1422
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1024)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Desktop - 1",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Code Version Coming Soon",
+              "ENVER STUDIO"
+            ]
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L19",
+      "name": "Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:narrow|center:main_content:narrow",
+      "screens_using": [
+        "Container",
+        "Container",
+        "Container",
+        "Container"
+      ],
+      "screen_ids": [
+        "1160:10181",
+        "1160:10260",
+        "1327:11543",
+        "1327:12665"
+      ],
+      "count": 4,
+      "representative_screen": "1160:10181",
+      "representative_name": "Container",
+      "dimensions": {
+        "width": 1440,
+        "height": 674
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (923x316), Center main_content (517x900), Center main_content (78x77), Center main_content (88x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 923,
+            "height_approx": 316,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Let’s start Your \nPodcast today!",
+              "Have something to share? Whether it’s your thoughts, stories, interviews, or ideas\nPopsCast makes it easy to start.",
+              "Enter Your Email Address",
+              "Subscribe Now"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 517,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 18997",
+            "width_approx": 78,
+            "height_approx": 77,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Group 18996",
+            "width_approx": 88,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button"
+      ],
+      "capabilities": [
+        "map"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L20",
+      "name": "Container",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:medium",
+      "screens_using": [
+        "Container",
+        "Container"
+      ],
+      "screen_ids": [
+        "1039:10407",
+        "1327:12647"
+      ],
+      "count": 2,
+      "representative_screen": "1039:10407",
+      "representative_name": "Container",
+      "dimensions": {
+        "width": 1440,
+        "height": 810
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (548x610), Center main_content (548x610)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Content",
+            "width_approx": 548,
+            "height_approx": 610,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "INPUT FIELD",
+              "check"
+            ],
+            "text_labels": [
+              "Contact us",
+              "Our friendly team would love to hear from you.",
+              "Send Message"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Image",
+            "width_approx": 548,
+            "height_approx": 610,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check",
+        "input field"
+      ],
+      "capabilities": [
+        "form",
+        "messaging",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L21",
+      "name": "Trending Episodes",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Trending Episodes",
+        "Trending Episodes"
+      ],
+      "screen_ids": [
+        "985:7465",
+        "1327:12874"
+      ],
+      "count": 2,
+      "representative_screen": "985:7465",
+      "representative_name": "Trending Episodes",
+      "dimensions": {
+        "width": 1440,
+        "height": 4613
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x578), Center main_content (1160x274), Center main_content (1440x732), Center main_content (1440x732), Center main_content (1440x1113), Center main_content (1440x510), Center main_content (1440x674)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Trending Episodes",
+            "width_approx": 1440,
+            "height_approx": 578,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Trending Episodes",
+              "See Episode",
+              "Yesterday",
+              "10 min",
+              "Located in the heart of Haiphong city, Haiphong Hotel is proudly a friendly Located in the heart...",
+              "Today",
+              "25 min",
+              "Culinary enthusiasts are invited to discover the flavors of local street food and hidden gems...",
+              "Last week",
+              "30 min",
+              "Join us as we delve into the latest technological advancements shaping our world..."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "List_Metrics",
+            "width_approx": 1160,
+            "height_approx": 274,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "2023",
+              "Launched",
+              "1.5k +",
+              "Team Members",
+              "1.5k +",
+              "Total Episodes",
+              "17.5M+",
+              "Our Subscriber"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 732,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button"
+            ],
+            "text_labels": [
+              "Choose the tags that describes your podcast.",
+              "Publish your podcast",
+              "Start sharing your voice with the world. Our platform makes it easy for anyone to create, record, and publish their own podcast—all in one place. No experience needed, just your story and a mic.",
+              "Create your podcast"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 732,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Icons"
+            ],
+            "text_labels": [
+              "Turn Your Passion into Profit",
+              "Choose from a range of monetization tools designed to help you earn effortlessly. See how our new PopCast Partner Program unlocks additional income streams across both audio and video. More about monetization on PopCast",
+              "Learn how to promote",
+              "Income Podcast",
+              "Available funds",
+              "$298.000",
+              "+25% from last month",
+              "These are the details of the audience you successfully reached"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Information",
+            "width_approx": 1440,
+            "height_approx": 1113,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button"
+            ],
+            "text_labels": [
+              "Simple & Transparent Pricing for Every Business",
+              "Flexible pricing with powerful features—upgrade anytime as your needs evolve.",
+              "Monthly",
+              "Yearly",
+              "Starter Plan",
+              "Essential tools for solo podcasters to get started.",
+              "$9",
+              "Per month",
+              "Features",
+              "Advanced tools for growing podcast teams.",
+              "$19",
+              "Per month",
+              "Studio Plan",
+              "All-in features for production houses & podcast networks.",
+              "$30"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast",
+            "width_approx": 1440,
+            "height_approx": 510,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Arrow Left Icon"
+            ],
+            "text_labels": [
+              "Listen to podcasts from various genres that you like",
+              "We summarize podcast genres and adapt them to your interests to provide the best experience in listening to each content provided",
+              "Businesse Development",
+              "Improve your business skills"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 674,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Let’s start Your \nPodcast today!",
+              "Have something to share? Whether it’s your thoughts, stories, interviews, or ideas\nPopsCast makes it easy to start.",
+              "Enter Your Email Address"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow left icon",
+        "button",
+        "icons"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "profile",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L22",
+      "name": "Full Screen",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow|center:main_content:wide",
+      "screens_using": [
+        "Full Screen",
+        "Full Screen"
+      ],
+      "screen_ids": [
+        "1267:11824",
+        "1327:17655"
+      ],
+      "count": 2,
+      "representative_screen": "1267:11824",
+      "representative_name": "Full Screen",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1400x42), Center main_content (96x96), Center main_content (1400x68)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Section title",
+            "width_approx": 1400,
+            "height_approx": 42,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Innovations in Tech"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Button Play",
+            "width_approx": 96,
+            "height_approx": 96,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "video bar",
+            "width_approx": 1400,
+            "height_approx": 68,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "2:20/10:00"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icons"
+      ],
+      "capabilities": [],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L23",
+      "name": "Style Your Podcast Genre",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Style Your Podcast Genre",
+        "Style Your Podcast Genre"
+      ],
+      "screen_ids": [
+        "924:1729",
+        "1327:18149"
+      ],
+      "count": 2,
+      "representative_screen": "924:1729",
+      "representative_name": "Style Your Podcast Genre",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x82), Center main_content (1440x858), Center main_content (1440x84)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 82,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "PopCast"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 858,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button",
+              "Radio"
+            ],
+            "text_labels": [
+              "Style Your Podcast Genre",
+              "Engage with podcasts that match your interests listening experience",
+              "Get Started"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 84,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "© 2025 PopCast",
+              "ENG"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons",
+        "radio"
+      ],
+      "capabilities": [
+        "content_creation"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L24",
+      "name": "Enter OTP",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Enter OTP",
+        "Forgot Password",
+        "5",
+        "Enter OTP",
+        "Forgot Password",
+        "5"
+      ],
+      "screen_ids": [
+        "924:2040",
+        "924:2076",
+        "924:2106",
+        "1327:18406",
+        "1327:18437",
+        "1327:18462"
+      ],
+      "count": 6,
+      "representative_screen": "924:2040",
+      "representative_name": "Enter OTP",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x82), Center main_content (1440x858), Center main_content (1440x84)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 82,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "PopCast"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 858,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "INPUT FIELD",
+              "Button"
+            ],
+            "text_labels": [
+              "Enter OTP",
+              "We’ve sent an email with a code to example@email.com, please enter it below to reset your password.",
+              "Verify",
+              "Didn’t receive a code? Resend Code"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 84,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "© 2025 PopCast",
+              "ENG"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons",
+        "input field"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "form"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L25",
+      "name": "6",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "6",
+        "6"
+      ],
+      "screen_ids": [
+        "924:2138",
+        "1327:18490"
+      ],
+      "count": 2,
+      "representative_screen": "924:2138",
+      "representative_name": "6",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x82), Center main_content (1440x858), Center main_content (1440x84)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navigation",
+            "width_approx": 1440,
+            "height_approx": 82,
+            "role": "header",
+            "components": [],
+            "text_labels": [
+              "PopCast"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 858,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button",
+              "Select"
+            ],
+            "text_labels": [
+              "Date of Birth",
+              "We need your date of birth to verify your account.",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 84,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "© 2025 PopCast",
+              "ENG"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons",
+        "select"
+      ],
+      "capabilities": [
+        "calendar",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L26",
+      "name": "Bg",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Bg",
+        "Bg"
+      ],
+      "screen_ids": [
+        "1252:10959",
+        "1350:22003"
+      ],
+      "count": 2,
+      "representative_screen": "1252:10959",
+      "representative_name": "Bg",
+      "dimensions": {
+        "width": 1441,
+        "height": 959
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1061), Center main_content (1440x1061), Center main_content (1440x1061), Center main_content (1440x662), Center main_content (757x524)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Bg",
+            "width_approx": 1440,
+            "height_approx": 1061,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Bg",
+            "width_approx": 1440,
+            "height_approx": 1061,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Bg",
+            "width_approx": 1440,
+            "height_approx": 1061,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle",
+            "width_approx": 1440,
+            "height_approx": 662,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "image 501",
+            "width_approx": 757,
+            "height_approx": 524,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [],
+      "capabilities": [],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L27",
+      "name": "Sidebar",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Sidebar"
+      ],
+      "screen_ids": [
+        "1000:12084"
+      ],
+      "count": 1,
+      "representative_screen": "1000:12084",
+      "representative_name": "Sidebar",
+      "dimensions": {
+        "width": 3264,
+        "height": 1106
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (64x26), Center main_content (3264x1056)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 64,
+            "height_approx": 26,
+            "role": "navigation_sidebar",
+            "components": [],
+            "text_labels": [
+              "Sidebar"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Sidebar",
+            "width_approx": 3264,
+            "height_approx": 1056,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Terms & Conditions Icon",
+              "Privacy Policy Icon"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "clock icon",
+        "icon",
+        "icons",
+        "menu icon"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "navigation",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "PO_L28",
+      "name": "Notification",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Genre",
+        "Notification",
+        "Genre",
+        "Notification"
+      ],
+      "screen_ids": [
+        "1156:20120",
+        "1309:15772",
+        "1327:13365",
+        "1327:13557"
+      ],
+      "count": 4,
+      "representative_screen": "1309:15772",
+      "representative_name": "Notification",
+      "dimensions": {
+        "width": 1440,
+        "height": 1169
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x1420), Center main_content (1440x1169)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 1420,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "🎙️ Your Favorite Podcasts, All in One Place!",
+              "Discover trending shows, latest episodes, and curated playlists made just for you."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Filter",
+            "width_approx": 1440,
+            "height_approx": 1169,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "action-buttons",
+        "avatar",
+        "avatar-image",
+        "button",
+        "icons",
+        "image",
+        "interface",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L29",
+      "name": "Filter",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Start Podcast",
+        "Filter",
+        "Start Podcast",
+        "Filter"
+      ],
+      "screen_ids": [
+        "1156:31710",
+        "1257:8470",
+        "1327:15283",
+        "1327:17063"
+      ],
+      "count": 4,
+      "representative_screen": "1257:8470",
+      "representative_name": "Filter",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x1420), Center main_content (1440x1024)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 1420,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "🎙️ Your Favorite Podcasts, All in One Place!",
+              "Discover trending shows, latest episodes, and curated playlists made just for you."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button"
+            ],
+            "text_labels": [
+              "Filter",
+              "Apply Filter"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check",
+        "icons",
+        "sidebar",
+        "vuesax"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "editing",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L30",
+      "name": "Uploaded",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Uploaded",
+        "Uploaded"
+      ],
+      "screen_ids": [
+        "1156:37282",
+        "1327:15858"
+      ],
+      "count": 2,
+      "representative_screen": "1156:37282",
+      "representative_name": "Uploaded",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x949), Center main_content (1440x1024)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 949,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Create Podcast",
+              "/",
+              "First Item"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Shadow",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button"
+            ],
+            "text_labels": [
+              "Go To Dashboard"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "add",
+        "button",
+        "icons",
+        "input field",
+        "placeholder",
+        "radio",
+        "select condition",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L31",
+      "name": "Change Password",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Change Password",
+        "Change Password"
+      ],
+      "screen_ids": [
+        "1157:11439",
+        "1327:16373"
+      ],
+      "count": 2,
+      "representative_screen": "1157:11439",
+      "representative_name": "Change Password",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x949), Center main_content (1440x1024)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 949,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Settings",
+              "/",
+              "Security",
+              "/",
+              "First Item",
+              "Settings"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "INPUT FIELD",
+              "Button"
+            ],
+            "text_labels": [
+              "Change Password",
+              "Your password must be at least 6 characters and should include a combination of numbers, letters and special characters (!$@%).",
+              "Change Password"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons",
+        "input field",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "content_creation",
+        "form",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L32",
+      "name": "Podcast",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "History - Empty state",
+        "History -Filled state",
+        "Dashboard",
+        "Radio",
+        "Podcast",
+        "Overview",
+        "Terms & Conditions",
+        "Privacy Policy",
+        "Change Password",
+        "Search Result",
+        "Profil Podcaster",
+        "History - Detail",
+        "History - Empty state",
+        "History -Filled state",
+        "Dashboard",
+        "Radio",
+        "Podcast",
+        "Overview",
+        "Terms & Conditions",
+        "Privacy Policy",
+        "Search Result",
+        "Profil Podcaster",
+        "History - Detail",
+        "Change Password"
+      ],
+      "screen_ids": [
+        "1156:18661",
+        "1227:9683",
+        "1156:17789",
+        "1156:25149",
+        "1156:29508",
+        "1156:30520",
+        "1156:43389",
+        "1156:43678",
+        "1184:11066",
+        "1257:6180",
+        "1307:14085",
+        "1307:15708",
+        "1327:13802",
+        "1327:13884",
+        "1327:14034",
+        "1327:14323",
+        "1327:14825",
+        "1327:15076",
+        "1327:16290",
+        "1327:16327",
+        "1327:16885",
+        "1327:17418",
+        "1327:18039",
+        "1327:16486"
+      ],
+      "count": 24,
+      "representative_screen": "1156:29508",
+      "representative_name": "Podcast",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x949)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 949,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Podcast",
+              "/",
+              "First Item",
+              "For your",
+              "Podcast",
+              "Audio only",
+              "Video and audio"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons",
+        "input field",
+        "sidebar",
+        "vuesax"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "form",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L33",
+      "name": "Favorites",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Favorites",
+        "Favorites"
+      ],
+      "screen_ids": [
+        "1156:28066",
+        "1327:14614"
+      ],
+      "count": 2,
+      "representative_screen": "1156:28066",
+      "representative_name": "Favorites",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x949)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 949,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Homepage",
+              "/",
+              "Favorites",
+              "/",
+              "First Item",
+              "Continue Playing...",
+              "All Favorites"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "icons",
+        "send",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L34",
+      "name": "Create Podcast",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Create Podcast",
+        "Create Podcast"
+      ],
+      "screen_ids": [
+        "1156:36598",
+        "1327:15576"
+      ],
+      "count": 2,
+      "representative_screen": "1156:36598",
+      "representative_name": "Create Podcast",
+      "dimensions": {
+        "width": 1440,
+        "height": 1115
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1115), Center main_content (1168x949)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1115,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 949,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Create Podcast",
+              "/",
+              "First Item"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "add",
+        "button",
+        "icons",
+        "input field",
+        "placeholder",
+        "radio",
+        "select condition",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "form",
+        "media",
+        "messaging",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L35",
+      "name": "Settings",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Settings",
+        "Settings"
+      ],
+      "screen_ids": [
+        "1156:38713",
+        "1327:16215"
+      ],
+      "count": 2,
+      "representative_screen": "1156:38713",
+      "representative_name": "Settings",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x949)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 949,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Settings",
+              "/",
+              "Profile",
+              "/",
+              "First Item"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow",
+        "avatar",
+        "button",
+        "icons",
+        "input field",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "editing",
+        "file_management",
+        "form",
+        "media",
+        "navigation",
+        "profile",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L36",
+      "name": "History -Filled state",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "History -Filled state",
+        "History -Filled state"
+      ],
+      "screen_ids": [
+        "1267:12886",
+        "1327:17689"
+      ],
+      "count": 2,
+      "representative_screen": "1267:12886",
+      "representative_name": "History -Filled state",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x2040)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 2040,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "History",
+              "Yesterday"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "check",
+        "icons",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "form",
+        "media",
+        "navigation",
+        "search",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L37",
+      "name": "Logout",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow|top:header:wide",
+      "screens_using": [
+        "Logout",
+        "Logout"
+      ],
+      "screen_ids": [
+        "1157:13830",
+        "1327:16544"
+      ],
+      "count": 2,
+      "representative_screen": "1157:13830",
+      "representative_name": "Logout",
+      "dimensions": {
+        "width": 1440,
+        "height": 1024
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Top header (1168x75), Left navigation_sidebar (272x1024), Center main_content (1168x1420), Center main_content (1440x1024), Center main_content (484x443)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar",
+            "width_approx": 272,
+            "height_approx": 1024,
+            "role": "navigation_sidebar",
+            "components": [
+              "Icons",
+              "Sidebar"
+            ],
+            "text_labels": [
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Log out"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Top",
+            "width_approx": 1168,
+            "height_approx": 75,
+            "role": "header",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Welcome Back, Siti Tirta!",
+              "Search Podcast.."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Podcast Content",
+            "width_approx": 1168,
+            "height_approx": 1420,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "🎙️ Your Favorite Podcasts, All in One Place!",
+              "Discover trending shows, latest episodes, and curated playlists made just for you."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Modal",
+            "width_approx": 1440,
+            "height_approx": 1024,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 484,
+            "height_approx": 443,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "Button"
+            ],
+            "text_labels": [
+              "Confirm Logout",
+              "You are about to be logged out.\nDo you wish to continue?",
+              "Cancel",
+              "Logout"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "icons",
+        "sidebar"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L38",
+      "name": "Share Podcast",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Share Podcast",
+        "Share Podcast"
+      ],
+      "screen_ids": [
+        "1006:15504",
+        "1327:10882"
+      ],
+      "count": 2,
+      "representative_screen": "1006:15504",
+      "representative_name": "Share Podcast",
+      "dimensions": {
+        "width": 1440,
+        "height": 3201
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x386), Center main_content (1440x1226), Center main_content (1440x674), Center main_content (1440x2444), Center main_content (1440x915)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 386,
+            "role": "main_content",
+            "components": [
+              "Navbar"
+            ],
+            "text_labels": [
+              "PopsCast",
+              "Home",
+              "About",
+              "Pricing",
+              "Contact us"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Information",
+            "width_approx": 1440,
+            "height_approx": 1226,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Everybody needs a little help being a human. From sleep to save money...",
+              "Popular Episode",
+              "All Episodes",
+              "See All"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 674,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Let’s start Your \nPodcast today!",
+              "Have something to share? Whether it’s your thoughts, stories, interviews, or ideas\nPopsCast makes it easy to start.",
+              "Enter Your Email Address"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main Container",
+            "width_approx": 1440,
+            "height_approx": 2444,
+            "role": "main_content",
+            "components": [],
+            "text_labels": [
+              "Voicery.net/podcast/episode-167-mastering-ui-design"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 915,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Footer"
+            ],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!",
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "icons",
+        "navbar"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "editing",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L39",
+      "name": "Contact Us",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Contact Us",
+        "Contact Us"
+      ],
+      "screen_ids": [
+        "1004:13311",
+        "1327:12740"
+      ],
+      "count": 2,
+      "representative_screen": "1004:13311",
+      "representative_name": "Contact Us",
+      "dimensions": {
+        "width": 1440,
+        "height": 3235
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Center main_content (1440x428), Center main_content (1440x810), Center main_content (1440x408), Center main_content (1440x674), Center main_content (1440x915)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header",
+            "width_approx": 1440,
+            "height_approx": 428,
+            "role": "main_content",
+            "components": [
+              "Navbar"
+            ],
+            "text_labels": [
+              "Your Voice Matters to Us",
+              "We love hearing from you! Whether it's feedback, questions, episode ideas, or collaboration requests—we welcome it all with open arms (and ears ready to listen 🎧).",
+              "PopsCast",
+              "Home",
+              "About",
+              "Pricing",
+              "Contact Us"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 810,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "INPUT FIELD",
+              "check"
+            ],
+            "text_labels": [
+              "Contact us",
+              "Our friendly team would love to hear from you."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 408,
+            "role": "main_content",
+            "components": [
+              "Icons",
+              "placeholder"
+            ],
+            "text_labels": [
+              "Email",
+              "Our friendly team is here to help.",
+              "customersupport@popscast.com",
+              "Office",
+              "Come say hello at our office HQ.",
+              "100 Smith Street Collingwood VIC 3066 AU",
+              "Phone",
+              "Mon-Fri from 8am to 5pm.",
+              "+1 (555) 000-0000"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 674,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Let’s start Your \nPodcast today!",
+              "Have something to share? Whether it’s your thoughts, stories, interviews, or ideas\nPopsCast makes it easy to start.",
+              "Enter Your Email Address"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 915,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Footer"
+            ],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!",
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check",
+        "footer",
+        "icons",
+        "input field",
+        "navbar",
+        "placeholder"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "form",
+        "map",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "PO_L40",
+      "name": "Detail Episode",
+      "type": "cards_grid",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Detail Episode",
+        "Detail Episode"
+      ],
+      "screen_ids": [
+        "1006:13662",
+        "1327:11915"
+      ],
+      "count": 2,
+      "representative_screen": "1006:13662",
+      "representative_name": "Detail Episode",
+      "dimensions": {
+        "width": 1440,
+        "height": 3705
+      },
+      "layout_detail": {
+        "type": "cards_grid",
+        "description": "Top header (1440x96), Center main_content (1440x1916), Center main_content (1440x674), Center main_content (1440x104), Center main_content (1440x915)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Navbar",
+            "width_approx": 1440,
+            "height_approx": 96,
+            "role": "header",
+            "components": [
+              "Button",
+              "Navbar"
+            ],
+            "text_labels": [
+              "PopsCast",
+              "Home",
+              "About",
+              "Pricing",
+              "Contact us",
+              "Login",
+              "Subscribe"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Pricing Information",
+            "width_approx": 1440,
+            "height_approx": 1916,
+            "role": "main_content",
+            "components": [
+              "send"
+            ],
+            "text_labels": [
+              "Description",
+              "In this episode, we dive deep into the world of UI design — exploring key principles, modern trends, and practical tips to help you craft intuitive and engaging user interfaces. Whether you’re just starting out or looking to sharpen your skills, this session will give you valuable insights into mastering UI design.",
+              "Comments",
+              "Popular Episode",
+              "All Episodes",
+              "See All"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 674,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Let’s start Your \nPodcast today!",
+              "Have something to share? Whether it’s your thoughts, stories, interviews, or ideas\nPopsCast makes it easy to start.",
+              "Enter Your Email Address"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Playing",
+            "width_approx": 1440,
+            "height_approx": 104,
+            "role": "main_content",
+            "components": [
+              "Icons"
+            ],
+            "text_labels": [
+              "Memories",
+              "maroon 5",
+              "02.10",
+              "01.10"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 915,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "Footer"
+            ],
+            "text_labels": [
+              "Start Your Podcast Journey with Us!",
+              "Our Company",
+              "About us",
+              "Career",
+              "Media",
+              "Contact",
+              "Category",
+              "Arts",
+              "Comedy",
+              "Social",
+              "Culture",
+              "Legal",
+              "Security",
+              "Privacy Policy",
+              "Terms & Conditions"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "footer",
+        "icons",
+        "navbar",
+        "send"
+      ],
+      "capabilities": [
+        "authentication",
+        "e_commerce",
+        "editing",
+        "map",
+        "media",
+        "navigation",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

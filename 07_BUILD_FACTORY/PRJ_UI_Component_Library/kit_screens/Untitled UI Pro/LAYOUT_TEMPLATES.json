@@ -1,0 +1,2574 @@
+{
+  "kit": "Untitled UI Pro",
+  "file_key": "xjdV652MDlXv5za86ou2wo",
+  "analyzed_at": "2026-02-19T22:56:22.502348",
+  "unique_layouts": 30,
+  "total_screens": 76,
+  "dedup_ratio": "76 screens -> 30 templates (39%)",
+  "layouts": [
+    {
+      "layout_id": "UN_L1",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:medium",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1696:438067",
+        "6803:20729"
+      ],
+      "count": 2,
+      "representative_screen": "1696:438067",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (336x960), Center main_content (1104x1727)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 336,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "Avatar",
+              "Logomark",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": [
+              "Designers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1104,
+            "height_approx": 1727,
+            "role": "main_content",
+            "components": [
+              "Section label",
+              "Page header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "_job card desktop",
+        "au",
+        "buttons",
+        "page header",
+        "section label",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L2",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:medium",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1781:509711",
+        "6803:22080"
+      ],
+      "count": 2,
+      "representative_screen": "1781:509711",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (336x960), Center main_content (1104x936)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 336,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "Avatar",
+              "Logomark",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": [
+              "Dashboard"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1104,
+            "height_approx": 936,
+            "role": "main_content",
+            "components": [
+              "Date picker dropdown",
+              "Select",
+              "Page header",
+              "Pagination",
+              "Button group",
+              "Buttons"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button group",
+        "buttons",
+        "date picker dropdown",
+        "page header",
+        "select",
+        "sidebar navigation",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L3",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1696:430642",
+        "6803:20813"
+      ],
+      "count": 2,
+      "representative_screen": "1696:430642",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (1144x1428)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "_Nav featured card",
+              "_Nav item dropdown base",
+              "Select",
+              "Logo",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1144,
+            "height_approx": 1428,
+            "role": "main_content",
+            "components": [
+              "_Job card desktop",
+              "Section header",
+              "Page header",
+              "Section footer",
+              "Buttons"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "_job card desktop",
+        "au",
+        "avatar",
+        "buttons",
+        "page header",
+        "section footer",
+        "section header",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "analytics",
+        "data_table",
+        "e_commerce",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L4",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1695:547351",
+        "6803:20978"
+      ],
+      "count": 2,
+      "representative_screen": "1695:547351",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (1144x1012)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "_Nav item dropdown base",
+              "Select",
+              "Logo",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1144,
+            "height_approx": 1012,
+            "role": "main_content",
+            "components": [
+              "Horizontal tabs",
+              "Section header",
+              "Page header",
+              "Code snippet",
+              "Pagination",
+              "Section footer"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "code snippet",
+        "horizontal tabs",
+        "page header",
+        "pagination",
+        "section footer",
+        "section header",
+        "sidebar navigation",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L5",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1695:535787",
+        "6803:21053"
+      ],
+      "count": 2,
+      "representative_screen": "1695:535787",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (68x960), Center main_content (1372x1787)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 68,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar navigation",
+              "Logomark",
+              "Avatar",
+              "_Nav item button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1372,
+            "height_approx": 1787,
+            "role": "main_content",
+            "components": [
+              "Horizontal tabs",
+              "Message",
+              "Content divider",
+              "Section header",
+              "Page header",
+              "Card header",
+              "Input field",
+              "Buttons"
+            ],
+            "text_labels": [
+              "Today"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "buttons",
+        "card header",
+        "content divider",
+        "horizontal tabs",
+        "input field",
+        "message",
+        "page header",
+        "section header",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "calendar",
+        "editing",
+        "form",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L6",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1695:520023",
+        "6803:21142"
+      ],
+      "count": 2,
+      "representative_screen": "1695:520023",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (69x960), Center main_content (1371x1857)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 69,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar navigation",
+              "Logomark",
+              "Avatar",
+              "_Nav item button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1371,
+            "height_approx": 1857,
+            "role": "main_content",
+            "components": [
+              "Horizontal tabs",
+              "Activity feed",
+              "Content divider",
+              "Section header",
+              "Page header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "activity feed",
+        "content divider",
+        "horizontal tabs",
+        "page header",
+        "section header",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L7",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "9313:552259",
+        "9315:557483"
+      ],
+      "count": 2,
+      "representative_screen": "9313:552259",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (1144x1944)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar navigation",
+              "_Nav item base",
+              "_Nav account card",
+              "Logo"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1144,
+            "height_approx": 1944,
+            "role": "main_content",
+            "components": [
+              "Page header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar profile photo",
+        "badge",
+        "book-closed",
+        "buttons",
+        "chevron-right",
+        "cursor",
+        "edit-04",
+        "file upload",
+        "link-01",
+        "marker-pin-02",
+        "page header",
+        "section header",
+        "sidebar navigation",
+        "star icon",
+        "text editor",
+        "text highlight"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L8",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1695:506399",
+        "6803:21429",
+        "1695:437739",
+        "6803:21547",
+        "1689:439089",
+        "6803:21863",
+        "1781:508819",
+        "6803:22186"
+      ],
+      "count": 8,
+      "representative_screen": "1695:437739",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (68x960), Center main_content (1372x1134)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 68,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar navigation",
+              "Logomark",
+              "Avatar",
+              "_Nav item button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1372,
+            "height_approx": 1134,
+            "role": "main_content",
+            "components": [
+              "Metric item",
+              "Page header",
+              "Horizontal tabs",
+              "Section header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "buttons",
+        "card header",
+        "date picker dropdown",
+        "horizontal tabs",
+        "metric item",
+        "page header",
+        "pagination",
+        "section header",
+        "select",
+        "sidebar navigation",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L9",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "8044:116690",
+        "8044:131108",
+        "8044:127075",
+        "8044:131118",
+        "8044:129184",
+        "8044:131128"
+      ],
+      "count": 6,
+      "representative_screen": "8044:116690",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (1144x1164)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar navigation",
+              "_Nav item base",
+              "_Nav account card",
+              "Logo"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1144,
+            "height_approx": 1164,
+            "role": "main_content",
+            "components": [
+              "Calendar",
+              "Page header",
+              "Horizontal tabs"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "calendar",
+        "horizontal tabs",
+        "page header",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L10",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1781:510510",
+        "6803:21971"
+      ],
+      "count": 2,
+      "representative_screen": "1781:510510",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (1144x1344)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "_Nav featured card",
+              "Select",
+              "Logo",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1144,
+            "height_approx": 1344,
+            "role": "main_content",
+            "components": [
+              "Card header",
+              "Page header",
+              "File upload",
+              "Buttons"
+            ],
+            "text_labels": [
+              "Back to all projects"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button group",
+        "buttons",
+        "card header",
+        "file upload",
+        "page header",
+        "select",
+        "sidebar navigation",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "data_table",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L11",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1696:431923",
+        "8740:580508"
+      ],
+      "count": 2,
+      "representative_screen": "1696:431923",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (68x960), Center main_content (860x1225), Center main_content (512x960)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 68,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "Sidebar navigation",
+              "Logomark",
+              "Avatar",
+              "_Nav item button"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 860,
+            "height_approx": 1225,
+            "role": "main_content",
+            "components": [
+              "_Listing search result desktop",
+              "Select",
+              "Page header",
+              "Pagination",
+              "Button group",
+              "Buttons"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Map",
+            "width_approx": 512,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "_Google maps mockup",
+              "_Map location marker"
+            ],
+            "text_labels": [
+              "Satellite",
+              "Map"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "_google maps mockup",
+        "_listing search result desktop",
+        "_map location marker",
+        "badge",
+        "button group",
+        "buttons",
+        "home-02",
+        "marker-pin-02",
+        "page header",
+        "pagination",
+        "select",
+        "sidebar navigation",
+        "star icon",
+        "wifi"
+      ],
+      "capabilities": [
+        "calendar",
+        "data_table",
+        "map",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L12",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1695:545950",
+        "9244:103423"
+      ],
+      "count": 2,
+      "representative_screen": "1695:545950",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (784x960), Center main_content (360x960)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "_Nav featured card",
+              "_Nav item dropdown base",
+              "Select",
+              "Logo",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 784,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "Page header",
+              "Message",
+              "Content divider",
+              "Message action"
+            ],
+            "text_labels": [
+              "Thursday",
+              "Today",
+              "This is a hint text to help user."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Side panel",
+            "width_approx": 360,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "Avatar profile photo",
+              "Avatar",
+              "Badge",
+              "Buttons"
+            ],
+            "text_labels": [
+              "About",
+              "I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development.",
+              "Work experience"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "_avatar online indicator",
+        "avatar",
+        "avatar profile photo",
+        "badge",
+        "buttons",
+        "content divider",
+        "message",
+        "message action",
+        "page header",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "analytics",
+        "data_table",
+        "e_commerce",
+        "media",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L13",
+      "name": "Desktop",
+      "type": "sidebar_content",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|left:navigation_sidebar:narrow",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1695:508554",
+        "6803:21342"
+      ],
+      "count": 2,
+      "representative_screen": "1695:508554",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "sidebar_content",
+        "description": "Left navigation_sidebar (296x960), Center main_content (360x960), Center main_content (784x960)",
+        "panels": [
+          {
+            "position": "left",
+            "name": "Sidebar navigation",
+            "width_approx": 296,
+            "height_approx": 960,
+            "role": "navigation_sidebar",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "_Nav featured card",
+              "_Nav item dropdown base",
+              "Select",
+              "Logo",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Side panel",
+            "width_approx": 360,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "_Message",
+              "Select",
+              "Avatar label group",
+              "Card header"
+            ],
+            "text_labels": [
+              "Manage your team members and their account permissions here.",
+              "This is a hint text to help user.",
+              "5min ago",
+              "Hey Olivia, Katherine sent me over the latest doc. I just have a quick question about the...",
+              "20min ago",
+              "You: Sure thing, I’ll have a look today. They’re looking great!",
+              "1hr ago",
+              "I’ve just published the site again. Looks like it fixed it. How weird! I’ll keep an eye on it...",
+              "2hr ago",
+              "Hey Liv — just wanted to say thanks for chasing up the release for me. Really...",
+              "2hr ago",
+              "Good news!! Jack accepted the offer. I’ve sent over a contract for him to review but...",
+              "4hr ago",
+              "Thanks! Looks great!",
+              "4hr ago"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 784,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "Content divider",
+              "Message",
+              "Card header",
+              "Message action"
+            ],
+            "text_labels": [
+              "Thursday",
+              "Today",
+              "This is a hint text to help user."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "_message",
+        "avatar label group",
+        "card header",
+        "content divider",
+        "message",
+        "message action",
+        "select",
+        "sidebar navigation"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L14",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "1689:450150",
+        "6803:21713"
+      ],
+      "count": 2,
+      "representative_screen": "1689:450150",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 960
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (552x960), Center main_content (888x1847)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Sidebar navigation",
+            "width_approx": 552,
+            "height_approx": 960,
+            "role": "main_content",
+            "components": [
+              "_Nav account card",
+              "Sidebar navigation",
+              "_Nav featured card",
+              "Select",
+              "Logo",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 888,
+            "height_approx": 1847,
+            "role": "main_content",
+            "components": [
+              "Section label",
+              "Page header",
+              "Section header",
+              "Content divider"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "content divider",
+        "page header",
+        "pagination",
+        "section header",
+        "section label",
+        "sidebar navigation",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L15",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315368",
+        "6803:37410"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315368",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2225
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x2153)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 2153,
+            "role": "main_content",
+            "components": [
+              "Section label",
+              "Page header",
+              "_Job card desktop"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "_job card desktop",
+        "au",
+        "buttons",
+        "header navigation",
+        "page header",
+        "section label",
+        "social icon"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "map",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L16",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315454",
+        "6803:37503"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315454",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2305
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x2233)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 2233,
+            "role": "main_content",
+            "components": [
+              "Input field",
+              "Page header",
+              "Section header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "_job card desktop",
+        "au",
+        "buttons",
+        "header navigation",
+        "input field",
+        "page header",
+        "section header"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L17",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315530",
+        "6803:37579"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315530",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1745
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1673)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1673,
+            "role": "main_content",
+            "components": [
+              "_Google maps mockup",
+              "_Listing search result desktop",
+              "_Map location marker",
+              "Select",
+              "Page header",
+              "Pagination",
+              "Button group",
+              "Buttons"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "_google maps mockup",
+        "_listing search result desktop",
+        "_map location marker",
+        "button group",
+        "buttons",
+        "header navigation",
+        "page header",
+        "pagination",
+        "select"
+      ],
+      "capabilities": [
+        "calendar",
+        "data_table",
+        "map",
+        "navigation",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L18",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315622",
+        "6803:37671"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315622",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1124
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1052)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1052,
+            "role": "main_content",
+            "components": [
+              "Horizontal tabs",
+              "Section header",
+              "Page header",
+              "Code snippet",
+              "Section footer"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "code snippet",
+        "header navigation",
+        "horizontal tabs",
+        "page header",
+        "pagination",
+        "section footer",
+        "section header",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "authentication",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L19",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315800",
+        "6803:37849"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315800",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2115
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x2043)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 2043,
+            "role": "main_content",
+            "components": [
+              "Vertical tabs",
+              "Activity feed",
+              "Content divider",
+              "Section header",
+              "Page header",
+              "Input field",
+              "Buttons"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "activity feed",
+        "buttons",
+        "content divider",
+        "file upload",
+        "header navigation",
+        "input field",
+        "page header",
+        "section header",
+        "vertical tabs"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "form",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L20",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "9320:560189",
+        "9320:562888"
+      ],
+      "count": 2,
+      "representative_screen": "9320:560189",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2000
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1928)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1928,
+            "role": "main_content",
+            "components": [
+              "Page header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar profile photo",
+        "badge",
+        "book-closed",
+        "buttons",
+        "chevron-right",
+        "edit-04",
+        "file upload",
+        "header navigation",
+        "link-01",
+        "marker-pin-02",
+        "page header",
+        "section header",
+        "star icon",
+        "text editor",
+        "text highlight"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "editing",
+        "file_management",
+        "media",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L21",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315885",
+        "6803:37934"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315885",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1568
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1496)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1496,
+            "role": "main_content",
+            "components": [
+              "Content divider",
+              "Section header",
+              "Message action",
+              "Buttons"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "avatar profile photo",
+        "buttons",
+        "content divider",
+        "header navigation",
+        "link-01",
+        "marker-pin-02",
+        "message",
+        "message action",
+        "section header",
+        "verified tick"
+      ],
+      "capabilities": [
+        "analytics",
+        "e_commerce",
+        "media",
+        "messaging",
+        "navigation",
+        "profile",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L22",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316000",
+        "6803:38049"
+      ],
+      "count": 2,
+      "representative_screen": "6277:316000",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1288
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1216)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1216,
+            "role": "main_content",
+            "components": [
+              "_Message",
+              "Page header",
+              "Card header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "_message",
+        "card header",
+        "content divider",
+        "header navigation",
+        "message",
+        "message action",
+        "page header",
+        "select"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "messaging",
+        "navigation",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L23",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316222",
+        "6803:38271"
+      ],
+      "count": 2,
+      "representative_screen": "6277:316222",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1266
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1194)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1194,
+            "role": "main_content",
+            "components": [
+              "Metric item",
+              "Page header",
+              "Horizontal tabs",
+              "Section header"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "buttons",
+        "header navigation",
+        "horizontal tabs",
+        "metric item",
+        "page header",
+        "section header",
+        "select",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L24",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "8045:152799",
+        "8045:159218",
+        "8045:155957",
+        "8045:159228",
+        "8045:157848",
+        "8045:159238"
+      ],
+      "count": 6,
+      "representative_screen": "8045:152799",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1252
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1180)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Buttons",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1180,
+            "role": "main_content",
+            "components": [
+              "Calendar",
+              "Page header",
+              "Horizontal tabs"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "calendar",
+        "header navigation",
+        "horizontal tabs",
+        "page header"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L25",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316453",
+        "6803:38502"
+      ],
+      "count": 2,
+      "representative_screen": "6277:316453",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1091
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1019)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Buttons",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1019,
+            "role": "main_content",
+            "components": [
+              "Pagination",
+              "Page header",
+              "Vertical tabs"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "header navigation",
+        "page header",
+        "select",
+        "table cell",
+        "table header cell",
+        "vertical tabs"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L26",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316561",
+        "6803:38610"
+      ],
+      "count": 2,
+      "representative_screen": "6277:316561",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1467
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x72), Center main_content (1440x1395)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 72,
+            "role": "header",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1395,
+            "role": "main_content",
+            "components": [
+              "Card header",
+              "Page header",
+              "File upload"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button group",
+        "buttons",
+        "card header",
+        "file upload",
+        "header navigation",
+        "page header",
+        "select",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "data_table",
+        "editing",
+        "file_management",
+        "navigation",
+        "search",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L27",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:315720",
+        "6803:37769"
+      ],
+      "count": 2,
+      "representative_screen": "6277:315720",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 2336
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x136), Center main_content (1440x2200)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Buttons",
+              "Select",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": [
+              "This is a hint text to help user."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 2200,
+            "role": "main_content",
+            "components": [
+              "Page header",
+              "Vertical tabs",
+              "Section header",
+              "Content divider"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "buttons",
+        "content divider",
+        "featured icon",
+        "file upload",
+        "header navigation",
+        "input field",
+        "page header",
+        "section header",
+        "vertical tabs"
+      ],
+      "capabilities": [
+        "analytics",
+        "content_creation",
+        "editing",
+        "file_management",
+        "form",
+        "map",
+        "messaging",
+        "navigation",
+        "notifications",
+        "profile",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L28",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316103",
+        "6803:38152"
+      ],
+      "count": 2,
+      "representative_screen": "6277:316103",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1230
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x136), Center main_content (1440x1094)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Buttons",
+              "Select",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": [
+              "This is a hint text to help user."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 1094,
+            "role": "main_content",
+            "components": [
+              "Horizontal tabs",
+              "Vertical tabs",
+              "Page header",
+              "Pagination",
+              "Metric item"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "buttons",
+        "header navigation",
+        "horizontal tabs",
+        "metric item",
+        "page header",
+        "select",
+        "table cell",
+        "table header cell",
+        "vertical tabs"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "data_table",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L29",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop",
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316346",
+        "7933:564380",
+        "6277:316661",
+        "6803:38710"
+      ],
+      "count": 4,
+      "representative_screen": "6277:316346",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1073
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x136), Center main_content (1440x937)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Buttons",
+              "Select",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": [
+              "This is a hint text to help user."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 937,
+            "role": "main_content",
+            "components": [
+              "Button group",
+              "Section label",
+              "Page header",
+              "Select"
+            ],
+            "text_labels": [
+              "Review and manage recent orders."
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "button group",
+        "buttons",
+        "date picker dropdown",
+        "header navigation",
+        "page header",
+        "pagination",
+        "section label",
+        "select",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "file_management",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "UN_L30",
+      "name": "Desktop",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Desktop",
+        "Desktop"
+      ],
+      "screen_ids": [
+        "6277:316761",
+        "6803:38810"
+      ],
+      "count": 2,
+      "representative_screen": "6277:316761",
+      "representative_name": "Desktop",
+      "dimensions": {
+        "width": 1440,
+        "height": 1097
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x136), Center main_content (1440x961)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Header navigation",
+            "width_approx": 1440,
+            "height_approx": 136,
+            "role": "main_content",
+            "components": [
+              "Dropdown",
+              "Header navigation",
+              "Buttons",
+              "Select",
+              "Logo",
+              "_Nav item button",
+              "_Nav item base"
+            ],
+            "text_labels": [
+              "This is a hint text to help user."
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Main",
+            "width_approx": 1440,
+            "height_approx": 961,
+            "role": "main_content",
+            "components": [
+              "Horizontal tabs",
+              "Date picker dropdown",
+              "Select",
+              "Page header",
+              "Card header",
+              "Pagination",
+              "Buttons"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "buttons",
+        "card header",
+        "date picker dropdown",
+        "header navigation",
+        "horizontal tabs",
+        "page header",
+        "pagination",
+        "select",
+        "table cell",
+        "table header cell"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "data_table",
+        "e_commerce",
+        "editing",
+        "messaging",
+        "navigation",
+        "notifications",
+        "search",
+        "settings",
+        "user_management"
+      ],
+      "is_light": true
+    }
+  ]
+}

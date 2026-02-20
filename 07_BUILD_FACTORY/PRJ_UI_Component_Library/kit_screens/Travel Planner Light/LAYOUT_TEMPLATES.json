@@ -1,0 +1,430 @@
+{
+  "kit_name": "Travel Planner Light",
+  "file_key": "7vWKAMm6109mpiA3K5D7Vw",
+  "total_screens": 28,
+  "unique_layouts": 26,
+  "reduction_percent": 7,
+  "layouts": [
+    {
+      "name": "Shadows",
+      "layout_type": "full_canvas",
+      "width": 1446.0,
+      "height": 414.0,
+      "child_count": 2,
+      "representative_screen": "115:15133",
+      "representative_name": "Shadows",
+      "screens_using": 2,
+      "screen_ids": [
+        "115:15133",
+        "124:16931"
+      ],
+      "screen_names": [
+        "Shadows",
+        "Borders"
+      ]
+    },
+    {
+      "name": "Modal",
+      "layout_type": "full_canvas",
+      "width": 1480.0,
+      "height": 2108.0,
+      "child_count": 2,
+      "representative_screen": "137:21642",
+      "representative_name": "Modal",
+      "screens_using": 2,
+      "screen_ids": [
+        "137:21642",
+        "137:22510"
+      ],
+      "screen_names": [
+        "Modal",
+        "Dialog"
+      ]
+    },
+    {
+      "name": "Blur",
+      "layout_type": "full_canvas",
+      "width": 1397.0,
+      "height": 374.0,
+      "child_count": 2,
+      "representative_screen": "124:16979",
+      "representative_name": "Blur",
+      "screens_using": 1,
+      "screen_ids": [
+        "124:16979"
+      ],
+      "screen_names": [
+        "Blur"
+      ]
+    },
+    {
+      "name": "Opacity",
+      "layout_type": "full_canvas",
+      "width": 1446.0,
+      "height": 810.0,
+      "child_count": 2,
+      "representative_screen": "123:16727",
+      "representative_name": "Opacity",
+      "screens_using": 1,
+      "screen_ids": [
+        "123:16727"
+      ],
+      "screen_names": [
+        "Opacity"
+      ]
+    },
+    {
+      "name": "Breakpoints",
+      "layout_type": "full_canvas",
+      "width": 1496.0,
+      "height": 976.0,
+      "child_count": 2,
+      "representative_screen": "123:16830",
+      "representative_name": "Breakpoints",
+      "screens_using": 1,
+      "screen_ids": [
+        "123:16830"
+      ],
+      "screen_names": [
+        "Breakpoints"
+      ]
+    },
+    {
+      "name": "Grid",
+      "layout_type": "full_canvas",
+      "width": 1492.0,
+      "height": 672.0,
+      "child_count": 2,
+      "representative_screen": "124:17040",
+      "representative_name": "Grid",
+      "screens_using": 1,
+      "screen_ids": [
+        "124:17040"
+      ],
+      "screen_names": [
+        "Grid"
+      ]
+    },
+    {
+      "name": "Spacing",
+      "layout_type": "full_canvas",
+      "width": 1397.0,
+      "height": 1292.0,
+      "child_count": 2,
+      "representative_screen": "123:16454",
+      "representative_name": "Spacing",
+      "screens_using": 1,
+      "screen_ids": [
+        "123:16454"
+      ],
+      "screen_names": [
+        "Spacing"
+      ]
+    },
+    {
+      "name": "Typography",
+      "layout_type": "standard",
+      "width": 1036.0,
+      "height": 3232.0,
+      "child_count": 2,
+      "representative_screen": "123:16490",
+      "representative_name": "Typography",
+      "screens_using": 1,
+      "screen_ids": [
+        "123:16490"
+      ],
+      "screen_names": [
+        "Typography"
+      ]
+    },
+    {
+      "name": "Corner Radius",
+      "layout_type": "full_canvas",
+      "width": 1450.0,
+      "height": 402.0,
+      "child_count": 2,
+      "representative_screen": "120:15845",
+      "representative_name": "Corner Radius",
+      "screens_using": 1,
+      "screen_ids": [
+        "120:15845"
+      ],
+      "screen_names": [
+        "Corner Radius"
+      ]
+    },
+    {
+      "name": "Colors",
+      "layout_type": "full_canvas",
+      "width": 1624.0,
+      "height": 2564.0,
+      "child_count": 2,
+      "representative_screen": "116:15171",
+      "representative_name": "Colors",
+      "screens_using": 1,
+      "screen_ids": [
+        "116:15171"
+      ],
+      "screen_names": [
+        "Colors"
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "full_canvas",
+      "width": 1511.0,
+      "height": 2947.0,
+      "child_count": 2,
+      "representative_screen": "100:61281",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "100:61281"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "full_canvas",
+      "width": 4755.0,
+      "height": 499.0,
+      "child_count": 2,
+      "representative_screen": "100:81193",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "100:81193"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": "tag",
+      "layout_type": "full_canvas",
+      "width": 4580.0,
+      "height": 432.0,
+      "child_count": 240,
+      "representative_screen": "29:1508",
+      "representative_name": "tag",
+      "screens_using": 1,
+      "screen_ids": [
+        "29:1508"
+      ],
+      "screen_names": [
+        "tag"
+      ]
+    },
+    {
+      "name": "Drawer Content",
+      "layout_type": "full_canvas",
+      "width": 2005.0,
+      "height": 3462.0,
+      "child_count": 6,
+      "representative_screen": "102:6930",
+      "representative_name": "Drawer Content",
+      "screens_using": 1,
+      "screen_ids": [
+        "102:6930"
+      ],
+      "screen_names": [
+        "Drawer Content"
+      ]
+    },
+    {
+      "name": "Drawer",
+      "layout_type": "full_canvas",
+      "width": 1480.0,
+      "height": 3152.0,
+      "child_count": 3,
+      "representative_screen": "102:7013",
+      "representative_name": "Drawer",
+      "screens_using": 1,
+      "screen_ids": [
+        "102:7013"
+      ],
+      "screen_names": [
+        "Drawer"
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "full_canvas",
+      "width": 1658.0,
+      "height": 751.0,
+      "child_count": 2,
+      "representative_screen": "100:32147",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "100:32147"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": "input",
+      "layout_type": "full_canvas",
+      "width": 1472.0,
+      "height": 684.0,
+      "child_count": 20,
+      "representative_screen": "53:7895",
+      "representative_name": "input",
+      "screens_using": 1,
+      "screen_ids": [
+        "53:7895"
+      ],
+      "screen_names": [
+        "input"
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "full_canvas",
+      "width": 1658.0,
+      "height": 947.0,
+      "child_count": 2,
+      "representative_screen": "103:10539",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "103:10539"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": "Textarea",
+      "layout_type": "full_canvas",
+      "width": 1472.0,
+      "height": 880.0,
+      "child_count": 20,
+      "representative_screen": "103:10147",
+      "representative_name": "Textarea",
+      "screens_using": 1,
+      "screen_ids": [
+        "103:10147"
+      ],
+      "screen_names": [
+        "Textarea"
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "full_canvas",
+      "width": 1660.0,
+      "height": 755.0,
+      "child_count": 2,
+      "representative_screen": "100:34453",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "100:34453"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": "Select",
+      "layout_type": "full_canvas",
+      "width": 1472.0,
+      "height": 688.0,
+      "child_count": 20,
+      "representative_screen": "56:8144",
+      "representative_name": "Select",
+      "screens_using": 1,
+      "screen_ids": [
+        "56:8144"
+      ],
+      "screen_names": [
+        "Select"
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "full_canvas",
+      "width": 1990.0,
+      "height": 605.0,
+      "child_count": 2,
+      "representative_screen": "124:18332",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "124:18332"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": "Alert",
+      "layout_type": "full_canvas",
+      "width": 1914.0,
+      "height": 600.0,
+      "child_count": 15,
+      "representative_screen": "124:18031",
+      "representative_name": "Alert",
+      "screens_using": 1,
+      "screen_ids": [
+        "124:18031"
+      ],
+      "screen_names": [
+        "Alert"
+      ]
+    },
+    {
+      "name": " ",
+      "layout_type": "standard",
+      "width": 955.0,
+      "height": 1467.0,
+      "child_count": 2,
+      "representative_screen": "126:19352",
+      "representative_name": " ",
+      "screens_using": 1,
+      "screen_ids": [
+        "126:19352"
+      ],
+      "screen_names": [
+        " "
+      ]
+    },
+    {
+      "name": "All accommodation",
+      "layout_type": "full_canvas",
+      "width": 1240.0,
+      "height": 1940.0,
+      "child_count": 2,
+      "representative_screen": "185:47126",
+      "representative_name": "All accommodation",
+      "screens_using": 1,
+      "screen_ids": [
+        "185:47126"
+      ],
+      "screen_names": [
+        "All accommodation"
+      ]
+    },
+    {
+      "name": "hotel card",
+      "layout_type": "full_canvas",
+      "width": 1358.0,
+      "height": 1412.0,
+      "child_count": 6,
+      "representative_screen": "152:38156",
+      "representative_name": "hotel card",
+      "screens_using": 1,
+      "screen_ids": [
+        "152:38156"
+      ],
+      "screen_names": [
+        "hotel card"
+      ]
+    }
+  ],
+  "generated_at": "2026-02-20T00:37:50.203045"
+}

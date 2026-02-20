@@ -1,0 +1,3003 @@
+{
+  "kit": "Briefberry",
+  "file_key": "NPFFSPpbO27fWSX0cUaFJO",
+  "analyzed_at": "2026-02-19T17:18:43.045764",
+  "unique_layouts": 27,
+  "total_screens": 100,
+  "dedup_ratio": "100 screens -> 27 templates (27%)",
+  "layouts": [
+    {
+      "layout_id": "BR_L1",
+      "name": "landing page (gradient added)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "landing page (gradient added)",
+        "landing page (gradient added)"
+      ],
+      "screen_ids": [
+        "1:3601",
+        "1:3772"
+      ],
+      "count": 2,
+      "representative_screen": "1:3772",
+      "representative_name": "landing page (gradient added)",
+      "dimensions": {
+        "width": 1440,
+        "height": 4320
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1156), Center main_content (1440x1076), Center main_content (768x692), Center main_content (976x904), Center main_content (1440x668), Center main_content (976x668), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 1000002526",
+            "width_approx": 1440,
+            "height_approx": 1156,
+            "role": "main_content",
+            "components": [
+              "button (secondary)",
+              "Button",
+              "Illustration"
+            ],
+            "text_labels": [
+              "Sign in",
+              "AI-powered project briefs for designers",
+              "Transform your ideas into comprehensive project briefs in seconds! Let AI create your project brief while you focus on bringing your vision to life.",
+              "Get started for free",
+              "Join 80,000+ designers"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002524",
+            "width_approx": 1440,
+            "height_approx": 1076,
+            "role": "main_content",
+            "components": [
+              "Illustration"
+            ],
+            "text_labels": [
+              "AI-powered briefs in seconds",
+              "Save hours of preparation time with intelligent brief generation"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002522",
+            "width_approx": 768,
+            "height_approx": 692,
+            "role": "main_content",
+            "components": [
+              "button (secondary)",
+              "Button",
+              "icon button",
+              "arrow-top-right"
+            ],
+            "text_labels": [
+              "Start for free and upgrade to unlock more features"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 14",
+            "width_approx": 976,
+            "height_approx": 904,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Rectangle 13",
+            "width_approx": 1440,
+            "height_approx": 668,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002538",
+            "width_approx": 976,
+            "height_approx": 668,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "shadow",
+              "Illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "ai text, text generation",
+        "arrow-top-right",
+        "avatar 15",
+        "avatar 17",
+        "avatar 3",
+        "avatar 5",
+        "avatar 9",
+        "button",
+        "button (secondary)",
+        "check, checmark",
+        "footer",
+        "icon button",
+        "illustration",
+        "landing page (gradient added)",
+        "shadow"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "editing",
+        "form",
+        "profile",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L2",
+      "name": "Form - type of project (hover - select)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "Form - type of project (hover - select)",
+        "Form - type of project (hover - select)"
+      ],
+      "screen_ids": [
+        "1:3939",
+        "1:3942"
+      ],
+      "count": 2,
+      "representative_screen": "1:3942",
+      "representative_name": "Form - type of project (hover - select)",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x900), Center main_content (34x34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Form - type of project (selecting) (hover)",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "title",
+              "Form - type of project (selecting) (hover)",
+              "Footer (form page)",
+              "Avatar",
+              "bottom buttons",
+              "type of project card",
+              "form illustration"
+            ],
+            "text_labels": [
+              "What's your type of project?",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "form - type of project (hover - select)",
+        "form - type of project (selecting) (hover)",
+        "general"
+      ],
+      "capabilities": [
+        "form"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L3",
+      "name": "hover on regenerate button",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:narrow",
+      "screens_using": [
+        "hover on regenerate button",
+        "hover on regenerate button"
+      ],
+      "screen_ids": [
+        "1:5290",
+        "1:5306"
+      ],
+      "count": 2,
+      "representative_screen": "1:5306",
+      "representative_name": "hover on regenerate button",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x900), Center main_content (34x34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Brief (free)",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "brief block",
+              "Footer button",
+              "ref block",
+              "nav (brief)",
+              "actions",
+              "icon button",
+              "Brief (free)"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "brief (free)",
+        "general",
+        "hover on regenerate button"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "media",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L4",
+      "name": "select date (calendar)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Form - project name (typing)",
+        "Form - project name (typing)",
+        "Form - main goals (typing)",
+        "Form - main goals (typing)",
+        "Form - project budget",
+        "Form - project budget",
+        "budget breakdown",
+        "select date (calendar)",
+        "Typing or select the day",
+        "Typing or select the day",
+        "Edit form",
+        "Edit form"
+      ],
+      "screen_ids": [
+        "1:3943",
+        "1:3981",
+        "1:3982",
+        "1:4019",
+        "1:4020",
+        "1:4059",
+        "1:4060",
+        "1:4663",
+        "1:4810",
+        "1:4954",
+        "1:4956",
+        "1:4975"
+      ],
+      "count": 12,
+      "representative_screen": "1:4663",
+      "representative_name": "select date (calendar)",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (682x880), Center main_content (508x48), Center main_content (508x88), Center main_content (508x430), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 682,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bottom buttons",
+            "width_approx": 508,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "ghost button",
+              "bottom buttons"
+            ],
+            "text_labels": [
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "title",
+            "width_approx": 508,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "title"
+            ],
+            "text_labels": [
+              "What's your type of project?",
+              "4 / 7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002589",
+            "width_approx": 508,
+            "height_approx": 430,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "chevron-right-small",
+              "tags"
+            ],
+            "text_labels": [
+              "Select date",
+              "Write anytime here. e.g. tomorrow or 18 Oct 2024",
+              "October 2024",
+              "Today",
+              "Tomorrow",
+              "1 week",
+              "2 week",
+              "1 month",
+              "3 months"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "chevron-right-small",
+        "crossed large, close",
+        "footer",
+        "form - main goals (typing)",
+        "form - project budget",
+        "form - project name (typing)",
+        "form illustration",
+        "general",
+        "icon button",
+        "plus, add small",
+        "tags",
+        "title",
+        "tool-tip",
+        "type of project card",
+        "typing or select the day"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "form",
+        "profile",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L5",
+      "name": "budget breakdown",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "budget breakdown"
+      ],
+      "screen_ids": [
+        "1:4144"
+      ],
+      "count": 1,
+      "representative_screen": "1:4144",
+      "representative_name": "budget breakdown",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (682x880), Center main_content (508x48), Center main_content (508x88), Center main_content (508x330), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 682,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bottom buttons",
+            "width_approx": 508,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "ghost button",
+              "bottom buttons"
+            ],
+            "text_labels": [
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "title",
+            "width_approx": 508,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "title"
+            ],
+            "text_labels": [
+              "Let's break down your budget.",
+              "6 / 7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002580",
+            "width_approx": 508,
+            "height_approx": 330,
+            "role": "main_content",
+            "components": [
+              "crossed large, close",
+              "plus, add small",
+              "Tool-tip"
+            ],
+            "text_labels": [
+              "Landing page design",
+              "e.g Landing page design",
+              "e.g Landing page design",
+              "Add more"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "budget breakdown",
+        "crossed large, close",
+        "footer",
+        "form illustration",
+        "plus, add small",
+        "title",
+        "tool-tip"
+      ],
+      "capabilities": [
+        "form",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L6",
+      "name": "select date (calendar)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "select date (calendar)"
+      ],
+      "screen_ids": [
+        "1:4809"
+      ],
+      "count": 1,
+      "representative_screen": "1:4809",
+      "representative_name": "select date (calendar)",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (682x880), Center main_content (508x48), Center main_content (508x88), Center main_content (508x430), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 682,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bottom buttons",
+            "width_approx": 508,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "ghost button",
+              "bottom buttons"
+            ],
+            "text_labels": [
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "title",
+            "width_approx": 508,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "title"
+            ],
+            "text_labels": [
+              "What's your type of project?",
+              "4 / 7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002589",
+            "width_approx": 508,
+            "height_approx": 430,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "chevron-right-small",
+              "tags"
+            ],
+            "text_labels": [
+              "Select date",
+              "Write anytime here. e.g. tomorrow or 18 Oct 2024",
+              "October 2024",
+              "Today",
+              "Tomorrow",
+              "1 week",
+              "2 week",
+              "1 month",
+              "3 months"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "chevron-right-small",
+        "footer",
+        "form illustration",
+        "general",
+        "select date (calendar)",
+        "tags",
+        "title"
+      ],
+      "capabilities": [
+        "calendar",
+        "form",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L7",
+      "name": "Form - type of project",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Form - type of project",
+        "Form - type of project",
+        "Form - project name",
+        "Form - project name",
+        "Form - main goals",
+        "Form - main goals",
+        "Form - select date",
+        "Form - select date",
+        "Form - project budget",
+        "Form - project budget",
+        "Form - budget breakdown",
+        "Form - budget breakdown",
+        "Form - references"
+      ],
+      "screen_ids": [
+        "1:4145",
+        "1:4186",
+        "1:4187",
+        "1:4227",
+        "1:4228",
+        "1:4268",
+        "1:4269",
+        "1:4309",
+        "1:4310",
+        "1:4352",
+        "1:4353",
+        "1:4402",
+        "1:4403"
+      ],
+      "count": 13,
+      "representative_screen": "1:4186",
+      "representative_name": "Form - type of project",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (748x900), Center main_content (692x900), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 748,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "type of project card",
+              "title",
+              "bottom buttons"
+            ],
+            "text_labels": [
+              "What's your type of project?",
+              "Web app",
+              "UI/UI Design",
+              "Mobile app",
+              "Branding & logo",
+              "Illustration",
+              "3D Design",
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 692,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer (form page)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer (form page)"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "footer (form page)",
+        "form - budget breakdown",
+        "form - main goals",
+        "form - project budget",
+        "form - project name",
+        "form - select date",
+        "form - type of project",
+        "form illustration",
+        "plus, add small",
+        "title",
+        "type of project card",
+        "upload image"
+      ],
+      "capabilities": [
+        "calendar",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "form",
+        "media",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L8",
+      "name": "Form - references",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Form - references"
+      ],
+      "screen_ids": [
+        "1:4449"
+      ],
+      "count": 1,
+      "representative_screen": "1:4449",
+      "representative_name": "Form - references",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (748x900), Center main_content (692x900), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Form",
+            "width_approx": 748,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "bottom buttons",
+              "title",
+              "upload image",
+              "plus, add small"
+            ],
+            "text_labels": [
+              "Share your references and inspirations",
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Illustration",
+            "width_approx": 692,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer (form page)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer (form page)"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "footer (form page)",
+        "form - references",
+        "form illustration",
+        "plus, add small",
+        "title",
+        "upload image"
+      ],
+      "capabilities": [
+        "data_table",
+        "file_management",
+        "form",
+        "media",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L9",
+      "name": "Form - Brief is generating",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Form - Brief is generating",
+        "Form - Brief is generating"
+      ],
+      "screen_ids": [
+        "1:4450",
+        "1:4558"
+      ],
+      "count": 2,
+      "representative_screen": "1:4558",
+      "representative_name": "Form - Brief is generating",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (1674x1674), Center main_content (2367x2367), Center main_content (1420x880), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 5",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "3 3",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 2367,
+            "height_approx": 2367,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 1420,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "button"
+            ],
+            "text_labels": [
+              "Your brief will be delivered in 5 seconds.",
+              "Brief generated"
+            ]
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Footer (form page)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer (form page)"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "button",
+        "footer (form page)",
+        "form - brief is generating"
+      ],
+      "capabilities": [
+        "form",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L10",
+      "name": "references (drag images)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "references (drag images)",
+        "references (drag images)",
+        "references (uploaded - uploading - link added)"
+      ],
+      "screen_ids": [
+        "1:4559",
+        "1:4611",
+        "1:4612"
+      ],
+      "count": 3,
+      "representative_screen": "1:4611",
+      "representative_name": "references (drag images)",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (682x880), Center main_content (508x48), Center main_content (508x88), Center main_content (508x134), Center main_content (508x200), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 682,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bottom buttons",
+            "width_approx": 508,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "ghost button",
+              "bottom buttons"
+            ],
+            "text_labels": [
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "title",
+            "width_approx": 508,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "title"
+            ],
+            "text_labels": [
+              "Share your references and inspirations",
+              "7 / 7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002581",
+            "width_approx": 508,
+            "height_approx": 134,
+            "role": "main_content",
+            "components": [
+              "plus, add small"
+            ],
+            "text_labels": [
+              "Reference link",
+              "Enter your URL",
+              "Add link"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "upload image",
+            "width_approx": 508,
+            "height_approx": 200,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "cover-photo-upload-icon"
+            ],
+            "text_labels": [
+              "Drag and drop images, or",
+              "Browse"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "check, checmark",
+        "cover-photo-upload-icon",
+        "footer",
+        "form illustration",
+        "general",
+        "loader",
+        "plus, add small",
+        "references (drag images)",
+        "title"
+      ],
+      "capabilities": [
+        "data_table",
+        "file_management",
+        "form",
+        "media",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L11",
+      "name": "references (uploaded - uploading - link added)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "references (uploaded - uploading - link added)"
+      ],
+      "screen_ids": [
+        "1:4662"
+      ],
+      "count": 1,
+      "representative_screen": "1:4662",
+      "representative_name": "references (uploaded - uploading - link added)",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1674x1674), Center main_content (682x880), Center main_content (508x48), Center main_content (508x88), Center main_content (508x134), Center main_content (508x200), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "3 4",
+            "width_approx": 1674,
+            "height_approx": 1674,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "illustration",
+            "width_approx": 682,
+            "height_approx": 880,
+            "role": "main_content",
+            "components": [
+              "form illustration"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "top",
+            "name": "Nav",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Avatar"
+            ],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "bottom buttons",
+            "width_approx": 508,
+            "height_approx": 48,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "ghost button",
+              "bottom buttons"
+            ],
+            "text_labels": [
+              "Previous",
+              "Continue"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "title",
+            "width_approx": 508,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "title"
+            ],
+            "text_labels": [
+              "What's your type of project?",
+              "7 / 7"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002581",
+            "width_approx": 508,
+            "height_approx": 134,
+            "role": "main_content",
+            "components": [
+              "plus, add small"
+            ],
+            "text_labels": [
+              "Reference link",
+              "https://ui8.net",
+              "Add link"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "upload image",
+            "width_approx": 508,
+            "height_approx": 200,
+            "role": "main_content",
+            "components": [
+              "loader",
+              "check, checmark"
+            ],
+            "text_labels": [
+              "2 images uploaded"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button (dark)",
+              "Footer button (dark)",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "bottom buttons",
+        "check, checmark",
+        "footer",
+        "form illustration",
+        "loader",
+        "plus, add small",
+        "references (uploaded - uploading - link added)",
+        "title"
+      ],
+      "capabilities": [
+        "file_management",
+        "form",
+        "media",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L12",
+      "name": "Brief - linked page (v1)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Brief - linked page (v1)",
+        "Brief - linked page (premium)",
+        "Brief - linked page (v1)",
+        "Brief - linked page (premium)"
+      ],
+      "screen_ids": [
+        "1:4994",
+        "1:5059",
+        "1:5303",
+        "1:5304"
+      ],
+      "count": 4,
+      "representative_screen": "1:5303",
+      "representative_name": "Brief - linked page (v1)",
+      "dimensions": {
+        "width": 1440,
+        "height": 1807
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (680x1647), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Frame 1000002620",
+            "width_approx": 680,
+            "height_approx": 1647,
+            "role": "main_content",
+            "components": [
+              "rotate, repeat, refresh",
+              "timeline, feed, posts",
+              "watermark"
+            ],
+            "text_labels": [
+              "Powered by birefberry.",
+              "UI8 Studio 2024"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "Footer button",
+              "actions",
+              "Footer (brief)",
+              "icon button"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing",
+              "Create link",
+              "Create link",
+              "Create link",
+              "Create link"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "brief - linked page (premium)",
+        "brief - linked page (v1)",
+        "footer (brief)",
+        "rotate, repeat, refresh",
+        "small image",
+        "timeline, feed, posts",
+        "watermark"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "media",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L13",
+      "name": "Briefs/Empty state",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide",
+      "screens_using": [
+        "Briefs/Empty state",
+        "Briefs/Empty state"
+      ],
+      "screen_ids": [
+        "1:5595",
+        "1:5604"
+      ],
+      "count": 2,
+      "representative_screen": "1:5595",
+      "representative_name": "Briefs/Empty state",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x812), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Main Container",
+            "width_approx": 1440,
+            "height_approx": 812,
+            "role": "main_content",
+            "components": [
+              "tags",
+              "Illustration (empty)",
+              "Avatar",
+              "dropdown",
+              "Button"
+            ],
+            "text_labels": [
+              "New brief",
+              "My briefs",
+              "No brief found",
+              "Try to adjust your filter or create a new brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "briefs",
+        "button",
+        "dropdown",
+        "footer",
+        "illustration (empty)",
+        "tags"
+      ],
+      "capabilities": [
+        "content_creation",
+        "profile",
+        "search"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L14",
+      "name": "Brief (premium)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Brief (premium)",
+        "Brief (free)",
+        "Brief (free)",
+        "Brief (premium) (fixed bottom actions)",
+        "Brief (premium) (fixed bottom actions)",
+        "Brief (premium) (scrolling)",
+        "Brief (premium) (scrolling)",
+        "Brief (premium) (action state - hover)",
+        "Brief (premium) (action state - hover)",
+        "Brief (premium) (action state - hover)",
+        "Brief (premium) (action state - hover)",
+        "Brief (premium)"
+      ],
+      "screen_ids": [
+        "1:5123",
+        "1:5262",
+        "1:5305",
+        "1:5308",
+        "1:5309",
+        "1:5386",
+        "1:5414",
+        "1:5442",
+        "1:5471",
+        "1:5500",
+        "1:5529",
+        "1:5565"
+      ],
+      "count": 12,
+      "representative_screen": "1:5123",
+      "representative_name": "Brief (premium)",
+      "dimensions": {
+        "width": 1440,
+        "height": 2017
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1440x1745), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "nav (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "nav (brief)",
+              "Avatar",
+              "title"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002612",
+            "width_approx": 1440,
+            "height_approx": 1745,
+            "role": "main_content",
+            "components": [
+              "ref block",
+              "icon button",
+              "timeline, feed, posts",
+              "brief block"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "Introduction",
+              "Our primary aspiration in this project centers around fostering a digital environment that allows our team's creativity to shine brightly. However, it's not just a gallery of past projects, it’s a powerful and persuasive presentation of our capabilities and services, tailored to appeal to prospects. The ultimate aim is to entice them into opting for our novel subscription service that covers all their creative needs.",
+              "Regenerate",
+              "Goals",
+              "Our primary aspiration in this project centers around fostering a digital environment that allows our team's creativity to shine brightly. However, it's not just a gallery of past projects, it’s a powerful and persuasive presentation of our capabilities and services, tailored to appeal to prospects. The ultimate aim is to entice them into opting for our novel subscription service that covers all their creative needs.",
+              "Regenerate",
+              "Timeline",
+              "While we're already enthusiastic and filled with concepts, we'll require a time period up until the 15th of October, 2024, to ensure our ideas are meticulously sculpted and brought to life.",
+              "Regenerate",
+              "Budget",
+              "We're lucky: we've got a comfortable budget of $8,000 that will allow us to craft this marketing page to its fullest potential. Half of this, $4,000, will be channeled into masterfully crafting the layout. The remaining half, also $4,000, will fuel our creativity as we whip up engaging illustrations to capture our audience's imagination.",
+              "Regenerate",
+              "References",
+              "Conclusion"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "actions",
+              "Footer button"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing",
+              "Create link",
+              "Create link",
+              "Create link",
+              "Create link"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "actions",
+        "brief (free)",
+        "brief (premium)",
+        "brief (premium) (fixed bottom actions)",
+        "brief block",
+        "footer button",
+        "general",
+        "icon button",
+        "nav (brief)",
+        "ref block",
+        "timeline, feed, posts"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "file_management",
+        "media",
+        "navigation",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L15",
+      "name": "Briefs",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Briefs",
+        "Briefs"
+      ],
+      "screen_ids": [
+        "1:5594",
+        "1:5603"
+      ],
+      "count": 2,
+      "representative_screen": "1:5594",
+      "representative_name": "Briefs",
+      "dimensions": {
+        "width": 1440,
+        "height": 1268
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (1440x932), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "nav (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "Avatar"
+            ],
+            "text_labels": [
+              "New brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Container",
+            "width_approx": 1440,
+            "height_approx": 932,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "dropdown",
+              "tags"
+            ],
+            "text_labels": [
+              "My briefs",
+              "Most recent",
+              "UI8 Studio 2024",
+              "Updated 10 mins ago",
+              "SimpleList App",
+              "Updated 10 mins ago",
+              "Ecomflow: Business Management Website",
+              "Updated 10 mins ago",
+              "Game & Entertaintment 3D Icons",
+              "Updated 10 mins ago",
+              "Crypite - SaaS Crypto Mobile App UI Kit",
+              "Updated 10 mins ago",
+              "Bento Cards: Crypto",
+              "Updated 10 mins ago",
+              "Dashboard - SAAS Chatbot AI"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "avatar",
+        "briefs",
+        "button",
+        "dropdown",
+        "footer",
+        "general",
+        "tags"
+      ],
+      "capabilities": [
+        "analytics",
+        "calendar",
+        "content_creation",
+        "messaging",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L16",
+      "name": "Manage plan",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Manage plan",
+        "Manage plan",
+        "Manage plan",
+        "Manage plan"
+      ],
+      "screen_ids": [
+        "1:5596",
+        "1:5599",
+        "1:5605",
+        "1:5608"
+      ],
+      "count": 4,
+      "representative_screen": "1:5596",
+      "representative_name": "Manage plan",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (768x640), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "nav (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "Avatar"
+            ],
+            "text_labels": [
+              "New brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002623",
+            "width_approx": 768,
+            "height_approx": 640,
+            "role": "main_content",
+            "components": [
+              "button (secondary)",
+              "Button",
+              "icon button",
+              "arrow-top-right"
+            ],
+            "text_labels": [
+              "Manage your plan"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "arrow-top-right",
+        "avatar",
+        "button",
+        "button (secondary)",
+        "check, checmark",
+        "footer",
+        "icon button",
+        "manage plan"
+      ],
+      "capabilities": [
+        "content_creation",
+        "editing",
+        "profile"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L17",
+      "name": "Brief (premium) - hover on section",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Brief (premium) - hover on section",
+        "Brief (premium) - hover on section",
+        "Brief (premium) - click on text box to edit",
+        "Brief (premium) - click on text box to edit",
+        "Brief (premium) - AI typing...",
+        "Brief (premium) - AI typing...",
+        "Brief (premium) - AI typing...",
+        "Brief (premium) - AI typing...",
+        "Brief (premium) - click on regenerate",
+        "Brief (premium) - click on regenerate"
+      ],
+      "screen_ids": [
+        "1:5124",
+        "1:5126",
+        "1:5128",
+        "1:5130",
+        "1:5250",
+        "1:5252",
+        "1:5254",
+        "1:5256",
+        "1:5258",
+        "1:5260"
+      ],
+      "count": 10,
+      "representative_screen": "1:5124",
+      "representative_name": "Brief (premium) - hover on section",
+      "dimensions": {
+        "width": 1440,
+        "height": 1112
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1112)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Brief (premium)",
+            "width_approx": 1440,
+            "height_approx": 1112,
+            "role": "main_content",
+            "components": [
+              "brief block",
+              "Brief (premium)",
+              "Footer button",
+              "ref block",
+              "nav (brief)",
+              "actions",
+              "icon button"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "brief (premium)"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "media",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L18",
+      "name": "Brief (premium) - edit references",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide",
+      "screens_using": [
+        "Brief (premium) - edit references",
+        "Brief (premium) - edit references",
+        "Brief (premium) - upload more images",
+        "Brief (premium) - upload more images"
+      ],
+      "screen_ids": [
+        "1:5132",
+        "1:5162",
+        "1:5192",
+        "1:5221"
+      ],
+      "count": 4,
+      "representative_screen": "1:5132",
+      "representative_name": "Brief (premium) - edit references",
+      "dimensions": {
+        "width": 1440,
+        "height": 1112
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x1112)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Brief (premium)",
+            "width_approx": 1440,
+            "height_approx": 1112,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "brief block",
+              "Footer button",
+              "ref block",
+              "nav (brief)",
+              "actions",
+              "icon button"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "actions",
+        "brief block",
+        "footer button",
+        "general",
+        "icon button",
+        "nav (brief)",
+        "ref block",
+        "timeline, feed, posts"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "media",
+        "navigation",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L19",
+      "name": "hover on lock icon",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:medium|center:main_content:narrow",
+      "screens_using": [
+        "hover on lock icon",
+        "hover on lock icon"
+      ],
+      "screen_ids": [
+        "1:5293",
+        "1:5307"
+      ],
+      "count": 2,
+      "representative_screen": "1:5307",
+      "representative_name": "hover on lock icon",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Center main_content (1440x900), Center main_content (460x144), Center main_content (34x34)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Brief (free)",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "brief block",
+              "Footer button",
+              "ref block",
+              "nav (brief)",
+              "actions",
+              "icon button",
+              "Brief (free)"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "intro toggle",
+            "width_approx": 460,
+            "height_approx": 144,
+            "role": "main_content",
+            "components": [
+              "Button"
+            ],
+            "text_labels": [
+              "Go premium!",
+              "Unlock all premium features for just $4.99/month. Enjoy section regeneration, PDF export, and email sharing!",
+              "Upgrade"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "General / Pointing Hand",
+            "width_approx": 34,
+            "height_approx": 34,
+            "role": "main_content",
+            "components": [
+              "General "
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "brief (free)",
+        "button",
+        "general",
+        "hover on lock icon"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "media",
+        "user_management"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L20",
+      "name": "Create link (click on)",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|top:header:wide",
+      "screens_using": [
+        "Create link (click on)",
+        "Create link (click on)"
+      ],
+      "screen_ids": [
+        "1:5310",
+        "1:5348"
+      ],
+      "count": 2,
+      "representative_screen": "1:5310",
+      "representative_name": "Create link (click on)",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (680x1745), Center main_content (1440x88), Center main_content (437x160)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "nav (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "nav (brief)",
+              "Avatar",
+              "title"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002612",
+            "width_approx": 680,
+            "height_approx": 1745,
+            "role": "main_content",
+            "components": [
+              "ref block",
+              "icon button",
+              "timeline, feed, posts",
+              "brief block"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "Introduction",
+              "Our primary aspiration in this project centers around fostering a digital environment that allows our team's creativity to shine brightly. However, it's not just a gallery of past projects, it’s a powerful and persuasive presentation of our capabilities and services, tailored to appeal to prospects. The ultimate aim is to entice them into opting for our novel subscription service that covers all their creative needs.",
+              "Regenerate",
+              "Goals",
+              "Our primary aspiration in this project centers around fostering a digital environment that allows our team's creativity to shine brightly. However, it's not just a gallery of past projects, it’s a powerful and persuasive presentation of our capabilities and services, tailored to appeal to prospects. The ultimate aim is to entice them into opting for our novel subscription service that covers all their creative needs.",
+              "Regenerate",
+              "Timeline",
+              "While we're already enthusiastic and filled with concepts, we'll require a time period up until the 15th of October, 2024, to ensure our ideas are meticulously sculpted and brought to life.",
+              "Regenerate",
+              "Budget",
+              "We're lucky: we've got a comfortable budget of $8,000 that will allow us to craft this marketing page to its fullest potential. Half of this, $4,000, will be channeled into masterfully crafting the layout. The remaining half, also $4,000, will fuel our creativity as we whip up engaging illustrations to capture our audience's imagination.",
+              "Regenerate",
+              "References",
+              "Conclusion"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "General ",
+              "icon button",
+              "actions",
+              "Footer button"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing",
+              "Create link",
+              "Create link",
+              "Create link",
+              "Create link"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002615",
+            "width_approx": 437,
+            "height_approx": 160,
+            "role": "main_content",
+            "components": [
+              "open, new, link, open link, box, arrow",
+              "layers, copy"
+            ],
+            "text_labels": [
+              "Your custom link",
+              "https://briefberry.vercel.app/brief/wr386e28sn",
+              "Create link"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "actions",
+        "brief block",
+        "footer button",
+        "general",
+        "icon button",
+        "layers, copy",
+        "nav (brief)",
+        "open, new, link, open link, box, arrow",
+        "ref block",
+        "timeline, feed, posts"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "media",
+        "navigation",
+        "user_management"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L21",
+      "name": "Account settings",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Account settings",
+        "Account settings"
+      ],
+      "screen_ids": [
+        "1:5597",
+        "1:5606"
+      ],
+      "count": 2,
+      "representative_screen": "1:5597",
+      "representative_name": "Account settings",
+      "dimensions": {
+        "width": 1440,
+        "height": 1210
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (512x938), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "nav (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "Avatar"
+            ],
+            "text_labels": [
+              "New brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002629",
+            "width_approx": 512,
+            "height_approx": 938,
+            "role": "main_content",
+            "components": [
+              "email input (large)",
+              "Button",
+              "avatar setting",
+              "password input (large)"
+            ],
+            "text_labels": [
+              "Account settings",
+              "Profile",
+              "Update your avatar by clicking the image 288x288 px size recommended in PNG or JPG format only.",
+              "Security",
+              "Save changes"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "account settings",
+        "avatar",
+        "avatar setting",
+        "button",
+        "email input (large)",
+        "footer",
+        "password input (large)"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "form",
+        "media",
+        "profile",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L22",
+      "name": "Account settings/Hover on avatar to upload",
+      "type": "full_canvas",
+      "panel_signature": "center:main_content:medium|center:main_content:wide|top:header:wide",
+      "screens_using": [
+        "Account settings/Hover on avatar to upload",
+        "Account settings/Hover on avatar to upload"
+      ],
+      "screen_ids": [
+        "1:5598",
+        "1:5607"
+      ],
+      "count": 2,
+      "representative_screen": "1:5598",
+      "representative_name": "Account settings/Hover on avatar to upload",
+      "dimensions": {
+        "width": 1440,
+        "height": 1210
+      },
+      "layout_detail": {
+        "type": "full_canvas",
+        "description": "Top header (1440x88), Center main_content (512x938), Center main_content (1440x88)",
+        "panels": [
+          {
+            "position": "top",
+            "name": "nav (brief)",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "header",
+            "components": [
+              "Button",
+              "Avatar"
+            ],
+            "text_labels": [
+              "New brief"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Frame 1000002629",
+            "width_approx": 512,
+            "height_approx": 938,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "General ",
+              "camera 1, picture, image, cam"
+            ],
+            "text_labels": [
+              "Account settings",
+              "Profile",
+              "Update your avatar by clicking the image 288x288 px size recommended in PNG or JPG format only.",
+              "Security",
+              "Save changes"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "account settings",
+        "avatar",
+        "button",
+        "camera 1, picture, image, cam",
+        "check, checmark",
+        "footer",
+        "general"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "file_management",
+        "form",
+        "media",
+        "profile",
+        "settings"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L23",
+      "name": "Sign in",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Sign in",
+        "Sign in",
+        "Sign up",
+        "Sign up",
+        "Reset password",
+        "Reset password (check your inbox)"
+      ],
+      "screen_ids": [
+        "1:3773",
+        "1:3885",
+        "1:3903",
+        "1:3921",
+        "1:5613",
+        "1:5628"
+      ],
+      "count": 6,
+      "representative_screen": "1:3773",
+      "representative_name": "Sign in",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x4320), Center main_content (1440x900), Center main_content (480x538), Right navigation_sidebar (48x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "landing page (gradient added)",
+            "width_approx": 1440,
+            "height_approx": 4320,
+            "role": "main_content",
+            "components": [
+              "shadow",
+              "landing page (gradient added)",
+              "button (secondary)",
+              "icon button",
+              "arrow-top-right",
+              "Footer",
+              "Button",
+              "Illustration"
+            ],
+            "text_labels": [
+              "Join 80,000+ designers",
+              "AI-powered briefs in seconds",
+              "Save hours of preparation time with intelligent brief generation",
+              "Start for free and upgrade to unlock more features",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Sign in",
+            "width_approx": 480,
+            "height_approx": 538,
+            "role": "main_content",
+            "components": [
+              "Sign in with google btt",
+              "Button",
+              "email input",
+              "password input"
+            ],
+            "text_labels": [
+              "Sign in to Briefberry",
+              "Sign in with Google",
+              "Or sign in with email",
+              "Sign in",
+              "Need an account?",
+              "Sign up"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "iconbtn-nav",
+            "width_approx": 48,
+            "height_approx": 48,
+            "role": "navigation_sidebar",
+            "components": [
+              "crossed large, close"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "crossed large, close",
+        "email input",
+        "landing page (gradient added)",
+        "password input",
+        "sign in with google btt",
+        "sign up with google btt"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "editing",
+        "form",
+        "messaging",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L24",
+      "name": "Upgrade to Premium",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Upgrade to Premium",
+        "Upgrade to Premium"
+      ],
+      "screen_ids": [
+        "1:3791",
+        "1:3838"
+      ],
+      "count": 2,
+      "representative_screen": "1:3791",
+      "representative_name": "Upgrade to Premium",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x4320), Center main_content (1440x900), Center main_content (480x546), Right navigation_sidebar (48x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "landing page (gradient added)",
+            "width_approx": 1440,
+            "height_approx": 4320,
+            "role": "main_content",
+            "components": [
+              "shadow",
+              "landing page (gradient added)",
+              "button (secondary)",
+              "icon button",
+              "arrow-top-right",
+              "Footer",
+              "Button",
+              "Illustration"
+            ],
+            "text_labels": [
+              "Join 80,000+ designers",
+              "AI-powered briefs in seconds",
+              "Save hours of preparation time with intelligent brief generation",
+              "Start for free and upgrade to unlock more features",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Sign in",
+            "width_approx": 480,
+            "height_approx": 546,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "check, checmark"
+            ],
+            "text_labels": [
+              "Upgrade to Premium",
+              "Unlock all premium features for $4.99/mo:",
+              "Including all free features",
+              "No watermarks on shared links",
+              "Section regeneration",
+              "PDF export",
+              "Email sharing",
+              "Subscribe now",
+              "Your payment is secured by"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "iconbtn-nav",
+            "width_approx": 48,
+            "height_approx": 48,
+            "role": "navigation_sidebar",
+            "components": [
+              "crossed large, close"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "check, checmark",
+        "crossed large, close",
+        "landing page (gradient added)"
+      ],
+      "capabilities": [
+        "authentication",
+        "calendar",
+        "content_creation",
+        "e_commerce",
+        "editing",
+        "form",
+        "settings"
+      ],
+      "is_light": true
+    },
+    {
+      "layout_id": "BR_L25",
+      "name": "Upgrade to Premium",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Upgrade to Premium",
+        "Upgrade to Premium"
+      ],
+      "screen_ids": [
+        "1:5600",
+        "1:5609"
+      ],
+      "count": 2,
+      "representative_screen": "1:5600",
+      "representative_name": "Upgrade to Premium",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x900), Center main_content (1440x900), Center main_content (480x552), Right navigation_sidebar (48x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Manage plan",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Manage plan",
+              "Avatar",
+              "icon button",
+              "arrow-top-right",
+              "Footer",
+              "Button"
+            ],
+            "text_labels": [
+              "New brief",
+              "Manage your plan",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Sign in",
+            "width_approx": 480,
+            "height_approx": 552,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "ai text, text generation",
+              "check, checmark"
+            ],
+            "text_labels": [
+              "Upgrade to Premium",
+              "Unlock all premium features for $3/mo:",
+              "Including all free features",
+              "No watermarks on shared links",
+              "Section regeneration",
+              "PDF export",
+              "Email sharing",
+              "25 generation credits/month",
+              "Subscribe now",
+              "Your payment is secured by"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "iconbtn-nav",
+            "width_approx": 48,
+            "height_approx": 48,
+            "role": "navigation_sidebar",
+            "components": [
+              "crossed large, close"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "ai text, text generation",
+        "button",
+        "check, checmark",
+        "crossed large, close",
+        "manage plan",
+        "upgrade to premium"
+      ],
+      "capabilities": [
+        "content_creation",
+        "e_commerce",
+        "editing"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L26",
+      "name": "Downgrade to Free",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|center:main_content:medium|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "Downgrade to Free",
+        "Downgrade to Free"
+      ],
+      "screen_ids": [
+        "1:5601",
+        "1:5610"
+      ],
+      "count": 2,
+      "representative_screen": "1:5601",
+      "representative_name": "Downgrade to Free",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x900), Center main_content (1440x900), Center main_content (480x542), Right navigation_sidebar (48x48)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Manage plan",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "Manage plan",
+              "Avatar",
+              "icon button",
+              "arrow-top-right",
+              "Footer",
+              "Button"
+            ],
+            "text_labels": [
+              "New brief",
+              "Manage your plan",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Overlay",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [],
+            "text_labels": []
+          },
+          {
+            "position": "center",
+            "name": "Sign in",
+            "width_approx": 480,
+            "height_approx": 542,
+            "role": "main_content",
+            "components": [
+              "Button",
+              "crossed small, delete, remove"
+            ],
+            "text_labels": [
+              "Back to free plan",
+              "On Nov 14, 2024, you will be downgraded to our Free plan and will lose access to",
+              "No watermarks on shared links",
+              "Section regeneration",
+              "PDF export",
+              "Email sharing",
+              "25 generation credits/month",
+              "Are you sure you'd like to continue with the cancelation of your subscription?",
+              "Yes, cancel my premium plan"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "iconbtn-nav",
+            "width_approx": 48,
+            "height_approx": 48,
+            "role": "navigation_sidebar",
+            "components": [
+              "crossed large, close"
+            ],
+            "text_labels": []
+          }
+        ]
+      },
+      "core_components": [
+        "button",
+        "crossed large, close",
+        "crossed small, delete, remove",
+        "downgrade to free",
+        "manage plan"
+      ],
+      "capabilities": [
+        "content_creation",
+        "editing"
+      ],
+      "is_light": false
+    },
+    {
+      "layout_id": "BR_L27",
+      "name": "User menu",
+      "type": "other",
+      "panel_signature": "center:main_content:wide|center:main_content:wide|right:navigation_sidebar:narrow",
+      "screens_using": [
+        "User menu",
+        "User menu"
+      ],
+      "screen_ids": [
+        "1:5593",
+        "1:5602"
+      ],
+      "count": 2,
+      "representative_screen": "1:5593",
+      "representative_name": "User menu",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "layout_detail": {
+        "type": "other",
+        "description": "Center main_content (1440x900), Center main_content (1440x88), Right navigation_sidebar (248x288)",
+        "panels": [
+          {
+            "position": "center",
+            "name": "Brief (premium)",
+            "width_approx": 1440,
+            "height_approx": 900,
+            "role": "main_content",
+            "components": [
+              "brief block",
+              "Brief (premium)",
+              "Footer button",
+              "ref block",
+              "nav (brief)",
+              "actions",
+              "icon button"
+            ],
+            "text_labels": [
+              "UI8 Studio 2024",
+              "New brief",
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          },
+          {
+            "position": "right",
+            "name": "User menu",
+            "width_approx": 248,
+            "height_approx": 288,
+            "role": "navigation_sidebar",
+            "components": [
+              "User menu",
+              "General "
+            ],
+            "text_labels": [
+              "My briefs",
+              "Manage your plan",
+              "Account settings",
+              "Credits: 1/5",
+              "Log out"
+            ]
+          },
+          {
+            "position": "center",
+            "name": "Footer",
+            "width_approx": 1440,
+            "height_approx": 88,
+            "role": "main_content",
+            "components": [
+              "icon button",
+              "Footer button",
+              "Footer"
+            ],
+            "text_labels": [
+              "© 2024, Robot Global FZCO / UI8",
+              "Terms & Licensing"
+            ]
+          }
+        ]
+      },
+      "core_components": [
+        "brief (premium)",
+        "footer",
+        "user menu"
+      ],
+      "capabilities": [
+        "authentication",
+        "content_creation",
+        "data_table",
+        "editing",
+        "media",
+        "navigation",
+        "settings",
+        "user_management"
+      ],
+      "is_light": false
+    }
+  ]
+}
