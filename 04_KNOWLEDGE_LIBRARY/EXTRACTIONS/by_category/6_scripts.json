@@ -1,0 +1,351 @@
+{
+  "category": "6_scripts",
+  "items": [
+    {
+      "text": "Git commit command resulting in commit 9d534ab (51 files, 23,734 lines).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "JS Snippet: `le('init', 'CLIENT_ID', { branch: 'brixton' })`",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Remotion render command: `npx remotion render`",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Flask API + dark UI page picker tool (built then deprioritized).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Thumbnail refresh script (backgrounded, partial completion: 2/39 kits refreshed).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`batch-export-all-kits.js` - Script running to export all 38 kit designs. Progress tracked in `figma-exports/batch_progress.json`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Deploy script mentioned in DEPLOYMENT_SPEC.md.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`03_CORE_ENGINE/SCRIPTS/v7_registry.py` (~700 lines) with commands: scan, scan --diff, health, stale, snapshot, session start/end/log/status, chromadb-sync.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`03_CORE_ENGINE/SCRIPTS/v7_consolidate.py` (~310 lines) for inventorying and deduplicating external source groups.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`03_CORE_ENGINE/SCRIPTS/v7_search_api.py` - FastAPI on port 8100 with endpoints: /files, /search, /health, /sessions, /changes, /snapshots, /stats.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`03_CORE_ENGINE/SCRIPTS/v7_daily.py` (~90 lines) with `--quick` flag for daily sequence: diff > scan > health > snapshot > stale.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Database schema: `03_CORE_ENGINE/SCHEMAS/v7_registry.sql` executed against PostgreSQL.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Batch export script was running (8/38 kits done).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_registry.py",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_consolidate.py",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_search_api.py",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_daily.py",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`figma_deep_extract.py` -- Phase 1: Full Figma JSON extraction.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`figma_structure_analyzer.py` -- Phase 2: Mechanical structure analysis.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`layout_deduplicator.py` -- Phase 3: Layout deduplication.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`figma_export_representative.py` -- Phase 4: Representative PNG export.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`prd_layout_matcher.py` -- Phase 5: PRD-to-template matching.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_registry.py (~700 lines): CLI with commands scan, scan --diff, health, stale, snapshot, session start/end/log/status, chromadb-sync.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_consolidate.py (~310 lines): commands inventory, dedup, plan, execute --group X --approved.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_search_api.py: FastAPI server on port 8100.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "v7_daily.py: daily maintenance runner.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Database schema: v7_registry.sql defining 5 tables.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Install command: python -m pip install chromadb (to fix dual Python issue).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`figma_deep_extract.py` - Phase 1: Pulls complete Figma JSON tree (no depth limit).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`figma_structure_analyzer.py` - Phase 2: Parses JSON mechanically into screen/layout/component data.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`layout_deduplicator.py` - Phase 3: Groups screens by layout pattern, finds unique templates.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`figma_export_representative.py` - Phase 4: Exports one PNG per unique template.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`prd_layout_matcher.py` - Phase 5: Matches PRD screens to layout templates with scoring.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "`v7_kit_inventory.py` - Used for kit inventory analysis.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "session_wrapup.py",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "deepseek_review.py",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "03_CORE_ENGINE/SCRIPTS/strivo_phases.py — Generic Phase 2-5 runner that accepts a kit name as a CLI argument.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "03_CORE_ENGINE/SCRIPTS/core_dashboard_phases.py — Phase 2-5 runner for Core Dashboard Builder with a light-only filter.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "kit_coverage.py — Primary kit coverage analysis script.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "refresh_thumbnails.py — Figma thumbnail URL refresher (running in background).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "kit_index.py, kit_check.py, kit_query_new.py, update_kit_index.py, update_finder_index.py, regen_kit_md.py — Helper scripts for kit management.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "page_picker.py — Flask API (port 8080) for page picker tool.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "page_picker.html — Dark UI frontend for component selection tool.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    }
+  ],
+  "last_updated": "2026-02-20T15:16:42.040337+00:00",
+  "total_items": 43
+}

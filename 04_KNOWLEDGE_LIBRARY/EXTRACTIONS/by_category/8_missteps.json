@@ -1,0 +1,407 @@
+{
+  "category": "8_missteps",
+  "items": [
+    {
+      "text": "Initial misunderstanding of PCL scope (thought it was just a newsletter and landing page, discovered it's a full 81+ page ecosystem).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Initial plan to download and decompose After Effects/DaVinci templates for video was abandoned as inefficient.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Considered using YouTube URLs → Google AI Studio → effect library → Remotion, but also abandoned.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Building a simple DAM instead of using ImageKit may require later migration if scaling needs arise.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: LLM cost estimated at ~£70-230/mo per client, baked into price.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Page picker tool built but deprioritized due to generating too many results without prior analysis.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Thumbnail refresh script was backgrounded, only partially completed (2/39 kits).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Potential coverage gaps in boilerplate mapping after primary kit analysis.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Unverified differences between Chroma and Real Estate SaaS design systems.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Major Misstep: Built 11 generic, 'AI-looking' React components from scratch instead of converting the actual Brainwave Figma templates, leading to user rejection and wasted time.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Relying on ever-expanding, unstructured documentation that is not in a database, making context retrieval for LLMs token-prohibitive and untenable.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Manual, per-frame Figma conversion process is time-consuming; no batch automation exists.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Potential cost of conversion tools (e.g., Locofy Lightning deemed too expensive with annual billing).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Identified risk: Using RB2B API could lead to them seeing the product and cutting out access.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Identified gap: Company-level ID (like RB2B) is insufficient for B2C contexts like estate agents who need individual inquiry identification.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Stale reference to '38 pillars' was present and needed correction to the canonical 23 pillars for V7.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Scattered content in bucket folders (Downloads) risks being lost or unsynthesized if not ingested.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "MemoryError when reading large files for line/word count - fixed with 10MB size limit and line-by-line reading.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "NUL byte ValueError in PostgreSQL INSERT due to binary content in summary/title fields - fixed with sanitize_text() function to strip \\x00 bytes.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "ChromaDB not installed initially due to dual Python installations (Anaconda 3.13 vs standalone 3.12) - fixed with `python -m pip install chromadb`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Unicode box-drawing characters in v7_daily.py failed on Windows charmap codec - fixed by replacing with ASCII dashes.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "UI library component gap analysis based on unreliable llm_category data from earlier OCR - identified as a data quality issue.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "The previous 10-month effort on an 8-component system was identified as a 'mirage' and 'untenable'.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk/Bottleneck: No tool exists for automatic batch Figma-to-React conversion from URLs; process is manual and tedious (150-200 conversions).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Bug: `absoluteBoundingBox: null` for some Figma nodes lacking position data. Fix: `node.get(\"absoluteBoundingBox\") or {}`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Bug: Windows cp1252 encoding error due to Unicode `->` arrow in print statements. Fix: Replaced with ASCII `->`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Bug: MemoryError on 483MB Befit JSON due to pretty-printing. Fix: Save compact with `separators=(',',':')`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Bug: Canvas boards (>5000px) incorrectly treated as single screens. Fix: Detect by size and recurse into children.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Bug: Befit Phase 4 PNG export failed due to syntax error with escaped `!=` in inline Python command. Fix pending.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Bug: GitHub push protection triggered by hardcoded Figma token in 4 scripts. Fix: Moved to env var.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Previous approaches (depth=2 API, AI vision) were unreliable/costly.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: Context loss from not documenting methodologies leads to repeated work.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "MemoryError in count_lines_words() - large files caused OOM. Fixed with 10MB limit + line-by-line reading.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "NUL byte ValueError in PostgreSQL - binary content in summary field. Fixed with sanitize_text() function.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Unicode encoding error on Windows - box-drawing characters in v7_daily.py. Fixed with ASCII dashes.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Dual Python issue - ChromaDB installed to wrong Python (Anaconda 3.13 vs standalone 3.12). Fixed with python -m pip install chromadb.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "UI kit llm_category data is unreliable - OCR analysis produced bad classifications, identified as risk needing redo.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Critical Bug: `absoluteBoundingBox: null` - some Figma nodes lack position data, handled with `or {}.`",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Critical Bug: Windows cp1252 encoding - Unicode arrows in print statements cause errors, replaced with ASCII.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Critical Bug: MemoryError on 483MB Befit JSON - compact saves reduce to 130MB.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Critical Bug: Canvas boards (>5000px) treated as screens - added detection to recurse into them.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Risk: System failing to self-adhere to session logging/indexing/rules (noted by John).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Strivo and Travel Planner Light kits failed due to connection errors on full fetch.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Untitled UI Pro kit failed with HTTP 400 (file too large).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma rate limit encountered for the Finder kit, blocking PNG export with a Retry-After header of ~4 days.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Page picker tool built prematurely: 500 components per page was overwhelming and useless for user.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Missed context from earlier conversations about kit roles, doubling user's workload by requiring manual review.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Coreik kit mentioned by user but not included in the 38 target kits; risk of missing required components.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Need to verify if Chroma's design system conflicts with Brainwave boilerplate (Inter font for back-end vs. DM Sans for front-end).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Potential for design system mismatch between Chroma and Real Estate SaaS kits (both use DM Sans but may differ in font sizes, etc.).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    }
+  ],
+  "last_updated": "2026-02-20T15:16:42.113565+00:00",
+  "total_items": 50
+}

@@ -2,12 +2,17 @@
 """
 Enterprise_OS V7 — Fast Session Wrap-Up (< 3 minutes)
 
-Automates end-of-session filing:
+Automates end-of-session filing (10-step protocol):
 1. Creates session summary in Command Deck
 2. Creates transcript in Knowledge Library
 3. Updates SESSION_INDEX.md
-4. Optionally updates PROJECT_STATE.md session links
-5. Git add, commit, push
+4. Updates PROJECT_STATE.md session links
+5. Checks RAW_INTAKE for unprocessed files
+6. Rebuilds FILE_INDEX.json (generate_indices.py)
+7. Updates PostgreSQL registry (v7_registry.py scan)
+8. Updates ChromaDB (v7_registry.py chromadb-sync)
+9. Takes system snapshot (v7_registry.py snapshot)
+10. Git add, commit, push
 
 Usage:
     # Interactive (prompts for summary)
@@ -219,6 +224,96 @@ def update_project_state(project_folder_name, session_num, what_was_done):
     return False
 
 
+def check_raw_intake():
+    """Check RAW_INTAKE subfolders for unprocessed files."""
+    intake_root = V7_ROOT / "04_KNOWLEDGE_LIBRARY" / "EXTRACTION_PIPELINE" / "RAW_INTAKE"
+    if not intake_root.exists():
+        return []
+
+    unprocessed = []
+    for subfolder in ["threads", "books", "api_scrapes", "youtube", "research", "prds", "general"]:
+        folder = intake_root / subfolder
+        if folder.exists():
+            files = [f for f in folder.iterdir() if f.is_file() and f.name != "README.md"]
+            for f in files:
+                # Check if extraction output already exists alongside
+                has_extraction = any(
+                    (folder / f"{f.name}.extract_{mode}.json").exists()
+                    for mode in ["domains", "thread", "copy", "book"]
+                )
+                if not has_extraction:
+                    unprocessed.append((subfolder, f))
+
+    return unprocessed
+
+
+def run_script(script_name, *args):
+    """Run a V7 script, return (success, output)."""
+    script_path = V7_ROOT / "03_CORE_ENGINE" / "SCRIPTS" / script_name
+    if not script_path.exists():
+        return False, f"Script not found: {script_path}"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script_path)] + list(args),
+            cwd=str(V7_ROOT),
+            capture_output=True,
+            text=True,
+            timeout=300
+        )
+        return result.returncode == 0, result.stdout.strip()
+    except subprocess.TimeoutExpired:
+        return False, "Script timed out (300s limit)"
+    except Exception as e:
+        return False, str(e)
+
+
+def run_infrastructure_updates(skip_chromadb=False):
+    """Run the infrastructure update pipeline: indices, PostgreSQL, ChromaDB, snapshot."""
+    results = {}
+
+    # Step 6: Rebuild FILE_INDEX.json
+    print("  [6/10] Rebuilding FILE_INDEX.json...")
+    ok, output = run_script("generate_indices.py")
+    results["file_index"] = ok
+    if ok:
+        print("  [6/10] FILE_INDEX.json -> Updated")
+    else:
+        print(f"  [6/10] FILE_INDEX.json -> FAILED: {output[:200]}")
+
+    # Step 7: Update PostgreSQL
+    print("  [7/10] Updating PostgreSQL registry...")
+    ok, output = run_script("v7_registry.py", "scan")
+    results["postgresql"] = ok
+    if ok:
+        print("  [7/10] PostgreSQL -> Updated")
+    else:
+        print(f"  [7/10] PostgreSQL -> FAILED: {output[:200]}")
+
+    # Step 8: Update ChromaDB
+    if not skip_chromadb:
+        print("  [8/10] Syncing ChromaDB...")
+        ok, output = run_script("v7_registry.py", "chromadb-sync")
+        results["chromadb"] = ok
+        if ok:
+            print("  [8/10] ChromaDB -> Synced")
+        else:
+            print(f"  [8/10] ChromaDB -> FAILED: {output[:200]}")
+    else:
+        print("  [8/10] ChromaDB -> SKIPPED")
+        results["chromadb"] = None
+
+    # Step 9: System snapshot
+    print("  [9/10] Taking system snapshot...")
+    ok, output = run_script("v7_registry.py", "snapshot")
+    results["snapshot"] = ok
+    if ok:
+        print("  [9/10] Snapshot -> Saved")
+    else:
+        print(f"  [9/10] Snapshot -> FAILED: {output[:200]}")
+
+    return results
+
+
 def git_commit_and_push(session_num):
     """Stage new/changed files, commit, push."""
     print("\n  [GIT] Staging changes...")
@@ -291,6 +386,9 @@ def main():
     parser.add_argument("--quick", "-q", action="store_true", help="Quick mode: summary only, auto-commit")
     parser.add_argument("--no-git", action="store_true", help="Skip git operations")
     parser.add_argument("--no-push", action="store_true", help="Commit but don't push")
+    parser.add_argument("--no-db", action="store_true", help="Skip database updates")
+    parser.add_argument("--no-chromadb", action="store_true", help="Skip ChromaDB sync (faster)")
+    parser.add_argument("--no-infra", action="store_true", help="Skip all infrastructure updates (indices, DB, ChromaDB)")
 
     args = parser.parse_args()
 
@@ -380,20 +478,20 @@ def main():
 
     # 1. Summary
     summary_path = create_summary(sessions_dir, session_num, summary_text, projects, key_outcome)
-    print(f"  [1/5] Summary  -> {summary_path.relative_to(V7_ROOT)}")
+    print(f"  [1/10] Summary    -> {summary_path.relative_to(V7_ROOT)}")
 
     # 2. Transcript (if provided)
     if transcript_text:
         transcript_path = create_transcript(archive_dir, session_num, transcript_text)
-        print(f"  [2/5] Transcript -> {transcript_path.relative_to(V7_ROOT)}")
+        print(f"  [2/10] Transcript -> {transcript_path.relative_to(V7_ROOT)}")
     else:
-        print(f"  [2/5] Transcript -> SKIPPED (no transcript provided)")
+        print(f"  [2/10] Transcript -> SKIPPED (no transcript provided)")
 
     # 3. Update SESSION_INDEX.md
     if update_session_index(session_num, summary_one_liner, projects, key_outcome):
-        print(f"  [3/5] Index    -> SESSION_INDEX.md updated")
+        print(f"  [3/10] Index      -> SESSION_INDEX.md updated")
     else:
-        print(f"  [3/5] Index    -> FAILED (check SESSION_INDEX.md)")
+        print(f"  [3/10] Index      -> FAILED (check SESSION_INDEX.md)")
 
     # 4. Update PROJECT_STATE.md for each project
     updated_projects = []
@@ -404,13 +502,48 @@ def main():
                     updated_projects.append(folder)
                 break
     if updated_projects:
-        print(f"  [4/5] Projects -> Updated: {', '.join(updated_projects)}")
+        print(f"  [4/10] Projects   -> Updated: {', '.join(updated_projects)}")
     else:
-        print(f"  [4/5] Projects -> No PROJECT_STATE.md updates needed")
+        print(f"  [4/10] Projects   -> No PROJECT_STATE.md updates needed")
 
-    # 5. Git
+    # 5. Check RAW_INTAKE for unprocessed files
+    unprocessed = check_raw_intake()
+    if unprocessed:
+        print(f"  [5/10] RAW_INTAKE -> {len(unprocessed)} UNPROCESSED files found:")
+        for subfolder, f in unprocessed:
+            print(f"           {subfolder}/{f.name}")
+        print()
+        print("         These files have not been extracted yet.")
+        print("         Run extraction after wrap-up:")
+        for subfolder, f in unprocessed:
+            mode_map = {
+                "threads": "thread", "books": "book", "api_scrapes": "domains",
+                "youtube": "domains", "research": "domains", "prds": "domains",
+                "general": "domains"
+            }
+            mode = mode_map.get(subfolder, "domains")
+            print(f"           python v7_extract.py {mode} \"{f}\"")
+    else:
+        print(f"  [5/10] RAW_INTAKE -> Clean (no unprocessed files)")
+
+    # 6-9. Infrastructure updates
+    if args.no_infra:
+        print(f"  [6-9]  Infra      -> SKIPPED (--no-infra)")
+    elif args.no_db:
+        # Just rebuild file index
+        print("  [6/10] Rebuilding FILE_INDEX.json...")
+        ok, output = run_script("generate_indices.py")
+        if ok:
+            print("  [6/10] FILE_INDEX  -> Updated")
+        else:
+            print(f"  [6/10] FILE_INDEX  -> FAILED: {output[:200]}")
+        print(f"  [7-9]  Database   -> SKIPPED (--no-db)")
+    else:
+        run_infrastructure_updates(skip_chromadb=args.no_chromadb)
+
+    # 10. Git
     if args.no_git:
-        print(f"  [5/5] Git      -> SKIPPED (--no-git)")
+        print(f"  [10/10] Git       -> SKIPPED (--no-git)")
     else:
         git_commit_and_push(session_num)
 

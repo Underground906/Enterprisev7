@@ -1,0 +1,251 @@
+{
+  "source_file": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+  "extraction_date": "2026-02-20T15:09:09Z",
+  "extraction_mode": "thread",
+  "thread_title": "UI Component Library Pipeline Development: Full Figma Extraction, 5-Phase Scripting, and Methodology Documentation",
+  "sections": {
+    "1_narrative": {
+      "title": "Narrative & Context",
+      "items": [
+        "Extended session to build a pipeline for extracting, cataloging, and searching every screen, layout, and component across 38 Figma UI kits.",
+        "Previous approaches failed: Figma API depth=2 missed screens, Groq AI vision got IP-blocked, Gemini AI vision was costly/unreliable, manual browsing was slow.",
+        "A 5-phase pipeline plan was implemented: 1) Full Figma JSON pull, 2) Mechanical structure analysis, 3) Layout deduplication, 4) PNG export, 5) PRD matching.",
+        "Executed pipeline on 4 core kits (Brainwave 2.0, Real Estate SaaS Kit, Chroma, Majin) and Befit kit, discovering and fixing issues like canvas board detection.",
+        "John was excited about creating a granular JSON database library for searching and combining pages from 40+ kits, replacing expensive AI vision.",
+        "Methodology was documented as a canon doc to prevent context loss. Git push was blocked by hardcoded Figma token, fixed by moving to environment variable.",
+        "Session logs were created in both Command Deck and Knowledge Library locations per protocol."
+      ]
+    },
+    "2_objectives": {
+      "title": "Objectives",
+      "items": [
+        "Implement a 5-phase pipeline to extract, catalog, and search all screens/layouts/components from 38 Figma UI kits.",
+        "Replace failed/expensive approaches (limited API, AI vision) with a mechanical, $0 solution.",
+        "Create a structured JSON database library of every UI element for foundational search and combination capabilities.",
+        "Process specific kits (4 core + Befit) to validate the pipeline.",
+        "Document the complete proven methodology to prevent context loss and repeated work.",
+        "Integrate component naming taxonomy and copy asset artifacts into the system.",
+        "Fix GitHub push protection issue related to hardcoded Figma token."
+      ]
+    },
+    "3_success_criteria": {
+      "title": "Success Criteria",
+      "items": [
+        "Complete 5-phase pipeline scripts created and functional.",
+        "Successful extraction and analysis of kits (e.g., 242 screens found from 4 core kits).",
+        "Successful deduplication (e.g., 242 screens -> 152 unique templates).",
+        "Successful PNG export (e.g., 152/152 PNGs exported for core kits).",
+        "Successful PRD matching against library templates.",
+        "Creation of a comprehensive methodology canon document.",
+        "Secure git push after fixing token exposure.",
+        "Identification and resolution of bugs (e.g., canvas board detection, encoding errors)."
+      ]
+    },
+    "4_decisions": {
+      "title": "Decisions & Rules",
+      "items": [
+        "Use Figma API `GET /v1/files/{file_key}` with no depth parameter to pull complete JSON tree in one request.",
+        "Classify screens by dimensions (e.g., 1440x900) not just Figma node type (COMPONENT or INSTANCE can be screens).",
+        "Recurse into SECTION nodes and canvas boards (>5000px in dimension) as containers, not screens.",
+        "Use mechanical layout detection (child positions relative to bounds) without AI.",
+        "Move Figma token from hardcoded strings to `os.environ.get(\"FIGMA_TOKEN\")` for security.",
+        "Document methodology as canon before continuing data processing to ensure adherence and prevent repetition.",
+        "Process Befit kit immediately as foundation for fitness app.",
+        "Create session logs in both Command Deck and Knowledge Library per protocol."
+      ]
+    },
+    "5_sops": {
+      "title": "SOPs / Workflows",
+      "items": [
+        "5-phase pipeline: 1) Deep JSON extract, 2) Structure analyzer, 3) Layout deduplicator, 4) PNG export, 5) PRD matcher.",
+        "End-to-end workflow from PRD to React assembly defined in methodology doc.",
+        "Scaling plan for processing 40 kits.",
+        "Integration workflow with Enterprise OS pillars.",
+        "Session logging protocol: create logs in `02_COMMAND_DECK/ACTIVE_SESSIONS/` and `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/`.",
+        "Database loading workflow into PostgreSQL (8-table schema).",
+        "Visual browser workflow (localhost thumbnail grid with Anima conversion)."
+      ]
+    },
+    "6_scripts": {
+      "title": "Scripts / Commands",
+      "items": [
+        "`figma_deep_extract.py` -- Phase 1: Full Figma JSON extraction.",
+        "`figma_structure_analyzer.py` -- Phase 2: Mechanical structure analysis.",
+        "`layout_deduplicator.py` -- Phase 3: Layout deduplication.",
+        "`figma_export_representative.py` -- Phase 4: Representative PNG export.",
+        "`prd_layout_matcher.py` -- Phase 5: PRD-to-template matching."
+      ]
+    },
+    "7_inputs_outputs": {
+      "title": "Inputs & Outputs",
+      "items": [
+        "Inputs: 38 Figma UI kits, PRD_SCREEN_REQUIREMENTS.json (201 screens), Component Naming Taxonomy (47 files, 27 categories), Copy Asset Artifacts (136 structure files), 10 existing figma scripts, 38 kit INVENTORY.json files.",
+        "Outputs (for processed kits): FIGMA_FULL.json files (130-144 MB each), SCREEN_ANALYSIS.json, LAYOUT_TEMPLATES.json, CORE_KITS_LIBRARY.json, CORE_LAYOUT_LIBRARY.json, PRD_LAYOUT_MATCHES.json, 152 representative PNGs, DEEP_EXTRACT_CHECKPOINT.json, REPRESENTATIVE_EXPORT_CHECKPOINT.json.",
+        "Outputs (general): 30 per-kit inventory JSON files, MASTER_INVENTORY.json, INVENTORY_REPORT.md, `UI_LIBRARY_BUILD_METHODOLOGY.md` canon doc.",
+        "Phase 1 extraction stats: Total 443 MB, 125,396 nodes across 4 core kits.",
+        "Phase 2 analysis stats: 242 screens found across 4 core kits.",
+        "Phase 3 deduplication stats: 242 screens -> 152 unique templates (37% reduction).",
+        "Phase 5 matching stats: 1 perfect match (70+), 34 good (40-69), 163 weak (10-39), 3 no match against 201 PRD screens.",
+        "Befit specific: 102 screens -> 34 unique templates (67% reduction)."
+      ]
+    },
+    "8_missteps": {
+      "title": "Missteps / Errors / Risks",
+      "items": [
+        "Bug: `absoluteBoundingBox: null` for some Figma nodes lacking position data. Fix: `node.get(\"absoluteBoundingBox\") or {}`.",
+        "Bug: Windows cp1252 encoding error due to Unicode `->` arrow in print statements. Fix: Replaced with ASCII `->`.",
+        "Bug: MemoryError on 483MB Befit JSON due to pretty-printing. Fix: Save compact with `separators=(',',':')`.",
+        "Bug: Canvas boards (>5000px) incorrectly treated as single screens. Fix: Detect by size and recurse into children.",
+        "Bug: Befit Phase 4 PNG export failed due to syntax error with escaped `!=` in inline Python command. Fix pending.",
+        "Bug: GitHub push protection triggered by hardcoded Figma token in 4 scripts. Fix: Moved to env var.",
+        "Risk: Previous approaches (depth=2 API, AI vision) were unreliable/costly.",
+        "Risk: Context loss from not documenting methodologies leads to repeated work."
+      ]
+    },
+    "9_blockers": {
+      "title": "Blockers",
+      "items": [
+        "GitHub push protection blocked initial commit due to hardcoded Figma token.",
+        "Befit Phase 4 PNG export blocked by syntax error (pending fix).",
+        "System adherence issues: 'constantly fucking defeating ourselves trying to build a system we don't fucking stick to for five minutes'."
+      ]
+    },
+    "10_status": {
+      "title": "Status",
+      "items": [
+        "5-phase pipeline implemented and proven on 4 core kits + Befit (partial).",
+        "Methodology canon document created (`UI_LIBRARY_BUILD_METHODOLOGY.md`).",
+        "Git push initiated successfully after security fix (377 files, ~9.5M lines).",
+        "Befit Phase 4 (PNG export) incomplete due to syntax error.",
+        "Befit Phase 5 (PRD matching) not run yet, depends on adding Befit to combined library.",
+        "Session logs created in both designated locations.",
+        "Overall pipeline is functional; scaling to remaining 35 kits pending."
+      ]
+    },
+    "11_progress": {
+      "title": "Progress Markers",
+      "items": [
+        "Explored existing codebase: found 10 figma scripts, 38 kit inventories, PRD requirements, hardcoded token.",
+        "Created all 5 pipeline scripts in `03_CORE_ENGINE/SCRIPTS/`.",
+        "Successfully ran Phases 1-5 on 4 core kits with full results.",
+        "Discovered and fixed canvas board pattern in Befit, increasing screens from 5 to 102.",
+        "Created comprehensive methodology canon document.",
+        "Fixed GitHub push protection by moving Figma token to environment variable.",
+        "Generated 30 kit inventory JSON files and master report.",
+        "Session logged and indexed."
+      ]
+    },
+    "12_refinements": {
+      "title": "Refinements",
+      "items": [
+        "Refined screen detection: classify by dimensions, not just node type; handle COMPONENT/INSTANCE as screens.",
+        "Refined container handling: recurse into SECTION nodes and large canvas boards (>5000px).",
+        "Refined JSON saving: use compact format to prevent MemoryError on large files.",
+        "Refined error handling: null checks for `absoluteBoundingBox`.",
+        "Refined encoding: replaced Unicode arrows with ASCII for Windows compatibility.",
+        "Refined security: moved hardcoded Figma token to environment variable.",
+        "Refined methodology: documented entire pipeline after validation to ensure repeatability."
+      ]
+    },
+    "13_dependencies": {
+      "title": "Dependencies",
+      "items": [
+        "Dependencies: Figma API access, Figma token environment variable, Python environment, PostgreSQL database for next phase.",
+        "Dependent systems: PRD screen requirements, Component Naming Taxonomy, Copy Asset Artifacts, Enterprise OS pillars.",
+        "This work provides foundation for: Database library, localhost visual browser, Anima conversion workflow, React assembly, search across 40+ kits."
+      ]
+    },
+    "14_entities": {
+      "title": "Entity Maps",
+      "items": [
+        "Projects: PRJ_UI_Component_Library.",
+        "Pillars: PIL_07_UI_LIBRARY.",
+        "Components: 03_CORE_ENGINE, 07_BUILD_FACTORY.",
+        "Kits: Brainwave 2.0, Real Estate SaaS Kit, Chroma, Majin, Befit (fitness dashboard).",
+        "Scripts: figma_deep_extract.py, figma_structure_analyzer.py, layout_deduplicator.py, figma_export_representative.py, prd_layout_matcher.py.",
+        "Files: UI_LIBRARY_BUILD_METHODOLOGY.md, PRD_SCREEN_REQUIREMENTS.json, INVENTORY.json files.",
+        "Concepts: Canvas Board Pattern, Layout Templates, PRD Matching, Component Taxonomy, Copy Artifacts.",
+        "Relationships: Kits contain screens -> analyzed into layouts -> deduplicated into templates -> matched against PRD -> exported as PNGs -> stored in database."
+      ]
+    },
+    "15_glossary": {
+      "title": "Glossary",
+      "items": [
+        "Canvas Board: Giant design canvas (>5000px) containing multiple individual screens; must be recursed into.",
+        "Layout Templates: Unique screen layout patterns identified after deduplication.",
+        "PRD: Product Requirements Document; source of 201 screen requirements for matching.",
+        "Component Naming Taxonomy: 47 files across 27 categories defining naming conventions for UI components.",
+        "Copy Asset Artifacts: 136 structure files defining screen-level copywriting requirements.",
+        "EKX-1: Extraction methodology for thread summarization.",
+        "Anima: Workflow for converting designs to code.",
+        "Phase 1-5: The 5-step pipeline for UI library processing."
+      ]
+    },
+    "16_future": {
+      "title": "Future",
+      "items": [
+        "Fix Enterprise OS system for self-recording, self-updating, rules-adherence.",
+        "Find and update the file index from Feb 17.",
+        "Fix Befit Phase 4 PNG export syntax error.",
+        "Load structured JSON into PostgreSQL database.",
+        "Build localhost visual browser (thumbnail grid with Anima workflow).",
+        "Process remaining 35 kits through the pipeline.",
+        "Integrate component taxonomy and copy artifacts into the system.",
+        "Scale to 40 kits for 80%+ PRD coverage."
+      ]
+    },
+    "17_pending": {
+      "title": "Pending",
+      "items": [
+        "Befit Phase 4 PNG export (34 representative PNGs) pending syntax error fix.",
+        "Befit Phase 5 PRD matching pending addition to combined library.",
+        "Database loading pending.",
+        "Visual browser implementation pending.",
+        "Processing of remaining 35 kits pending.",
+        "Integration of component taxonomy and copy artifacts pending.",
+        "Enterprise OS system fix pending."
+      ]
+    },
+    "18_questions": {
+      "title": "Open Questions",
+      "items": [
+        "How to fully fix the Enterprise OS system for self-adherence?",
+        "What is the exact fix for the Befit Phase 4 syntax error with escaped `!=`?",
+        "What is the optimal batch size and rate delay for PNG exports across all kits?",
+        "How will the database schema evolve with integration of taxonomy and artifacts?",
+        "What are the performance limits for processing 40 kits simultaneously?"
+      ]
+    },
+    "19_meta": {
+      "title": "Meta-Observations",
+      "items": [
+        "Technical insight: Figma API full tree pull is a game changer; one request per kit gets everything.",
+        "Technical insight: Screens can be typed as COMPONENT or INSTANCE; must classify by dimensions.",
+        "Technical insight: Layout detection works mechanically without AI.",
+        "Technical insight: Deduplication ratio varies by kit type (fitness apps high reuse, marketing kits low).",
+        "Process insight: Documenting methodology as canon is critical to prevent context loss and repeated work.",
+        "Process insight: System adherence is a recurring challenge: 'we don't fucking stick to [the system] for five minutes'.",
+        "Process insight: Session logging in dual locations is part of protocol but needs enforcement."
+      ]
+    },
+    "20_assets": {
+      "title": "Reusable Assets",
+      "items": [
+        "Scripts: `figma_deep_extract.py`, `figma_structure_analyzer.py`, `layout_deduplicator.py`, `figma_export_representative.py`, `prd_layout_matcher.py`.",
+        "Canon Document: `UI_LIBRARY_BUILD_METHODOLOGY.md` with complete pipeline, database schema, workflow.",
+        "Session Log Templates: Located in `02_COMMAND_DECK/ACTIVE_SESSIONS/` and `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/`.",
+        "Inventory System: 30 kit inventory JSON files and MASTER_INVENTORY.json structure.",
+        "Bug Fix Patterns: Handling null boundingBox, canvas board detection, encoding fixes, memory error prevention.",
+        "Configuration Pattern: Using `os.environ.get(\"FIGMA_TOKEN\")` for API keys.",
+        "Pipeline Checkpoint Files: DEEP_EXTRACT_CHECKPOINT.json, REPRESENTATIVE_EXPORT_CHECKPOINT.json."
+      ]
+    }
+  },
+  "summary": "A 6-hour session successfully implemented a 5-phase mechanical pipeline to extract and catalog UI components from Figma kits, processing 5 kits to produce 242 screens, 152 unique templates, and 152 PNGs, while documenting the methodology and fixing security and bug issues. The work establishes a foundational JSON database library for searching across 40+ kits, replacing costly AI vision approaches.",
+  "api_used": "deepseek",
+  "tokens": {
+    "prompt": 3602,
+    "completion": 3453,
+    "total": 7055
+  }
+}

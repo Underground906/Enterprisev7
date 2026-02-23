@@ -1,0 +1,503 @@
+{
+  "category": "5_sops",
+  "items": [
+    {
+      "text": "Session logging procedure: Start session with timestamp and intent, add timestamped entries to Work Log, end session with timestamp, generate Session Summary.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-04_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session logging procedure with timestamps, intent, and status.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-04_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Goal creation process including naming convention and progress tracking.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-04_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Operational state snapshot creation process.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-04_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process for routing Figma items to the UI Component Library project.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process for distributing PRDs to Build Factory projects or domain pillars.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process for creating project scaffolds with 9-folder structure.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process for creating state snapshots in the Navigation Centre.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process for creating goal folders with progress tracking.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "7-Day Build Sprint: Day 1-2: Foundation + AI concierge engine; Day 3-4: Visitor intelligence + lead capture + scoring; Day 5: Routing + analytics; Day 6: Automation + Docker packaging; Day 7: Marketing site + launch prep.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Remotion Video Workflow: 1. User provides brand assets + UI screenshots. 2. User writes storyboard using motion lexicon terms. 3. Claude writes Remotion React code. 4. `npx remotion render` → MP4 output.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Knowledge Base Ingestion: 1. Website scrape (daily auto-refresh). 2. File upload (CSV/PDF/Word). 3. Google Sheets sync (hourly refresh). 4. CRM integration (Reapit, Alto, Jupix, Expert Agent APIs). 5. API webhook (real-time updates).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Design Workbench: Use Fabric.js canvas + Figma API renderer + component browser from PostgreSQL to mock up screens from 38 UI kits.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Deployment: Dedicated container model uses one Docker Compose per client, deployed via a script taking ~30 minutes.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma API import process for kits into PostgreSQL.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Boilerplate coverage analysis workflow: analyze 38 kits against 15 page-need categories across 4 builds.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Screen inventory correction process for project design directories.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "UI Assembly Pipeline: Must start from actual Figma designs, not invent components.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma Conversion Workflow: Open Figma file -> select frame -> run Anima plugin -> copy generated React code -> repeat per frame. (No batch URL mode exists).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Library Build Order: 1. Convert component pages. 2. Convert key screens. 3. Decompose & tokenize output into library components.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session Onboarding: Need to standardize what documentation gets read at session start to reduce context loading cost.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "7-day build sprint defined: Day 1-2 Foundation+AI, Day 3-4 Visitor+Capture, Day 5 Routing+Analytics, Day 6 Automation+Packaging, Day 7 Marketing+Launch.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Knowledge base ingestion via 5 methods: website scrape, file upload, Google Sheets sync, CRM API, webhook.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Update delivery via Watchtower for nightly Docker pulls and numbered idempotent migrations.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Multi-branch support via branch parameter in pixel and per-branch knowledge base in the same container.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Video production workflow using Remotion + Claude.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session archival workflow for the Knowledge Library is now working.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Daily working practices defined in PIL_10_WORKING_PRACTICES/DAILY_PRACTICES.md.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Daily routine: run v7_daily.py, start session, paste LLM bootstrap prompt, work, end session.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session management protocol: session start/end/log/status commands with DB rows and markdown logs.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Consolidation workflow: inventory external sources, deduplicate by hash, move only approved groups.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "File scanning workflow: walk filesystem, hash (SHA-256), classify, extract metadata, update DB with diff detection.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "ChromaDB sync workflow: process markdown files with heading-aware splitting, generate local embeddings, store in chromadb_data directory.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Locked-in a 6-stage process documented in BUILD_FACTORY_PIPELINE.md.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process involves: 1. Data arrives (batch export, PRDs), 2. Zero in (cross-reference, identify key pages), 3. Convert (start Anima conversions), 4. Decompose + tokenize output, 5. Architecture (PRD MK11, working practices), 6. Assembly.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "5-phase pipeline: 1) Deep JSON extract, 2) Structure analyzer, 3) Layout deduplicator, 4) PNG export, 5) PRD matcher.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "End-to-end workflow from PRD to React assembly defined in methodology doc.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Scaling plan for processing 40 kits.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Integration workflow with Enterprise OS pillars.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session logging protocol: create logs in `02_COMMAND_DECK/ACTIVE_SESSIONS/` and `04_KNOWLEDGE_LIBRARY/SESSION_ARCHIVE/`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Database loading workflow into PostgreSQL (8-table schema).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Visual browser workflow (localhost thumbnail grid with Anima conversion).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Daily Habit: Sit down > python v7_daily.py > session start > paste LLM prompt > work > session end > stand up.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Daily Runner (v7_daily.py) workflow: single command runs diff > scan > health > snapshot > stale; --quick flag for abbreviated check.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Consolidation process: inventory > dedup > plan > execute --group X --approved (copies with checkpoints, never deletes).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session tracking: session start/end/log/status commands with DB + markdown logs.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Registry scanning: scan for full filesystem scan, scan --diff for changes since last scan.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "5-phase pipeline: 1. Deep Extract, 2. Structure Analyze, 3. Layout Deduplicate, 4. Export Representative PNG, 5. PRD Layout Match.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "End-to-end workflow from PRD to assembled React pages defined in methodology document.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Local token setup: `export FIGMA_TOKEN=\"your_token_here\"` before running scripts.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Process for creating a state snapshot.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Workflow for running a weekly DeepSeek review (covering specific sections).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Session wrap-up procedure automated via script.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "5-phase pipeline for processing UI kits.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Section-by-section fetch (e.g., Dashboard, Messages, Tasks, Events, Projects, Settings, Sign up & Onboarding, Integrations) as a fallback for connection errors.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Targeted node extraction for files returning HTTP 400 (file too large).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Kit Index Update: Remove unconfirmed kits, add user-specified kits, regenerate markdown documentation.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma Extraction: Use Figma API with token to extract kit items, save JSON, import to PostgreSQL ui_library database.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Screen Inventory Correction: Update markdown files based on user specifications for each platform.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Architecture Review: Extract and read Notebook EnterpriseOS summary files (MD, PNG).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Coverage Analysis: Run kit_coverage.py to map kits against page-need categories and identify best kits per page per build.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Targeted Selection: After analysis, drill down per screen: features, user flows, required blocks, specific components from primary kit. Use Figma API for targeted searches, not broad browsing.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    }
+  ],
+  "last_updated": "2026-02-20T15:16:41.997818+00:00",
+  "total_items": 62
+}

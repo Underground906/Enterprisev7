@@ -1,0 +1,503 @@
+{
+  "category": "13_dependencies",
+  "items": [
+    {
+      "text": "Enterprise OS V7 system as the operational platform.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-04_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "UI Component Library depends on Figma kits and autolayout knowledge.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "All builds depend on the UI Component Library for components.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Enterprise OS design/architecture depends on being LLM-agnostic.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Template application depends on brand colors, but this is not a blocking dependency.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-13_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Existing UI kits (38) stored in PostgreSQL for the Design Workbench.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "External APIs: Claude API, IPinfo.io ($99/mo), Apollo.io, Resend, Twilio.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma API for component rendering.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "CRM APIs (Reapit, Alto, Jupix, Expert Agent) for knowledge base integration.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Docker for container deployment.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Watchtower for container updates.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-15_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PostgreSQL database for storing Figma components.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma API for component extraction.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Notebook EnterpriseOS documentation for architecture understanding.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Existing KIT_INDEX and screen inventories as baseline.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Thumbnail refresh script for kit visual updates.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-14_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Completion of the `batch-export-all-kits.js` script for all 38 kits.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Access to Anima plugin (200 monthly conversions).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Granular PRDs being ready for cross-reference against kit inventories.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Database system to store components, tokens, and processes (to be designed in PRD MK11).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-16_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Dependencies: IPinfo.io API, Apollo API, Claude LLM, Fabric.js, Figma API, PostgreSQL, Docker, Watchtower.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Future work (Design Workbench, video production) depends on this specification.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Book concept material depends on this project's narrative.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-15_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Fitness App MVP depends on the 07_BUILD_FACTORY/PRJ_Fitness_Platform/ directory structure.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Enterprise OS build itinerary depends on the 01_NAVIGATION_CENTRE.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Knowledge Library ingestion depends on accessing the scattered content in Downloads folders.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PostgreSQL database `enterprise_os`.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Python 3.12 environment (standalone, not Anaconda).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "ChromaDB library with ONNX embeddings (all-MiniLM-L6-v2).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "FastAPI and associated Python packages.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Existing V7 filesystem structure and directory organization.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "External source directories: notebook, legacy, collective, stage1.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-17_session_02_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Completion of batch export of 38 kits.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Availability of PRDs (Product Requirement Documents).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Anima tool for manual Figma frame conversions.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "The defined component library and token system for future platform builds.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-16_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Dependencies: Figma API access, Figma token environment variable, Python environment, PostgreSQL database for next phase.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Dependent systems: PRD screen requirements, Component Naming Taxonomy, Copy Asset Artifacts, Enterprise OS pillars.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "This work provides foundation for: Database library, localhost visual browser, Anima conversion workflow, React assembly, search across 40+ kits.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-18_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PostgreSQL database (enterprise_os).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Python environment (standalone 3.12 used).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "ChromaDB library for semantic search.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "FastAPI for search API.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Existing project structure and files for scanning.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-17_session_02.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma API access (via FIGMA_TOKEN).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PostgreSQL database for planned 8-table schema.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Component taxonomy integration (47 naming files).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Copy artifact integration (136 structure files).",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Anima workflow for localhost visual browser.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-18_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PRJ_Enterprise_Platform project.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Git for version control.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "DeepSeek AI for the weekly review.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-19_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma API for data fetching and PNG export.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Existing pipeline scripts and project structure.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PostgreSQL for planned structured JSON import.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PRD matcher for next analysis step.",
+      "source": "02_COMMAND_DECK\\ACTIVE_SESSIONS\\2026-02\\2026-02-20_session_01.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "PostgreSQL ui_library database (depends on successful Figma API imports).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Figma API access (token required for extractions).",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Notebook EnterpriseOS summary files for architecture context.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Previous session context and user specifications for kit roles.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "KIT_INDEX.json as the source of truth for target kits.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    },
+    {
+      "text": "Helper scripts (kit_coverage.py, etc.) for analysis and management.",
+      "source": "04_KNOWLEDGE_LIBRARY\\SESSION_ARCHIVE\\2026-02\\2026-02-14_session_01_full.md",
+      "pillar": "UNKNOWN",
+      "project": "",
+      "date": "2026-02-20",
+      "mode": "thread"
+    }
+  ],
+  "last_updated": "2026-02-20T15:16:42.291037+00:00",
+  "total_items": 62
+}

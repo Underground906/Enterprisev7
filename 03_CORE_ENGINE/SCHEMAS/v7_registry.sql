@@ -191,6 +191,51 @@ CREATE INDEX IF NOT EXISTS idx_v7_state_date ON v7_system_state(snapshot_date);
 
 
 -- ============================================================
+-- TABLE 6: v7_extractions — Extraction tracking
+-- Every extraction pass run on any file gets a row here.
+-- Supports search by: mode, pillar, project, date, category.
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS v7_extractions (
+    id              SERIAL PRIMARY KEY,
+    source_file     TEXT NOT NULL,           -- Relative path to source file
+    mode            TEXT NOT NULL,           -- domains, thread, copy, book
+    api_used        TEXT DEFAULT 'deepseek', -- deepseek, claude
+
+    -- Classification
+    pillar          TEXT,                    -- PIL_01_AVATARS through PIL_23_DOG_PLATFORM
+    project         TEXT,                    -- PRJ_* project name if applicable
+
+    -- Results
+    item_count      INTEGER DEFAULT 0,      -- Total items extracted
+    categories_found TEXT[],                 -- Array of category names with content
+    summary         TEXT,                    -- LLM-generated summary
+    extraction_data JSONB,                   -- Full extraction result (for querying)
+
+    -- Output paths
+    output_alongside TEXT,                   -- Path to JSON alongside source
+    output_central   TEXT,                   -- Path to JSON in central store
+
+    -- Token usage
+    prompt_tokens   INTEGER DEFAULT 0,
+    completion_tokens INTEGER DEFAULT 0,
+
+    -- Timestamps
+    extracted_at    TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+
+    -- Session context
+    session_id      INTEGER REFERENCES v7_sessions(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_v7_extractions_mode ON v7_extractions(mode);
+CREATE INDEX IF NOT EXISTS idx_v7_extractions_pillar ON v7_extractions(pillar);
+CREATE INDEX IF NOT EXISTS idx_v7_extractions_project ON v7_extractions(project);
+CREATE INDEX IF NOT EXISTS idx_v7_extractions_date ON v7_extractions(extracted_at);
+CREATE INDEX IF NOT EXISTS idx_v7_extractions_source ON v7_extractions(source_file);
+CREATE INDEX IF NOT EXISTS idx_v7_extractions_data ON v7_extractions USING gin(extraction_data);
+
+
+-- ============================================================
 -- Verify
 -- ============================================================
 
